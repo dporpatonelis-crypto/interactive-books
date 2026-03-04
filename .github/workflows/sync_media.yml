@@ -1,0 +1,163 @@
+name: Smart Sync Media per Book
+
+on:
+  workflow_dispatch:
+    inputs:
+      book_choice:
+        type: choice
+        description: 'Επιλέξτε Βιβλίο/Φάκελο'
+        options:
+          - 'A_Lykeiou'
+          - 'B_Lykeiou'
+          - 'C_Lykeiou'
+          - 'B_Gymnasiou'
+        required: true
+
+jobs:
+  update_json:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Fetch and Smart Merge
+        shell: python
+        run: |
+          import csv, json, os, requests, shutil
+
+          # ─── 1. Διάβασμα books.json για URL ───────────────────────────────
+          with open("books.json", "r", encoding="utf-8") as f:
+              books_config = json.load(f)
+
+          folder = "${{ github.event.inputs.book_choice }}"
+          base_url = books_config["spreadsheetBaseUrl"]
+
+          book = next((b for b in books_config["books"] if b["id"] == folder), None)
+          if not book:
+              print(f"❌ Δεν βρέθηκε το βιβλίο '{folder}' στο books.json")
+              exit(1)
+
+          gid = book["gid"]
+          sheet_url = f"{base_url}?gid={gid}&single=true&output=csv"
+          print(f"📥 Βιβλίο: {book['title']}")
+          print(f"📥 URL: {sheet_url[:80]}...")
+
+          # ─── 2. Λήψη CSV ──────────────────────────────────────────────────
+          response = requests.get(sheet_url)
+          response.raise_for_status()
+          response.encoding = 'utf-8'
+
+          lines = response.text.splitlines()
+          print(f"\n📄 ΠΡΩΤΕΣ 5 ΓΡΑΜΜΕΣ CSV:")
+          for i, line in enumerate(lines[:5]):
+              print(f"  {i}: {line[:150]}")
+
+          sheet_reader = csv.DictReader(lines)
+          print(f"\n📋 HEADERS: {sheet_reader.fieldnames}")
+
+          updates = {}
+          for row in sheet_reader:
+              num_raw = row.get("number", "").strip().strip('"')
+              if num_raw:
+                  updates[num_raw] = row
+
+          print(f"\n✅ Βρέθηκαν {len(updates)} εγγραφές στο CSV")
+
+          # ─── 3. Φόρτωση data.json ─────────────────────────────────────────
+          file_path = f"{folder}/data.json"
+          current_data = []
+
+          if os.path.exists(file_path):
+              with open(file_path, 'r', encoding='utf-8') as f:
+                  raw_data = json.load(f)
+
+              if isinstance(raw_data, dict) and "pages" in raw_data:
+                  current_data = [item for item in raw_data["pages"] if isinstance(item, dict)]
+              elif isinstance(raw_data, list):
+                  current_data = [item for item in raw_data if isinstance(item, dict)]
+              
+              print(f"📂 Φορτώθηκαν {len(current_data)} υπάρχουσες σελίδες")
+          else:
+              print(f"⚠️ Νέο αρχείο: {file_path}")
+
+          # ─── 4. Merge ─────────────────────────────────────────────────────
+          existing_items = {str(item.get("number")): item for item in current_data if item.get("number") is not None}
+          media_fields = ["image", "videoId", "slidesUrl", "audioUrl", "webUrl", "driveUrl", "linkUrl", "linkName"]
+          changes_log = []
+          updated_pages = set()
+          new_pages = []
+
+          for page_num, row in updates.items():
+              if page_num in existing_items:
+                  item = existing_items[page_num]
+                  updated_pages.add(page_num)
+                  for field in media_fields:
+                      old_val = item.get(field, "")
+                      new_val = row.get(field, "").strip()
+                      if new_val and old_val != new_val:
+                          item[field] = new_val
+                          changes_log.append(f"  ✏️  number={page_num}: {field} → {new_val[:50]}")
+                          if field == "image" and ("presentation" in new_val or "slides" in new_val):
+                              item["slidesUrl"] = new_val
+              else:
+                  new_obj = {
+                      "number": int(page_num) if page_num.isdigit() else page_num,
+                      "type": "media",
+                      "title": row.get("title", f"Σελίδα {page_num}"),
+                      "subtitle": "",
+                      "content": []
+                  }
+                  for field in media_fields:
+                      val = row.get(field, "").strip()
+                      if val:
+                          new_obj[field] = val
+                          if field == "image" and ("presentation" in val or "slides" in val):
+                              new_obj["slidesUrl"] = val
+                  current_data.append(new_obj)
+                  new_pages.append(page_num)
+
+          # ─── 5. Αποτελέσματα ──────────────────────────────────────────────
+          if changes_log:
+              print(f"\n🔄 ΕΝΗΜΕΡΩΣΕΙΣ ({len(changes_log)}):")
+              print("\n".join(changes_log[:30]))
+          else:
+              print("\n🔄 Κανένα πεδίο δεν άλλαξε")
+
+          if new_pages:
+              print(f"\n➕ Νέες σελίδες: {new_pages}")
+
+          print(f"\n📊 ΣΥΝΟΛΟ: {len(current_data)} σελίδες")
+
+          # ─── 6. Ταξινόμηση & αποθήκευση ──────────────────────────────────
+          def safe_num(item):
+              try: return int(item.get("number", 0))
+              except: return 0
+
+          current_data.sort(key=safe_num)
+
+          if os.path.exists(file_path):
+              shutil.copy2(file_path, f"{folder}/data.json.backup")
+              print(f"\n💾 Backup: {folder}/data.json.backup")
+
+          with open(file_path, 'w', encoding='utf-8') as f:
+              json.dump({"pages": current_data}, f, indent=2, ensure_ascii=False)
+
+          print(f"\n✅ Αποθηκεύτηκε: {file_path}")
+
+      - name: Show Diff
+        run: |
+          echo "📋 ΑΛΛΑΓΕΣ:"
+          git diff --stat
+          git diff "${{ github.event.inputs.book_choice }}/data.json" | head -80
+
+      - name: Commit and Push
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          git add "${{ github.event.inputs.book_choice }}/data.json"
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Sync data.json for ${{ github.event.inputs.book_choice }}"
+            git push
+          fi
