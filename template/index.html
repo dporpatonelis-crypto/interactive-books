@@ -107,20 +107,16 @@
         let bookData = null;
         let currentIndex = 0;
 
-        // Βρίσκουμε το ID του βιβλίου από το path (π.χ. /A_Lykeiou/index.html → A_Lykeiou)
+        // Βρίσκουμε το ID του βιβλίου από το URL parameter ?book=A_Lykeiou
         function getBookId() {
-            const parts = window.location.pathname.split('/');
-            // Παίρνουμε το τελευταίο μη-κενό κομμάτι πριν το index.html
-            for (let i = parts.length - 2; i >= 0; i--) {
-                if (parts[i] && parts[i] !== 'index.html') return parts[i];
-            }
-            return null;
+            return new URLSearchParams(window.location.search).get('book');
         }
 
         async function loadData() {
             try {
                 // 1. Φόρτωση books.json για να πάρουμε το config του τρέχοντος βιβλίου
                 const bookId = getBookId();
+                if (!bookId) throw new Error('Δεν βρέθηκε παράμετρος book στο URL');
                 const booksRes = await fetch('../books.json');
                 if (!booksRes.ok) throw new Error('books.json δεν βρέθηκε');
                 const booksConfig = await booksRes.json();
@@ -131,8 +127,8 @@
                     document.title = `${bookConfig.title} - Interactive`;
                 }
 
-                // 2. Φόρτωση data.json του τρέχοντος φακέλου
-                const dataRes = await fetch('data.json');
+                // 2. Φόρτωση data.json από τον φάκελο του βιβλίου (π.χ. ../A_Lykeiou/data.json)
+                const dataRes = await fetch(`../${bookId}/data.json`);
                 if (!dataRes.ok) throw new Error(`HTTP error: ${dataRes.status}`);
                 const raw = await dataRes.json();
 
