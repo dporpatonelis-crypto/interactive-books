@@ -1,1 +1,49 @@
-{"books":[{"id":"A_Lykeiou","title":"Θρησκευτικά Α' Λυκείου","color":"#8b4513","gid":"0","sheetId":"2PACX-1vTCeVJDcEoUCfjni2rbAvHf7qyAOZkIlWZ0U9g4YgpdX1xVYf-oSF7U5iKYIwYNxxNunJ9_ZfxJgJ3b"},{"id":"B_Lykeiou","title":"Θρησκευτικά Β' Λυκείου","color":"#8b4513","gid":"1748838610","sheetId":"2PACX-1vTCeVJDcEoUCfjni2rbAvHf7qyAOZkIlWZ0U9g4YgpdX1xVYf-oSF7U5iKYIwYNxxNunJ9_ZfxJgJ3b"},{"id":"C_Lykeiou","title":"Θρησκευτικά Γ' Λυκείου","color":"#8b4513","gid":"148904666","sheetId":"2PACX-1vTCeVJDcEoUCfjni2rbAvHf7qyAOZkIlWZ0U9g4YgpdX1xVYf-oSF7U5iKYIwYNxxNunJ9_ZfxJgJ3b"},{"id":"B_Gymnasiou","title":"Θρησκευτικά Β' Γυμνασίου","color":"#2e7d32","gid":"1160666447","sheetId":"2PACX-1vTCeVJDcEoUCfjni2rbAvHf7qyAOZkIlWZ0U9g4YgpdX1xVYf-oSF7U5iKYIwYNxxNunJ9_ZfxJgJ3b"}]}
+{
+  "books": [
+    {
+      "id": "A_Lykeiou",
+      "title": "Α' Λυκείου",
+      "emoji": "📔",
+      "gid": "0",
+      "color": "#8b4513",
+      "hoverColor": "#a65d2e",
+      "bgColor": "#f5f5dc",
+      "textColor": "#2c1810",
+      "sidebarBg": "#8b4513"
+    },
+    {
+      "id": "B_Lykeiou",
+      "title": "Β' Λυκείου",
+      "emoji": "📘",
+      "gid": "1748838610",
+      "color": "#8b4513",
+      "hoverColor": "#a65d2e",
+      "bgColor": "#f5f5dc",
+      "textColor": "#2c1810",
+      "sidebarBg": "#8b4513"
+    },
+    {
+      "id": "C_Lykeiou",
+      "title": "Γ' Λυκείου",
+      "emoji": "📙",
+      "gid": "148904666",
+      "color": "#8b4513",
+      "hoverColor": "#a65d2e",
+      "bgColor": "#f5f5dc",
+      "textColor": "#2c1810",
+      "sidebarBg": "#8b4513"
+    },
+    {
+      "id": "B_Gymnasiou",
+      "title": "Β' Γυμνασίου",
+      "emoji": "📗",
+      "gid": "1160666447",
+      "color": "#8b4513",
+      "hoverColor": "#a65d2e",
+      "bgColor": "#f5f5dc",
+      "textColor": "#2c1810",
+      "sidebarBg": "#8b4513"
+    }
+  ],
+  "spreadsheetBaseUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTCeVJDcEoUCfjni2rbAvHf7qyAOZkIlWZ0U9g4YgpdX1xVYf-oSF7U5iKYIwYNxxNunJ9_ZfxJgJ3b/pub"
+}
