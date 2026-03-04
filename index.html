@@ -34,7 +34,7 @@
                 container.innerHTML = '';
                 data.books.forEach(book => {
                     const a = document.createElement('a');
-                    a.href = `${book.id}/index.html`;
+                    a.href = `template/index.html?book=${book.id}`;
                     a.className = 'book-card';
                     a.style.background = book.color || '#3498db';
                     a.textContent = `${book.emoji || '📖'} ${book.title} - Interactive`;
