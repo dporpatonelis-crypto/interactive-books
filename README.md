@@ -6,7 +6,7 @@ GitHub Repo + Google Sheets Sync
 Μέρος Α — Προσθήκη στο Google Sheet
 
 Βήμα 1: Προσθήκη νέου Sheet (Tab)
-
+Απλά κανω duplicate ένα άλλο tab, και διορθώνω τα σημαντικά.
 1
 Άνοιξε το Google Spreadsheet σου
 Είναι το κεντρικό sheet που συνδέεται με όλα τα βιβλία.
