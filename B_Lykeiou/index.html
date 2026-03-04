@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Φόρτωση...</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        :root {
+            --primary-color: #8b4513;
+            --bg-color: #f5f5dc;
+            --text-color: #2c1810;
+            --card-bg: #ffffff;
+            --sidebar-bg: #8b4513;
+            --hover-color: #a65d2e;
+        }
+
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: var(--bg-color); color: var(--text-color); margin: 0; line-height: 1.6; min-height: 100vh; }
+
+        body.dark-mode {
+            --bg-color: #1a1a1a;
+            --text-color: #e0e0e0;
+            --card-bg: #2c2c2c;
+            --sidebar-bg: #4a2a1a;
+        }
+
+        .sidebar { position: fixed; left: -300px; top: 0; width: 300px; height: 100vh; background: var(--sidebar-bg); color: white; transition: 0.3s ease; z-index: 1000; overflow-y: auto; padding: 70px 20px 20px; box-shadow: 2px 0 10px rgba(0,0,0,0.2); }
+        .sidebar.active { left: 0; }
+        .sidebar h2 { margin-bottom: 20px; font-size: 1.5rem; border-bottom: 2px solid rgba(255,255,255,0.3); padding-bottom: 10px; }
+
+        .main-content { padding: 20px; transition: 0.3s; max-width: 900px; margin: 0 auto; }
+
+        .page-card { background: var(--card-bg); padding: 30px; border-radius: 15px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); min-height: 70vh; display: flex; flex-direction: column; animation: fadeIn 0.5s ease; margin-top: 60px; }
+
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+
+        .nav-buttons { display: flex; justify-content: space-between; margin-top: auto; padding-top: 30px; }
+
+        button { background: var(--primary-color); color: white; border: none; padding: 12px 25px; border-radius: 8px; cursor: pointer; font-size: 1rem; min-width: 48px; min-height: 48px; transition: background 0.3s, transform 0.1s; }
+        button:hover:not(:disabled) { background: var(--hover-color); }
+        button:active:not(:disabled) { transform: scale(0.98); }
+        button:disabled { background: #ccc; cursor: not-allowed; opacity: 0.6; }
+
+        .menu-btn { position: fixed; top: 15px; left: 15px; z-index: 1001; background: var(--primary-color); width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; box-shadow: 0 2px 10px rgba(0,0,0,0.2); }
+
+        .page-link { display: block; color: white; padding: 12px; text-decoration: none; border-bottom: 1px solid rgba(255,255,255,0.1); cursor: pointer; transition: background 0.3s; }
+        .page-link:hover { background: rgba(255,255,255,0.1); }
+
+        .media-section { margin-top: 25px; display: flex; flex-direction: column; gap: 20px; }
+        .media-container { background: rgba(139, 69, 19, 0.05); border-radius: 10px; padding: 20px; }
+        .media-container h4 { margin: 0 0 12px 0; color: var(--primary-color); font-size: 1.1rem; }
+        .media-container iframe { width: 100%; height: 400px; border: none; border-radius: 8px; }
+        .media-container audio { width: 100%; border-radius: 8px; }
+
+        .media-link { display: inline-block; background: var(--primary-color); color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; margin-top: 10px; transition: opacity 0.3s; }
+        .media-link:hover { opacity: 0.9; }
+        .drive-link { background: #0F9D58; }
+        .web-link { background: #4285F4; }
+
+        img { max-width: 100%; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+
+        .dark-mode-toggle { position: fixed; top: 15px; right: 15px; z-index: 1001; background: var(--primary-color); width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.2rem; cursor: pointer; box-shadow: 0 2px 10px rgba(0,0,0,0.2); }
+
+        .hotspot { background: rgba(139, 69, 19, 0.1); border-bottom: 2px dotted var(--primary-color); cursor: help; position: relative; display: inline-block; }
+        .hotspot:hover::after { content: attr(data-tooltip); position: absolute; bottom: 100%; left: 50%; transform: translateX(-50%); background: var(--primary-color); color: white; padding: 8px 12px; border-radius: 5px; white-space: nowrap; font-size: 0.9rem; z-index: 10; }
+
+        .content-block p { margin-bottom: 15px; }
+        .content-block .quote { border-left: 4px solid var(--primary-color); padding: 10px 20px; margin: 15px 0; font-style: italic; background: rgba(139,69,19,0.05); border-radius: 0 8px 8px 0; }
+        .content-block .source { font-size: 0.9rem; color: #888; text-align: right; margin-top: 5px; }
+
+        .home-btn { position: fixed; top: 15px; left: 75px; z-index: 1001; background: var(--primary-color); padding: 8px 14px; border-radius: 20px; color: white; text-decoration: none; font-size: 0.9rem; display: flex; align-items: center; gap: 5px; box-shadow: 0 2px 10px rgba(0,0,0,0.2); transition: opacity 0.2s; }
+        .home-btn:hover { opacity: 0.85; }
+
+        @media (max-width: 768px) {
+            .sidebar { width: 280px; }
+            .main-content { padding: 10px; }
+            .page-card { padding: 20px; }
+            .media-container iframe { height: 250px; }
+            button { padding: 8px 15px; }
+        }
+    </style>
+</head>
+<body>
+    <button class="menu-btn" onclick="toggleSidebar()" aria-label="Μενού">☰</button>
+    <a class="home-btn" href="../index.html">🏠 Αρχική</a>
+    <div class="dark-mode-toggle" onclick="toggleDarkMode()" aria-label="Εναλλαγή σκοτεινής λειτουργίας">🌙</div>
+
+    <nav class="sidebar" id="sidebar">
+        <h2>📖 Περιεχόμενα</h2>
+        <div id="nav-links"></div>
+    </nav>
+
+    <div class="main-content">
+        <div class="page-card">
+            <h2 id="page-title">Φόρτωση...</h2>
+            <div id="page-content" class="content-block">Παρακαλώ περιμένετε...</div>
+            <div id="media-content" class="media-section"></div>
+            <div class="nav-buttons">
+                <button id="prevBtn" onclick="changePage(-1)">⬅️ Προηγούμενη</button>
+                <button id="nextBtn" onclick="changePage(1)">Επόμενη ➡️</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let bookData = null;
+        let currentIndex = 0;
+
+        // Βρίσκουμε το ID του βιβλίου από το path (π.χ. /A_Lykeiou/index.html → A_Lykeiou)
+        function getBookId() {
+            const parts = window.location.pathname.split('/');
+            // Παίρνουμε το τελευταίο μη-κενό κομμάτι πριν το index.html
+            for (let i = parts.length - 2; i >= 0; i--) {
+                if (parts[i] && parts[i] !== 'index.html') return parts[i];
+            }
+            return null;
+        }
+
+        async function loadData() {
+            try {
+                // 1. Φόρτωση books.json για να πάρουμε το config του τρέχοντος βιβλίου
+                const bookId = getBookId();
+                const booksRes = await fetch('../books.json');
+                if (!booksRes.ok) throw new Error('books.json δεν βρέθηκε');
+                const booksConfig = await booksRes.json();
+
+                const bookConfig = booksConfig.books.find(b => b.id === bookId);
+                if (bookConfig) {
+                    applyTheme(bookConfig);
+                    document.title = `${bookConfig.title} - Interactive`;
+                }
+
+                // 2. Φόρτωση data.json του τρέχοντος φακέλου
+                const dataRes = await fetch('data.json');
+                if (!dataRes.ok) throw new Error(`HTTP error: ${dataRes.status}`);
+                const raw = await dataRes.json();
+
+                bookData = { pages: (raw.pages || []).filter(p => p.number !== undefined) };
+
+                if (bookData.pages.length > 0) {
+                    buildMenu();
+                    renderPage(0);
+                } else {
+                    document.getElementById('page-content').innerHTML = '❌ Δεν βρέθηκαν σελίδες στο βιβλίο';
+                }
+            } catch (e) {
+                console.error('Σφάλμα φόρτωσης:', e);
+                document.getElementById('page-content').innerHTML = `❌ Σφάλμα φόρτωσης: ${e.message}`;
+            }
+        }
+
+        function applyTheme(config) {
+            const root = document.documentElement;
+            if (config.color)      root.style.setProperty('--primary-color', config.color);
+            if (config.hoverColor) root.style.setProperty('--hover-color', config.hoverColor);
+            if (config.bgColor)    root.style.setProperty('--bg-color', config.bgColor);
+            if (config.textColor)  root.style.setProperty('--text-color', config.textColor);
+            if (config.sidebarBg)  root.style.setProperty('--sidebar-bg', config.sidebarBg);
+        }
+
+        function buildMenu() {
+            const container = document.getElementById('nav-links');
+            container.innerHTML = '';
+            bookData.pages.forEach((page, index) => {
+                const a = document.createElement('a');
+                a.className = 'page-link';
+                const pageNum = page.number || index + 1;
+                const title = page.title || `Σελίδα ${pageNum}`;
+                a.textContent = `${pageNum}. ${title.substring(0, 40)}${title.length > 40 ? '...' : ''}`;
+                a.onclick = function(e) { e.preventDefault(); renderPage(index); toggleSidebar(); };
+                container.appendChild(a);
+            });
+        }
+
+        function renderHotspots(content) {
+            if (!content) return '';
+            let html = '';
+            if (Array.isArray(content)) {
+                content.forEach(item => {
+                    if (typeof item === 'string') {
+                        html += `<p>${item}</p>`;
+                    } else if (item.text) {
+                        let text = item.text;
+                        if (item.hotspots && item.hotspots.length > 0) {
+                            item.hotspots.forEach(h => {
+                                const regex = new RegExp(`(${h.term})`, 'gi');
+                                text = text.replace(regex, `<span class="hotspot" data-tooltip="${h.tooltip}">$1</span>`);
+                            });
+                        }
+                        html += `<p>${text}</p>`;
+                    } else if (item.quote) {
+                        html += `<div class="quote">${item.quote}</div>`;
+                    } else if (item.source) {
+                        html += `<div class="source">${item.source}</div>`;
+                    }
+                });
+            }
+            return html;
+        }
+
+        function renderPage(index) {
+            currentIndex = index;
+            const page = bookData.pages[index];
+
+            document.getElementById('page-title').textContent = page.title || `Σελίδα ${page.number || index + 1}`;
+            document.getElementById('page-content').innerHTML = renderHotspots(page.content) || '...';
+
+            const mediaDiv = document.getElementById('media-content');
+            mediaDiv.innerHTML = '';
+
+            if (page.image) {
+                mediaDiv.innerHTML += `<div class="media-container"><h4>📷 Εικόνα</h4><img src="${page.image}" alt="Εικόνα" loading="lazy"></div>`;
+            }
+            if (page.videoId) {
+                mediaDiv.innerHTML += `<div class="media-container"><h4>🎥 Βίντεο</h4><iframe src="https://www.youtube.com/embed/${page.videoId}" allowfullscreen loading="lazy"></iframe></div>`;
+            }
+            if (page.slidesUrl) {
+                mediaDiv.innerHTML += `<div class="media-container"><h4>📽️ Παρουσίαση</h4><iframe src="${page.slidesUrl}" allowfullscreen loading="lazy"></iframe></div>`;
+            }
+            if (page.audioUrl) {
+                mediaDiv.innerHTML += `<div class="media-container"><h4>🎧 Ηχητικό</h4><audio controls class="audio-player"><source src="${page.audioUrl}" type="audio/mpeg">Ο browser σου δεν υποστηρίζει audio.</audio></div>`;
+            }
+            if (page.webUrl) {
+                mediaDiv.innerHTML += `<div class="media-container"><h4>🌐 Ιστότοπος</h4><a href="${page.webUrl}" target="_blank" class="media-link web-link">Επισκεφθείτε τον ιστότοπο</a></div>`;
+            }
+            if (page.driveUrl) {
+                mediaDiv.innerHTML += `<div class="media-container"><h4>📁 Αρχείο από Drive</h4><a href="${page.driveUrl}" target="_blank" class="media-link drive-link">Άνοιγμα στο Drive</a></div>`;
+            }
+            if (page.linkUrl) {
+                mediaDiv.innerHTML += `<div class="media-container"><h4>🔗 Παραπομπή</h4><a href="${page.linkUrl}" target="_blank" class="media-link">${page.linkName || 'Δείτε περισσότερα'}</a></div>`;
+            }
+
+            document.getElementById('prevBtn').disabled = (index === 0);
+            document.getElementById('nextBtn').disabled = (index === bookData.pages.length - 1);
+            window.scrollTo(0, 0);
+        }
+
+        function changePage(step) {
+            const newIndex = currentIndex + step;
+            if (newIndex >= 0 && newIndex < bookData.pages.length) renderPage(newIndex);
+        }
+
+        function toggleSidebar() { document.getElementById('sidebar').classList.toggle('active'); }
+
+        function toggleDarkMode() {
+            document.body.classList.toggle('dark-mode');
+            document.querySelector('.dark-mode-toggle').textContent = document.body.classList.contains('dark-mode') ? '☀️' : '🌙';
+        }
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowLeft') changePage(-1);
+            else if (e.key === 'ArrowRight') changePage(1);
+        });
+
+        window.onload = loadData;
+    </script>
+</body>
+</html>
