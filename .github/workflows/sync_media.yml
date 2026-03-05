@@ -11,6 +11,7 @@ on:
           - 'B_Lykeiou'
           - 'C_Lykeiou'
           - 'B_Gymnasiou'
+          - 'C_Gymnasiou'
         required: true
 
 jobs:
