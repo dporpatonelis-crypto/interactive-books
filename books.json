@@ -23,10 +23,21 @@
       "sidebarBg": "#8b4513"
     },
     {
+      "id": "C_Gymnasiou",
+      "title": "Γ' Γυμνασίου",
+      "emoji": "📙",
+      "gid": "148904666",
+      "color": "#8b4513",
+      "hoverColor": "#a65d2e",
+      "bgColor": "#f5f5dc",
+      "textColor": "#2c1810",
+      "sidebarBg": "#8b4513"
+    },
+    {
       "id": "C_Lykeiou",
       "title": "Γ' Λυκείου",
       "emoji": "📙",
-      "gid": "148904666",
+      "gid": "509386452",
       "color": "#8b4513",
       "hoverColor": "#a65d2e",
       "bgColor": "#f5f5dc",
