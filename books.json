@@ -45,6 +45,17 @@
       "sidebarBg": "#8b4513"
     },
     {
+      "id": "Α_Gymnasiou",
+      "title": "Α' Γυμνασίου",
+      "emoji": "📗",
+      "gid": "161685704",
+      "color": "#8b4513",
+      "hoverColor": "#a65d2e",
+      "bgColor": "#f5f5dc",
+      "textColor": "#2c1810",
+      "sidebarBg": "#8b4513"
+    },
+    {
       "id": "B_Gymnasiou",
       "title": "Β' Γυμνασίου",
       "emoji": "📗",
