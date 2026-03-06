@@ -10,6 +10,7 @@ on:
           - 'A_Lykeiou'
           - 'B_Lykeiou'
           - 'C_Lykeiou'
+          - 'A_Gymnasiou'  
           - 'B_Gymnasiou'
           - 'C_Gymnasiou'
         required: true
