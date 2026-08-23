@@ -205,9 +205,11 @@
             const mediaDiv = document.getElementById('media-content');
             mediaDiv.innerHTML = '';
 
-            if (page.image) {
-                mediaDiv.innerHTML += `<div class="media-container"><h4>📷 Εικόνα</h4><img src="${page.image}" alt="Εικόνα" loading="lazy"></div>`;
-            }
+            const imageUrls = Array.isArray(page.images) ? page.images.filter(Boolean) : (page.image ? [page.image] : []);
+            imageUrls.forEach((imageUrl, imageIndex) => {
+                const imageLabel = imageUrls.length > 1 ? `📷 Εικόνα ${imageIndex + 1}` : '📷 Εικόνα';
+                mediaDiv.innerHTML += `<div class="media-container"><h4>${imageLabel}</h4><img src="${imageUrl}" alt="${imageLabel}" loading="lazy"></div>`;
+            });
             if (page.videoId) {
                 mediaDiv.innerHTML += `<div class="media-container"><h4>🎥 Βίντεο</h4><iframe src="https://www.youtube.com/embed/${page.videoId}" allowfullscreen loading="lazy"></iframe></div>`;
             }
