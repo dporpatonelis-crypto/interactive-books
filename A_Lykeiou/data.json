@@ -2215,14 +2215,21 @@
           "hotspots": []
         }
       ],
-      "image": "",
+      "image": "https://i.ibb.co/R4TMxjS9/img-01-case-gate.png",
       "videoId": "",
       "slidesUrl": "",
       "audioUrl": "",
       "webUrl": "",
       "driveUrl": "",
       "linkUrl": "",
-      "linkName": ""
+      "linkName": "",
+      "images": [
+        "https://i.ibb.co/R4TMxjS9/img-01-case-gate.png",
+        "https://i.ibb.co/DHLJY4NQ/img-02-preheresy-timeline.png",
+        "https://i.ibb.co/cSZmvXGt/img-03-arius-defense.png",
+        "https://i.ibb.co/5XZM3Vhf/img-04-salvation-cross-exam.png",
+        "https://i.ibb.co/jvGZWZLY/img-05-nicaea-verdict.png"
+      ]
     },
     {
       "number": 19,
