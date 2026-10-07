@@ -477,7 +477,12 @@
       "webUrl": "",
       "driveUrl": "",
       "linkUrl": "",
-      "linkName": ""
+      "linkName": "",
+      "images": [
+        "https://raw.githubusercontent.com/dporpatonelis-crypto/interactive-books/main/C_Lykeiou/assets/science-spirituality-dialogue.jpg",
+        "https://raw.githubusercontent.com/dporpatonelis-crypto/interactive-books/main/C_Lykeiou/assets/science-spirituality-bridge.jpg",
+        "https://i.ibb.co/rRNWK0SJ/file-0000000099988210b2dd36736fa935f5.png"
+      ]
     },
     {
       "number": 9,
