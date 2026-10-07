@@ -48,9 +48,9 @@ blockquote{border-left:2px solid var(--accent);margin:16px 0;padding:4px 0 4px 1
 .cover .cover-bottom{position:absolute;left:35px;right:35px;bottom:34px;display:flex;justify-content:space-between;border-top:1px solid #d6bc9f55;padding-top:12px;font:9px Arial,sans-serif;letter-spacing:1.5px;color:#d6bc9f}
 .toc-intro{font-size:13px!important;color:var(--muted)}
 .toc-entry{display:flex;gap:17px;align-items:baseline;padding:17px 0;border-bottom:1px solid var(--line);text-decoration:none;background:none;border-left:0;border-right:0;border-top:0;width:100%;text-align:left}
-.toc-entry strong{font-family:Didot,Georgia,serif;font-size:26px;color:var(--accent);font-weight:400;min-width:28px}
+.toc-entry strong{line-height:1.2;font-family:Didot,Georgia,serif;font-size:26px;color:var(--accent);font-weight:400;min-width:28px}
 .toc-entry span{flex:1}.toc-entry b{display:block;font-weight:450;font-size:14px}.toc-entry small{font:10px/1.6 Arial,sans-serif;color:var(--muted);display:block;margin-top:5px}.toc-entry em{font:11px Arial,sans-serif;color:var(--muted)}
-.toc-footer{margin-top:27px;font-size:11px!important;color:var(--muted)}
+.toc-footer{margin-top:16px;font-size:10px!important;line-height:1.6!important;color:var(--muted)}
 .navigation{display:flex;justify-content:center;align-items:center;gap:50px;padding:24px 20px 0;font:12px Arial,sans-serif}.navigation>div{width:190px;text-align:center}.navigation p{margin:0 0 10px}.navigation button{border:0;background:transparent;padding:10px 12px;font:inherit}.navigation button:disabled{opacity:.3;cursor:default}.progress-track{height:2px;background:#ccc6b9}.progress-track div{background:var(--accent);height:100%;transition:width .3s}
 .reading-hint{text-align:center;font:11px/1.7 Arial,sans-serif;color:var(--muted);padding:0 20px;margin:20px 0 25px}
 .turn-sheet{pointer-events:none;z-index:10;display:block!important;backface-visibility:hidden;transform-origin:left center!important;left:50%!important;animation:turn-forward .65s cubic-bezier(.25,.65,.25,1) forwards}

@@ -28,6 +28,8 @@ const url=process.env.ALBUM_URL||'http://127.0.0.1:8765/demo/';
     return normalize(source)===normalize(Album.textBlocks(p).map(b=>b.text).join(''));
    });
   });assert(textCheck.every(Boolean),'Every original text block must be retained');
+  const desktopOverflow=await page.evaluate(()=>Album.leaves.flatMap((leaf,i)=>{const prev=leaf.style.display;leaf.style.display='block';const body=leaf.querySelector('.leaf-body');const bad=body&&body.scrollHeight>body.clientHeight+1;leaf.style.display=prev;return bad?[i]:[];}));
+  assert.deepEqual(desktopOverflow,[],'No text may be clipped on desktop');
   assert(await page.locator('#previous').isDisabled());
   await page.locator('#next').click();await page.waitForTimeout(720);
   assert.equal(await page.locator('.turn-sheet').count(),0);

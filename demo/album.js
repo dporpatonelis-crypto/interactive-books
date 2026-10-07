@@ -214,7 +214,6 @@
       }
     }
     data.pages.forEach((p,i)=>{tocBody.append(tocEntry(p,i));$('toc-list').append(tocEntry(p,i));});
-    tocBody.append(node('p','toc-footer','Το βιβλίο και η αρχική σελίδα αναγράφονται σε κάθε ενότητα. Το PDF περιλαμβάνει το ίδιο υλικό και ενεργές παραπομπές.'));
     await waitImages($('book'));
     leaves.forEach(el=>{el.style.display='';el.style.visibility='';});
     resize();show(0);document.body.dataset.ready='true';
