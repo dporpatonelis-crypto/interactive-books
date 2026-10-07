@@ -169,8 +169,11 @@
   function addUnit(unit,state,page) {
     state.body.append(unit);
     if(state.body.scrollHeight<=state.body.clientHeight+1)return;
-    unit.remove();state.body=createLeaf(page);
+    unit.remove();const heading=unit.matches('p,blockquote')&&state.body.lastElementChild?.matches('h3')?state.body.lastElementChild:null;
+    if(heading)heading.remove();
+    state.body=createLeaf(page);
     state.body.append(node('p','eyebrow',(page?sourceLabel(page):'Περιεχόμενα')+' · συνέχεια'));
+    if(heading)state.body.append(heading);
     state.body.append(unit);
     if(state.body.scrollHeight<=state.body.clientHeight+1)return;
     if(unit.matches('p,blockquote')){
@@ -188,7 +191,8 @@
     const box=node('div',forPrint?'print-cover':'');
     box.append(node('p','eyebrow','ΚΕΙΜΕΝΑ · ΕΙΚΟΝΕΣ · ΣΥΝΔΕΣΕΙΣ'));
     const h=node('h1','',data.title);box.append(h);
-    const img=node('img',forPrint?'':'cover-image');img.src=data.coverImage||images(data.pages.find(p=>images(p).length)||{})[0]?.src||'';img.alt=data.coverCaption||data.title;box.append(img);
+    const coverImage=data.coverImage||images(data.pages.find(p=>images(p).length)||{})[0]?.src;
+    if(coverImage){const img=node('img',forPrint?'':'cover-image');img.src=coverImage;img.alt=data.coverCaption||data.title;box.append(img);}
     box.append(node('p','cover-subtitle',data.description||'Εικόνες, κείμενα και συνδέσεις σε ένα ανοιχτό βιβλίο.'));
     if(!forPrint){const end=node('div','cover-bottom');end.append(node('span','','ΜΑΘΗΜΑΤΑ'),node('span','',data.edition||'ΨΗΦΙΑΚΟ ΒΙΒΛΙΟ'));box.append(end);}return box;
   }
