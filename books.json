@@ -65,6 +65,17 @@
       "bgColor": "#f5f5dc",
       "textColor": "#2c1810",
       "sidebarBg": "#8b4513"
+    },
+    {
+      "id": "Digital_Lessons",
+      "title": "Το ψηφιακό μου βιβλίο",
+      "emoji": "📖",
+      "reader": "album",
+      "color": "#263c33",
+      "hoverColor": "#365548",
+      "bgColor": "#fbf8f0",
+      "textColor": "#26382f",
+      "sidebarBg": "#263c33"
     }
   ],
   "spreadsheetBaseUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTCeVJDcEoUCfjni2rbAvHf7qyAOZkIlWZ0U9g4YgpdX1xVYf-oSF7U5iKYIwYNxxNunJ9_ZfxJgJ3b/pub"

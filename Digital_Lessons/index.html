@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="el">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Ψηφιακό βιβλίο</title>
+  <link rel="stylesheet" href="album.css">
+  <script>window.PagedConfig = {auto:false};</script>
+  <script defer src="album.js"></script>
+</head>
+<body>
+  <header class="toolbar">
+    <a class="brand" href="../index.html">ΨΗΦΙΑΚΟ ΒΙΒΛΙΟ <span>Μαθήματα σε εξέλιξη</span></a>
+    <nav aria-label="Εργαλεία βιβλίου">
+      <button id="contents" type="button">Περιεχόμενα</button>
+      <a id="pdf-link" href="?view=print" target="_blank" rel="noopener">Εξαγωγή PDF <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+  <main>
+    <div class="reading-label"><span class="label-line"></span> ΕΙΚΟΝΕΣ · ΚΕΙΜΕΝΑ · ΣΥΝΔΕΣΕΙΣ <span class="label-line"></span></div>
+    <div id="reader" class="reader" aria-label="Διαδραστικό λεύκωμα">
+      <div id="book" class="book"><p class="loading" role="status">Το λεύκωμα ανοίγει…</p></div>
+    </div>
+    <div class="navigation" id="navigation">
+      <button id="previous" aria-label="Προηγούμενη σελίδα" type="button">← <span>Πίσω</span></button>
+      <div><p id="progress" aria-live="polite"></p><div class="progress-track"><div id="progress-bar"></div></div></div>
+      <button id="next" aria-label="Επόμενη σελίδα" type="button"><span>Συνέχεια</span> →</button>
+    </div>
+    <p class="reading-hint" id="hint">Ξεφύλλισε με τα βέλη ή σύρε τη σελίδα. Τα υπογραμμισμένα σημεία ανοίγουν το πρόσθετο υλικό.</p>
+    <p class="download-demo" id="download-demo"><a href="book.pdf" download>Κατέβασε το βιβλίο σε PDF ↗</a></p>
+  </main>
+  <dialog id="media-dialog" aria-labelledby="media-title">
+    <div class="dialog-top"><h2 id="media-title"></h2><button id="close-media" type="button" aria-label="Κλείσιμο προβολής">✕</button></div>
+    <div id="media-body"></div>
+    <a id="media-external" class="external-media" target="_blank" rel="noopener noreferrer">Άνοιγμα σε νέα καρτέλα ↗</a>
+  </dialog>
+  <dialog id="toc-dialog" aria-labelledby="toc-title">
+    <div class="dialog-top"><h2 id="toc-title">Περιεχόμενα</h2><button id="close-toc" aria-label="Κλείσιμο περιεχομένων" type="button">✕</button></div>
+    <div id="toc-list"></div>
+  </dialog>
+  <noscript>Το διαδραστικό λεύκωμα χρειάζεται ενεργή JavaScript. Μπορείς επίσης να διαβάσεις το συνοδευτικό PDF.</noscript>
+</body>
+</html>

@@ -1,0 +1,27 @@
+@page {
+  size: A4 landscape;
+  margin: 17mm 18mm 16mm;
+  background: #fbf8f0;
+  @bottom-left {
+    content: 'ΨΗΦΙΑΚΟ ΒΙΒΛΙΟ';
+    font: 8pt Arial, sans-serif;
+    color: #6d7167;
+  }
+  @bottom-right {
+    content: counter(page);
+    font: 9pt Arial, sans-serif;
+    color: #6d7167;
+  }
+}
+@page:first {
+  @bottom-left { content: none; }
+  @bottom-right { content: none; }
+}
+.print-toc .toc-entry em::after {
+  content: target-counter(attr(data-target url), page);
+}
+
+.print-cover{height:155mm;background:#263c33;color:var(--paper);padding:12mm;position:relative}.print-cover h1{font-size:40pt;line-height:1.1;max-width:140mm;margin:8mm 0}.print-cover img{position:absolute;right:10mm;top:15mm;width:85mm;height:120mm;object-fit:contain;filter:saturate(.6)}.print-cover p{max-width:125mm;font-size:12pt;line-height:1.7}.print-cover .eyebrow{color:#d6bc9f}
+.print-toc,.print-section{break-before:page}.print-toc h2,.print-section h2{font-size:28pt;line-height:1.15;margin:0 0 4mm}.print-toc .toc-entry{padding:5mm 0}.print-toc .toc-entry b{font-size:14pt}.print-toc .toc-entry small{font-size:10pt}.print-toc .toc-entry strong{font-size:25pt}.print-toc .toc-entry em::after{content:target-counter(attr(data-target url),page)}
+.print-section p,.print-section blockquote{font-size:10.5pt;line-height:1.4;margin:0 0 1mm}.print-section .source-title{font-size:10pt!important;line-height:1.6!important}.print-section .eyebrow{font-size:9pt;margin-bottom:4mm}.print-section .hero-image{float:right;width:105mm; margin:0 0 6mm 9mm;break-inside:avoid}.print-section .hero-image img{max-height:105mm;object-fit:contain;width:100%}.print-section .hero-image figcaption{font-size:8pt}.print-section .media-actions{break-inside:avoid;clear:both;margin:6mm 0}.print-section .media-action{font-size:10pt}.print-gallery{clear:both;display:grid;grid-template-columns:1fr 1fr;gap:6mm;padding-top:6mm}.print-gallery figure{margin:0;break-inside:avoid}.print-gallery img{width:100%;max-height:85mm;object-fit:contain}.print-gallery figcaption{font:8pt Arial,sans-serif;margin-top:2mm;color:var(--muted)}.print-section .footnotes{clear:both;break-inside:avoid}.print-section .footnotes p{font-size:9pt!important}.print-section h2,.print-section h3{break-after:avoid}.print-section p{orphans:3;widows:3}.print-section .source-note{font-size:9pt!important}
+

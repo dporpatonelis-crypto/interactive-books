@@ -1,0 +1,12 @@
+{
+  "source_url": "https://notebooklm.link.google/DI6Ws4gi3e6m",
+  "resolved_source_url": "https://notebook.google.com/notebook/03a7f421-addd-4494-b879-cd380a4d4316/artifact/f50cda42-6445-41a4-9f1f-d5d94dd1d0ab",
+  "retrieved": "2026-10-07",
+  "method": "Authenticated browser; rendered report paragraphs and lists",
+  "excluded": "Four suggested media cards: Mind Map, Flashcards, Slide Deck, Quiz.",
+  "transformation": "List group labels retain their wording and are presented as subheadings; nested list text is not duplicated.",
+  "selected_media": [
+    "VID-021",
+    "IMG-083"
+  ]
+}
