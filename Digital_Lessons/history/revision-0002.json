@@ -3,7 +3,7 @@
   "book_id": "Digital_Lessons",
   "title": "Το ψηφιακό μου βιβλίο",
   "description": "Κείμενα, εικόνες και συνδέσεις για τα μαθήματά μας στα web apps και στο Unity.",
-  "revision": 3,
+  "revision": 2,
   "updated_at": "2026-10-08",
   "cover": {
     "asset": "assets/old-testament-objects.png",
@@ -234,14 +234,6 @@
               "url": "https://chatgpt.com/library/share/libfile_99929e0b14c48191a401e047a56d7b79?account_id=personal",
               "asset": "assets/old-testament-typology.png",
               "caption": "Τυπολογία Παλαιάς Διαθήκης και Χριστιανική Πλήρωση · επιλεγμένη εικόνα από το ChatGPT Library"
-            },
-            {
-              "media_id": "SLD-009",
-              "type": "slides",
-              "title": "Παλαιά Διαθήκη - Τυπολογία και λατρεία",
-              "url": "https://docs.google.com/presentation/d/11ClrcJz1wGMjZTBhl0hEiIIF2Sq0_nWPE73GAhcNdnE/preview",
-              "slide_count": 6,
-              "source_file": "Παλαιά Διαθήκη - Τυπολογία και λατρεία.pptx"
             }
           ]
         },

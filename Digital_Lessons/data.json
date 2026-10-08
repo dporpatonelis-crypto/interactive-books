@@ -2,8 +2,8 @@
   "title": "Το ψηφιακό μου βιβλίο",
   "description": "Κείμενα, εικόνες και συνδέσεις για τα μαθήματά μας στα web apps και στο Unity.",
   "bookId": "Digital_Lessons",
-  "revision": 2,
-  "sourceDigest": "11003bad7cefbd69e9a8a62064fa9d8e1d88bcd88e5675f4c49a7d903acc1ac5",
+  "revision": 3,
+  "sourceDigest": "4f50041b95140821aa6599e78b655bbe87021bd177b7844b893bf36375181bb9",
   "coverImage": "assets/old-testament-objects.png",
   "coverCaption": "Έξι ιερά αντικείμενα της Παλαιάς Διαθήκης",
   "edition": "ΠΡΟΣΩΠΙΚΟ ΨΗΦΙΑΚΟ ΒΙΒΛΙΟ",
@@ -278,13 +278,15 @@
       ],
       "mediaRefs": [
         "IMG-083",
-        "IMG-084"
+        "IMG-084",
+        "SLD-009"
       ],
       "images": [
         "https://chatgpt.com/library/share/libfile_7ca86b0fd02881919397c27896bfb62c?account_id=personal",
         "https://chatgpt.com/library/share/libfile_99929e0b14c48191a401e047a56d7b79?account_id=personal"
       ],
       "imageCaption": "Τυπολογία Παλαιάς Διαθήκης και Χριστιανική Πλήρωση · επιλεγμένη εικόνα από το ChatGPT Library",
+      "slidesUrl": "https://docs.google.com/presentation/d/11ClrcJz1wGMjZTBhl0hEiIIF2Sq0_nWPE73GAhcNdnE/preview",
       "localImages": [
         {
           "src": "assets/old-testament-objects.png",
