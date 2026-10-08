@@ -105,6 +105,7 @@
     const blocks = []; let text='', hotspots=[];
     const flush = () => { if(text)blocks.push({kind:'p',text,hotspots}); text='';hotspots=[]; };
     for (const item of page.content || []) {
+      if(item.kind==='table'){flush();blocks.push({kind:'table',table:item.table});continue;}
       if(item.paragraphBoundary){flush();blocks.push({kind:item.kind==='heading'?'h3':'p',text:item.text,hotspots:item.hotspots||[]});continue;}
       if (typeof item==='string' || item.text) {
         const raw = typeof item==='string'?item:item.text;
@@ -121,6 +122,7 @@
     flush(); return blocks.map(b=>({...b,text:cleanText(b.text)}));
   }
   function richParagraph(block, forPrint=false) {
+    if(block.kind==='table')return printTable(block.table);
     const el=node(block.kind==='h3'?'h3':block.kind==='blockquote'?'blockquote':'p',block.kind==='source'?'source-note':'body-text');
     const terms=[...new Map((block.hotspots||[]).filter(h=>h.term).map(h=>[h.term,h])).values()];
     if (!terms.length || forPrint)el.textContent=block.text;
@@ -156,7 +158,39 @@
       const link=node('a','','Άνοιγμα αρχικού αρχείου ↗');link.href=safeUrl(asset.original);link.target='_blank';link.rel='noopener noreferrer';fallback.append(link);img.replaceWith(fallback);
     },{once:true});
     if(!forPrint){img.style.cursor='zoom-in';img.tabIndex=0;const show=()=>openMedia({kind:'image',label:img.alt,src:asset.src,url:safeUrl(asset.original)});img.addEventListener('click',show);img.addEventListener('keydown',e=>{if(e.key==='Enter')show();});}
-    fig.append(img,cap);return fig;
+    const retained=asset.retained?sourceFileUrl(asset.src,forPrint):'';
+    if(!forPrint&&retained){cap.append(' · ');const full=node('a','','Πλήρης εικόνα ↗');full.href=retained;full.target='_blank';full.rel='noopener noreferrer';cap.append(full);}
+    if(forPrint&&(retained||safeUrl(asset.original))){const link=node('a');link.href=retained||safeUrl(asset.original);link.append(img);fig.append(link,cap);}else fig.append(img,cap);return fig;
+  }
+  function sourceFileUrl(raw,forPrint=false) {
+    if(!raw)return '';
+    if(!forPrint||/^https?:/.test(raw))return safeUrl(raw);
+    try{return data.publicUrl?safeUrl(new URL(raw,data.publicUrl).href):'';}catch{return '';}
+  }
+  function tableSource(table,forPrint=false) {
+    const box=node('p','source-note',table.source_note||'');
+    const url=sourceFileUrl(table.source_file,forPrint);
+    if(url){if(box.textContent)box.append(' ');const link=node('a','','Αρχείο πίνακα (CSV) ↗');link.href=url;link.target='_blank';link.rel='noopener noreferrer';box.append(link);}
+    return box;
+  }
+  function printTable(table) {
+    const box=node('div','print-table');
+    const el=node('table','lesson-table');el.append(node('caption','',table.title||'Συγκριτικός πίνακας'));
+    const head=node('thead'),headers=node('tr');table.columns.forEach(label=>{const th=node('th','',label);th.scope='col';headers.append(th);});head.append(headers);el.append(head);
+    const body=node('tbody');table.rows.forEach(row=>{const tr=node('tr');row.forEach((text,i)=>{const cell=node(i===0?'th':'td','',text);if(i===0)cell.scope='row';tr.append(cell);});body.append(tr);});el.append(body);box.append(el,tableSource(table,true));return box;
+  }
+  function addReaderTable(table,state,page) {
+    for(let i=0;i<table.rows.length;i++){
+      const row=table.rows[i];state.body=createLeaf(page);state.contextHeading=row[0];
+      state.body.append(node('p','eyebrow',sourceLabel(page)+' · πίνακας '+(i+1)+'/'+table.rows.length));
+      if(i===0)state.body.append(node('p','table-caption',table.title||'Συγκριτικός πίνακας'));
+      state.body.append(node('h3','table-object',row[0]));
+      for(let j=1;j<row.length;j++){
+        const field=node('dl','table-field');field.append(node('dt','',table.columns[j]),node('dd','',row[j]));addUnit(field,state,page);
+      }
+      if(i===table.rows.length-1)addUnit(tableSource(table),state,page);
+    }
+    delete state.contextHeading;
   }
   function sourceLabel(page) {return `${page.sourceTitle||data.title} · ενότητα ${page.sourcePage??page.number}`;}
   function createLeaf(page=null) {
@@ -173,6 +207,7 @@
     if(heading)heading.remove();
     state.body=createLeaf(page);
     state.body.append(node('p','eyebrow',(page?sourceLabel(page):'Περιεχόμενα')+' · συνέχεια'));
+    if(state.contextHeading)state.body.append(node('h3','table-object',state.contextHeading+' · συνέχεια'));
     if(heading)state.body.append(heading);
     state.body.append(unit);
     if(state.body.scrollHeight<=state.body.clientHeight+1)return;
@@ -222,7 +257,7 @@
       const actions=mediaActions(page);if(actions.children.length)addUnit(actions,state,page);
       if(page.audioUrl && isNotebook(safeUrl(page.audioUrl)))addUnit(node('p','media-note','Η ηχογράφηση ανοίγει στο NotebookLM. Ενδέχεται να ζητηθεί σύνδεση στον λογαριασμό σου.'),state,page);
       const blocks=textBlocks(page);
-      if(blocks.length){if(page.title!==page.displayTitle)addUnit(node('p','source-title',cleanText(page.title)),state,page);for(const b of blocks)addUnit(richParagraph(b),state,page);}
+      if(blocks.length){if(page.title!==page.displayTitle)addUnit(node('p','source-title',cleanText(page.title)),state,page);for(const b of blocks){if(b.kind==='table')addReaderTable(b.table,state,page);else addUnit(richParagraph(b),state,page);}}
       const glossary=notes(page);if(glossary)addUnit(glossary,state,page);
       for(let i=1;i<images(page).length;i++){
         state.body=createLeaf(page);state.body.append(node('p','eyebrow',sourceLabel(page)+' · εικόνες'),node('h3','',page.displayTitle||page.title));addUnit(figure(page,i),state,page);
