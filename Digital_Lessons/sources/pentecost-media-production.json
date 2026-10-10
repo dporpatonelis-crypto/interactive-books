@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-10",
+  "lesson_id": "lesson-002",
+  "section_id": "pentecost-summary",
+  "selection": "User selected the completed Pentecost video and ten-slide presentation for the existing public book chapter.",
+  "video": {
+    "media_id": "VID-024",
+    "source_url": "https://drive.google.com/file/d/1MF4tStMDSHda2trtn4mddS_ZhYwEhq9m/view?usp=drivesdk",
+    "asset": "assets/pentecost-church-communion.mp4",
+    "asset_url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/pentecost-church-communion.mp4",
+    "sha256": "540b27739076b475a49160c620f0da84458022ac2d7cc2f84de75ecd2b0a4ec2",
+    "bytes": 47890237,
+    "duration_seconds": 90,
+    "resolution": "1920x1080",
+    "frame_rate": 30,
+    "generator": "HyperFrames"
+  },
+  "slides": {
+    "media_id": "SLD-010",
+    "canonical_url": "https://docs.google.com/presentation/d/1knOyKV-Y--uiukPz-u_Ny29PLHK2cv7doeZBJogoQgQ",
+    "user_shared_url": "https://docs.google.com/presentation/d/1knOyKV-Y--uiukPz-u_Ny29PLHK2cv7doeZBJogoQgQ/edit?usp=sharing",
+    "slide_count": 10,
+    "permissions_verified": "anyone with link, reader; no discovery",
+    "permission_changed_by": "User"
+  }
+}

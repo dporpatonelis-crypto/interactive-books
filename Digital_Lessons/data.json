@@ -2,8 +2,8 @@
   "title": "Το ψηφιακό μου βιβλίο",
   "description": "Κείμενα, εικόνες και συνδέσεις για τα μαθήματά μας στα web apps και στο Unity.",
   "bookId": "Digital_Lessons",
-  "revision": 5,
-  "sourceDigest": "40352a6871b9ddc3185fab0233aa614e17a390d61fb07ee0fb04e249e7a275e0",
+  "revision": 6,
+  "sourceDigest": "ef84133006022cb4ddcd3a9abefa3973acf9484263e73c4818d847d5741b432f",
   "coverImage": "assets/old-testament-objects.png",
   "coverCaption": "Έξι ιερά αντικείμενα της Παλαιάς Διαθήκης",
   "edition": "ΠΡΟΣΩΠΙΚΟ ΨΗΦΙΑΚΟ ΒΙΒΛΙΟ",
@@ -878,7 +878,12 @@
           "hotspots": []
         }
       ],
-      "mediaRefs": []
+      "mediaRefs": [
+        "VID-024",
+        "SLD-010"
+      ],
+      "videoUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/pentecost-church-communion.mp4",
+      "slidesUrl": "https://docs.google.com/presentation/d/1knOyKV-Y--uiukPz-u_Ny29PLHK2cv7doeZBJogoQgQ"
     },
     {
       "id": "pentecost-advanced-theology",

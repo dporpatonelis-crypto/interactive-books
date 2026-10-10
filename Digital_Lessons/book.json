@@ -3,7 +3,7 @@
   "book_id": "Digital_Lessons",
   "title": "Το ψηφιακό μου βιβλίο",
   "description": "Κείμενα, εικόνες και συνδέσεις για τα μαθήματά μας στα web apps και στο Unity.",
-  "revision": 5,
+  "revision": 6,
   "updated_at": "2026-10-10",
   "cover": {
     "asset": "assets/old-testament-objects.png",
@@ -628,7 +628,29 @@
               "text": "Παιδαγωγικός Κύκλος: Δύο επισκέψεις στο VR (αρχική διερεύνηση - μελέτη πηγών στην τάξη - τελική αντιστοίχιση/σύνθεση) διασφαλίζουν τη χαμηλή γνωστική επιβάρυνση και την ενεργό μάθηση."
             }
           ],
-          "media": []
+          "media": [
+            {
+              "media_id": "VID-024",
+              "type": "video",
+              "title": "Πεντηκοστή — Το Πνεύμα συγκροτεί την Εκκλησία · 90 δευτερόλεπτα",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/pentecost-church-communion.mp4",
+              "source_url": "https://drive.google.com/file/d/1MF4tStMDSHda2trtn4mddS_ZhYwEhq9m/view?usp=drivesdk",
+              "asset": "assets/pentecost-church-communion.mp4",
+              "placement": "body",
+              "duration_seconds": 90,
+              "caption": "Πέντε ενότητες με ελληνική αφήγηση και υπότιτλους."
+            },
+            {
+              "media_id": "SLD-010",
+              "type": "slides",
+              "title": "Πεντηκοστή — Τα έξι αντικείμενα του Υπερώου · 10 διαφάνειες",
+              "url": "https://docs.google.com/presentation/d/1knOyKV-Y--uiukPz-u_Ny29PLHK2cv7doeZBJogoQgQ",
+              "source_url": "https://docs.google.com/presentation/d/1knOyKV-Y--uiukPz-u_Ny29PLHK2cv7doeZBJogoQgQ/edit?usp=sharing",
+              "placement": "body",
+              "slide_count": 10,
+              "access": "anyone_with_link_reader"
+            }
+          ]
         },
         {
           "id": "pentecost-advanced-theology",

@@ -52,7 +52,9 @@
     if (slides) {
       const u = new URL(slides);
       const supported = u.hostname === 'docs.google.com' && /^\/presentation\//.test(u.pathname);
-      links.push({kind:supported?'slides':'link',label:'Άνοιξε την παρουσίαση',icon:'▤',url:slides,embed:supported?slides:undefined});
+      const native = supported && u.pathname.match(/^\/presentation\/d\/([\w-]+)(?:\/(?:edit|view|preview))?\/?$/);
+      const embed = native ? 'https://docs.google.com/presentation/d/'+native[1]+'/preview' : slides;
+      links.push({kind:supported?'slides':'link',label:'Άνοιξε την παρουσίαση',icon:'▤',url:slides,embed:supported?embed:undefined});
     }
     const audio = safeUrl(page.audioUrl);
     if (audio) links.push({kind:isNotebook(audio)?'link':'audio',label:isNotebook(audio)?'Άκουσε στο NotebookLM':'Άκουσε την ηχογράφηση',icon:'♫',url:audio});
