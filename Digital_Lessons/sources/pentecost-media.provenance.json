@@ -1,0 +1,57 @@
+{
+  "lesson_id": "lesson-002",
+  "selected_by_user": true,
+  "added_at": "2026-10-10",
+  "images": [
+    {
+      "media_id": "IMG-085",
+      "source_name": "Το Υπερώο της αρχαίας Ιερουσαλήμ.png",
+      "source_platform": "ChatGPT Library",
+      "source_page": "https://chatgpt.com/library?tab=images",
+      "asset": "assets/pentecost-upper-room.png",
+      "sha256": "7f9d9c252fbc888c49f91f7a6bbad04f5a920eb4b1bccf3d753f5334e1d706f8",
+      "section_id": "pentecost-upper-room",
+      "publication_url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/pentecost-upper-room.png"
+    },
+    {
+      "media_id": "IMG-086",
+      "source_name": "Five loaves and two fish.png",
+      "source_platform": "ChatGPT Library",
+      "source_page": "https://chatgpt.com/library?tab=images",
+      "asset": "assets/pentecost-basket.png",
+      "sha256": "24b9b5b17f3dadcbc450805c67e1fe9772a5ffd31d8e430726e22076ae1af4e1",
+      "section_id": "pentecost-six-stations",
+      "publication_url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/pentecost-basket.png"
+    },
+    {
+      "media_id": "IMG-087",
+      "source_name": "Ρεαλιστική σύνθεση με λυχνάρι, ψωμί και κρασί.png",
+      "source_platform": "ChatGPT Library",
+      "source_page": "https://chatgpt.com/library?tab=images",
+      "asset": "assets/pentecost-bread-wine.png",
+      "sha256": "8c9c4a653415da1d66cc67f3000e6063525a12fa699b1212cb8dd8ffa51cb018",
+      "section_id": "pentecost-liturgical-time",
+      "publication_url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/pentecost-bread-wine.png"
+    },
+    {
+      "media_id": "IMG-088",
+      "source_name": "Περίτεχνος Χάλκινος Βωμός με Ιερά Σύμβολα.png",
+      "source_platform": "ChatGPT Library",
+      "source_page": "https://chatgpt.com/library?tab=images",
+      "asset": "assets/pentecost-object-table.png",
+      "sha256": "8b4d50a430fe7d7c1b972e81abcd4c70860d1c5ae6e032b8e3c36344cd299b0d",
+      "section_id": "pentecost-vr-learning",
+      "publication_url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/pentecost-object-table.png"
+    },
+    {
+      "media_id": "IMG-089",
+      "source_name": "Σανδάλια στο φως της κλήσης.png",
+      "source_platform": "ChatGPT Library",
+      "source_page": "https://chatgpt.com/library?tab=images",
+      "asset": "assets/pentecost-sandals.png",
+      "sha256": "df081bd9dc579a8d54dae1033752126c07575877b6c669fa75cc3a280c0e0e04",
+      "section_id": "pentecost-six-stations",
+      "publication_url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/pentecost-sandals.png"
+    }
+  ]
+}
