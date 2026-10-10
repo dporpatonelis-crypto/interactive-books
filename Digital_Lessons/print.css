@@ -33,3 +33,4 @@
 .print-section .print-gallery .gallery-image img{height:145mm;max-height:145mm;width:100%;object-fit:contain}
 
 .lesson-table thead th:last-child{white-space:nowrap;overflow-wrap:normal}
+.section-epilogue{clear:both;break-before:page}

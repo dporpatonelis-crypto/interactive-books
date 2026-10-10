@@ -1,0 +1,23 @@
+{
+  "title": "Η πορεία του Μωυσή",
+  "created_at": "2026-10-10",
+  "kind": "new narrative commissioned by user",
+  "section_id": "s-851e860a-84d7-5377-a1f6-f6a88b0a17ce",
+  "paragraph": "Σύμφωνα με τη βιβλική αφήγηση, οι Ισραηλίτες ζούσαν υπό τη σκληρή δουλεία της Αιγύπτου, όταν ο Θεός κάλεσε τον Μωυσή μέσα από τη φλεγόμενη βάτο να οδηγήσει τον λαό στην ελευθερία. Ο Μωυσής και ο Ααρών παρουσιάστηκαν στον Φαραώ, αλλά η άρνησή του ακολουθήθηκε από τις πληγές της Αιγύπτου. Μετά τη νύχτα του Πάσχα, ο λαός αναχώρησε και πέρασε την Ερυθρά Θάλασσα, καθώς τα νερά άνοιξαν μπροστά του. Στην έρημο, ο Θεός τον έτρεφε με μάννα και τον καθοδηγούσε με τη νεφέλη την ημέρα και τη στήλη πυρός τη νύχτα. Στο Σινά, ο Μωυσής πλησίασε τον γνόφο της θείας παρουσίας και παρέλαβε τον Νόμο, θεμέλιο της διαθήκης με τον Ισραήλ. Η Σκηνή του Μαρτυρίου, με την Κιβωτό, τη λυχνία, την τράπεζα και τα θυσιαστήρια, έγινε ο τόπος της λατρείας κατά την πορεία τους. Αργότερα, όταν φίδια έπληξαν τον λαό, ο Μωυσής ύψωσε, με εντολή του Θεού, το χάλκινο φίδι· όσοι είχαν δαγκωθεί και το κοιτούσαν σώζονταν. Αυτή η διαδρομή φωτίζει το βιβλικό πλαίσιο των ιερών αντικειμένων και προετοιμάζει τη χριστιανική τυπολογική τους ανάγνωση.",
+  "references": "Βιβλικές αναφορές: Έξοδος 3· 7–16· 19–20· 25–40· Αριθμοί 21:4–9.",
+  "source_urls": [
+    "https://bible.usccb.org/bible/exodus/3",
+    "https://bible.usccb.org/bible/exodus/12",
+    "https://bible.usccb.org/bible/exodus/14",
+    "https://bible.usccb.org/bible/exodus/16",
+    "https://bible.usccb.org/bible/exodus/20",
+    "https://bible.usccb.org/bible/exodus/40",
+    "https://bible.usccb.org/bible/numbers/21"
+  ],
+  "media_id": "VID-023",
+  "original_file": "moses-journey-45s-with-captions.mp4",
+  "original_sha256": "48d2d5833d0dc141c038d042661e5830068b2eb14fcbed8b464293ed71804d94",
+  "retained_web_asset": "assets/moses-journey.mp4",
+  "retained_sha256": "7ec637e55f1a228376b22d48284151a8c9dc4b09183f3af72ea9430a6fc57609",
+  "video_provenance": "User-selected cinematic illustration generated in this chat and rendered locally with HyperFrames / GSAP; 45 s, 1920x1080, 30 fps, silent. Web copy encoded as H.264 CRF 23 with faststart."
+}

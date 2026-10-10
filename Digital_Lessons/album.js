@@ -65,9 +65,12 @@
     }
     return links;
   }
-  function mediaActions(page, forPrint = false) {
+  function mediaActions(page, forPrint = false, placement = 'body') {
     const actions = node('div','media-actions');
     for (const media of mediaList(page)) {
+      const position=page.mediaPlacement?.[media.url];
+      if((position?.placement||'body')!==placement)continue;
+      if(position?.title)media.label=position.title;
       const el = node(forPrint || media.kind === 'link' ? 'a' : 'button','media-action');
       el.append(node('span','media-icon',media.icon),node('span','',media.label));
       if (el.tagName === 'A') { el.href = media.url; el.target='_blank'; el.rel='noopener noreferrer'; }
@@ -101,10 +104,11 @@
   $('close-toc').addEventListener('click',()=>$('toc-dialog').close());
   for (const dialog of [mediaDialog,$('toc-dialog')]) dialog.addEventListener('click',e=>{if(e.target===dialog){const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.close();}});
   function cleanText(text) { return String(text||'').replace(/\u00ad/g,'').trim(); }
-  function textBlocks(page) {
+  function textBlocks(page, placement = 'body') {
     const blocks = []; let text='', hotspots=[];
     const flush = () => { if(text)blocks.push({kind:'p',text,hotspots}); text='';hotspots=[]; };
     for (const item of page.content || []) {
+      if((item.placement||'body')!==placement)continue;
       if(item.kind==='table'){flush();blocks.push({kind:'table',table:item.table});continue;}
       if(item.paragraphBoundary){flush();blocks.push({kind:item.kind==='heading'?'h3':'p',text:item.text,hotspots:item.hotspots||[]});continue;}
       if (typeof item==='string' || item.text) {
@@ -195,7 +199,7 @@
   function sourceLabel(page) {return `${page.sourceTitle||data.title} · ενότητα ${page.sourcePage??page.number}`;}
   function createLeaf(page=null) {
     const leaf=node('article','leaf');leaf.style.display='block';leaf.style.visibility='hidden';
-    if(page)leaf.dataset.sourceKey=(page.sourceBook||'')+'-'+(page.sourcePage??page.number);
+    if(page){leaf.dataset.sourceKey=(page.sourceBook||'')+'-'+(page.id||page.sourcePage||page.number);leaf.dataset.sectionId=page.id||'';}
     const body=node('div','leaf-body');leaf.append(body);
     const footer=node('div','folio');footer.append(node('span','',page?`${page.sourceTitle||data.title} · σ. ${page.sourcePage??page.number}`:'ΨΗΦΙΑΚΟ ΒΙΒΛΙΟ'),node('span','',String(leaves.length+1)));
     leaf.append(footer);$('book').append(leaf);leaves.push(leaf);return body;
@@ -261,6 +265,12 @@
       const glossary=notes(page);if(glossary)addUnit(glossary,state,page);
       for(let i=1;i<images(page).length;i++){
         state.body=createLeaf(page);state.body.append(node('p','eyebrow',sourceLabel(page)+' · εικόνες'),node('h3','',page.displayTitle||page.title));addUnit(figure(page,i),state,page);
+      }
+      const endBlocks=textBlocks(page,'section_end'),endActions=mediaActions(page,false,'section_end');
+      if(endBlocks.length||endActions.children.length){
+        state.body=createLeaf(page);state.body.append(node('p','eyebrow',sourceLabel(page)+' · επίλογος'));
+        for(const b of endBlocks)addUnit(richParagraph(b),state,page);
+        if(endActions.children.length)addUnit(endActions,state,page);
       }
     }
     data.pages.forEach((p,i)=>{tocEntries[i].querySelector('em').textContent=chapterStarts[i]+1;$('toc-list').append(tocEntry(p,i));});
@@ -336,7 +346,14 @@
       if(images(page).length&&actions.children.length)section.append(actions);
       if(page.audioUrl && isNotebook(safeUrl(page.audioUrl)))section.append(node('p','source-note','Η ηχογράφηση ανοίγει στο NotebookLM. Ενδέχεται να απαιτείται σύνδεση.'));
       if(images(page).length>1){const gallery=node('div','print-gallery');for(let i=1;i<images(page).length;i++)gallery.append(figure(page,i,true));section.append(gallery);}
-      const glossary=notes(page);if(glossary)section.append(glossary);source.append(section);
+      const glossary=notes(page);if(glossary)section.append(glossary);
+      const endBlocks=textBlocks(page,'section_end'),endActions=mediaActions(page,true,'section_end');
+      if(endBlocks.length||endActions.children.length){
+        const epilogue=node('div','section-epilogue');
+        for(const b of endBlocks)epilogue.append(richParagraph(b,true));
+        if(endActions.children.length)epilogue.append(endActions);section.append(epilogue);
+      }
+      source.append(section);
     });
     const stage=node('div');stage.style.position='absolute';stage.style.left='-10000px';stage.style.width='261mm';stage.append(source);document.body.append(stage);
     await waitImages(source);await document.fonts.ready;
@@ -356,7 +373,21 @@
       const raw=await fetch('../'+encodeURIComponent(bookId)+'/data.json').then(r=>{if(!r.ok)throw new Error('Δεν φορτώθηκε το βιβλίο.');return r.json();});
       data={title:book.title,pages:(raw.pages||[]).filter(p=>p.number!==undefined).map(p=>({...p,sourceBook:bookId,sourceTitle:book.title,sourcePage:p.number}))};
       $('pdf-link').href='?book='+encodeURIComponent(bookId)+'&view=print';
-    }else{const response=await fetch('data.json');if(!response.ok)throw new Error('Δεν φορτώθηκε το δείγμα.');data=await response.json();}
+    }else{
+      const response=await fetch('data.json',{cache:'no-cache'});if(!response.ok)throw new Error('Δεν φορτώθηκε το δείγμα.');data=await response.json();
+      if(data.bookId){
+        const masterResponse=await fetch('book.json',{cache:'no-cache'});
+        if(!masterResponse.ok)throw new Error('Δεν φορτώθηκε το πρωτότυπο του βιβλίου.');
+        const master=await masterResponse.json();
+        if(master.revision!==data.revision)throw new Error('Το βιβλίο ενημερώνεται. Δοκίμασε ξανά σε λίγο.');
+        const sections=new Map(master.lessons.flatMap(l=>l.sections).map(s=>[s.id,s]));
+        for(const page of data.pages){
+          const section=sections.get(page.id);if(!section)continue;
+          section.blocks.forEach((block,i)=>{if(block.placement&&page.content[i])page.content[i].placement=block.placement;});
+          page.mediaPlacement=Object.fromEntries((section.media||[]).filter(m=>m.placement).map(m=>[m.url,{placement:m.placement,title:m.title}]));
+        }
+      }
+    }
     if(!data.pages?.length)throw new Error('Δεν υπάρχουν σελίδες.');
     await Promise.all([document.fonts.load('32px Didot'),document.fonts.load('14px Serif')]);
     document.title=data.title;$('pdf-link').href='?view=print';$('download-demo').querySelector('a').href=data.pdfUrl||'book.pdf';
