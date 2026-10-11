@@ -1,0 +1,452 @@
+{
+  "version": 1,
+  "approval": {
+    "required": true,
+    "status": "approved",
+    "scope": "All four selected series, including revision 2 artwork; approved to become videos",
+    "date": "2026-10-11",
+    "evidence": "Εγκρίνω τις νέες εικόνες"
+  },
+  "assets": [
+    {
+      "kind": "image",
+      "asset": "assets/new-testament-journeys/john-evangelist/01-calling.jpg",
+      "sha256": "eeb338055a2f7034e22078e6f537da8c2d998a77f63ff6e279479c41e74492b4",
+      "original_png_sha256": "bb6d93535fa0f30fa6e0b2ddd0e009fc69fcb6d8a1c0b3aaef74beaeae754869",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "caption": "Κλήση: ο Ιωάννης αφήνει τα δίχτυα και ακολουθεί τον Χριστό.",
+      "source_url": "https://bible.usccb.org/bible/mark/1",
+      "approval": "2026-10-11"
+    },
+    {
+      "kind": "image",
+      "asset": "assets/new-testament-journeys/john-evangelist/02-transfiguration.jpg",
+      "sha256": "d7f10ca6c5300ec8a670d9bd6170f73047ca575f91b46c601e5dad8a5271a58e",
+      "original_png_sha256": "61e63add7ce412187a6f9c069b5f901a6629f0fe2dfe0db4a25de77b2cb56d44",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "caption": "Μεταμόρφωση: ο Ιωάννης βλέπει τη δόξα του Χριστού.",
+      "source_url": "https://bible.usccb.org/bible/matthew/17",
+      "approval": "2026-10-11"
+    },
+    {
+      "kind": "image",
+      "asset": "assets/new-testament-journeys/john-evangelist/03-last-supper.jpg",
+      "sha256": "c8e1fb8a678d7528cde9d5fba624e60d3942ac2222496f3609ad5e6e418ceaa7",
+      "original_png_sha256": "06349bcc90b2093160659598b017a8e9f064c7fb69caa22a8af629d3190fbb93",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "caption": "Μυστικός Δείπνος: ο Ιωάννης βρίσκεται κοντά στον Χριστό.",
+      "source_url": "https://www.biblegateway.com/passage/?search=John+13&version=NABRE",
+      "approval": "2026-10-11"
+    },
+    {
+      "kind": "image",
+      "asset": "assets/new-testament-journeys/john-evangelist/04-gethsemane.jpg",
+      "sha256": "357e38b4939123bb09ce6201a752281c3e9a7e055eccc015cf59fab3d3643651",
+      "original_png_sha256": "595a00c26768757e8146e2e5114138d5c11d22179eaebe47e01e2fa64ef3ec4f",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "caption": "Γεθσημανή: ο Χριστός προσεύχεται κοντά στους μαθητές.",
+      "source_url": "https://www.biblegateway.com/passage/?search=Mark+14:32-42&version=NABRE",
+      "approval": "2026-10-11"
+    },
+    {
+      "kind": "image",
+      "asset": "assets/new-testament-journeys/john-evangelist/05-cross.jpg",
+      "sha256": "b4e6ecd46d45ca38fd1fb19f1ccffb7a665820cff89388942b80b162dbe116c9",
+      "original_png_sha256": "b44716a6bd3de66fd3882e5f338da355358dc54f522393f081905eef8e9311ee",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "caption": "Σταυρός: ο Ιωάννης στέκεται δίπλα στη Θεοτόκο.",
+      "source_url": "https://bible.usccb.org/bible/john/19",
+      "approval": "2026-10-11"
+    },
+    {
+      "kind": "image",
+      "asset": "assets/new-testament-journeys/john-evangelist/06-empty-tomb.jpg",
+      "sha256": "3cbb90ee1b4d577e0415cc0310e0328e9e7809468a7b96a2d2bbdca6906d6be1",
+      "original_png_sha256": "d2dd3a5a803eb7ef4a68734bc64938a2365bf0df2f402da0be682de0fa09f1cf",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "caption": "Κενό μνήμα: ο Ιωάννης και ο Πέτρος βλέπουν τα οθόνια.",
+      "source_url": "https://bible.usccb.org/bible/john/20",
+      "approval": "2026-10-11"
+    },
+    {
+      "kind": "image",
+      "asset": "assets/new-testament-journeys/john-evangelist/07-tiberias.jpg",
+      "sha256": "2140096109b16106a906500507971db34abf94d827e425c0407129014e35c4b7",
+      "original_png_sha256": "8975b5807ae3fad8b8ef7f33ce4847ee0fcd34d61521c37b0e90702e2ab146c2",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "caption": "Τιβεριάδα: ο Ιωάννης αναγνωρίζει τον αναστημένο Χριστό.",
+      "source_url": "https://bible.usccb.org/bible/john/21",
+      "approval": "2026-10-11"
+    },
+    {
+      "kind": "video",
+      "asset": "assets/new-testament-journeys/john-evangelist-journey.mp4",
+      "sha256": "873b9d37eb8f6a74fe5969eebc13109161b19bf1395bafbdc1e9c4f1bc0bf541",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "duration": 45,
+      "fps": 30,
+      "music": "thats-the-way-it-is"
+    },
+    {
+      "kind": "slides-pdf",
+      "asset": "assets/new-testament-journeys/john-evangelist-slides.pdf",
+      "sha256": "c7cd8a545f3ce081d9082ffe410c93e11c4efc43462a086581995bff996ff3fc",
+      "pages": 7,
+      "native_url": "https://docs.google.com/presentation/d/1A_LBWURpBkRsCZGIqxt03Wog2jLGLQRrwqpoX8aRpFc/edit?usp=drivesdk"
+    },
+    {
+      "kind": "image",
+      "asset": "assets/new-testament-journeys/peter/01-miraculous-catch.jpg",
+      "sha256": "10f1cf06dcd2b26638ba9a24acbf3f27f9f6a93a0da543390b7675a6fa5a849a",
+      "original_png_sha256": "44091cf0bc0c65609bfc5cf2badd058c59441b1462d27592d61198d475d0d43a",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "caption": "Αλιεία: ο Πέτρος καλείται να ακολουθήσει τον Χριστό.",
+      "source_url": "https://bible.usccb.org/bible/luke/5",
+      "approval": "2026-10-11"
+    },
+    {
+      "kind": "image",
+      "asset": "assets/new-testament-journeys/peter/02-water.jpg",
+      "sha256": "e58c02912d4fa7238d512da6f5da5f2f09c141d267f29bbb47e8f597289f357c",
+      "original_png_sha256": "0c89567cff91733b5b7ca4a9009b1e87a224501d24f79fcba8beadcf53265812",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "caption": "Θάλασσα: ο Χριστός στηρίζει τον Πέτρο πάνω στα νερά.",
+      "source_url": "https://bible.usccb.org/bible/matthew/14",
+      "approval": "2026-10-11"
+    },
+    {
+      "kind": "image",
+      "asset": "assets/new-testament-journeys/peter/03-confession.jpg",
+      "sha256": "d418a7b490a91795e449b90e844f754930d8893fc1da92ba175a67396ec47867",
+      "original_png_sha256": "e7b4d2b846cf8088d4da383c66cda5c408cfc7fd6b2339ff9829711398b9c1fd",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "caption": "Ομολογία: «Σὺ εἶ ὁ Χριστὸς ὁ Υἱὸς τοῦ Θεοῦ τοῦ ζῶντος».",
+      "source_url": "https://www.biblegateway.com/verse/grc/Matthew%2016:16",
+      "approval": "2026-10-11"
+    },
+    {
+      "kind": "image",
+      "asset": "assets/new-testament-journeys/peter/04-footwashing.jpg",
+      "sha256": "03bcf6a9d188033fbf440b20c32669c9f9670b9b1fa8a310949f3bd0152e3a3a",
+      "original_png_sha256": "11debc14bfe7f2de528fd49d0ac9180d449fe14c2b27fb142883ce6b03ddef7f",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "caption": "Νιπτήρας: ο Χριστός πλένει τα πόδια του Πέτρου.",
+      "source_url": "https://www.biblegateway.com/passage/?search=John+13&version=NABRE",
+      "approval": "2026-10-11"
+    },
+    {
+      "kind": "image",
+      "asset": "assets/new-testament-journeys/peter/05-denial.jpg",
+      "sha256": "5d24d566d52d9665f80ac4b02b28f6ddaee63a0c355cd31895c9081b86cb201e",
+      "original_png_sha256": "c7f77c23eb753c7d9fe156803755851e4b40d88c442043bc837c5a5563a381be",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "caption": "Άρνηση: «Πρὶν ἀλέκτορα φωνῆσαι, τρὶς ἀπαρνήσῃ με».",
+      "source_url": "https://bible.usccb.org/bible/matthew/26",
+      "approval": "2026-10-11"
+    },
+    {
+      "kind": "image",
+      "asset": "assets/new-testament-journeys/peter/06-restoration.jpg",
+      "sha256": "adc10f58cd7028506cde729593acd7ae8d6e597caa2190af9e977014ce36e009",
+      "original_png_sha256": "0b7b004ca4e89c06072e4a70192a5470b71a6d09606ea3f3705f2eb84f67bfeb",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "caption": "Αποκατάσταση: «Ποίμαινε τὰ πρόβατά μου».",
+      "source_url": "https://www.biblegateway.com/verse/grc/John%2021:16",
+      "approval": "2026-10-11"
+    },
+    {
+      "kind": "image",
+      "asset": "assets/new-testament-journeys/peter/07-pentecost.jpg",
+      "sha256": "8c69bba44a23123a1c5cee2126999197ba6a7c1636396f1071aa53670e0c59a5",
+      "original_png_sha256": "0610d34f55a8cf3b04171164dd264d1777db736d5f347968560148fe6f48ace4",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "caption": "Πεντηκοστή: ο Πέτρος κηρύττει τον αναστημένο Χριστό.",
+      "source_url": "https://www.biblegateway.com/passage/?search=Acts+2:14-41&version=NABRE",
+      "approval": "2026-10-11"
+    },
+    {
+      "kind": "video",
+      "asset": "assets/new-testament-journeys/peter-journey.mp4",
+      "sha256": "23077b249497422ff3bf806fd0f425e2f71aa154bd9654ef2dc7d60d7b05ea5d",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "duration": 45,
+      "fps": 30,
+      "music": "thats-the-way-it-is"
+    },
+    {
+      "kind": "slides-pdf",
+      "asset": "assets/new-testament-journeys/peter-slides.pdf",
+      "sha256": "96c7984dcf4c38be19b97cbf04c61a0614a854a9b580178628f7d80cf5669281",
+      "pages": 7,
+      "native_url": "https://docs.google.com/presentation/d/1eN_jyEiGJ28XEHs5qgn6p9sYiARaCfZmny9oti10xXg/edit?usp=drivesdk"
+    },
+    {
+      "kind": "image",
+      "asset": "assets/new-testament-journeys/john-baptist/01-visitation.jpg",
+      "sha256": "2aaca13b4c0842aadfd0840cd8da13dc5a5b00c8e7798c32fc3537c4c30f41e2",
+      "original_png_sha256": "d925d38cc081ab19c2f6e1fcffdeb349e7b78bfbcef23a37be1d0301149e59d1",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "caption": "Επίσκεψη: ο Ιωάννης σκιρτά μπροστά στον Χριστό.",
+      "source_url": "https://bible.usccb.org/bible/luke/1",
+      "approval": "2026-10-11"
+    },
+    {
+      "kind": "image",
+      "asset": "assets/new-testament-journeys/john-baptist/02-wilderness.jpg",
+      "sha256": "4fc896d5dac65cb98b5c00867f9f03147cb94295410556bc121275b235955b09",
+      "original_png_sha256": "378030c7e2e254342d1313f1e382928a459e6418c1b23eb1cab2657c87cb9b47",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "caption": "Έρημος: ο Ιωάννης καλεί τον λαό σε μετάνοια.",
+      "source_url": "https://www.biblegateway.com/passage/?search=Matthew+3&version=NABRE",
+      "approval": "2026-10-11"
+    },
+    {
+      "kind": "image",
+      "asset": "assets/new-testament-journeys/john-baptist/03-baptism.jpg",
+      "sha256": "736e1d6f917dc9a74ea06b39c8f0e2daf448a77a972743c12328d1199e687a43",
+      "original_png_sha256": "863cedf05c02df475a73d3208913eef083d0e0ae12570f08e507a095c5cbc907",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "caption": "Ιορδάνης: ο Ιωάννης βαπτίζει τον Ιησού.",
+      "source_url": "https://www.biblegateway.com/passage/?search=Matthew+3&version=NABRE",
+      "approval": "2026-10-11"
+    },
+    {
+      "kind": "image",
+      "asset": "assets/new-testament-journeys/john-baptist/04-lamb-of-god.jpg",
+      "sha256": "4c3447afd249e85f1746fb77cf3cde0a37cee74d06ac4c696ddf726d044b7f72",
+      "original_png_sha256": "c2fd07786443ae73fa400e94bc7e882f7a83fa851d1dd37a7f0748a64fa91585",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "caption": "Αμνός του Θεού: ο Ιωάννης υποδεικνύει τον Χριστό.",
+      "source_url": "https://bible.usccb.org/bible/john/1",
+      "approval": "2026-10-11"
+    },
+    {
+      "kind": "image",
+      "asset": "assets/new-testament-journeys/john-baptist/05-covenants.jpg",
+      "sha256": "1aa1a48c5ade96aeda1e9cf8cdf2e4bab2d5b49e40df0d662a869d925de4dc25",
+      "original_png_sha256": "647997c6510244e291e1afe932c9eb12f1dca27578f0f9bc76f9596c279a80ed",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "caption": "Γέφυρα Διαθηκών: ο τελευταίος προφήτης δείχνει τον Χριστό.",
+      "source_url": "https://www.oca.org/saints/lives/2026/01/07/100109-synaxis-of-the-holy-glorious-prophet-forerunner-and-baptist-john",
+      "approval": "2026-10-11"
+    },
+    {
+      "kind": "image",
+      "asset": "assets/new-testament-journeys/john-baptist/06-herod.jpg",
+      "sha256": "e03a2a127ae3252603b72aa8e379b8e10dc3521e726ab88f8a89ea11136320eb",
+      "original_png_sha256": "78aa6831ab830368c4919c804ebd0f7cf7c9107880207c8b773264c2e8de8fa5",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "caption": "Έλεγχος: ο Ιωάννης μιλά με παρρησία στον Ηρώδη.",
+      "source_url": "https://bible.usccb.org/bible/mark/6",
+      "approval": "2026-10-11"
+    },
+    {
+      "kind": "image",
+      "asset": "assets/new-testament-journeys/john-baptist/07-ascetic.jpg",
+      "sha256": "42e681754a6017739eaf30ba288150f87b5715b6e76db6093124f09ad4d4df84",
+      "original_png_sha256": "cfc6d3dbadae6a2af36c18f9a349dde127432c591c46b1ac4a10be418a109666",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "caption": "Άσκηση: ο Πρόδρομος, πρότυπο του μοναχικού βίου.",
+      "source_url": "https://www.stnilus.org/sample.pdf#page=190",
+      "approval": "2026-10-11"
+    },
+    {
+      "kind": "video",
+      "asset": "assets/new-testament-journeys/john-baptist-journey.mp4",
+      "sha256": "1cc1926b6b1708a8aeedd157bf8b25adffd1cf9fc770ecbaeb4947053f116697",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "duration": 45,
+      "fps": 30,
+      "music": "assassins-creed-rogue"
+    },
+    {
+      "kind": "slides-pdf",
+      "asset": "assets/new-testament-journeys/john-baptist-slides.pdf",
+      "sha256": "f14042980e6d8b300231ef41afef8aacec05d735fdf895adf85cafcc36a70379",
+      "pages": 7,
+      "native_url": "https://docs.google.com/presentation/d/1MsqGzOOau_juVcOB1xCpaFWc02iCjoznisHGEyK29I4/edit?usp=drivesdk"
+    },
+    {
+      "kind": "image",
+      "asset": "assets/new-testament-journeys/paul/01-persecution.jpg",
+      "sha256": "87f03e1719c5de191348456179cc222f1e8aa497e32d9d0c72e2216386df0ad9",
+      "original_png_sha256": "fad541c23b86e1ad3422eb5fef366a4859cd476d7a5ea4060191f34dfc3af1d8",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "caption": "Διωγμός: ο Σαούλ διώκει τους μαθητές του Χριστού.",
+      "source_url": "https://bible.usccb.org/bible/acts/8",
+      "approval": "2026-10-11"
+    },
+    {
+      "kind": "image",
+      "asset": "assets/new-testament-journeys/paul/02-damascus.jpg",
+      "sha256": "2c4f3c12c76548df19fcc504111a9ef3a01ca894d965a13646d78e6c5b11d1ed",
+      "original_png_sha256": "c3d1e07c0d982a1a3ccfd6f83cac18c98e4ab506b2983b7021a1c795b566689e",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "caption": "Δαμασκός: ο Χριστός καλεί τον Σαούλ.",
+      "source_url": "https://bible.usccb.org/bible/acts/9",
+      "approval": "2026-10-11"
+    },
+    {
+      "kind": "image",
+      "asset": "assets/new-testament-journeys/paul/03-apostolic-council.jpg",
+      "sha256": "b2175949de6dbcd69ea4e920d317a24b2f303ea620c332530ef31b9c761f224a",
+      "original_png_sha256": "b03a0c0a7b78c23d733aa689616f83a645e4ba91e5df8a036c10493ecd65d11e",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "caption": "Αποστολική Σύνοδος: οι εθνικοί ελεύθεροι από τον Μωσαϊκό νόμο.",
+      "source_url": "https://bible.usccb.org/bible/acts/15",
+      "approval": "2026-10-11"
+    },
+    {
+      "kind": "image",
+      "asset": "assets/new-testament-journeys/paul/04-athens.jpg",
+      "sha256": "66c95957be9cd7c973cd84b4f26d4d8af4a6d803924a1aef56fc51b4bfdff6dc",
+      "original_png_sha256": "aff415e302b71ddda0c1f4b74f25bddd4deeefe19aa1aa0dbf157e19591fe362",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "caption": "Αθήνα: «Τῷ ἀγνώστῳ Θεῷ» — ο Παύλος κηρύττει τον αληθινό Θεό.",
+      "source_url": "https://bible.usccb.org/bible/acts/17",
+      "approval": "2026-10-11"
+    },
+    {
+      "kind": "image",
+      "asset": "assets/new-testament-journeys/paul/05-corinth.jpg",
+      "sha256": "ffd6e9bf226a3dcd80f92bd0763ae19c71f6d511db3475583193e4497587aa7e",
+      "original_png_sha256": "eb383aa403b6e7d46c5148575ab7240a88e558165c9880dee673c79d32e77dfe",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "caption": "Κόρινθος: «Ἰουδαῖοι σημεῖον αἰτοῦσι καὶ Ἕλληνες σοφίαν ζητοῦσιν· ἡμεῖς δὲ κηρύσσομεν Χριστὸν ἐσταυρωμένον».",
+      "source_url": "https://www.biblegateway.com/passage/?search=1%20Corinthians%201%3A22-23&version=TR1894",
+      "approval": "2026-10-11"
+    },
+    {
+      "kind": "image",
+      "asset": "assets/new-testament-journeys/paul/06-malta.jpg",
+      "sha256": "bd7a92d27aea103e7b0efabc29de1e0d12f4b396325df3003faf35f320b894a1",
+      "original_png_sha256": "5103a9333aa57fa7c7653f23fc8904a0e0a0d9823dcb730a68b60f16ae96b438",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "caption": "Μάλτα: «Τίς ἀσθενεῖ, καὶ οὐκ ἀσθενῶ;».",
+      "source_url": "https://www.biblegateway.com/verse/grc/2%20Corinthians%2011%3A29",
+      "approval": "2026-10-11"
+    },
+    {
+      "kind": "image",
+      "asset": "assets/new-testament-journeys/paul/07-peter-and-paul.jpg",
+      "sha256": "f11d4cdacbb531b854a5945cc835896210f737f6f8a9e5a203d1c34e6b9b7703",
+      "original_png_sha256": "ef6b40a8191155e36b546e60b84e2577f7c037bcdbb76118245b5ae9bcd368ca",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "caption": "Ρώμη: Πέτρος και Παύλος, πρωτοκορυφαίοι και στύλοι της Εκκλησίας.",
+      "source_url": "https://www.oca.org/saints/troparia/1949/06/29/101840-the-holy-glorious-and-all-praised-leaders-of-the-apostles-peter",
+      "approval": "2026-10-11"
+    },
+    {
+      "kind": "video",
+      "asset": "assets/new-testament-journeys/paul-journey.mp4",
+      "sha256": "24d138da743112e0bdfd8d1d97560531335188fb9c9922422a30b123b58d940b",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "duration": 45,
+      "fps": 30,
+      "music": "leave-her-johnny"
+    },
+    {
+      "kind": "slides-pdf",
+      "asset": "assets/new-testament-journeys/paul-slides.pdf",
+      "sha256": "d7c147efa9302039d1b399eb89d3383d5164819116803386403f89b483c755a7",
+      "pages": 7,
+      "native_url": "https://docs.google.com/presentation/d/1BRyBNBs7QR6YynGDH98TcEldOOrkR2KDtbrDVmil8zI/edit?usp=drivesdk"
+    }
+  ]
+}
