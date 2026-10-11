@@ -3,8 +3,8 @@
   "book_id": "Digital_Lessons",
   "title": "Το ψηφιακό μου βιβλίο",
   "description": "Κείμενα, εικόνες και συνδέσεις για τα μαθήματά μας στα web apps και στο Unity.",
-  "revision": 6,
-  "updated_at": "2026-10-10",
+  "revision": 7,
+  "updated_at": "2026-10-11T06:00:41+00:00",
   "cover": {
     "asset": "assets/old-testament-objects.png",
     "caption": "Έξι ιερά αντικείμενα της Παλαιάς Διαθήκης",
@@ -111,6 +111,53 @@
             }
           ],
           "media": []
+        },
+        {
+          "id": "abraham-journey",
+          "title": "Η πορεία του Αβραάμ",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Σύμφωνα με τη βιβλική αφήγηση, ο Αβραάμ ανταποκρίθηκε στην κλήση του Θεού και αναχώρησε από τη Χαρράν μαζί με τη Σάρρα και τον Λωτ για τη Χαναάν. Στη γη που του υποσχέθηκε ο Θεός έχτισε θυσιαστήρια και έμαθε να εμπιστεύεται μια υπόσχεση που ξεπερνούσε όσα μπορούσε να δει. Κοιτάζοντας τον έναστρο ουρανό, άκουσε ότι οι απόγονοί του θα ήταν αναρίθμητοι όπως τα άστρα. Στη Μαμβρή φιλοξένησε τους τρεις επισκέπτες και δέχθηκε την υπόσχεση της γέννησης του Ισαάκ. Η Σάρρα γέννησε τον γιο τους σε μεγάλη ηλικία. Αργότερα, στο όρος Μοριά, η πίστη του Αβραάμ δοκιμάστηκε, αλλά η θυσία του Ισαάκ ματαιώθηκε με θεία παρέμβαση και προσφέρθηκε κριός στη θέση του. Η ζωή του ολοκληρώθηκε αφήνοντας στον Ισαάκ την κληρονομιά του· η διαθήκη και η ευλογία συνέχισαν να φωτίζουν την πορεία της οικογένειάς του."
+            },
+            {
+              "kind": "source",
+              "text": "Βιβλικές πηγές: Γένεση 12:1–9· 15:1–6· 18:1–15· 21:1–7· 22:1–14· 25:5–11."
+            }
+          ],
+          "source_urls": [
+            "https://bible.usccb.org/bible/genesis/12",
+            "https://bible.usccb.org/bible/genesis/15",
+            "https://www.biblegateway.com/passage/?search=Genesis+18&version=NIV",
+            "https://bible.usccb.org/bible/genesis/21",
+            "https://bible.usccb.org/bible/genesis/22",
+            "https://bible.usccb.org/bible/genesis/25"
+          ],
+          "source_file": "sources/old-testament-journeys.json",
+          "media": [
+            {
+              "media_id": "IMG-095",
+              "type": "image",
+              "title": "Κλήση: ο Αβραάμ αναχωρεί για τη γη της υπόσχεσης.",
+              "caption": "Κλήση: ο Αβραάμ αναχωρεί για τη γη της υπόσχεσης.",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/old-testament-journeys/abraham/01-calling.jpg",
+              "asset": "assets/old-testament-journeys/abraham/01-calling.jpg"
+            },
+            {
+              "media_id": "VID-025",
+              "type": "video",
+              "title": "Δες το βίντεο · 45″",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/old-testament-journeys/abraham-journey.mp4",
+              "placement": "after_text"
+            },
+            {
+              "media_id": "SLD-011",
+              "type": "slides",
+              "title": "Άνοιξε τις διαφάνειες · 7 εικόνες",
+              "url": "https://docs.google.com/presentation/d/1obhHzxFimu8ecB2zpNyAu73Ogv7RB3CuJaeOn0yxmcg/edit?usp=drivesdk",
+              "placement": "after_text"
+            }
+          ]
         },
         {
           "id": "s-851e860a-84d7-5377-a1f6-f6a88b0a17ce",
@@ -262,6 +309,97 @@
               "placement": "section_end",
               "duration_seconds": 45,
               "caption": "Επτά σκηνές με σύντομες επεξηγήσεις, χωρίς αφήγηση."
+            }
+          ]
+        },
+        {
+          "id": "david-journey",
+          "title": "Η πορεία του Δαυίδ",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Ο Δαυίδ εμφανίζεται στη βιβλική αφήγηση ως νεαρός βοσκός από τη Βηθλεέμ. Ο Σαμουήλ, ακολουθώντας την εντολή του Θεού, τον έχρισε, ενώ η μουσική του με τη λύρα έφερνε ανακούφιση στον βασιλιά Σαούλ. Στην κοιλάδα Ηλά αντιμετώπισε τον Γολιάθ με σφενδόνη και πέτρες, εμπιστευόμενος τον Θεό. Η πορεία του προς τη βασιλεία πέρασε από αγώνες και δοκιμασίες· τελικά οι φυλές του Ισραήλ τον αναγνώρισαν ως βασιλιά στη Χεβρών και εκείνος εγκαταστάθηκε στην Ιερουσαλήμ. Εκεί μετέφερε την Κιβωτό της Διαθήκης με εορταστική πομπή, συνδέοντας τη βασιλεία με τη λατρεία. Ο Δαυίδ γνώρισε και την πτώση: ο προφήτης Νάθαν τον έλεγξε για την αδικία σε βάρος του Ουρία, και ο βασιλιάς αναγνώρισε την αμαρτία του. Η λύρα, το χρίσμα, η σφενδόνη και η Κιβωτός φωτίζουν διαφορετικές στιγμές μιας ζωής που συνδέει την πίστη, την ευθύνη και τη μετάνοια."
+            },
+            {
+              "kind": "source",
+              "text": "Βιβλικές πηγές: Α΄ Βασιλειών / Α΄ Σαμουήλ 16–17· Β΄ Βασιλειών / Β΄ Σαμουήλ 5–6· 12:1–13."
+            }
+          ],
+          "source_urls": [
+            "https://bible.usccb.org/bible/1samuel/16",
+            "https://bible.usccb.org/bible/1samuel/17",
+            "https://www.biblegateway.com/passage/?search=2+Samuel+5&version=NABRE",
+            "https://www.biblegateway.com/passage/?search=2+Samuel+6&version=NABRE",
+            "https://bible.usccb.org/bible/2samuel/12"
+          ],
+          "source_file": "sources/old-testament-journeys.json",
+          "media": [
+            {
+              "media_id": "IMG-096",
+              "type": "image",
+              "title": "Βηθλεέμ: ο νεαρός Δαυίδ φυλάει τα πρόβατα.",
+              "caption": "Βηθλεέμ: ο νεαρός Δαυίδ φυλάει τα πρόβατα.",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/old-testament-journeys/david/01-shepherd.jpg",
+              "asset": "assets/old-testament-journeys/david/01-shepherd.jpg"
+            },
+            {
+              "media_id": "VID-026",
+              "type": "video",
+              "title": "Δες το βίντεο · 45″",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/old-testament-journeys/david-journey.mp4",
+              "placement": "after_text"
+            },
+            {
+              "media_id": "SLD-012",
+              "type": "slides",
+              "title": "Άνοιξε τις διαφάνειες · 7 εικόνες",
+              "url": "https://docs.google.com/presentation/d/1kDEzeQsCObnfHM-wT5zmYKm-4TbjtbcrZQ8PA7cVTe8/edit?usp=drivesdk",
+              "placement": "after_text"
+            }
+          ]
+        },
+        {
+          "id": "elijah-journey",
+          "title": "Η πορεία του Ηλία",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Ο προφήτης Ηλίας παρουσιάστηκε στον βασιλιά Αχαάβ και ανήγγειλε την ανομβρία. Κατά τη βιβλική αφήγηση, ο Θεός τον οδήγησε στον χείμαρρο Χερίθ, όπου οι κόρακες του έφερναν τροφή. Όταν το νερό στέρεψε, κατέφυγε στη Σαρεπτά και φιλοξενήθηκε από μια χήρα. Το λίγο αλεύρι και το λάδι της δεν εξαντλήθηκαν, και η οικογένεια επιβίωσε μέσα στην πείνα. Αργότερα, η προσευχή του Ηλία συνδέθηκε με την επιστροφή στη ζωή του γιου της χήρας. Στο όρος Κάρμηλος ο προφήτης κάλεσε τον λαό να επιστρέψει στον Θεό· η φωτιά που έπεσε στο θυσιαστήριο έγινε σημείο της θείας παρουσίας. Στο Χωρήβ ο Ηλίας άκουσε τη φωνή της λεπτής αύρας και δέχθηκε νέα αποστολή. Στο τέλος της πορείας του, ένα πύρινο άρμα χώρισε τον ίδιο από τον Ελισαίο και ο Ηλίας αναλήφθηκε μέσα σε ανεμοστρόβιλο. Ο Ελισαίος παρέλαβε τη μηλωτή του και συνέχισε την προφητική διακονία."
+            },
+            {
+              "kind": "source",
+              "text": "Βιβλικές πηγές: Γ΄ Βασιλειών / Α΄ Βασιλέων 17–19· Δ΄ Βασιλειών / Β΄ Βασιλέων 2:1–14."
+            }
+          ],
+          "source_urls": [
+            "https://www.biblegateway.com/passage/?search=1+Kings+17&version=NABRE",
+            "https://www.biblegateway.com/passage/?search=1+Kings+18&version=NABRE",
+            "https://bible.usccb.org/bible/1kings/19",
+            "https://bible.usccb.org/bible/2kings/2"
+          ],
+          "source_file": "sources/old-testament-journeys.json",
+          "media": [
+            {
+              "media_id": "IMG-097",
+              "type": "image",
+              "title": "Αχαάβ: ο Ηλίας αναγγέλλει την ανομβρία.",
+              "caption": "Αχαάβ: ο Ηλίας αναγγέλλει την ανομβρία.",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/old-testament-journeys/elijah/01-ahab-drought.jpg",
+              "asset": "assets/old-testament-journeys/elijah/01-ahab-drought.jpg"
+            },
+            {
+              "media_id": "VID-027",
+              "type": "video",
+              "title": "Δες το βίντεο · 45″",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/old-testament-journeys/elijah-journey.mp4",
+              "placement": "after_text"
+            },
+            {
+              "media_id": "SLD-013",
+              "type": "slides",
+              "title": "Άνοιξε τις διαφάνειες · 7 εικόνες",
+              "url": "https://docs.google.com/presentation/d/1ejwL1HZJAQttNUaotQkV6WnvN9J-klXd0AtsdW40gow/edit?usp=drivesdk",
+              "placement": "after_text"
             }
           ]
         },

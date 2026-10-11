@@ -2,8 +2,8 @@
   "title": "Το ψηφιακό μου βιβλίο",
   "description": "Κείμενα, εικόνες και συνδέσεις για τα μαθήματά μας στα web apps και στο Unity.",
   "bookId": "Digital_Lessons",
-  "revision": 6,
-  "sourceDigest": "ef84133006022cb4ddcd3a9abefa3973acf9484263e73c4818d847d5741b432f",
+  "revision": 7,
+  "sourceDigest": "9435ac7c5d5f761fc78617ed39d744877f759c405c78d437ff500a141fe2aa16",
   "coverImage": "assets/old-testament-objects.png",
   "coverCaption": "Έξι ιερά αντικείμενα της Παλαιάς Διαθήκης",
   "edition": "ΠΡΟΣΩΠΙΚΟ ΨΗΦΙΑΚΟ ΒΙΒΛΙΟ",
@@ -142,14 +142,58 @@
       "mediaRefs": []
     },
     {
-      "id": "s-851e860a-84d7-5377-a1f6-f6a88b0a17ce",
+      "id": "abraham-journey",
       "number": 3,
+      "type": "content",
+      "title": "Η πορεία του Αβραάμ",
+      "displayTitle": "Η πορεία του Αβραάμ",
+      "sourceBook": "Digital_Lessons",
+      "sourceTitle": "Μάθημα 1",
+      "sourcePage": 3,
+      "lessonId": "lesson-001",
+      "lessonTitle": "Από την Αρχαία Αγορά στην Ιερουσαλήμ και το Βυζάντιο: Ένα Διαδραστικό Ταξίδι Ιδεών, Αντικειμένων και Θεολογίας",
+      "sourceUrl": "https://notebooklm.link.google/DI6Ws4gi3e6m",
+      "content": [
+        {
+          "text": "Σύμφωνα με τη βιβλική αφήγηση, ο Αβραάμ ανταποκρίθηκε στην κλήση του Θεού και αναχώρησε από τη Χαρράν μαζί με τη Σάρρα και τον Λωτ για τη Χαναάν. Στη γη που του υποσχέθηκε ο Θεός έχτισε θυσιαστήρια και έμαθε να εμπιστεύεται μια υπόσχεση που ξεπερνούσε όσα μπορούσε να δει. Κοιτάζοντας τον έναστρο ουρανό, άκουσε ότι οι απόγονοί του θα ήταν αναρίθμητοι όπως τα άστρα. Στη Μαμβρή φιλοξένησε τους τρεις επισκέπτες και δέχθηκε την υπόσχεση της γέννησης του Ισαάκ. Η Σάρρα γέννησε τον γιο τους σε μεγάλη ηλικία. Αργότερα, στο όρος Μοριά, η πίστη του Αβραάμ δοκιμάστηκε, αλλά η θυσία του Ισαάκ ματαιώθηκε με θεία παρέμβαση και προσφέρθηκε κριός στη θέση του. Η ζωή του ολοκληρώθηκε αφήνοντας στον Ισαάκ την κληρονομιά του· η διαθήκη και η ευλογία συνέχισαν να φωτίζουν την πορεία της οικογένειάς του.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "source": "Βιβλικές πηγές: Γένεση 12:1–9· 15:1–6· 18:1–15· 21:1–7· 22:1–14· 25:5–11."
+        }
+      ],
+      "mediaRefs": [
+        "IMG-095",
+        "VID-025",
+        "SLD-011"
+      ],
+      "images": [
+        "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/old-testament-journeys/abraham/01-calling.jpg"
+      ],
+      "imageCaption": "Κλήση: ο Αβραάμ αναχωρεί για τη γη της υπόσχεσης.",
+      "videoUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/old-testament-journeys/abraham-journey.mp4",
+      "slidesUrl": "https://docs.google.com/presentation/d/1obhHzxFimu8ecB2zpNyAu73Ogv7RB3CuJaeOn0yxmcg/edit?usp=drivesdk",
+      "localImages": [
+        {
+          "src": "assets/old-testament-journeys/abraham/01-calling.jpg",
+          "original": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/old-testament-journeys/abraham/01-calling.jpg",
+          "mediaId": "IMG-095",
+          "caption": "Κλήση: ο Αβραάμ αναχωρεί για τη γη της υπόσχεσης.",
+          "retained": true
+        }
+      ]
+    },
+    {
+      "id": "s-851e860a-84d7-5377-a1f6-f6a88b0a17ce",
+      "number": 4,
       "type": "content",
       "title": "Ιερουσαλήμ: Από τη Σκιά της Παλαιάς Διαθήκης στην Υμνολογική Πλήρωση",
       "displayTitle": "Ιερουσαλήμ: Από τη Σκιά της Παλαιάς Διαθήκης στην Υμνολογική Πλήρωση",
       "sourceBook": "Digital_Lessons",
       "sourceTitle": "Μάθημα 1",
-      "sourcePage": 3,
+      "sourcePage": 4,
       "lessonId": "lesson-001",
       "lessonTitle": "Από την Αρχαία Αγορά στην Ιερουσαλήμ και το Βυζάντιο: Ένα Διαδραστικό Ταξίδι Ιδεών, Αντικειμένων και Θεολογίας",
       "sourceUrl": "https://notebooklm.link.google/DI6Ws4gi3e6m",
@@ -316,14 +360,102 @@
       ]
     },
     {
+      "id": "david-journey",
+      "number": 5,
+      "type": "content",
+      "title": "Η πορεία του Δαυίδ",
+      "displayTitle": "Η πορεία του Δαυίδ",
+      "sourceBook": "Digital_Lessons",
+      "sourceTitle": "Μάθημα 1",
+      "sourcePage": 5,
+      "lessonId": "lesson-001",
+      "lessonTitle": "Από την Αρχαία Αγορά στην Ιερουσαλήμ και το Βυζάντιο: Ένα Διαδραστικό Ταξίδι Ιδεών, Αντικειμένων και Θεολογίας",
+      "sourceUrl": "https://notebooklm.link.google/DI6Ws4gi3e6m",
+      "content": [
+        {
+          "text": "Ο Δαυίδ εμφανίζεται στη βιβλική αφήγηση ως νεαρός βοσκός από τη Βηθλεέμ. Ο Σαμουήλ, ακολουθώντας την εντολή του Θεού, τον έχρισε, ενώ η μουσική του με τη λύρα έφερνε ανακούφιση στον βασιλιά Σαούλ. Στην κοιλάδα Ηλά αντιμετώπισε τον Γολιάθ με σφενδόνη και πέτρες, εμπιστευόμενος τον Θεό. Η πορεία του προς τη βασιλεία πέρασε από αγώνες και δοκιμασίες· τελικά οι φυλές του Ισραήλ τον αναγνώρισαν ως βασιλιά στη Χεβρών και εκείνος εγκαταστάθηκε στην Ιερουσαλήμ. Εκεί μετέφερε την Κιβωτό της Διαθήκης με εορταστική πομπή, συνδέοντας τη βασιλεία με τη λατρεία. Ο Δαυίδ γνώρισε και την πτώση: ο προφήτης Νάθαν τον έλεγξε για την αδικία σε βάρος του Ουρία, και ο βασιλιάς αναγνώρισε την αμαρτία του. Η λύρα, το χρίσμα, η σφενδόνη και η Κιβωτός φωτίζουν διαφορετικές στιγμές μιας ζωής που συνδέει την πίστη, την ευθύνη και τη μετάνοια.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "source": "Βιβλικές πηγές: Α΄ Βασιλειών / Α΄ Σαμουήλ 16–17· Β΄ Βασιλειών / Β΄ Σαμουήλ 5–6· 12:1–13."
+        }
+      ],
+      "mediaRefs": [
+        "IMG-096",
+        "VID-026",
+        "SLD-012"
+      ],
+      "images": [
+        "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/old-testament-journeys/david/01-shepherd.jpg"
+      ],
+      "imageCaption": "Βηθλεέμ: ο νεαρός Δαυίδ φυλάει τα πρόβατα.",
+      "videoUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/old-testament-journeys/david-journey.mp4",
+      "slidesUrl": "https://docs.google.com/presentation/d/1kDEzeQsCObnfHM-wT5zmYKm-4TbjtbcrZQ8PA7cVTe8/edit?usp=drivesdk",
+      "localImages": [
+        {
+          "src": "assets/old-testament-journeys/david/01-shepherd.jpg",
+          "original": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/old-testament-journeys/david/01-shepherd.jpg",
+          "mediaId": "IMG-096",
+          "caption": "Βηθλεέμ: ο νεαρός Δαυίδ φυλάει τα πρόβατα.",
+          "retained": true
+        }
+      ]
+    },
+    {
+      "id": "elijah-journey",
+      "number": 6,
+      "type": "content",
+      "title": "Η πορεία του Ηλία",
+      "displayTitle": "Η πορεία του Ηλία",
+      "sourceBook": "Digital_Lessons",
+      "sourceTitle": "Μάθημα 1",
+      "sourcePage": 6,
+      "lessonId": "lesson-001",
+      "lessonTitle": "Από την Αρχαία Αγορά στην Ιερουσαλήμ και το Βυζάντιο: Ένα Διαδραστικό Ταξίδι Ιδεών, Αντικειμένων και Θεολογίας",
+      "sourceUrl": "https://notebooklm.link.google/DI6Ws4gi3e6m",
+      "content": [
+        {
+          "text": "Ο προφήτης Ηλίας παρουσιάστηκε στον βασιλιά Αχαάβ και ανήγγειλε την ανομβρία. Κατά τη βιβλική αφήγηση, ο Θεός τον οδήγησε στον χείμαρρο Χερίθ, όπου οι κόρακες του έφερναν τροφή. Όταν το νερό στέρεψε, κατέφυγε στη Σαρεπτά και φιλοξενήθηκε από μια χήρα. Το λίγο αλεύρι και το λάδι της δεν εξαντλήθηκαν, και η οικογένεια επιβίωσε μέσα στην πείνα. Αργότερα, η προσευχή του Ηλία συνδέθηκε με την επιστροφή στη ζωή του γιου της χήρας. Στο όρος Κάρμηλος ο προφήτης κάλεσε τον λαό να επιστρέψει στον Θεό· η φωτιά που έπεσε στο θυσιαστήριο έγινε σημείο της θείας παρουσίας. Στο Χωρήβ ο Ηλίας άκουσε τη φωνή της λεπτής αύρας και δέχθηκε νέα αποστολή. Στο τέλος της πορείας του, ένα πύρινο άρμα χώρισε τον ίδιο από τον Ελισαίο και ο Ηλίας αναλήφθηκε μέσα σε ανεμοστρόβιλο. Ο Ελισαίος παρέλαβε τη μηλωτή του και συνέχισε την προφητική διακονία.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "source": "Βιβλικές πηγές: Γ΄ Βασιλειών / Α΄ Βασιλέων 17–19· Δ΄ Βασιλειών / Β΄ Βασιλέων 2:1–14."
+        }
+      ],
+      "mediaRefs": [
+        "IMG-097",
+        "VID-027",
+        "SLD-013"
+      ],
+      "images": [
+        "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/old-testament-journeys/elijah/01-ahab-drought.jpg"
+      ],
+      "imageCaption": "Αχαάβ: ο Ηλίας αναγγέλλει την ανομβρία.",
+      "videoUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/old-testament-journeys/elijah-journey.mp4",
+      "slidesUrl": "https://docs.google.com/presentation/d/1ejwL1HZJAQttNUaotQkV6WnvN9J-klXd0AtsdW40gow/edit?usp=drivesdk",
+      "localImages": [
+        {
+          "src": "assets/old-testament-journeys/elijah/01-ahab-drought.jpg",
+          "original": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/old-testament-journeys/elijah/01-ahab-drought.jpg",
+          "mediaId": "IMG-097",
+          "caption": "Αχαάβ: ο Ηλίας αναγγέλλει την ανομβρία.",
+          "retained": true
+        }
+      ]
+    },
+    {
       "id": "s-0b2bee9f-337b-5288-bfee-1054a9131e97",
-      "number": 4,
+      "number": 7,
       "type": "content",
       "title": "Βυζάντιο: Τα Όρια της Σοφίας, το Σημείο και ο Σταυρός",
       "displayTitle": "Βυζάντιο: Τα Όρια της Σοφίας, το Σημείο και ο Σταυρός",
       "sourceBook": "Digital_Lessons",
       "sourceTitle": "Μάθημα 1",
-      "sourcePage": 4,
+      "sourcePage": 7,
       "lessonId": "lesson-001",
       "lessonTitle": "Από την Αρχαία Αγορά στην Ιερουσαλήμ και το Βυζάντιο: Ένα Διαδραστικό Ταξίδι Ιδεών, Αντικειμένων και Θεολογίας",
       "sourceUrl": "https://notebooklm.link.google/DI6Ws4gi3e6m",
@@ -411,13 +543,13 @@
     },
     {
       "id": "s-d4a85ee8-310b-552f-b22e-b107eafa8b7f",
-      "number": 5,
+      "number": 8,
       "type": "content",
       "title": "Σύνοψη",
       "displayTitle": "Σύνοψη",
       "sourceBook": "Digital_Lessons",
       "sourceTitle": "Μάθημα 1",
-      "sourcePage": 5,
+      "sourcePage": 8,
       "lessonId": "lesson-001",
       "lessonTitle": "Από την Αρχαία Αγορά στην Ιερουσαλήμ και το Βυζάντιο: Ένα Διαδραστικό Ταξίδι Ιδεών, Αντικειμένων και Θεολογίας",
       "sourceUrl": "https://notebooklm.link.google/DI6Ws4gi3e6m",
@@ -463,7 +595,7 @@
     },
     {
       "id": "pentecost-upper-room",
-      "number": 6,
+      "number": 9,
       "type": "content",
       "title": "Πεντηκοστή: Από το Ιστορικό Υπερώο στην Οικουμενική Εκκλησία",
       "displayTitle": "Πεντηκοστή: Από το Ιστορικό Υπερώο στην Οικουμενική Εκκλησία",
@@ -538,7 +670,7 @@
     },
     {
       "id": "pentecost-six-stations",
-      "number": 7,
+      "number": 10,
       "type": "content",
       "title": "Οι έξι σταθμοί ανακάλυψης",
       "displayTitle": "Οι έξι σταθμοί ανακάλυψης",
@@ -638,7 +770,7 @@
     },
     {
       "id": "pentecost-liturgical-time",
-      "number": 8,
+      "number": 11,
       "type": "content",
       "title": "Ιστορικός χρόνος και λειτουργικό «Σήμερον»",
       "displayTitle": "Ιστορικός χρόνος και λειτουργικό «Σήμερον»",
@@ -693,7 +825,7 @@
     },
     {
       "id": "pentecost-prayer-all-adam",
-      "number": 9,
+      "number": 12,
       "type": "content",
       "title": "Η προσευχή υπέρ όλου του Αδάμ",
       "displayTitle": "Η προσευχή υπέρ όλου του Αδάμ",
@@ -751,7 +883,7 @@
     },
     {
       "id": "pentecost-vr-learning",
-      "number": 10,
+      "number": 13,
       "type": "content",
       "title": "Η βιωματική διαδρομή στο VR",
       "displayTitle": "Η βιωματική διαδρομή στο VR",
@@ -824,7 +956,7 @@
     },
     {
       "id": "pentecost-summary",
-      "number": 11,
+      "number": 14,
       "type": "content",
       "title": "Συνοψίζοντας: Τα κύρια σημεία",
       "displayTitle": "Συνοψίζοντας: Τα κύρια σημεία",
@@ -887,7 +1019,7 @@
     },
     {
       "id": "pentecost-advanced-theology",
-      "number": 12,
+      "number": 15,
       "type": "content",
       "title": "Προχωρημένο επίπεδο: Η λειτουργική προσευχή και το Υπερώο",
       "displayTitle": "Προχωρημένο επίπεδο: Η λειτουργική προσευχή και το Υπερώο",

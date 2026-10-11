@@ -264,6 +264,7 @@
       if(page.audioUrl && isNotebook(safeUrl(page.audioUrl)))addUnit(node('p','media-note','Η ηχογράφηση ανοίγει στο NotebookLM. Ενδέχεται να ζητηθεί σύνδεση στον λογαριασμό σου.'),state,page);
       const blocks=textBlocks(page);
       if(blocks.length){if(page.title!==page.displayTitle)addUnit(node('p','source-title',cleanText(page.title)),state,page);for(const b of blocks){if(b.kind==='table')addReaderTable(b.table,state,page);else addUnit(richParagraph(b),state,page);}}
+      const afterTextActions=mediaActions(page,false,'after_text');if(afterTextActions.children.length)addUnit(afterTextActions,state,page);
       const glossary=notes(page);if(glossary)addUnit(glossary,state,page);
       for(let i=1;i<images(page).length;i++){
         state.body=createLeaf(page);state.body.append(node('p','eyebrow',sourceLabel(page)+' · εικόνες'),node('h3','',page.displayTitle||page.title));addUnit(figure(page,i),state,page);
@@ -345,6 +346,7 @@
       if(!images(page).length&&actions.children.length)section.append(actions);
       if((page.content||[]).length&&page.title!==page.displayTitle)section.append(node('p','source-title',cleanText(page.title)));
       for(const b of textBlocks(page))section.append(richParagraph(b,true));
+      const afterTextActions=mediaActions(page,true,'after_text');if(afterTextActions.children.length)section.append(afterTextActions);
       if(images(page).length&&actions.children.length)section.append(actions);
       if(page.audioUrl && isNotebook(safeUrl(page.audioUrl)))section.append(node('p','source-note','Η ηχογράφηση ανοίγει στο NotebookLM. Ενδέχεται να απαιτείται σύνδεση.'));
       if(images(page).length>1){const gallery=node('div','print-gallery');for(let i=1;i<images(page).length;i++)gallery.append(figure(page,i,true));section.append(gallery);}
