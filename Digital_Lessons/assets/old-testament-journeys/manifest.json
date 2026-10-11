@@ -1,0 +1,170 @@
+[
+  {
+    "key": "abraham-01",
+    "file": "abraham/01-calling.jpg",
+    "original": "/Users/dimitriosporpatonelis/Documents/Codex/2026-10-10/referenced-chatgpt-conversation-this-is-an/outputs/patriarchs-review/images/abraham/01-calling.png",
+    "sha256": "831a8dea0b8591e2331a1f081cd35b1b9c2aa2d7c1b7ce0715fc6418b57d3814",
+    "caption": "Κλήση: ο Αβραάμ αναχωρεί για τη γη της υπόσχεσης.",
+    "reference": "Γένεση 12:1–5"
+  },
+  {
+    "key": "abraham-02",
+    "file": "abraham/02-canaan-altar.jpg",
+    "original": "/Users/dimitriosporpatonelis/Documents/Codex/2026-10-10/referenced-chatgpt-conversation-this-is-an/outputs/patriarchs-review/images/abraham/02-canaan-altar.png",
+    "sha256": "397b1258953940647615866233058aaf5d51d5844eb2ccbddddb60e998875c12",
+    "caption": "Χαναάν: ο Αβραάμ χτίζει θυσιαστήριο στον Θεό.",
+    "reference": "Γένεση 12:6–9"
+  },
+  {
+    "key": "abraham-03",
+    "file": "abraham/03-stars-covenant.jpg",
+    "original": "/Users/dimitriosporpatonelis/Documents/Codex/2026-10-10/referenced-chatgpt-conversation-this-is-an/outputs/patriarchs-review/images/abraham/03-stars-covenant.png",
+    "sha256": "5dcf458e72ba635f79821487b1795eb52f80c877f23b45ee9a38a310f91f33ad",
+    "caption": "Διαθήκη: ο Θεός υπόσχεται απογόνους σαν τα άστρα.",
+    "reference": "Γένεση 15:1–6"
+  },
+  {
+    "key": "abraham-04",
+    "file": "abraham/04-mamre-hospitality.jpg",
+    "original": "/Users/dimitriosporpatonelis/Documents/Codex/2026-10-10/referenced-chatgpt-conversation-this-is-an/outputs/patriarchs-review/images/abraham/04-mamre-hospitality.png",
+    "sha256": "3b2dda17aa5ea5275e3140f6dee92608610333c6b7b5c5aeab325a2d017dd929",
+    "caption": "Μαμβρή: ο Αβραάμ φιλοξενεί τους τρεις επισκέπτες.",
+    "reference": "Γένεση 18:1–15"
+  },
+  {
+    "key": "abraham-05",
+    "file": "abraham/05-isaac-birth.jpg",
+    "original": "/Users/dimitriosporpatonelis/Documents/Codex/2026-10-10/referenced-chatgpt-conversation-this-is-an/outputs/patriarchs-review/images/abraham/05-isaac-birth.png",
+    "sha256": "b5ddf152e6594f8bfac295e7d32aa0f4d14965c2162e32738f79df0d474fdc90",
+    "caption": "Ισαάκ: η Σάρρα γεννά τον γιο της υπόσχεσης.",
+    "reference": "Γένεση 21:1–7"
+  },
+  {
+    "key": "abraham-06",
+    "file": "abraham/06-isaac-deliverance.jpg",
+    "original": "/Users/dimitriosporpatonelis/Documents/Codex/2026-10-10/referenced-chatgpt-conversation-this-is-an/outputs/patriarchs-review/images/abraham/06-isaac-deliverance.png",
+    "sha256": "cd34c7d4a201fbc728d47822ebab49acd91734f6a0c1bb262a5044953684a436",
+    "caption": "Μοριά: ο Ισαάκ σώζεται και προσφέρεται κριός.",
+    "reference": "Γένεση 22:1–14"
+  },
+  {
+    "key": "abraham-07",
+    "file": "abraham/07-promise-continues.jpg",
+    "original": "/Users/dimitriosporpatonelis/Documents/Codex/2026-10-10/referenced-chatgpt-conversation-this-is-an/outputs/patriarchs-review/images/abraham/07-promise-continues.png",
+    "sha256": "10818b641158e40060e12235a7793b59fcdd0e248ad511f296323a65c32f91cf",
+    "caption": "Υπόσχεση: η διαθήκη συνεχίζεται στον Ισαάκ.",
+    "reference": "Γένεση 25:5–11"
+  },
+  {
+    "key": "david-01",
+    "file": "david/01-shepherd.jpg",
+    "original": "/Users/dimitriosporpatonelis/Documents/Codex/2026-10-10/referenced-chatgpt-conversation-this-is-an/outputs/patriarchs-review/images/david/01-shepherd.png",
+    "sha256": "46dcf54128bd51b75b7421578b30e456a6cee45444c3d5c0ed93071fb0208c2c",
+    "caption": "Βηθλεέμ: ο νεαρός Δαυίδ φυλάει τα πρόβατα.",
+    "reference": "Α΄ Βασιλειών 16:11 / 1 Samuel 16:11"
+  },
+  {
+    "key": "david-02",
+    "file": "david/02-anointing.jpg",
+    "original": "/Users/dimitriosporpatonelis/Documents/Codex/2026-10-10/referenced-chatgpt-conversation-this-is-an/outputs/patriarchs-review/images/david/02-anointing.png",
+    "sha256": "fd7998ea32eb48e15c45e61d3d3cccdd8ae43c12b651205b6dcb16b2dc741341",
+    "caption": "Χρίση: ο Σαμουήλ χρίει τον Δαυίδ.",
+    "reference": "Α΄ Βασιλειών 16:1–13 / 1 Samuel 16:1–13"
+  },
+  {
+    "key": "david-03",
+    "file": "david/03-lyre-saul.jpg",
+    "original": "/Users/dimitriosporpatonelis/Documents/Codex/2026-10-10/referenced-chatgpt-conversation-this-is-an/outputs/patriarchs-review/images/david/03-lyre-saul.png",
+    "sha256": "55f8ae475e50c89b842aa8c6083529e92f034c2679ebb308426946904871e9c8",
+    "caption": "Λύρα: ο Δαυίδ παίζει μουσική μπροστά στον Σαούλ.",
+    "reference": "Α΄ Βασιλειών 16:14–23 / 1 Samuel 16:14–23"
+  },
+  {
+    "key": "david-04",
+    "file": "david/04-goliath.jpg",
+    "original": "/Users/dimitriosporpatonelis/Documents/Codex/2026-10-10/referenced-chatgpt-conversation-this-is-an/outputs/patriarchs-review/images/david/04-goliath.png",
+    "sha256": "b6056c8f3a9879097271ec3f6c12bcfa0c783e02e01f6203d6876e4333e43e82",
+    "caption": "Γολιάθ: ο Δαυίδ αντιμετωπίζει τον αντίπαλο με σφενδόνη.",
+    "reference": "Α΄ Βασιλειών 17:40–50 / 1 Samuel 17:40–50"
+  },
+  {
+    "key": "david-05",
+    "file": "david/05-king-jerusalem.jpg",
+    "original": "/Users/dimitriosporpatonelis/Documents/Codex/2026-10-10/referenced-chatgpt-conversation-this-is-an/outputs/patriarchs-review/images/david/05-king-jerusalem.png",
+    "sha256": "62fc19e8d9592ad4c91d98abd88ea1ac39268d4ab33780e616dfb1ec96540d1a",
+    "caption": "Βασιλεία: ο Δαυίδ εγκαθίσταται στην Ιερουσαλήμ.",
+    "reference": "Β΄ Βασιλειών 5:1–10 / 2 Samuel 5:1–10"
+  },
+  {
+    "key": "david-06",
+    "file": "david/06-ark-procession.jpg",
+    "original": "/Users/dimitriosporpatonelis/Documents/Codex/2026-10-10/referenced-chatgpt-conversation-this-is-an/outputs/patriarchs-review/images/david/06-ark-procession.png",
+    "sha256": "eec4cb0da630adf5cea4aaada052341aedcbba5120491522165e1c2b16a82a70",
+    "caption": "Κιβωτός: ο Δαυίδ την οδηγεί στην Ιερουσαλήμ.",
+    "reference": "Β΄ Βασιλειών 6:12–17 / 2 Samuel 6:12–17"
+  },
+  {
+    "key": "david-07",
+    "file": "david/07-nathan-repentance.jpg",
+    "original": "/Users/dimitriosporpatonelis/Documents/Codex/2026-10-10/referenced-chatgpt-conversation-this-is-an/outputs/patriarchs-review/images/david/07-nathan-repentance.png",
+    "sha256": "14a03e3a5dd33a5e0a271fb45eacaad05e29f0d8a0712f97e03513142d5e3115",
+    "caption": "Μετάνοια: ο Δαυίδ αναγνωρίζει το σφάλμα του.",
+    "reference": "Β΄ Βασιλειών 12:1–13 / 2 Samuel 12:1–13"
+  },
+  {
+    "key": "elijah-01",
+    "file": "elijah/01-ahab-drought.jpg",
+    "original": "/Users/dimitriosporpatonelis/Documents/Codex/2026-10-10/referenced-chatgpt-conversation-this-is-an/outputs/patriarchs-review/images/elijah/01-ahab-drought.png",
+    "sha256": "1bf8ea96536704ecbb1e7b82e98fa79c3aa31e976c608e261b4c774024803bcb",
+    "caption": "Αχαάβ: ο Ηλίας αναγγέλλει την ανομβρία.",
+    "reference": "Γ΄ Βασιλειών 17:1 / 1 Kings 17:1"
+  },
+  {
+    "key": "elijah-02",
+    "file": "elijah/02-cherith-ravens.jpg",
+    "original": "/Users/dimitriosporpatonelis/Documents/Codex/2026-10-10/referenced-chatgpt-conversation-this-is-an/outputs/patriarchs-review/images/elijah/02-cherith-ravens.png",
+    "sha256": "b9a7ca415a4d7706d3cecfedf1e4596086cc77bcfe725fdae71f4105e9986cca",
+    "caption": "Χερίθ: οι κόρακες φέρνουν τροφή στον Ηλία.",
+    "reference": "Γ΄ Βασιλειών 17:2–6 / 1 Kings 17:2–6"
+  },
+  {
+    "key": "elijah-03",
+    "file": "elijah/03-zarephath-widow.jpg",
+    "original": "/Users/dimitriosporpatonelis/Documents/Codex/2026-10-10/referenced-chatgpt-conversation-this-is-an/outputs/patriarchs-review/images/elijah/03-zarephath-widow.png",
+    "sha256": "6ea60ae9658fface821e686fa303ca7e371c7461bd4ec3d432a8c81ca3a10051",
+    "caption": "Σαρεπτά: το αλεύρι και το λάδι δεν εξαντλούνται.",
+    "reference": "Γ΄ Βασιλειών 17:8–16 / 1 Kings 17:8–16"
+  },
+  {
+    "key": "elijah-04",
+    "file": "elijah/04-widows-son.jpg",
+    "original": "/Users/dimitriosporpatonelis/Documents/Codex/2026-10-10/referenced-chatgpt-conversation-this-is-an/outputs/patriarchs-review/images/elijah/04-widows-son.png",
+    "sha256": "a8db0e9c801e64d3a511adf579496161294be035512ae4f509ba3523bbc8202d",
+    "caption": "Ζωή: ο γιος της χήρας επιστρέφει στη μητέρα του.",
+    "reference": "Γ΄ Βασιλειών 17:17–24 / 1 Kings 17:17–24"
+  },
+  {
+    "key": "elijah-05",
+    "file": "elijah/05-carmel-fire.jpg",
+    "original": "/Users/dimitriosporpatonelis/Documents/Codex/2026-10-10/referenced-chatgpt-conversation-this-is-an/outputs/patriarchs-review/images/elijah/05-carmel-fire.png",
+    "sha256": "bc54f92505df86454d718802423f69e5f7f356f73a9a6c3e304a026510c47e8f",
+    "caption": "Κάρμηλος: φωτιά από τον ουρανό καίει το θυσιαστήριο.",
+    "reference": "Γ΄ Βασιλειών 18:30–39 / 1 Kings 18:30–39"
+  },
+  {
+    "key": "elijah-06",
+    "file": "elijah/06-horeb-breeze.jpg",
+    "original": "/Users/dimitriosporpatonelis/Documents/Codex/2026-10-10/referenced-chatgpt-conversation-this-is-an/outputs/patriarchs-review/images/elijah/06-horeb-breeze.png",
+    "sha256": "a51b4c1003deba07e24034795a3c7ad68b3158b2650ebbce65473efc8c4a3f94",
+    "caption": "Χωρήβ: ο Θεός φανερώνεται μέσα στην αύρα.",
+    "reference": "Γ΄ Βασιλειών 19:9–13 / 1 Kings 19:9–13"
+  },
+  {
+    "key": "elijah-07",
+    "file": "elijah/07-ascent-elisha.jpg",
+    "original": "/Users/dimitriosporpatonelis/Documents/Codex/2026-10-10/referenced-chatgpt-conversation-this-is-an/outputs/patriarchs-review/images/elijah/07-ascent-elisha.png",
+    "sha256": "25e26cd598e46ed8f7868fae4173bb42170274d892bc3234a4ee86b9ab437d51",
+    "caption": "Ανάληψη: ο Ηλίας αναλαμβάνεται και ο Ελισαίος συνεχίζει.",
+    "reference": "Δ΄ Βασιλειών 2:9–14 / 2 Kings 2:9–14"
+  }
+]
