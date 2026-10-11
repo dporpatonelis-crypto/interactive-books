@@ -1,0 +1,633 @@
+{
+  "created_at": "2026-10-11",
+  "approval": {
+    "required": true,
+    "status": "approved",
+    "scope": "All four selected series, including revision 2 artwork; approved to become videos",
+    "date": "2026-10-11",
+    "evidence": "Εγκρίνω τις νέες εικόνες"
+  },
+  "style": "Create one wide landscape 16:9 contemporary NEO-BYZANTINE Eastern Orthodox sacred narrative painting. A warm, expressive, approachable painted interpretation, with the spiritual dignity and palette of Orthodox iconography blended with natural human expression, softly modeled forms and real pictorial depth. Fully hand-painted appearance, egg-tempera and fresco-inspired mineral pigments, visible fine brushwork, subtle warm gold accents, deep lapis blue, muted burgundy, ochre, olive and warm ivory. Natural human proportions with gentle Byzantine refinement: expressive attentive eyes, slender faces, graceful hands, linear garment-fold accents softened by painterly shading. The setting remains spacious and believable, with softly painted hills, water, architecture and atmosphere; gold light integrates into the landscape rather than a flat ornamental gold wall. Use warm luminous sacred light and clear dramatic storytelling, with calm compassionate expressions and restrained emotion. Avoid rigid medieval icon-panel staging, extreme elongation, cartoon shapes, photographic skin and Western Baroque darkness. Jesus has the familiar Orthodox dark hair and beard, burgundy-red inner tunic and deep lapis-blue outer mantle, and a subtle gold CROSS NIMBUS, except radiant white clothing at Transfiguration and modest ivory clothing at Baptism, footwashing and Crucifixion. Apostles and the Baptist may have restrained simple round gold halos, never cross halos. Saul before conversion has no halo. Keep biblical actions and historical props coherent. Single coherent scene, legible faces, realistic anatomy and hands. Keep important faces inside the central 80 percent and the bottom 12 percent visually quiet for a later editable caption. NO lettering, inscriptions, labels, title, caption, logo, watermark, decorative frame or collage inside the image. No modern objects or medieval European armor. Do not depict God the Father as a human figure.",
+  "biblical_corrections": [
+    {
+      "topic": "Council versus Antioch",
+      "note": "Acts 15: Peter and Paul both support not imposing Mosaic observance on Gentiles. Personal confrontation: Antioch, Galatians 2:11–14.",
+      "sources": [
+        "https://bible.usccb.org/bible/acts/15",
+        "https://bible.usccb.org/bible/galatians/2"
+      ]
+    },
+    {
+      "topic": "Solidarity quotation",
+      "quote": "Τίς ἀσθενεῖ, καὶ οὐκ ἀσθενῶ;",
+      "passage": "Β΄ Κορινθίους 11:29",
+      "note": "Used thematically over Malta. Not from Galatians.",
+      "sources": [
+        "https://www.biblegateway.com/verse/grc/2%20Corinthians%2011%3A29"
+      ]
+    },
+    {
+      "topic": "Ascetic prototype",
+      "sources": [
+        "https://www.stnilus.org/sample.pdf#page=190"
+      ],
+      "note": "The Angelic Life, St Nilus Skete, printed p.385 / PDF p.190: Church views Baptist and Elijah as monastic prototypes. No anachronistic monastery shown."
+    }
+  ],
+  "sections": [
+    {
+      "id": "john-baptist-journey",
+      "title": "Η πορεία του Ιωάννη του Βαπτιστή",
+      "blocks": [
+        {
+          "kind": "text",
+          "text": "Στην Επίσκεψη της Παναγίας στην Ελισάβετ, ο Ιωάννης σκιρτά στην κοιλιά της μητέρας του μπροστά στην παρουσία του Χριστού· η εικόνα αποδίδει συμβολικά αυτή τη συνάντηση των δύο βρεφών. Μεγαλώνοντας στην έρημο, ζει με εγκράτεια και προσευχή και καλεί τον λαό σε μετάνοια. Στον Ιορδάνη βαπτίζει τον Ιησού και Τον υποδεικνύει ως τον Αμνό του Θεού. Στην ορθόδοξη παράδοση ο Πρόδρομος ολοκληρώνει την παλαιοδιαθηκική προφητεία και ανοίγει την εποχή της Καινής Διαθήκης, οδηγώντας προς τον Χριστό. Με παρρησία ελέγχει τον Ηρώδη. Η αυστηρή ασκητική ζωή του αποτελεί πνευματικό πρότυπο του μοναχικού βίου, με κέντρο τη μετάνοια, την προσευχή και την αναφορά στον Κύριο."
+        },
+        {
+          "kind": "source",
+          "text": "Πηγές και παράδοση: Λουκάς 1:39–45 · συμβολική απόδοση · Ματθαίος 3:1–6 · Ματθαίος 3:13–17 · Ιωάννης 1:29–34 · Ματθαίος 11:13 · ορθόδοξη παράδοση · Μάρκος 6:17–20 · Ματθαίος 3:4 · ασκητική παράδοση."
+        }
+      ],
+      "source_urls": [
+        "https://bible.usccb.org/bible/luke/1",
+        "https://www.biblegateway.com/passage/?search=Matthew+3&version=NABRE",
+        "https://bible.usccb.org/bible/john/1",
+        "https://www.oca.org/saints/lives/2026/01/07/100109-synaxis-of-the-holy-glorious-prophet-forerunner-and-baptist-john",
+        "https://bible.usccb.org/bible/mark/6",
+        "https://www.stnilus.org/sample.pdf#page=190"
+      ],
+      "source_file": "sources/new-testament-journeys.json",
+      "media": [
+        {
+          "media_id": "IMG-100",
+          "type": "image",
+          "title": "Επίσκεψη: ο Ιωάννης σκιρτά μπροστά στον Χριστό.",
+          "caption": "Επίσκεψη: ο Ιωάννης σκιρτά μπροστά στον Χριστό.",
+          "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/new-testament-journeys/john-baptist/01-visitation.jpg",
+          "asset": "assets/new-testament-journeys/john-baptist/01-visitation.jpg"
+        },
+        {
+          "media_id": "VID-030",
+          "type": "video",
+          "title": "Δες το βίντεο · 45″",
+          "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/new-testament-journeys/john-baptist-journey.mp4",
+          "placement": "after_text"
+        },
+        {
+          "media_id": "SLD-016",
+          "type": "slides",
+          "title": "Παρουσίαση Google Slides · 7 εικόνες",
+          "url": "https://docs.google.com/presentation/d/1MsqGzOOau_juVcOB1xCpaFWc02iCjoznisHGEyK29I4/edit?usp=drivesdk",
+          "placement": "after_text"
+        },
+        {
+          "media_id": "DOC-003",
+          "type": "document",
+          "title": "Διαφάνειες · PDF",
+          "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/new-testament-journeys/john-baptist-slides.pdf",
+          "asset": "assets/new-testament-journeys/john-baptist-slides.pdf",
+          "placement": "after_text"
+        }
+      ]
+    },
+    {
+      "id": "john-evangelist-journey",
+      "title": "Η πορεία του Ιωάννη",
+      "blocks": [
+        {
+          "kind": "text",
+          "text": "Ο Ιωάννης, γιος του Ζεβεδαίου, άφησε την αλιεία και ακολούθησε τον Χριστό. Μαζί με τον Πέτρο και τον Ιάκωβο έγινε μάρτυρας της Μεταμόρφωσης και βρέθηκε κοντά στον Χριστό στη Γεθσημανή. Η εκκλησιαστική παράδοση τον συνδέει με τον αγαπημένο μαθητή του τέταρτου Ευαγγελίου: εκείνον που βρίσκεται κοντά στον Χριστό στον Μυστικό Δείπνο, στέκεται δίπλα στη Θεοτόκο κάτω από τον Σταυρό, επισκέπτεται με τον Πέτρο το κενό μνήμα και αναγνωρίζει τον αναστημένο Κύριο στην Τιβεριάδα. Η πορεία του φανερώνει την αγάπη και την πιστή μαρτυρία για τη ζωή, το Πάθος και την Ανάσταση του Χριστού."
+        },
+        {
+          "kind": "source",
+          "text": "Βιβλικές πηγές: Μάρκος 1:19–20 · Ματθαίος 17:1–9 · Ιωάννης 13:21–26 · Μάρκος 14:32–42 · Ιωάννης 19:25–27 · Ιωάννης 20:1–10 · Ιωάννης 21:1–14."
+        }
+      ],
+      "source_urls": [
+        "https://bible.usccb.org/bible/mark/1",
+        "https://bible.usccb.org/bible/matthew/17",
+        "https://www.biblegateway.com/passage/?search=John+13&version=NABRE",
+        "https://www.biblegateway.com/passage/?search=Mark+14:32-42&version=NABRE",
+        "https://bible.usccb.org/bible/john/19",
+        "https://bible.usccb.org/bible/john/20",
+        "https://bible.usccb.org/bible/john/21"
+      ],
+      "source_file": "sources/new-testament-journeys.json",
+      "media": [
+        {
+          "media_id": "IMG-098",
+          "type": "image",
+          "title": "Κλήση: ο Ιωάννης αφήνει τα δίχτυα και ακολουθεί τον Χριστό.",
+          "caption": "Κλήση: ο Ιωάννης αφήνει τα δίχτυα και ακολουθεί τον Χριστό.",
+          "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/new-testament-journeys/john-evangelist/01-calling.jpg",
+          "asset": "assets/new-testament-journeys/john-evangelist/01-calling.jpg"
+        },
+        {
+          "media_id": "VID-028",
+          "type": "video",
+          "title": "Δες το βίντεο · 45″",
+          "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/new-testament-journeys/john-evangelist-journey.mp4",
+          "placement": "after_text"
+        },
+        {
+          "media_id": "SLD-014",
+          "type": "slides",
+          "title": "Παρουσίαση Google Slides · 7 εικόνες",
+          "url": "https://docs.google.com/presentation/d/1A_LBWURpBkRsCZGIqxt03Wog2jLGLQRrwqpoX8aRpFc/edit?usp=drivesdk",
+          "placement": "after_text"
+        },
+        {
+          "media_id": "DOC-001",
+          "type": "document",
+          "title": "Διαφάνειες · PDF",
+          "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/new-testament-journeys/john-evangelist-slides.pdf",
+          "asset": "assets/new-testament-journeys/john-evangelist-slides.pdf",
+          "placement": "after_text"
+        }
+      ]
+    },
+    {
+      "id": "peter-journey",
+      "title": "Η πορεία του Πέτρου",
+      "blocks": [
+        {
+          "kind": "text",
+          "text": "Ο Πέτρος, ψαράς της Γαλιλαίας, ανταποκρίθηκε στην κλήση του Χριστού μετά τη θαυμαστή αλιεία. Στη θάλασσα έμαθε να στηρίζεται στον Κύριο και στην Καισάρεια του Φιλίππου ομολόγησε ότι ο Ιησούς είναι ο Χριστός. Στον Νιπτήρα δέχθηκε το παράδειγμα της ταπεινής διακονίας. Η άρνησή του την ώρα του Πάθους τον οδήγησε σε δάκρυα μετανοίας, ενώ η συνάντησή του με τον αναστημένο Χριστό στην Τιβεριάδα ανανέωσε την αποστολή του. Την Πεντηκοστή κήρυξε δημόσια την Ανάσταση, καλώντας τους ακροατές του σε μετάνοια και βάπτισμα."
+        },
+        {
+          "kind": "source",
+          "text": "Πηγές και παράδοση: Λουκάς 5:1–11 · Ματθαίος 14:22–33 · Ματθαίος 16:16 · Ιωάννης 13:1–10 · Ματθαίος 26:34 · Λουκάς 22:54–62 · Ιωάννης 21:16 · Πράξεις 2:14–41."
+        }
+      ],
+      "source_urls": [
+        "https://bible.usccb.org/bible/luke/5",
+        "https://bible.usccb.org/bible/matthew/14",
+        "https://www.biblegateway.com/verse/grc/Matthew%2016:16",
+        "https://www.biblegateway.com/passage/?search=John+13&version=NABRE",
+        "https://bible.usccb.org/bible/matthew/26",
+        "https://www.biblegateway.com/verse/grc/John%2021:16",
+        "https://www.biblegateway.com/passage/?search=Acts+2:14-41&version=NABRE"
+      ],
+      "source_file": "sources/new-testament-journeys.json",
+      "media": [
+        {
+          "media_id": "IMG-099",
+          "type": "image",
+          "title": "Αλιεία: ο Πέτρος καλείται να ακολουθήσει τον Χριστό.",
+          "caption": "Αλιεία: ο Πέτρος καλείται να ακολουθήσει τον Χριστό.",
+          "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/new-testament-journeys/peter/01-miraculous-catch.jpg",
+          "asset": "assets/new-testament-journeys/peter/01-miraculous-catch.jpg"
+        },
+        {
+          "media_id": "VID-029",
+          "type": "video",
+          "title": "Δες το βίντεο · 45″",
+          "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/new-testament-journeys/peter-journey.mp4",
+          "placement": "after_text"
+        },
+        {
+          "media_id": "SLD-015",
+          "type": "slides",
+          "title": "Παρουσίαση Google Slides · 7 εικόνες",
+          "url": "https://docs.google.com/presentation/d/1eN_jyEiGJ28XEHs5qgn6p9sYiARaCfZmny9oti10xXg/edit?usp=drivesdk",
+          "placement": "after_text"
+        },
+        {
+          "media_id": "DOC-002",
+          "type": "document",
+          "title": "Διαφάνειες · PDF",
+          "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/new-testament-journeys/peter-slides.pdf",
+          "asset": "assets/new-testament-journeys/peter-slides.pdf",
+          "placement": "after_text"
+        }
+      ]
+    },
+    {
+      "id": "paul-journey",
+      "title": "Η πορεία του Παύλου",
+      "blocks": [
+        {
+          "kind": "text",
+          "text": "Ο Σαούλ αρχικά διώκει τους μαθητές του Χριστού, ώσπου η κλήση του Κυρίου στον δρόμο προς τη Δαμασκό αλλάζει την πορεία του. Ως απόστολος Παύλος υπερασπίζεται την ελευθερία των εθνικών από την επιβολή του Μωσαϊκού νόμου. Στην Αποστολική Σύνοδο των Ιεροσολύμων ο Πέτρος και ο Παύλος στηρίζουν αυτή την αποστολή· η προσωπική διαφωνία τους για τη διάκριση εις βάρος των εθνικών τοποθετείται στην Αντιόχεια, όπως περιγράφει η Προς Γαλάτας. Στην Αθήνα ο Παύλος ξεκινά από τον βωμό στον άγνωστο Θεό και μιλά για τον αληθινό Θεό και την Ανάσταση. Στην Κόρινθο το κήρυγμά του έχει κέντρο τον εσταυρωμένο Χριστό, πέρα από την αναζήτηση σημείων και σοφίας. Μετά το ναυάγιο σώζεται στη Μάλτα· η φράση «Τίς ἀσθενεῖ, καὶ οὐκ ἀσθενῶ;» από τη Β΄ Κορινθίους εκφράζει εδώ το πνεύμα της αποστολικής συμπαράστασης. Το συμβολικό κλείσιμο στη Ρώμη παρουσιάζει τον Πέτρο και τον Παύλο ως πρωτοκορυφαίους, ενωμένους στην κοινή μαρτυρία της Εκκλησίας."
+        },
+        {
+          "kind": "source",
+          "text": "Πηγές και παράδοση: Πράξεις 8:1–3 · Πράξεις 9:1–9 · Πράξεις 15:1–29 · Πράξεις 17:22–31 · Α΄ Κορινθίους 1:22–23 · συμβολική απόδοση · Πράξεις 28:1–10 · Β΄ Κορινθίους 11:29 · Ορθόδοξη παράδοση · συμβολική απόδοση. Γαλάτας 2:11–14 (Αντιόχεια)."
+        }
+      ],
+      "source_urls": [
+        "https://bible.usccb.org/bible/acts/8",
+        "https://bible.usccb.org/bible/acts/9",
+        "https://bible.usccb.org/bible/acts/15",
+        "https://bible.usccb.org/bible/acts/17",
+        "https://www.biblegateway.com/passage/?search=1%20Corinthians%201%3A22-23&version=TR1894",
+        "https://www.biblegateway.com/verse/grc/2%20Corinthians%2011%3A29",
+        "https://www.oca.org/saints/troparia/1949/06/29/101840-the-holy-glorious-and-all-praised-leaders-of-the-apostles-peter",
+        "https://bible.usccb.org/bible/galatians/2"
+      ],
+      "source_file": "sources/new-testament-journeys.json",
+      "media": [
+        {
+          "media_id": "IMG-101",
+          "type": "image",
+          "title": "Διωγμός: ο Σαούλ διώκει τους μαθητές του Χριστού.",
+          "caption": "Διωγμός: ο Σαούλ διώκει τους μαθητές του Χριστού.",
+          "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/new-testament-journeys/paul/01-persecution.jpg",
+          "asset": "assets/new-testament-journeys/paul/01-persecution.jpg"
+        },
+        {
+          "media_id": "VID-031",
+          "type": "video",
+          "title": "Δες το βίντεο · 45″",
+          "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/new-testament-journeys/paul-journey.mp4",
+          "placement": "after_text"
+        },
+        {
+          "media_id": "SLD-017",
+          "type": "slides",
+          "title": "Παρουσίαση Google Slides · 7 εικόνες",
+          "url": "https://docs.google.com/presentation/d/1BRyBNBs7QR6YynGDH98TcEldOOrkR2KDtbrDVmil8zI/edit?usp=drivesdk",
+          "placement": "after_text"
+        },
+        {
+          "media_id": "DOC-004",
+          "type": "document",
+          "title": "Διαφάνειες · PDF",
+          "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/new-testament-journeys/paul-slides.pdf",
+          "asset": "assets/new-testament-journeys/paul-slides.pdf",
+          "placement": "after_text"
+        }
+      ]
+    }
+  ],
+  "series": [
+    {
+      "id": "john-evangelist",
+      "title": "Η πορεία του Ιωάννη",
+      "music": "thats-the-way-it-is",
+      "native_slides_url": "https://docs.google.com/presentation/d/1A_LBWURpBkRsCZGIqxt03Wog2jLGLQRrwqpoX8aRpFc/edit?usp=drivesdk",
+      "scenes": [
+        {
+          "number": 1,
+          "label": "Κλήση",
+          "caption": "Κλήση: ο Ιωάννης αφήνει τα δίχτυα και ακολουθεί τον Χριστό.",
+          "passage": "Μάρκος 1:19–20",
+          "source_url": "https://bible.usccb.org/bible/mark/1",
+          "sha256": "bb6d93535fa0f30fa6e0b2ddd0e009fc69fcb6d8a1c0b3aaef74beaeae754869",
+          "symbolic_note": null,
+          "historical_note": null,
+          "tradition_note": null,
+          "prompt": "Create one wide landscape 16:9 contemporary NEO-BYZANTINE Eastern Orthodox sacred narrative painting. A warm, expressive, approachable painted interpretation, with the spiritual dignity and palette of Orthodox iconography blended with natural human expression, softly modeled forms and real pictorial depth. Fully hand-painted appearance, egg-tempera and fresco-inspired mineral pigments, visible fine brushwork, subtle warm gold accents, deep lapis blue, muted burgundy, ochre, olive and warm ivory. Natural human proportions with gentle Byzantine refinement: expressive attentive eyes, slender faces, graceful hands, linear garment-fold accents softened by painterly shading. The setting remains spacious and believable, with softly painted hills, water, architecture and atmosphere; gold light integrates into the landscape rather than a flat ornamental gold wall. Use warm luminous sacred light and clear dramatic storytelling, with calm compassionate expressions and restrained emotion. Avoid rigid medieval icon-panel staging, extreme elongation, cartoon shapes, photographic skin and Western Baroque darkness. Jesus has the familiar Orthodox dark hair and beard, burgundy-red inner tunic and deep lapis-blue outer mantle, and a subtle gold CROSS NIMBUS, except radiant white clothing at Transfiguration and modest ivory clothing at Baptism, footwashing and Crucifixion. Apostles and the Baptist may have restrained simple round gold halos, never cross halos. Saul before conversion has no halo. Keep biblical actions and historical props coherent. Single coherent scene, legible faces, realistic anatomy and hands. Keep important faces inside the central 80 percent and the bottom 12 percent visually quiet for a later editable caption. NO lettering, inscriptions, labels, title, caption, logo, watermark, decorative frame or collage inside the image. No modern objects or medieval European armor. Do not depict God the Father as a human figure.\n\nJesus Christ: a first-century Jewish man about 32, olive complexion, brown eyes, shoulder-length wavy dark brown hair, neatly kept dark beard, calm compassionate face, burgundy-red inner tunic and deep lapis-blue outer mantle, leather sandals; gold cross nimbus, Byzantine iconographic face.\nJohn son of Zebedee, the young apostle: about 22, olive complexion, brown eyes, youthful clean-shaven face, short-to-medium curly dark brown hair, slim build, cream linen tunic and deep wine-burgundy mantle. Gentle and attentive. Clearly distinct from John the Baptist.\n\nSCENE:\nOn the shore of the Sea of Galilee at golden dawn, Jesus stands at left and gently calls the young John, clearly visible at right beside a wooden fishing boat with worn nets. John turns toward Jesus with an attentive, hopeful expression, about to leave his fishing work. John's brother James and older father Zebedee remain softly visible by the boat farther behind. Calm water, distant Galilean hills, quiet cinematic beginning. The two principal faces are clearly visible and separated."
+        },
+        {
+          "number": 2,
+          "label": "Μεταμόρφωση",
+          "caption": "Μεταμόρφωση: ο Ιωάννης βλέπει τη δόξα του Χριστού.",
+          "passage": "Ματθαίος 17:1–9",
+          "source_url": "https://bible.usccb.org/bible/matthew/17",
+          "sha256": "61e63add7ce412187a6f9c069b5f901a6629f0fe2dfe0db4a25de77b2cb56d44",
+          "symbolic_note": null,
+          "historical_note": null,
+          "tradition_note": null,
+          "prompt": "Create one wide landscape 16:9 contemporary NEO-BYZANTINE Eastern Orthodox sacred narrative painting. A warm, expressive, approachable painted interpretation, with the spiritual dignity and palette of Orthodox iconography blended with natural human expression, softly modeled forms and real pictorial depth. Fully hand-painted appearance, egg-tempera and fresco-inspired mineral pigments, visible fine brushwork, subtle warm gold accents, deep lapis blue, muted burgundy, ochre, olive and warm ivory. Natural human proportions with gentle Byzantine refinement: expressive attentive eyes, slender faces, graceful hands, linear garment-fold accents softened by painterly shading. The setting remains spacious and believable, with softly painted hills, water, architecture and atmosphere; gold light integrates into the landscape rather than a flat ornamental gold wall. Use warm luminous sacred light and clear dramatic storytelling, with calm compassionate expressions and restrained emotion. Avoid rigid medieval icon-panel staging, extreme elongation, cartoon shapes, photographic skin and Western Baroque darkness. Jesus has the familiar Orthodox dark hair and beard, burgundy-red inner tunic and deep lapis-blue outer mantle, and a subtle gold CROSS NIMBUS, except radiant white clothing at Transfiguration and modest ivory clothing at Baptism, footwashing and Crucifixion. Apostles and the Baptist may have restrained simple round gold halos, never cross halos. Saul before conversion has no halo. Keep biblical actions and historical props coherent. Single coherent scene, legible faces, realistic anatomy and hands. Keep important faces inside the central 80 percent and the bottom 12 percent visually quiet for a later editable caption. NO lettering, inscriptions, labels, title, caption, logo, watermark, decorative frame or collage inside the image. No modern objects or medieval European armor. Do not depict God the Father as a human figure.\n\nJesus Christ: a first-century Jewish man about 32, olive complexion, brown eyes, shoulder-length wavy dark brown hair, neatly kept dark beard, calm compassionate face, burgundy-red inner tunic and deep lapis-blue outer mantle, leather sandals; gold cross nimbus, Byzantine iconographic face.\nJohn son of Zebedee, the young apostle: about 22, olive complexion, brown eyes, youthful clean-shaven face, short-to-medium curly dark brown hair, slim build, cream linen tunic and deep wine-burgundy mantle. Gentle and attentive. Clearly distinct from John the Baptist.\nSimon Peter: about 48, olive complexion, broad weathered face, short curly dark hair graying at the temples, full short curly salt-and-pepper beard, sturdy fisherman build, ivory linen tunic and muted olive-green mantle. Clearly older than the apostle John.\n\nSCENE:\nOn a high rocky mountain, Jesus stands in luminous white clothing, his familiar face visible through restrained bright light. Moses and Elijah, two distinct older prophetic figures in simple ancient robes, stand on either side of him. In the lower foreground exactly three disciples, young John in burgundy, older Peter in olive green, and James in muted brown, witness the scene in awe. Wide mountain sky, luminous cloud, spiritual wonder, no explosions or laser beams. Change Jesus' garments to radiant white as the biblical event requires."
+        },
+        {
+          "number": 3,
+          "label": "Μυστικός Δείπνος",
+          "caption": "Μυστικός Δείπνος: ο Ιωάννης βρίσκεται κοντά στον Χριστό.",
+          "passage": "Ιωάννης 13:21–26",
+          "source_url": "https://www.biblegateway.com/passage/?search=John+13&version=NABRE",
+          "sha256": "06349bcc90b2093160659598b017a8e9f064c7fb69caa22a8af629d3190fbb93",
+          "symbolic_note": null,
+          "historical_note": null,
+          "tradition_note": null,
+          "prompt": "Create one wide landscape 16:9 contemporary NEO-BYZANTINE Eastern Orthodox sacred narrative painting. A warm, expressive, approachable painted interpretation, with the spiritual dignity and palette of Orthodox iconography blended with natural human expression, softly modeled forms and real pictorial depth. Fully hand-painted appearance, egg-tempera and fresco-inspired mineral pigments, visible fine brushwork, subtle warm gold accents, deep lapis blue, muted burgundy, ochre, olive and warm ivory. Natural human proportions with gentle Byzantine refinement: expressive attentive eyes, slender faces, graceful hands, linear garment-fold accents softened by painterly shading. The setting remains spacious and believable, with softly painted hills, water, architecture and atmosphere; gold light integrates into the landscape rather than a flat ornamental gold wall. Use warm luminous sacred light and clear dramatic storytelling, with calm compassionate expressions and restrained emotion. Avoid rigid medieval icon-panel staging, extreme elongation, cartoon shapes, photographic skin and Western Baroque darkness. Jesus has the familiar Orthodox dark hair and beard, burgundy-red inner tunic and deep lapis-blue outer mantle, and a subtle gold CROSS NIMBUS, except radiant white clothing at Transfiguration and modest ivory clothing at Baptism, footwashing and Crucifixion. Apostles and the Baptist may have restrained simple round gold halos, never cross halos. Saul before conversion has no halo. Keep biblical actions and historical props coherent. Single coherent scene, legible faces, realistic anatomy and hands. Keep important faces inside the central 80 percent and the bottom 12 percent visually quiet for a later editable caption. NO lettering, inscriptions, labels, title, caption, logo, watermark, decorative frame or collage inside the image. No modern objects or medieval European armor. Do not depict God the Father as a human figure.\n\nJesus Christ: a first-century Jewish man about 32, olive complexion, brown eyes, shoulder-length wavy dark brown hair, neatly kept dark beard, calm compassionate face, burgundy-red inner tunic and deep lapis-blue outer mantle, leather sandals; gold cross nimbus, Byzantine iconographic face.\nJohn son of Zebedee, the young apostle: about 22, olive complexion, brown eyes, youthful clean-shaven face, short-to-medium curly dark brown hair, slim build, cream linen tunic and deep wine-burgundy mantle. Gentle and attentive. Clearly distinct from John the Baptist.\nSimon Peter: about 48, olive complexion, broad weathered face, short curly dark hair graying at the temples, full short curly salt-and-pepper beard, sturdy fisherman build, ivory linen tunic and muted olive-green mantle. Clearly older than the apostle John.\n\nSCENE:\nAn intimate first-century Passover supper in a Jerusalem upper room, Jesus and young John reclining next to each other at a low table. John leans close to listen, with a gentle trusting expression. Peter sits a short distance away, watching. Other disciples are naturally present deeper in the room, without forcing all twelve faces into the frame. Bread, a simple clay cup, modest dishes, warm oil-lamp light, tactile plaster walls. Authentic reclining floor cushions, not a Renaissance long banquet table. No inscriptions on the dishes."
+        },
+        {
+          "number": 4,
+          "label": "Γεθσημανή",
+          "caption": "Γεθσημανή: ο Χριστός προσεύχεται κοντά στους μαθητές.",
+          "passage": "Μάρκος 14:32–42",
+          "source_url": "https://www.biblegateway.com/passage/?search=Mark+14:32-42&version=NABRE",
+          "sha256": "595a00c26768757e8146e2e5114138d5c11d22179eaebe47e01e2fa64ef3ec4f",
+          "symbolic_note": null,
+          "historical_note": null,
+          "tradition_note": null,
+          "prompt": "Create one wide landscape 16:9 contemporary NEO-BYZANTINE Eastern Orthodox sacred narrative painting. A warm, expressive, approachable painted interpretation, with the spiritual dignity and palette of Orthodox iconography blended with natural human expression, softly modeled forms and real pictorial depth. Fully hand-painted appearance, egg-tempera and fresco-inspired mineral pigments, visible fine brushwork, subtle warm gold accents, deep lapis blue, muted burgundy, ochre, olive and warm ivory. Natural human proportions with gentle Byzantine refinement: expressive attentive eyes, slender faces, graceful hands, linear garment-fold accents softened by painterly shading. The setting remains spacious and believable, with softly painted hills, water, architecture and atmosphere; gold light integrates into the landscape rather than a flat ornamental gold wall. Use warm luminous sacred light and clear dramatic storytelling, with calm compassionate expressions and restrained emotion. Avoid rigid medieval icon-panel staging, extreme elongation, cartoon shapes, photographic skin and Western Baroque darkness. Jesus has the familiar Orthodox dark hair and beard, burgundy-red inner tunic and deep lapis-blue outer mantle, and a subtle gold CROSS NIMBUS, except radiant white clothing at Transfiguration and modest ivory clothing at Baptism, footwashing and Crucifixion. Apostles and the Baptist may have restrained simple round gold halos, never cross halos. Saul before conversion has no halo. Keep biblical actions and historical props coherent. Single coherent scene, legible faces, realistic anatomy and hands. Keep important faces inside the central 80 percent and the bottom 12 percent visually quiet for a later editable caption. NO lettering, inscriptions, labels, title, caption, logo, watermark, decorative frame or collage inside the image. No modern objects or medieval European armor. Do not depict God the Father as a human figure.\n\nJesus Christ: a first-century Jewish man about 32, olive complexion, brown eyes, shoulder-length wavy dark brown hair, neatly kept dark beard, calm compassionate face, burgundy-red inner tunic and deep lapis-blue outer mantle, leather sandals; gold cross nimbus, Byzantine iconographic face.\nJohn son of Zebedee, the young apostle: about 22, olive complexion, brown eyes, youthful clean-shaven face, short-to-medium curly dark brown hair, slim build, cream linen tunic and deep wine-burgundy mantle. Gentle and attentive. Clearly distinct from John the Baptist.\nSimon Peter: about 48, olive complexion, broad weathered face, short curly dark hair graying at the temples, full short curly salt-and-pepper beard, sturdy fisherman build, ivory linen tunic and muted olive-green mantle. Clearly older than the apostle John.\n\nSCENE:\nAt night in an ancient olive grove, Jesus prays kneeling beside a large stone a few paces away from exactly three sleeping disciples in the foreground: young John in burgundy, Peter in olive green, James in brown. Gentle cool moonlight and restrained warm light on Jesus, twisted olive trees, quiet deep sorrow. Jesus is awake; the three disciples are sleeping. No added angel, no arrest, no soldiers in this scene."
+        },
+        {
+          "number": 5,
+          "label": "Σταυρός",
+          "caption": "Σταυρός: ο Ιωάννης στέκεται δίπλα στη Θεοτόκο.",
+          "passage": "Ιωάννης 19:25–27",
+          "source_url": "https://bible.usccb.org/bible/john/19",
+          "sha256": "b44716a6bd3de66fd3882e5f338da355358dc54f522393f081905eef8e9311ee",
+          "symbolic_note": null,
+          "historical_note": null,
+          "tradition_note": null,
+          "prompt": "Create one wide landscape 16:9 contemporary NEO-BYZANTINE Eastern Orthodox sacred narrative painting. A warm, expressive, approachable painted interpretation, with the spiritual dignity and palette of Orthodox iconography blended with natural human expression, softly modeled forms and real pictorial depth. Fully hand-painted appearance, egg-tempera and fresco-inspired mineral pigments, visible fine brushwork, subtle warm gold accents, deep lapis blue, muted burgundy, ochre, olive and warm ivory. Natural human proportions with gentle Byzantine refinement: expressive attentive eyes, slender faces, graceful hands, linear garment-fold accents softened by painterly shading. The setting remains spacious and believable, with softly painted hills, water, architecture and atmosphere; gold light integrates into the landscape rather than a flat ornamental gold wall. Use warm luminous sacred light and clear dramatic storytelling, with calm compassionate expressions and restrained emotion. Avoid rigid medieval icon-panel staging, extreme elongation, cartoon shapes, photographic skin and Western Baroque darkness. Jesus has the familiar Orthodox dark hair and beard, burgundy-red inner tunic and deep lapis-blue outer mantle, and a subtle gold CROSS NIMBUS, except radiant white clothing at Transfiguration and modest ivory clothing at Baptism, footwashing and Crucifixion. Apostles and the Baptist may have restrained simple round gold halos, never cross halos. Saul before conversion has no halo. Keep biblical actions and historical props coherent. Single coherent scene, legible faces, realistic anatomy and hands. Keep important faces inside the central 80 percent and the bottom 12 percent visually quiet for a later editable caption. NO lettering, inscriptions, labels, title, caption, logo, watermark, decorative frame or collage inside the image. No modern objects or medieval European armor. Do not depict God the Father as a human figure.\n\nJesus Christ: a first-century Jewish man about 32, olive complexion, brown eyes, shoulder-length wavy dark brown hair, neatly kept dark beard, calm compassionate face, burgundy-red inner tunic and deep lapis-blue outer mantle, leather sandals; gold cross nimbus, Byzantine iconographic face.\nJohn son of Zebedee, the young apostle: about 22, olive complexion, brown eyes, youthful clean-shaven face, short-to-medium curly dark brown hair, slim build, cream linen tunic and deep wine-burgundy mantle. Gentle and attentive. Clearly distinct from John the Baptist.\n\nSCENE:\nRespectful non-graphic Golgotha scene. In the foreground young John in burgundy stands beside Mary, mother of Jesus, an older Jewish woman in a modest muted blue mantle and cream head covering. He gently supports her shoulder as they look toward Jesus on a wooden cross in the middle distance. Jesus wears a modest linen loincloth; show him small and dignified, without visible graphic wounds or blood. Overcast afternoon, emotional human faces, subdued earth colors. Single coherent scene, no violent action, no gore, no close-up of the crucified body."
+        },
+        {
+          "number": 6,
+          "label": "Κενό μνήμα",
+          "caption": "Κενό μνήμα: ο Ιωάννης και ο Πέτρος βλέπουν τα οθόνια.",
+          "passage": "Ιωάννης 20:1–10",
+          "source_url": "https://bible.usccb.org/bible/john/20",
+          "sha256": "d2dd3a5a803eb7ef4a68734bc64938a2365bf0df2f402da0be682de0fa09f1cf",
+          "symbolic_note": null,
+          "historical_note": null,
+          "tradition_note": null,
+          "prompt": "Create one wide landscape 16:9 contemporary NEO-BYZANTINE Eastern Orthodox sacred narrative painting. A warm, expressive, approachable painted interpretation, with the spiritual dignity and palette of Orthodox iconography blended with natural human expression, softly modeled forms and real pictorial depth. Fully hand-painted appearance, egg-tempera and fresco-inspired mineral pigments, visible fine brushwork, subtle warm gold accents, deep lapis blue, muted burgundy, ochre, olive and warm ivory. Natural human proportions with gentle Byzantine refinement: expressive attentive eyes, slender faces, graceful hands, linear garment-fold accents softened by painterly shading. The setting remains spacious and believable, with softly painted hills, water, architecture and atmosphere; gold light integrates into the landscape rather than a flat ornamental gold wall. Use warm luminous sacred light and clear dramatic storytelling, with calm compassionate expressions and restrained emotion. Avoid rigid medieval icon-panel staging, extreme elongation, cartoon shapes, photographic skin and Western Baroque darkness. Jesus has the familiar Orthodox dark hair and beard, burgundy-red inner tunic and deep lapis-blue outer mantle, and a subtle gold CROSS NIMBUS, except radiant white clothing at Transfiguration and modest ivory clothing at Baptism, footwashing and Crucifixion. Apostles and the Baptist may have restrained simple round gold halos, never cross halos. Saul before conversion has no halo. Keep biblical actions and historical props coherent. Single coherent scene, legible faces, realistic anatomy and hands. Keep important faces inside the central 80 percent and the bottom 12 percent visually quiet for a later editable caption. NO lettering, inscriptions, labels, title, caption, logo, watermark, decorative frame or collage inside the image. No modern objects or medieval European armor. Do not depict God the Father as a human figure.\n\nJohn son of Zebedee, the young apostle: about 22, olive complexion, brown eyes, youthful clean-shaven face, short-to-medium curly dark brown hair, slim build, cream linen tunic and deep wine-burgundy mantle. Gentle and attentive. Clearly distinct from John the Baptist.\nSimon Peter: about 48, olive complexion, broad weathered face, short curly dark hair graying at the temples, full short curly salt-and-pepper beard, sturdy fisherman build, ivory linen tunic and muted olive-green mantle. Clearly older than the apostle John.\n\nSCENE:\nAt the open entrance of a first-century rock-cut tomb at early dawn, older Peter inside and young John at the threshold look toward an empty stone burial bench with linen burial cloths and a separate folded head cloth. Their expressions show wonder and dawning belief. Pale dawn light enters the dark stone chamber; round entrance stone rolled aside. Jesus' body is absent; the tomb is empty. No corpse, no angel, no resurrected figure inside the tomb. Clear realistic linen on the bench."
+        },
+        {
+          "number": 7,
+          "label": "Τιβεριάδα",
+          "caption": "Τιβεριάδα: ο Ιωάννης αναγνωρίζει τον αναστημένο Χριστό.",
+          "passage": "Ιωάννης 21:1–14",
+          "source_url": "https://bible.usccb.org/bible/john/21",
+          "sha256": "8975b5807ae3fad8b8ef7f33ce4847ee0fcd34d61521c37b0e90702e2ab146c2",
+          "symbolic_note": null,
+          "historical_note": null,
+          "tradition_note": null,
+          "prompt": "Create one wide landscape 16:9 contemporary NEO-BYZANTINE Eastern Orthodox sacred narrative painting. A warm, expressive, approachable painted interpretation, with the spiritual dignity and palette of Orthodox iconography blended with natural human expression, softly modeled forms and real pictorial depth. Fully hand-painted appearance, egg-tempera and fresco-inspired mineral pigments, visible fine brushwork, subtle warm gold accents, deep lapis blue, muted burgundy, ochre, olive and warm ivory. Natural human proportions with gentle Byzantine refinement: expressive attentive eyes, slender faces, graceful hands, linear garment-fold accents softened by painterly shading. The setting remains spacious and believable, with softly painted hills, water, architecture and atmosphere; gold light integrates into the landscape rather than a flat ornamental gold wall. Use warm luminous sacred light and clear dramatic storytelling, with calm compassionate expressions and restrained emotion. Avoid rigid medieval icon-panel staging, extreme elongation, cartoon shapes, photographic skin and Western Baroque darkness. Jesus has the familiar Orthodox dark hair and beard, burgundy-red inner tunic and deep lapis-blue outer mantle, and a subtle gold CROSS NIMBUS, except radiant white clothing at Transfiguration and modest ivory clothing at Baptism, footwashing and Crucifixion. Apostles and the Baptist may have restrained simple round gold halos, never cross halos. Saul before conversion has no halo. Keep biblical actions and historical props coherent. Single coherent scene, legible faces, realistic anatomy and hands. Keep important faces inside the central 80 percent and the bottom 12 percent visually quiet for a later editable caption. NO lettering, inscriptions, labels, title, caption, logo, watermark, decorative frame or collage inside the image. No modern objects or medieval European armor. Do not depict God the Father as a human figure.\n\nJesus Christ: a first-century Jewish man about 32, olive complexion, brown eyes, shoulder-length wavy dark brown hair, neatly kept dark beard, calm compassionate face, burgundy-red inner tunic and deep lapis-blue outer mantle, leather sandals; gold cross nimbus, Byzantine iconographic face.\nJohn son of Zebedee, the young apostle: about 22, olive complexion, brown eyes, youthful clean-shaven face, short-to-medium curly dark brown hair, slim build, cream linen tunic and deep wine-burgundy mantle. Gentle and attentive. Clearly distinct from John the Baptist.\nSimon Peter: about 48, olive complexion, broad weathered face, short curly dark hair graying at the temples, full short curly salt-and-pepper beard, sturdy fisherman build, ivory linen tunic and muted olive-green mantle. Clearly older than the apostle John.\n\nSCENE:\nAt golden dawn on the Sea of Tiberias, young John in burgundy is prominent in a wooden fishing boat and gestures with joyful recognition toward the risen Jesus standing on the nearby shore. Peter in olive green is beside him in the boat, turning toward the shore. Net with fish draped naturally over the gunwale, calm lake, gentle hills, warm light. Only one Jesus, on the shore. The foreground disciples' faces are legible, Jesus recognizable in burgundy and lapis blue. Hopeful concluding frame."
+        }
+      ]
+    },
+    {
+      "id": "peter",
+      "title": "Η πορεία του Πέτρου",
+      "music": "thats-the-way-it-is",
+      "native_slides_url": "https://docs.google.com/presentation/d/1eN_jyEiGJ28XEHs5qgn6p9sYiARaCfZmny9oti10xXg/edit?usp=drivesdk",
+      "scenes": [
+        {
+          "number": 1,
+          "label": "Αλιεία",
+          "caption": "Αλιεία: ο Πέτρος καλείται να ακολουθήσει τον Χριστό.",
+          "passage": "Λουκάς 5:1–11",
+          "source_url": "https://bible.usccb.org/bible/luke/5",
+          "sha256": "44091cf0bc0c65609bfc5cf2badd058c59441b1462d27592d61198d475d0d43a",
+          "symbolic_note": null,
+          "historical_note": null,
+          "tradition_note": null,
+          "prompt": "Create one wide landscape 16:9 contemporary NEO-BYZANTINE Eastern Orthodox sacred narrative painting. A warm, expressive, approachable painted interpretation, with the spiritual dignity and palette of Orthodox iconography blended with natural human expression, softly modeled forms and real pictorial depth. Fully hand-painted appearance, egg-tempera and fresco-inspired mineral pigments, visible fine brushwork, subtle warm gold accents, deep lapis blue, muted burgundy, ochre, olive and warm ivory. Natural human proportions with gentle Byzantine refinement: expressive attentive eyes, slender faces, graceful hands, linear garment-fold accents softened by painterly shading. The setting remains spacious and believable, with softly painted hills, water, architecture and atmosphere; gold light integrates into the landscape rather than a flat ornamental gold wall. Use warm luminous sacred light and clear dramatic storytelling, with calm compassionate expressions and restrained emotion. Avoid rigid medieval icon-panel staging, extreme elongation, cartoon shapes, photographic skin and Western Baroque darkness. Jesus has the familiar Orthodox dark hair and beard, burgundy-red inner tunic and deep lapis-blue outer mantle, and a subtle gold CROSS NIMBUS, except radiant white clothing at Transfiguration and modest ivory clothing at Baptism, footwashing and Crucifixion. Apostles and the Baptist may have restrained simple round gold halos, never cross halos. Saul before conversion has no halo. Keep biblical actions and historical props coherent. Single coherent scene, legible faces, realistic anatomy and hands. Keep important faces inside the central 80 percent and the bottom 12 percent visually quiet for a later editable caption. NO lettering, inscriptions, labels, title, caption, logo, watermark, decorative frame or collage inside the image. No modern objects or medieval European armor. Do not depict God the Father as a human figure.\n\nJesus Christ: a first-century Jewish man about 32, olive complexion, brown eyes, shoulder-length wavy dark brown hair, neatly kept dark beard, calm compassionate face, burgundy-red inner tunic and deep lapis-blue outer mantle, leather sandals; gold cross nimbus, Byzantine iconographic face.\nSimon Peter: about 48, olive complexion, broad weathered face, short curly dark hair graying at the temples, full short curly salt-and-pepper beard, sturdy fisherman build, ivory linen tunic and muted olive-green mantle. Clearly older than the apostle John.\n\nSCENE:\nInside a broad first-century wooden fishing boat on the Sea of Galilee at dawn, Simon Peter, the sturdy middle-aged fisherman, kneels before Jesus in amazement after a miraculous catch. Their faces are clearly visible: Peter in ivory and muted olive green, Jesus in burgundy and deep lapis blue. A heavy net full of fish rests inside the boat; a second fishing boat and hills appear softly behind. Peter's awe and Jesus' calm invitation are the emotional focus. Natural boats and fish, realistic anatomy, no text. Establish Peter's recurring face distinct from youthful John."
+        },
+        {
+          "number": 2,
+          "label": "Θάλασσα",
+          "caption": "Θάλασσα: ο Χριστός στηρίζει τον Πέτρο πάνω στα νερά.",
+          "passage": "Ματθαίος 14:22–33",
+          "source_url": "https://bible.usccb.org/bible/matthew/14",
+          "sha256": "0c89567cff91733b5b7ca4a9009b1e87a224501d24f79fcba8beadcf53265812",
+          "symbolic_note": null,
+          "historical_note": null,
+          "tradition_note": null,
+          "prompt": "Create one wide landscape 16:9 contemporary NEO-BYZANTINE Eastern Orthodox sacred narrative painting. A warm, expressive, approachable painted interpretation, with the spiritual dignity and palette of Orthodox iconography blended with natural human expression, softly modeled forms and real pictorial depth. Fully hand-painted appearance, egg-tempera and fresco-inspired mineral pigments, visible fine brushwork, subtle warm gold accents, deep lapis blue, muted burgundy, ochre, olive and warm ivory. Natural human proportions with gentle Byzantine refinement: expressive attentive eyes, slender faces, graceful hands, linear garment-fold accents softened by painterly shading. The setting remains spacious and believable, with softly painted hills, water, architecture and atmosphere; gold light integrates into the landscape rather than a flat ornamental gold wall. Use warm luminous sacred light and clear dramatic storytelling, with calm compassionate expressions and restrained emotion. Avoid rigid medieval icon-panel staging, extreme elongation, cartoon shapes, photographic skin and Western Baroque darkness. Jesus has the familiar Orthodox dark hair and beard, burgundy-red inner tunic and deep lapis-blue outer mantle, and a subtle gold CROSS NIMBUS, except radiant white clothing at Transfiguration and modest ivory clothing at Baptism, footwashing and Crucifixion. Apostles and the Baptist may have restrained simple round gold halos, never cross halos. Saul before conversion has no halo. Keep biblical actions and historical props coherent. Single coherent scene, legible faces, realistic anatomy and hands. Keep important faces inside the central 80 percent and the bottom 12 percent visually quiet for a later editable caption. NO lettering, inscriptions, labels, title, caption, logo, watermark, decorative frame or collage inside the image. No modern objects or medieval European armor. Do not depict God the Father as a human figure.\n\nJesus Christ: a first-century Jewish man about 32, olive complexion, brown eyes, shoulder-length wavy dark brown hair, neatly kept dark beard, calm compassionate face, burgundy-red inner tunic and deep lapis-blue outer mantle, leather sandals; gold cross nimbus, Byzantine iconographic face.\nSimon Peter: about 48, olive complexion, broad weathered face, short curly dark hair graying at the temples, full short curly salt-and-pepper beard, sturdy fisherman build, ivory linen tunic and muted olive-green mantle. Clearly older than the apostle John.\n\nSCENE:\nOn the stormy Sea of Galilee just before dawn, Jesus stands steady on the water and firmly takes Peter's forearm as Peter begins to sink, his upper body and face visible above the waves. Jesus is calm and compassionate; Peter frightened but trusting. A fishing boat with disciples is a short distance behind. Cool wind-driven waves, restrained gold light around the two faces, cinematic tension with hope. Correct two-person hand contact and realistic wet fabric. No injuries, no sea monsters, no duplicated limbs."
+        },
+        {
+          "number": 3,
+          "label": "Ομολογία",
+          "caption": "Ομολογία: «Σὺ εἶ ὁ Χριστὸς ὁ Υἱὸς τοῦ Θεοῦ τοῦ ζῶντος».",
+          "passage": "Ματθαίος 16:16",
+          "source_url": "https://www.biblegateway.com/verse/grc/Matthew%2016:16",
+          "sha256": "e7b4d2b846cf8088d4da383c66cda5c408cfc7fd6b2339ff9829711398b9c1fd",
+          "symbolic_note": null,
+          "historical_note": null,
+          "tradition_note": null,
+          "prompt": "Create one wide landscape 16:9 contemporary NEO-BYZANTINE Eastern Orthodox sacred narrative painting. A warm, expressive, approachable painted interpretation, with the spiritual dignity and palette of Orthodox iconography blended with natural human expression, softly modeled forms and real pictorial depth. Fully hand-painted appearance, egg-tempera and fresco-inspired mineral pigments, visible fine brushwork, subtle warm gold accents, deep lapis blue, muted burgundy, ochre, olive and warm ivory. Natural human proportions with gentle Byzantine refinement: expressive attentive eyes, slender faces, graceful hands, linear garment-fold accents softened by painterly shading. The setting remains spacious and believable, with softly painted hills, water, architecture and atmosphere; gold light integrates into the landscape rather than a flat ornamental gold wall. Use warm luminous sacred light and clear dramatic storytelling, with calm compassionate expressions and restrained emotion. Avoid rigid medieval icon-panel staging, extreme elongation, cartoon shapes, photographic skin and Western Baroque darkness. Jesus has the familiar Orthodox dark hair and beard, burgundy-red inner tunic and deep lapis-blue outer mantle, and a subtle gold CROSS NIMBUS, except radiant white clothing at Transfiguration and modest ivory clothing at Baptism, footwashing and Crucifixion. Apostles and the Baptist may have restrained simple round gold halos, never cross halos. Saul before conversion has no halo. Keep biblical actions and historical props coherent. Single coherent scene, legible faces, realistic anatomy and hands. Keep important faces inside the central 80 percent and the bottom 12 percent visually quiet for a later editable caption. NO lettering, inscriptions, labels, title, caption, logo, watermark, decorative frame or collage inside the image. No modern objects or medieval European armor. Do not depict God the Father as a human figure.\n\nJesus Christ: a first-century Jewish man about 32, olive complexion, brown eyes, shoulder-length wavy dark brown hair, neatly kept dark beard, calm compassionate face, burgundy-red inner tunic and deep lapis-blue outer mantle, leather sandals; gold cross nimbus, Byzantine iconographic face.\nSimon Peter: about 48, olive complexion, broad weathered face, short curly dark hair graying at the temples, full short curly salt-and-pepper beard, sturdy fisherman build, ivory linen tunic and muted olive-green mantle. Clearly older than the apostle John.\nJohn son of Zebedee, the young apostle: about 22, olive complexion, brown eyes, youthful clean-shaven face, short-to-medium curly dark brown hair, slim build, cream linen tunic and deep wine-burgundy mantle. Gentle and attentive. Clearly distinct from John the Baptist.\n\nSCENE:\nNear rocky Caesarea Philippi in daylight, Jesus and Peter face one another in a close but wide cinematic composition. Peter confidently answers with heartfelt conviction, open hand at his chest; Jesus listens with a gentle solemn expression. Young John and a few other disciples listen quietly farther behind. Limestone cliffs, green foothills, warm earthy landscape. Portray a conversation of faith; do not show literal keys, a crown, a church building or ceremonial objects."
+        },
+        {
+          "number": 4,
+          "label": "Νιπτήρας",
+          "caption": "Νιπτήρας: ο Χριστός πλένει τα πόδια του Πέτρου.",
+          "passage": "Ιωάννης 13:1–10",
+          "source_url": "https://www.biblegateway.com/passage/?search=John+13&version=NABRE",
+          "sha256": "11debc14bfe7f2de528fd49d0ac9180d449fe14c2b27fb142883ce6b03ddef7f",
+          "symbolic_note": null,
+          "historical_note": null,
+          "tradition_note": null,
+          "prompt": "Create one wide landscape 16:9 contemporary NEO-BYZANTINE Eastern Orthodox sacred narrative painting. A warm, expressive, approachable painted interpretation, with the spiritual dignity and palette of Orthodox iconography blended with natural human expression, softly modeled forms and real pictorial depth. Fully hand-painted appearance, egg-tempera and fresco-inspired mineral pigments, visible fine brushwork, subtle warm gold accents, deep lapis blue, muted burgundy, ochre, olive and warm ivory. Natural human proportions with gentle Byzantine refinement: expressive attentive eyes, slender faces, graceful hands, linear garment-fold accents softened by painterly shading. The setting remains spacious and believable, with softly painted hills, water, architecture and atmosphere; gold light integrates into the landscape rather than a flat ornamental gold wall. Use warm luminous sacred light and clear dramatic storytelling, with calm compassionate expressions and restrained emotion. Avoid rigid medieval icon-panel staging, extreme elongation, cartoon shapes, photographic skin and Western Baroque darkness. Jesus has the familiar Orthodox dark hair and beard, burgundy-red inner tunic and deep lapis-blue outer mantle, and a subtle gold CROSS NIMBUS, except radiant white clothing at Transfiguration and modest ivory clothing at Baptism, footwashing and Crucifixion. Apostles and the Baptist may have restrained simple round gold halos, never cross halos. Saul before conversion has no halo. Keep biblical actions and historical props coherent. Single coherent scene, legible faces, realistic anatomy and hands. Keep important faces inside the central 80 percent and the bottom 12 percent visually quiet for a later editable caption. NO lettering, inscriptions, labels, title, caption, logo, watermark, decorative frame or collage inside the image. No modern objects or medieval European armor. Do not depict God the Father as a human figure.\n\nJesus Christ: a first-century Jewish man about 32, olive complexion, brown eyes, shoulder-length wavy dark brown hair, neatly kept dark beard, calm compassionate face, burgundy-red inner tunic and deep lapis-blue outer mantle, leather sandals; gold cross nimbus, Byzantine iconographic face.\nSimon Peter: about 48, olive complexion, broad weathered face, short curly dark hair graying at the temples, full short curly salt-and-pepper beard, sturdy fisherman build, ivory linen tunic and muted olive-green mantle. Clearly older than the apostle John.\nJohn son of Zebedee, the young apostle: about 22, olive complexion, brown eyes, youthful clean-shaven face, short-to-medium curly dark brown hair, slim build, cream linen tunic and deep wine-burgundy mantle. Gentle and attentive. Clearly distinct from John the Baptist.\n\nSCENE:\nIn a Jerusalem upper room lit by oil lamps, Jesus, in a modest ivory tunic with a simple linen towel tied at his waist and his red outer mantle set aside, kneels at a low clay basin and washes Peter's foot. Peter sits on a low seat, his recognizable olive mantle visible, surprised and moved, one hand raised in gentle hesitation. Young John and other disciples watch quietly deeper in the room. Compassionate human gesture, visible faces and natural hands, modest clothing, authentic first-century domestic setting."
+        },
+        {
+          "number": 5,
+          "label": "Άρνηση",
+          "caption": "Άρνηση: «Πρὶν ἀλέκτορα φωνῆσαι, τρὶς ἀπαρνήσῃ με».",
+          "passage": "Ματθαίος 26:34 · Λουκάς 22:54–62",
+          "source_url": "https://bible.usccb.org/bible/matthew/26",
+          "sha256": "c7f77c23eb753c7d9fe156803755851e4b40d88c442043bc837c5a5563a381be",
+          "symbolic_note": null,
+          "historical_note": null,
+          "tradition_note": null,
+          "prompt": "Create one wide landscape 16:9 contemporary NEO-BYZANTINE Eastern Orthodox sacred narrative painting. A warm, expressive, approachable painted interpretation, with the spiritual dignity and palette of Orthodox iconography blended with natural human expression, softly modeled forms and real pictorial depth. Fully hand-painted appearance, egg-tempera and fresco-inspired mineral pigments, visible fine brushwork, subtle warm gold accents, deep lapis blue, muted burgundy, ochre, olive and warm ivory. Natural human proportions with gentle Byzantine refinement: expressive attentive eyes, slender faces, graceful hands, linear garment-fold accents softened by painterly shading. The setting remains spacious and believable, with softly painted hills, water, architecture and atmosphere; gold light integrates into the landscape rather than a flat ornamental gold wall. Use warm luminous sacred light and clear dramatic storytelling, with calm compassionate expressions and restrained emotion. Avoid rigid medieval icon-panel staging, extreme elongation, cartoon shapes, photographic skin and Western Baroque darkness. Jesus has the familiar Orthodox dark hair and beard, burgundy-red inner tunic and deep lapis-blue outer mantle, and a subtle gold CROSS NIMBUS, except radiant white clothing at Transfiguration and modest ivory clothing at Baptism, footwashing and Crucifixion. Apostles and the Baptist may have restrained simple round gold halos, never cross halos. Saul before conversion has no halo. Keep biblical actions and historical props coherent. Single coherent scene, legible faces, realistic anatomy and hands. Keep important faces inside the central 80 percent and the bottom 12 percent visually quiet for a later editable caption. NO lettering, inscriptions, labels, title, caption, logo, watermark, decorative frame or collage inside the image. No modern objects or medieval European armor. Do not depict God the Father as a human figure.\n\nSimon Peter: about 48, olive complexion, broad weathered face, short curly dark hair graying at the temples, full short curly salt-and-pepper beard, sturdy fisherman build, ivory linen tunic and muted olive-green mantle. Clearly older than the apostle John.\n\nSCENE:\nAt dawn in the high priest's stone courtyard, Peter in his olive-green mantle sits near a small charcoal fire as a servant woman questions him. His weathered face shows guilt, sorrow and fear. A rooster stands naturally near a low courtyard wall, clearly recognizable but not exaggerated. Background figures and a guarded passage remain softly out of focus; no violence. Cool dawn with amber firelight on Peter's face, tense intimate single moment. No Jesus duplicated in the crowd, no modern uniform."
+        },
+        {
+          "number": 6,
+          "label": "Αποκατάσταση",
+          "caption": "Αποκατάσταση: «Ποίμαινε τὰ πρόβατά μου».",
+          "passage": "Ιωάννης 21:16",
+          "source_url": "https://www.biblegateway.com/verse/grc/John%2021:16",
+          "sha256": "0b7b004ca4e89c06072e4a70192a5470b71a6d09606ea3f3705f2eb84f67bfeb",
+          "symbolic_note": null,
+          "historical_note": null,
+          "tradition_note": null,
+          "prompt": "Create one wide landscape 16:9 contemporary NEO-BYZANTINE Eastern Orthodox sacred narrative painting. A warm, expressive, approachable painted interpretation, with the spiritual dignity and palette of Orthodox iconography blended with natural human expression, softly modeled forms and real pictorial depth. Fully hand-painted appearance, egg-tempera and fresco-inspired mineral pigments, visible fine brushwork, subtle warm gold accents, deep lapis blue, muted burgundy, ochre, olive and warm ivory. Natural human proportions with gentle Byzantine refinement: expressive attentive eyes, slender faces, graceful hands, linear garment-fold accents softened by painterly shading. The setting remains spacious and believable, with softly painted hills, water, architecture and atmosphere; gold light integrates into the landscape rather than a flat ornamental gold wall. Use warm luminous sacred light and clear dramatic storytelling, with calm compassionate expressions and restrained emotion. Avoid rigid medieval icon-panel staging, extreme elongation, cartoon shapes, photographic skin and Western Baroque darkness. Jesus has the familiar Orthodox dark hair and beard, burgundy-red inner tunic and deep lapis-blue outer mantle, and a subtle gold CROSS NIMBUS, except radiant white clothing at Transfiguration and modest ivory clothing at Baptism, footwashing and Crucifixion. Apostles and the Baptist may have restrained simple round gold halos, never cross halos. Saul before conversion has no halo. Keep biblical actions and historical props coherent. Single coherent scene, legible faces, realistic anatomy and hands. Keep important faces inside the central 80 percent and the bottom 12 percent visually quiet for a later editable caption. NO lettering, inscriptions, labels, title, caption, logo, watermark, decorative frame or collage inside the image. No modern objects or medieval European armor. Do not depict God the Father as a human figure.\n\nJesus Christ: a first-century Jewish man about 32, olive complexion, brown eyes, shoulder-length wavy dark brown hair, neatly kept dark beard, calm compassionate face, burgundy-red inner tunic and deep lapis-blue outer mantle, leather sandals; gold cross nimbus, Byzantine iconographic face.\nSimon Peter: about 48, olive complexion, broad weathered face, short curly dark hair graying at the temples, full short curly salt-and-pepper beard, sturdy fisherman build, ivory linen tunic and muted olive-green mantle. Clearly older than the apostle John.\n\nSCENE:\nOn the quiet shore of the Sea of Tiberias after dawn, the risen Jesus speaks gently face to face with Peter. Peter listens with humble relief, his hands relaxed, their recognizable faces fully visible. A small charcoal breakfast fire, bread and fish lie a little behind them near a beached fishing boat. Golden lake light, calm water, restorative tenderness. Jesus in familiar burgundy and lapis blue, Peter in ivory and olive green. No literal sheep herd, no keys, no ornate church symbols."
+        },
+        {
+          "number": 7,
+          "label": "Πεντηκοστή",
+          "caption": "Πεντηκοστή: ο Πέτρος κηρύττει τον αναστημένο Χριστό.",
+          "passage": "Πράξεις 2:14–41",
+          "source_url": "https://www.biblegateway.com/passage/?search=Acts+2:14-41&version=NABRE",
+          "sha256": "0610d34f55a8cf3b04171164dd264d1777db736d5f347968560148fe6f48ace4",
+          "symbolic_note": null,
+          "historical_note": null,
+          "tradition_note": null,
+          "prompt": "Create one wide landscape 16:9 contemporary NEO-BYZANTINE Eastern Orthodox sacred narrative painting. A warm, expressive, approachable painted interpretation, with the spiritual dignity and palette of Orthodox iconography blended with natural human expression, softly modeled forms and real pictorial depth. Fully hand-painted appearance, egg-tempera and fresco-inspired mineral pigments, visible fine brushwork, subtle warm gold accents, deep lapis blue, muted burgundy, ochre, olive and warm ivory. Natural human proportions with gentle Byzantine refinement: expressive attentive eyes, slender faces, graceful hands, linear garment-fold accents softened by painterly shading. The setting remains spacious and believable, with softly painted hills, water, architecture and atmosphere; gold light integrates into the landscape rather than a flat ornamental gold wall. Use warm luminous sacred light and clear dramatic storytelling, with calm compassionate expressions and restrained emotion. Avoid rigid medieval icon-panel staging, extreme elongation, cartoon shapes, photographic skin and Western Baroque darkness. Jesus has the familiar Orthodox dark hair and beard, burgundy-red inner tunic and deep lapis-blue outer mantle, and a subtle gold CROSS NIMBUS, except radiant white clothing at Transfiguration and modest ivory clothing at Baptism, footwashing and Crucifixion. Apostles and the Baptist may have restrained simple round gold halos, never cross halos. Saul before conversion has no halo. Keep biblical actions and historical props coherent. Single coherent scene, legible faces, realistic anatomy and hands. Keep important faces inside the central 80 percent and the bottom 12 percent visually quiet for a later editable caption. NO lettering, inscriptions, labels, title, caption, logo, watermark, decorative frame or collage inside the image. No modern objects or medieval European armor. Do not depict God the Father as a human figure.\n\nSimon Peter: about 48, olive complexion, broad weathered face, short curly dark hair graying at the temples, full short curly salt-and-pepper beard, sturdy fisherman build, ivory linen tunic and muted olive-green mantle. Clearly older than the apostle John.\nJohn son of Zebedee, the young apostle: about 22, olive complexion, brown eyes, youthful clean-shaven face, short-to-medium curly dark brown hair, slim build, cream linen tunic and deep wine-burgundy mantle. Gentle and attentive. Clearly distinct from John the Baptist.\n\nSCENE:\nIn a first-century Jerusalem courtyard on Pentecost, Peter stands on a low stone step and addresses a gathered crowd with earnest hope, one hand raised naturally. Young John in burgundy and other apostles stand quietly behind him. A diverse gathering of Jewish men and women from several regions listens in simple period clothing. Warm morning light, authentic limestone architecture and modest courtyard, faces filled with attention. Jesus is not physically present. No modern church, no modern banners, no fantasy flames or spectacles."
+        }
+      ]
+    },
+    {
+      "id": "john-baptist",
+      "title": "Η πορεία του Ιωάννη του Βαπτιστή",
+      "music": "assassins-creed-rogue",
+      "native_slides_url": "https://docs.google.com/presentation/d/1MsqGzOOau_juVcOB1xCpaFWc02iCjoznisHGEyK29I4/edit?usp=drivesdk",
+      "scenes": [
+        {
+          "number": 1,
+          "label": "Επίσκεψη",
+          "caption": "Επίσκεψη: ο Ιωάννης σκιρτά μπροστά στον Χριστό.",
+          "passage": "Λουκάς 1:39–45 · συμβολική απόδοση",
+          "source_url": "https://bible.usccb.org/bible/luke/1",
+          "sha256": "d925d38cc081ab19c2f6e1fcffdeb349e7b78bfbcef23a37be1d0301149e59d1",
+          "symbolic_note": null,
+          "historical_note": "Two small clothed infant medallions are devotional symbolism for the Visitation, not anatomical fetal imaging.",
+          "tradition_note": null,
+          "prompt": "Use case: illustration-story. Asset: one 16:9 image for a Greek Orthodox educational slide and film. Create a NEW scene, not a crucifixion edit. Image 1 is only a neo-Byzantine painting/style reference and Mary identity reference, age-regressed for this scene; do not carry over the cross, male apostle or soldiers. The Visitation of the Virgin Mary and Elizabeth in a humble Judean stone courtyard among distant hills. Mary, a young first-century Jewish woman with olive complexion, soft dignified face, covered dark hair, warm ivory veil and lapis-blue mantle, greets Elizabeth, an older pregnant Jewish woman with gray-streaked covered hair, warm burgundy-brown and ivory clothes. Both are visibly pregnant and modestly fully clothed. They warmly embrace or hold each other's forearms, with joyful reverent expressions and simple gold round halos. Above each covered abdomen place a SMALL, subtle, translucent golden iconographic medallion, integrated into the painting, as symbolic spiritual vision, NOT an anatomical cutaway: within Mary's medallion a small fully clothed Christ infant with a tiny cross nimbus gives a blessing; within Elizabeth's medallion the small fully clothed infant John turns and bows reverently toward Christ, suggesting leaping for joy. Keep the medallions small so the maternal greeting dominates. No naked fetus, exposed organs, anatomical wombs or bodily transparency. Warm dawn light, olive tree, simple doorway, distinctive dynamic embracing composition rather than another group talking. Contemporary neo-Byzantine Eastern Orthodox narrative painting, expressive natural faces and hands, hand-painted egg-tempera/fresco brushwork, warm gold highlights, lapis blue, muted burgundy, ochre, ivory, real pictorial depth. Match the reference's detailed painterly quality, not rigid medieval icon-panel geometry or photo. Two principal adults only. All heads and halos fully within frame, bottom margin quiet. No lettering, caption, text, logo, watermark, border or collage panels."
+        },
+        {
+          "number": 2,
+          "label": "Έρημος",
+          "caption": "Έρημος: ο Ιωάννης καλεί τον λαό σε μετάνοια.",
+          "passage": "Ματθαίος 3:1–6",
+          "source_url": "https://www.biblegateway.com/passage/?search=Matthew+3&version=NABRE",
+          "sha256": "378030c7e2e254342d1313f1e382928a459e6418c1b23eb1cab2657c87cb9b47",
+          "symbolic_note": null,
+          "historical_note": null,
+          "tradition_note": null,
+          "prompt": "Create one wide landscape 16:9 contemporary NEO-BYZANTINE Eastern Orthodox sacred narrative painting. A warm, expressive, approachable painted interpretation, with the spiritual dignity and palette of Orthodox iconography blended with natural human expression, softly modeled forms and real pictorial depth. Fully hand-painted appearance, egg-tempera and fresco-inspired mineral pigments, visible fine brushwork, subtle warm gold accents, deep lapis blue, muted burgundy, ochre, olive and warm ivory. Natural human proportions with gentle Byzantine refinement: expressive attentive eyes, slender faces, graceful hands, linear garment-fold accents softened by painterly shading. The setting remains spacious and believable, with softly painted hills, water, architecture and atmosphere; gold light integrates into the landscape rather than a flat ornamental gold wall. Use warm luminous sacred light and clear dramatic storytelling, with calm compassionate expressions and restrained emotion. Avoid rigid medieval icon-panel staging, extreme elongation, cartoon shapes, photographic skin and Western Baroque darkness. Jesus has the familiar Orthodox dark hair and beard, burgundy-red inner tunic and deep lapis-blue outer mantle, and a subtle gold CROSS NIMBUS, except radiant white clothing at Transfiguration and modest ivory clothing at Baptism, footwashing and Crucifixion. Apostles and the Baptist may have restrained simple round gold halos, never cross halos. Saul before conversion has no halo. Keep biblical actions and historical props coherent. Single coherent scene, legible faces, realistic anatomy and hands. Keep important faces inside the central 80 percent and the bottom 12 percent visually quiet for a later editable caption. NO lettering, inscriptions, labels, title, caption, logo, watermark, decorative frame or collage inside the image. No modern objects or medieval European armor. Do not depict God the Father as a human figure.\n\nJohn the Baptist: about 33, lean rugged build, tanned olive complexion, untamed long dark hair and long full dark beard, coarse tan camel-hair robe with a simple dark leather belt, no ornate accessories. Clearly distinct from the youthful apostle John.\n\nSCENE:\nJohn the Baptist, a lean rugged Jewish prophet in a coarse tan camel-hair robe and simple leather belt, stands on a low rock beside the Jordan in the Judean wilderness and speaks to ordinary listeners. His distinctive long dark hair, long beard, weathered face and intent eyes are clearly visible. Men and women listen, some near the river shallows, reeds and desert cliffs behind. Golden late afternoon light, wind in rough fabric, prophetic conviction without theatrical anger. The Baptist is about thirty-three, not elderly, no ornate staff or fantasy jewelry."
+        },
+        {
+          "number": 3,
+          "label": "Ιορδάνης",
+          "caption": "Ιορδάνης: ο Ιωάννης βαπτίζει τον Ιησού.",
+          "passage": "Ματθαίος 3:13–17",
+          "source_url": "https://www.biblegateway.com/passage/?search=Matthew+3&version=NABRE",
+          "sha256": "863cedf05c02df475a73d3208913eef083d0e0ae12570f08e507a095c5cbc907",
+          "symbolic_note": null,
+          "historical_note": null,
+          "tradition_note": null,
+          "prompt": "Create one wide landscape 16:9 contemporary NEO-BYZANTINE Eastern Orthodox sacred narrative painting. A warm, expressive, approachable painted interpretation, with the spiritual dignity and palette of Orthodox iconography blended with natural human expression, softly modeled forms and real pictorial depth. Fully hand-painted appearance, egg-tempera and fresco-inspired mineral pigments, visible fine brushwork, subtle warm gold accents, deep lapis blue, muted burgundy, ochre, olive and warm ivory. Natural human proportions with gentle Byzantine refinement: expressive attentive eyes, slender faces, graceful hands, linear garment-fold accents softened by painterly shading. The setting remains spacious and believable, with softly painted hills, water, architecture and atmosphere; gold light integrates into the landscape rather than a flat ornamental gold wall. Use warm luminous sacred light and clear dramatic storytelling, with calm compassionate expressions and restrained emotion. Avoid rigid medieval icon-panel staging, extreme elongation, cartoon shapes, photographic skin and Western Baroque darkness. Jesus has the familiar Orthodox dark hair and beard, burgundy-red inner tunic and deep lapis-blue outer mantle, and a subtle gold CROSS NIMBUS, except radiant white clothing at Transfiguration and modest ivory clothing at Baptism, footwashing and Crucifixion. Apostles and the Baptist may have restrained simple round gold halos, never cross halos. Saul before conversion has no halo. Keep biblical actions and historical props coherent. Single coherent scene, legible faces, realistic anatomy and hands. Keep important faces inside the central 80 percent and the bottom 12 percent visually quiet for a later editable caption. NO lettering, inscriptions, labels, title, caption, logo, watermark, decorative frame or collage inside the image. No modern objects or medieval European armor. Do not depict God the Father as a human figure.\n\nJesus Christ: a first-century Jewish man about 32, olive complexion, brown eyes, shoulder-length wavy dark brown hair, neatly kept dark beard, calm compassionate face, burgundy-red inner tunic and deep lapis-blue outer mantle, leather sandals; gold cross nimbus, Byzantine iconographic face.\nJohn the Baptist: about 33, lean rugged build, tanned olive complexion, untamed long dark hair and long full dark beard, coarse tan camel-hair robe with a simple dark leather belt, no ornate accessories. Clearly distinct from the youthful apostle John.\n\nSCENE:\nIn the shallow Jordan River, John the Baptist in his coarse camel-hair robe and leather belt baptizes Jesus, who wears a modest undyed ivory robe, wet but opaque. Their distinct recognizable faces are clear; John gently pours a little river water with cupped hands. A single small white dove appears overhead in soft radiant daylight as the scriptural symbol of the Spirit. Reeds, stone banks, a few quiet witnesses in the distance. Dignified, luminous and intimate. No human depiction of God the Father, no floating face in the sky, no extra angels."
+        },
+        {
+          "number": 4,
+          "label": "Αμνός του Θεού",
+          "caption": "Αμνός του Θεού: ο Ιωάννης υποδεικνύει τον Χριστό.",
+          "passage": "Ιωάννης 1:29–34",
+          "source_url": "https://bible.usccb.org/bible/john/1",
+          "sha256": "c2fd07786443ae73fa400e94bc7e882f7a83fa851d1dd37a7f0748a64fa91585",
+          "symbolic_note": null,
+          "historical_note": null,
+          "tradition_note": null,
+          "prompt": "Create one wide landscape 16:9 contemporary NEO-BYZANTINE Eastern Orthodox sacred narrative painting. A warm, expressive, approachable painted interpretation, with the spiritual dignity and palette of Orthodox iconography blended with natural human expression, softly modeled forms and real pictorial depth. Fully hand-painted appearance, egg-tempera and fresco-inspired mineral pigments, visible fine brushwork, subtle warm gold accents, deep lapis blue, muted burgundy, ochre, olive and warm ivory. Natural human proportions with gentle Byzantine refinement: expressive attentive eyes, slender faces, graceful hands, linear garment-fold accents softened by painterly shading. The setting remains spacious and believable, with softly painted hills, water, architecture and atmosphere; gold light integrates into the landscape rather than a flat ornamental gold wall. Use warm luminous sacred light and clear dramatic storytelling, with calm compassionate expressions and restrained emotion. Avoid rigid medieval icon-panel staging, extreme elongation, cartoon shapes, photographic skin and Western Baroque darkness. Jesus has the familiar Orthodox dark hair and beard, burgundy-red inner tunic and deep lapis-blue outer mantle, and a subtle gold CROSS NIMBUS, except radiant white clothing at Transfiguration and modest ivory clothing at Baptism, footwashing and Crucifixion. Apostles and the Baptist may have restrained simple round gold halos, never cross halos. Saul before conversion has no halo. Keep biblical actions and historical props coherent. Single coherent scene, legible faces, realistic anatomy and hands. Keep important faces inside the central 80 percent and the bottom 12 percent visually quiet for a later editable caption. NO lettering, inscriptions, labels, title, caption, logo, watermark, decorative frame or collage inside the image. No modern objects or medieval European armor. Do not depict God the Father as a human figure.\n\nJesus Christ: a first-century Jewish man about 32, olive complexion, brown eyes, shoulder-length wavy dark brown hair, neatly kept dark beard, calm compassionate face, burgundy-red inner tunic and deep lapis-blue outer mantle, leather sandals; gold cross nimbus, Byzantine iconographic face.\nJohn the Baptist: about 33, lean rugged build, tanned olive complexion, untamed long dark hair and long full dark beard, coarse tan camel-hair robe with a simple dark leather belt, no ornate accessories. Clearly distinct from the youthful apostle John.\n\nSCENE:\nBy the Jordan River in warm morning light, John the Baptist stands in the foreground and gestures toward Jesus walking toward him along the bank, calmly identifying him to attentive listeners. John's rugged camel-hair robe, leather belt and long dark beard distinguish him from Jesus' neat beard, burgundy tunic and deep lapis-blue mantle. Jesus' face is recognizably the same as the shared reference. Open river landscape, calm expression of discovery and witness. The Lamb of God is a title for Jesus: show no literal lamb, no animal substitute, no written title."
+        },
+        {
+          "number": 5,
+          "label": "Γέφυρα Διαθηκών",
+          "caption": "Γέφυρα Διαθηκών: ο τελευταίος προφήτης δείχνει τον Χριστό.",
+          "passage": "Ματθαίος 11:13 · ορθόδοξη παράδοση",
+          "source_url": "https://www.oca.org/saints/lives/2026/01/07/100109-synaxis-of-the-holy-glorious-prophet-forerunner-and-baptist-john",
+          "sha256": "647997c6510244e291e1afe932c9eb12f1dca27578f0f9bc76f9596c279a80ed",
+          "symbolic_note": null,
+          "historical_note": "Symbolic continuity of the covenants; not a historical meeting.",
+          "tradition_note": null,
+          "prompt": "Use case: illustration-story. NEW symbolic educational scene about John the Baptist as the last prophet of the Old Covenant and the bridge to the New. Image 1 supplies only the Baptist's face, long dark hair, full beard, lean rugged build and tan camel-hair robe/leather belt; image 2 supplies only Christ's identity, burgundy tunic, lapis-blue mantle and gold cross nimbus. Do not replicate either existing group conversation composition. John the Baptist is the central full standing figure on a simple stone path by the Jordan. At the far left behind him appear two subdued, smaller prophet figures representing the Old Covenant: Moses, an elderly gray-bearded man holding two undecorated stone tablets, and Elijah, a gray-bearded man in a plain russet cloak holding a closed blank scroll. The Baptist takes a purposeful step forward with one open hand guiding the eye to Christ at the right, who stands warmly blessing, under luminous dawn light. One continuous painterly landscape, not a split screen or triptych. The prophets are softly painted symbolic presences, not asserted to be historically meeting Christ together. A flowing river and path connect the whole scene; the Baptist's role as Forerunner carries old prophetic expectation toward Christ. A subtle plain round halo for John, cross halo only for Christ. No man portraying God the Father, no lamb animal, no modern items, no written text on tablets or scroll. Create one 16:9 contemporary neo-Byzantine Eastern Orthodox painted narrative, expressive natural human faces and hands, hand-painted egg-tempera and fresco mineral-pigment texture, warm gold highlights, lapis blue, burgundy, ochre, olive and ivory, spacious believable depth, matching the supplied paintings. Not rigid medieval icon geometry, not photographic. No captions, labels, lettering, border, logo or watermark. Keep full heads and halos clear of all frame edges with at least 6 percent margin."
+        },
+        {
+          "number": 6,
+          "label": "Έλεγχος",
+          "caption": "Έλεγχος: ο Ιωάννης μιλά με παρρησία στον Ηρώδη.",
+          "passage": "Μάρκος 6:17–20",
+          "source_url": "https://bible.usccb.org/bible/mark/6",
+          "sha256": "78aa6831ab830368c4919c804ebd0f7cf7c9107880207c8b773264c2e8de8fa5",
+          "symbolic_note": null,
+          "historical_note": null,
+          "tradition_note": null,
+          "prompt": "Create one wide landscape 16:9 contemporary NEO-BYZANTINE Eastern Orthodox sacred narrative painting. A warm, expressive, approachable painted interpretation, with the spiritual dignity and palette of Orthodox iconography blended with natural human expression, softly modeled forms and real pictorial depth. Fully hand-painted appearance, egg-tempera and fresco-inspired mineral pigments, visible fine brushwork, subtle warm gold accents, deep lapis blue, muted burgundy, ochre, olive and warm ivory. Natural human proportions with gentle Byzantine refinement: expressive attentive eyes, slender faces, graceful hands, linear garment-fold accents softened by painterly shading. The setting remains spacious and believable, with softly painted hills, water, architecture and atmosphere; gold light integrates into the landscape rather than a flat ornamental gold wall. Use warm luminous sacred light and clear dramatic storytelling, with calm compassionate expressions and restrained emotion. Avoid rigid medieval icon-panel staging, extreme elongation, cartoon shapes, photographic skin and Western Baroque darkness. Jesus has the familiar Orthodox dark hair and beard, burgundy-red inner tunic and deep lapis-blue outer mantle, and a subtle gold CROSS NIMBUS, except radiant white clothing at Transfiguration and modest ivory clothing at Baptism, footwashing and Crucifixion. Apostles and the Baptist may have restrained simple round gold halos, never cross halos. Saul before conversion has no halo. Keep biblical actions and historical props coherent. Single coherent scene, legible faces, realistic anatomy and hands. Keep important faces inside the central 80 percent and the bottom 12 percent visually quiet for a later editable caption. NO lettering, inscriptions, labels, title, caption, logo, watermark, decorative frame or collage inside the image. No modern objects or medieval European armor. Do not depict God the Father as a human figure.\n\nJohn the Baptist: about 33, lean rugged build, tanned olive complexion, untamed long dark hair and long full dark beard, coarse tan camel-hair robe with a simple dark leather belt, no ornate accessories. Clearly distinct from the youthful apostle John.\n\nSCENE:\nJohn the Baptist in his humble rough robe and leather belt stands with quiet courage before Herod Antipas in a first-century Judean royal interior. Herod sits on a restrained stone-and-wood seat wearing a fine muted purple robe; a Roman-period attendant stands discreetly behind. The Baptist speaks frankly, one open hand, not shouting or fighting. Herod listens uneasily. Warm light through a window, modest Roman-Judean architecture, dignified contrast between prophetic truth and power. No medieval throne, crown, armor or modern palace. No torture or violence."
+        },
+        {
+          "number": 7,
+          "label": "Άσκηση",
+          "caption": "Άσκηση: ο Πρόδρομος, πρότυπο του μοναχικού βίου.",
+          "passage": "Ματθαίος 3:4 · ασκητική παράδοση",
+          "source_url": "https://www.stnilus.org/sample.pdf#page=190",
+          "sha256": "cfc6d3dbadae6a2af36c18f9a349dde127432c591c46b1ac4a10be418a109666",
+          "symbolic_note": null,
+          "historical_note": "Spiritual prototype of monastic ascetic life; not the historical founder of institutional monasticism.",
+          "tradition_note": null,
+          "prompt": "Use case: illustration-story. NEW scene of John the Baptist's severe ascetic life, as the Orthodox spiritual prototype of monastic life. Reference image supplies the same rugged young adult Baptist's recognizable olive face, long untamed brown hair and full beard, lean build, coarse tan camel-hair garment and dark leather belt, and the painting style. Change the composition entirely: a solitary John kneels in prayer on a rocky ledge outside a shallow desert cave at dawn, his body in three-quarter profile, both hands held naturally in prayer near his chest, head quietly bowed. Coarse humble garment, bare lower arms, leather sandals; simple clay water jar, a tiny bowl of wild honey, dry desert plants, no rich table. Vast layered Judean wilderness and a narrow distant river, warm luminous gold-blue sky. The picture conveys fasting, silence, prayer, hardship and inner resolve. A modest round gold halo fully within frame. NO other speaking people or gathered listeners, no black modern monastic habit, no church or medieval monastery, no prison, no execution, no book inscriptions, no wings. Entire body comfortably within the composition. Create one 16:9 contemporary neo-Byzantine Eastern Orthodox painted narrative, expressive natural human faces and hands, hand-painted egg-tempera and fresco mineral-pigment texture, warm gold highlights, lapis blue, burgundy, ochre, olive and ivory, spacious believable depth, matching the supplied paintings. Not rigid medieval icon geometry, not photographic. No captions, labels, lettering, border, logo or watermark. Keep full heads and halos clear of all frame edges with at least 6 percent margin."
+        }
+      ]
+    },
+    {
+      "id": "paul",
+      "title": "Η πορεία του Παύλου",
+      "music": "leave-her-johnny",
+      "native_slides_url": "https://docs.google.com/presentation/d/1BRyBNBs7QR6YynGDH98TcEldOOrkR2KDtbrDVmil8zI/edit?usp=drivesdk",
+      "scenes": [
+        {
+          "number": 1,
+          "label": "Διωγμός",
+          "caption": "Διωγμός: ο Σαούλ διώκει τους μαθητές του Χριστού.",
+          "passage": "Πράξεις 8:1–3",
+          "source_url": "https://bible.usccb.org/bible/acts/8",
+          "sha256": "fad541c23b86e1ad3422eb5fef366a4859cd476d7a5ea4060191f34dfc3af1d8",
+          "symbolic_note": null,
+          "historical_note": null,
+          "tradition_note": null,
+          "prompt": "Create one wide landscape 16:9 contemporary NEO-BYZANTINE Eastern Orthodox sacred narrative painting. A warm, expressive, approachable painted interpretation, with the spiritual dignity and palette of Orthodox iconography blended with natural human expression, softly modeled forms and real pictorial depth. Fully hand-painted appearance, egg-tempera and fresco-inspired mineral pigments, visible fine brushwork, subtle warm gold accents, deep lapis blue, muted burgundy, ochre, olive and warm ivory. Natural human proportions with gentle Byzantine refinement: expressive attentive eyes, slender faces, graceful hands, linear garment-fold accents softened by painterly shading. The setting remains spacious and believable, with softly painted hills, water, architecture and atmosphere; gold light integrates into the landscape rather than a flat ornamental gold wall. Use warm luminous sacred light and clear dramatic storytelling, with calm compassionate expressions and restrained emotion. Avoid rigid medieval icon-panel staging, extreme elongation, cartoon shapes, photographic skin and Western Baroque darkness. Jesus has the familiar Orthodox dark hair and beard, burgundy-red inner tunic and deep lapis-blue outer mantle, and a subtle gold CROSS NIMBUS, except radiant white clothing at Transfiguration and modest ivory clothing at Baptism, footwashing and Crucifixion. Apostles and the Baptist may have restrained simple round gold halos, never cross halos. Saul before conversion has no halo. Keep biblical actions and historical props coherent. Single coherent scene, legible faces, realistic anatomy and hands. Keep important faces inside the central 80 percent and the bottom 12 percent visually quiet for a later editable caption. NO lettering, inscriptions, labels, title, caption, logo, watermark, decorative frame or collage inside the image. No modern objects or medieval European armor. Do not depict God the Father as a human figure.\n\nSaul, later the apostle Paul: olive complexion, high forehead, receding short curly dark hair, short dark curly beard, long angular nose, intent brown eyes, lean build, ochre tunic and slate-blue mantle. Use the same recognizable identity as he gradually ages from his early thirties to his fifties.\n\nSCENE:\nIn a first-century Jerusalem limestone lane, young Saul, about thirty, stands in the foreground in an ochre tunic and slate-blue mantle, holding a plain rolled parchment, with a stern conflicted expression. Jewish temple attendants in simple linen tunics, brown cloaks, soft cloth head coverings, with no Roman military helmets or armor, farther behind lead two Christian believers from a house toward custody, gently but firmly, without striking them. Ordinary frightened witnesses by the doorway. Saul's distinct high forehead, receding dark curls, angular nose and short dark beard clearly visible. Dramatic but restrained afternoon light. No blood, beating, stoning or injuries; no modern police. Jesus is not physically present."
+        },
+        {
+          "number": 2,
+          "label": "Δαμασκός",
+          "caption": "Δαμασκός: ο Χριστός καλεί τον Σαούλ.",
+          "passage": "Πράξεις 9:1–9",
+          "source_url": "https://bible.usccb.org/bible/acts/9",
+          "sha256": "c3d1e07c0d982a1a3ccfd6f83cac18c98e4ab506b2983b7021a1c795b566689e",
+          "symbolic_note": null,
+          "historical_note": null,
+          "tradition_note": null,
+          "prompt": "Create one wide landscape 16:9 contemporary NEO-BYZANTINE Eastern Orthodox sacred narrative painting. A warm, expressive, approachable painted interpretation, with the spiritual dignity and palette of Orthodox iconography blended with natural human expression, softly modeled forms and real pictorial depth. Fully hand-painted appearance, egg-tempera and fresco-inspired mineral pigments, visible fine brushwork, subtle warm gold accents, deep lapis blue, muted burgundy, ochre, olive and warm ivory. Natural human proportions with gentle Byzantine refinement: expressive attentive eyes, slender faces, graceful hands, linear garment-fold accents softened by painterly shading. The setting remains spacious and believable, with softly painted hills, water, architecture and atmosphere; gold light integrates into the landscape rather than a flat ornamental gold wall. Use warm luminous sacred light and clear dramatic storytelling, with calm compassionate expressions and restrained emotion. Avoid rigid medieval icon-panel staging, extreme elongation, cartoon shapes, photographic skin and Western Baroque darkness. Jesus has the familiar Orthodox dark hair and beard, burgundy-red inner tunic and deep lapis-blue outer mantle, and a subtle gold CROSS NIMBUS, except radiant white clothing at Transfiguration and modest ivory clothing at Baptism, footwashing and Crucifixion. Apostles and the Baptist may have restrained simple round gold halos, never cross halos. Saul before conversion has no halo. Keep biblical actions and historical props coherent. Single coherent scene, legible faces, realistic anatomy and hands. Keep important faces inside the central 80 percent and the bottom 12 percent visually quiet for a later editable caption. NO lettering, inscriptions, labels, title, caption, logo, watermark, decorative frame or collage inside the image. No modern objects or medieval European armor. Do not depict God the Father as a human figure.\n\nSaul, later the apostle Paul: olive complexion, high forehead, receding short curly dark hair, short dark curly beard, long angular nose, intent brown eyes, lean build, ochre tunic and slate-blue mantle. Use the same recognizable identity as he gradually ages from his early thirties to his fifties.\n\nSCENE:\nOn the dusty ancient road approaching Damascus, Saul in his familiar ochre and slate-blue clothing has fallen to his knees, one hand braced on the road and the other raised instinctively, overwhelmed by a bright celestial light. Two traveling companions behind shield their eyes. Saul's face is clear and recognizable, filled with astonishment. Wide desert road, far city walls, intense yet natural gold-white light from above. Do not invent a horse, angel, written words, floating portrait or visible human Jesus; the encounter is represented by light and human reactions."
+        },
+        {
+          "number": 3,
+          "label": "Αποστολική Σύνοδος",
+          "caption": "Αποστολική Σύνοδος: οι εθνικοί ελεύθεροι από τον Μωσαϊκό νόμο.",
+          "passage": "Πράξεις 15:1–29",
+          "source_url": "https://bible.usccb.org/bible/acts/15",
+          "sha256": "b03a0c0a7b78c23d733aa689616f83a645e4ba91e5df8a036c10493ecd65d11e",
+          "symbolic_note": null,
+          "historical_note": null,
+          "tradition_note": null,
+          "prompt": "Use case: illustration-story. NEW scene: the Jerusalem Apostolic Council, Acts 15, considering whether Gentile converts must take on the Mosaic law. Image 1 supplies only Paul identity: angular olive face, curly receding dark hair, short dark beard, ochre tunic and slate-blue mantle; image 2 supplies only Peter identity: broad older olive face, curly gray hair and full short gray beard, ivory tunic and olive-green mantle. Do not carry over Christ or fishermen. Paul and Peter are distinct principal apostles in a humble first-century Jerusalem stone meeting room. Paul stands slightly to one side giving testimony with a calm open hand; Peter sits attentively nearby, concurring, not an angry antagonist. James, an older bearded man in simple cream and brown, sits centrally listening, with a few elders around a low wooden table with a plain rolled parchment. Diverse early Christian men and women listen in the doorway. A serious communal deliberation resolving debate, not another two-person casual conversation, no shouting or combat. Paul and Peter each have a simple gold round halo, never a cross halo; ordinary elders no halos. Historically period clothing and room, warm window light, humane gestures. No tablets of Ten Commandments presented as an object at the meeting, no swords, no papal tiara or bishop mitre. No written lettering on parchment. Wide 16:9 contemporary neo-Byzantine Eastern Orthodox narrative painting, hand-painted egg-tempera and fresco brushwork, refined natural human expressions and anatomy, warm gold accents and sacred light, lapis blue, ochre, ivory, olive and muted burgundy, deep spacious believable setting. Match the supplied painted series. No photo realism, rigid medieval icon panel, modern objects, western baroque darkness or cartoon shapes. Keep every halo and head fully inside the frame. No caption, logo, watermark or frame."
+        },
+        {
+          "number": 4,
+          "label": "Αθήνα",
+          "caption": "Αθήνα: «Τῷ ἀγνώστῳ Θεῷ» — ο Παύλος κηρύττει τον αληθινό Θεό.",
+          "passage": "Πράξεις 17:22–31",
+          "source_url": "https://bible.usccb.org/bible/acts/17",
+          "sha256": "aff415e302b71ddda0c1f4b74f25bddd4deeefe19aa1aa0dbf157e19591fe362",
+          "symbolic_note": null,
+          "historical_note": null,
+          "tradition_note": null,
+          "prompt": "Use case: precise-object-edit. EDIT TARGET: image 1, the existing painted Paul preaching in Athens. Preserve Paul's recognizable face, hair, beard, ochre tunic/slate-blue mantle, body pose and hands, the listeners' faces, the intact ancient Acropolis, sky, warm light and the detailed neo-Byzantine paint texture. Two requested additions only: (1) a clear simple circular gold saint halo behind Paul's head, fully within the picture, not a cross halo; (2) an authentic small first-century rectangular limestone votive ALTAR in the foreground near Paul, standing on the ground, naturally integrated with the perspective, big enough for a legible carved Greek dedication. Engrave EXACTLY two short centered lines in restrained ancient Greek stone capitals: first line 'ΑΓΝΩΣΤΩ', second line 'ΘΕΩ'. No other words. Place the altar so no face or important hand is obscured; minor ground/foreground space adjustment is allowed but keep the original principal composition. The altar is a real scene object with worn chisel marks, not a text overlay, not a gravestone, not a modern plaque. Make the letters unmistakable. Keep original landscape aspect ratio, no caption or decorative frame. Wide 16:9 contemporary neo-Byzantine Eastern Orthodox narrative painting, hand-painted egg-tempera and fresco brushwork, refined natural human expressions and anatomy, warm gold accents and sacred light, lapis blue, ochre, ivory, olive and muted burgundy, deep spacious believable setting. Match the supplied painted series. No photo realism, rigid medieval icon panel, modern objects, western baroque darkness or cartoon shapes. Keep every halo and head fully inside the frame. No caption, logo, watermark or frame."
+        },
+        {
+          "number": 5,
+          "label": "Κόρινθος",
+          "caption": "Κόρινθος: «Ἰουδαῖοι σημεῖον αἰτοῦσι καὶ Ἕλληνες σοφίαν ζητοῦσιν· ἡμεῖς δὲ κηρύσσομεν Χριστὸν ἐσταυρωμένον».",
+          "passage": "Α΄ Κορινθίους 1:22–23 · συμβολική απόδοση",
+          "source_url": "https://www.biblegateway.com/passage/?search=1%20Corinthians%201%3A22-23&version=TR1894",
+          "sha256": "eb383aa403b6e7d46c5148575ab7240a88e558165c9880dee673c79d32e77dfe",
+          "symbolic_note": null,
+          "historical_note": "Existing riverside picture repurposed as symbolic Corinth preaching at user's request; no listener is identified as Lydia.",
+          "tradition_note": null,
+          "prompt": "Use case: precise-object-edit. EDIT TARGET: image 1, the existing painted Paul speaking with women near an ancient Greek city. The user wants this image reused for a symbolic Corinth preaching scene; keep the same people, recognizable Paul face, pose, clothes, all listeners, their faces, hands, the riverside landscape and ancient architecture exactly as painted. Change ONLY one thing: add a clear simple circular gold apostolic halo behind Paul's head, fully inside the image. The halo should match the gold halos in the companion neo-Byzantine series, not a cross nimbus. Preserve everything else, including the purple garment and basket; there are no named Lydia figures in the new caption. Do not bake the Corinthians quotation into the image; it will be an editable caption. No lettering, no further scene changes, no watermark, no border. Wide 16:9 contemporary neo-Byzantine Eastern Orthodox narrative painting, hand-painted egg-tempera and fresco brushwork, refined natural human expressions and anatomy, warm gold accents and sacred light, lapis blue, ochre, ivory, olive and muted burgundy, deep spacious believable setting. Match the supplied painted series. No photo realism, rigid medieval icon panel, modern objects, western baroque darkness or cartoon shapes. Keep every halo and head fully inside the frame. No caption, logo, watermark or frame."
+        },
+        {
+          "number": 6,
+          "label": "Μάλτα",
+          "caption": "Μάλτα: «Τίς ἀσθενεῖ, καὶ οὐκ ἀσθενῶ;».",
+          "passage": "Πράξεις 28:1–10 · Β΄ Κορινθίους 11:29",
+          "source_url": "https://www.biblegateway.com/verse/grc/2%20Corinthians%2011%3A29",
+          "sha256": "5103a9333aa57fa7c7653f23fc8904a0e0a0d9823dcb730a68b60f16ae96b438",
+          "symbolic_note": null,
+          "historical_note": "Epistle quotation used as a theme of apostolic solidarity, not as words spoken at the depicted Malta event.",
+          "tradition_note": null,
+          "prompt": "Use case: precise-object-edit. EDIT TARGET: image 1, the existing painted shipwreck survivors and Paul building a fire on Malta. Preserve this illustration exactly: Paul's recognizable face, short curly hair and beard, ochre tunic/slate-blue mantle, bending pose and hands, every survivor's face, fire, wood, ancient ship, coastline, sky and brushwork. Change ONLY one thing: add a simple circular gold saint halo behind Paul's head, respecting depth and not obscuring his face or hair, fully within the picture. It must match the neo-Byzantine series' other apostolic halos and have no cross. Do NOT insert the requested Bible quote into the art; that will be editable caption text later. No other additions or removals, no lettering, no caption, no border or watermark. Wide 16:9 contemporary neo-Byzantine Eastern Orthodox narrative painting, hand-painted egg-tempera and fresco brushwork, refined natural human expressions and anatomy, warm gold accents and sacred light, lapis blue, ochre, ivory, olive and muted burgundy, deep spacious believable setting. Match the supplied painted series. No photo realism, rigid medieval icon panel, modern objects, western baroque darkness or cartoon shapes. Keep every halo and head fully inside the frame. No caption, logo, watermark or frame."
+        },
+        {
+          "number": 7,
+          "label": "Πρωτοκορυφαίοι",
+          "caption": "Ρώμη: Πέτρος και Παύλος, πρωτοκορυφαίοι και στύλοι της Εκκλησίας.",
+          "passage": "Ορθόδοξη παράδοση · συμβολική απόδοση",
+          "source_url": "https://www.oca.org/saints/troparia/1949/06/29/101840-the-holy-glorious-and-all-praised-leaders-of-the-apostles-peter",
+          "sha256": "ef6b40a8191155e36b546e60b84e2577f7c037bcdbb76118245b5ae9bcd368ca",
+          "symbolic_note": null,
+          "historical_note": "Joint support of a church model represents ecclesial unity, not a literal documented meeting or building in first-century Rome.",
+          "tradition_note": null,
+          "prompt": "Use case: illustration-story. NEW SYMBOLIC Orthodox scene for the Rome ending: Peter and Paul as the two foremost apostles, united in the Church. Image 1 is Paul identity reference only, not a persecution scene to copy: high forehead, receding curly dark hair, angular olive face, short dark beard, ochre tunic and slate-blue mantle, aged into his fifties. Image 2 is Peter identity reference only, not Christ or John: broad weathered olive face, short curly graying hair and short full gray beard, ivory tunic and olive-green mantle, aged into his sixties. Show exactly these two main apostles standing side by side with gentle fraternal unity and slightly turned toward one another, each with a plain circular gold halo, jointly supporting ONE small symbolic early Byzantine church model between them with natural hands. A restrained church model with a simple dome and cross, representing the Church rather than claiming it existed in first-century Rome. This is a devotional symbolic composition, not a reconstruction of a recorded meeting. Behind them a softly painted early Roman city with warm terracotta roofs and a distant classical arcade, luminous gold sky; NO Colosseum, no modern St Peter's Basilica, no papal clothing, crown or mitre. Show both full or three-quarter bodies, halos wholly inside frame, serene dignified sacred friendship; no audience or discussion group. No adult Christ figure. No written titles, labels, scroll inscriptions, captions, collage or decorative border. Wide 16:9 contemporary neo-Byzantine Eastern Orthodox narrative painting, hand-painted egg-tempera and fresco brushwork, refined natural human expressions and anatomy, warm gold accents and sacred light, lapis blue, ochre, ivory, olive and muted burgundy, deep spacious believable setting. Match the supplied painted series. No photo realism, rigid medieval icon panel, modern objects, western baroque darkness or cartoon shapes. Keep every halo and head fully inside the frame. No caption, logo, watermark or frame."
+        }
+      ]
+    }
+  ]
+}

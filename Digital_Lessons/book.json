@@ -3,8 +3,8 @@
   "book_id": "Digital_Lessons",
   "title": "Το ψηφιακό μου βιβλίο",
   "description": "Κείμενα, εικόνες και συνδέσεις για τα μαθήματά μας στα web apps και στο Unity.",
-  "revision": 7,
-  "updated_at": "2026-10-11T06:00:41+00:00",
+  "revision": 8,
+  "updated_at": "2026-10-11T14:24:31.973998+00:00",
   "cover": {
     "asset": "assets/old-testament-objects.png",
     "caption": "Έξι ιερά αντικείμενα της Παλαιάς Διαθήκης",
@@ -835,6 +835,239 @@
           "media": []
         }
       ]
+    },
+    {
+      "id": "lesson-003",
+      "title": "Καινή Διαθήκη: Η ζωή του Χριστού και η αποστολική μαρτυρία",
+      "short_title": "Καινή Διαθήκη",
+      "source_media_policy": "explicitly-selected-media-only",
+      "sections": [
+        {
+          "id": "john-baptist-journey",
+          "title": "Η πορεία του Ιωάννη του Βαπτιστή",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Στην Επίσκεψη της Παναγίας στην Ελισάβετ, ο Ιωάννης σκιρτά στην κοιλιά της μητέρας του μπροστά στην παρουσία του Χριστού· η εικόνα αποδίδει συμβολικά αυτή τη συνάντηση των δύο βρεφών. Μεγαλώνοντας στην έρημο, ζει με εγκράτεια και προσευχή και καλεί τον λαό σε μετάνοια. Στον Ιορδάνη βαπτίζει τον Ιησού και Τον υποδεικνύει ως τον Αμνό του Θεού. Στην ορθόδοξη παράδοση ο Πρόδρομος ολοκληρώνει την παλαιοδιαθηκική προφητεία και ανοίγει την εποχή της Καινής Διαθήκης, οδηγώντας προς τον Χριστό. Με παρρησία ελέγχει τον Ηρώδη. Η αυστηρή ασκητική ζωή του αποτελεί πνευματικό πρότυπο του μοναχικού βίου, με κέντρο τη μετάνοια, την προσευχή και την αναφορά στον Κύριο."
+            },
+            {
+              "kind": "source",
+              "text": "Πηγές και παράδοση: Λουκάς 1:39–45 · συμβολική απόδοση · Ματθαίος 3:1–6 · Ματθαίος 3:13–17 · Ιωάννης 1:29–34 · Ματθαίος 11:13 · ορθόδοξη παράδοση · Μάρκος 6:17–20 · Ματθαίος 3:4 · ασκητική παράδοση."
+            }
+          ],
+          "source_urls": [
+            "https://bible.usccb.org/bible/luke/1",
+            "https://www.biblegateway.com/passage/?search=Matthew+3&version=NABRE",
+            "https://bible.usccb.org/bible/john/1",
+            "https://www.oca.org/saints/lives/2026/01/07/100109-synaxis-of-the-holy-glorious-prophet-forerunner-and-baptist-john",
+            "https://bible.usccb.org/bible/mark/6",
+            "https://www.stnilus.org/sample.pdf#page=190"
+          ],
+          "source_file": "sources/new-testament-journeys.json",
+          "media": [
+            {
+              "media_id": "IMG-100",
+              "type": "image",
+              "title": "Επίσκεψη: ο Ιωάννης σκιρτά μπροστά στον Χριστό.",
+              "caption": "Επίσκεψη: ο Ιωάννης σκιρτά μπροστά στον Χριστό.",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/new-testament-journeys/john-baptist/01-visitation.jpg",
+              "asset": "assets/new-testament-journeys/john-baptist/01-visitation.jpg"
+            },
+            {
+              "media_id": "VID-030",
+              "type": "video",
+              "title": "Δες το βίντεο · 45″",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/new-testament-journeys/john-baptist-journey.mp4",
+              "placement": "after_text"
+            },
+            {
+              "media_id": "SLD-016",
+              "type": "slides",
+              "title": "Παρουσίαση Google Slides · 7 εικόνες",
+              "url": "https://docs.google.com/presentation/d/1MsqGzOOau_juVcOB1xCpaFWc02iCjoznisHGEyK29I4/edit?usp=drivesdk",
+              "placement": "after_text"
+            },
+            {
+              "media_id": "DOC-003",
+              "type": "document",
+              "title": "Διαφάνειες · PDF",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/new-testament-journeys/john-baptist-slides.pdf",
+              "asset": "assets/new-testament-journeys/john-baptist-slides.pdf",
+              "placement": "after_text"
+            }
+          ]
+        },
+        {
+          "id": "john-evangelist-journey",
+          "title": "Η πορεία του Ιωάννη",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Ο Ιωάννης, γιος του Ζεβεδαίου, άφησε την αλιεία και ακολούθησε τον Χριστό. Μαζί με τον Πέτρο και τον Ιάκωβο έγινε μάρτυρας της Μεταμόρφωσης και βρέθηκε κοντά στον Χριστό στη Γεθσημανή. Η εκκλησιαστική παράδοση τον συνδέει με τον αγαπημένο μαθητή του τέταρτου Ευαγγελίου: εκείνον που βρίσκεται κοντά στον Χριστό στον Μυστικό Δείπνο, στέκεται δίπλα στη Θεοτόκο κάτω από τον Σταυρό, επισκέπτεται με τον Πέτρο το κενό μνήμα και αναγνωρίζει τον αναστημένο Κύριο στην Τιβεριάδα. Η πορεία του φανερώνει την αγάπη και την πιστή μαρτυρία για τη ζωή, το Πάθος και την Ανάσταση του Χριστού."
+            },
+            {
+              "kind": "source",
+              "text": "Βιβλικές πηγές: Μάρκος 1:19–20 · Ματθαίος 17:1–9 · Ιωάννης 13:21–26 · Μάρκος 14:32–42 · Ιωάννης 19:25–27 · Ιωάννης 20:1–10 · Ιωάννης 21:1–14."
+            }
+          ],
+          "source_urls": [
+            "https://bible.usccb.org/bible/mark/1",
+            "https://bible.usccb.org/bible/matthew/17",
+            "https://www.biblegateway.com/passage/?search=John+13&version=NABRE",
+            "https://www.biblegateway.com/passage/?search=Mark+14:32-42&version=NABRE",
+            "https://bible.usccb.org/bible/john/19",
+            "https://bible.usccb.org/bible/john/20",
+            "https://bible.usccb.org/bible/john/21"
+          ],
+          "source_file": "sources/new-testament-journeys.json",
+          "media": [
+            {
+              "media_id": "IMG-098",
+              "type": "image",
+              "title": "Κλήση: ο Ιωάννης αφήνει τα δίχτυα και ακολουθεί τον Χριστό.",
+              "caption": "Κλήση: ο Ιωάννης αφήνει τα δίχτυα και ακολουθεί τον Χριστό.",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/new-testament-journeys/john-evangelist/01-calling.jpg",
+              "asset": "assets/new-testament-journeys/john-evangelist/01-calling.jpg"
+            },
+            {
+              "media_id": "VID-028",
+              "type": "video",
+              "title": "Δες το βίντεο · 45″",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/new-testament-journeys/john-evangelist-journey.mp4",
+              "placement": "after_text"
+            },
+            {
+              "media_id": "SLD-014",
+              "type": "slides",
+              "title": "Παρουσίαση Google Slides · 7 εικόνες",
+              "url": "https://docs.google.com/presentation/d/1A_LBWURpBkRsCZGIqxt03Wog2jLGLQRrwqpoX8aRpFc/edit?usp=drivesdk",
+              "placement": "after_text"
+            },
+            {
+              "media_id": "DOC-001",
+              "type": "document",
+              "title": "Διαφάνειες · PDF",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/new-testament-journeys/john-evangelist-slides.pdf",
+              "asset": "assets/new-testament-journeys/john-evangelist-slides.pdf",
+              "placement": "after_text"
+            }
+          ]
+        },
+        {
+          "id": "peter-journey",
+          "title": "Η πορεία του Πέτρου",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Ο Πέτρος, ψαράς της Γαλιλαίας, ανταποκρίθηκε στην κλήση του Χριστού μετά τη θαυμαστή αλιεία. Στη θάλασσα έμαθε να στηρίζεται στον Κύριο και στην Καισάρεια του Φιλίππου ομολόγησε ότι ο Ιησούς είναι ο Χριστός. Στον Νιπτήρα δέχθηκε το παράδειγμα της ταπεινής διακονίας. Η άρνησή του την ώρα του Πάθους τον οδήγησε σε δάκρυα μετανοίας, ενώ η συνάντησή του με τον αναστημένο Χριστό στην Τιβεριάδα ανανέωσε την αποστολή του. Την Πεντηκοστή κήρυξε δημόσια την Ανάσταση, καλώντας τους ακροατές του σε μετάνοια και βάπτισμα."
+            },
+            {
+              "kind": "source",
+              "text": "Πηγές και παράδοση: Λουκάς 5:1–11 · Ματθαίος 14:22–33 · Ματθαίος 16:16 · Ιωάννης 13:1–10 · Ματθαίος 26:34 · Λουκάς 22:54–62 · Ιωάννης 21:16 · Πράξεις 2:14–41."
+            }
+          ],
+          "source_urls": [
+            "https://bible.usccb.org/bible/luke/5",
+            "https://bible.usccb.org/bible/matthew/14",
+            "https://www.biblegateway.com/verse/grc/Matthew%2016:16",
+            "https://www.biblegateway.com/passage/?search=John+13&version=NABRE",
+            "https://bible.usccb.org/bible/matthew/26",
+            "https://www.biblegateway.com/verse/grc/John%2021:16",
+            "https://www.biblegateway.com/passage/?search=Acts+2:14-41&version=NABRE"
+          ],
+          "source_file": "sources/new-testament-journeys.json",
+          "media": [
+            {
+              "media_id": "IMG-099",
+              "type": "image",
+              "title": "Αλιεία: ο Πέτρος καλείται να ακολουθήσει τον Χριστό.",
+              "caption": "Αλιεία: ο Πέτρος καλείται να ακολουθήσει τον Χριστό.",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/new-testament-journeys/peter/01-miraculous-catch.jpg",
+              "asset": "assets/new-testament-journeys/peter/01-miraculous-catch.jpg"
+            },
+            {
+              "media_id": "VID-029",
+              "type": "video",
+              "title": "Δες το βίντεο · 45″",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/new-testament-journeys/peter-journey.mp4",
+              "placement": "after_text"
+            },
+            {
+              "media_id": "SLD-015",
+              "type": "slides",
+              "title": "Παρουσίαση Google Slides · 7 εικόνες",
+              "url": "https://docs.google.com/presentation/d/1eN_jyEiGJ28XEHs5qgn6p9sYiARaCfZmny9oti10xXg/edit?usp=drivesdk",
+              "placement": "after_text"
+            },
+            {
+              "media_id": "DOC-002",
+              "type": "document",
+              "title": "Διαφάνειες · PDF",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/new-testament-journeys/peter-slides.pdf",
+              "asset": "assets/new-testament-journeys/peter-slides.pdf",
+              "placement": "after_text"
+            }
+          ]
+        },
+        {
+          "id": "paul-journey",
+          "title": "Η πορεία του Παύλου",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Ο Σαούλ αρχικά διώκει τους μαθητές του Χριστού, ώσπου η κλήση του Κυρίου στον δρόμο προς τη Δαμασκό αλλάζει την πορεία του. Ως απόστολος Παύλος υπερασπίζεται την ελευθερία των εθνικών από την επιβολή του Μωσαϊκού νόμου. Στην Αποστολική Σύνοδο των Ιεροσολύμων ο Πέτρος και ο Παύλος στηρίζουν αυτή την αποστολή· η προσωπική διαφωνία τους για τη διάκριση εις βάρος των εθνικών τοποθετείται στην Αντιόχεια, όπως περιγράφει η Προς Γαλάτας. Στην Αθήνα ο Παύλος ξεκινά από τον βωμό στον άγνωστο Θεό και μιλά για τον αληθινό Θεό και την Ανάσταση. Στην Κόρινθο το κήρυγμά του έχει κέντρο τον εσταυρωμένο Χριστό, πέρα από την αναζήτηση σημείων και σοφίας. Μετά το ναυάγιο σώζεται στη Μάλτα· η φράση «Τίς ἀσθενεῖ, καὶ οὐκ ἀσθενῶ;» από τη Β΄ Κορινθίους εκφράζει εδώ το πνεύμα της αποστολικής συμπαράστασης. Το συμβολικό κλείσιμο στη Ρώμη παρουσιάζει τον Πέτρο και τον Παύλο ως πρωτοκορυφαίους, ενωμένους στην κοινή μαρτυρία της Εκκλησίας."
+            },
+            {
+              "kind": "source",
+              "text": "Πηγές και παράδοση: Πράξεις 8:1–3 · Πράξεις 9:1–9 · Πράξεις 15:1–29 · Πράξεις 17:22–31 · Α΄ Κορινθίους 1:22–23 · συμβολική απόδοση · Πράξεις 28:1–10 · Β΄ Κορινθίους 11:29 · Ορθόδοξη παράδοση · συμβολική απόδοση. Γαλάτας 2:11–14 (Αντιόχεια)."
+            }
+          ],
+          "source_urls": [
+            "https://bible.usccb.org/bible/acts/8",
+            "https://bible.usccb.org/bible/acts/9",
+            "https://bible.usccb.org/bible/acts/15",
+            "https://bible.usccb.org/bible/acts/17",
+            "https://www.biblegateway.com/passage/?search=1%20Corinthians%201%3A22-23&version=TR1894",
+            "https://www.biblegateway.com/verse/grc/2%20Corinthians%2011%3A29",
+            "https://www.oca.org/saints/troparia/1949/06/29/101840-the-holy-glorious-and-all-praised-leaders-of-the-apostles-peter",
+            "https://bible.usccb.org/bible/galatians/2"
+          ],
+          "source_file": "sources/new-testament-journeys.json",
+          "media": [
+            {
+              "media_id": "IMG-101",
+              "type": "image",
+              "title": "Διωγμός: ο Σαούλ διώκει τους μαθητές του Χριστού.",
+              "caption": "Διωγμός: ο Σαούλ διώκει τους μαθητές του Χριστού.",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/new-testament-journeys/paul/01-persecution.jpg",
+              "asset": "assets/new-testament-journeys/paul/01-persecution.jpg"
+            },
+            {
+              "media_id": "VID-031",
+              "type": "video",
+              "title": "Δες το βίντεο · 45″",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/new-testament-journeys/paul-journey.mp4",
+              "placement": "after_text"
+            },
+            {
+              "media_id": "SLD-017",
+              "type": "slides",
+              "title": "Παρουσίαση Google Slides · 7 εικόνες",
+              "url": "https://docs.google.com/presentation/d/1BRyBNBs7QR6YynGDH98TcEldOOrkR2KDtbrDVmil8zI/edit?usp=drivesdk",
+              "placement": "after_text"
+            },
+            {
+              "media_id": "DOC-004",
+              "type": "document",
+              "title": "Διαφάνειες · PDF",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/new-testament-journeys/paul-slides.pdf",
+              "asset": "assets/new-testament-journeys/paul-slides.pdf",
+              "placement": "after_text"
+            }
+          ]
+        }
+      ],
+      "source_file": "sources/new-testament-journeys.json"
     }
   ]
 }
