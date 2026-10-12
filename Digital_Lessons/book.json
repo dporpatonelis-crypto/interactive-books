@@ -3,8 +3,8 @@
   "book_id": "Digital_Lessons",
   "title": "Το ψηφιακό μου βιβλίο",
   "description": "Κείμενα, εικόνες και συνδέσεις για τα μαθήματά μας στα web apps και στο Unity.",
-  "revision": 11,
-  "updated_at": "2026-10-12T18:13:46+00:00",
+  "revision": 12,
+  "updated_at": "2026-10-12T20:25:47+00:00",
   "cover": {
     "asset": "assets/old-testament-objects.png",
     "caption": "Έξι ιερά αντικείμενα της Παλαιάς Διαθήκης",
@@ -1245,6 +1245,10 @@
             {
               "kind": "text",
               "text": "Το διαθέσιμο ψηφιακό υλικό περιλαμβάνει φύλλο εργασίας, ένα οπτικό ερώτημα και δύο δραστηριότητες στην Κλασική Αγορά του MindPalaceVR."
+            },
+            {
+              "kind": "text",
+              "text": "Στον Idea Weaver, οι μαθητές διερευνούν την κεντρική θέση μέσα από τεκμήρια για τα οφέλη και τα όρια της γνώσης, του πνεύματος και της κοινωνικής ζωής."
             }
           ],
           "media": [
@@ -1255,6 +1259,13 @@
               "url": "https://i.ibb.co/rRNWK0SJ/file-0000000099988210b2dd36736fa935f5.png",
               "asset": "assets/science-religion/logic-and-heart.png",
               "caption": "Πρέπει η επιστήμη να συνδέεται με την καρδιά και η θρησκεία με τη λογική;"
+            },
+            {
+              "media_id": "WEB-003",
+              "type": "website",
+              "title": "Άνοιξε το σενάριο στον Idea Weaver",
+              "url": "https://dporpatonelis-crypto.github.io/idea-weaver-board/library",
+              "placement": "after_text"
             }
           ]
         },
