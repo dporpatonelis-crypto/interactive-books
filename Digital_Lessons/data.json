@@ -2,8 +2,8 @@
   "title": "Το ψηφιακό μου βιβλίο",
   "description": "Κείμενα, εικόνες και συνδέσεις για τα μαθήματά μας στα web apps και στο Unity.",
   "bookId": "Digital_Lessons",
-  "revision": 8,
-  "sourceDigest": "15781bc2e8fd254998415d197548d4d930212cf19f4f499c7d5f523dc011bf22",
+  "revision": 9,
+  "sourceDigest": "c47214a4c618c790980830efd236c70062ace67e7592c9b89aad49cf2ef35578",
   "coverImage": "assets/old-testament-objects.png",
   "coverCaption": "Έξι ιερά αντικείμενα της Παλαιάς Διαθήκης",
   "edition": "ΠΡΟΣΩΠΙΚΟ ΨΗΦΙΑΚΟ ΒΙΒΛΙΟ",
@@ -1270,6 +1270,312 @@
           "retained": true
         }
       ]
+    },
+    {
+      "id": "apokalypsi",
+      "number": 20,
+      "type": "content",
+      "title": "Η Αποκάλυψη σε έξι σημεία",
+      "displayTitle": "Η Αποκάλυψη σε έξι σημεία",
+      "sourceBook": "Digital_Lessons",
+      "sourceTitle": "Μάθημα 4",
+      "sourcePage": 1,
+      "lessonId": "lesson-004",
+      "lessonTitle": "Η έννοια της Αποκάλυψης",
+      "sourceUrl": "",
+      "content": [
+        {
+          "text": "Το μάθημα οργανώνεται γύρω από τα έξι σημεία του χάρτη της Αποκάλυψης. Τα συναντάμε στη διαφάνεια 2 της παρουσίασης «δόγμα και βίωμα», στις έξι ανακαλύψεις του Interactive Sculpture, στο τρισδιάστατο Δέντρο και στους έξι παπύρους του MindPalaceVR.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "Κεντρικό ερώτημα: πώς η φανέρωση του Θεού συνδέεται με την ανθρώπινη γνώση, την ιστορία και το βίωμα;",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "Τα παρακάτω κείμενα είναι το περιεχόμενο των έξι παπύρων της Αποκάλυψης. Στον χάρτη, ο πυρήνας εμφανίζεται και ως «καρδιά».",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "Πυρήνας · Άκτιστες Ενέργειες",
+          "kind": "heading",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "quote": "Η άκτιστη πηγή της χάριτος: ο Θεός παραμένει ακατάληπτος κατά την ουσία, αλλά γίνεται γνωστός, μεθεκτός και ορατός κατά τις ενέργειές Του."
+        },
+        {
+          "text": "Κορμός · Ενανθρώπηση",
+          "kind": "heading",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "quote": "Η Ενανθρώπηση του Χριστού είναι το ιστορικό και θεολογικό κέντρο της Αποκάλυψης: ο Αχώρητος χωρείται στην κτιστή φύση."
+        },
+        {
+          "text": "Βάση · Αγία Γραφή",
+          "kind": "heading",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "quote": "Οι Γραφές αποτελούν το καταγεγραμμένο θεμέλιο της Αποκάλυψης και μαρτυρούν την προοδευτική φανέρωση στην Παλαιά και την Καινή Διαθήκη."
+        },
+        {
+          "text": "Χέρια · Άγιοι και Βίωμα",
+          "kind": "heading",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "quote": "Στους αγίους η Αποκάλυψη γίνεται ζώσα πράξη, μαρτυρία και μεταμόρφωση μέσα στον χρόνο."
+        },
+        {
+          "text": "Περιφέρεια · Κτίση και Ιστορία",
+          "kind": "heading",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "quote": "Η κτίση και η ιστορία φιλοξενούν θεοφάνειες, σύμβολα και γέφυρες που δείχνουν προς το Άκτιστο."
+        },
+        {
+          "text": "Κεφαλή · Θεογνωσία",
+          "kind": "heading",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "quote": "Ο τελικός σκοπός των θεοφανειών είναι η γνώση του Θεού: φωτισμός του νοός και προσωπική ένωση με τον Θεό, η θέωση."
+        },
+        {
+          "source": "Περιεχόμενο από το δικό μας ψηφιακό υλικό: χάρτης της Αποκάλυψης και έξι πάπυροι του MindPalaceVR."
+        }
+      ],
+      "mediaRefs": []
+    },
+    {
+      "id": "apokalypsi-materials",
+      "number": 21,
+      "type": "content",
+      "title": "Το υλικό μας στις εφαρμογές και στο VR",
+      "displayTitle": "Το υλικό μας στις εφαρμογές και στο VR",
+      "sourceBook": "Digital_Lessons",
+      "sourceTitle": "Μάθημα 4",
+      "sourcePage": 2,
+      "lessonId": "lesson-004",
+      "lessonTitle": "Η έννοια της Αποκάλυψης",
+      "sourceUrl": "",
+      "content": [
+        {
+          "text": "Για την προετοιμασία αυτού του μαθήματος έχουν επιλεγεί τέσσερα υπάρχοντα ψηφιακά υλικά:",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "• Χάρτης της Αποκάλυψης: η δεύτερη διαφάνεια της παρουσίασης «δόγμα και βίωμα», με τις έξι περιοχές και το επεξηγηματικό τους κείμενο.",
+          "kind": "list_item",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "• Interactive Sculpture: οι έξι ανακαλύψεις του ίδιου χάρτη, διαθέσιμες στην εφαρμογή «Ανακαλύψεις της τάξης».",
+          "kind": "list_item",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "• Δέντρο της Αποκάλυψης: το τρισδιάστατο μοντέλο έξι περιοχών υπάρχει στο Light Up Legacy. Το ενεργό περιεχόμενο της εφαρμογής αφορά την Πίστη.",
+          "kind": "list_item",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "• MindPalaceVR: οι έξι πάπυροι της Αποκάλυψης υπάρχουν στο Βυζάντιο ως υλικό για ανάγνωση και περισυλλογή.",
+          "kind": "list_item",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "Τι κάνει ο μαθητής στο VR",
+          "kind": "heading",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "Εντοπίζει έναν πάπυρο, τον πιάνει, διαβάζει το κείμενό του και τον αφήνει για να προστεθεί στη συλλογή του.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "Το υπάρχον Quiz του Βυζαντίου δεν χρησιμοποιεί τους έξι παπύρους. Η συλλογή τους ενημερώνει τον γενικό πίνακα διερεύνησης. Δεν έχει εντοπιστεί ειδική δραστηριότητα της Αποκάλυψης που να τους συνδυάζει με τα υπόλοιπα αντικείμενα του χώρου.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "Άνοιξε το υλικό",
+          "kind": "heading",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "Οι σύνδεσμοι που ακολουθούν ανοίγουν την παρουσίαση και τις δύο εφαρμογές. Στην παρουσίαση, αναζήτησε τη διαφάνεια 2 με τον χάρτη της Αποκάλυψης.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "source": "Τοπικό περιεχόμενο VR και σύνδεσμοι εφαρμογών: έλεγχος 12/10/2026. Η λειτουργία των παπύρων δεν δοκιμάστηκε με headset."
+        }
+      ],
+      "mediaRefs": [
+        "SLD-018",
+        "WEB-001",
+        "WEB-002"
+      ],
+      "slidesUrl": "https://docs.google.com/presentation/d/1kmnmtbIiGHRrPHlaKNaJ_QJPtuPZXSzGALTppAGILY0/edit",
+      "webUrl": "https://dporpatonelis-crypto.github.io/Interactive-sculpture/?scenario=slides-discovery",
+      "extraMedia": [
+        {
+          "media_id": "WEB-002",
+          "type": "website",
+          "title": "Light Up Legacy · τρισδιάστατο Δέντρο",
+          "url": "https://dporpatonelis-crypto.github.io/light-up-legacy/",
+          "placement": "after_text"
+        }
+      ]
+    },
+    {
+      "id": "apokalypsi-teaching",
+      "number": 22,
+      "type": "content",
+      "title": "Συζήτηση και σύνθεση στο μάθημα",
+      "displayTitle": "Συζήτηση και σύνθεση στο μάθημα",
+      "sourceBook": "Digital_Lessons",
+      "sourceTitle": "Μάθημα 4",
+      "sourcePage": 3,
+      "lessonId": "lesson-004",
+      "lessonTitle": "Η έννοια της Αποκάλυψης",
+      "sourceUrl": "",
+      "content": [
+        {
+          "text": "Στόχος είναι οι μαθητές να ερμηνεύσουν τα έξι σημεία, να στηρίξουν την εξήγησή τους στο κείμενο του χάρτη ή του παπύρου και να διατυπώσουν το κοινό νόημα της Αποκάλυψης.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "1. Παρατήρηση του χάρτη",
+          "kind": "heading",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "Προβάλλουμε τη διαφάνεια 2. Η τάξη εντοπίζει και ονομάζει τα έξι σημεία. Κάθε ομάδα επιλέγει ένα σημείο και διαβάζει την επεξήγησή του.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "2. Ανάγνωση και ανακάλυψη",
+          "kind": "heading",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "Οι μαθητές αναζητούν το επιλεγμένο σημείο στις έξι ανακαλύψεις της εφαρμογής ή στους παπύρους του Βυζαντίου. Κρατούν μια φράση από το κείμενο που θεωρούν βασική για το νόημά του.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "3. Εξήγηση με τεκμηρίωση",
+          "kind": "heading",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "Κάθε ομάδα εξηγεί με δικά της λόγια τι φανερώνει το σημείο της και αιτιολογεί την εξήγησή της με τη φράση που επέλεξε.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "Ερωτήματα για τη συζήτηση",
+          "kind": "heading",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "• Τι σημαίνει ότι ο Θεός παραμένει ακατάληπτος κατά την ουσία, αλλά γίνεται γνωστός κατά τις ενέργειές Του;",
+          "kind": "list_item",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "• Γιατί η Ενανθρώπηση βρίσκεται στον κορμό του χάρτη;",
+          "kind": "list_item",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "• Πώς η μαρτυρία της Αγίας Γραφής και το βίωμα των αγίων οδηγούν προς τη Θεογνωσία;",
+          "kind": "list_item",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "4. Σύντομη σύνθεση",
+          "kind": "heading",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "Οι μαθητές γράφουν δύο ή τρεις προτάσεις που απαντούν στο κεντρικό ερώτημα, χρησιμοποιώντας όρους από τον χάρτη και αναφορά στο κείμενο ενός παπύρου.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "Τι παρατηρεί ο εκπαιδευτικός",
+          "kind": "heading",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "• Αν ο μαθητής χρησιμοποιεί σωστά τους όρους του χάρτη.",
+          "kind": "list_item",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "• Αν στηρίζει την ερμηνεία του στο ψηφιακό κείμενο που διάβασε.",
+          "kind": "list_item",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "• Αν μπορεί να διατυπώσει μια σύνθεση που οδηγεί προς τη γνώση του Θεού και το προσωπικό βίωμα.",
+          "kind": "list_item",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "source": "Η διδακτική πορεία και τα ερωτήματα συντάχθηκαν για αυτή την ενότητα, με βάση τα τέσσερα υλικά που επέλεξε ο εκπαιδευτικός. Δεν αποτελούν πρόσθετο σενάριο Quiz μέσα στο VR."
+        }
+      ],
+      "mediaRefs": []
     }
   ]
 }

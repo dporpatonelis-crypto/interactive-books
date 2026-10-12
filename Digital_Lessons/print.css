@@ -35,3 +35,5 @@
 
 .lesson-table thead th:last-child{white-space:nowrap;overflow-wrap:normal}
 .section-epilogue{clear:both;break-before:page}
+
+#section-apokalypsi h3,#section-apokalypsi-teaching h3{margin:3mm 0 1mm}

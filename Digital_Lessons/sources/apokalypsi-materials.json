@@ -1,0 +1,207 @@
+{
+  "topic": "Η έννοια της Αποκάλυψης",
+  "selected_item_ids": [
+    "unity-vr",
+    "slides-map",
+    "sculpture-snapshot",
+    "lightup-tree"
+  ],
+  "cloud_source_checked_at": "2026-10-11T21:43:00Z",
+  "local_source_checked_at": "2026-10-12T15:22:30Z",
+  "selection_authority": "Human confirmation: all four listed digital materials, excluding the gradual-Revelation documents.",
+  "pedagogical_authorship": "New teacher-facing discussion prompts derived from the selected existing content.",
+  "items": [
+    {
+      "id": "unity-vr",
+      "title": "Έξι πάπυροι της Αποκάλυψης",
+      "summary": "Οι έξι πάπυροι υπάρχουν στο Βυζάντιο ως υλικό για ανάγνωση και περισυλλογή.",
+      "sections": [
+        {
+          "type": "cards",
+          "title": "Οι έξι πάπυροι",
+          "expandable_cards": true,
+          "cards": [
+            {
+              "title": "Πυρήνας · Άκτιστες Ενέργειες",
+              "text": "Η άκτιστη πηγή της χάριτος: ο Θεός παραμένει ακατάληπτος κατά την ουσία, αλλά γίνεται γνωστός, μεθεκτός και ορατός κατά τις ενέργειές Του."
+            },
+            {
+              "title": "Κορμός · Ενανθρώπηση",
+              "text": "Η Ενανθρώπηση του Χριστού είναι το ιστορικό και θεολογικό κέντρο της Αποκάλυψης: ο Αχώρητος χωρείται στην κτιστή φύση."
+            },
+            {
+              "title": "Βάση · Αγία Γραφή",
+              "text": "Οι Γραφές αποτελούν το καταγεγραμμένο θεμέλιο της Αποκάλυψης και μαρτυρούν την προοδευτική φανέρωση στην Παλαιά και την Καινή Διαθήκη."
+            },
+            {
+              "title": "Χέρια · Άγιοι και Βίωμα",
+              "text": "Στους αγίους η Αποκάλυψη γίνεται ζώσα πράξη, μαρτυρία και μεταμόρφωση μέσα στον χρόνο."
+            },
+            {
+              "title": "Περιφέρεια · Κτίση και Ιστορία",
+              "text": "Η κτίση και η ιστορία φιλοξενούν θεοφάνειες, σύμβολα και γέφυρες που δείχνουν προς το Άκτιστο."
+            },
+            {
+              "title": "Κεφαλή · Θεογνωσία",
+              "text": "Ο τελικός σκοπός των θεοφανειών είναι η γνώση του Θεού: φωτισμός του νοός και προσωπική ένωση με τον Θεό, η θέωση."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "title": "Σχέση με τις άλλες δραστηριότητες",
+          "text": "Το υπάρχον Quiz του Βυζαντίου δεν χρησιμοποιεί τους έξι παπύρους. Η συλλογή τους ενημερώνει τον γενικό πίνακα διερεύνησης. Δεν εντοπίστηκε ειδική δραστηριότητα της Αποκάλυψης που να τους συνδυάζει με τα υπόλοιπα αντικείμενα του χώρου."
+        }
+      ],
+      "source_urls": [],
+      "material_links": []
+    },
+    {
+      "id": "slides-map",
+      "title": "Ο χάρτης της Αποκάλυψης",
+      "summary": "Οι έξι περιοχές του χάρτη με το επεξηγηματικό τους κείμενο.",
+      "sections": [
+        {
+          "type": "cards",
+          "title": "Οι έξι περιοχές και το περιεχόμενό τους",
+          "cards": [
+            {
+              "title": "Κεφαλή · Θεογνωσία",
+              "text": "Σκοπός των θεοφανειών: φωτισμός του νου και προσωπική ένωση με τον Θεό."
+            },
+            {
+              "title": "Χέρια · Άγιοι και βίωμα",
+              "text": "Η Αποκάλυψη γίνεται πράξη, μαρτυρία και μεταμόρφωση μέσα στον χρόνο."
+            },
+            {
+              "title": "Κορμός · Ενανθρώπηση",
+              "text": "Το ιστορικό και θεολογικό κέντρο, όπου ο Χριστός προσλαμβάνει την κτιστή φύση."
+            },
+            {
+              "title": "Βάση · Γραφή",
+              "text": "Το καταγεγραμμένο θεμέλιο και η προοδευτική φανέρωση στην Παλαιά και την Καινή Διαθήκη."
+            },
+            {
+              "title": "Καρδιά · Άκτιστες ενέργειες",
+              "text": "Ο Θεός είναι ακατάληπτος ως προς την ουσία και μεθεκτός ως προς τις ενέργειές Του."
+            },
+            {
+              "title": "Περιφέρεια · Κτίση και ιστορία",
+              "text": "Ο υλικός χώρος και ο ιστορικός χρόνος φιλοξενούν θεοφάνειες, σύμβολα και γέφυρες προς το Άκτιστο."
+            }
+          ],
+          "expandable_cards": true
+        }
+      ],
+      "source_urls": [
+        "https://docs.google.com/presentation/d/1kmnmtbIiGHRrPHlaKNaJ_QJPtuPZXSzGALTppAGILY0/edit"
+      ],
+      "material_links": [
+        {
+          "label": "Χάρτης της Αποκάλυψης · διαφάνεια 2",
+          "url": "https://docs.google.com/presentation/d/1kmnmtbIiGHRrPHlaKNaJ_QJPtuPZXSzGALTppAGILY0/edit",
+          "media_id": "SLD-018"
+        }
+      ]
+    },
+    {
+      "id": "sculpture-snapshot",
+      "title": "Έξι ανακαλύψεις της Αποκάλυψης",
+      "summary": "Υπάρχει αποθηκευμένο περιεχόμενο για τα έξι σημεία του χάρτη της Αποκάλυψης στην εφαρμογή ανακαλύψεων.",
+      "sections": [
+        {
+          "type": "cards",
+          "title": "Περιεχόμενο των έξι ανακαλύψεων",
+          "cards": [
+            {
+              "title": "Κεφαλή",
+              "text": "Θεογνωσία: φωτισμός και προσωπική ένωση με τον Θεό."
+            },
+            {
+              "title": "Χέρια",
+              "text": "Άγιοι και βίωμα: μαρτυρία και μεταμόρφωση στην ιστορία."
+            },
+            {
+              "title": "Κορμός",
+              "text": "Ενανθρώπηση του Χριστού ως κέντρο."
+            },
+            {
+              "title": "Βάση",
+              "text": "Αγία Γραφή και προοδευτική φανέρωση Παλαιάς και Καινής Διαθήκης."
+            },
+            {
+              "title": "Καρδιά",
+              "text": "Άκτιστες ενέργειες: γνώση και μετοχή χωρίς κατανόηση της θείας ουσίας."
+            },
+            {
+              "title": "Περιφέρεια",
+              "text": "Κτίση και ιστορία ως χώρος θεοφανειών και συμβόλων."
+            }
+          ],
+          "expandable_cards": true
+        }
+      ],
+      "source_urls": [
+        "https://github.com/dporpatonelis-crypto/Interactive-sculpture/blob/main/data/slides-discoveries.json",
+        "https://github.com/dporpatonelis-crypto/Interactive-sculpture/blob/main/README.md"
+      ],
+      "material_links": [
+        {
+          "label": "Interactive Sculpture · έξι ανακαλύψεις",
+          "url": "https://dporpatonelis-crypto.github.io/Interactive-sculpture/?scenario=slides-discovery",
+          "media_id": "WEB-001"
+        }
+      ]
+    },
+    {
+      "id": "lightup-tree",
+      "title": "Το Δέντρο της Αποκάλυψης",
+      "summary": "Υπάρχει το μοντέλο με τις έξι περιοχές της Αποκάλυψης. Το καταγεγραμμένο ενεργό περιεχόμενο της εφαρμογής αφορά την Πίστη.",
+      "sections": [
+        {
+          "type": "cards",
+          "title": "Οι έξι περιοχές του μοντέλου",
+          "expandable_cards": true,
+          "cards": [
+            {
+              "title": "Κεφαλή",
+              "text": "Θεογνωσία"
+            },
+            {
+              "title": "Χέρια",
+              "text": "Άγιοι και ζωντανό βίωμα"
+            },
+            {
+              "title": "Κορμός",
+              "text": "Ενανθρώπηση"
+            },
+            {
+              "title": "Βάση",
+              "text": "Αγία Γραφή και προοδευτική Αποκάλυψη"
+            },
+            {
+              "title": "Καρδιά",
+              "text": "Άκτιστες ενέργειες"
+            },
+            {
+              "title": "Περιφέρεια",
+              "text": "Κτίση και ιστορία"
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        "https://github.com/dporpatonelis-crypto/light-up-legacy/blob/main/public/sculptures.json",
+        "https://github.com/dporpatonelis-crypto/light-up-legacy/blob/main/public/models/tree-revelation-regions.glb",
+        "https://github.com/dporpatonelis-crypto/light-up-legacy/blob/main/public/contributions.json"
+      ],
+      "material_links": [
+        {
+          "label": "Light Up Legacy · τρισδιάστατο Δέντρο",
+          "url": "https://dporpatonelis-crypto.github.io/light-up-legacy/",
+          "media_id": "WEB-002"
+        }
+      ]
+    }
+  ]
+}
