@@ -2,8 +2,8 @@
   "title": "Το ψηφιακό μου βιβλίο",
   "description": "Κείμενα, εικόνες και συνδέσεις για τα μαθήματά μας στα web apps και στο Unity.",
   "bookId": "Digital_Lessons",
-  "revision": 9,
-  "sourceDigest": "c47214a4c618c790980830efd236c70062ace67e7592c9b89aad49cf2ef35578",
+  "revision": 10,
+  "sourceDigest": "3c6f72b03703bdc9085e99b117f8120fddf0848a585028c08bc9a5b694ea1560",
   "coverImage": "assets/old-testament-objects.png",
   "coverCaption": "Έξι ιερά αντικείμενα της Παλαιάς Διαθήκης",
   "edition": "ΠΡΟΣΩΠΙΚΟ ΨΗΦΙΑΚΟ ΒΙΒΛΙΟ",
@@ -1355,9 +1355,6 @@
         },
         {
           "quote": "Ο τελικός σκοπός των θεοφανειών είναι η γνώση του Θεού: φωτισμός του νοός και προσωπική ένωση με τον Θεό, η θέωση."
-        },
-        {
-          "source": "Περιεχόμενο από το δικό μας ψηφιακό υλικό: χάρτης της Αποκάλυψης και έξι πάπυροι του MindPalaceVR."
         }
       ],
       "mediaRefs": []
@@ -1394,7 +1391,7 @@
           "hotspots": []
         },
         {
-          "text": "• Δέντρο της Αποκάλυψης: το τρισδιάστατο μοντέλο έξι περιοχών υπάρχει στο Light Up Legacy. Το ενεργό περιεχόμενο της εφαρμογής αφορά την Πίστη.",
+          "text": "• Δέντρο της Αποκάλυψης: το τρισδιάστατο μοντέλο έξι περιοχών υπάρχει στο Light Up Legacy.",
           "kind": "list_item",
           "paragraphBoundary": true,
           "hotspots": []
@@ -1418,12 +1415,6 @@
           "hotspots": []
         },
         {
-          "text": "Το υπάρχον Quiz του Βυζαντίου δεν χρησιμοποιεί τους έξι παπύρους. Η συλλογή τους ενημερώνει τον γενικό πίνακα διερεύνησης. Δεν έχει εντοπιστεί ειδική δραστηριότητα της Αποκάλυψης που να τους συνδυάζει με τα υπόλοιπα αντικείμενα του χώρου.",
-          "kind": "text",
-          "paragraphBoundary": true,
-          "hotspots": []
-        },
-        {
           "text": "Άνοιξε το υλικό",
           "kind": "heading",
           "paragraphBoundary": true,
@@ -1434,9 +1425,6 @@
           "kind": "text",
           "paragraphBoundary": true,
           "hotspots": []
-        },
-        {
-          "source": "Τοπικό περιεχόμενο VR και σύνδεσμοι εφαρμογών: έλεγχος 12/10/2026. Η λειτουργία των παπύρων δεν δοκιμάστηκε με headset."
         }
       ],
       "mediaRefs": [
@@ -1455,127 +1443,6 @@
           "placement": "after_text"
         }
       ]
-    },
-    {
-      "id": "apokalypsi-teaching",
-      "number": 22,
-      "type": "content",
-      "title": "Συζήτηση και σύνθεση στο μάθημα",
-      "displayTitle": "Συζήτηση και σύνθεση στο μάθημα",
-      "sourceBook": "Digital_Lessons",
-      "sourceTitle": "Μάθημα 4",
-      "sourcePage": 3,
-      "lessonId": "lesson-004",
-      "lessonTitle": "Η έννοια της Αποκάλυψης",
-      "sourceUrl": "",
-      "content": [
-        {
-          "text": "Στόχος είναι οι μαθητές να ερμηνεύσουν τα έξι σημεία, να στηρίξουν την εξήγησή τους στο κείμενο του χάρτη ή του παπύρου και να διατυπώσουν το κοινό νόημα της Αποκάλυψης.",
-          "kind": "text",
-          "paragraphBoundary": true,
-          "hotspots": []
-        },
-        {
-          "text": "1. Παρατήρηση του χάρτη",
-          "kind": "heading",
-          "paragraphBoundary": true,
-          "hotspots": []
-        },
-        {
-          "text": "Προβάλλουμε τη διαφάνεια 2. Η τάξη εντοπίζει και ονομάζει τα έξι σημεία. Κάθε ομάδα επιλέγει ένα σημείο και διαβάζει την επεξήγησή του.",
-          "kind": "text",
-          "paragraphBoundary": true,
-          "hotspots": []
-        },
-        {
-          "text": "2. Ανάγνωση και ανακάλυψη",
-          "kind": "heading",
-          "paragraphBoundary": true,
-          "hotspots": []
-        },
-        {
-          "text": "Οι μαθητές αναζητούν το επιλεγμένο σημείο στις έξι ανακαλύψεις της εφαρμογής ή στους παπύρους του Βυζαντίου. Κρατούν μια φράση από το κείμενο που θεωρούν βασική για το νόημά του.",
-          "kind": "text",
-          "paragraphBoundary": true,
-          "hotspots": []
-        },
-        {
-          "text": "3. Εξήγηση με τεκμηρίωση",
-          "kind": "heading",
-          "paragraphBoundary": true,
-          "hotspots": []
-        },
-        {
-          "text": "Κάθε ομάδα εξηγεί με δικά της λόγια τι φανερώνει το σημείο της και αιτιολογεί την εξήγησή της με τη φράση που επέλεξε.",
-          "kind": "text",
-          "paragraphBoundary": true,
-          "hotspots": []
-        },
-        {
-          "text": "Ερωτήματα για τη συζήτηση",
-          "kind": "heading",
-          "paragraphBoundary": true,
-          "hotspots": []
-        },
-        {
-          "text": "• Τι σημαίνει ότι ο Θεός παραμένει ακατάληπτος κατά την ουσία, αλλά γίνεται γνωστός κατά τις ενέργειές Του;",
-          "kind": "list_item",
-          "paragraphBoundary": true,
-          "hotspots": []
-        },
-        {
-          "text": "• Γιατί η Ενανθρώπηση βρίσκεται στον κορμό του χάρτη;",
-          "kind": "list_item",
-          "paragraphBoundary": true,
-          "hotspots": []
-        },
-        {
-          "text": "• Πώς η μαρτυρία της Αγίας Γραφής και το βίωμα των αγίων οδηγούν προς τη Θεογνωσία;",
-          "kind": "list_item",
-          "paragraphBoundary": true,
-          "hotspots": []
-        },
-        {
-          "text": "4. Σύντομη σύνθεση",
-          "kind": "heading",
-          "paragraphBoundary": true,
-          "hotspots": []
-        },
-        {
-          "text": "Οι μαθητές γράφουν δύο ή τρεις προτάσεις που απαντούν στο κεντρικό ερώτημα, χρησιμοποιώντας όρους από τον χάρτη και αναφορά στο κείμενο ενός παπύρου.",
-          "kind": "text",
-          "paragraphBoundary": true,
-          "hotspots": []
-        },
-        {
-          "text": "Τι παρατηρεί ο εκπαιδευτικός",
-          "kind": "heading",
-          "paragraphBoundary": true,
-          "hotspots": []
-        },
-        {
-          "text": "• Αν ο μαθητής χρησιμοποιεί σωστά τους όρους του χάρτη.",
-          "kind": "list_item",
-          "paragraphBoundary": true,
-          "hotspots": []
-        },
-        {
-          "text": "• Αν στηρίζει την ερμηνεία του στο ψηφιακό κείμενο που διάβασε.",
-          "kind": "list_item",
-          "paragraphBoundary": true,
-          "hotspots": []
-        },
-        {
-          "text": "• Αν μπορεί να διατυπώσει μια σύνθεση που οδηγεί προς τη γνώση του Θεού και το προσωπικό βίωμα.",
-          "kind": "list_item",
-          "paragraphBoundary": true,
-          "hotspots": []
-        },
-        {
-          "source": "Η διδακτική πορεία και τα ερωτήματα συντάχθηκαν για αυτή την ενότητα, με βάση τα τέσσερα υλικά που επέλεξε ο εκπαιδευτικός. Δεν αποτελούν πρόσθετο σενάριο Quiz μέσα στο VR."
-        }
-      ],
-      "mediaRefs": []
     }
   ]
 }

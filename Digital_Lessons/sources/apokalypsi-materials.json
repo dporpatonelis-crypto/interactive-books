@@ -203,5 +203,13 @@
         }
       ]
     }
-  ]
+  ],
+  "book_editorial_update": {
+    "revision": 10,
+    "updated_at": "2026-10-12T16:55:21+00:00",
+    "authority": "Human request: remove classroom discussion and synthesis until after personal trials, and remove technical checks from the book.",
+    "content_scope": "First-level overview of the six papyri and four selected digital materials with their existing links.",
+    "deferred_section_id": "apokalypsi-teaching",
+    "technical_detail_location": "Existing lesson-materials HTML report; source evidence is retained outside the rendered book."
+  }
 }
