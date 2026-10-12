@@ -2,8 +2,8 @@
   "title": "Το ψηφιακό μου βιβλίο",
   "description": "Κείμενα, εικόνες και συνδέσεις για τα μαθήματά μας στα web apps και στο Unity.",
   "bookId": "Digital_Lessons",
-  "revision": 12,
-  "sourceDigest": "c74d5b827533673bd0bcb70de810abe9a0a7c5ad2a530dd2dd05eb251ba9a629",
+  "revision": 13,
+  "sourceDigest": "8680cd02f27e013ee1cae6dd59fa6be90fc6649c159d47b59e274684d2cabcea",
   "coverImage": "assets/old-testament-objects.png",
   "coverCaption": "Έξι ιερά αντικείμενα της Παλαιάς Διαθήκης",
   "edition": "ΠΡΟΣΩΠΙΚΟ ΨΗΦΙΑΚΟ ΒΙΒΛΙΟ",
@@ -1088,8 +1088,63 @@
       "mediaRefs": []
     },
     {
-      "id": "john-baptist-journey",
+      "id": "pentecost-selected-materials",
       "number": 16,
+      "type": "content",
+      "title": "Επιλεγμένο υλικό",
+      "displayTitle": "Επιλεγμένο υλικό",
+      "sourceBook": "Digital_Lessons",
+      "sourceTitle": "Μάθημα 2",
+      "sourcePage": 8,
+      "lessonId": "lesson-002",
+      "lessonTitle": "Από το Ιστορικό Υπερώο στην Οικουμενική Εκκλησία: Μια Βιωματική VR Εκπαιδευτική Διαδρομή",
+      "sourceUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/sources/pentecost-materials.json",
+      "content": [
+        {
+          "text": "Τα επιλεγμένα υλικά εστιάζουν στα έξι αντικείμενα του Υπερώου και στις συνδέσεις τους με την πρώτη Εκκλησία και τον ύμνο της Πεντηκοστής.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "Η παρουσίαση βρίσκεται στη σύνοψη της Πεντηκοστής· εδώ συγκεντρώνονται ο Idea Weaver, η Κυκλική Τράπεζα και η χαρτογράφηση VR.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        }
+      ],
+      "mediaRefs": [
+        "WEB-003",
+        "WEB-004",
+        "DOC-006",
+        "DOC-007"
+      ],
+      "extraMedia": [
+        {
+          "type": "website",
+          "title": "Άνοιξε τη βιβλιοθήκη Idea Weaver",
+          "url": "https://dporpatonelis-crypto.github.io/idea-weaver-board/library"
+        },
+        {
+          "type": "website",
+          "title": "Άνοιξε την Κυκλική Τράπεζα",
+          "url": "https://dporpatonelis-crypto.github.io/Interactive-sculpture/?scenario=circular-table"
+        },
+        {
+          "type": "document",
+          "title": "Χαρτογράφηση VR · υλικό εκπαιδευτικού",
+          "url": "https://drive.google.com/file/d/1gTpCbIi_XlbupeGTisTBB9h02agP-39Y/view?usp=drivesdk"
+        },
+        {
+          "type": "document",
+          "title": "Περισσότερα για το επιλεγμένο υλικό",
+          "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/sources/pentecost-materials.json"
+        }
+      ]
+    },
+    {
+      "id": "john-baptist-journey",
+      "number": 17,
       "type": "content",
       "title": "Η πορεία του Ιωάννη του Βαπτιστή",
       "displayTitle": "Η πορεία του Ιωάννη του Βαπτιστή",
@@ -1135,7 +1190,7 @@
     },
     {
       "id": "john-evangelist-journey",
-      "number": 17,
+      "number": 18,
       "type": "content",
       "title": "Η πορεία του Ιωάννη",
       "displayTitle": "Η πορεία του Ιωάννη",
@@ -1181,7 +1236,7 @@
     },
     {
       "id": "peter-journey",
-      "number": 18,
+      "number": 19,
       "type": "content",
       "title": "Η πορεία του Πέτρου",
       "displayTitle": "Η πορεία του Πέτρου",
@@ -1227,7 +1282,7 @@
     },
     {
       "id": "paul-journey",
-      "number": 19,
+      "number": 20,
       "type": "content",
       "title": "Η πορεία του Παύλου",
       "displayTitle": "Η πορεία του Παύλου",
@@ -1273,7 +1328,7 @@
     },
     {
       "id": "apokalypsi",
-      "number": 20,
+      "number": 21,
       "type": "content",
       "title": "Η Αποκάλυψη σε έξι σημεία",
       "displayTitle": "Η Αποκάλυψη σε έξι σημεία",
@@ -1361,7 +1416,7 @@
     },
     {
       "id": "apokalypsi-materials",
-      "number": 21,
+      "number": 22,
       "type": "content",
       "title": "Το υλικό μας στις εφαρμογές και στο VR",
       "displayTitle": "Το υλικό μας στις εφαρμογές και στο VR",
@@ -1446,7 +1501,7 @@
     },
     {
       "id": "science-religion-overview",
-      "number": 22,
+      "number": 23,
       "type": "content",
       "title": "Επιστήμη και θρησκεία",
       "displayTitle": "Επιστήμη και θρησκεία",
@@ -1503,7 +1558,7 @@
     },
     {
       "id": "science-religion-worksheet",
-      "number": 23,
+      "number": 24,
       "type": "content",
       "title": "Φύλλο εργασίας μαθητή",
       "displayTitle": "Φύλλο εργασίας μαθητή",
@@ -1552,7 +1607,7 @@
     },
     {
       "id": "science-religion-agora-quiz",
-      "number": 24,
+      "number": 25,
       "type": "content",
       "title": "Quiz στην Κλασική Αγορά",
       "displayTitle": "Quiz στην Κλασική Αγορά",
@@ -1616,7 +1671,7 @@
     },
     {
       "id": "science-religion-agora-artifact-talk",
-      "number": 25,
+      "number": 26,
       "type": "content",
       "title": "Συζήτηση με τον Δημήτρη",
       "displayTitle": "Συζήτηση με τον Δημήτρη",

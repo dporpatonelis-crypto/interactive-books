@@ -3,8 +3,8 @@
   "book_id": "Digital_Lessons",
   "title": "Το ψηφιακό μου βιβλίο",
   "description": "Κείμενα, εικόνες και συνδέσεις για τα μαθήματά μας στα web apps και στο Unity.",
-  "revision": 12,
-  "updated_at": "2026-10-12T20:25:47+00:00",
+  "revision": 13,
+  "updated_at": "2026-10-12T21:35:27.051Z",
   "cover": {
     "asset": "assets/old-testament-objects.png",
     "caption": "Έξι ιερά αντικείμενα της Παλαιάς Διαθήκης",
@@ -833,6 +833,50 @@
             }
           ],
           "media": []
+        },
+        {
+          "id": "pentecost-selected-materials",
+          "title": "Επιλεγμένο υλικό",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Τα επιλεγμένα υλικά εστιάζουν στα έξι αντικείμενα του Υπερώου και στις συνδέσεις τους με την πρώτη Εκκλησία και τον ύμνο της Πεντηκοστής."
+            },
+            {
+              "kind": "text",
+              "text": "Η παρουσίαση βρίσκεται στη σύνοψη της Πεντηκοστής· εδώ συγκεντρώνονται ο Idea Weaver, η Κυκλική Τράπεζα και η χαρτογράφηση VR."
+            }
+          ],
+          "media": [
+            {
+              "media_id": "WEB-003",
+              "type": "website",
+              "title": "Άνοιξε τη βιβλιοθήκη Idea Weaver",
+              "url": "https://dporpatonelis-crypto.github.io/idea-weaver-board/library",
+              "placement": "after_text"
+            },
+            {
+              "media_id": "WEB-004",
+              "type": "website",
+              "title": "Άνοιξε την Κυκλική Τράπεζα",
+              "url": "https://dporpatonelis-crypto.github.io/Interactive-sculpture/?scenario=circular-table",
+              "placement": "after_text"
+            },
+            {
+              "media_id": "DOC-006",
+              "type": "document",
+              "title": "Χαρτογράφηση VR · υλικό εκπαιδευτικού",
+              "url": "https://drive.google.com/file/d/1gTpCbIi_XlbupeGTisTBB9h02agP-39Y/view?usp=drivesdk",
+              "placement": "after_text"
+            },
+            {
+              "media_id": "DOC-007",
+              "type": "document",
+              "title": "Περισσότερα για το επιλεγμένο υλικό",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/sources/pentecost-materials.json",
+              "placement": "after_text"
+            }
+          ]
         }
       ]
     },

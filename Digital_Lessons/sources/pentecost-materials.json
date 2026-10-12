@@ -1,0 +1,37 @@
+{
+  "title": "Πεντηκοστή — Επιλεγμένο υλικό",
+  "grade": "Β΄ Λυκείου",
+  "description": "Τα έξι αντικείμενα του Υπερώου και οι συνδέσεις τους με την πρώτη Εκκλησία και τον ύμνο της Πεντηκοστής.",
+  "materials": [
+    {
+      "id": "pentecost-slides",
+      "title": "Τα έξι αντικείμενα του Υπερώου",
+      "type": "Παρουσίαση",
+      "description": "Συνδέει τα αντικείμενα του Υπερώου με το κείμενο των Πράξεων και τον ύμνο της Πεντηκοστής.",
+      "url": "https://docs.google.com/presentation/d/1knOyKV-Y--uiukPz-u_Ny29PLHK2cv7doeZBJogoQgQ/edit?usp=sharing"
+    },
+    {
+      "id": "idea-weaver-board",
+      "title": "Η πρώτη Εκκλησία των Ιεροσολύμων",
+      "type": "Idea Weaver",
+      "description": "Συγκεντρώνει έξι αντικείμενα και τις σημασίες τους σε σχέση με τη ζωή της πρώτης Εκκλησίας.",
+      "url": "https://dporpatonelis-crypto.github.io/idea-weaver-board/library",
+      "source_url": "https://github.com/dporpatonelis-crypto/idea-weaver-board/blob/main/src/data/library/upper-room-first-church-puzzle.json"
+    },
+    {
+      "id": "circular-table",
+      "title": "Κυκλική Τράπεζα της Εκκλησίας",
+      "type": "Interactive Sculpture",
+      "description": "Συνδέει έξι ευρήματα με θέματα του ύμνου, όπως η διδασκαλία, η σύναξη, η αποστολή και η φροντίδα.",
+      "url": "https://dporpatonelis-crypto.github.io/Interactive-sculpture/?scenario=circular-table",
+      "source_url": "https://github.com/dporpatonelis-crypto/Interactive-sculpture/blob/main/scenarios/circular-table.json"
+    },
+    {
+      "id": "mindpalacevr-map",
+      "title": "Χαρτογράφηση VR του Υπερώου",
+      "type": "Υλικό εκπαιδευτικού",
+      "description": "Καταγράφει quiz και έξι παρουσιάσεις ευρημάτων στα Ιεροσόλυμα.",
+      "url": "https://drive.google.com/file/d/1gTpCbIi_XlbupeGTisTBB9h02agP-39Y/view?usp=drivesdk"
+    }
+  ]
+}
