@@ -2,8 +2,8 @@
   "title": "Το ψηφιακό μου βιβλίο",
   "description": "Κείμενα, εικόνες και συνδέσεις για τα μαθήματά μας στα web apps και στο Unity.",
   "bookId": "Digital_Lessons",
-  "revision": 10,
-  "sourceDigest": "3c6f72b03703bdc9085e99b117f8120fddf0848a585028c08bc9a5b694ea1560",
+  "revision": 11,
+  "sourceDigest": "36d4f5259fa40328a7219ca19f0eed266a0c071c3b401970845ff8d21f5c03ea",
   "coverImage": "assets/old-testament-objects.png",
   "coverCaption": "Έξι ιερά αντικείμενα της Παλαιάς Διαθήκης",
   "edition": "ΠΡΟΣΩΠΙΚΟ ΨΗΦΙΑΚΟ ΒΙΒΛΙΟ",
@@ -1443,6 +1443,214 @@
           "placement": "after_text"
         }
       ]
+    },
+    {
+      "id": "science-religion-overview",
+      "number": 22,
+      "type": "content",
+      "title": "Επιστήμη και θρησκεία",
+      "displayTitle": "Επιστήμη και θρησκεία",
+      "sourceBook": "Digital_Lessons",
+      "sourceTitle": "Μάθημα 5",
+      "sourcePage": 1,
+      "lessonId": "lesson-005",
+      "lessonTitle": "Επιστήμη και θρησκεία",
+      "sourceUrl": "",
+      "content": [
+        {
+          "text": "Η θεματική εξετάζει τα όρια και τις δυνατότητες της επιστημονικής γνώσης, ενώ αναδεικνύει την ελληνική παιδεία ως σημείο επικοινωνίας στον λόγο του Παύλου στην Αθήνα.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "Το διαθέσιμο ψηφιακό υλικό περιλαμβάνει φύλλο εργασίας, ένα οπτικό ερώτημα και δύο δραστηριότητες στην Κλασική Αγορά του MindPalaceVR.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        }
+      ],
+      "mediaRefs": [
+        "IMG-062"
+      ],
+      "images": [
+        "https://i.ibb.co/rRNWK0SJ/file-0000000099988210b2dd36736fa935f5.png"
+      ],
+      "imageCaption": "Πρέπει η επιστήμη να συνδέεται με την καρδιά και η θρησκεία με τη λογική;",
+      "localImages": [
+        {
+          "src": "assets/science-religion/logic-and-heart.png",
+          "original": "https://i.ibb.co/rRNWK0SJ/file-0000000099988210b2dd36736fa935f5.png",
+          "mediaId": "IMG-062",
+          "caption": "Πρέπει η επιστήμη να συνδέεται με την καρδιά και η θρησκεία με τη λογική;",
+          "retained": true
+        }
+      ]
+    },
+    {
+      "id": "science-religion-worksheet",
+      "number": 23,
+      "type": "content",
+      "title": "Φύλλο εργασίας μαθητή",
+      "displayTitle": "Φύλλο εργασίας μαθητή",
+      "sourceBook": "Digital_Lessons",
+      "sourceTitle": "Μάθημα 5",
+      "sourcePage": 2,
+      "lessonId": "lesson-005",
+      "lessonTitle": "Επιστήμη και θρησκεία",
+      "sourceUrl": "",
+      "content": [
+        {
+          "text": "• Υλικός κόσμος και δυνατότητες της επιστημονικής έρευνας.",
+          "kind": "list_item",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "• Μεθοδολογικά όρια της επιστήμης και γνώση του πνευματικού κόσμου.",
+          "kind": "list_item",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "• Επιστημονική γνώση και «γνώση μέσω καρδιάς».",
+          "kind": "list_item",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "• Αμοιβαίος σεβασμός και σύντομος προσωπικός αναστοχασμός 60–80 λέξεων.",
+          "kind": "list_item",
+          "paragraphBoundary": true,
+          "hotspots": []
+        }
+      ],
+      "mediaRefs": [
+        "DOC-005"
+      ],
+      "driveUrl": "https://docs.google.com/document/d/1zTnV0OnFKLlx0LA-g5z6HrdabS6IqHR-LJVqGsYGV90/edit?usp=sharing",
+      "mediaPlacement": {
+        "https://docs.google.com/document/d/1zTnV0OnFKLlx0LA-g5z6HrdabS6IqHR-LJVqGsYGV90/edit?usp=sharing": {
+          "placement": "after_text",
+          "title": "Άνοιξε το φύλλο εργασίας μαθητή"
+        }
+      }
+    },
+    {
+      "id": "science-religion-agora-quiz",
+      "number": 24,
+      "type": "content",
+      "title": "Quiz στην Κλασική Αγορά",
+      "displayTitle": "Quiz στην Κλασική Αγορά",
+      "sourceBook": "Digital_Lessons",
+      "sourceTitle": "Μάθημα 5",
+      "sourcePage": 3,
+      "lessonId": "lesson-005",
+      "lessonTitle": "Επιστήμη και θρησκεία",
+      "sourceUrl": "",
+      "content": [
+        {
+          "text": "Το quiz συνδέει έξι ευρήματα με την παρατήρηση, τη λογική, τη γλώσσα και τη θρησκευτική αναζήτηση. Στον λόγο του στην Αθήνα, ο Παύλος αξιοποιεί οικείους ποιητικούς λόγους, την ελληνική κοινή και την αναζήτηση των Αθηναίων ως αφετηρίες επικοινωνίας. Η ελληνική παιδεία παρουσιάζεται ως θετικό σημείο διαλόγου.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "• Αστρονομική σφαίρα · παρατήρηση του ουρανού.",
+          "kind": "list_item",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "• Διαβήτης · μέτρηση και λογικός συλλογισμός.",
+          "kind": "list_item",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "• Πινακίδα γνώσης · η έννοια του Λόγου.",
+          "kind": "list_item",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "• Γραφή και κεραμική · γλώσσα και μετάδοση του λόγου.",
+          "kind": "list_item",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "• Αναθηματική βάση · η θρησκευτική αναζήτηση ως σημείο επαφής στον λόγο του Παύλου.",
+          "kind": "list_item",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "• Μέλισσα και άνθος · επιλογή του ωφέλιμου από την ελληνική παιδεία, όπως την προτείνει ο Μέγας Βασίλειος.",
+          "kind": "list_item",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "Ο μαθητής αντιστοιχίζει τα ευρήματα με τις ιδέες του quiz και αιτιολογεί τη σύνδεση με την ελληνική παιδεία και το μήνυμα του Παύλου.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        }
+      ],
+      "mediaRefs": []
+    },
+    {
+      "id": "science-religion-agora-artifact-talk",
+      "number": 25,
+      "type": "content",
+      "title": "Συζήτηση με τον Δημήτρη",
+      "displayTitle": "Συζήτηση με τον Δημήτρη",
+      "sourceBook": "Digital_Lessons",
+      "sourceTitle": "Μάθημα 5",
+      "sourcePage": 4,
+      "lessonId": "lesson-005",
+      "lessonTitle": "Επιστήμη και θρησκεία",
+      "sourceUrl": "",
+      "content": [
+        {
+          "text": "Η συζήτηση καλύπτει οκτώ ευρήματα. Τέσσερα είναι κοινά με το quiz: πινακίδα γνώσης, αστρονομική σφαίρα, διαβήτης και γραφή ή υλικά τεκμήρια. Τέσσερα ακόμη είναι:",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "• Πάπυρος μελέτης · γραπτός λόγος και τεκμήρια.",
+          "kind": "list_item",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "• Τηλεσκόπιο · παρατήρηση και έλεγχος.",
+          "kind": "list_item",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "• Μικροσκόπιο · μέτρηση και τα όριά της.",
+          "kind": "list_item",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "• Αστρονομικός πίνακας · παρατήρηση του ουρανού και χρήση μοντέλων.",
+          "kind": "list_item",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "Ο μαθητής συλλέγει ένα εύρημα, το επιλέγει στη συζήτηση με τον Δημήτρη και διαβάζει ή ακούει τη σχετική ερώτηση και απάντηση.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        }
+      ],
+      "mediaRefs": []
     }
   ]
 }
