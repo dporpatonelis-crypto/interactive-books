@@ -1,0 +1,14 @@
+{
+  "lesson_id": "lesson-foundations",
+  "section_ids": [
+    "divine-economy-worksheet",
+    "divine-economy-teacher-answers"
+  ],
+  "origin": "Text and teacher answers supplied directly by the user in conversation",
+  "added_at": "2026-10-13T07:52:24.153535+00:00",
+  "section_title": "Βασικές γνώσεις για όλες τις τάξεις",
+  "title_confirmation": "The user corrected the intended audience to all classes.",
+  "preservation": "All supplied wording, the 13 numbered blanks, the 16 words and the 13 answers are retained. Markdown emphasis and escaped underscores were normalized for the reader. The answers form a separate section.",
+  "source_file": "sources/foundations-divine-economy.md",
+  "media": []
+}
