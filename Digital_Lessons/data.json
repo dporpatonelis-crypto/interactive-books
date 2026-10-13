@@ -2,8 +2,8 @@
   "title": "Το ψηφιακό μου βιβλίο",
   "description": "Κείμενα, εικόνες και συνδέσεις για τα μαθήματά μας στα web apps και στο Unity.",
   "bookId": "Digital_Lessons",
-  "revision": 15,
-  "sourceDigest": "af46240faf3078f2d03b579c381b6e89880b467d6b5f80c3ea06324c948cd45d",
+  "revision": 16,
+  "sourceDigest": "f2e3c0cc4c2c8e951b0181e600f4e4110f7ffd3e0d5ba992d82f1c18452808b8",
   "coverImage": "assets/old-testament-objects.png",
   "coverCaption": "Έξι ιερά αντικείμενα της Παλαιάς Διαθήκης",
   "edition": "ΠΡΟΣΩΠΙΚΟ ΨΗΦΙΑΚΟ ΒΙΒΛΙΟ",
@@ -1504,7 +1504,22 @@
           "quote": "Ο τελικός σκοπός των θεοφανειών είναι η γνώση του Θεού: φωτισμός του νοός και προσωπική ένωση με τον Θεό, η θέωση."
         }
       ],
-      "mediaRefs": []
+      "mediaRefs": [
+        "IMG-110"
+      ],
+      "images": [
+        "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/apokalypsi/revelation-tree.jpg"
+      ],
+      "imageCaption": "Δέντρο της Αποκάλυψης · οπτική αναφορά για τη θέση των έξι παπύρων.",
+      "localImages": [
+        {
+          "src": "assets/apokalypsi/revelation-tree.jpg",
+          "original": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/apokalypsi/revelation-tree.jpg",
+          "mediaId": "IMG-110",
+          "caption": "Δέντρο της Αποκάλυψης · οπτική αναφορά για τη θέση των έξι παπύρων.",
+          "retained": true
+        }
+      ]
     },
     {
       "id": "apokalypsi-materials",
@@ -1557,6 +1572,18 @@
         },
         {
           "text": "Εντοπίζει έναν πάπυρο, τον πιάνει, διαβάζει το κείμενό του και τον αφήνει για να προστεθεί στη συλλογή του.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "Εφαρμογή στην τάξη",
+          "kind": "heading",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "Βρείτε τους παπύρους στο Βυζάντιο, ταξινομήστε τους και αιτιολογήστε τη θέση τους στο Δέντρο της Αποκάλυψης, με βάση την εικόνα που προβάλλεται στον διαδραστικό πίνακα.",
           "kind": "text",
           "paragraphBoundary": true,
           "hotspots": []

@@ -3,8 +3,8 @@
   "book_id": "Digital_Lessons",
   "title": "Το ψηφιακό μου βιβλίο",
   "description": "Κείμενα, εικόνες και συνδέσεις για τα μαθήματά μας στα web apps και στο Unity.",
-  "revision": 15,
-  "updated_at": "2026-10-13T08:57:24.723114+00:00",
+  "revision": 16,
+  "updated_at": "2026-10-13T14:49:30.000Z",
   "cover": {
     "asset": "assets/old-testament-objects.png",
     "caption": "Έξι ιερά αντικείμενα της Παλαιάς Διαθήκης",
@@ -1265,7 +1265,16 @@
               "text": "Ο τελικός σκοπός των θεοφανειών είναι η γνώση του Θεού: φωτισμός του νοός και προσωπική ένωση με τον Θεό, η θέωση."
             }
           ],
-          "media": []
+          "media": [
+            {
+              "media_id": "IMG-110",
+              "type": "image",
+              "title": "Δέντρο της Αποκάλυψης — εικόνα αναφοράς",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/apokalypsi/revelation-tree.jpg",
+              "asset": "assets/apokalypsi/revelation-tree.jpg",
+              "caption": "Δέντρο της Αποκάλυψης · οπτική αναφορά για τη θέση των έξι παπύρων."
+            }
+          ]
         },
         {
           "id": "apokalypsi-materials",
@@ -1298,6 +1307,14 @@
             {
               "kind": "text",
               "text": "Εντοπίζει έναν πάπυρο, τον πιάνει, διαβάζει το κείμενό του και τον αφήνει για να προστεθεί στη συλλογή του."
+            },
+            {
+              "kind": "heading",
+              "text": "Εφαρμογή στην τάξη"
+            },
+            {
+              "kind": "text",
+              "text": "Βρείτε τους παπύρους στο Βυζάντιο, ταξινομήστε τους και αιτιολογήστε τη θέση τους στο Δέντρο της Αποκάλυψης, με βάση την εικόνα που προβάλλεται στον διαδραστικό πίνακα."
             },
             {
               "kind": "heading",
