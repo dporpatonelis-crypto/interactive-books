@@ -3,8 +3,8 @@
   "book_id": "Digital_Lessons",
   "title": "Το ψηφιακό μου βιβλίο",
   "description": "Κείμενα, εικόνες και συνδέσεις για τα μαθήματά μας στα web apps και στο Unity.",
-  "revision": 16,
-  "updated_at": "2026-10-13T14:49:30.000Z",
+  "revision": 17,
+  "updated_at": "2026-10-13T17:20:13.362Z",
   "cover": {
     "asset": "assets/old-testament-objects.png",
     "caption": "Έξι ιερά αντικείμενα της Παλαιάς Διαθήκης",
@@ -1512,6 +1512,14 @@
             {
               "label": "OCA · Πίστη της Νίκαιας",
               "url": "https://www.oca.org/saints/lives/0201/05/17/43-commemoration-of-the-holy-fathers-of-the-first-ecumenical-counci"
+            },
+            {
+              "label": "OCA · βίος και διδασκαλία",
+              "url": "https://www.oca.org/saints/id/lives/101269"
+            },
+            {
+              "label": "OCA · ιστορικό και θεολογικό πλαίσιο",
+              "url": "https://www.oca.org/orthodoxy/the-orthodox-faith/church-history/fourth-century/saint-athanasius-and-his-defence-of-nicea"
             }
           ],
           "blocks": [
@@ -1522,6 +1530,14 @@
             {
               "kind": "text",
               "text": "Ο επίσκοπος της Αλεξάνδρειας υπερασπίστηκε την πίστη της Νίκαιας: ο Υιός είναι αληθινός Θεός, ομοούσιος με τον Πατέρα. Η αποφασιστική στάση της μορφής μας θυμίζει την επιμονή του να διαφυλάξει αυτή την ομολογία μέσα στις θεολογικές συγκρούσεις της εποχής του."
+            },
+            {
+              "kind": "heading",
+              "text": "Σταθμοί βίου και διδασκαλίας"
+            },
+            {
+              "kind": "text",
+              "text": "Ο Αθανάσιος ανατράφηκε πνευματικά κοντά στον επίσκοπο Αλέξανδρο και μελέτησε την Αγία Γραφή στην Αλεξάνδρεια. Ως διάκονος συμμετείχε στη Σύνοδο της Νίκαιας το 325 και υπερασπίστηκε την ομολογία ότι ο Υιός είναι ομοούσιος με τον Πατέρα. Το 328 έγινε επίσκοπος Αλεξανδρείας. Οι θεολογικές συγκρούσεις τον οδήγησαν επανειλημμένα στην εξορία και σε καταφύγια της ερήμου, όπου συνέχισε την ομολογία και τη συγγραφή του. Με τον Βίο του Αντωνίου μετέδωσε το παράδειγμα της ασκητικής ζωής. Οι επιστροφές του στην Αλεξάνδρεια συνδέθηκαν με την ποιμαντική φροντίδα και την αναζήτηση εκκλησιαστικής ενότητας."
             }
           ],
           "media": [
@@ -1532,6 +1548,32 @@
               "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers/father-athanasius.png",
               "asset": "assets/church-fathers/father-athanasius.png",
               "caption": "Μέγας Αθανάσιος"
+            },
+            {
+              "media_id": "VID-033",
+              "type": "video",
+              "title": "Βίος και διδασκαλία · βίντεο",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/athanasius/athanasius.mp4",
+              "asset": "assets/church-fathers-journeys/athanasius/athanasius.mp4",
+              "placement": "after_text",
+              "poster_media_id": "IMG-110",
+              "poster_asset": "assets/church-fathers-journeys/athanasius/01-alexandria-study.png",
+              "poster_url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/athanasius/01-alexandria-study.png"
+            },
+            {
+              "media_id": "SLD-019",
+              "type": "slides",
+              "title": "Παρουσίαση · 7 διαφάνειες",
+              "url": "https://docs.google.com/presentation/d/1zXQhZYZlY3pziPxnG6ek4OXj66eUcUhAllS4cP2rXq8",
+              "placement": "after_text"
+            },
+            {
+              "media_id": "DOC-008",
+              "type": "document",
+              "title": "Διαφάνειες PDF",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/athanasius/athanasius-slides.pdf",
+              "asset": "assets/church-fathers-journeys/athanasius/athanasius-slides.pdf",
+              "placement": "after_text"
             }
           ]
         },
@@ -1544,6 +1586,14 @@
             {
               "label": "OCA · Μέγας Βασίλειος",
               "url": "https://www.oca.org/saints/lives/20112024/01/01/100003-saint-basil-the-great-archbishop-of-caesarea-in-cappadocia"
+            },
+            {
+              "label": "OCA · βίος και διδασκαλία",
+              "url": "https://www.oca.org/saints/lives/1984/01/01/100003-saint-basil-the-great-archbishop-of-caesarea-in-cappadocia"
+            },
+            {
+              "label": "New Advent · πατερικό έργο",
+              "url": "https://www.newadvent.org/fathers/32015.htm"
             }
           ],
           "blocks": [
@@ -1554,6 +1604,14 @@
             {
               "kind": "text",
               "text": "Στο έργο του, η ποιμαντική μέριμνα συναντά τη μοναχική ζωή και την έμπρακτη αγάπη προς τους φτωχούς. Οι μοναχικοί κανόνες, η φιλοξενία και η περίθαλψη των αδύναμων εκφράζουν την ίδια επιδίωξη: η πίστη να γίνεται καθημερινή υπηρεσία προς τον συνάνθρωπο."
+            },
+            {
+              "kind": "heading",
+              "text": "Σταθμοί βίου και διδασκαλίας"
+            },
+            {
+              "kind": "text",
+              "text": "Οι σπουδές στην Αθήνα και η φιλία με τον Γρηγόριο τον Θεολόγο διαμόρφωσαν την παιδεία του Βασιλείου. Μοίρασε την περιουσία του στους φτωχούς και ακολούθησε την ασκητική ζωή στον Πόντο, συνδέοντας την προσευχή και τη μελέτη με την κοινή εργασία. Το 370 έγινε επίσκοπος Καισαρείας. Στην Εξαήμερο, η ερμηνεία της Γενέσεως συναντά την παρατήρηση της φύσης και τις γνώσεις της εποχής του. Η Βασιλειάδα έδωσε πρακτική μορφή στη φροντίδα των ασθενών, των φτωχών και των ξένων. Με το έργο Περί Αγίου Πνεύματος υπερασπίστηκε τη θεότητα του Αγίου Πνεύματος μέσα στην ενότητα της Αγίας Τριάδας."
             }
           ],
           "media": [
@@ -1564,6 +1622,32 @@
               "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers/father-basil.png",
               "asset": "assets/church-fathers/father-basil.png",
               "caption": "Μέγας Βασίλειος"
+            },
+            {
+              "media_id": "VID-034",
+              "type": "video",
+              "title": "Βίος και διδασκαλία · βίντεο",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/basil/basil.mp4",
+              "asset": "assets/church-fathers-journeys/basil/basil.mp4",
+              "placement": "after_text",
+              "poster_media_id": "IMG-111",
+              "poster_asset": "assets/church-fathers-journeys/basil/01-athens.png",
+              "poster_url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/basil/01-athens.png"
+            },
+            {
+              "media_id": "SLD-020",
+              "type": "slides",
+              "title": "Παρουσίαση · 7 διαφάνειες",
+              "url": "https://docs.google.com/presentation/d/1U1ZBEVCOuIr8D4q1bW7SnitbTye-vqZPh9dFDDma_S4",
+              "placement": "after_text"
+            },
+            {
+              "media_id": "DOC-009",
+              "type": "document",
+              "title": "Διαφάνειες PDF",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/basil/basil-slides.pdf",
+              "asset": "assets/church-fathers-journeys/basil/basil-slides.pdf",
+              "placement": "after_text"
             }
           ]
         },
@@ -1576,6 +1660,14 @@
             {
               "label": "OCA · Γρηγόριος ο Θεολόγος",
               "url": "https://www.oca.org/saints/lives/1981/01/25/100298-saint-gregory-the-theologian-archbishop-of-constantinople"
+            },
+            {
+              "label": "OCA · βίος και διδασκαλία",
+              "url": "https://www.oca.org/saints/id/lives/100298"
+            },
+            {
+              "label": "OCA · ιστορικό και θεολογικό πλαίσιο",
+              "url": "https://earlychristianwritings.com/fathers/gregory_nazianzen_2_oration4.html"
             }
           ],
           "blocks": [
@@ -1586,6 +1678,14 @@
             {
               "kind": "text",
               "text": "Οι Θεολογικοί Λόγοι του φωτίζουν την πίστη στον Πατέρα, τον Υιό και το Άγιο Πνεύμα. Η διδασκαλία για την Αγία Τριάδα απαιτεί προσοχή στις λέξεις και πνευματική προετοιμασία. Έτσι, η χειρονομία της εικόνας γίνεται πρόσκληση να ακούμε και να στοχαζόμαστε με σεβασμό."
+            },
+            {
+              "kind": "heading",
+              "text": "Σταθμοί βίου και διδασκαλίας"
+            },
+            {
+              "kind": "text",
+              "text": "Στην Αθήνα ο Γρηγόριος απέκτησε βαθιά παιδεία και στενή φιλία με τον Βασίλειο, με τον οποίο συνδέθηκε αργότερα στην ασκητική ζωή του Πόντου. Στους λόγους Κατά Ιουλιανού αντιτάχθηκε στον αποκλεισμό των χριστιανών από την ελληνική παιδεία. Στον μικρό ναό της Αναστάσεως στην Κωνσταντινούπολη εκφώνησε τους Θεολογικούς Λόγους για την Αγία Τριάδα. Το 381 συμμετείχε στη Β΄ Οικουμενική Σύνοδο και ανέλαβε προσωρινά την προεδρία της. Παραιτήθηκε από τον επισκοπικό θρόνο επιδιώκοντας την ειρήνη της Εκκλησίας και αποσύρθηκε στην Αριανζό, όπου η ποίηση και η προσευχή συνέχισαν τη θεολογική του μαρτυρία."
             }
           ],
           "media": [
@@ -1596,134 +1696,32 @@
               "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers/father-gregory-theologian.png",
               "asset": "assets/church-fathers/father-gregory-theologian.png",
               "caption": "Γρηγόριος ο Θεολόγος"
-            }
-          ]
-        },
-        {
-          "id": "father-cyril",
-          "title": "Κύριλλος Αλεξανδρείας",
-          "layout": "portrait-narrative",
-          "portrait_intro_count": 2,
-          "references": [
-            {
-              "label": "OCA · Χριστός και Θεοτόκος",
-              "url": "https://www.oca.org/orthodoxy/the-orthodox-faith/church-history/fifth-century/inner-struggles"
-            }
-          ],
-          "blocks": [
-            {
-              "kind": "text",
-              "text": "Ο Κύριλλος Αλεξανδρείας κρατά το Ευαγγέλιο κοντά στο στήθος και ανοίγει ήρεμα το άλλο χέρι. Η εικόνα τον παρουσιάζει ως δάσκαλο που στηρίζει την ομολογία του στο ευαγγελικό μήνυμα και προσπαθεί να το κάνει κατανοητό στους ακροατές του."
             },
             {
-              "kind": "text",
-              "text": "Η υπεράσπιση της ονομασίας «Θεοτόκος» συνδέεται με το ερώτημα ποιος είναι ο Χριστός. Για τον Κύριλλο, εκείνος που γεννήθηκε από τη Μαρία είναι ο ίδιος ο Υιός και Λόγος του Θεού που έγινε άνθρωπος. Το Ευαγγέλιο στην αγκαλιά του θυμίζει αυτή την ενότητα του προσώπου του Χριστού."
-            }
-          ],
-          "media": [
-            {
-              "media_id": "IMG-105",
-              "type": "image",
-              "title": "Κύριλλος Αλεξανδρείας — εκπαιδευτική εικονογράφηση",
-              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers/father-cyril.png",
-              "asset": "assets/church-fathers/father-cyril.png",
-              "caption": "Κύριλλος Αλεξανδρείας"
-            }
-          ]
-        },
-        {
-          "id": "father-maximus",
-          "title": "Μάξιμος Ομολογητής",
-          "layout": "portrait-narrative",
-          "portrait_intro_count": 2,
-          "references": [
-            {
-              "label": "Μάξιμος · PG 91",
-              "url": "https://catholiclibrary.org/library/view?chunk.id=00000105&docId=Fathers-Synchronized-EN/Maximus_Confessor__PG_91A_6.en.html"
-            }
-          ],
-          "blocks": [
-            {
-              "kind": "text",
-              "text": "Ο Μάξιμος Ομολογητής εμφανίζεται με απλό μοναχικό ένδυμα και ειλητάριο στο χέρι. Τα δύο υψωμένα δάχτυλα, στη συγκεκριμένη σύνθεση, μας οδηγούν στην ομολογία που υπερασπίστηκε: ο Χριστός έχει θεία και ανθρώπινη θέληση και ενέργεια."
+              "media_id": "VID-035",
+              "type": "video",
+              "title": "Βίος και διδασκαλία · βίντεο",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/gregory-theologian/gregory-theologian.mp4",
+              "asset": "assets/church-fathers-journeys/gregory-theologian/gregory-theologian.mp4",
+              "placement": "after_text",
+              "poster_media_id": "IMG-112",
+              "poster_asset": "assets/church-fathers-journeys/gregory-theologian/01-athens.png",
+              "poster_url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/gregory-theologian/01-athens.png"
             },
             {
-              "kind": "text",
-              "text": "Η ανθρώπινη φύση του Χριστού παραμένει πλήρης μέσα στην ένωση με τη θεία. Ο Μάξιμος επέμενε ότι η ανθρώπινη θέληση δεν χάνεται· στον Χριστό βρίσκεται σε αρμονία με τη θεία. Η λιτή μορφή και η καθαρή χειρονομία συνδέουν την ακρίβεια της διδασκαλίας με τη συνέπεια της ομολογίας."
-            }
-          ],
-          "media": [
-            {
-              "media_id": "IMG-106",
-              "type": "image",
-              "title": "Μάξιμος Ομολογητής — εκπαιδευτική εικονογράφηση",
-              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers/father-maximus.png",
-              "asset": "assets/church-fathers/father-maximus.png",
-              "caption": "Μάξιμος Ομολογητής"
-            }
-          ]
-        },
-        {
-          "id": "father-symeon",
-          "title": "Συμεών ο Νέος Θεολόγος",
-          "layout": "portrait-narrative",
-          "portrait_intro_count": 2,
-          "references": [
-            {
-              "label": "OCA · Συμεών ο Νέος Θεολόγος",
-              "url": "https://www.oca.org/saints/lives/2014/03/12/100790-venerable-simeon-the-new-theologian"
-            }
-          ],
-          "blocks": [
-            {
-              "kind": "text",
-              "text": "Ο Συμεών ο Νέος Θεολόγος στέκεται με ανοιχτά χέρια κοντά στο στήθος και βλέμμα στραμμένο ψηλά. Η ήρεμη στάση του μας βάζει στον κόσμο της προσευχής, όπου ο άνθρωπος στρέφεται προς τον Θεό με όλη του την ύπαρξη."
+              "media_id": "SLD-021",
+              "type": "slides",
+              "title": "Παρουσίαση · 7 διαφάνειες",
+              "url": "https://docs.google.com/presentation/d/1-pu-kgksqc3H9J25c_1GnVqE2tWYRoSTdC_PVpoSXDI",
+              "placement": "after_text"
             },
             {
-              "kind": "text",
-              "text": "Στη διδασκαλία και στους ύμνους του, η γνώση του Θεού συνδέεται με προσωπική εμπειρία της χάρης και του θείου φωτός. Η προσευχή, η μετάνοια και η αγάπη φωτίζουν αυτή τη σχέση. Τα ανοιχτά χέρια της εικόνας εκφράζουν την προσδοκία και την προθυμία να δεχθεί κανείς τη θεία παρουσία."
-            }
-          ],
-          "media": [
-            {
-              "media_id": "IMG-107",
-              "type": "image",
-              "title": "Συμεών ο Νέος Θεολόγος — εκπαιδευτική εικονογράφηση",
-              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers/father-symeon.png",
-              "asset": "assets/church-fathers/father-symeon.png",
-              "caption": "Συμεών ο Νέος Θεολόγος"
-            }
-          ]
-        },
-        {
-          "id": "father-palamas",
-          "title": "Γρηγόριος Παλαμάς",
-          "layout": "portrait-narrative",
-          "portrait_intro_count": 2,
-          "references": [
-            {
-              "label": "OCA · Γρηγόριος Παλαμάς",
-              "url": "https://www.oca.org/orthodoxy/the-orthodox-faith/church-history/fourteenth-century/saint-gregory-palamas"
-            }
-          ],
-          "blocks": [
-            {
-              "kind": "text",
-              "text": "Το ένα χέρι του Γρηγορίου Παλαμά ακουμπά στο στήθος και το άλλο ανοίγει προς τα πάνω. Η κίνηση συνδέει την καρδιά που προσεύχεται με τον δάσκαλο που εξηγεί. Η μορφή μας θυμίζει τον δεσμό ανάμεσα στην ησυχία, την προσευχή και τη θεολογική σκέψη."
-            },
-            {
-              "kind": "text",
-              "text": "Ο Παλαμάς υπερασπίστηκε τη δυνατότητα του ανθρώπου να κοινωνεί πραγματικά με τον Θεό. Διέκρινε την απρόσιτη θεία ουσία από τις άκτιστες ενέργειες, με τις οποίες ο Θεός φανερώνεται και χαρίζει τη ζωή Του. Η ανοιχτή παλάμη παραπέμπει σε αυτή τη δωρεά της χάρης και του φωτός."
-            }
-          ],
-          "media": [
-            {
-              "media_id": "IMG-108",
-              "type": "image",
-              "title": "Γρηγόριος Παλαμάς — εκπαιδευτική εικονογράφηση",
-              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers/father-palamas.png",
-              "asset": "assets/church-fathers/father-palamas.png",
-              "caption": "Γρηγόριος Παλαμάς"
+              "media_id": "DOC-010",
+              "type": "document",
+              "title": "Διαφάνειες PDF",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/gregory-theologian/gregory-theologian-slides.pdf",
+              "asset": "assets/church-fathers-journeys/gregory-theologian/gregory-theologian-slides.pdf",
+              "placement": "after_text"
             }
           ]
         },
@@ -1736,6 +1734,18 @@
             {
               "label": "GOARCH · Ιωάννης ο Χρυσόστομος",
               "url": "https://religioused.sanfran.goarch.org/wp-content/uploads/2017-sjcof_manual_web.pdf"
+            },
+            {
+              "label": "OCA · βίος και διδασκαλία",
+              "url": "https://www.antiochpatriarchate.org/en/page/866/"
+            },
+            {
+              "label": "OCA · ιστορικό και θεολογικό πλαίσιο",
+              "url": "https://www.oca.org/orthodoxy/the-orthodox-faith/church-history/fourth-century/saint-john-chrysostom"
+            },
+            {
+              "label": "OCA · ιστορικό και θεολογικό πλαίσιο",
+              "url": "https://earlychurchtexts.com/public/john_chrysostom_homily_xxi_statues_flavian.htm"
             }
           ],
           "blocks": [
@@ -1746,6 +1756,14 @@
             {
               "kind": "text",
               "text": "Η προσωνυμία «Χρυσόστομος» θυμίζει τη δύναμη του λόγου του. Το κήρυγμά του συνδέει την πίστη με τη δικαιοσύνη και τη φροντίδα των φτωχών. Η Θεία Λειτουργία που φέρει το όνομά του κρατά επίσης ζωντανή τη σύνδεση ανάμεσα στη διδασκαλία, την κοινή προσευχή και τη ζωή της Εκκλησίας."
+            },
+            {
+              "kind": "heading",
+              "text": "Σταθμοί βίου και διδασκαλίας"
+            },
+            {
+              "kind": "text",
+              "text": "Η μητέρα του Ανθούσα και οι σπουδές κοντά στον Λιβάνιο διαμόρφωσαν τον νεαρό Ιωάννη. Η ασκητική ζωή στα σπήλαια κοντά στην Αντιόχεια τον οδήγησε σε εντατική μελέτη της Γραφής. Με τις Ομιλίες περί ανδριάντων το 387 στήριξε την πόλη που φοβόταν την αυτοκρατορική τιμωρία. Το 398 έγινε αρχιεπίσκοπος Κωνσταντινουπόλεως, συνδέοντας τη λατρεία με το κήρυγμα και την ποιμαντική φροντίδα. Οι ερμηνείες των επιστολών του Αποστόλου Παύλου φωτίζουν την πίστη και την καθημερινή ζωή. Από την εξορία ενίσχυε την Ολυμπιάδα και τους πιστούς με επιστολές. Στα Κόμανα, το 407, η τελευταία του μαρτυρία συνοψίστηκε στη δοξολογία «Δόξα τῷ Θεῷ πάντων ἕνεκεν»."
             }
           ],
           "media": [
@@ -1756,6 +1774,324 @@
               "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers/father-john-chrysostom.png",
               "asset": "assets/church-fathers/father-john-chrysostom.png",
               "caption": "Ιωάννης ο Χρυσόστομος"
+            },
+            {
+              "media_id": "VID-036",
+              "type": "video",
+              "title": "Βίος και διδασκαλία · βίντεο",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/john-chrysostom/john-chrysostom.mp4",
+              "asset": "assets/church-fathers-journeys/john-chrysostom/john-chrysostom.mp4",
+              "placement": "after_text",
+              "poster_media_id": "IMG-113",
+              "poster_asset": "assets/church-fathers-journeys/john-chrysostom/01-education.png",
+              "poster_url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/john-chrysostom/01-education.png"
+            },
+            {
+              "media_id": "SLD-022",
+              "type": "slides",
+              "title": "Παρουσίαση · 7 διαφάνειες",
+              "url": "https://docs.google.com/presentation/d/11fmo246q6mjeShNpHVjEvVgF9pWMOCJSf08av_V6k4o",
+              "placement": "after_text"
+            },
+            {
+              "media_id": "DOC-011",
+              "type": "document",
+              "title": "Διαφάνειες PDF",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/john-chrysostom/john-chrysostom-slides.pdf",
+              "asset": "assets/church-fathers-journeys/john-chrysostom/john-chrysostom-slides.pdf",
+              "placement": "after_text"
+            }
+          ]
+        },
+        {
+          "id": "father-cyril",
+          "title": "Κύριλλος Αλεξανδρείας",
+          "layout": "portrait-narrative",
+          "portrait_intro_count": 2,
+          "references": [
+            {
+              "label": "OCA · Χριστός και Θεοτόκος",
+              "url": "https://www.oca.org/orthodoxy/the-orthodox-faith/church-history/fifth-century/inner-struggles"
+            },
+            {
+              "label": "OCA · βίος και διδασκαλία",
+              "url": "https://www.oca.org/saints/lives/0578/06/09/101595-saint-cyril-archbishop-of-alexandria"
+            },
+            {
+              "label": "OCA · ιστορικό και θεολογικό πλαίσιο",
+              "url": "https://earlychurchtexts.com/main/cyrilofalex/letter_to_john_of_antioch.shtml"
+            }
+          ],
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Ο Κύριλλος Αλεξανδρείας κρατά το Ευαγγέλιο κοντά στο στήθος και ανοίγει ήρεμα το άλλο χέρι. Η εικόνα τον παρουσιάζει ως δάσκαλο που στηρίζει την ομολογία του στο ευαγγελικό μήνυμα και προσπαθεί να το κάνει κατανοητό στους ακροατές του."
+            },
+            {
+              "kind": "text",
+              "text": "Η υπεράσπιση της ονομασίας «Θεοτόκος» συνδέεται με το ερώτημα ποιος είναι ο Χριστός. Για τον Κύριλλο, εκείνος που γεννήθηκε από τη Μαρία είναι ο ίδιος ο Υιός και Λόγος του Θεού που έγινε άνθρωπος. Το Ευαγγέλιο στην αγκαλιά του θυμίζει αυτή την ενότητα του προσώπου του Χριστού."
+            },
+            {
+              "kind": "heading",
+              "text": "Σταθμοί βίου και διδασκαλίας"
+            },
+            {
+              "kind": "text",
+              "text": "Η μοναχική άσκηση στη Νιτρία και η μελέτη της Γραφής προετοίμασαν τον Κύριλλο για τη διακονία στην Αλεξάνδρεια. Ως διάκονος ανέλαβε το κήρυγμα και το 412 διαδέχθηκε τον Θεόφιλο στον επισκοπικό θρόνο. Στις επιστολές προς τον Νεστόριο υπερασπίστηκε την ονομασία Θεοτόκος, επειδή ο Χριστός είναι ο ίδιος ο Λόγος του Θεού που έγινε άνθρωπος. Προήδρευσε στη Γ΄ Οικουμενική Σύνοδο στην Έφεσο το 431. Η κρίση της Συνόδου τον οδήγησε στη φυλάκιση μαζί με τον Μέμνονα. Το 433 η υποδοχή του Παύλου Εμέσης και η συμφωνία με τον Ιωάννη Αντιοχείας άνοιξαν δρόμο εκκλησιαστικής συμφιλίωσης."
+            }
+          ],
+          "media": [
+            {
+              "media_id": "IMG-105",
+              "type": "image",
+              "title": "Κύριλλος Αλεξανδρείας — εκπαιδευτική εικονογράφηση",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers/father-cyril.png",
+              "asset": "assets/church-fathers/father-cyril.png",
+              "caption": "Κύριλλος Αλεξανδρείας"
+            },
+            {
+              "media_id": "VID-037",
+              "type": "video",
+              "title": "Βίος και διδασκαλία · βίντεο",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/cyril/cyril.mp4",
+              "asset": "assets/church-fathers-journeys/cyril/cyril.mp4",
+              "placement": "after_text",
+              "poster_media_id": "IMG-114",
+              "poster_asset": "assets/church-fathers-journeys/cyril/01-nitria.png",
+              "poster_url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/cyril/01-nitria.png"
+            },
+            {
+              "media_id": "SLD-023",
+              "type": "slides",
+              "title": "Παρουσίαση · 7 διαφάνειες",
+              "url": "https://docs.google.com/presentation/d/182OzPqkDnsGhHZDfiZJAd9MxhGQ0ZSYqnuXQxBO_wuc",
+              "placement": "after_text"
+            },
+            {
+              "media_id": "DOC-012",
+              "type": "document",
+              "title": "Διαφάνειες PDF",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/cyril/cyril-slides.pdf",
+              "asset": "assets/church-fathers-journeys/cyril/cyril-slides.pdf",
+              "placement": "after_text"
+            }
+          ]
+        },
+        {
+          "id": "father-maximus",
+          "title": "Μάξιμος Ομολογητής",
+          "layout": "portrait-narrative",
+          "portrait_intro_count": 2,
+          "references": [
+            {
+              "label": "Μάξιμος · PG 91",
+              "url": "https://catholiclibrary.org/library/view?chunk.id=00000105&docId=Fathers-Synchronized-EN/Maximus_Confessor__PG_91A_6.en.html"
+            },
+            {
+              "label": "OCA · βίος και διδασκαλία",
+              "url": "https://www.oca.org/saints/lives/2018/01/21/100249-venerable-maximus-the-confessor"
+            },
+            {
+              "label": "OCA · ιστορικό και θεολογικό πλαίσιο",
+              "url": "https://www.myriobiblos.gr/texts/greek/maximos/onlove3.html"
+            },
+            {
+              "label": "OCA · ιστορικό και θεολογικό πλαίσιο",
+              "url": "https://agape-biblia.org/literatura/On-the-Cosmic-Mystery-of-Jesus-Christ_St-Maximus%20the-Confessor_Paul-M-Blowers_Robert-Louis-Wilken.pdf"
+            }
+          ],
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Ο Μάξιμος Ομολογητής εμφανίζεται με απλό μοναχικό ένδυμα και ειλητάριο στο χέρι. Τα δύο υψωμένα δάχτυλα, στη συγκεκριμένη σύνθεση, μας οδηγούν στην ομολογία που υπερασπίστηκε: ο Χριστός έχει θεία και ανθρώπινη θέληση και ενέργεια."
+            },
+            {
+              "kind": "text",
+              "text": "Η ανθρώπινη φύση του Χριστού παραμένει πλήρης μέσα στην ένωση με τη θεία. Ο Μάξιμος επέμενε ότι η ανθρώπινη θέληση δεν χάνεται· στον Χριστό βρίσκεται σε αρμονία με τη θεία. Η λιτή μορφή και η καθαρή χειρονομία συνδέουν την ακρίβεια της διδασκαλίας με τη συνέπεια της ομολογίας."
+            },
+            {
+              "kind": "heading",
+              "text": "Σταθμοί βίου και διδασκαλίας"
+            },
+            {
+              "kind": "text",
+              "text": "Ο Μάξιμος αφιερώθηκε στη μοναχική ζωή στη Χρυσόπολη, με προσευχή και μελέτη. Στα Κεφάλαια περί αγάπης η άσκηση των αρετών στρέφει τις δυνάμεις της ψυχής προς τον Θεό και τον πλησίον. Στον διάλογο με τον Πύρρο υπερασπίστηκε τη θεία και την ανθρώπινη θέληση και ενέργεια του Χριστού. Συμμετείχε στη Σύνοδο του Λατερανού το 649, μαζί με τον πάπα Μαρτίνο. Παρέμεινε σταθερός στην ομολογία του κατά τη δίκη στην Κωνσταντινούπολη. Στη διδασκαλία του οι λόγοι των όντων βρίσκουν την ενότητά τους στον Χριστό, τον Λόγο του Θεού. Η τελευταία εξορία στον Καύκασο ολοκλήρωσε τη δοκιμασία του το 662."
+            }
+          ],
+          "media": [
+            {
+              "media_id": "IMG-106",
+              "type": "image",
+              "title": "Μάξιμος Ομολογητής — εκπαιδευτική εικονογράφηση",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers/father-maximus.png",
+              "asset": "assets/church-fathers/father-maximus.png",
+              "caption": "Μάξιμος Ομολογητής"
+            },
+            {
+              "media_id": "VID-038",
+              "type": "video",
+              "title": "Βίος και διδασκαλία · βίντεο",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/maximus/maximus.mp4",
+              "asset": "assets/church-fathers-journeys/maximus/maximus.mp4",
+              "placement": "after_text",
+              "poster_media_id": "IMG-115",
+              "poster_asset": "assets/church-fathers-journeys/maximus/01-chrysopolis.png",
+              "poster_url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/maximus/01-chrysopolis.png"
+            },
+            {
+              "media_id": "SLD-024",
+              "type": "slides",
+              "title": "Παρουσίαση · 7 διαφάνειες",
+              "url": "https://docs.google.com/presentation/d/19uju6p4oHNCbUTEJWvhGwhhOOsGBukZynxBwHg0lrt4",
+              "placement": "after_text"
+            },
+            {
+              "media_id": "DOC-013",
+              "type": "document",
+              "title": "Διαφάνειες PDF",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/maximus/maximus-slides.pdf",
+              "asset": "assets/church-fathers-journeys/maximus/maximus-slides.pdf",
+              "placement": "after_text"
+            }
+          ]
+        },
+        {
+          "id": "father-symeon",
+          "title": "Συμεών ο Νέος Θεολόγος",
+          "layout": "portrait-narrative",
+          "portrait_intro_count": 2,
+          "references": [
+            {
+              "label": "OCA · Συμεών ο Νέος Θεολόγος",
+              "url": "https://www.oca.org/saints/lives/2014/03/12/100790-venerable-simeon-the-new-theologian"
+            },
+            {
+              "label": "OCA · ιστορικό και θεολογικό πλαίσιο",
+              "url": "https://ocf.net/st-symeon-the-new-theologian-hymn-25/"
+            }
+          ],
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Ο Συμεών ο Νέος Θεολόγος στέκεται με ανοιχτά χέρια κοντά στο στήθος και βλέμμα στραμμένο ψηλά. Η ήρεμη στάση του μας βάζει στον κόσμο της προσευχής, όπου ο άνθρωπος στρέφεται προς τον Θεό με όλη του την ύπαρξη."
+            },
+            {
+              "kind": "text",
+              "text": "Στη διδασκαλία και στους ύμνους του, η γνώση του Θεού συνδέεται με προσωπική εμπειρία της χάρης και του θείου φωτός. Η προσευχή, η μετάνοια και η αγάπη φωτίζουν αυτή τη σχέση. Τα ανοιχτά χέρια της εικόνας εκφράζουν την προσδοκία και την προθυμία να δεχθεί κανείς τη θεία παρουσία."
+            },
+            {
+              "kind": "heading",
+              "text": "Σταθμοί βίου και διδασκαλίας"
+            },
+            {
+              "kind": "text",
+              "text": "Ο Συμεών ο Ευλαβής καθοδήγησε τα πρώτα πνευματικά βήματα του Συμεών. Ο βίος του περιγράφει μια νεανική εμπειρία θείου φωτός κατά τη νυχτερινή προσευχή. Εισήλθε στη Μονή Στουδίου και αργότερα, ως ηγούμενος της Μονής Αγίου Μάμαντος, αποκατέστησε τα κτίρια και την κοινοτική ζωή. Η διδασκαλία του συνδέει τη γνώση του Θεού με την προσωπική εμπειρία της χάρης, τη μετάνοια και το άκτιστο φως. Μετά την απομάκρυνσή του από την Κωνσταντινούπολη συνέχισε τη μοναχική ζωή πέρα από τον Βόσπορο. Στους Ύμνους Θείων Ερώτων η προσευχή και η αγάπη γίνονται ποιητική μαρτυρία της σχέσης του ανθρώπου με τον Θεό."
+            }
+          ],
+          "media": [
+            {
+              "media_id": "IMG-107",
+              "type": "image",
+              "title": "Συμεών ο Νέος Θεολόγος — εκπαιδευτική εικονογράφηση",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers/father-symeon.png",
+              "asset": "assets/church-fathers/father-symeon.png",
+              "caption": "Συμεών ο Νέος Θεολόγος"
+            },
+            {
+              "media_id": "VID-039",
+              "type": "video",
+              "title": "Βίος και διδασκαλία · βίντεο",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/symeon/symeon.mp4",
+              "asset": "assets/church-fathers-journeys/symeon/symeon.mp4",
+              "placement": "after_text",
+              "poster_media_id": "IMG-116",
+              "poster_asset": "assets/church-fathers-journeys/symeon/01-elder.png",
+              "poster_url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/symeon/01-elder.png"
+            },
+            {
+              "media_id": "SLD-025",
+              "type": "slides",
+              "title": "Παρουσίαση · 7 διαφάνειες",
+              "url": "https://docs.google.com/presentation/d/1xl11UJ30u5q7G9aRwJ3mmclVbqY1b7T4Ork2II6UMwg",
+              "placement": "after_text"
+            },
+            {
+              "media_id": "DOC-014",
+              "type": "document",
+              "title": "Διαφάνειες PDF",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/symeon/symeon-slides.pdf",
+              "asset": "assets/church-fathers-journeys/symeon/symeon-slides.pdf",
+              "placement": "after_text"
+            }
+          ]
+        },
+        {
+          "id": "father-palamas",
+          "title": "Γρηγόριος Παλαμάς",
+          "layout": "portrait-narrative",
+          "portrait_intro_count": 2,
+          "references": [
+            {
+              "label": "OCA · Γρηγόριος Παλαμάς",
+              "url": "https://www.oca.org/orthodoxy/the-orthodox-faith/church-history/fourteenth-century/saint-gregory-palamas"
+            },
+            {
+              "label": "OCA · βίος και διδασκαλία",
+              "url": "https://www.oca.org/saints/lives/2017/11/14/103303-saint-gregory-palamas-archbishop-of-thessalonica"
+            }
+          ],
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Το ένα χέρι του Γρηγορίου Παλαμά ακουμπά στο στήθος και το άλλο ανοίγει προς τα πάνω. Η κίνηση συνδέει την καρδιά που προσεύχεται με τον δάσκαλο που εξηγεί. Η μορφή μας θυμίζει τον δεσμό ανάμεσα στην ησυχία, την προσευχή και τη θεολογική σκέψη."
+            },
+            {
+              "kind": "text",
+              "text": "Ο Παλαμάς υπερασπίστηκε τη δυνατότητα του ανθρώπου να κοινωνεί πραγματικά με τον Θεό. Διέκρινε την απρόσιτη θεία ουσία από τις άκτιστες ενέργειες, με τις οποίες ο Θεός φανερώνεται και χαρίζει τη ζωή Του. Η ανοιχτή παλάμη παραπέμπει σε αυτή τη δωρεά της χάρης και του φωτός."
+            },
+            {
+              "kind": "heading",
+              "text": "Σταθμοί βίου και διδασκαλίας"
+            },
+            {
+              "kind": "text",
+              "text": "Ο Γρηγόριος Παλαμάς ακολούθησε τη μοναχική ζωή στο Άγιον Όρος και την ησυχαστική προσευχή. Κοντά στη Βέροια συνέδεσε την άσκηση με την ιερατική διακονία. Στη Σύνοδο του 1341 υπερασπίστηκε τη δυνατότητα πραγματικής κοινωνίας του ανθρώπου με τον Θεό. Η διάκριση της απρόσιτης θείας ουσίας από τις άκτιστες ενέργειες εξηγεί αυτή τη μετοχή στη χάρη και στο φως. Ως αρχιεπίσκοπος Θεσσαλονίκης ανέλαβε την ποιμαντική φροντίδα του λαού. Κατά την οθωμανική αιχμαλωσία του το 1354–1355 στήριξε τους χριστιανούς και συμμετείχε σε θρησκευτικούς διαλόγους. Η επιστροφή του στη Θεσσαλονίκη συνέχισε τη διδασκαλία και την ποιμαντική του μαρτυρία."
+            }
+          ],
+          "media": [
+            {
+              "media_id": "IMG-108",
+              "type": "image",
+              "title": "Γρηγόριος Παλαμάς — εκπαιδευτική εικονογράφηση",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers/father-palamas.png",
+              "asset": "assets/church-fathers/father-palamas.png",
+              "caption": "Γρηγόριος Παλαμάς"
+            },
+            {
+              "media_id": "VID-040",
+              "type": "video",
+              "title": "Βίος και διδασκαλία · βίντεο",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/palamas/palamas.mp4",
+              "asset": "assets/church-fathers-journeys/palamas/palamas.mp4",
+              "placement": "after_text",
+              "poster_media_id": "IMG-117",
+              "poster_asset": "assets/church-fathers-journeys/palamas/01-athos.png",
+              "poster_url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/palamas/01-athos.png"
+            },
+            {
+              "media_id": "SLD-026",
+              "type": "slides",
+              "title": "Παρουσίαση · 7 διαφάνειες",
+              "url": "https://docs.google.com/presentation/d/17v72Sbvei8ZObDkfTC3qRDPtPHhqzPWFkpw3maiam0A",
+              "placement": "after_text"
+            },
+            {
+              "media_id": "DOC-015",
+              "type": "document",
+              "title": "Διαφάνειες PDF",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/palamas/palamas-slides.pdf",
+              "asset": "assets/church-fathers-journeys/palamas/palamas-slides.pdf",
+              "placement": "after_text"
             }
           ]
         }

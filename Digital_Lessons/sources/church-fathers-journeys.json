@@ -1,0 +1,716 @@
+{
+  "approval": "All 56 images explicitly approved by the user before Slides and video creation",
+  "chapter": "lesson-church-fathers",
+  "revision": 17,
+  "narratives": {
+    "athanasius": "Ο Αθανάσιος ανατράφηκε πνευματικά κοντά στον επίσκοπο Αλέξανδρο και μελέτησε την Αγία Γραφή στην Αλεξάνδρεια. Ως διάκονος συμμετείχε στη Σύνοδο της Νίκαιας το 325 και υπερασπίστηκε την ομολογία ότι ο Υιός είναι ομοούσιος με τον Πατέρα. Το 328 έγινε επίσκοπος Αλεξανδρείας. Οι θεολογικές συγκρούσεις τον οδήγησαν επανειλημμένα στην εξορία και σε καταφύγια της ερήμου, όπου συνέχισε την ομολογία και τη συγγραφή του. Με τον Βίο του Αντωνίου μετέδωσε το παράδειγμα της ασκητικής ζωής. Οι επιστροφές του στην Αλεξάνδρεια συνδέθηκαν με την ποιμαντική φροντίδα και την αναζήτηση εκκλησιαστικής ενότητας.",
+    "basil": "Οι σπουδές στην Αθήνα και η φιλία με τον Γρηγόριο τον Θεολόγο διαμόρφωσαν την παιδεία του Βασιλείου. Μοίρασε την περιουσία του στους φτωχούς και ακολούθησε την ασκητική ζωή στον Πόντο, συνδέοντας την προσευχή και τη μελέτη με την κοινή εργασία. Το 370 έγινε επίσκοπος Καισαρείας. Στην Εξαήμερο, η ερμηνεία της Γενέσεως συναντά την παρατήρηση της φύσης και τις γνώσεις της εποχής του. Η Βασιλειάδα έδωσε πρακτική μορφή στη φροντίδα των ασθενών, των φτωχών και των ξένων. Με το έργο Περί Αγίου Πνεύματος υπερασπίστηκε τη θεότητα του Αγίου Πνεύματος μέσα στην ενότητα της Αγίας Τριάδας.",
+    "gregory-theologian": "Στην Αθήνα ο Γρηγόριος απέκτησε βαθιά παιδεία και στενή φιλία με τον Βασίλειο, με τον οποίο συνδέθηκε αργότερα στην ασκητική ζωή του Πόντου. Στους λόγους Κατά Ιουλιανού αντιτάχθηκε στον αποκλεισμό των χριστιανών από την ελληνική παιδεία. Στον μικρό ναό της Αναστάσεως στην Κωνσταντινούπολη εκφώνησε τους Θεολογικούς Λόγους για την Αγία Τριάδα. Το 381 συμμετείχε στη Β΄ Οικουμενική Σύνοδο και ανέλαβε προσωρινά την προεδρία της. Παραιτήθηκε από τον επισκοπικό θρόνο επιδιώκοντας την ειρήνη της Εκκλησίας και αποσύρθηκε στην Αριανζό, όπου η ποίηση και η προσευχή συνέχισαν τη θεολογική του μαρτυρία.",
+    "john-chrysostom": "Η μητέρα του Ανθούσα και οι σπουδές κοντά στον Λιβάνιο διαμόρφωσαν τον νεαρό Ιωάννη. Η ασκητική ζωή στα σπήλαια κοντά στην Αντιόχεια τον οδήγησε σε εντατική μελέτη της Γραφής. Με τις Ομιλίες περί ανδριάντων το 387 στήριξε την πόλη που φοβόταν την αυτοκρατορική τιμωρία. Το 398 έγινε αρχιεπίσκοπος Κωνσταντινουπόλεως, συνδέοντας τη λατρεία με το κήρυγμα και την ποιμαντική φροντίδα. Οι ερμηνείες των επιστολών του Αποστόλου Παύλου φωτίζουν την πίστη και την καθημερινή ζωή. Από την εξορία ενίσχυε την Ολυμπιάδα και τους πιστούς με επιστολές. Στα Κόμανα, το 407, η τελευταία του μαρτυρία συνοψίστηκε στη δοξολογία «Δόξα τῷ Θεῷ πάντων ἕνεκεν».",
+    "cyril": "Η μοναχική άσκηση στη Νιτρία και η μελέτη της Γραφής προετοίμασαν τον Κύριλλο για τη διακονία στην Αλεξάνδρεια. Ως διάκονος ανέλαβε το κήρυγμα και το 412 διαδέχθηκε τον Θεόφιλο στον επισκοπικό θρόνο. Στις επιστολές προς τον Νεστόριο υπερασπίστηκε την ονομασία Θεοτόκος, επειδή ο Χριστός είναι ο ίδιος ο Λόγος του Θεού που έγινε άνθρωπος. Προήδρευσε στη Γ΄ Οικουμενική Σύνοδο στην Έφεσο το 431. Η κρίση της Συνόδου τον οδήγησε στη φυλάκιση μαζί με τον Μέμνονα. Το 433 η υποδοχή του Παύλου Εμέσης και η συμφωνία με τον Ιωάννη Αντιοχείας άνοιξαν δρόμο εκκλησιαστικής συμφιλίωσης.",
+    "maximus": "Ο Μάξιμος αφιερώθηκε στη μοναχική ζωή στη Χρυσόπολη, με προσευχή και μελέτη. Στα Κεφάλαια περί αγάπης η άσκηση των αρετών στρέφει τις δυνάμεις της ψυχής προς τον Θεό και τον πλησίον. Στον διάλογο με τον Πύρρο υπερασπίστηκε τη θεία και την ανθρώπινη θέληση και ενέργεια του Χριστού. Συμμετείχε στη Σύνοδο του Λατερανού το 649, μαζί με τον πάπα Μαρτίνο. Παρέμεινε σταθερός στην ομολογία του κατά τη δίκη στην Κωνσταντινούπολη. Στη διδασκαλία του οι λόγοι των όντων βρίσκουν την ενότητά τους στον Χριστό, τον Λόγο του Θεού. Η τελευταία εξορία στον Καύκασο ολοκλήρωσε τη δοκιμασία του το 662.",
+    "symeon": "Ο Συμεών ο Ευλαβής καθοδήγησε τα πρώτα πνευματικά βήματα του Συμεών. Ο βίος του περιγράφει μια νεανική εμπειρία θείου φωτός κατά τη νυχτερινή προσευχή. Εισήλθε στη Μονή Στουδίου και αργότερα, ως ηγούμενος της Μονής Αγίου Μάμαντος, αποκατέστησε τα κτίρια και την κοινοτική ζωή. Η διδασκαλία του συνδέει τη γνώση του Θεού με την προσωπική εμπειρία της χάρης, τη μετάνοια και το άκτιστο φως. Μετά την απομάκρυνσή του από την Κωνσταντινούπολη συνέχισε τη μοναχική ζωή πέρα από τον Βόσπορο. Στους Ύμνους Θείων Ερώτων η προσευχή και η αγάπη γίνονται ποιητική μαρτυρία της σχέσης του ανθρώπου με τον Θεό.",
+    "palamas": "Ο Γρηγόριος Παλαμάς ακολούθησε τη μοναχική ζωή στο Άγιον Όρος και την ησυχαστική προσευχή. Κοντά στη Βέροια συνέδεσε την άσκηση με την ιερατική διακονία. Στη Σύνοδο του 1341 υπερασπίστηκε τη δυνατότητα πραγματικής κοινωνίας του ανθρώπου με τον Θεό. Η διάκριση της απρόσιτης θείας ουσίας από τις άκτιστες ενέργειες εξηγεί αυτή τη μετοχή στη χάρη και στο φως. Ως αρχιεπίσκοπος Θεσσαλονίκης ανέλαβε την ποιμαντική φροντίδα του λαού. Κατά την οθωμανική αιχμαλωσία του το 1354–1355 στήριξε τους χριστιανούς και συμμετείχε σε θρησκευτικούς διαλόγους. Η επιστροφή του στη Θεσσαλονίκη συνέχισε τη διδασκαλία και την ποιμαντική του μαρτυρία."
+  },
+  "series": [
+    {
+      "id": "athanasius",
+      "name": "Μέγας Αθανάσιος",
+      "book_section_id": "father-athanasius",
+      "sources": [
+        "https://www.oca.org/saints/id/lives/101269",
+        "https://www.oca.org/orthodoxy/the-orthodox-faith/church-history/fourth-century/saint-athanasius-and-his-defence-of-nicea"
+      ],
+      "scenes": [
+        {
+          "number": 1,
+          "id": "alexandria-study",
+          "title": "Σπουδή στην Αλεξάνδρεια",
+          "caption": "Κοντά στον επίσκοπο Αλέξανδρο, ο νεαρός Αθανάσιος μελετά την Αγία Γραφή.",
+          "source_url": "https://www.oca.org/saints/id/lives/101269",
+          "kind": "biographical",
+          "approval_status": "approved",
+          "approval_evidence": "Εγκρίνω και τις 7 εικόνες — user reply, 2026-10-13"
+        },
+        {
+          "number": 2,
+          "id": "nicaea",
+          "title": "Νίκαια, 325",
+          "caption": "Ως διάκονος στη Νίκαια, υπερασπίζεται τον Υιό ως ομοούσιο με τον Πατέρα.",
+          "source_url": "https://www.oca.org/saints/id/lives/101269",
+          "kind": "biographical",
+          "approval_status": "approved",
+          "approval_evidence": "Εγκρίνω και τις 7 εικόνες — user reply, 2026-10-13"
+        },
+        {
+          "number": 3,
+          "id": "bishop",
+          "title": "Επίσκοπος Αλεξανδρείας",
+          "caption": "Το 328 αναλαμβάνει τη φροντίδα της Εκκλησίας της Αλεξάνδρειας.",
+          "source_url": "https://www.oca.org/saints/id/lives/101269",
+          "kind": "biographical",
+          "approval_status": "approved",
+          "approval_evidence": "Εγκρίνω και τις 7 εικόνες — user reply, 2026-10-13"
+        },
+        {
+          "number": 4,
+          "id": "exile",
+          "title": "Οι εξορίες",
+          "caption": "Οι διωγμοί τον απομακρύνουν από το ποίμνιό του, χωρίς να κάμψουν την πίστη του.",
+          "source_url": "https://www.oca.org/saints/id/lives/101269",
+          "kind": "biographical",
+          "approval_status": "approved",
+          "approval_evidence": "Εγκρίνω και τις 7 εικόνες — user reply, 2026-10-13"
+        },
+        {
+          "number": 5,
+          "id": "desert-refuge",
+          "title": "Καταφυγή στην έρημο",
+          "caption": "Σε απομονωμένους τόπους βρίσκει καταφύγιο και συνεχίζει την ομολογία του.",
+          "source_url": "https://www.oca.org/saints/id/lives/101269",
+          "kind": "biographical",
+          "approval_status": "approved",
+          "approval_evidence": "Εγκρίνω και τις 7 εικόνες — user reply, 2026-10-13"
+        },
+        {
+          "number": 6,
+          "id": "life-of-antony",
+          "title": "Ο Βίος του Αντωνίου",
+          "caption": "Με τον Βίο του Αντωνίου μεταδίδει το παράδειγμα της ασκητικής ζωής.",
+          "source_url": "https://www.oca.org/saints/id/lives/101269",
+          "kind": "biographical",
+          "approval_status": "approved",
+          "approval_evidence": "Εγκρίνω και τις 7 εικόνες — user reply, 2026-10-13"
+        },
+        {
+          "number": 7,
+          "id": "return",
+          "title": "Επιστροφή και συμφιλίωση",
+          "caption": "Επιστρέφει στην Αλεξάνδρεια και εργάζεται για την ενότητα της Εκκλησίας.",
+          "source_url": "https://www.oca.org/saints/id/lives/101269",
+          "kind": "biographical",
+          "approval_status": "approved",
+          "approval_evidence": "Εγκρίνω και τις 7 εικόνες — user reply, 2026-10-13"
+        }
+      ],
+      "media_ids": {
+        "video": "VID-033",
+        "slides": "SLD-019",
+        "image": "IMG-110",
+        "document": "DOC-008"
+      }
+    },
+    {
+      "id": "basil",
+      "name": "Μέγας Βασίλειος",
+      "book_section_id": "father-basil",
+      "sources": [
+        "https://www.oca.org/saints/lives/1984/01/01/100003-saint-basil-the-great-archbishop-of-caesarea-in-cappadocia",
+        "https://www.newadvent.org/fathers/32015.htm"
+      ],
+      "scenes": [
+        {
+          "number": 1,
+          "id": "athens",
+          "title": "Σπουδές στην Αθήνα",
+          "caption": "Η ελληνική παιδεία και η φιλία με τον Γρηγόριο συνοδεύουν τη ζωή του.",
+          "source_url": "https://www.oca.org/saints/lives/1984/01/01/100003-saint-basil-the-great-archbishop-of-caesarea-in-cappadocia",
+          "kind": "biographical",
+          "approval_status": "approved",
+          "approval_evidence": "Εγκρίνω και τις 7 εικόνες — user reply, 2026-10-13"
+        },
+        {
+          "number": 2,
+          "id": "giving",
+          "title": "Αφιέρωση και προσφορά",
+          "caption": "Μοιράζει την περιουσία του στους φτωχούς και επιλέγει την ασκητική ζωή.",
+          "source_url": "https://www.oca.org/saints/lives/1984/01/01/100003-saint-basil-the-great-archbishop-of-caesarea-in-cappadocia",
+          "kind": "biographical",
+          "approval_status": "approved",
+          "approval_evidence": "Εγκρίνω και τις 7 εικόνες — user reply, 2026-10-13"
+        },
+        {
+          "number": 3,
+          "id": "pontus",
+          "title": "Άσκηση στον Πόντο",
+          "caption": "Κοινή εργασία, μελέτη και προσευχή θεμελιώνουν τους μοναχικούς κανόνες.",
+          "source_url": "https://www.oca.org/saints/lives/1984/01/01/100003-saint-basil-the-great-archbishop-of-caesarea-in-cappadocia",
+          "kind": "biographical",
+          "approval_status": "approved",
+          "approval_evidence": "Εγκρίνω και τις 7 εικόνες — user reply, 2026-10-13"
+        },
+        {
+          "number": 4,
+          "id": "bishop",
+          "title": "Επίσκοπος Καισαρείας",
+          "caption": "Το 370 αναλαμβάνει την ποιμαντική φροντίδα της Καισαρείας.",
+          "source_url": "https://www.oca.org/saints/lives/1984/01/01/100003-saint-basil-the-great-archbishop-of-caesarea-in-cappadocia",
+          "kind": "biographical",
+          "approval_status": "approved",
+          "approval_evidence": "Εγκρίνω και τις 7 εικόνες — user reply, 2026-10-13"
+        },
+        {
+          "number": 5,
+          "id": "hexaemeron",
+          "title": "Εξαήμερος",
+          "caption": "Η μελέτη της φύσης συναντά την ερμηνεία της Αγίας Γραφής.",
+          "source_url": "https://www.newadvent.org/fathers/32015.htm",
+          "kind": "symbolic-teaching",
+          "approval_status": "approved",
+          "approval_evidence": "Εγκρίνω και τις 7 εικόνες — user reply, 2026-10-13"
+        },
+        {
+          "number": 6,
+          "id": "basileias",
+          "title": "Η Βασιλειάδα",
+          "caption": "Η έμπρακτη αγάπη γίνεται φιλοξενία, περίθαλψη και φροντίδα των φτωχών.",
+          "source_url": "https://www.oca.org/saints/lives/1984/01/01/100003-saint-basil-the-great-archbishop-of-caesarea-in-cappadocia",
+          "kind": "biographical",
+          "approval_status": "approved",
+          "approval_evidence": "Εγκρίνω και τις 7 εικόνες — user reply, 2026-10-13"
+        },
+        {
+          "number": 7,
+          "id": "holy-spirit",
+          "title": "Περί Αγίου Πνεύματος",
+          "caption": "Διδάσκει τη θεότητα του Αγίου Πνεύματος και την ενότητα της Αγίας Τριάδας.",
+          "source_url": "https://www.oca.org/saints/lives/1984/01/01/100003-saint-basil-the-great-archbishop-of-caesarea-in-cappadocia",
+          "kind": "biographical",
+          "approval_status": "approved",
+          "approval_evidence": "Εγκρίνω και τις 7 εικόνες — user reply, 2026-10-13"
+        }
+      ],
+      "media_ids": {
+        "video": "VID-034",
+        "slides": "SLD-020",
+        "image": "IMG-111",
+        "document": "DOC-009"
+      }
+    },
+    {
+      "id": "gregory-theologian",
+      "name": "Γρηγόριος ο Θεολόγος",
+      "book_section_id": "father-gregory-theologian",
+      "sources": [
+        "https://www.oca.org/saints/id/lives/100298",
+        "https://earlychristianwritings.com/fathers/gregory_nazianzen_2_oration4.html"
+      ],
+      "scenes": [
+        {
+          "number": 1,
+          "id": "athens",
+          "title": "Αθήνα",
+          "caption": "Σπουδές και βαθιά φιλία με τον Βασίλειο καλλιεργούν τον λόγο και την πίστη του.",
+          "source_url": "https://www.oca.org/saints/id/lives/100298",
+          "kind": "biographical",
+          "approval_status": "approved",
+          "approval_evidence": "Εγκρίνω και τις 7 εικόνες — user reply, 2026-10-13"
+        },
+        {
+          "number": 2,
+          "id": "pontus",
+          "title": "Άσκηση στον Πόντο",
+          "caption": "Κοντά στον Βασίλειο συνδέει τη μελέτη με την άσκηση και την προσευχή.",
+          "source_url": "https://www.oca.org/saints/id/lives/100298",
+          "kind": "biographical",
+          "approval_status": "approved",
+          "approval_evidence": "Εγκρίνω και τις 7 εικόνες — user reply, 2026-10-13"
+        },
+        {
+          "number": 3,
+          "id": "against-julian",
+          "title": "Κατά Ιουλιανού",
+          "caption": "Υπερασπίζεται την πίστη και την πρόσβαση των χριστιανών στην ελληνική παιδεία.",
+          "source_url": "https://earlychristianwritings.com/fathers/gregory_nazianzen_2_oration4.html",
+          "kind": "biographical",
+          "approval_status": "approved",
+          "approval_evidence": "Εγκρίνω και τις 7 εικόνες — user reply, 2026-10-13"
+        },
+        {
+          "number": 4,
+          "id": "anastasis",
+          "title": "Ο ναός της Αναστάσεως",
+          "caption": "Στην Κωνσταντινούπολη κηρύσσει τους Θεολογικούς Λόγους για την Αγία Τριάδα.",
+          "source_url": "https://www.oca.org/saints/id/lives/100298",
+          "kind": "biographical",
+          "approval_status": "approved",
+          "approval_evidence": "Εγκρίνω και τις 7 εικόνες — user reply, 2026-10-13"
+        },
+        {
+          "number": 5,
+          "id": "council",
+          "title": "Β΄ Οικουμενική Σύνοδος",
+          "caption": "Το 381 συμμετέχει στη Σύνοδο και αναλαμβάνει προσωρινά την προεδρία της.",
+          "source_url": "https://www.oca.org/saints/id/lives/100298",
+          "kind": "biographical",
+          "approval_status": "approved",
+          "approval_evidence": "Εγκρίνω και τις 7 εικόνες — user reply, 2026-10-13"
+        },
+        {
+          "number": 6,
+          "id": "farewell",
+          "title": "Ο αποχαιρετισμός",
+          "caption": "Παραιτείται από τον θρόνο για χάρη της ειρήνης της Εκκλησίας.",
+          "source_url": "https://www.oca.org/saints/id/lives/100298",
+          "kind": "biographical",
+          "approval_status": "approved",
+          "approval_evidence": "Εγκρίνω και τις 7 εικόνες — user reply, 2026-10-13"
+        },
+        {
+          "number": 7,
+          "id": "arianzus",
+          "title": "Αριανζός",
+          "caption": "Στην ησυχία συνεχίζει τη διδασκαλία με ποιήματα και επιστολές.",
+          "source_url": "https://www.oca.org/saints/id/lives/100298",
+          "kind": "biographical",
+          "approval_status": "approved",
+          "approval_evidence": "Εγκρίνω και τις 7 εικόνες — user reply, 2026-10-13"
+        }
+      ],
+      "media_ids": {
+        "video": "VID-035",
+        "slides": "SLD-021",
+        "image": "IMG-112",
+        "document": "DOC-010"
+      }
+    },
+    {
+      "id": "john-chrysostom",
+      "name": "Ιωάννης Χρυσόστομος",
+      "book_section_id": "father-john-chrysostom",
+      "sources": [
+        "https://www.antiochpatriarchate.org/en/page/866/",
+        "https://www.oca.org/orthodoxy/the-orthodox-faith/church-history/fourth-century/saint-john-chrysostom",
+        "https://earlychurchtexts.com/public/john_chrysostom_homily_xxi_statues_flavian.htm"
+      ],
+      "scenes": [
+        {
+          "number": 1,
+          "id": "education",
+          "title": "Οικογένεια και παιδεία",
+          "caption": "Η Ανθούσα και οι σπουδές κοντά στον Λιβάνιο διαμορφώνουν τον νεαρό Ιωάννη.",
+          "source_url": "https://www.antiochpatriarchate.org/en/page/866/",
+          "kind": "biographical",
+          "approval_status": "approved",
+          "approval_evidence": "Εγκρίνω και τις 7 εικόνες — user reply, 2026-10-13"
+        },
+        {
+          "number": 2,
+          "id": "ascetic-life",
+          "title": "Ασκητική ζωή",
+          "caption": "Στα σπήλαια κοντά στην Αντιόχεια αφιερώνεται στην προσευχή και τη μελέτη.",
+          "source_url": "https://www.antiochpatriarchate.org/en/page/866/",
+          "kind": "biographical",
+          "approval_status": "approved",
+          "approval_evidence": "Εγκρίνω και τις 7 εικόνες — user reply, 2026-10-13"
+        },
+        {
+          "number": 3,
+          "id": "statues",
+          "title": "Ομιλίες περί ανδριάντων",
+          "caption": "Το 387 παρηγορεί την Αντιόχεια που φοβάται την αυτοκρατορική τιμωρία.",
+          "source_url": "https://earlychurchtexts.com/public/john_chrysostom_homily_xxi_statues_flavian.htm",
+          "kind": "biographical",
+          "approval_status": "approved",
+          "approval_evidence": "Εγκρίνω και τις 7 εικόνες — user reply, 2026-10-13"
+        },
+        {
+          "number": 4,
+          "id": "constantinople",
+          "title": "Αρχιεπίσκοπος Κωνσταντινουπόλεως",
+          "caption": "Το 398 αναλαμβάνει τη λατρεία και την ποιμαντική διακονία της πρωτεύουσας.",
+          "source_url": "https://www.antiochpatriarchate.org/en/page/866/",
+          "kind": "biographical",
+          "approval_status": "approved",
+          "approval_evidence": "Εγκρίνω και τις 7 εικόνες — user reply, 2026-10-13"
+        },
+        {
+          "number": 5,
+          "id": "paul-interpreter",
+          "title": "Ερμηνευτής του Αποστόλου Παύλου",
+          "caption": "Ερμηνεύει τις επιστολές του Παύλου, φωτίζοντας την πίστη και την καθημερινή ζωή.",
+          "source_url": "https://www.antiochpatriarchate.org/en/page/866/",
+          "kind": "biblical-interpretation",
+          "approval_status": "approved",
+          "approval_evidence": "Εγκρίνω και τις 7 εικόνες — user reply, 2026-10-13"
+        },
+        {
+          "number": 6,
+          "id": "exile-letters",
+          "title": "Εξορία και επιστολές",
+          "caption": "Από την εξορία στηρίζει την Ολυμπιάδα και τους πιστούς με τις επιστολές του.",
+          "source_url": "https://www.antiochpatriarchate.org/en/page/866/",
+          "kind": "biographical",
+          "approval_status": "approved",
+          "approval_evidence": "Εγκρίνω και τις 7 εικόνες — user reply, 2026-10-13"
+        },
+        {
+          "number": 7,
+          "id": "comana",
+          "title": "Κόμανα, 407",
+          "caption": "Στην τελευταία δοκιμασία ομολογεί: «Δόξα τῷ Θεῷ πάντων ἕνεκεν».",
+          "source_url": "https://www.antiochpatriarchate.org/en/page/866/",
+          "kind": "biographical",
+          "approval_status": "approved",
+          "approval_evidence": "Εγκρίνω και τις 7 εικόνες — user reply, 2026-10-13"
+        }
+      ],
+      "media_ids": {
+        "video": "VID-036",
+        "slides": "SLD-022",
+        "image": "IMG-113",
+        "document": "DOC-011"
+      }
+    },
+    {
+      "id": "cyril",
+      "name": "Κύριλλος Αλεξανδρείας",
+      "book_section_id": "father-cyril",
+      "sources": [
+        "https://www.oca.org/saints/lives/0578/06/09/101595-saint-cyril-archbishop-of-alexandria",
+        "https://earlychurchtexts.com/main/cyrilofalex/letter_to_john_of_antioch.shtml"
+      ],
+      "scenes": [
+        {
+          "number": 1,
+          "id": "nitria",
+          "title": "Άσκηση στη Νιτρία",
+          "caption": "Η μοναχική ζωή και η μελέτη της Γραφής προετοιμάζουν τη διακονία του.",
+          "source_url": "https://www.oca.org/saints/lives/0578/06/09/101595-saint-cyril-archbishop-of-alexandria",
+          "kind": "biographical",
+          "approval_status": "approved",
+          "approval_evidence": "Εγκρίνω και τις 7 εικόνες — user reply, 2026-10-13"
+        },
+        {
+          "number": 2,
+          "id": "deacon",
+          "title": "Διάκονος στην Αλεξάνδρεια",
+          "caption": "Αναλαμβάνει το κήρυγμα και τη διδασκαλία της Εκκλησίας.",
+          "source_url": "https://www.oca.org/saints/lives/0578/06/09/101595-saint-cyril-archbishop-of-alexandria",
+          "kind": "biographical",
+          "approval_status": "approved",
+          "approval_evidence": "Εγκρίνω και τις 7 εικόνες — user reply, 2026-10-13"
+        },
+        {
+          "number": 3,
+          "id": "bishop",
+          "title": "Επίσκοπος Αλεξανδρείας",
+          "caption": "Το 412 διαδέχεται τον Θεόφιλο στον θρόνο της Αλεξάνδρειας.",
+          "source_url": "https://www.oca.org/saints/lives/0578/06/09/101595-saint-cyril-archbishop-of-alexandria",
+          "kind": "biographical",
+          "approval_status": "approved",
+          "approval_evidence": "Εγκρίνω και τις 7 εικόνες — user reply, 2026-10-13"
+        },
+        {
+          "number": 4,
+          "id": "letters",
+          "title": "Οι επιστολές προς τον Νεστόριο",
+          "caption": "Εξηγεί ότι η Μαρία είναι Θεοτόκος, επειδή ο Χριστός είναι ο ενανθρωπήσας Λόγος.",
+          "source_url": "https://www.oca.org/saints/lives/0578/06/09/101595-saint-cyril-archbishop-of-alexandria",
+          "kind": "biographical",
+          "approval_status": "approved",
+          "approval_evidence": "Εγκρίνω και τις 7 εικόνες — user reply, 2026-10-13"
+        },
+        {
+          "number": 5,
+          "id": "ephesus",
+          "title": "Έφεσος, 431",
+          "caption": "Προεδρεύει στη Γ΄ Οικουμενική Σύνοδο και υπερασπίζεται την ενότητα του Χριστού.",
+          "source_url": "https://www.oca.org/saints/lives/0578/06/09/101595-saint-cyril-archbishop-of-alexandria",
+          "kind": "biographical",
+          "approval_status": "approved",
+          "approval_evidence": "Εγκρίνω και τις 7 εικόνες — user reply, 2026-10-13"
+        },
+        {
+          "number": 6,
+          "id": "imprisonment",
+          "title": "Η φυλάκιση",
+          "caption": "Μαζί με τον Μέμνονα δοκιμάζεται μέσα στην κρίση της Συνόδου.",
+          "source_url": "https://www.oca.org/saints/lives/0578/06/09/101595-saint-cyril-archbishop-of-alexandria",
+          "kind": "biographical",
+          "approval_status": "approved",
+          "approval_evidence": "Εγκρίνω και τις 7 εικόνες — user reply, 2026-10-13"
+        },
+        {
+          "number": 7,
+          "id": "reunion",
+          "title": "Συμφιλίωση, 433",
+          "caption": "Η υποδοχή του Παύλου Εμέσης ανοίγει τον δρόμο της ενότητας με την Αντιόχεια.",
+          "source_url": "https://earlychurchtexts.com/main/cyrilofalex/letter_to_john_of_antioch.shtml",
+          "kind": "biographical",
+          "approval_status": "approved",
+          "approval_evidence": "Εγκρίνω και τις 7 εικόνες — user reply, 2026-10-13"
+        }
+      ],
+      "media_ids": {
+        "video": "VID-037",
+        "slides": "SLD-023",
+        "image": "IMG-114",
+        "document": "DOC-012"
+      }
+    },
+    {
+      "id": "maximus",
+      "name": "Μάξιμος Ομολογητής",
+      "book_section_id": "father-maximus",
+      "sources": [
+        "https://www.oca.org/saints/lives/2018/01/21/100249-venerable-maximus-the-confessor",
+        "https://www.myriobiblos.gr/texts/greek/maximos/onlove3.html",
+        "https://agape-biblia.org/literatura/On-the-Cosmic-Mystery-of-Jesus-Christ_St-Maximus%20the-Confessor_Paul-M-Blowers_Robert-Louis-Wilken.pdf"
+      ],
+      "scenes": [
+        {
+          "number": 1,
+          "id": "chrysopolis",
+          "title": "Μοναχός στη Χρυσόπολη",
+          "caption": "Επιλέγει την ασκητική ζωή και αφιερώνεται στην προσευχή και τη μελέτη.",
+          "source_url": "https://www.oca.org/saints/lives/2018/01/21/100249-venerable-maximus-the-confessor",
+          "kind": "biographical",
+          "approval_status": "approved",
+          "approval_evidence": "Εγκρίνω και τις 7 εικόνες — user reply, 2026-10-13"
+        },
+        {
+          "number": 2,
+          "id": "motion-love",
+          "title": "Κίνηση και αγάπη",
+          "caption": "Η αγάπη στρέφει την κίνηση της ψυχής προς τον Θεό.",
+          "source_url": "https://www.myriobiblos.gr/texts/greek/maximos/onlove3.html",
+          "kind": "symbolic-teaching",
+          "approval_status": "approved",
+          "approval_evidence": "Εγκρίνω και τις 7 εικόνες — user reply, 2026-10-13"
+        },
+        {
+          "number": 3,
+          "id": "pyrrhus",
+          "title": "Διάλογος με τον Πύρρο",
+          "caption": "Υπερασπίζεται τη θεία και την ανθρώπινη θέληση και ενέργεια του Χριστού.",
+          "source_url": "https://www.oca.org/saints/lives/2018/01/21/100249-venerable-maximus-the-confessor",
+          "kind": "biographical",
+          "approval_status": "approved",
+          "approval_evidence": "Εγκρίνω και τις 7 εικόνες — user reply, 2026-10-13"
+        },
+        {
+          "number": 4,
+          "id": "lateran",
+          "title": "Λατερανό, 649",
+          "caption": "Συμμετέχει στη Σύνοδο μαζί με τον πάπα Μαρτίνο.",
+          "source_url": "https://www.oca.org/saints/lives/2018/01/21/100249-venerable-maximus-the-confessor",
+          "kind": "biographical",
+          "approval_status": "approved",
+          "approval_evidence": "Εγκρίνω και τις 7 εικόνες — user reply, 2026-10-13"
+        },
+        {
+          "number": 5,
+          "id": "trial",
+          "title": "Δίκη στην Κωνσταντινούπολη",
+          "caption": "Παραμένει σταθερός στην ομολογία του απέναντι στην αυτοκρατορική εξουσία.",
+          "source_url": "https://www.oca.org/saints/lives/2018/01/21/100249-venerable-maximus-the-confessor",
+          "kind": "biographical",
+          "approval_status": "approved",
+          "approval_evidence": "Εγκρίνω και τις 7 εικόνες — user reply, 2026-10-13"
+        },
+        {
+          "number": 6,
+          "id": "logoi",
+          "title": "Οι λόγοι των όντων",
+          "caption": "Οι λόγοι των όντων βρίσκουν την ενότητά τους στον Χριστό–Λόγο.",
+          "source_url": "https://agape-biblia.org/literatura/On-the-Cosmic-Mystery-of-Jesus-Christ_St-Maximus%20the-Confessor_Paul-M-Blowers_Robert-Louis-Wilken.pdf",
+          "kind": "symbolic-teaching",
+          "approval_status": "approved",
+          "approval_evidence": "Εγκρίνω και τις 7 εικόνες — user reply, 2026-10-13"
+        },
+        {
+          "number": 7,
+          "id": "last-exile",
+          "title": "Τελευταία εξορία",
+          "caption": "Στον Καύκασο ολοκληρώνεται η δοκιμασία της ομολογίας του, το 662.",
+          "source_url": "https://www.oca.org/saints/lives/2018/01/21/100249-venerable-maximus-the-confessor",
+          "kind": "biographical",
+          "approval_status": "approved",
+          "approval_evidence": "Εγκρίνω και τις 7 εικόνες — user reply, 2026-10-13"
+        }
+      ],
+      "media_ids": {
+        "video": "VID-038",
+        "slides": "SLD-024",
+        "image": "IMG-115",
+        "document": "DOC-013"
+      }
+    },
+    {
+      "id": "symeon",
+      "name": "Συμεών ο Νέος Θεολόγος",
+      "book_section_id": "father-symeon",
+      "sources": [
+        "https://www.oca.org/saints/lives/2014/03/12/100790-venerable-simeon-the-new-theologian",
+        "https://ocf.net/st-symeon-the-new-theologian-hymn-25/"
+      ],
+      "scenes": [
+        {
+          "number": 1,
+          "id": "elder",
+          "title": "Ο πνευματικός οδηγός",
+          "caption": "Ο Συμεών ο Ευλαβής καθοδηγεί τα πρώτα βήματα της πνευματικής του ζωής.",
+          "source_url": "https://www.oca.org/saints/lives/2014/03/12/100790-venerable-simeon-the-new-theologian",
+          "kind": "biographical",
+          "approval_status": "approved",
+          "approval_evidence": "Εγκρίνω και τις 7 εικόνες — user reply, 2026-10-13"
+        },
+        {
+          "number": 2,
+          "id": "first-light",
+          "title": "Νυχτερινή προσευχή",
+          "caption": "Ο βίος του περιγράφει τη νεανική εμπειρία του θείου φωτός στην προσευχή.",
+          "source_url": "https://www.oca.org/saints/lives/2014/03/12/100790-venerable-simeon-the-new-theologian",
+          "kind": "biographical",
+          "approval_status": "approved",
+          "approval_evidence": "Εγκρίνω και τις 7 εικόνες — user reply, 2026-10-13"
+        },
+        {
+          "number": 3,
+          "id": "stoudios",
+          "title": "Είσοδος στον μοναχισμό",
+          "caption": "Γίνεται μοναχός στη Μονή Στουδίου.",
+          "source_url": "https://www.oca.org/saints/lives/2014/03/12/100790-venerable-simeon-the-new-theologian",
+          "kind": "biographical",
+          "approval_status": "approved",
+          "approval_evidence": "Εγκρίνω και τις 7 εικόνες — user reply, 2026-10-13"
+        },
+        {
+          "number": 4,
+          "id": "saint-mamas",
+          "title": "Μονή Αγίου Μάμαντος",
+          "caption": "Ως ηγούμενος αποκαθιστά τα κτίρια και την κοινοτική ζωή.",
+          "source_url": "https://www.oca.org/saints/lives/2014/03/12/100790-venerable-simeon-the-new-theologian",
+          "kind": "biographical",
+          "approval_status": "approved",
+          "approval_evidence": "Εγκρίνω και τις 7 εικόνες — user reply, 2026-10-13"
+        },
+        {
+          "number": 5,
+          "id": "uncreated-light",
+          "title": "Η γνώση του θείου φωτός",
+          "caption": "Νέος Θεολόγος: η γνώση του Θεού ως εμπειρία χάρης και φωτός.",
+          "source_url": "https://ocf.net/st-symeon-the-new-theologian-hymn-25/",
+          "kind": "symbolic-teaching",
+          "approval_status": "approved",
+          "approval_evidence": "Εγκρίνω και τις 7 εικόνες — user reply, 2026-10-13"
+        },
+        {
+          "number": 6,
+          "id": "exile",
+          "title": "Εξορία πέρα από τον Βόσπορο",
+          "caption": "Αποχωρεί από την Κωνσταντινούπολη και συνεχίζει την πνευματική ζωή του.",
+          "source_url": "https://www.oca.org/saints/lives/2014/03/12/100790-venerable-simeon-the-new-theologian",
+          "kind": "biographical",
+          "approval_status": "approved",
+          "approval_evidence": "Εγκρίνω και τις 7 εικόνες — user reply, 2026-10-13"
+        },
+        {
+          "number": 7,
+          "id": "hymns",
+          "title": "Ύμνοι Θείων Ερώτων",
+          "caption": "Η προσευχή και η θεία αγάπη γίνονται ποιητική μαρτυρία.",
+          "source_url": "https://www.oca.org/saints/lives/2014/03/12/100790-venerable-simeon-the-new-theologian",
+          "kind": "biographical",
+          "approval_status": "approved",
+          "approval_evidence": "Εγκρίνω και τις 7 εικόνες — user reply, 2026-10-13"
+        }
+      ],
+      "media_ids": {
+        "video": "VID-039",
+        "slides": "SLD-025",
+        "image": "IMG-116",
+        "document": "DOC-014"
+      }
+    },
+    {
+      "id": "palamas",
+      "name": "Γρηγόριος Παλαμάς",
+      "book_section_id": "father-palamas",
+      "sources": [
+        "https://www.oca.org/saints/lives/2017/11/14/103303-saint-gregory-palamas-archbishop-of-thessalonica",
+        "https://www.oca.org/orthodoxy/the-orthodox-faith/church-history/fourteenth-century/saint-gregory-palamas"
+      ],
+      "scenes": [
+        {
+          "number": 1,
+          "id": "athos",
+          "title": "Άγιον Όρος",
+          "caption": "Επιλέγει τη μοναχική ζωή και την ησυχαστική προσευχή.",
+          "source_url": "https://www.oca.org/saints/lives/2017/11/14/103303-saint-gregory-palamas-archbishop-of-thessalonica",
+          "kind": "biographical",
+          "approval_status": "approved",
+          "approval_evidence": "Εγκρίνω και τις 7 εικόνες — user reply, 2026-10-13"
+        },
+        {
+          "number": 2,
+          "id": "veria",
+          "title": "Άσκηση κοντά στη Βέροια",
+          "caption": "Συνδυάζει την ησυχία με την ιερατική διακονία.",
+          "source_url": "https://www.oca.org/saints/lives/2017/11/14/103303-saint-gregory-palamas-archbishop-of-thessalonica",
+          "kind": "biographical",
+          "approval_status": "approved",
+          "approval_evidence": "Εγκρίνω και τις 7 εικόνες — user reply, 2026-10-13"
+        },
+        {
+          "number": 3,
+          "id": "council",
+          "title": "Σύνοδος του 1341",
+          "caption": "Υπερασπίζεται τον ησυχασμό και τη διάκριση ουσίας και ενεργειών.",
+          "source_url": "https://www.oca.org/saints/lives/2017/11/14/103303-saint-gregory-palamas-archbishop-of-thessalonica",
+          "kind": "biographical",
+          "approval_status": "approved",
+          "approval_evidence": "Εγκρίνω και τις 7 εικόνες — user reply, 2026-10-13"
+        },
+        {
+          "number": 4,
+          "id": "energies",
+          "title": "Μετοχή στις άκτιστες ενέργειες",
+          "caption": "Ο άνθρωπος κοινωνεί με τον Θεό μετέχοντας στις άκτιστες ενέργειές Του.",
+          "source_url": "https://www.oca.org/orthodoxy/the-orthodox-faith/church-history/fourteenth-century/saint-gregory-palamas",
+          "kind": "symbolic-teaching",
+          "approval_status": "approved",
+          "approval_evidence": "Εγκρίνω και τις 7 εικόνες — user reply, 2026-10-13"
+        },
+        {
+          "number": 5,
+          "id": "thessalonica",
+          "title": "Αρχιεπίσκοπος Θεσσαλονίκης",
+          "caption": "Αναλαμβάνει την ποιμαντική φροντίδα του λαού.",
+          "source_url": "https://www.oca.org/saints/lives/2017/11/14/103303-saint-gregory-palamas-archbishop-of-thessalonica",
+          "kind": "biographical",
+          "approval_status": "approved",
+          "approval_evidence": "Εγκρίνω και τις 7 εικόνες — user reply, 2026-10-13"
+        },
+        {
+          "number": 6,
+          "id": "captivity",
+          "title": "Αιχμαλωσία και διάλογος",
+          "caption": "Στην αιχμαλωσία στηρίζει τους χριστιανούς και συμμετέχει σε θρησκευτικούς διαλόγους.",
+          "source_url": "https://www.oca.org/saints/lives/2017/11/14/103303-saint-gregory-palamas-archbishop-of-thessalonica",
+          "kind": "biographical",
+          "approval_status": "approved",
+          "approval_evidence": "Εγκρίνω και τις 7 εικόνες — user reply, 2026-10-13"
+        },
+        {
+          "number": 7,
+          "id": "return",
+          "title": "Επιστροφή στη Θεσσαλονίκη",
+          "caption": "Μετά την απελευθέρωσή του συνεχίζει το κήρυγμα και τη διακονία.",
+          "source_url": "https://www.oca.org/saints/lives/2017/11/14/103303-saint-gregory-palamas-archbishop-of-thessalonica",
+          "kind": "biographical",
+          "approval_status": "approved",
+          "approval_evidence": "Εγκρίνω και τις 7 εικόνες — user reply, 2026-10-13"
+        }
+      ],
+      "media_ids": {
+        "video": "VID-040",
+        "slides": "SLD-026",
+        "image": "IMG-117",
+        "document": "DOC-015"
+      }
+    }
+  ],
+  "asset_manifest": "assets/church-fathers-journeys/manifest.json"
+}
