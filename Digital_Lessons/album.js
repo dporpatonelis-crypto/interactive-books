@@ -168,6 +168,18 @@
     if(!forPrint&&retained){cap.append(' · ');const full=node('a','','Πλήρης εικόνα ↗');full.href=retained;full.target='_blank';full.rel='noopener noreferrer';cap.append(full);}
     if(forPrint&&(retained||safeUrl(asset.original))){const link=node('a');link.href=retained||safeUrl(asset.original);link.append(img);fig.append(link,cap);}else fig.append(img,cap);return fig;
   }
+  function portraitLayout(page,blocks,forPrint=false) {
+    const count=Math.min(blocks.length,Math.max(0,page.portraitIntroCount??2));
+    const box=node('div','portrait-layout'),story=node('div','portrait-story');
+    box.append(figure(page,0,forPrint));
+    blocks.slice(0,count).forEach(block=>story.append(richParagraph(block,forPrint)));
+    box.append(story);return {box,count};
+  }
+  function references(page) {
+    const entries=(page.references||[]).filter(ref=>safeUrl(ref.url));if(!entries.length)return null;
+    const box=node('p','source-note portrait-references','Πηγές κειμένου: ');
+    entries.forEach((ref,i)=>{if(i)box.append(' · ');const link=node('a','',ref.label||ref.url);link.href=safeUrl(ref.url);link.target='_blank';link.rel='noopener noreferrer';box.append(link);});return box;
+  }
   function sourceFileUrl(raw,forPrint=false) {
     if(!raw)return '';
     if(!forPrint||/^https?:/.test(raw))return safeUrl(raw);
@@ -201,7 +213,7 @@
   function sourceLabel(page) {return `${page.sourceTitle||data.title} · ενότητα ${page.sourcePage??page.number}`;}
   function createLeaf(page=null) {
     const leaf=node('article','leaf');leaf.style.display='block';leaf.style.visibility='hidden';
-    if(page){leaf.dataset.sourceKey=(page.sourceBook||'')+'-'+(page.id||page.sourcePage||page.number);leaf.dataset.sectionId=page.id||'';}
+    if(page){leaf.dataset.sourceKey=(page.sourceBook||'')+'-'+(page.id||page.sourcePage||page.number);leaf.dataset.sectionId=page.id||'';if(page.layout)leaf.dataset.layout=page.layout;}
     const body=node('div','leaf-body');leaf.append(body);
     const footer=node('div','folio');footer.append(node('span','',page?`${page.sourceTitle||data.title} · σ. ${page.sourcePage??page.number}`:'ΨΗΦΙΑΚΟ ΒΙΒΛΙΟ'),node('span','',String(leaves.length+1)));
     leaf.append(footer);$('book').append(leaf);leaves.push(leaf);return body;
@@ -259,11 +271,16 @@
       const page=data.pages[index];chapterStarts.push(leaves.length);
       const state={body:createLeaf(page)};
       for(const unit of [node('p','eyebrow',sourceLabel(page)),node('div','chapter-number',String(index+1).padStart(2,'0')),node('h2','',page.displayTitle||page.title)])addUnit(unit,state,page);
-      if(images(page).length)addUnit(figure(page,0),state,page);
+      const blocks=textBlocks(page);let used=0;
+      if(page.layout==='portrait-narrative'&&images(page).length){
+        const portrait=portraitLayout(page,blocks);state.body.append(portrait.box);
+        if(state.body.scrollHeight<=state.body.clientHeight+1)used=portrait.count;
+        else {portrait.box.remove();addUnit(figure(page,0),state,page);}
+      }else if(images(page).length)addUnit(figure(page,0),state,page);
       const actions=mediaActions(page);if(actions.children.length)addUnit(actions,state,page);
       if(page.audioUrl && isNotebook(safeUrl(page.audioUrl)))addUnit(node('p','media-note','Η ηχογράφηση ανοίγει στο NotebookLM. Ενδέχεται να ζητηθεί σύνδεση στον λογαριασμό σου.'),state,page);
-      const blocks=textBlocks(page);
-      if(blocks.length){if(page.title!==page.displayTitle)addUnit(node('p','source-title',cleanText(page.title)),state,page);for(const b of blocks){if(b.kind==='table')addReaderTable(b.table,state,page);else addUnit(richParagraph(b),state,page);}}
+      if(blocks.length){if(page.title!==page.displayTitle)addUnit(node('p','source-title',cleanText(page.title)),state,page);for(const b of blocks.slice(used)){if(b.kind==='table')addReaderTable(b.table,state,page);else addUnit(richParagraph(b),state,page);}}
+      const refs=references(page);if(refs)addUnit(refs,state,page);
       const afterTextActions=mediaActions(page,false,'after_text');if(afterTextActions.children.length)addUnit(afterTextActions,state,page);
       const glossary=notes(page);if(glossary)addUnit(glossary,state,page);
       for(let i=1;i<images(page).length;i++){
@@ -340,12 +357,16 @@
     const toc=node('section','print-toc');toc.append(node('p','eyebrow','ΜΑΘΗΜΑΤΑ & ΕΝΟΤΗΤΕΣ'),node('h2','','Περιεχόμενα'));data.pages.forEach((p,i)=>{if(p.lessonTitle&&(!i||p.lessonId!==data.pages[i-1].lessonId))toc.append(node('p','toc-intro',p.lessonTitle));toc.append(tocEntry(p,i,true));});source.append(toc);
     data.pages.forEach((page,index)=>{
       const section=node('section','print-section');section.id=sectionAnchor(page,index);
+      if(page.layout)section.dataset.layout=page.layout;
       section.append(node('p','eyebrow',sourceLabel(page)),node('h2','',page.displayTitle||page.title));
-      if(images(page).length)section.append(figure(page,0,true));
+      const blocks=textBlocks(page);let used=0;
+      if(page.layout==='portrait-narrative'&&images(page).length){const portrait=portraitLayout(page,blocks,true);section.append(portrait.box);used=portrait.count;}
+      else if(images(page).length)section.append(figure(page,0,true));
       const actions=mediaActions(page,true);
       if(!images(page).length&&actions.children.length)section.append(actions);
       if((page.content||[]).length&&page.title!==page.displayTitle)section.append(node('p','source-title',cleanText(page.title)));
-      for(const b of textBlocks(page))section.append(richParagraph(b,true));
+      for(const b of blocks.slice(used))section.append(richParagraph(b,true));
+      const refs=references(page);if(refs)section.append(refs);
       const afterTextActions=mediaActions(page,true,'after_text');if(afterTextActions.children.length)section.append(afterTextActions);
       if(images(page).length&&actions.children.length)section.append(actions);
       if(page.audioUrl && isNotebook(safeUrl(page.audioUrl)))section.append(node('p','source-note','Η ηχογράφηση ανοίγει στο NotebookLM. Ενδέχεται να απαιτείται σύνδεση.'));
@@ -365,7 +386,8 @@
     const target=node('div','print-container');document.querySelector('main').append(target);
     // A detached fragment avoids copying live document ancestors into split pages.
     // Only pagination rules go through Paged.js; screen controls stay outside its styles.
-    await new Paged.Previewer().preview(source.innerHTML,['print.css'],target);stage.remove();
+    const printStyles='print.css'+(data.revision?'?edition='+encodeURIComponent(data.revision):'');
+    await new Paged.Previewer().preview(source.innerHTML,[printStyles],target);stage.remove();
     $('save-pdf').disabled=false;$('save-pdf').addEventListener('click',()=>window.print());document.body.dataset.ready='true';
   }
   async function load() {
@@ -385,16 +407,22 @@
         const master=await masterResponse.json();
         if(master.revision!==data.revision)throw new Error('Το βιβλίο ενημερώνεται. Δοκίμασε ξανά σε λίγο.');
         const sections=new Map(master.lessons.flatMap(l=>l.sections).map(s=>[s.id,s]));
+        const portraitTitles=new Map(master.lessons.flatMap(l=>l.sections.filter(s=>s.layout==='portrait-narrative').map(s=>[s.id,l.short_title||l.title])));
         for(const page of data.pages){
           const section=sections.get(page.id);if(!section)continue;
           section.blocks.forEach((block,i)=>{if(block.placement&&page.content[i])page.content[i].placement=block.placement;});
           page.mediaPlacement=Object.fromEntries((section.media||[]).filter(m=>m.placement).map(m=>[m.url,{placement:m.placement,title:m.title}]));
+          if(section.layout)page.layout=section.layout;
+          if(section.portrait_intro_count!==undefined)page.portraitIntroCount=section.portrait_intro_count;
+          if(section.references)page.references=section.references;
+          if(portraitTitles.has(page.id))page.sourceTitle=portraitTitles.get(page.id);
         }
       }
     }
     if(!data.pages?.length)throw new Error('Δεν υπάρχουν σελίδες.');
     await Promise.all([document.fonts.load('32px Didot'),document.fonts.load('14px Serif')]);
-    document.title=data.title;$('pdf-link').href='?view=print';$('download-demo').querySelector('a').href=data.pdfUrl||'book.pdf';
+    document.title=data.title;$('pdf-link').href='?view=print';
+    const download=new URL(data.pdfUrl||'book.pdf',location.href);if(data.revision)download.searchParams.set('edition',String(data.revision));$('download-demo').querySelector('a').href=download.href;
     await document.fonts.ready;
     // Load local images before measuring the reader, so image heights cannot change pagination.
     await Promise.all(data.pages.flatMap(p=>images(p)).map(asset=>new Promise(resolve=>{const img=new Image();img.onload=img.onerror=resolve;img.src=asset.src;setTimeout(resolve,12000);}))); 

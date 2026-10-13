@@ -79,3 +79,23 @@ dialog{border:1px solid var(--line);border-radius:3px;background:var(--paper);co
 
 .leaf[data-section-id^="divine-economy-"] .eyebrow{letter-spacing:1px}
 .leaf[data-section-id="divine-economy-worksheet"] h3+p{border:1px solid var(--line);padding:12px 14px;background:#f0ebe0}
+
+.leaf[data-layout="portrait-narrative"] .eyebrow{font:10px/1.6 Arial,sans-serif;letter-spacing:1px;margin-bottom:12px}
+.leaf[data-layout="portrait-narrative"] .chapter-number{font-size:38px;margin-bottom:8px}
+.portrait-layout{display:flow-root}
+.portrait-layout .hero-image{float:left;width:42%;margin:0 18px 10px 0}
+.portrait-layout .hero-image img{height:auto;max-height:340px;background:transparent}
+.portrait-story p{font-size:13.5px;line-height:1.7}
+.leaf .portrait-references{clear:both;font:10px/1.4 Arial,sans-serif;font-size:10px!important;margin:8px 0 0}
+@media(max-width:700px){
+  .leaf[data-layout="portrait-narrative"]{padding-left:24px;padding-right:24px}
+  .leaf[data-layout="portrait-narrative"] h2{font-size:30px;margin-bottom:16px}
+  .leaf[data-layout="portrait-narrative"] .chapter-number{font-size:32px}
+  .portrait-layout .hero-image{width:40%;margin-right:14px}
+  .portrait-story p{font-size:13px;line-height:1.65;margin-bottom:10px}
+}
+@media(max-width:360px){
+  .leaf[data-layout="portrait-narrative"]{padding:28px 20px 40px}
+  .leaf[data-layout="portrait-narrative"] h2{font-size:28px;margin-bottom:14px}
+  .portrait-layout .hero-image{width:36%;margin-right:12px}
+}

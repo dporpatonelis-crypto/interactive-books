@@ -3,8 +3,8 @@
   "book_id": "Digital_Lessons",
   "title": "Το ψηφιακό μου βιβλίο",
   "description": "Κείμενα, εικόνες και συνδέσεις για τα μαθήματά μας στα web apps και στο Unity.",
-  "revision": 14,
-  "updated_at": "2026-10-13T07:52:24.153535+00:00",
+  "revision": 15,
+  "updated_at": "2026-10-13T08:57:24.723114+00:00",
   "cover": {
     "asset": "assets/old-testament-objects.png",
     "caption": "Έξι ιερά αντικείμενα της Παλαιάς Διαθήκης",
@@ -1476,6 +1476,271 @@
             }
           ],
           "media": []
+        }
+      ]
+    },
+    {
+      "id": "lesson-church-fathers",
+      "title": "Πατέρες της Εκκλησίας: εικόνες και αφηγήσεις",
+      "short_title": "Πατέρες της Εκκλησίας",
+      "source_file": "sources/church-fathers.md",
+      "source_media_policy": "user-selected-only",
+      "sections": [
+        {
+          "id": "father-athanasius",
+          "title": "Μέγας Αθανάσιος",
+          "layout": "portrait-narrative",
+          "portrait_intro_count": 2,
+          "references": [
+            {
+              "label": "OCA · Πίστη της Νίκαιας",
+              "url": "https://www.oca.org/saints/lives/0201/05/17/43-commemoration-of-the-holy-fathers-of-the-first-ecumenical-counci"
+            }
+          ],
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Ο Μέγας Αθανάσιος στέκεται με σταθερό βλέμμα και υψωμένη παλάμη, σαν να απευθύνεται σε ανθρώπους που αναζητούν μια καθαρή απάντηση. Το κλειστό βιβλίο στο άλλο χέρι συνδέει τη διδασκαλία του με την πίστη που παρέλαβε η Εκκλησία."
+            },
+            {
+              "kind": "text",
+              "text": "Ο επίσκοπος της Αλεξάνδρειας υπερασπίστηκε την πίστη της Νίκαιας: ο Υιός είναι αληθινός Θεός, ομοούσιος με τον Πατέρα. Η αποφασιστική στάση της μορφής μας θυμίζει την επιμονή του να διαφυλάξει αυτή την ομολογία μέσα στις θεολογικές συγκρούσεις της εποχής του."
+            }
+          ],
+          "media": [
+            {
+              "media_id": "IMG-102",
+              "type": "image",
+              "title": "Μέγας Αθανάσιος — εκπαιδευτική εικονογράφηση",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers/father-athanasius.png",
+              "asset": "assets/church-fathers/father-athanasius.png",
+              "caption": "Μέγας Αθανάσιος"
+            }
+          ]
+        },
+        {
+          "id": "father-basil",
+          "title": "Μέγας Βασίλειος",
+          "layout": "portrait-narrative",
+          "portrait_intro_count": 2,
+          "references": [
+            {
+              "label": "OCA · Μέγας Βασίλειος",
+              "url": "https://www.oca.org/saints/lives/20112024/01/01/100003-saint-basil-the-great-archbishop-of-caesarea-in-cappadocia"
+            }
+          ],
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Το χέρι του Μεγάλου Βασιλείου απλώνεται χαμηλά, με ανοιχτή παλάμη, σαν να πλησιάζει έναν άνθρωπο που χρειάζεται βοήθεια. Το βιβλίο που κρατά και η λιτή του μορφή φέρνουν κοντά τη γνώση, την άσκηση και τη φροντίδα του άλλου."
+            },
+            {
+              "kind": "text",
+              "text": "Στο έργο του, η ποιμαντική μέριμνα συναντά τη μοναχική ζωή και την έμπρακτη αγάπη προς τους φτωχούς. Οι μοναχικοί κανόνες, η φιλοξενία και η περίθαλψη των αδύναμων εκφράζουν την ίδια επιδίωξη: η πίστη να γίνεται καθημερινή υπηρεσία προς τον συνάνθρωπο."
+            }
+          ],
+          "media": [
+            {
+              "media_id": "IMG-103",
+              "type": "image",
+              "title": "Μέγας Βασίλειος — εκπαιδευτική εικονογράφηση",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers/father-basil.png",
+              "asset": "assets/church-fathers/father-basil.png",
+              "caption": "Μέγας Βασίλειος"
+            }
+          ]
+        },
+        {
+          "id": "father-gregory-theologian",
+          "title": "Γρηγόριος ο Θεολόγος",
+          "layout": "portrait-narrative",
+          "portrait_intro_count": 2,
+          "references": [
+            {
+              "label": "OCA · Γρηγόριος ο Θεολόγος",
+              "url": "https://www.oca.org/saints/lives/1981/01/25/100298-saint-gregory-the-theologian-archbishop-of-constantinople"
+            }
+          ],
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Ο Γρηγόριος ο Θεολόγος μοιάζει να βρίσκεται στη μέση ενός λόγου. Το υψωμένο χέρι συνοδεύει τη σκέψη του, ενώ το ειλητάριο υπενθυμίζει τον γραπτό λόγο που διασώζει και μεταδίδει τη διδασκαλία. Η μορφή συνδυάζει τον ρήτορα με τον άνθρωπο της προσευχής."
+            },
+            {
+              "kind": "text",
+              "text": "Οι Θεολογικοί Λόγοι του φωτίζουν την πίστη στον Πατέρα, τον Υιό και το Άγιο Πνεύμα. Η διδασκαλία για την Αγία Τριάδα απαιτεί προσοχή στις λέξεις και πνευματική προετοιμασία. Έτσι, η χειρονομία της εικόνας γίνεται πρόσκληση να ακούμε και να στοχαζόμαστε με σεβασμό."
+            }
+          ],
+          "media": [
+            {
+              "media_id": "IMG-104",
+              "type": "image",
+              "title": "Γρηγόριος ο Θεολόγος — εκπαιδευτική εικονογράφηση",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers/father-gregory-theologian.png",
+              "asset": "assets/church-fathers/father-gregory-theologian.png",
+              "caption": "Γρηγόριος ο Θεολόγος"
+            }
+          ]
+        },
+        {
+          "id": "father-cyril",
+          "title": "Κύριλλος Αλεξανδρείας",
+          "layout": "portrait-narrative",
+          "portrait_intro_count": 2,
+          "references": [
+            {
+              "label": "OCA · Χριστός και Θεοτόκος",
+              "url": "https://www.oca.org/orthodoxy/the-orthodox-faith/church-history/fifth-century/inner-struggles"
+            }
+          ],
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Ο Κύριλλος Αλεξανδρείας κρατά το Ευαγγέλιο κοντά στο στήθος και ανοίγει ήρεμα το άλλο χέρι. Η εικόνα τον παρουσιάζει ως δάσκαλο που στηρίζει την ομολογία του στο ευαγγελικό μήνυμα και προσπαθεί να το κάνει κατανοητό στους ακροατές του."
+            },
+            {
+              "kind": "text",
+              "text": "Η υπεράσπιση της ονομασίας «Θεοτόκος» συνδέεται με το ερώτημα ποιος είναι ο Χριστός. Για τον Κύριλλο, εκείνος που γεννήθηκε από τη Μαρία είναι ο ίδιος ο Υιός και Λόγος του Θεού που έγινε άνθρωπος. Το Ευαγγέλιο στην αγκαλιά του θυμίζει αυτή την ενότητα του προσώπου του Χριστού."
+            }
+          ],
+          "media": [
+            {
+              "media_id": "IMG-105",
+              "type": "image",
+              "title": "Κύριλλος Αλεξανδρείας — εκπαιδευτική εικονογράφηση",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers/father-cyril.png",
+              "asset": "assets/church-fathers/father-cyril.png",
+              "caption": "Κύριλλος Αλεξανδρείας"
+            }
+          ]
+        },
+        {
+          "id": "father-maximus",
+          "title": "Μάξιμος Ομολογητής",
+          "layout": "portrait-narrative",
+          "portrait_intro_count": 2,
+          "references": [
+            {
+              "label": "Μάξιμος · PG 91",
+              "url": "https://catholiclibrary.org/library/view?chunk.id=00000105&docId=Fathers-Synchronized-EN/Maximus_Confessor__PG_91A_6.en.html"
+            }
+          ],
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Ο Μάξιμος Ομολογητής εμφανίζεται με απλό μοναχικό ένδυμα και ειλητάριο στο χέρι. Τα δύο υψωμένα δάχτυλα, στη συγκεκριμένη σύνθεση, μας οδηγούν στην ομολογία που υπερασπίστηκε: ο Χριστός έχει θεία και ανθρώπινη θέληση και ενέργεια."
+            },
+            {
+              "kind": "text",
+              "text": "Η ανθρώπινη φύση του Χριστού παραμένει πλήρης μέσα στην ένωση με τη θεία. Ο Μάξιμος επέμενε ότι η ανθρώπινη θέληση δεν χάνεται· στον Χριστό βρίσκεται σε αρμονία με τη θεία. Η λιτή μορφή και η καθαρή χειρονομία συνδέουν την ακρίβεια της διδασκαλίας με τη συνέπεια της ομολογίας."
+            }
+          ],
+          "media": [
+            {
+              "media_id": "IMG-106",
+              "type": "image",
+              "title": "Μάξιμος Ομολογητής — εκπαιδευτική εικονογράφηση",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers/father-maximus.png",
+              "asset": "assets/church-fathers/father-maximus.png",
+              "caption": "Μάξιμος Ομολογητής"
+            }
+          ]
+        },
+        {
+          "id": "father-symeon",
+          "title": "Συμεών ο Νέος Θεολόγος",
+          "layout": "portrait-narrative",
+          "portrait_intro_count": 2,
+          "references": [
+            {
+              "label": "OCA · Συμεών ο Νέος Θεολόγος",
+              "url": "https://www.oca.org/saints/lives/2014/03/12/100790-venerable-simeon-the-new-theologian"
+            }
+          ],
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Ο Συμεών ο Νέος Θεολόγος στέκεται με ανοιχτά χέρια κοντά στο στήθος και βλέμμα στραμμένο ψηλά. Η ήρεμη στάση του μας βάζει στον κόσμο της προσευχής, όπου ο άνθρωπος στρέφεται προς τον Θεό με όλη του την ύπαρξη."
+            },
+            {
+              "kind": "text",
+              "text": "Στη διδασκαλία και στους ύμνους του, η γνώση του Θεού συνδέεται με προσωπική εμπειρία της χάρης και του θείου φωτός. Η προσευχή, η μετάνοια και η αγάπη φωτίζουν αυτή τη σχέση. Τα ανοιχτά χέρια της εικόνας εκφράζουν την προσδοκία και την προθυμία να δεχθεί κανείς τη θεία παρουσία."
+            }
+          ],
+          "media": [
+            {
+              "media_id": "IMG-107",
+              "type": "image",
+              "title": "Συμεών ο Νέος Θεολόγος — εκπαιδευτική εικονογράφηση",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers/father-symeon.png",
+              "asset": "assets/church-fathers/father-symeon.png",
+              "caption": "Συμεών ο Νέος Θεολόγος"
+            }
+          ]
+        },
+        {
+          "id": "father-palamas",
+          "title": "Γρηγόριος Παλαμάς",
+          "layout": "portrait-narrative",
+          "portrait_intro_count": 2,
+          "references": [
+            {
+              "label": "OCA · Γρηγόριος Παλαμάς",
+              "url": "https://www.oca.org/orthodoxy/the-orthodox-faith/church-history/fourteenth-century/saint-gregory-palamas"
+            }
+          ],
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Το ένα χέρι του Γρηγορίου Παλαμά ακουμπά στο στήθος και το άλλο ανοίγει προς τα πάνω. Η κίνηση συνδέει την καρδιά που προσεύχεται με τον δάσκαλο που εξηγεί. Η μορφή μας θυμίζει τον δεσμό ανάμεσα στην ησυχία, την προσευχή και τη θεολογική σκέψη."
+            },
+            {
+              "kind": "text",
+              "text": "Ο Παλαμάς υπερασπίστηκε τη δυνατότητα του ανθρώπου να κοινωνεί πραγματικά με τον Θεό. Διέκρινε την απρόσιτη θεία ουσία από τις άκτιστες ενέργειες, με τις οποίες ο Θεός φανερώνεται και χαρίζει τη ζωή Του. Η ανοιχτή παλάμη παραπέμπει σε αυτή τη δωρεά της χάρης και του φωτός."
+            }
+          ],
+          "media": [
+            {
+              "media_id": "IMG-108",
+              "type": "image",
+              "title": "Γρηγόριος Παλαμάς — εκπαιδευτική εικονογράφηση",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers/father-palamas.png",
+              "asset": "assets/church-fathers/father-palamas.png",
+              "caption": "Γρηγόριος Παλαμάς"
+            }
+          ]
+        },
+        {
+          "id": "father-john-chrysostom",
+          "title": "Ιωάννης ο Χρυσόστομος",
+          "layout": "portrait-narrative",
+          "portrait_intro_count": 2,
+          "references": [
+            {
+              "label": "GOARCH · Ιωάννης ο Χρυσόστομος",
+              "url": "https://religioused.sanfran.goarch.org/wp-content/uploads/2017-sjcof_manual_web.pdf"
+            }
+          ],
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Ο Ιωάννης ο Χρυσόστομος παρουσιάζεται την ώρα που μιλά: το στόμα του είναι ανοιχτό, το χέρι υψώνεται προς το ακροατήριο και το βιβλίο μένει κοντά στην καρδιά. Η στάση του ζωντανεύει τον κήρυκα που θέλει να φτάσει ο ευαγγελικός λόγος στους ανθρώπους."
+            },
+            {
+              "kind": "text",
+              "text": "Η προσωνυμία «Χρυσόστομος» θυμίζει τη δύναμη του λόγου του. Το κήρυγμά του συνδέει την πίστη με τη δικαιοσύνη και τη φροντίδα των φτωχών. Η Θεία Λειτουργία που φέρει το όνομά του κρατά επίσης ζωντανή τη σύνδεση ανάμεσα στη διδασκαλία, την κοινή προσευχή και τη ζωή της Εκκλησίας."
+            }
+          ],
+          "media": [
+            {
+              "media_id": "IMG-109",
+              "type": "image",
+              "title": "Ιωάννης ο Χρυσόστομος — εκπαιδευτική εικονογράφηση",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers/father-john-chrysostom.png",
+              "asset": "assets/church-fathers/father-john-chrysostom.png",
+              "caption": "Ιωάννης ο Χρυσόστομος"
+            }
+          ]
         }
       ]
     }

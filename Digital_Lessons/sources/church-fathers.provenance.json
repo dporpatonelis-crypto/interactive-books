@@ -1,0 +1,140 @@
+{
+  "lesson_id": "lesson-church-fathers",
+  "added_at": "2026-10-13T08:57:24.723114+00:00",
+  "text_origin": "Original educational narratives authored from the user’s thematic brief, inspected images and the referenced theological sources.",
+  "user_clarification": "The supplied table is a visual guide for GLB preparation; the book uses narrative prose matched to each image.",
+  "image_selection": "The original transparent Maximus and Symeon PNGs were selected following the user’s background correction; all eight full figures were retained unchanged.",
+  "images": [
+    {
+      "section_id": "father-athanasius",
+      "media_id": "IMG-102",
+      "local_download_filename": "Alexandrian Bishop in Teaching Stance-2.png",
+      "asset": "assets/church-fathers/father-athanasius.png",
+      "sha256": "42a1407cb5128a50896c593fd7442a2c26f028b5fd8895584fac2d02b703d613",
+      "origin": "ChatGPT Library, as identified by the user; the matching downloaded file was visually inspected.",
+      "references": [
+        {
+          "label": "OCA · Πίστη της Νίκαιας",
+          "url": "https://www.oca.org/saints/lives/0201/05/17/43-commemoration-of-the-holy-fathers-of-the-first-ecumenical-counci"
+        }
+      ]
+    },
+    {
+      "section_id": "father-basil",
+      "media_id": "IMG-103",
+      "local_download_filename": "Ascetic Cappadocian Bishop Offering Help-1.png",
+      "asset": "assets/church-fathers/father-basil.png",
+      "sha256": "24a7a320540a6c53e12f6dd519997938043522c99444305cb8f3093173f08dcc",
+      "origin": "ChatGPT Library, as identified by the user; the matching downloaded file was visually inspected.",
+      "references": [
+        {
+          "label": "OCA · Μέγας Βασίλειος",
+          "url": "https://www.oca.org/saints/lives/20112024/01/01/100003-saint-basil-the-great-archbishop-of-caesarea-in-cappadocia"
+        }
+      ]
+    },
+    {
+      "section_id": "father-gregory-theologian",
+      "media_id": "IMG-104",
+      "local_download_filename": "Late-antique bishop orator with parchment-3.png",
+      "asset": "assets/church-fathers/father-gregory-theologian.png",
+      "sha256": "ef20c009227d0207f8a1f44b42c9b642c3c37ee279da94f78530f7fe586d3665",
+      "origin": "ChatGPT Library, as identified by the user; the matching downloaded file was visually inspected.",
+      "references": [
+        {
+          "label": "OCA · Γρηγόριος ο Θεολόγος",
+          "url": "https://www.oca.org/saints/lives/1981/01/25/100298-saint-gregory-the-theologian-archbishop-of-constantinople"
+        }
+      ]
+    },
+    {
+      "section_id": "father-cyril",
+      "media_id": "IMG-105",
+      "local_download_filename": "Alexandrian Bishop with Gospel Book-5.png",
+      "asset": "assets/church-fathers/father-cyril.png",
+      "sha256": "54da9bddab6132fec05f3aae17b862ef2b4fba0cace57ae026b3371135fea732",
+      "origin": "ChatGPT Library, as identified by the user; the matching downloaded file was visually inspected.",
+      "references": [
+        {
+          "label": "OCA · Χριστός και Θεοτόκος",
+          "url": "https://www.oca.org/orthodoxy/the-orthodox-faith/church-history/fifth-century/inner-struggles"
+        }
+      ]
+    },
+    {
+      "section_id": "father-maximus",
+      "media_id": "IMG-106",
+      "local_download_filename": "Seventh-Century Monk with Scroll-4.png",
+      "asset": "assets/church-fathers/father-maximus.png",
+      "sha256": "237ed7d06e8918f3447bbfd04a8c289f6ea69c8407f7fb19061393d1d0263eb8",
+      "origin": "ChatGPT Library, as identified by the user; the matching downloaded file was visually inspected.",
+      "references": [
+        {
+          "label": "Μάξιμος · PG 91",
+          "url": "https://catholiclibrary.org/library/view?chunk.id=00000105&docId=Fathers-Synchronized-EN/Maximus_Confessor__PG_91A_6.en.html"
+        }
+      ]
+    },
+    {
+      "section_id": "father-symeon",
+      "media_id": "IMG-107",
+      "local_download_filename": "Byzantine Monk in Quiet Prayer-6.png",
+      "asset": "assets/church-fathers/father-symeon.png",
+      "sha256": "0e8baac8f1db107f6ec3b8dfbc4da39984425ccafb1091faec6a1671b88a4858",
+      "origin": "ChatGPT Library, as identified by the user; the matching downloaded file was visually inspected.",
+      "references": [
+        {
+          "label": "OCA · Συμεών ο Νέος Θεολόγος",
+          "url": "https://www.oca.org/saints/lives/2014/03/12/100790-venerable-simeon-the-new-theologian"
+        }
+      ]
+    },
+    {
+      "section_id": "father-palamas",
+      "media_id": "IMG-108",
+      "local_download_filename": "Byzantine monk-bishop teaching in robes-7.png",
+      "asset": "assets/church-fathers/father-palamas.png",
+      "sha256": "b4af8f077b1b180d3d9083bc5a2adba6e1fb5070971852a62f5d6d11a18b46c9",
+      "origin": "ChatGPT Library, as identified by the user; the matching downloaded file was visually inspected.",
+      "references": [
+        {
+          "label": "OCA · Γρηγόριος Παλαμάς",
+          "url": "https://www.oca.org/orthodoxy/the-orthodox-faith/church-history/fourteenth-century/saint-gregory-palamas"
+        }
+      ]
+    },
+    {
+      "section_id": "father-john-chrysostom",
+      "media_id": "IMG-109",
+      "local_download_filename": "Saint John Chrysostom in Sermon Pose.png",
+      "asset": "assets/church-fathers/father-john-chrysostom.png",
+      "sha256": "d8493d889c8113276e2784ef546c35b0d4a366ad835a437d35e357904ae2c420",
+      "origin": "ChatGPT Library, as identified by the user; the matching downloaded file was visually inspected.",
+      "references": [
+        {
+          "label": "GOARCH · Ιωάννης ο Χρυσόστομος",
+          "url": "https://religioused.sanfran.goarch.org/wp-content/uploads/2017-sjcof_manual_web.pdf"
+        }
+      ]
+    }
+  ],
+  "media_library": {
+    "ids": [
+      "IMG-102",
+      "IMG-103",
+      "IMG-104",
+      "IMG-105",
+      "IMG-106",
+      "IMG-107",
+      "IMG-108",
+      "IMG-109"
+    ],
+    "github_catalog": "dporpatonelis-crypto/media-library/media_library.json",
+    "github_commit": "f59c2445eccf989854d1e4648cd38d59d4dc18b4",
+    "drive_rows": [
+      180,
+      187
+    ],
+    "local_mirror_verified": true
+  }
+}

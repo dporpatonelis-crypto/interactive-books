@@ -39,3 +39,8 @@
 #section-apokalypsi h3{margin:3mm 0 1mm}
 
 #section-divine-economy-worksheet h3+p{border:0.3mm solid #d9d3c6;padding:3mm 4mm;background:#f0ebe0;break-inside:avoid}
+
+.print-section[data-layout="portrait-narrative"] .portrait-layout .hero-image{float:left;width:90mm;margin:0 8mm 4mm 0}
+.print-section[data-layout="portrait-narrative"] .portrait-layout img{height:auto;max-height:135mm;background:transparent}
+.print-section[data-layout="portrait-narrative"] .portrait-story p{font-size:12pt;line-height:1.6;margin-bottom:4mm}
+.print-section[data-layout="portrait-narrative"] .portrait-references{clear:both;font:8.5pt/1.4 Arial,sans-serif;margin-top:2mm}
