@@ -2,8 +2,8 @@
   "title": "Το ψηφιακό μου βιβλίο",
   "description": "Κείμενα, εικόνες και συνδέσεις για τα μαθήματά μας στα web apps και στο Unity.",
   "bookId": "Digital_Lessons",
-  "revision": 17,
-  "sourceDigest": "3ee69e82f0ef9d06d85751ea1880c0ac7cf2ea285a00b124db984f593392a8e4",
+  "revision": 18,
+  "sourceDigest": "fc740c531daf05365b1f9a0b32bd43fa6ded210e4263a7f7c225ba84994e4df4",
   "coverImage": "assets/old-testament-objects.png",
   "coverCaption": "Έξι ιερά αντικείμενα της Παλαιάς Διαθήκης",
   "edition": "ΠΡΟΣΩΠΙΚΟ ΨΗΦΙΑΚΟ ΒΙΒΛΙΟ",
@@ -269,7 +269,7 @@
         "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/old-testament-journeys/abraham/01-calling.jpg"
       ],
       "imageCaption": "Κλήση: ο Αβραάμ αναχωρεί για τη γη της υπόσχεσης.",
-      "videoUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/old-testament-journeys/abraham-journey.mp4",
+      "videoUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/old-testament-journeys/abraham-journey.mp4?v=20261015-two-hands",
       "slidesUrl": "https://docs.google.com/presentation/d/1obhHzxFimu8ecB2zpNyAu73Ogv7RB3CuJaeOn0yxmcg/edit?usp=drivesdk",
       "localImages": [
         {
@@ -281,13 +281,13 @@
         }
       ],
       "mediaPlacement": {
-        "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/old-testament-journeys/abraham-journey.mp4": {
-          "placement": "after_text",
-          "title": "Δες το βίντεο · 45″"
-        },
         "https://docs.google.com/presentation/d/1obhHzxFimu8ecB2zpNyAu73Ogv7RB3CuJaeOn0yxmcg/edit?usp=drivesdk": {
           "placement": "after_text",
           "title": "Άνοιξε τις διαφάνειες · 7 εικόνες"
+        },
+        "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/old-testament-journeys/abraham-journey.mp4?v=20261015-two-hands": {
+          "placement": "after_text",
+          "title": "Δες το βίντεο · 45″"
         }
       }
     },

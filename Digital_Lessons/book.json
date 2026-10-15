@@ -3,8 +3,8 @@
   "book_id": "Digital_Lessons",
   "title": "Το ψηφιακό μου βιβλίο",
   "description": "Κείμενα, εικόνες και συνδέσεις για τα μαθήματά μας στα web apps και στο Unity.",
-  "revision": 17,
-  "updated_at": "2026-10-13T17:20:13.362Z",
+  "revision": 18,
+  "updated_at": "2026-10-15T15:12:21.973497Z",
   "cover": {
     "asset": "assets/old-testament-objects.png",
     "caption": "Έξι ιερά αντικείμενα της Παλαιάς Διαθήκης",
@@ -210,7 +210,7 @@
               "media_id": "VID-025",
               "type": "video",
               "title": "Δες το βίντεο · 45″",
-              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/old-testament-journeys/abraham-journey.mp4",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/old-testament-journeys/abraham-journey.mp4?v=20261015-two-hands",
               "placement": "after_text"
             },
             {

@@ -18,10 +18,16 @@
   {
     "key": "abraham-03",
     "file": "abraham/03-stars-covenant.jpg",
-    "original": "/Users/dimitriosporpatonelis/Documents/Codex/2026-10-10/referenced-chatgpt-conversation-this-is-an/outputs/patriarchs-review/images/abraham/03-stars-covenant.png",
-    "sha256": "5dcf458e72ba635f79821487b1795eb52f80c877f23b45ee9a38a310f91f33ad",
+    "original": "abraham/03-stars-covenant.png",
+    "sha256": "377f33bf5a88a0e19178f7834d79ab333ddd30c8374fabd61f67890f234e647f",
     "caption": "Διαθήκη: ο Θεός υπόσχεται απογόνους σαν τα άστρα.",
-    "reference": "Γένεση 15:1–6"
+    "reference": "Γένεση 15:1–6",
+    "previous_sha256": "5dcf458e72ba635f79821487b1795eb52f80c877f23b45ee9a38a310f91f33ad",
+    "correction": {
+      "date": "2026-10-15",
+      "method": "ImageGen precise-object-edit",
+      "description": "Removed extra hand holding staff and the staff; exactly two arms and hands remain."
+    }
   },
   {
     "key": "abraham-04",

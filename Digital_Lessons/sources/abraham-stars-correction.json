@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-15",
+  "section_id": "abraham-journey",
+  "scene": "abraham-03",
+  "presentation_id": "1obhHzxFimu8ecB2zpNyAu73Ogv7RB3CuJaeOn0yxmcg",
+  "slide_object_id": "abraham_slide_03",
+  "image_object_id": "abraham_card_03_image",
+  "previous_asset_commit": "2db2ba6b09d1cbc404bbe54fa9f9b12d126bcc7c",
+  "previous_image_sha256": "5dcf458e72ba635f79821487b1795eb52f80c877f23b45ee9a38a310f91f33ad",
+  "corrected_image_sha256": "377f33bf5a88a0e19178f7834d79ab333ddd30c8374fabd61f67890f234e647f",
+  "corrected_png_sha256": "f34f45efc3fd394ca9d7aa37865afc2b18a1111604a9c29e0524f37e3eec72c7",
+  "video_media_id": "VID-025",
+  "slides_media_id": "SLD-011",
+  "prompt": "Use case: precise-object-edit\nAsset type: existing illustration for a Greek educational digital book, Google Slides, and HyperFrames video.\nInput image 1 is the edit target. Correct only the anatomical error: Abraham currently has THREE arms/hands. Remove entirely the EXTRA hand at the far left that grips the upright wooden staff, and remove that wooden walking staff as well. Naturally reconstruct the reddish-brown outer cloak folds, tent fabric, and small background details where that extra hand and staff were. Abraham must have exactly TWO arms and TWO hands: preserve the anatomically connected hand lifted open in front of his chest, and preserve the other hand hanging down at his right side near the lower edge of the frame. Do not add any other arm, hand, fingers, or staff.\nInvariants: Keep Abraham's face, identity, headwrap, beard, gaze, body position, clothing colors, remaining two hand positions, tent, lamp, jug, goats, valley, hills, Milky Way, all stars, nighttime lighting, painterly photorealistic style, camera framing, and original wide landscape aspect ratio unchanged. Preserve the composition and image edges; no crop, no reframe, no text, no watermark. This is a localized anatomical repair, not a redesigned scene.\n",
+  "image_generation": "built-in ImageGen edit",
+  "video_source_recovery": "Prior editable project absent; composition recreated from seven published images, original captions, timing and original audio.",
+  "output_video_sha256": "3592b453754ec69889291d5641d49a259cc3805acb7ed3ccaaba690bc7a0e39b",
+  "output_video": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "duration_seconds": 45,
+    "frames": 1350,
+    "original_audio_packets_sha256": "525c1ba7cc3c5dfbf93759c0eaa31a2d619ea0c46e73c90f1ae93aba6969aaff"
+  },
+  "hyperframes_version": "0.8.162",
+  "qa": {
+    "image_anatomy": "exactly two hands, extra staff hand removed",
+    "google_slides": "seven original slide IDs and all text/transforms preserved; only third image changed; native exported PDF checked",
+    "hyperframes": "check passed with zero errors; final MP4 inspected",
+    "book_pdf": "55 pages, Abraham page 11; links, cover and contents checked"
+  }
+}
