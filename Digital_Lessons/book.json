@@ -3,8 +3,8 @@
   "book_id": "Digital_Lessons",
   "title": "Το ψηφιακό μου βιβλίο",
   "description": "Κείμενα, εικόνες και συνδέσεις για τα μαθήματά μας στα web apps και στο Unity.",
-  "revision": 18,
-  "updated_at": "2026-10-15T15:12:21.973497Z",
+  "revision": 19,
+  "updated_at": "2026-10-16T16:44:01Z",
   "cover": {
     "asset": "assets/old-testament-objects.png",
     "caption": "Έξι ιερά αντικείμενα της Παλαιάς Διαθήκης",
@@ -372,6 +372,14 @@
               "placement": "section_end",
               "duration_seconds": 45,
               "caption": "Επτά σκηνές με σύντομες επεξηγήσεις, χωρίς αφήγηση."
+            },
+            {
+              "media_id": "SLD-027",
+              "type": "slides",
+              "title": "Άνοιξε τις διαφάνειες · 7 εικόνες",
+              "url": "https://docs.google.com/presentation/d/1tGtzUA6LYmHZ4T2yoQxvImcH3XSoL4_VpcPkB_jXfUs/edit?usp=drivesdk",
+              "slide_count": 7,
+              "placement": "section_end"
             }
           ]
         },

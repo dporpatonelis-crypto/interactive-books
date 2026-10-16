@@ -2,8 +2,8 @@
   "title": "Το ψηφιακό μου βιβλίο",
   "description": "Κείμενα, εικόνες και συνδέσεις για τα μαθήματά μας στα web apps και στο Unity.",
   "bookId": "Digital_Lessons",
-  "revision": 18,
-  "sourceDigest": "fc740c531daf05365b1f9a0b32bd43fa6ded210e4263a7f7c225ba84994e4df4",
+  "revision": 19,
+  "sourceDigest": "65a16d2c56191806b5c29a75912b523996b5dc398c916f3889e47c30dd353c9a",
   "coverImage": "assets/old-testament-objects.png",
   "coverCaption": "Έξι ιερά αντικείμενα της Παλαιάς Διαθήκης",
   "edition": "ΠΡΟΣΩΠΙΚΟ ΨΗΦΙΑΚΟ ΒΙΒΛΙΟ",
@@ -441,7 +441,8 @@
         "IMG-083",
         "IMG-084",
         "SLD-009",
-        "VID-023"
+        "VID-023",
+        "SLD-027"
       ],
       "images": [
         "https://chatgpt.com/library/share/libfile_7ca86b0fd02881919397c27896bfb62c?account_id=personal",
@@ -470,8 +471,22 @@
         "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/moses-journey.mp4": {
           "placement": "section_end",
           "title": "Η πορεία του Μωυσή · 45 δευτερόλεπτα"
+        },
+        "https://docs.google.com/presentation/d/1tGtzUA6LYmHZ4T2yoQxvImcH3XSoL4_VpcPkB_jXfUs/edit?usp=drivesdk": {
+          "placement": "section_end",
+          "title": "Άνοιξε τις διαφάνειες · 7 εικόνες"
         }
-      }
+      },
+      "extraMedia": [
+        {
+          "media_id": "SLD-027",
+          "type": "slides",
+          "title": "Άνοιξε τις διαφάνειες · 7 εικόνες",
+          "url": "https://docs.google.com/presentation/d/1tGtzUA6LYmHZ4T2yoQxvImcH3XSoL4_VpcPkB_jXfUs/edit?usp=drivesdk",
+          "slide_count": 7,
+          "placement": "section_end"
+        }
+      ]
     },
     {
       "id": "david-journey",
