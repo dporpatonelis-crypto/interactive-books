@@ -3,8 +3,8 @@
   "book_id": "Digital_Lessons",
   "title": "Το ψηφιακό μου βιβλίο",
   "description": "Κείμενα, εικόνες και συνδέσεις για τα μαθήματά μας στα web apps και στο Unity.",
-  "revision": 19,
-  "updated_at": "2026-10-16T16:44:01Z",
+  "revision": 20,
+  "updated_at": "2026-10-17T10:23:48Z",
   "cover": {
     "asset": "assets/old-testament-objects.png",
     "caption": "Έξι ιερά αντικείμενα της Παλαιάς Διαθήκης",
@@ -2099,6 +2099,150 @@
               "title": "Διαφάνειες PDF",
               "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/palamas/palamas-slides.pdf",
               "asset": "assets/church-fathers-journeys/palamas/palamas-slides.pdf",
+              "placement": "after_text"
+            }
+          ]
+        },
+        {
+          "id": "father-john-damascene",
+          "title": "Ιωάννης Δαμασκηνός",
+          "layout": "portrait-narrative",
+          "portrait_intro_count": 2,
+          "references": [
+            {
+              "label": "Αγία Έδρα · Ιωάννης Δαμασκηνός",
+              "url": "https://www.vatican.va/content/benedict-xvi/en/audiences/2009/documents/hf_ben-xvi_aud_20090506.html"
+            },
+            {
+              "label": "OCA · βίος και έργο",
+              "url": "https://www.oca.org/saints/lives/2026/12/04/103473-venerable-john-of-damascus"
+            },
+            {
+              "label": "Peter Schadler · ο Δαμασκηνός και το πρώιμο Ισλάμ",
+              "url": "https://books.google.com/books/about/John_of_Damascus_and_Islam.html?id=6NBCDwAAQBAJ"
+            }
+          ],
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Ο Ιωάννης Δαμασκηνός μεγάλωσε στη Δαμασκό, σε χριστιανική οικογένεια μέσα σε περιβάλλον αραβικής κυριαρχίας. Η παιδεία και η δημόσια υπηρεσία του προηγήθηκαν της μοναχικής ζωής στη Μονή του Αγίου Σάββα, κοντά στην Ιερουσαλήμ."
+            },
+            {
+              "kind": "text",
+              "text": "Η υπεράσπιση των ιερών εικόνων συνδέεται στη διδασκαλία του με την ενανθρώπηση: ο Υιός του Θεού έγινε αληθινά άνθρωπος και φανερώθηκε μέσα στην ιστορία. Ο Δαμασκηνός διακρίνει την τιμητική προσκύνηση της εικόνας από τη λατρεία που ανήκει μόνο στον Θεό."
+            },
+            {
+              "kind": "heading",
+              "text": "Σταθμοί βίου και διδασκαλίας"
+            },
+            {
+              "kind": "text",
+              "text": "Στη Δαμασκό, ο Ιωάννης μεγαλώνει σε χριστιανική οικογένεια και αποκτά πλούσια παιδεία. Ακολουθεί την οικογενειακή παράδοση και αναλαμβάνει ευθύνες στη διοίκηση της Δαμασκού. Αφήνει τη δημόσια ζωή και γίνεται μοναχός στη Μονή του Αγίου Σάββα, κοντά στην Ιερουσαλήμ. Στην Εικονομαχία, όταν καταστρέφονται ιερές εικόνες, ο Ιωάννης υπερασπίζεται την τιμητική προσκύνησή τους. Στην «Πηγή Γνώσεως» συνοψίζει την ορθόδοξη διδασκαλία με συστηματικό και καθαρό λόγο. Συνθέτει ύμνους που συνοδεύουν την προσευχή και τη λατρευτική ζωή της Εκκλησίας. Ζώντας υπό αραβική κυριαρχία, αντιπαρατίθεται θεολογικά στο Ισλάμ και υπερασπίζεται την ενανθρώπηση του Χριστού."
+            }
+          ],
+          "media": [
+            {
+              "media_id": "IMG-118",
+              "type": "image",
+              "title": "Ιωάννης Δαμασκηνός — εκπαιδευτική εικονογράφηση",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/john-damascene/05-fount-of-knowledge.png",
+              "asset": "assets/church-fathers-journeys/john-damascene/05-fount-of-knowledge.png",
+              "caption": "Ιωάννης Δαμασκηνός"
+            },
+            {
+              "media_id": "VID-041",
+              "type": "video",
+              "title": "Βίος και διδασκαλία · βίντεο",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/john-damascene/john-damascene.mp4",
+              "asset": "assets/church-fathers-journeys/john-damascene/john-damascene.mp4",
+              "placement": "after_text",
+              "poster_media_id": "IMG-118",
+              "poster_asset": "assets/church-fathers-journeys/john-damascene/05-fount-of-knowledge.png",
+              "poster_url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/john-damascene/05-fount-of-knowledge.png"
+            },
+            {
+              "media_id": "SLD-028",
+              "type": "slides",
+              "title": "Παρουσίαση · 7 διαφάνειες",
+              "url": "https://docs.google.com/presentation/d/1DUD6KwTy-r_4ANWNn9JeaKt6q6781ae33O8iYUZkOJg",
+              "placement": "after_text"
+            },
+            {
+              "media_id": "DOC-016",
+              "type": "document",
+              "title": "Διαφάνειες PDF",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/john-damascene/john-damascene-slides.pdf",
+              "asset": "assets/church-fathers-journeys/john-damascene/john-damascene-slides.pdf",
+              "placement": "after_text"
+            }
+          ]
+        },
+        {
+          "id": "father-sophrony",
+          "title": "Άγιος Σωφρόνιος Σαχάρωφ",
+          "layout": "portrait-narrative",
+          "portrait_intro_count": 2,
+          "references": [
+            {
+              "label": "Μονή Έσσεξ · βίος Αγίου Σωφρονίου",
+              "url": "https://essexmonastery.org/biographies/english/saint-sophrony-the-athonite/"
+            },
+            {
+              "label": "Μονή Έσσεξ · προσευχή και Θεία Λειτουργία",
+              "url": "https://essexmonastery.org/articles/english/the-experience-of-the-holy-spirit-prayer-and-the-divine-liturgy/"
+            }
+          ],
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Ο Σέργιος Σαχάρωφ, ο μετέπειτα Άγιος Σωφρόνιος, γεννήθηκε στη Μόσχα το 1896 και αφοσιώθηκε στη ζωγραφική. Η αναζήτησή του στο Παρίσι τον οδήγησε ξανά στην εκκλησιαστική ζωή, ενώ το 1925 έφτασε στο Άγιον Όρος και ακολούθησε τη μοναχική οδό."
+            },
+            {
+              "kind": "text",
+              "text": "Κοντά στον Άγιο Σιλουανό διδάχθηκε την ταπείνωση και την αγάπη για όλους. Στη ζωή και στη διδασκαλία του, η προσευχή για ολόκληρη την ανθρωπότητα συνδέεται με τη Θεία Λειτουργία ως μετοχή στη ζωή του Χριστού. Η κοινότητα του Έσσεξ έγινε τόπος αυτής της εκκλησιαστικής διακονίας."
+            },
+            {
+              "kind": "heading",
+              "text": "Σταθμοί βίου και διδασκαλίας"
+            },
+            {
+              "kind": "text",
+              "text": "Ο Σέργιος Σαχάρωφ γεννιέται στη Μόσχα το 1896 και αφοσιώνεται στη ζωγραφική. Στο Παρίσι, η πνευματική του αναζήτηση τον φέρνει ξανά στην Εκκλησία και στην προσευχή. Το 1925 φτάνει στο Άγιον Όρος και αρχίζει τη μοναχική ζωή στη Μονή Αγίου Παντελεήμονος. Γίνεται μαθητής του Αγίου Σιλουανού και διδάσκεται την ταπείνωση και την αγάπη για όλους. Στην αθωνική έρημο, μέσα στα χρόνια του πολέμου, προσεύχεται για ολόκληρο τον κόσμο. Στη Θεία Λειτουργία, μετέχουμε στη ζωή του Χριστού και φέρνουμε στην προσευχή ολόκληρη την ανθρωπότητα. Το 1959 ιδρύει τη Μονή Τιμίου Προδρόμου στο Έσσεξ και την καθοδηγεί έως την κοίμησή του, το 1993."
+            }
+          ],
+          "media": [
+            {
+              "media_id": "IMG-119",
+              "type": "image",
+              "title": "Άγιος Σωφρόνιος Σαχάρωφ — εκπαιδευτική εικονογράφηση",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/sophrony/07-essex.png",
+              "asset": "assets/church-fathers-journeys/sophrony/07-essex.png",
+              "caption": "Άγιος Σωφρόνιος Σαχάρωφ"
+            },
+            {
+              "media_id": "VID-042",
+              "type": "video",
+              "title": "Βίος και διδασκαλία · βίντεο",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/sophrony/sophrony.mp4",
+              "asset": "assets/church-fathers-journeys/sophrony/sophrony.mp4",
+              "placement": "after_text",
+              "poster_media_id": "IMG-119",
+              "poster_asset": "assets/church-fathers-journeys/sophrony/07-essex.png",
+              "poster_url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/sophrony/07-essex.png"
+            },
+            {
+              "media_id": "SLD-029",
+              "type": "slides",
+              "title": "Παρουσίαση · 7 διαφάνειες",
+              "url": "https://docs.google.com/presentation/d/1KQHzl3Gyty29dr7x142ja3RnwDRJJztDuIYNBuduqzg",
+              "placement": "after_text"
+            },
+            {
+              "media_id": "DOC-017",
+              "type": "document",
+              "title": "Διαφάνειες PDF",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/sophrony/sophrony-slides.pdf",
+              "asset": "assets/church-fathers-journeys/sophrony/sophrony-slides.pdf",
               "placement": "after_text"
             }
           ]

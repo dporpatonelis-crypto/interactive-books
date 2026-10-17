@@ -1,0 +1,272 @@
+{
+  "date": "2026-10-17",
+  "scene_and_layout_review": "v2; user revisions incorporated",
+  "final_video_approval": "explicit approval for both MP4 exports",
+  "image_generator": "ImageGen",
+  "style": "Existing neo-Byzantine Fathers series",
+  "video": {
+    "duration": 45,
+    "fps": 30,
+    "resolution": [
+      1920,
+      1080
+    ],
+    "narration": false,
+    "music": "Existing Fathers series soundtrack"
+  },
+  "sources": [
+    {
+      "id": "oca-john",
+      "url": "https://www.oca.org/saints/lives/2026/12/04/103473-venerable-john-of-damascus",
+      "title": "Venerable John of Damascus",
+      "publisher": "Orthodox Church in America",
+      "used_for": [
+        "family and education",
+        "hymnography",
+        "Fount of Knowledge"
+      ],
+      "notes": "Used selectively. Its late-life chronology conflicts with the Vatican account, which places the condemnation of his writings in 754 after his death. Do not reproduce the OCA claim of attendance at the 754 council, imprisonment there, or death around 780. Exact birth/death dates are omitted from the film.",
+      "accessed": "2026-10-17",
+      "retrieval": "web.run search/open of rendered publisher page; selected facts paraphrased in the draft"
+    },
+    {
+      "id": "vatican-john",
+      "url": "https://www.vatican.va/content/benedict-xvi/en/audiences/2009/documents/hf_ben-xvi_aud_20090506.html",
+      "title": "General Audience: John Damascene",
+      "publisher": "The Holy See",
+      "published": "2009-05-06",
+      "used_for": [
+        "Damascus administration",
+        "Mar Saba",
+        "defence of icons",
+        "commemoration on December 4"
+      ],
+      "accessed": "2026-10-17",
+      "retrieval": "web.run search/open of rendered publisher page; selected facts paraphrased in the draft"
+    },
+    {
+      "id": "essex-sophrony",
+      "url": "https://essexmonastery.org/biographies/english/saint-sophrony-the-athonite/",
+      "title": "Saint Sophrony the Athonite",
+      "publisher": "Monastery of Saint John the Baptist, Essex",
+      "used_for": [
+        "birth in 1896",
+        "Paris and spiritual return",
+        "Athos in 1925",
+        "Saint Silouan",
+        "Athonite desert",
+        "France in 1947 and publication in 1948",
+        "Essex foundation in 1959",
+        "repose on 1993-07-11"
+      ],
+      "accessed": "2026-10-17",
+      "retrieval": "web.run search/open of rendered publisher page; selected facts paraphrased in the draft"
+    },
+    {
+      "id": "essex-sophrony-art",
+      "url": "https://essexmonastery.org/articles/english/being-the-art-and-life-of-father-sophrony-by-sister-gabriela/",
+      "title": "Being: The Art and Life of Father Sophrony by Sister Gabriela",
+      "publisher": "Monastery of Saint John the Baptist, Essex",
+      "used_for": [
+        "artistic formation",
+        "Paris artistic context"
+      ],
+      "accessed": "2026-10-17",
+      "retrieval": "web.run search/open of rendered publisher page; selected facts paraphrased in the draft"
+    },
+    {
+      "id": "essex-monasticism",
+      "url": "https://essexmonastery.org/articles/english/monasticism-the-all-embracing-gift-of-the-holy-spirit/",
+      "title": "Monasticism: The All-Embracing Gift of the Holy Spirit",
+      "publisher": "Monastery of Saint John the Baptist, Essex",
+      "used_for": [
+        "France and Saint Silouan publication",
+        "foundation of the monastery in 1959"
+      ],
+      "accessed": "2026-10-17",
+      "retrieval": "web.run search/open of rendered publisher page; selected facts paraphrased in the draft"
+    },
+    {
+      "id": "john-on-islam",
+      "url": "https://www.trueorthodoxy.org/polemics/non_christian_islam_stjohndamascus_fountain_knowledge.html",
+      "title": "John of Damascus: On Heresies, chapter on Islam (republished translation)",
+      "publisher": "Translation of John of Damascus, republished online",
+      "used_for": [
+        "existence and theological subject matter of the polemic against Islam",
+        "defence of the Incarnation and divinity of Christ"
+      ],
+      "notes": "Used as a historical primary text in translation, not as a neutral account of Islamic doctrine. No polemical epithet is adopted or quoted. Numbering differs between editions (100/101).",
+      "accessed": "2026-10-17",
+      "retrieval": "web.run rendered page read"
+    },
+    {
+      "id": "schadler-john-islam",
+      "url": "https://books.google.com/books/about/John_of_Damascus_and_Islam.html?id=6NBCDwAAQBAJ",
+      "title": "Peter Schadler, John of Damascus and Islam: Christian Heresiology and the Intellectual Background to Earliest Christian-Muslim Relations",
+      "publisher": "Brill, 2017; metadata and contents via Google Books",
+      "used_for": [
+        "scholarly context for early Christian-Muslim theological controversy"
+      ],
+      "accessed": "2026-10-17",
+      "retrieval": "web.run rendered page read"
+    },
+    {
+      "id": "essex-sophrony-liturgy",
+      "url": "https://essexmonastery.org/articles/english/the-experience-of-the-holy-spirit-prayer-and-the-divine-liturgy/",
+      "title": "The Experience of the Holy Spirit: Prayer and the Divine Liturgy",
+      "publisher": "Archimandrite Zacharias Zacharou, Monastery of Saint John the Baptist, Essex",
+      "published": "2020-06-25",
+      "used_for": [
+        "Liturgy as the centre of Sophrony’s life",
+        "exchange of human life with divine life in the Eucharist",
+        "universal prayer"
+      ],
+      "notes": "Direct testimony of his disciple, especially questions on how Saint Sophrony lived the Divine Liturgy and the Eucharistic assembly.",
+      "accessed": "2026-10-17",
+      "retrieval": "web.run rendered page read"
+    }
+  ],
+  "scenes": [
+    {
+      "subject": "john-damascene",
+      "scene_id": "01-damascus",
+      "title": "Η παιδεία στη Δαμασκό",
+      "caption": "Στη Δαμασκό, ο Ιωάννης μεγαλώνει σε χριστιανική οικογένεια και αποκτά πλούσια παιδεία.",
+      "sha256": "be5457514e934a3c8b64d185d5877f9d93a9fc7d2f51e2eefb4b483e5d065339",
+      "width": 1672,
+      "height": 941,
+      "asset": "assets/church-fathers-journeys/john-damascene/01-damascus.png"
+    },
+    {
+      "subject": "john-damascene",
+      "scene_id": "02-public-service",
+      "title": "Στη δημόσια υπηρεσία",
+      "caption": "Ακολουθεί την οικογενειακή παράδοση και αναλαμβάνει ευθύνες στη διοίκηση της Δαμασκού.",
+      "sha256": "580a949ca26ee640fce9e9cb58b94f9459638ddc333a734ce69b24de11581da0",
+      "width": 1672,
+      "height": 941,
+      "asset": "assets/church-fathers-journeys/john-damascene/02-public-service.png"
+    },
+    {
+      "subject": "john-damascene",
+      "scene_id": "03-mar-saba",
+      "title": "Η μοναχική επιλογή",
+      "caption": "Αφήνει τη δημόσια ζωή και γίνεται μοναχός στη Μονή του Αγίου Σάββα, κοντά στην Ιερουσαλήμ.",
+      "sha256": "f5062d8af8fc7bf6b606526c0b0da77428d23b759a71e15313387942586d3a80",
+      "width": 1672,
+      "height": 941,
+      "asset": "assets/church-fathers-journeys/john-damascene/03-mar-saba.png"
+    },
+    {
+      "subject": "john-damascene",
+      "scene_id": "04-icons",
+      "title": "Η κρίση της Εικονομαχίας",
+      "caption": "Στην Εικονομαχία, όταν καταστρέφονται ιερές εικόνες, ο Ιωάννης υπερασπίζεται την τιμητική προσκύνησή τους.",
+      "sha256": "f75586c070456800a845a9834ff503135ee9d9416957f41b9c1051880f88e730",
+      "width": 1672,
+      "height": 941,
+      "asset": "assets/church-fathers-journeys/john-damascene/04-icons.png"
+    },
+    {
+      "subject": "john-damascene",
+      "scene_id": "05-fount-of-knowledge",
+      "title": "Η Πηγή Γνώσεως",
+      "caption": "Στην «Πηγή Γνώσεως» συνοψίζει την ορθόδοξη διδασκαλία με συστηματικό και καθαρό λόγο.",
+      "sha256": "0d9541f2defc937acfba6a5aed914cd35a61782c7d536730623afd8cab13d602",
+      "width": 1672,
+      "height": 941,
+      "asset": "assets/church-fathers-journeys/john-damascene/05-fount-of-knowledge.png"
+    },
+    {
+      "subject": "john-damascene",
+      "scene_id": "06-hymnography",
+      "title": "Ο υμνογράφος",
+      "caption": "Συνθέτει ύμνους που συνοδεύουν την προσευχή και τη λατρευτική ζωή της Εκκλησίας.",
+      "sha256": "7073612e8870555058ecd30e243529fb696cd89a90988d7f370e1721e23dae1e",
+      "width": 1672,
+      "height": 941,
+      "asset": "assets/church-fathers-journeys/john-damascene/06-hymnography.png"
+    },
+    {
+      "subject": "john-damascene",
+      "scene_id": "07-islam",
+      "title": "Η θεολογική αντιπαράθεση με το Ισλάμ",
+      "caption": "Ζώντας υπό αραβική κυριαρχία, αντιπαρατίθεται θεολογικά στο Ισλάμ και υπερασπίζεται την ενανθρώπηση του Χριστού.",
+      "sha256": "582664da988d9d36a2702a9d2858e93b9ab1cabff660299e6e490400f22a6047",
+      "width": 1672,
+      "height": 941,
+      "asset": "assets/church-fathers-journeys/john-damascene/07-islam.png"
+    },
+    {
+      "subject": "sophrony",
+      "scene_id": "01-moscow-artist",
+      "title": "Ο νέος ζωγράφος",
+      "caption": "Ο Σέργιος Σαχάρωφ γεννιέται στη Μόσχα το 1896 και αφοσιώνεται στη ζωγραφική.",
+      "sha256": "8e3a817919c0a213178a11846ff8c865bfa8fbb908d3ae434ac6109e476708df",
+      "width": 1672,
+      "height": 941,
+      "asset": "assets/church-fathers-journeys/sophrony/01-moscow-artist.png"
+    },
+    {
+      "subject": "sophrony",
+      "scene_id": "02-paris-return",
+      "title": "Η αναζήτηση στο Παρίσι",
+      "caption": "Στο Παρίσι, η πνευματική του αναζήτηση τον φέρνει ξανά στην Εκκλησία και στην προσευχή.",
+      "sha256": "8f8f80c71113ec0c9533f2e4d5a858f2e1097698bd9b4e0c7e32e6523f0c6f47",
+      "width": 1672,
+      "height": 941,
+      "asset": "assets/church-fathers-journeys/sophrony/02-paris-return.png"
+    },
+    {
+      "subject": "sophrony",
+      "scene_id": "03-athos",
+      "title": "Η άφιξη στο Άγιον Όρος",
+      "caption": "Το 1925 φτάνει στο Άγιον Όρος και αρχίζει τη μοναχική ζωή στη Μονή Αγίου Παντελεήμονος.",
+      "sha256": "5af44f0d5394b0c04d4f31878966980dc89a8947ecec67dcdf5de911d0b8dfef",
+      "width": 1672,
+      "height": 941,
+      "asset": "assets/church-fathers-journeys/sophrony/03-athos.png"
+    },
+    {
+      "subject": "sophrony",
+      "scene_id": "04-silouan",
+      "title": "Μαθητής του Αγίου Σιλουανού",
+      "caption": "Γίνεται μαθητής του Αγίου Σιλουανού και διδάσκεται την ταπείνωση και την αγάπη για όλους.",
+      "sha256": "ccd1d615fdf172d2ee8d5fcecba8e5a2b066ba078ca6f67c910c305a3445fb9c",
+      "width": 1672,
+      "height": 941,
+      "asset": "assets/church-fathers-journeys/sophrony/04-silouan.png"
+    },
+    {
+      "subject": "sophrony",
+      "scene_id": "05-desert-prayer",
+      "title": "Προσευχή για τον κόσμο",
+      "caption": "Στην αθωνική έρημο, μέσα στα χρόνια του πολέμου, προσεύχεται για ολόκληρο τον κόσμο.",
+      "sha256": "795347a746befc92c8d80bb6cb1d00d340aa382004b28fa2e7f3aeccfeb2ae67",
+      "width": 1672,
+      "height": 941,
+      "asset": "assets/church-fathers-journeys/sophrony/05-desert-prayer.png"
+    },
+    {
+      "subject": "sophrony",
+      "scene_id": "06-divine-liturgy",
+      "title": "Η Θεία Λειτουργία — ζωή εν Χριστώ",
+      "caption": "Στη Θεία Λειτουργία, μετέχουμε στη ζωή του Χριστού και φέρνουμε στην προσευχή ολόκληρη την ανθρωπότητα.",
+      "sha256": "f6cced39058858928a629fec41178b788d10155a8d0b5d1dbd86f77317b34ac0",
+      "width": 1672,
+      "height": 941,
+      "asset": "assets/church-fathers-journeys/sophrony/06-divine-liturgy.png"
+    },
+    {
+      "subject": "sophrony",
+      "scene_id": "07-essex",
+      "title": "Η μονή στο Έσσεξ",
+      "caption": "Το 1959 ιδρύει τη Μονή Τιμίου Προδρόμου στο Έσσεξ και την καθοδηγεί έως την κοίμησή του, το 1993.",
+      "sha256": "90ed8de668da22c6d57b78e4cf120e75207148fc6b433ced1e7d997be9f8b6bf",
+      "width": 1672,
+      "height": 941,
+      "asset": "assets/church-fathers-journeys/sophrony/07-essex.png"
+    }
+  ],
+  "historical_note": "The final scene of John of Damascus is a symbolic educational composition of theological controversy, not a documented particular meeting. Exact birth/death dates for John are intentionally omitted."
+}
