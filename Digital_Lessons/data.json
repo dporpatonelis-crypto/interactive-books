@@ -2,8 +2,8 @@
   "title": "Το ψηφιακό μου βιβλίο",
   "description": "Κείμενα, εικόνες και συνδέσεις για τα μαθήματά μας στα web apps και στο Unity.",
   "bookId": "Digital_Lessons",
-  "revision": 20,
-  "sourceDigest": "3852f823e92d6a86bd9e91f6348beb293b33676f25cef63f7d5a284e606f9f6c",
+  "revision": 21,
+  "sourceDigest": "48f909849e386fcd9cda429c14e85ea366efc6de2a43f6e461bda649c9efec90",
   "coverImage": "assets/old-testament-objects.png",
   "coverCaption": "Έξι ιερά αντικείμενα της Παλαιάς Διαθήκης",
   "edition": "ΠΡΟΣΩΠΙΚΟ ΨΗΦΙΑΚΟ ΒΙΒΛΙΟ",
@@ -17,7 +17,7 @@
       "title": "Η θεία οικονομία — συμπλήρωσε τα κενά",
       "displayTitle": "Η θεία οικονομία — συμπλήρωσε τα κενά",
       "sourceBook": "Digital_Lessons",
-      "sourceTitle": "Βασικές γνώσεις για όλες τις τάξεις",
+      "sourceTitle": "Μάθημα 1",
       "sourcePage": 1,
       "lessonId": "lesson-foundations",
       "lessonTitle": "Βασικές γνώσεις για όλες τις τάξεις",
@@ -66,8 +66,7 @@
           "hotspots": []
         }
       ],
-      "mediaRefs": [],
-      "mediaPlacement": {}
+      "mediaRefs": []
     },
     {
       "id": "divine-economy-teacher-answers",
@@ -76,7 +75,7 @@
       "title": "Η θεία οικονομία — λύσεις εκπαιδευτικού",
       "displayTitle": "Η θεία οικονομία — λύσεις εκπαιδευτικού",
       "sourceBook": "Digital_Lessons",
-      "sourceTitle": "Βασικές γνώσεις για όλες τις τάξεις",
+      "sourceTitle": "Μάθημα 1",
       "sourcePage": 2,
       "lessonId": "lesson-foundations",
       "lessonTitle": "Βασικές γνώσεις για όλες τις τάξεις",
@@ -101,8 +100,7 @@
           "hotspots": []
         }
       ],
-      "mediaRefs": [],
-      "mediaPlacement": {}
+      "mediaRefs": []
     },
     {
       "id": "s-81491e8e-e56e-5a32-b73e-0f268cf4fb57",
@@ -163,8 +161,7 @@
       "mediaRefs": [
         "VID-021"
       ],
-      "videoId": "https://youtu.be/ZbrCmRIm9l4",
-      "mediaPlacement": {}
+      "videoId": "https://youtu.be/ZbrCmRIm9l4"
     },
     {
       "id": "s-4c4c2f7c-92aa-5e18-85aa-7e5f5a1e0535",
@@ -234,8 +231,7 @@
           "hotspots": []
         }
       ],
-      "mediaRefs": [],
-      "mediaPlacement": {}
+      "mediaRefs": []
     },
     {
       "id": "abraham-journey",
@@ -279,17 +275,7 @@
           "caption": "Κλήση: ο Αβραάμ αναχωρεί για τη γη της υπόσχεσης.",
           "retained": true
         }
-      ],
-      "mediaPlacement": {
-        "https://docs.google.com/presentation/d/1obhHzxFimu8ecB2zpNyAu73Ogv7RB3CuJaeOn0yxmcg/edit?usp=drivesdk": {
-          "placement": "after_text",
-          "title": "Άνοιξε τις διαφάνειες · 7 εικόνες"
-        },
-        "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/old-testament-journeys/abraham-journey.mp4?v=20261015-two-hands": {
-          "placement": "after_text",
-          "title": "Δες το βίντεο · 45″"
-        }
-      }
+      ]
     },
     {
       "id": "s-851e860a-84d7-5377-a1f6-f6a88b0a17ce",
@@ -429,12 +415,10 @@
           "text": "Σύμφωνα με τη βιβλική αφήγηση, οι Ισραηλίτες ζούσαν υπό τη σκληρή δουλεία της Αιγύπτου, όταν ο Θεός κάλεσε τον Μωυσή μέσα από τη φλεγόμενη βάτο να οδηγήσει τον λαό στην ελευθερία. Ο Μωυσής και ο Ααρών παρουσιάστηκαν στον Φαραώ, αλλά η άρνησή του ακολουθήθηκε από τις πληγές της Αιγύπτου. Μετά τη νύχτα του Πάσχα, ο λαός αναχώρησε και πέρασε την Ερυθρά Θάλασσα, καθώς τα νερά άνοιξαν μπροστά του. Στην έρημο, ο Θεός τον έτρεφε με μάννα και τον καθοδηγούσε με τη νεφέλη την ημέρα και τη στήλη πυρός τη νύχτα. Στο Σινά, ο Μωυσής πλησίασε τον γνόφο της θείας παρουσίας και παρέλαβε τον Νόμο, θεμέλιο της διαθήκης με τον Ισραήλ. Η Σκηνή του Μαρτυρίου, με την Κιβωτό, τη λυχνία, την τράπεζα και τα θυσιαστήρια, έγινε ο τόπος της λατρείας κατά την πορεία τους. Αργότερα, όταν φίδια έπληξαν τον λαό, ο Μωυσής ύψωσε, με εντολή του Θεού, το χάλκινο φίδι· όσοι είχαν δαγκωθεί και το κοιτούσαν σώζονταν. Αυτή η διαδρομή φωτίζει το βιβλικό πλαίσιο των ιερών αντικειμένων και προετοιμάζει τη χριστιανική τυπολογική τους ανάγνωση.",
           "kind": "text",
           "paragraphBoundary": true,
-          "hotspots": [],
-          "placement": "section_end"
+          "hotspots": []
         },
         {
-          "source": "Βιβλικές αναφορές: Έξοδος 3· 7–16· 19–20· 25–40· Αριθμοί 21:4–9.",
-          "placement": "section_end"
+          "source": "Βιβλικές αναφορές: Έξοδος 3· 7–16· 19–20· 25–40· Αριθμοί 21:4–9."
         }
       ],
       "mediaRefs": [
@@ -451,6 +435,16 @@
       "imageCaption": "Τυπολογία Παλαιάς Διαθήκης και Χριστιανική Πλήρωση · επιλεγμένη εικόνα από το ChatGPT Library",
       "slidesUrl": "https://docs.google.com/presentation/d/11ClrcJz1wGMjZTBhl0hEiIIF2Sq0_nWPE73GAhcNdnE/preview",
       "videoUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/moses-journey.mp4",
+      "extraMedia": [
+        {
+          "media_id": "SLD-027",
+          "type": "slides",
+          "title": "Άνοιξε τις διαφάνειες · 7 εικόνες",
+          "url": "https://docs.google.com/presentation/d/1tGtzUA6LYmHZ4T2yoQxvImcH3XSoL4_VpcPkB_jXfUs/edit?usp=drivesdk",
+          "slide_count": 7,
+          "placement": "section_end"
+        }
+      ],
       "localImages": [
         {
           "src": "assets/old-testament-objects.png",
@@ -465,26 +459,6 @@
           "mediaId": "IMG-084",
           "caption": "Τυπολογία Παλαιάς Διαθήκης και Χριστιανική Πλήρωση · επιλεγμένη εικόνα από το ChatGPT Library",
           "retained": true
-        }
-      ],
-      "mediaPlacement": {
-        "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/moses-journey.mp4": {
-          "placement": "section_end",
-          "title": "Η πορεία του Μωυσή · 45 δευτερόλεπτα"
-        },
-        "https://docs.google.com/presentation/d/1tGtzUA6LYmHZ4T2yoQxvImcH3XSoL4_VpcPkB_jXfUs/edit?usp=drivesdk": {
-          "placement": "section_end",
-          "title": "Άνοιξε τις διαφάνειες · 7 εικόνες"
-        }
-      },
-      "extraMedia": [
-        {
-          "media_id": "SLD-027",
-          "type": "slides",
-          "title": "Άνοιξε τις διαφάνειες · 7 εικόνες",
-          "url": "https://docs.google.com/presentation/d/1tGtzUA6LYmHZ4T2yoQxvImcH3XSoL4_VpcPkB_jXfUs/edit?usp=drivesdk",
-          "slide_count": 7,
-          "placement": "section_end"
         }
       ]
     },
@@ -530,17 +504,7 @@
           "caption": "Βηθλεέμ: ο νεαρός Δαυίδ φυλάει τα πρόβατα.",
           "retained": true
         }
-      ],
-      "mediaPlacement": {
-        "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/old-testament-journeys/david-journey.mp4": {
-          "placement": "after_text",
-          "title": "Δες το βίντεο · 45″"
-        },
-        "https://docs.google.com/presentation/d/1kDEzeQsCObnfHM-wT5zmYKm-4TbjtbcrZQ8PA7cVTe8/edit?usp=drivesdk": {
-          "placement": "after_text",
-          "title": "Άνοιξε τις διαφάνειες · 7 εικόνες"
-        }
-      }
+      ]
     },
     {
       "id": "elijah-journey",
@@ -584,17 +548,7 @@
           "caption": "Αχαάβ: ο Ηλίας αναγγέλλει την ανομβρία.",
           "retained": true
         }
-      ],
-      "mediaPlacement": {
-        "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/old-testament-journeys/elijah-journey.mp4": {
-          "placement": "after_text",
-          "title": "Δες το βίντεο · 45″"
-        },
-        "https://docs.google.com/presentation/d/1ejwL1HZJAQttNUaotQkV6WnvN9J-klXd0AtsdW40gow/edit?usp=drivesdk": {
-          "placement": "after_text",
-          "title": "Άνοιξε τις διαφάνειες · 7 εικόνες"
-        }
-      }
+      ]
     },
     {
       "id": "s-0b2bee9f-337b-5288-bfee-1054a9131e97",
@@ -688,8 +642,7 @@
           "hotspots": []
         }
       ],
-      "mediaRefs": [],
-      "mediaPlacement": {}
+      "mediaRefs": []
     },
     {
       "id": "s-d4a85ee8-310b-552f-b22e-b107eafa8b7f",
@@ -741,8 +694,7 @@
           "hotspots": []
         }
       ],
-      "mediaRefs": [],
-      "mediaPlacement": {}
+      "mediaRefs": []
     },
     {
       "id": "pentecost-upper-room",
@@ -817,8 +769,7 @@
           "caption": "Αναπαράσταση του Υπερώου της Σιών στην αρχαία Ιερουσαλήμ.",
           "retained": true
         }
-      ],
-      "mediaPlacement": {}
+      ]
     },
     {
       "id": "pentecost-six-stations",
@@ -918,8 +869,7 @@
           "caption": "Τα σανδάλια ως σύμβολο αποστολής και πορείας.",
           "retained": true
         }
-      ],
-      "mediaPlacement": {}
+      ]
     },
     {
       "id": "pentecost-liturgical-time",
@@ -974,8 +924,7 @@
           "caption": "Άρτος και οίνος ως σύμβολα της ευχαριστιακής σύναξης.",
           "retained": true
         }
-      ],
-      "mediaPlacement": {}
+      ]
     },
     {
       "id": "pentecost-prayer-all-adam",
@@ -1033,8 +982,7 @@
           "hotspots": []
         }
       ],
-      "mediaRefs": [],
-      "mediaPlacement": {}
+      "mediaRefs": []
     },
     {
       "id": "pentecost-vr-learning",
@@ -1107,8 +1055,7 @@
           "caption": "Συμβολική τράπεζα με αντικείμενα της εκπαιδευτικής σκηνής.",
           "retained": true
         }
-      ],
-      "mediaPlacement": {}
+      ]
     },
     {
       "id": "pentecost-summary",
@@ -1171,17 +1118,7 @@
         "SLD-010"
       ],
       "videoUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/pentecost-church-communion.mp4",
-      "slidesUrl": "https://docs.google.com/presentation/d/1knOyKV-Y--uiukPz-u_Ny29PLHK2cv7doeZBJogoQgQ",
-      "mediaPlacement": {
-        "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/pentecost-church-communion.mp4": {
-          "placement": "body",
-          "title": "Πεντηκοστή — Το Πνεύμα συγκροτεί την Εκκλησία · 90 δευτερόλεπτα"
-        },
-        "https://docs.google.com/presentation/d/1knOyKV-Y--uiukPz-u_Ny29PLHK2cv7doeZBJogoQgQ": {
-          "placement": "body",
-          "title": "Πεντηκοστή — Τα έξι αντικείμενα του Υπερώου · 10 διαφάνειες"
-        }
-      }
+      "slidesUrl": "https://docs.google.com/presentation/d/1knOyKV-Y--uiukPz-u_Ny29PLHK2cv7doeZBJogoQgQ"
     },
     {
       "id": "pentecost-advanced-theology",
@@ -1251,8 +1188,7 @@
           "hotspots": []
         }
       ],
-      "mediaRefs": [],
-      "mediaPlacement": {}
+      "mediaRefs": []
     },
     {
       "id": "pentecost-selected-materials",
@@ -1286,6 +1222,7 @@
         "DOC-006",
         "DOC-007"
       ],
+      "webUrl": "https://dporpatonelis-crypto.github.io/idea-weaver-board/library",
       "extraMedia": [
         {
           "media_id": "WEB-004",
@@ -1302,26 +1239,7 @@
           "placement": "after_text"
         }
       ],
-      "webUrl": "https://dporpatonelis-crypto.github.io/idea-weaver-board/library",
-      "driveUrl": "https://drive.google.com/file/d/1gTpCbIi_XlbupeGTisTBB9h02agP-39Y/view?usp=drivesdk",
-      "mediaPlacement": {
-        "https://dporpatonelis-crypto.github.io/idea-weaver-board/library": {
-          "placement": "after_text",
-          "title": "Άνοιξε τη βιβλιοθήκη Idea Weaver"
-        },
-        "https://dporpatonelis-crypto.github.io/Interactive-sculpture/?scenario=circular-table": {
-          "placement": "after_text",
-          "title": "Άνοιξε την Κυκλική Τράπεζα"
-        },
-        "https://drive.google.com/file/d/1gTpCbIi_XlbupeGTisTBB9h02agP-39Y/view?usp=drivesdk": {
-          "placement": "after_text",
-          "title": "Χαρτογράφηση VR · υλικό εκπαιδευτικού"
-        },
-        "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/sources/pentecost-materials.json": {
-          "placement": "after_text",
-          "title": "Περισσότερα για το επιλεγμένο υλικό"
-        }
-      }
+      "driveUrl": "https://drive.google.com/file/d/1gTpCbIi_XlbupeGTisTBB9h02agP-39Y/view?usp=drivesdk"
     },
     {
       "id": "john-baptist-journey",
@@ -1367,21 +1285,7 @@
           "caption": "Επίσκεψη: ο Ιωάννης σκιρτά μπροστά στον Χριστό.",
           "retained": true
         }
-      ],
-      "mediaPlacement": {
-        "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/new-testament-journeys/john-baptist-journey.mp4": {
-          "placement": "after_text",
-          "title": "Δες το βίντεο · 45″"
-        },
-        "https://docs.google.com/presentation/d/1MsqGzOOau_juVcOB1xCpaFWc02iCjoznisHGEyK29I4/edit?usp=drivesdk": {
-          "placement": "after_text",
-          "title": "Παρουσίαση Google Slides · 7 εικόνες"
-        },
-        "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/new-testament-journeys/john-baptist-slides.pdf": {
-          "placement": "after_text",
-          "title": "Διαφάνειες · PDF"
-        }
-      }
+      ]
     },
     {
       "id": "john-evangelist-journey",
@@ -1427,21 +1331,7 @@
           "caption": "Κλήση: ο Ιωάννης αφήνει τα δίχτυα και ακολουθεί τον Χριστό.",
           "retained": true
         }
-      ],
-      "mediaPlacement": {
-        "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/new-testament-journeys/john-evangelist-journey.mp4": {
-          "placement": "after_text",
-          "title": "Δες το βίντεο · 45″"
-        },
-        "https://docs.google.com/presentation/d/1A_LBWURpBkRsCZGIqxt03Wog2jLGLQRrwqpoX8aRpFc/edit?usp=drivesdk": {
-          "placement": "after_text",
-          "title": "Παρουσίαση Google Slides · 7 εικόνες"
-        },
-        "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/new-testament-journeys/john-evangelist-slides.pdf": {
-          "placement": "after_text",
-          "title": "Διαφάνειες · PDF"
-        }
-      }
+      ]
     },
     {
       "id": "peter-journey",
@@ -1487,21 +1377,7 @@
           "caption": "Αλιεία: ο Πέτρος καλείται να ακολουθήσει τον Χριστό.",
           "retained": true
         }
-      ],
-      "mediaPlacement": {
-        "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/new-testament-journeys/peter-journey.mp4": {
-          "placement": "after_text",
-          "title": "Δες το βίντεο · 45″"
-        },
-        "https://docs.google.com/presentation/d/1eN_jyEiGJ28XEHs5qgn6p9sYiARaCfZmny9oti10xXg/edit?usp=drivesdk": {
-          "placement": "after_text",
-          "title": "Παρουσίαση Google Slides · 7 εικόνες"
-        },
-        "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/new-testament-journeys/peter-slides.pdf": {
-          "placement": "after_text",
-          "title": "Διαφάνειες · PDF"
-        }
-      }
+      ]
     },
     {
       "id": "paul-journey",
@@ -1547,21 +1423,7 @@
           "caption": "Διωγμός: ο Σαούλ διώκει τους μαθητές του Χριστού.",
           "retained": true
         }
-      ],
-      "mediaPlacement": {
-        "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/new-testament-journeys/paul-journey.mp4": {
-          "placement": "after_text",
-          "title": "Δες το βίντεο · 45″"
-        },
-        "https://docs.google.com/presentation/d/1BRyBNBs7QR6YynGDH98TcEldOOrkR2KDtbrDVmil8zI/edit?usp=drivesdk": {
-          "placement": "after_text",
-          "title": "Παρουσίαση Google Slides · 7 εικόνες"
-        },
-        "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/new-testament-journeys/paul-slides.pdf": {
-          "placement": "after_text",
-          "title": "Διαφάνειες · PDF"
-        }
-      }
+      ]
     },
     {
       "id": "apokalypsi",
@@ -1664,8 +1526,7 @@
           "caption": "Δέντρο της Αποκάλυψης · οπτική αναφορά για τη θέση των έξι παπύρων.",
           "retained": true
         }
-      ],
-      "mediaPlacement": {}
+      ]
     },
     {
       "id": "apokalypsi-materials",
@@ -1762,21 +1623,7 @@
           "url": "https://dporpatonelis-crypto.github.io/light-up-legacy/",
           "placement": "after_text"
         }
-      ],
-      "mediaPlacement": {
-        "https://docs.google.com/presentation/d/1kmnmtbIiGHRrPHlaKNaJ_QJPtuPZXSzGALTppAGILY0/edit": {
-          "placement": "after_text",
-          "title": "Χάρτης της Αποκάλυψης · διαφάνεια 2"
-        },
-        "https://dporpatonelis-crypto.github.io/Interactive-sculpture/?scenario=slides-discovery": {
-          "placement": "after_text",
-          "title": "Interactive Sculpture · έξι ανακαλύψεις"
-        },
-        "https://dporpatonelis-crypto.github.io/light-up-legacy/": {
-          "placement": "after_text",
-          "title": "Light Up Legacy · τρισδιάστατο Δέντρο"
-        }
-      }
+      ]
     },
     {
       "id": "science-religion-overview",
@@ -1818,6 +1665,7 @@
         "https://i.ibb.co/rRNWK0SJ/file-0000000099988210b2dd36736fa935f5.png"
       ],
       "imageCaption": "Πρέπει η επιστήμη να συνδέεται με την καρδιά και η θρησκεία με τη λογική;",
+      "webUrl": "https://dporpatonelis-crypto.github.io/idea-weaver-board/library",
       "localImages": [
         {
           "src": "assets/science-religion/logic-and-heart.png",
@@ -1826,21 +1674,7 @@
           "caption": "Πρέπει η επιστήμη να συνδέεται με την καρδιά και η θρησκεία με τη λογική;",
           "retained": true
         }
-      ],
-      "extraMedia": [
-        {
-          "type": "website",
-          "title": "Άνοιξε το σενάριο στον Idea Weaver",
-          "url": "https://dporpatonelis-crypto.github.io/idea-weaver-board/library"
-        }
-      ],
-      "webUrl": "https://dporpatonelis-crypto.github.io/idea-weaver-board/library",
-      "mediaPlacement": {
-        "https://dporpatonelis-crypto.github.io/idea-weaver-board/library": {
-          "placement": "after_text",
-          "title": "Άνοιξε το σενάριο στον Idea Weaver"
-        }
-      }
+      ]
     },
     {
       "id": "science-religion-worksheet",
@@ -1883,13 +1717,7 @@
       "mediaRefs": [
         "DOC-005"
       ],
-      "driveUrl": "https://docs.google.com/document/d/1zTnV0OnFKLlx0LA-g5z6HrdabS6IqHR-LJVqGsYGV90/edit?usp=sharing",
-      "mediaPlacement": {
-        "https://docs.google.com/document/d/1zTnV0OnFKLlx0LA-g5z6HrdabS6IqHR-LJVqGsYGV90/edit?usp=sharing": {
-          "placement": "after_text",
-          "title": "Άνοιξε το φύλλο εργασίας μαθητή"
-        }
-      }
+      "driveUrl": "https://docs.google.com/document/d/1zTnV0OnFKLlx0LA-g5z6HrdabS6IqHR-LJVqGsYGV90/edit?usp=sharing"
     },
     {
       "id": "science-religion-agora-quiz",
@@ -1953,8 +1781,7 @@
           "hotspots": []
         }
       ],
-      "mediaRefs": [],
-      "mediaPlacement": {}
+      "mediaRefs": []
     },
     {
       "id": "science-religion-agora-artifact-talk",
@@ -2006,8 +1833,7 @@
           "hotspots": []
         }
       ],
-      "mediaRefs": [],
-      "mediaPlacement": {}
+      "mediaRefs": []
     },
     {
       "id": "father-athanasius",
@@ -2016,7 +1842,7 @@
       "title": "Μέγας Αθανάσιος",
       "displayTitle": "Μέγας Αθανάσιος",
       "sourceBook": "Digital_Lessons",
-      "sourceTitle": "Πατέρες της Εκκλησίας",
+      "sourceTitle": "Μάθημα 7",
       "sourcePage": 1,
       "lessonId": "lesson-church-fathers",
       "lessonTitle": "Πατέρες της Εκκλησίας: εικόνες και αφηγήσεις",
@@ -2057,6 +1883,9 @@
         "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers/father-athanasius.png"
       ],
       "imageCaption": "Μέγας Αθανάσιος",
+      "videoUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/athanasius/athanasius.mp4",
+      "slidesUrl": "https://docs.google.com/presentation/d/1zXQhZYZlY3pziPxnG6ek4OXj66eUcUhAllS4cP2rXq8",
+      "driveUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/athanasius/athanasius-slides.pdf",
       "localImages": [
         {
           "src": "assets/church-fathers/father-athanasius.png",
@@ -2065,40 +1894,7 @@
           "caption": "Μέγας Αθανάσιος",
           "retained": true
         }
-      ],
-      "layout": "portrait-narrative",
-      "portraitIntroCount": 2,
-      "references": [
-        {
-          "label": "OCA · Πίστη της Νίκαιας",
-          "url": "https://www.oca.org/saints/lives/0201/05/17/43-commemoration-of-the-holy-fathers-of-the-first-ecumenical-counci"
-        },
-        {
-          "label": "OCA · βίος και διδασκαλία",
-          "url": "https://www.oca.org/saints/id/lives/101269"
-        },
-        {
-          "label": "OCA · ιστορικό και θεολογικό πλαίσιο",
-          "url": "https://www.oca.org/orthodoxy/the-orthodox-faith/church-history/fourth-century/saint-athanasius-and-his-defence-of-nicea"
-        }
-      ],
-      "videoUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/athanasius/athanasius.mp4",
-      "slidesUrl": "https://docs.google.com/presentation/d/1zXQhZYZlY3pziPxnG6ek4OXj66eUcUhAllS4cP2rXq8",
-      "driveUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/athanasius/athanasius-slides.pdf",
-      "mediaPlacement": {
-        "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/athanasius/athanasius.mp4": {
-          "placement": "after_text",
-          "title": "Βίος και διδασκαλία · βίντεο"
-        },
-        "https://docs.google.com/presentation/d/1zXQhZYZlY3pziPxnG6ek4OXj66eUcUhAllS4cP2rXq8": {
-          "placement": "after_text",
-          "title": "Παρουσίαση · 7 διαφάνειες"
-        },
-        "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/athanasius/athanasius-slides.pdf": {
-          "placement": "after_text",
-          "title": "Διαφάνειες PDF"
-        }
-      }
+      ]
     },
     {
       "id": "father-basil",
@@ -2107,7 +1903,7 @@
       "title": "Μέγας Βασίλειος",
       "displayTitle": "Μέγας Βασίλειος",
       "sourceBook": "Digital_Lessons",
-      "sourceTitle": "Πατέρες της Εκκλησίας",
+      "sourceTitle": "Μάθημα 7",
       "sourcePage": 2,
       "lessonId": "lesson-church-fathers",
       "lessonTitle": "Πατέρες της Εκκλησίας: εικόνες και αφηγήσεις",
@@ -2148,6 +1944,9 @@
         "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers/father-basil.png"
       ],
       "imageCaption": "Μέγας Βασίλειος",
+      "videoUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/basil/basil.mp4",
+      "slidesUrl": "https://docs.google.com/presentation/d/1U1ZBEVCOuIr8D4q1bW7SnitbTye-vqZPh9dFDDma_S4",
+      "driveUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/basil/basil-slides.pdf",
       "localImages": [
         {
           "src": "assets/church-fathers/father-basil.png",
@@ -2156,40 +1955,7 @@
           "caption": "Μέγας Βασίλειος",
           "retained": true
         }
-      ],
-      "layout": "portrait-narrative",
-      "portraitIntroCount": 2,
-      "references": [
-        {
-          "label": "OCA · Μέγας Βασίλειος",
-          "url": "https://www.oca.org/saints/lives/20112024/01/01/100003-saint-basil-the-great-archbishop-of-caesarea-in-cappadocia"
-        },
-        {
-          "label": "OCA · βίος και διδασκαλία",
-          "url": "https://www.oca.org/saints/lives/1984/01/01/100003-saint-basil-the-great-archbishop-of-caesarea-in-cappadocia"
-        },
-        {
-          "label": "New Advent · πατερικό έργο",
-          "url": "https://www.newadvent.org/fathers/32015.htm"
-        }
-      ],
-      "videoUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/basil/basil.mp4",
-      "slidesUrl": "https://docs.google.com/presentation/d/1U1ZBEVCOuIr8D4q1bW7SnitbTye-vqZPh9dFDDma_S4",
-      "driveUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/basil/basil-slides.pdf",
-      "mediaPlacement": {
-        "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/basil/basil.mp4": {
-          "placement": "after_text",
-          "title": "Βίος και διδασκαλία · βίντεο"
-        },
-        "https://docs.google.com/presentation/d/1U1ZBEVCOuIr8D4q1bW7SnitbTye-vqZPh9dFDDma_S4": {
-          "placement": "after_text",
-          "title": "Παρουσίαση · 7 διαφάνειες"
-        },
-        "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/basil/basil-slides.pdf": {
-          "placement": "after_text",
-          "title": "Διαφάνειες PDF"
-        }
-      }
+      ]
     },
     {
       "id": "father-gregory-theologian",
@@ -2198,7 +1964,7 @@
       "title": "Γρηγόριος ο Θεολόγος",
       "displayTitle": "Γρηγόριος ο Θεολόγος",
       "sourceBook": "Digital_Lessons",
-      "sourceTitle": "Πατέρες της Εκκλησίας",
+      "sourceTitle": "Μάθημα 7",
       "sourcePage": 3,
       "lessonId": "lesson-church-fathers",
       "lessonTitle": "Πατέρες της Εκκλησίας: εικόνες και αφηγήσεις",
@@ -2239,6 +2005,9 @@
         "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers/father-gregory-theologian.png"
       ],
       "imageCaption": "Γρηγόριος ο Θεολόγος",
+      "videoUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/gregory-theologian/gregory-theologian.mp4",
+      "slidesUrl": "https://docs.google.com/presentation/d/1-pu-kgksqc3H9J25c_1GnVqE2tWYRoSTdC_PVpoSXDI",
+      "driveUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/gregory-theologian/gregory-theologian-slides.pdf",
       "localImages": [
         {
           "src": "assets/church-fathers/father-gregory-theologian.png",
@@ -2247,40 +2016,7 @@
           "caption": "Γρηγόριος ο Θεολόγος",
           "retained": true
         }
-      ],
-      "layout": "portrait-narrative",
-      "portraitIntroCount": 2,
-      "references": [
-        {
-          "label": "OCA · Γρηγόριος ο Θεολόγος",
-          "url": "https://www.oca.org/saints/lives/1981/01/25/100298-saint-gregory-the-theologian-archbishop-of-constantinople"
-        },
-        {
-          "label": "OCA · βίος και διδασκαλία",
-          "url": "https://www.oca.org/saints/id/lives/100298"
-        },
-        {
-          "label": "OCA · ιστορικό και θεολογικό πλαίσιο",
-          "url": "https://earlychristianwritings.com/fathers/gregory_nazianzen_2_oration4.html"
-        }
-      ],
-      "videoUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/gregory-theologian/gregory-theologian.mp4",
-      "slidesUrl": "https://docs.google.com/presentation/d/1-pu-kgksqc3H9J25c_1GnVqE2tWYRoSTdC_PVpoSXDI",
-      "driveUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/gregory-theologian/gregory-theologian-slides.pdf",
-      "mediaPlacement": {
-        "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/gregory-theologian/gregory-theologian.mp4": {
-          "placement": "after_text",
-          "title": "Βίος και διδασκαλία · βίντεο"
-        },
-        "https://docs.google.com/presentation/d/1-pu-kgksqc3H9J25c_1GnVqE2tWYRoSTdC_PVpoSXDI": {
-          "placement": "after_text",
-          "title": "Παρουσίαση · 7 διαφάνειες"
-        },
-        "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/gregory-theologian/gregory-theologian-slides.pdf": {
-          "placement": "after_text",
-          "title": "Διαφάνειες PDF"
-        }
-      }
+      ]
     },
     {
       "id": "father-john-chrysostom",
@@ -2289,7 +2025,7 @@
       "title": "Ιωάννης ο Χρυσόστομος",
       "displayTitle": "Ιωάννης ο Χρυσόστομος",
       "sourceBook": "Digital_Lessons",
-      "sourceTitle": "Πατέρες της Εκκλησίας",
+      "sourceTitle": "Μάθημα 7",
       "sourcePage": 4,
       "lessonId": "lesson-church-fathers",
       "lessonTitle": "Πατέρες της Εκκλησίας: εικόνες και αφηγήσεις",
@@ -2330,6 +2066,9 @@
         "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers/father-john-chrysostom.png"
       ],
       "imageCaption": "Ιωάννης ο Χρυσόστομος",
+      "videoUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/john-chrysostom/john-chrysostom.mp4",
+      "slidesUrl": "https://docs.google.com/presentation/d/11fmo246q6mjeShNpHVjEvVgF9pWMOCJSf08av_V6k4o",
+      "driveUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/john-chrysostom/john-chrysostom-slides.pdf",
       "localImages": [
         {
           "src": "assets/church-fathers/father-john-chrysostom.png",
@@ -2338,44 +2077,7 @@
           "caption": "Ιωάννης ο Χρυσόστομος",
           "retained": true
         }
-      ],
-      "layout": "portrait-narrative",
-      "portraitIntroCount": 2,
-      "references": [
-        {
-          "label": "GOARCH · Ιωάννης ο Χρυσόστομος",
-          "url": "https://religioused.sanfran.goarch.org/wp-content/uploads/2017-sjcof_manual_web.pdf"
-        },
-        {
-          "label": "OCA · βίος και διδασκαλία",
-          "url": "https://www.antiochpatriarchate.org/en/page/866/"
-        },
-        {
-          "label": "OCA · ιστορικό και θεολογικό πλαίσιο",
-          "url": "https://www.oca.org/orthodoxy/the-orthodox-faith/church-history/fourth-century/saint-john-chrysostom"
-        },
-        {
-          "label": "OCA · ιστορικό και θεολογικό πλαίσιο",
-          "url": "https://earlychurchtexts.com/public/john_chrysostom_homily_xxi_statues_flavian.htm"
-        }
-      ],
-      "videoUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/john-chrysostom/john-chrysostom.mp4",
-      "slidesUrl": "https://docs.google.com/presentation/d/11fmo246q6mjeShNpHVjEvVgF9pWMOCJSf08av_V6k4o",
-      "driveUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/john-chrysostom/john-chrysostom-slides.pdf",
-      "mediaPlacement": {
-        "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/john-chrysostom/john-chrysostom.mp4": {
-          "placement": "after_text",
-          "title": "Βίος και διδασκαλία · βίντεο"
-        },
-        "https://docs.google.com/presentation/d/11fmo246q6mjeShNpHVjEvVgF9pWMOCJSf08av_V6k4o": {
-          "placement": "after_text",
-          "title": "Παρουσίαση · 7 διαφάνειες"
-        },
-        "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/john-chrysostom/john-chrysostom-slides.pdf": {
-          "placement": "after_text",
-          "title": "Διαφάνειες PDF"
-        }
-      }
+      ]
     },
     {
       "id": "father-cyril",
@@ -2384,7 +2086,7 @@
       "title": "Κύριλλος Αλεξανδρείας",
       "displayTitle": "Κύριλλος Αλεξανδρείας",
       "sourceBook": "Digital_Lessons",
-      "sourceTitle": "Πατέρες της Εκκλησίας",
+      "sourceTitle": "Μάθημα 7",
       "sourcePage": 5,
       "lessonId": "lesson-church-fathers",
       "lessonTitle": "Πατέρες της Εκκλησίας: εικόνες και αφηγήσεις",
@@ -2425,6 +2127,9 @@
         "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers/father-cyril.png"
       ],
       "imageCaption": "Κύριλλος Αλεξανδρείας",
+      "videoUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/cyril/cyril.mp4",
+      "slidesUrl": "https://docs.google.com/presentation/d/182OzPqkDnsGhHZDfiZJAd9MxhGQ0ZSYqnuXQxBO_wuc",
+      "driveUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/cyril/cyril-slides.pdf",
       "localImages": [
         {
           "src": "assets/church-fathers/father-cyril.png",
@@ -2433,40 +2138,7 @@
           "caption": "Κύριλλος Αλεξανδρείας",
           "retained": true
         }
-      ],
-      "layout": "portrait-narrative",
-      "portraitIntroCount": 2,
-      "references": [
-        {
-          "label": "OCA · Χριστός και Θεοτόκος",
-          "url": "https://www.oca.org/orthodoxy/the-orthodox-faith/church-history/fifth-century/inner-struggles"
-        },
-        {
-          "label": "OCA · βίος και διδασκαλία",
-          "url": "https://www.oca.org/saints/lives/0578/06/09/101595-saint-cyril-archbishop-of-alexandria"
-        },
-        {
-          "label": "OCA · ιστορικό και θεολογικό πλαίσιο",
-          "url": "https://earlychurchtexts.com/main/cyrilofalex/letter_to_john_of_antioch.shtml"
-        }
-      ],
-      "videoUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/cyril/cyril.mp4",
-      "slidesUrl": "https://docs.google.com/presentation/d/182OzPqkDnsGhHZDfiZJAd9MxhGQ0ZSYqnuXQxBO_wuc",
-      "driveUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/cyril/cyril-slides.pdf",
-      "mediaPlacement": {
-        "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/cyril/cyril.mp4": {
-          "placement": "after_text",
-          "title": "Βίος και διδασκαλία · βίντεο"
-        },
-        "https://docs.google.com/presentation/d/182OzPqkDnsGhHZDfiZJAd9MxhGQ0ZSYqnuXQxBO_wuc": {
-          "placement": "after_text",
-          "title": "Παρουσίαση · 7 διαφάνειες"
-        },
-        "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/cyril/cyril-slides.pdf": {
-          "placement": "after_text",
-          "title": "Διαφάνειες PDF"
-        }
-      }
+      ]
     },
     {
       "id": "father-maximus",
@@ -2475,7 +2147,7 @@
       "title": "Μάξιμος Ομολογητής",
       "displayTitle": "Μάξιμος Ομολογητής",
       "sourceBook": "Digital_Lessons",
-      "sourceTitle": "Πατέρες της Εκκλησίας",
+      "sourceTitle": "Μάθημα 7",
       "sourcePage": 6,
       "lessonId": "lesson-church-fathers",
       "lessonTitle": "Πατέρες της Εκκλησίας: εικόνες και αφηγήσεις",
@@ -2516,6 +2188,9 @@
         "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers/father-maximus.png"
       ],
       "imageCaption": "Μάξιμος Ομολογητής",
+      "videoUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/maximus/maximus.mp4",
+      "slidesUrl": "https://docs.google.com/presentation/d/19uju6p4oHNCbUTEJWvhGwhhOOsGBukZynxBwHg0lrt4",
+      "driveUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/maximus/maximus-slides.pdf",
       "localImages": [
         {
           "src": "assets/church-fathers/father-maximus.png",
@@ -2524,44 +2199,7 @@
           "caption": "Μάξιμος Ομολογητής",
           "retained": true
         }
-      ],
-      "layout": "portrait-narrative",
-      "portraitIntroCount": 2,
-      "references": [
-        {
-          "label": "Μάξιμος · PG 91",
-          "url": "https://catholiclibrary.org/library/view?chunk.id=00000105&docId=Fathers-Synchronized-EN/Maximus_Confessor__PG_91A_6.en.html"
-        },
-        {
-          "label": "OCA · βίος και διδασκαλία",
-          "url": "https://www.oca.org/saints/lives/2018/01/21/100249-venerable-maximus-the-confessor"
-        },
-        {
-          "label": "OCA · ιστορικό και θεολογικό πλαίσιο",
-          "url": "https://www.myriobiblos.gr/texts/greek/maximos/onlove3.html"
-        },
-        {
-          "label": "OCA · ιστορικό και θεολογικό πλαίσιο",
-          "url": "https://agape-biblia.org/literatura/On-the-Cosmic-Mystery-of-Jesus-Christ_St-Maximus%20the-Confessor_Paul-M-Blowers_Robert-Louis-Wilken.pdf"
-        }
-      ],
-      "videoUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/maximus/maximus.mp4",
-      "slidesUrl": "https://docs.google.com/presentation/d/19uju6p4oHNCbUTEJWvhGwhhOOsGBukZynxBwHg0lrt4",
-      "driveUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/maximus/maximus-slides.pdf",
-      "mediaPlacement": {
-        "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/maximus/maximus.mp4": {
-          "placement": "after_text",
-          "title": "Βίος και διδασκαλία · βίντεο"
-        },
-        "https://docs.google.com/presentation/d/19uju6p4oHNCbUTEJWvhGwhhOOsGBukZynxBwHg0lrt4": {
-          "placement": "after_text",
-          "title": "Παρουσίαση · 7 διαφάνειες"
-        },
-        "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/maximus/maximus-slides.pdf": {
-          "placement": "after_text",
-          "title": "Διαφάνειες PDF"
-        }
-      }
+      ]
     },
     {
       "id": "father-symeon",
@@ -2570,7 +2208,7 @@
       "title": "Συμεών ο Νέος Θεολόγος",
       "displayTitle": "Συμεών ο Νέος Θεολόγος",
       "sourceBook": "Digital_Lessons",
-      "sourceTitle": "Πατέρες της Εκκλησίας",
+      "sourceTitle": "Μάθημα 7",
       "sourcePage": 7,
       "lessonId": "lesson-church-fathers",
       "lessonTitle": "Πατέρες της Εκκλησίας: εικόνες και αφηγήσεις",
@@ -2611,6 +2249,9 @@
         "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers/father-symeon.png"
       ],
       "imageCaption": "Συμεών ο Νέος Θεολόγος",
+      "videoUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/symeon/symeon.mp4",
+      "slidesUrl": "https://docs.google.com/presentation/d/1xl11UJ30u5q7G9aRwJ3mmclVbqY1b7T4Ork2II6UMwg",
+      "driveUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/symeon/symeon-slides.pdf",
       "localImages": [
         {
           "src": "assets/church-fathers/father-symeon.png",
@@ -2619,36 +2260,7 @@
           "caption": "Συμεών ο Νέος Θεολόγος",
           "retained": true
         }
-      ],
-      "layout": "portrait-narrative",
-      "portraitIntroCount": 2,
-      "references": [
-        {
-          "label": "OCA · Συμεών ο Νέος Θεολόγος",
-          "url": "https://www.oca.org/saints/lives/2014/03/12/100790-venerable-simeon-the-new-theologian"
-        },
-        {
-          "label": "OCA · ιστορικό και θεολογικό πλαίσιο",
-          "url": "https://ocf.net/st-symeon-the-new-theologian-hymn-25/"
-        }
-      ],
-      "videoUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/symeon/symeon.mp4",
-      "slidesUrl": "https://docs.google.com/presentation/d/1xl11UJ30u5q7G9aRwJ3mmclVbqY1b7T4Ork2II6UMwg",
-      "driveUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/symeon/symeon-slides.pdf",
-      "mediaPlacement": {
-        "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/symeon/symeon.mp4": {
-          "placement": "after_text",
-          "title": "Βίος και διδασκαλία · βίντεο"
-        },
-        "https://docs.google.com/presentation/d/1xl11UJ30u5q7G9aRwJ3mmclVbqY1b7T4Ork2II6UMwg": {
-          "placement": "after_text",
-          "title": "Παρουσίαση · 7 διαφάνειες"
-        },
-        "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/symeon/symeon-slides.pdf": {
-          "placement": "after_text",
-          "title": "Διαφάνειες PDF"
-        }
-      }
+      ]
     },
     {
       "id": "father-palamas",
@@ -2657,7 +2269,7 @@
       "title": "Γρηγόριος Παλαμάς",
       "displayTitle": "Γρηγόριος Παλαμάς",
       "sourceBook": "Digital_Lessons",
-      "sourceTitle": "Πατέρες της Εκκλησίας",
+      "sourceTitle": "Μάθημα 7",
       "sourcePage": 8,
       "lessonId": "lesson-church-fathers",
       "lessonTitle": "Πατέρες της Εκκλησίας: εικόνες και αφηγήσεις",
@@ -2698,6 +2310,9 @@
         "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers/father-palamas.png"
       ],
       "imageCaption": "Γρηγόριος Παλαμάς",
+      "videoUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/palamas/palamas.mp4",
+      "slidesUrl": "https://docs.google.com/presentation/d/17v72Sbvei8ZObDkfTC3qRDPtPHhqzPWFkpw3maiam0A",
+      "driveUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/palamas/palamas-slides.pdf",
       "localImages": [
         {
           "src": "assets/church-fathers/father-palamas.png",
@@ -2706,36 +2321,7 @@
           "caption": "Γρηγόριος Παλαμάς",
           "retained": true
         }
-      ],
-      "layout": "portrait-narrative",
-      "portraitIntroCount": 2,
-      "references": [
-        {
-          "label": "OCA · Γρηγόριος Παλαμάς",
-          "url": "https://www.oca.org/orthodoxy/the-orthodox-faith/church-history/fourteenth-century/saint-gregory-palamas"
-        },
-        {
-          "label": "OCA · βίος και διδασκαλία",
-          "url": "https://www.oca.org/saints/lives/2017/11/14/103303-saint-gregory-palamas-archbishop-of-thessalonica"
-        }
-      ],
-      "videoUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/palamas/palamas.mp4",
-      "slidesUrl": "https://docs.google.com/presentation/d/17v72Sbvei8ZObDkfTC3qRDPtPHhqzPWFkpw3maiam0A",
-      "driveUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/palamas/palamas-slides.pdf",
-      "mediaPlacement": {
-        "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/palamas/palamas.mp4": {
-          "placement": "after_text",
-          "title": "Βίος και διδασκαλία · βίντεο"
-        },
-        "https://docs.google.com/presentation/d/17v72Sbvei8ZObDkfTC3qRDPtPHhqzPWFkpw3maiam0A": {
-          "placement": "after_text",
-          "title": "Παρουσίαση · 7 διαφάνειες"
-        },
-        "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/palamas/palamas-slides.pdf": {
-          "placement": "after_text",
-          "title": "Διαφάνειες PDF"
-        }
-      }
+      ]
     },
     {
       "id": "father-john-damascene",
@@ -2744,7 +2330,7 @@
       "title": "Ιωάννης Δαμασκηνός",
       "displayTitle": "Ιωάννης Δαμασκηνός",
       "sourceBook": "Digital_Lessons",
-      "sourceTitle": "Πατέρες της Εκκλησίας",
+      "sourceTitle": "Μάθημα 7",
       "sourcePage": 9,
       "lessonId": "lesson-church-fathers",
       "lessonTitle": "Πατέρες της Εκκλησίας: εικόνες και αφηγήσεις",
@@ -2796,37 +2382,7 @@
           "caption": "Ιωάννης Δαμασκηνός",
           "retained": true
         }
-      ],
-      "layout": "portrait-narrative",
-      "portraitIntroCount": 2,
-      "references": [
-        {
-          "label": "Αγία Έδρα · Ιωάννης Δαμασκηνός",
-          "url": "https://www.vatican.va/content/benedict-xvi/en/audiences/2009/documents/hf_ben-xvi_aud_20090506.html"
-        },
-        {
-          "label": "OCA · βίος και έργο",
-          "url": "https://www.oca.org/saints/lives/2026/12/04/103473-venerable-john-of-damascus"
-        },
-        {
-          "label": "Peter Schadler · ο Δαμασκηνός και το πρώιμο Ισλάμ",
-          "url": "https://books.google.com/books/about/John_of_Damascus_and_Islam.html?id=6NBCDwAAQBAJ"
-        }
-      ],
-      "mediaPlacement": {
-        "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/john-damascene/john-damascene.mp4": {
-          "placement": "after_text",
-          "title": "Βίος και διδασκαλία · βίντεο"
-        },
-        "https://docs.google.com/presentation/d/1DUD6KwTy-r_4ANWNn9JeaKt6q6781ae33O8iYUZkOJg": {
-          "placement": "after_text",
-          "title": "Παρουσίαση · 7 διαφάνειες"
-        },
-        "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/john-damascene/john-damascene-slides.pdf": {
-          "placement": "after_text",
-          "title": "Διαφάνειες PDF"
-        }
-      }
+      ]
     },
     {
       "id": "father-sophrony",
@@ -2835,7 +2391,7 @@
       "title": "Άγιος Σωφρόνιος Σαχάρωφ",
       "displayTitle": "Άγιος Σωφρόνιος Σαχάρωφ",
       "sourceBook": "Digital_Lessons",
-      "sourceTitle": "Πατέρες της Εκκλησίας",
+      "sourceTitle": "Μάθημα 7",
       "sourcePage": 10,
       "lessonId": "lesson-church-fathers",
       "lessonTitle": "Πατέρες της Εκκλησίας: εικόνες και αφηγήσεις",
@@ -2887,33 +2443,353 @@
           "caption": "Άγιος Σωφρόνιος Σαχάρωφ",
           "retained": true
         }
-      ],
-      "layout": "portrait-narrative",
-      "portraitIntroCount": 2,
-      "references": [
+      ]
+    },
+    {
+      "id": "fall-restoration-introduction",
+      "number": 39,
+      "type": "content",
+      "title": "Από την Εδέμ στην Ανάσταση",
+      "displayTitle": "Από την Εδέμ στην Ανάσταση",
+      "sourceBook": "Digital_Lessons",
+      "sourceTitle": "Μάθημα 8",
+      "sourcePage": 1,
+      "lessonId": "lesson-fall-restoration",
+      "lessonTitle": "Πτώση και Αποκατάσταση",
+      "sourceUrl": "",
+      "content": [
         {
-          "label": "Μονή Έσσεξ · βίος Αγίου Σωφρονίου",
-          "url": "https://essexmonastery.org/biographies/english/saint-sophrony-the-athonite/"
+          "text": "Η βιβλική διήγηση ξεκινά από τη δημιουργία και την κλήση του ανθρώπου σε κοινωνία με τον Θεό. Η παρακοή φέρνει αποξένωση, μόχθο και θνητότητα. Η χριστιανική ανάγνωση παρακολουθεί έπειτα μια πορεία αποκατάστασης: ο Χριστός προσλαμβάνει την ανθρώπινη φύση, περνά από τον Σταυρό και τον θάνατο και ανοίγει ξανά την οδό της ζωής.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
         },
         {
-          "label": "Μονή Έσσεξ · προσευχή και Θεία Λειτουργία",
-          "url": "https://essexmonastery.org/articles/english/the-experience-of-the-holy-spirit-prayer-and-the-divine-liturgy/"
+          "text": "Τα σύμβολα που ακολουθούν δεν είναι αυτά καθαυτά οι βιβλικές αφηγήσεις. Λειτουργούν ως εικαστικές αφορμές για να συνδεθούν η Γένεση, τα Ευαγγέλια και η πατερική ερμηνεία. Οι πατερικές διατυπώσεις είναι σύντομες διδακτικές παραφράσεις· οι παραπομπές οδηγούν στις πηγές για περαιτέρω μελέτη.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
         }
       ],
-      "mediaPlacement": {
-        "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/sophrony/sophrony.mp4": {
-          "placement": "after_text",
-          "title": "Βίος και διδασκαλία · βίντεο"
-        },
-        "https://docs.google.com/presentation/d/1KQHzl3Gyty29dr7x142ja3RnwDRJJztDuIYNBuduqzg": {
-          "placement": "after_text",
-          "title": "Παρουσίαση · 7 διαφάνειες"
-        },
-        "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/sophrony/sophrony-slides.pdf": {
-          "placement": "after_text",
-          "title": "Διαφάνειες PDF"
+      "mediaRefs": [
+        "IMG-120"
+      ],
+      "images": [
+        "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/fall-restoration/eden-to-cross.png"
+      ],
+      "imageCaption": "Από την παρακοή στην ανάπλαση — ο Κήπος της Εδέμ και ο Σταυρός της Ζωής.",
+      "localImages": [
+        {
+          "src": "assets/fall-restoration/eden-to-cross.png",
+          "original": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/fall-restoration/eden-to-cross.png",
+          "mediaId": "IMG-120",
+          "caption": "Από την παρακοή στην ανάπλαση — ο Κήπος της Εδέμ και ο Σταυρός της Ζωής.",
+          "retained": true
         }
-      }
+      ]
+    },
+    {
+      "id": "fall-restoration-garments",
+      "number": 40,
+      "type": "content",
+      "title": "Οι δερμάτινοι χιτώνες — ευθραυστότητα και φροντίδα",
+      "displayTitle": "Οι δερμάτινοι χιτώνες — ευθραυστότητα και φροντίδα",
+      "sourceBook": "Digital_Lessons",
+      "sourceTitle": "Μάθημα 8",
+      "sourcePage": 2,
+      "lessonId": "lesson-fall-restoration",
+      "lessonTitle": "Πτώση και Αποκατάσταση",
+      "sourceUrl": "",
+      "content": [
+        {
+          "text": "Μετά την παρακοή, ο Θεός ενδύει τον Αδάμ και την Εύα με δερμάτινους χιτώνες. Το ένδυμα θυμίζει την καινούργια εμπειρία της γυμνότητας, του μόχθου και της θνητότητας. Μαζί φανερώνει ότι, ακόμη και μέσα στις συνέπειες της πτώσης, ο άνθρωπος δεν μένει χωρίς τη φροντίδα του Δημιουργού.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "Ο Γρηγόριος ο Θεολόγος συνδέει τους χιτώνες με τη θνητή και παχύτερη σάρκα. Η εικόνα δεν καταδικάζει το σώμα· η σωματική φύση παραμένει αγαθή δημιουργία του Θεού. Η θνητότητα γίνεται το όριο μέσα στο οποίο το κακό δεν διαιωνίζεται, ενώ η ενανθρώπηση του Χριστού ανοίγει την ελπίδα της αφθαρσίας. Ο Αθανάσιος συνδέει την ενανθρώπηση του Λόγου με την ανακαίνιση της ανθρώπινης φύσης και την ελπίδα της αφθαρσίας.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "source": "Βιβλικές και πατερικές αναφορές: Γεν. 3:21· Γρηγορίου Θεολόγου, Λόγος 38, §12· Αθανασίου, Περί Ενανθρωπήσεως."
+        }
+      ],
+      "mediaRefs": []
+    },
+    {
+      "id": "fall-restoration-fruit",
+      "number": 41,
+      "type": "content",
+      "title": "Ο καρπός — ελευθερία και εμπιστοσύνη",
+      "displayTitle": "Ο καρπός — ελευθερία και εμπιστοσύνη",
+      "sourceBook": "Digital_Lessons",
+      "sourceTitle": "Μάθημα 8",
+      "sourcePage": 3,
+      "lessonId": "lesson-fall-restoration",
+      "lessonTitle": "Πτώση και Αποκατάσταση",
+      "sourceUrl": "",
+      "content": [
+        {
+          "text": "Η Γένεση δεν κατονομάζει το είδος του καρπού. Η σημασία του βρίσκεται στην εντολή και στην ελεύθερη απόφαση του ανθρώπου, όχι σε κάποια κακή υλική ιδιότητα του καρπού. Η παρακοή εκφράζει την επιθυμία να οριστεί η ζωή ανεξάρτητα από τον Θεό, ενώ η ελευθερία μπορεί να στραφεί ξανά προς την εμπιστοσύνη και τη μετάνοια.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "Ο Μέγας Βασίλειος υπενθυμίζει ότι το κακό δεν προέρχεται από τον Δημιουργό, αλλά συνδέεται με τη χρήση της ελευθερίας. Ο Σωφρόνιος διακρίνει τον πόθο για τη θεία ζωή από την αυτόνομη αυτοθέωση: η αληθινή θέωση δωρίζεται με τη χάρη και δέχεται την ελεύθερη συνεργία του ανθρώπου.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "source": "Βιβλικές και πατερικές αναφορές: Γεν. 2:16–17, 3:1–7· Βασιλείου, Ότι ουκ έστιν αίτιος των κακών ο Θεός, §7· Σωφρονίου, Η ζωή Του ζωή μου, ενότητα «Η τραγωδία του ανθρώπου»."
+        }
+      ],
+      "mediaRefs": []
+    },
+    {
+      "id": "fall-restoration-eve-theotokos",
+      "number": 42,
+      "type": "content",
+      "title": "Εύα και Θεοτόκος — από την υπόσχεση στην εκπλήρωση",
+      "displayTitle": "Εύα και Θεοτόκος — από την υπόσχεση στην εκπλήρωση",
+      "sourceBook": "Digital_Lessons",
+      "sourceTitle": "Μάθημα 8",
+      "sourcePage": 4,
+      "lessonId": "lesson-fall-restoration",
+      "lessonTitle": "Πτώση και Αποκατάσταση",
+      "sourceUrl": "",
+      "content": [
+        {
+          "text": "Στη Γένεση, η υπόσχεση για τον απόγονο της γυναίκας που θα συντρίψει την κεφαλή του φιδιού προαναγγέλλει τη νίκη κατά του κακού. Η χριστιανική ερμηνεία βλέπει την εκπλήρωση στον Χριστό, τον Υιό του Θεού που γεννήθηκε από τη Θεοτόκο και νίκησε τον θάνατο με την ενανθρώπηση, τον Σταυρό και την Ανάσταση.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "Ο Ειρηναίος αντιπαραβάλλει την παρακοή της Εύας με την υπακοή της Μαρίας. Στον Ευαγγελισμό, η Θεοτόκος συγκατατίθεται ελεύθερα στο θέλημα του Θεού και δέχεται τον Λόγο. Έτσι η σχέση Εύας και Θεοτόκου δεν αποδίδει στη Μαρία τη νίκη του Χριστού· φωτίζει τη συμμετοχή της στην ιστορία της σωτηρίας και την εκπλήρωση της αρχαίας υπόσχεσης από τον Χριστό.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "source": "Βιβλικές και πατερικές αναφορές: Γεν. 3:15· Λουκ. 1:26–38· Ειρηναίου, Κατά αιρέσεων Γ΄ 22 και Ε΄ 21· Συμεών, Ηθικός Λόγος Β΄."
+        }
+      ],
+      "mediaRefs": []
+    },
+    {
+      "id": "fall-restoration-thorns",
+      "number": 43,
+      "type": "content",
+      "title": "Οι άκανθες και ο στέφανος του Πάθους",
+      "displayTitle": "Οι άκανθες και ο στέφανος του Πάθους",
+      "sourceBook": "Digital_Lessons",
+      "sourceTitle": "Μάθημα 8",
+      "sourcePage": 5,
+      "lessonId": "lesson-fall-restoration",
+      "lessonTitle": "Πτώση και Αποκατάσταση",
+      "sourceUrl": "",
+      "content": [
+        {
+          "text": "Οι άκανθες και οι τρίβολοι της Γένεσης περιγράφουν τον μόχθο και την οδύνη που σημαδεύουν τη ζωή μετά την πτώση. Στα Ευαγγέλια, οι στρατιώτες τοποθετούν ακάνθινο στέφανο στο κεφάλι του Χριστού. Η εικόνα συνδέει την πληγή της ανθρώπινης κατάστασης με το εκούσιο Πάθος Του.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "Ο Μάξιμος Ομολογητής περιγράφει την εμπλοκή του ανθρώπου στην παράλογη ηδονή και στην οδύνη. Ο Χριστός, αναμάρτητος, αναλαμβάνει ελεύθερα το Πάθος και τον θάνατο, προσφέροντας θεραπεία στην ανθρώπινη φύση. Έτσι το ακάνθινο στεφάνι γίνεται σημείο της ταπείνωσης και της αγάπης που δεν εγκαταλείπει τον άνθρωπο μέσα στον πόνο.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "source": "Βιβλικές και πατερικές αναφορές: Γεν. 3:18–19· Ματθ. 27:29· Μαξίμου Ομολογητή, Προς Θαλάσσιον, ερώτηση 61."
+        }
+      ],
+      "mediaRefs": []
+    },
+    {
+      "id": "fall-restoration-garden",
+      "number": 44,
+      "type": "content",
+      "title": "Οι κήποι της Εδέμ, της Γεθσημανή και της Αναστάσεως",
+      "displayTitle": "Οι κήποι της Εδέμ, της Γεθσημανή και της Αναστάσεως",
+      "sourceBook": "Digital_Lessons",
+      "sourceTitle": "Μάθημα 8",
+      "sourcePage": 6,
+      "lessonId": "lesson-fall-restoration",
+      "lessonTitle": "Πτώση και Αποκατάσταση",
+      "sourceUrl": "",
+      "content": [
+        {
+          "text": "Η Εδέμ γίνεται η αρχή μιας πορείας που συνεχίζεται σε άλλους κήπους. Στη Γεθσημανή ο Χριστός προσεύχεται και προσφέρει ελεύθερα την υπακοή Του στον Πατέρα. Στον κήπο όπου βρίσκεται ο τάφος, η αναγγελία της Αναστάσεως μετατρέπει τον τόπο του πένθους σε τόπο νέας ελπίδας.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "Η μικρογραφία του κήπου είναι συμβολική αναπαράσταση και όχι γεωγραφική ή βοτανική αποτύπωση της Εδέμ. Η οπτική της βοηθά να διαβαστεί η αντίθεση ανάμεσα στην παρακοή και στην υπακοή, καθώς και η συνέχεια από τη δημιουργία προς την ανακαίνιση. Στον Σωφρόνιο, η αγάπη και η προσευχή διευρύνουν την καρδιά ώστε να χωρεί ολόκληρη την ανθρωπότητα. Ο Σωφρόνιος περιγράφει την ανθρωπότητα ως κοινή φύση σε πολλά πρόσωπα και βλέπει στην προσευχή «υπέρ όλου του Αδάμ» την καρδιά που χωρεί κάθε άνθρωπο.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "source": "Βιβλικές και πατερικές αναφορές: Γεν. 2–3· Λουκ. 22:39–46· Ιω. 19:41, 20:11–18· Σωφρονίου, Περί Προσευχής."
+        }
+      ],
+      "mediaRefs": [
+        "IMG-121"
+      ],
+      "images": [
+        "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/fall-restoration/garden-miniature.png"
+      ],
+      "imageCaption": "Μικρογραφία του Κήπου της Εδέμ — εικαστική αναπαράσταση με διαφανές φόντο.",
+      "localImages": [
+        {
+          "src": "assets/fall-restoration/garden-miniature.png",
+          "original": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/fall-restoration/garden-miniature.png",
+          "mediaId": "IMG-121",
+          "caption": "Μικρογραφία του Κήπου της Εδέμ — εικαστική αναπαράσταση με διαφανές φόντο.",
+          "retained": true
+        }
+      ]
+    },
+    {
+      "id": "fall-restoration-flaming-sword",
+      "number": 45,
+      "type": "content",
+      "title": "Η φλογισμένη ρομφαία και η πλευρά του Χριστού",
+      "displayTitle": "Η φλογισμένη ρομφαία και η πλευρά του Χριστού",
+      "sourceBook": "Digital_Lessons",
+      "sourceTitle": "Μάθημα 8",
+      "sourcePage": 7,
+      "lessonId": "lesson-fall-restoration",
+      "lessonTitle": "Πτώση και Αποκατάσταση",
+      "sourceUrl": "",
+      "content": [
+        {
+          "text": "Μετά την έξοδο από την Εδέμ, η φλογισμένη ρομφαία φυλάσσει την οδό προς το ξύλο της ζωής. Η εικόνα δηλώνει τον αποκλεισμό του ανθρώπου από τη ζωή που απέρριψε. Στον Λόγο του Μεγάλου Σαββάτου, που αποδίδεται στον Επιφάνιο, ο Χριστός κατεβαίνει στον Άδη και καλεί τον Αδάμ να εγερθεί.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "Η ομιλία παραλληλίζει την πλευρά του Χριστού που τρυπήθηκε με τη ρομφαία που στάθηκε απέναντι από τον άνθρωπο. Η σύνδεση αυτή δεν καταργεί τη βιβλική διήγηση· εκφράζει τη μετάβαση από την αποξένωση στη συμφιλίωση και από τον αποκλεισμό στην πρόσκληση για ζωή με τον Θεό. Η πλευρά που ανοίγεται στο Πάθος γίνεται εικόνα της ζωής που χαρίζεται. Ο Κύριλλος Αλεξανδρείας ερμηνεύει την κραυγή του Χριστού στον Σταυρό ως οικείωση της ανθρώπινης εμπειρίας της εγκατάλειψης, χωρίς να διασπάται η ενότητά Του με τον Πατέρα. Ο Ιωάννης Δαμασκηνός αντιπαραβάλλει το ξύλο του καρπού με το ξύλο του Σταυρού: μέσω του δεύτερου χαρίζεται ζωή και ανοίγει ο Παράδεισος.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "Ο Λόγος του Μεγάλου Σαββάτου, που αποδίδεται παραδοσιακά —με επιφύλαξη— στον Επιφάνιο, αφηγείται την κάθοδο του Χριστού στον Άδη και την πρόσκληση προς τον Αδάμ να εγερθεί. Συνδέει τον ύπνο του πρώτου ανθρώπου και την πλευρά του με τα γεγονότα του Πάθους, και τον κήπο της αρχής με τον κήπο του τάφου.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "source": "Βιβλικές και πατερικές αναφορές: Γεν. 3:24· Ιω. 19:34· Φιλ. 2:5–11· Λόγος εις το Μέγα Σάββατον, αποδιδόμενος στον Επιφάνιο, PG 43, 439 κ.ε.· Κυρίλλου Αλεξανδρείας, Περί της ενότητος του Χριστού· Ιωάννου Δαμασκηνού, Έκδοσις ακριβής της Ορθοδόξου Πίστεως, Δ΄ 11."
+        }
+      ],
+      "mediaRefs": []
+    },
+    {
+      "id": "fall-restoration-anastasis",
+      "number": 46,
+      "type": "content",
+      "title": "Ο Χριστός εγείρει τον Αδάμ και την Εύα",
+      "displayTitle": "Ο Χριστός εγείρει τον Αδάμ και την Εύα",
+      "sourceBook": "Digital_Lessons",
+      "sourceTitle": "Μάθημα 8",
+      "sourcePage": 8,
+      "lessonId": "lesson-fall-restoration",
+      "lessonTitle": "Πτώση και Αποκατάσταση",
+      "sourceUrl": "",
+      "content": [
+        {
+          "text": "Στην εικόνα της Αναστάσεως, ο Χριστός κατεβαίνει στον Άδη και ανυψώνει τον Αδάμ και την Εύα. Η κίνηση αυτή αποτυπώνει τη νίκη Του κατά του θανάτου και την πρόσκληση προς όλη την ανθρωπότητα. Η αποκατάσταση δεν περιορίζεται σε ένα μεμονωμένο πρόσωπο: ο νέος Αδάμ ανακαινίζει την κοινή ανθρώπινη φύση.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "Ο Αθανάσιος συνδέει την ενανθρώπηση του Λόγου με την αναίρεση της φθοράς. Ο Χρυσόστομος, σχολιάζοντας τον Παύλο, αντιπαραβάλλει την παρακοή του Αδάμ με την υπακοή του Χριστού και τονίζει ότι η δωρεά της χάριτος υπερβαίνει το τραύμα της παράβασης. Η εικόνα της εγέρσεως κρατά μαζί τη νίκη του Χριστού και την ελπίδα για κάθε άνθρωπο.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "source": "Βιβλικές και πατερικές αναφορές: Ρωμ. 5:12–19· Α΄ Κορ. 15:21–22· Αθανασίου, Περί Ενανθρωπήσεως· Χρυσοστόμου, Εις Ρωμαίους, ομιλία 10."
+        }
+      ],
+      "mediaRefs": []
+    },
+    {
+      "id": "fall-restoration-breath",
+      "number": 47,
+      "type": "content",
+      "title": "Η πνοή της ανακαίνισης",
+      "displayTitle": "Η πνοή της ανακαίνισης",
+      "sourceBook": "Digital_Lessons",
+      "sourceTitle": "Μάθημα 8",
+      "sourcePage": 9,
+      "lessonId": "lesson-fall-restoration",
+      "lessonTitle": "Πτώση και Αποκατάσταση",
+      "sourceUrl": "",
+      "content": [
+        {
+          "text": "Η πνοή με την οποία δημιουργείται ο Αδάμ συναντά στα Ευαγγέλια την πνοή του αναστημένου Χριστού προς τους μαθητές. Η εικόνα δηλώνει νέα ζωή εν Αγίω Πνεύματι και την ανακαίνιση της ανθρώπινης φύσης. Η επιστροφή στον Θεό δεν είναι μόνο αλλαγή συμπεριφοράς, αλλά αποκατάσταση της κοινωνίας που ζωοποιεί τον άνθρωπο.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "Για τον Συμεών τον Νέο Θεολόγο, η πτώση σκοτίζει τον άνθρωπο και τον αποξενώνει από τη ζωντανή κοινωνία με τον Θεό. Με τη χάρη του Πνεύματος, ο άνθρωπος φωτίζεται, μετανοεί και επιστρέφει στη βιωματική γνώση του Θεού. Ο Παλαμάς περιγράφει την αποξένωση αυτή ως πνευματικό θάνατο, που προηγείται της σωματικής φθοράς.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "Η αποκατάσταση, κατά τον Παλαμά, είναι πραγματική μετοχή στις άκτιστες ενέργειες του Θεού, ενώ η θεία ουσία παραμένει αμέθεκτη. Η χάρη μεταμορφώνει ψυχή και σώμα· ο άνθρωπος μετέχει κατά χάριν στη θεία ζωή, χωρίς να παύει να είναι κτιστός.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "source": "Βιβλικές και πατερικές αναφορές: Γεν. 2:7· Ιω. 20:22· Συμεών Νέου Θεολόγου, Βίβλος των Ηθικών· Γρηγορίου Παλαμά, Προς την μοναχήν Ξένην και Κεφάλαια 150."
+        }
+      ],
+      "mediaRefs": []
+    },
+    {
+      "id": "fall-restoration-conclusion",
+      "number": 48,
+      "type": "content",
+      "title": "Μια ενιαία πορεία — από την παρακοή στην κοινωνία",
+      "displayTitle": "Μια ενιαία πορεία — από την παρακοή στην κοινωνία",
+      "sourceBook": "Digital_Lessons",
+      "sourceTitle": "Μάθημα 8",
+      "sourcePage": 10,
+      "lessonId": "lesson-fall-restoration",
+      "lessonTitle": "Πτώση και Αποκατάσταση",
+      "sourceUrl": "",
+      "content": [
+        {
+          "text": "Οι εικόνες της Εδέμ, του καρπού, των χιτώνων και της ρομφαίας περιγράφουν διαφορετικές όψεις της πτώσης: απομάκρυνση, ευθραυστότητα και απώλεια της ζωής. Ο Σταυρός, η υπακοή της Θεοτόκου, ο κήπος της Αναστάσεως, η πνοή του Πνεύματος και η έγερση του Αδάμ φωτίζουν την αποκατάσταση ως έργο του Χριστού.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "Οι Πατέρες συμπληρώνουν ο ένας τον άλλον: μιλούν για ελευθερία, ενανθρώπηση, χάρη, θεραπεία, φως, θέωση και αγάπη για ολόκληρη την ανθρωπότητα. Η κοινή τους κατεύθυνση δεν είναι η επιστροφή σε μια αφηρημένη αρχική κατάσταση, αλλά η κλήση σε ζωντανή κοινωνία με τον Θεό και σε αγάπη που περιλαμβάνει κάθε άνθρωπο.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        }
+      ],
+      "mediaRefs": []
     }
   ]
 }
