@@ -21,6 +21,19 @@ jobs:
             /.github/digital-book/
             !/Digital_Lessons/book.pdf
             !/Digital_Lessons/history/
+            !/Digital_Lessons/assets/**/*.mp4
+            /Digital_Lessons/assets/moses-journey.mp4
+            /Digital_Lessons/assets/pentecost-church-communion.mp4
+            /Digital_Lessons/assets/church-fathers-journeys/athanasius/athanasius.mp4
+            /Digital_Lessons/assets/church-fathers-journeys/basil/basil.mp4
+            /Digital_Lessons/assets/church-fathers-journeys/gregory-theologian/gregory-theologian.mp4
+            /Digital_Lessons/assets/church-fathers-journeys/john-chrysostom/john-chrysostom.mp4
+            /Digital_Lessons/assets/church-fathers-journeys/cyril/cyril.mp4
+            /Digital_Lessons/assets/church-fathers-journeys/maximus/maximus.mp4
+            /Digital_Lessons/assets/church-fathers-journeys/symeon/symeon.mp4
+            /Digital_Lessons/assets/church-fathers-journeys/palamas/palamas.mp4
+            /Digital_Lessons/assets/church-fathers-journeys/john-damascene/john-damascene.mp4
+            /Digital_Lessons/assets/church-fathers-journeys/sophrony/sophrony.mp4
       - uses: actions/setup-node@v4
         with:
           node-version: 22
@@ -40,6 +53,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add Digital_Lessons/data.json Digital_Lessons/book.pdf Digital_Lessons/pdf-meta.json Digital_Lessons/qa
+          git add --sparse Digital_Lessons/data.json Digital_Lessons/book.pdf Digital_Lessons/pdf-meta.json Digital_Lessons/qa
           git diff --staged --quiet || git commit -m "Render Digital Lessons revision 24 and verify quiz links"
           git push origin HEAD:codex/quiz-links-20261019
