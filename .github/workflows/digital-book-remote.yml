@@ -21,7 +21,6 @@ jobs:
             /.github/digital-book/
             !/Digital_Lessons/book.pdf
             !/Digital_Lessons/history/
-            !/Digital_Lessons/assets/**/*.mp4
       - uses: actions/setup-node@v4
         with:
           node-version: 22
