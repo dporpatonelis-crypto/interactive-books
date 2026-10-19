@@ -3,8 +3,8 @@
   "book_id": "Digital_Lessons",
   "title": "Το ψηφιακό μου βιβλίο",
   "description": "Κείμενα, εικόνες και συνδέσεις για τα μαθήματά μας στα web apps και στο Unity.",
-  "revision": 23,
-  "updated_at": "2026-10-17T14:11:08Z",
+  "revision": 24,
+  "updated_at": "2026-10-19T06:22:59Z",
   "cover": {
     "asset": "assets/old-testament-objects.png",
     "caption": "Έξι ιερά αντικείμενα της Παλαιάς Διαθήκης",
@@ -336,6 +336,16 @@
               "kind": "source",
               "text": "Βιβλικές αναφορές: Έξοδος 3· 7–16· 19–20· 25–40· Αριθμοί 21:4–9.",
               "placement": "section_end"
+            },
+            {
+              "kind": "heading",
+              "text": "Quiz «Σκιά και Πλήρωση» σε browser",
+              "placement": "section_end"
+            },
+            {
+              "kind": "text",
+              "text": "Το αυτόνομο quiz «Σκιά και Πλήρωση» συνδέει τα έξι ευρήματα της Παλαιάς Διαθήκης με τον ύμνο και τις ερμηνείες τους, μέσα από επιλογή και αντιστοίχιση. Κατέβασε το HTML από τον σύνδεσμο και άνοιξέ το σε browser, σε υπολογιστή ή tablet, ακόμη και χωρίς σύνδεση.",
+              "placement": "section_end"
             }
           ],
           "media": [
@@ -380,6 +390,14 @@
               "url": "https://docs.google.com/presentation/d/1tGtzUA6LYmHZ4T2yoQxvImcH3XSoL4_VpcPkB_jXfUs/edit?usp=drivesdk",
               "slide_count": 7,
               "placement": "section_end"
+            },
+            {
+              "media_id": "DOC-018",
+              "type": "drive",
+              "title": "Κατέβασε το quiz HTML · Σκιά και Πλήρωση / Πεντηκοστή",
+              "url": "https://drive.google.com/file/d/11wnDMCi8mRrV3XhX5CI74E_0Xcujxm3E/view?usp=sharing",
+              "placement": "section_end",
+              "caption": "Αυτόνομο αρχείο HTML· λήψη από Drive και άνοιγμα σε browser."
             }
           ]
         },
@@ -916,6 +934,16 @@
             {
               "kind": "text",
               "text": "Η παρουσίαση βρίσκεται στη σύνοψη της Πεντηκοστής· εδώ συγκεντρώνονται ο Idea Weaver, η Κυκλική Τράπεζα και η χαρτογράφηση VR."
+            },
+            {
+              "kind": "heading",
+              "text": "Quiz «Πεντηκοστή» σε browser",
+              "placement": "section_end"
+            },
+            {
+              "kind": "text",
+              "text": "Στο ίδιο αυτόνομο HTML, επίλεξε «Πεντηκοστή» από το «Σενάρια»: έξι ερωτήσεις και μία αντιστοίχιση συνδέουν τα ευρήματα με τα χαρίσματα και τη ζωή της Εκκλησίας. Ο ύμνος εμφανίζεται κάτω από την αντιστοίχιση. Κατέβασε το αρχείο και άνοιξέ το σε browser, σε υπολογιστή ή tablet.",
+              "placement": "section_end"
             }
           ],
           "media": [
@@ -946,6 +974,14 @@
               "title": "Περισσότερα για το επιλεγμένο υλικό",
               "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/sources/pentecost-materials.json",
               "placement": "after_text"
+            },
+            {
+              "media_id": "DOC-018",
+              "type": "drive",
+              "title": "Κατέβασε το quiz HTML · Σκιά και Πλήρωση / Πεντηκοστή",
+              "url": "https://drive.google.com/file/d/11wnDMCi8mRrV3XhX5CI74E_0Xcujxm3E/view?usp=sharing",
+              "placement": "section_end",
+              "caption": "Αυτόνομο αρχείο HTML· λήψη από Drive και άνοιγμα σε browser."
             }
           ]
         }
