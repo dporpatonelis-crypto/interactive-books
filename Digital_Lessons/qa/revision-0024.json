@@ -1,0 +1,22 @@
+{
+  "revision": 24,
+  "sourceDigest": "206d7b1b1782210df09e9ded9a6d26f95bf9017d9295ae1f4c55751ccd4b3ef8",
+  "pdfSha256": "35dc4a41226d3ac348a0ddc802632b0ff4ab5d2af3d3e1f2be9c9e17d62ee81a",
+  "page_count": 63,
+  "exact_quiz_link_count": 2,
+  "exact_quiz_link_pages": [
+    16,
+    30
+  ],
+  "previews": {
+    "jerusalem": {
+      "page": 16,
+      "image": "qa/revision-0024-jerusalem.png"
+    },
+    "pentecost": {
+      "page": 30,
+      "image": "qa/revision-0024-pentecost.png"
+    }
+  },
+  "internal_pdf_links": 42
+}
