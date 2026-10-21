@@ -1,0 +1,61 @@
+name: Build Creation World revision 25
+on:
+  push:
+    branches: [codex/creation-world-20261021]
+    paths:
+      - Digital_Lessons/book.json
+      - .github/workflows/creation-world-preview.yml
+      - .github/digital-book/**
+permissions:
+  contents: write
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: codex/creation-world-20261021
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /Digital_Lessons/
+            /.github/digital-book/
+            !/Digital_Lessons/book.pdf
+            !/Digital_Lessons/history/
+            /Digital_Lessons/history/revision-0024.json
+            !/Digital_Lessons/assets/**/*.mp4
+            /Digital_Lessons/assets/moses-journey.mp4
+            /Digital_Lessons/assets/pentecost-church-communion.mp4
+            /Digital_Lessons/assets/church-fathers-journeys/athanasius/athanasius.mp4
+            /Digital_Lessons/assets/church-fathers-journeys/basil/basil.mp4
+            /Digital_Lessons/assets/church-fathers-journeys/gregory-theologian/gregory-theologian.mp4
+            /Digital_Lessons/assets/church-fathers-journeys/john-chrysostom/john-chrysostom.mp4
+            /Digital_Lessons/assets/church-fathers-journeys/cyril/cyril.mp4
+            /Digital_Lessons/assets/church-fathers-journeys/maximus/maximus.mp4
+            /Digital_Lessons/assets/church-fathers-journeys/symeon/symeon.mp4
+            /Digital_Lessons/assets/church-fathers-journeys/palamas/palamas.mp4
+            /Digital_Lessons/assets/church-fathers-journeys/john-damascene/john-damascene.mp4
+            /Digital_Lessons/assets/church-fathers-journeys/sophrony/sophrony.mp4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install PDF renderer
+        run: |
+          npm install --prefix "$RUNNER_TEMP/book-render" playwright@1.62.1 --no-audit --no-fund
+          "$RUNNER_TEMP/book-render/node_modules/.bin/playwright" install --with-deps chromium
+          python3 -m pip install --disable-pip-version-check pypdf pymupdf
+      - name: Validate, build and render the retained reader
+        env:
+          NODE_PATH: ${{ runner.temp }}/book-render/node_modules
+        run: |
+          python3 .github/digital-book/check_creation.py --source-only
+          python3 .github/digital-book/build_book.py Digital_Lessons/book.json
+          node .github/digital-book/render_pdf.cjs Digital_Lessons
+          python3 .github/digital-book/check_creation.py
+      - name: Commit generated book files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add --sparse Digital_Lessons/data.json Digital_Lessons/book.pdf Digital_Lessons/pdf-meta.json Digital_Lessons/qa
+          git diff --staged --quiet || git commit -m "Render and verify Digital Lessons revision 25"
+          git push origin HEAD:codex/creation-world-20261021
