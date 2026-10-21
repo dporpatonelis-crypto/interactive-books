@@ -3,7 +3,7 @@
   "description": "Κείμενα, εικόνες και συνδέσεις για τα μαθήματά μας στα web apps και στο Unity.",
   "bookId": "Digital_Lessons",
   "revision": 25,
-  "sourceDigest": "2641a22a757c191da14e8bbc75ea847291b06bd683bf8663edca1f1b8ad0bf1b",
+  "sourceDigest": "8cc9e93cf15530a94560257d320525c730e6fdabc773c1c176766bcbfb67e9d0",
   "coverImage": "assets/old-testament-objects.png",
   "coverCaption": "Έξι ιερά αντικείμενα της Παλαιάς Διαθήκης",
   "edition": "ΠΡΟΣΩΠΙΚΟ ΨΗΦΙΑΚΟ ΒΙΒΛΙΟ",
@@ -2597,7 +2597,7 @@
                 "Η Νέα Εύα: Το «Χαίρε» του Αρχαγγέλου μετατρέπει τον θρήνο σε εσχατολογική χαρά."
               ]
             ],
-            "source_file": "sources/creation-world-source.json",
+            "source_file": "sources/creation-fall-symbols.csv",
             "source_note": "Αυτούσια μεταφορά των τριών θεολογικών στηλών του υπομνήματος, σ. 2–3."
           }
         },
@@ -2660,7 +2660,7 @@
                 "Η αναστροφή του ονόματος της Εύας (EVA ➔ AVE) χαρίζει την εσχατολογική αναγέννηση."
               ]
             ],
-            "source_file": "sources/creation-world-source.json",
+            "source_file": "sources/creation-christ-adam-parallels.csv",
             "source_note": "Αυτούσια μεταφορά του πίνακα του υπομνήματος, σ. 3."
           }
         },
