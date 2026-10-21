@@ -2371,7 +2371,7 @@
                   "Η Νέα Εύα: Το «Χαίρε» του Αρχαγγέλου μετατρέπει τον θρήνο σε εσχατολογική χαρά."
                 ]
               ],
-              "source_file": "sources/creation-world-source.json",
+              "source_file": "sources/creation-fall-symbols.csv",
               "source_note": "Αυτούσια μεταφορά των τριών θεολογικών στηλών του υπομνήματος, σ. 2–3."
             },
             {
@@ -2428,7 +2428,7 @@
                   "Η αναστροφή του ονόματος της Εύας (EVA ➔ AVE) χαρίζει την εσχατολογική αναγέννηση."
                 ]
               ],
-              "source_file": "sources/creation-world-source.json",
+              "source_file": "sources/creation-christ-adam-parallels.csv",
               "source_note": "Αυτούσια μεταφορά του πίνακα του υπομνήματος, σ. 3."
             },
             {
