@@ -1,0 +1,47 @@
+{
+  "revision": 25,
+  "sourceDigest": "2641a22a757c191da14e8bbc75ea847291b06bd683bf8663edca1f1b8ad0bf1b",
+  "pdfSha256": "384b88b9c42ffdabba920a97ec580c37a2353f0b5e6281b04a1d0b3d8b1248bc",
+  "source_cells": 39,
+  "rendered_cells_verified": 39,
+  "pdf_cells_verified": 39,
+  "narrative_words": 392,
+  "source_pdf_sha256": "9b0505ac967dbf2df420c76ff0bc15da0f6edf9553957cb04cf2faa4bac46a26",
+  "page_count": 70,
+  "new_lesson_pages": [
+    60,
+    66
+  ],
+  "internal_pdf_links": 45,
+  "old_lessons_unchanged": true,
+  "previews": [
+    {
+      "page": 60,
+      "image": "qa/revision-0025-page-060.png"
+    },
+    {
+      "page": 61,
+      "image": "qa/revision-0025-page-061.png"
+    },
+    {
+      "page": 62,
+      "image": "qa/revision-0025-page-062.png"
+    },
+    {
+      "page": 63,
+      "image": "qa/revision-0025-page-063.png"
+    },
+    {
+      "page": 64,
+      "image": "qa/revision-0025-page-064.png"
+    },
+    {
+      "page": 65,
+      "image": "qa/revision-0025-page-065.png"
+    },
+    {
+      "page": 66,
+      "image": "qa/revision-0025-page-066.png"
+    }
+  ]
+}
