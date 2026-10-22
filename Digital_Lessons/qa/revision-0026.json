@@ -1,0 +1,657 @@
+{
+  "revision": 26,
+  "sourceDigest": "9e3c1496cd98450daf60d98518de62d3d266d4583c375ae12d8d78b33413b9d2",
+  "browser": {
+    "revision": 26,
+    "results": [
+      {
+        "section": "apokalypsi",
+        "hash": [
+          "paul-journey",
+          "apokalypsi"
+        ],
+        "links": [
+          "VID-043",
+          "SLD-030",
+          "DOC-019"
+        ],
+        "video": {
+          "duration": 45,
+          "width": 1920,
+          "height": 1080,
+          "paused": false
+        }
+      },
+      {
+        "section": "creation-world",
+        "hash": [
+          "father-sophrony",
+          "creation-world"
+        ],
+        "links": [
+          "VID-044",
+          "SLD-031",
+          "DOC-020"
+        ],
+        "video": {
+          "duration": 45,
+          "width": 1920,
+          "height": 1080,
+          "paused": false
+        }
+      },
+      {
+        "section": "fall-restoration-anastasis",
+        "hash": [
+          "fall-restoration-anastasis",
+          "fall-restoration-anastasis"
+        ],
+        "links": [
+          "VID-045",
+          "SLD-032",
+          "DOC-021"
+        ],
+        "video": {
+          "duration": 45,
+          "width": 1920,
+          "height": 1080,
+          "paused": false
+        }
+      },
+      {
+        "section": "father-palamas",
+        "hash": [
+          "father-palamas",
+          "father-palamas"
+        ],
+        "links": [
+          "VID-046",
+          "SLD-033",
+          "DOC-022"
+        ],
+        "video": {
+          "duration": 45,
+          "width": 1920,
+          "height": 1080,
+          "paused": false
+        }
+      }
+    ],
+    "keyboard": true,
+    "contents": true,
+    "reducedMotion": true,
+    "mobileFit": true,
+    "mobileTouch": true,
+    "errors": []
+  },
+  "pdf": {
+    "pages": 70,
+    "newMediaPages": [
+      36,
+      57,
+      60,
+      69
+    ],
+    "newMediaUrls": [
+      "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/christianity-study/creation/creation-slides.pdf",
+      "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/christianity-study/creation/creation-slides.pptx",
+      "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/christianity-study/creation/creation.mp4",
+      "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/christianity-study/death-resurrection/death-resurrection-slides.pdf",
+      "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/christianity-study/death-resurrection/death-resurrection-slides.pptx",
+      "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/christianity-study/death-resurrection/death-resurrection.mp4",
+      "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/christianity-study/divine-search/divine-search-slides.pdf",
+      "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/christianity-study/divine-search/divine-search-slides.pptx",
+      "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/christianity-study/divine-search/divine-search.mp4",
+      "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/christianity-study/judgement-palamas/judgement-palamas-slides.pdf",
+      "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/christianity-study/judgement-palamas/judgement-palamas-slides.pptx",
+      "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/christianity-study/judgement-palamas/judgement-palamas.mp4"
+    ]
+  },
+  "mediaLibrary": {
+    "GitHub": 241,
+    "Drive": 241,
+    "localMirror": 241,
+    "newIds": [
+      "VID-043",
+      "SLD-030",
+      "DOC-019",
+      "VID-044",
+      "SLD-031",
+      "DOC-020",
+      "VID-045",
+      "SLD-032",
+      "DOC-021",
+      "VID-046",
+      "SLD-033",
+      "DOC-022"
+    ],
+    "driveNativeReadback": true,
+    "driveBrowserVisualReview": "unavailable: in-app browser requires Google sign-in; native cell formatting and data were verified"
+  },
+  "presentations": {
+    "divine-search": {
+      "schemaVersion": "presentation-finalization.v1",
+      "finalSha256": "556c1d8b134a8d20f934049160dbde8962250258b7ed48b5f932a01baab9f98a",
+      "byteCount": 22287923,
+      "packageIntegrity": {
+        "chart_count": 0,
+        "claim_boundary": "Structural package checks only; no slide text, notes, formulas, chart values, or native PowerPoint execution were inspected.",
+        "finding_count": 0,
+        "findings": [],
+        "notes_parts_skipped": 7,
+        "relationship_part_count": 24,
+        "slide_count": 7,
+        "status": "pass",
+        "exitCode": 0,
+        "findingCount": 0,
+        "warnings": []
+      },
+      "presentationLayout": {
+        "finding_count": 0,
+        "findings": [],
+        "font_policy": {
+          "checked_text_script_count": 21,
+          "native_font_rendering_verified": false,
+          "observed_font_families": [
+            "Georgia"
+          ],
+          "observed_font_use_counts": {
+            "Georgia": 21
+          },
+          "passed": true,
+          "performed": true
+        },
+        "slide_count": 7,
+        "slide_size_in": [
+          20,
+          11.25
+        ],
+        "warning_count": 0,
+        "warnings": [],
+        "exitCode": 0,
+        "findingCount": 0,
+        "fontPolicy": {
+          "checked_text_script_count": 21,
+          "native_font_rendering_verified": false,
+          "observed_font_families": [
+            "Georgia"
+          ],
+          "observed_font_use_counts": {
+            "Georgia": 21
+          },
+          "passed": true,
+          "performed": true
+        }
+      },
+      "fontSelection": {
+        "basis": "design",
+        "approvedFamilies": [
+          "Georgia"
+        ],
+        "scriptFonts": {},
+        "referenceSha256": null,
+        "referenceFontsVerifiedInEncodedText": false,
+        "checked_text_script_count": 21,
+        "native_font_rendering_verified": false,
+        "observed_font_families": [
+          "Georgia"
+        ],
+        "observed_font_use_counts": {
+          "Georgia": 21
+        },
+        "passed": true,
+        "performed": true
+      },
+      "firstPartyImport": {
+        "performed": true,
+        "passed": true,
+        "slideCount": 7,
+        "sha256": "556c1d8b134a8d20f934049160dbde8962250258b7ed48b5f932a01baab9f98a",
+        "runtimeNodeModules": "/Users/dimitriosporpatonelis/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+        "nodeExecutable": "/Users/dimitriosporpatonelis/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node"
+      },
+      "nativeTableArithmetic": {
+        "performed": true,
+        "checked_column_count": 0,
+        "checks": [],
+        "claim_boundary": "Displayed-value arithmetic with rounding tolerance; not source-data verification.",
+        "eligible_table_count": 0,
+        "finding_count": 0,
+        "findings": [],
+        "native_table_count": 0,
+        "passed": true,
+        "schema_version": "presentation-native-table-arithmetic.v1",
+        "skipped_tables": [],
+        "slide_count": 7,
+        "warning_count": 0,
+        "warnings": []
+      },
+      "nativeChartTitles": {
+        "performed": true,
+        "checks": [],
+        "finding_count": 0,
+        "findings": [],
+        "native_chart_count": 0,
+        "native_powerpoint_verified": false,
+        "passed": true,
+        "presentation_sha256": "556c1d8b134a8d20f934049160dbde8962250258b7ed48b5f932a01baab9f98a",
+        "schema_version": "presentation-native-chart-titles.v1",
+        "slide_count": 7,
+        "source_text_emitted": false,
+        "unresolved_linked_title_count": 0
+      },
+      "sourceDerivedPolicyFlags": [
+        "--expected-slide-size-emu",
+        "18288000,10287000",
+        "--validate-heading-fit",
+        "--cover-role",
+        "none",
+        "--expected-slide-count",
+        "7",
+        "--approved-font-family",
+        "Georgia"
+      ],
+      "nativeChartValidation": {
+        "detectedOwnerSlides": [],
+        "detectedChartCount": 0,
+        "targetApplication": null,
+        "sourceChartOwnersExplicitlyDeclared": false,
+        "validatorRan": false,
+        "passed": true
+      }
+    },
+    "creation": {
+      "schemaVersion": "presentation-finalization.v1",
+      "finalSha256": "b1ab60787030c7be0b68f6417165b83fdd647ded8c6463f6be87caaf9db8668d",
+      "byteCount": 24628846,
+      "packageIntegrity": {
+        "chart_count": 0,
+        "claim_boundary": "Structural package checks only; no slide text, notes, formulas, chart values, or native PowerPoint execution were inspected.",
+        "finding_count": 0,
+        "findings": [],
+        "notes_parts_skipped": 7,
+        "relationship_part_count": 24,
+        "slide_count": 7,
+        "status": "pass",
+        "exitCode": 0,
+        "findingCount": 0,
+        "warnings": []
+      },
+      "presentationLayout": {
+        "finding_count": 0,
+        "findings": [],
+        "font_policy": {
+          "checked_text_script_count": 21,
+          "native_font_rendering_verified": false,
+          "observed_font_families": [
+            "Georgia"
+          ],
+          "observed_font_use_counts": {
+            "Georgia": 21
+          },
+          "passed": true,
+          "performed": true
+        },
+        "slide_count": 7,
+        "slide_size_in": [
+          20,
+          11.25
+        ],
+        "warning_count": 0,
+        "warnings": [],
+        "exitCode": 0,
+        "findingCount": 0,
+        "fontPolicy": {
+          "checked_text_script_count": 21,
+          "native_font_rendering_verified": false,
+          "observed_font_families": [
+            "Georgia"
+          ],
+          "observed_font_use_counts": {
+            "Georgia": 21
+          },
+          "passed": true,
+          "performed": true
+        }
+      },
+      "fontSelection": {
+        "basis": "design",
+        "approvedFamilies": [
+          "Georgia"
+        ],
+        "scriptFonts": {},
+        "referenceSha256": null,
+        "referenceFontsVerifiedInEncodedText": false,
+        "checked_text_script_count": 21,
+        "native_font_rendering_verified": false,
+        "observed_font_families": [
+          "Georgia"
+        ],
+        "observed_font_use_counts": {
+          "Georgia": 21
+        },
+        "passed": true,
+        "performed": true
+      },
+      "firstPartyImport": {
+        "performed": true,
+        "passed": true,
+        "slideCount": 7,
+        "sha256": "b1ab60787030c7be0b68f6417165b83fdd647ded8c6463f6be87caaf9db8668d",
+        "runtimeNodeModules": "/Users/dimitriosporpatonelis/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+        "nodeExecutable": "/Users/dimitriosporpatonelis/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node"
+      },
+      "nativeTableArithmetic": {
+        "performed": true,
+        "checked_column_count": 0,
+        "checks": [],
+        "claim_boundary": "Displayed-value arithmetic with rounding tolerance; not source-data verification.",
+        "eligible_table_count": 0,
+        "finding_count": 0,
+        "findings": [],
+        "native_table_count": 0,
+        "passed": true,
+        "schema_version": "presentation-native-table-arithmetic.v1",
+        "skipped_tables": [],
+        "slide_count": 7,
+        "warning_count": 0,
+        "warnings": []
+      },
+      "nativeChartTitles": {
+        "performed": true,
+        "checks": [],
+        "finding_count": 0,
+        "findings": [],
+        "native_chart_count": 0,
+        "native_powerpoint_verified": false,
+        "passed": true,
+        "presentation_sha256": "b1ab60787030c7be0b68f6417165b83fdd647ded8c6463f6be87caaf9db8668d",
+        "schema_version": "presentation-native-chart-titles.v1",
+        "slide_count": 7,
+        "source_text_emitted": false,
+        "unresolved_linked_title_count": 0
+      },
+      "sourceDerivedPolicyFlags": [
+        "--expected-slide-size-emu",
+        "18288000,10287000",
+        "--validate-heading-fit",
+        "--cover-role",
+        "none",
+        "--expected-slide-count",
+        "7",
+        "--approved-font-family",
+        "Georgia"
+      ],
+      "nativeChartValidation": {
+        "detectedOwnerSlides": [],
+        "detectedChartCount": 0,
+        "targetApplication": null,
+        "sourceChartOwnersExplicitlyDeclared": false,
+        "validatorRan": false,
+        "passed": true
+      }
+    },
+    "death-resurrection": {
+      "schemaVersion": "presentation-finalization.v1",
+      "finalSha256": "8e0e1b56bcc6a842e0ebb810ee629b0bb893e515754a0eef63e04a5ae5995e46",
+      "byteCount": 24332982,
+      "packageIntegrity": {
+        "chart_count": 0,
+        "claim_boundary": "Structural package checks only; no slide text, notes, formulas, chart values, or native PowerPoint execution were inspected.",
+        "finding_count": 0,
+        "findings": [],
+        "notes_parts_skipped": 7,
+        "relationship_part_count": 24,
+        "slide_count": 7,
+        "status": "pass",
+        "exitCode": 0,
+        "findingCount": 0,
+        "warnings": []
+      },
+      "presentationLayout": {
+        "finding_count": 0,
+        "findings": [],
+        "font_policy": {
+          "checked_text_script_count": 21,
+          "native_font_rendering_verified": false,
+          "observed_font_families": [
+            "Georgia"
+          ],
+          "observed_font_use_counts": {
+            "Georgia": 21
+          },
+          "passed": true,
+          "performed": true
+        },
+        "slide_count": 7,
+        "slide_size_in": [
+          20,
+          11.25
+        ],
+        "warning_count": 0,
+        "warnings": [],
+        "exitCode": 0,
+        "findingCount": 0,
+        "fontPolicy": {
+          "checked_text_script_count": 21,
+          "native_font_rendering_verified": false,
+          "observed_font_families": [
+            "Georgia"
+          ],
+          "observed_font_use_counts": {
+            "Georgia": 21
+          },
+          "passed": true,
+          "performed": true
+        }
+      },
+      "fontSelection": {
+        "basis": "design",
+        "approvedFamilies": [
+          "Georgia"
+        ],
+        "scriptFonts": {},
+        "referenceSha256": null,
+        "referenceFontsVerifiedInEncodedText": false,
+        "checked_text_script_count": 21,
+        "native_font_rendering_verified": false,
+        "observed_font_families": [
+          "Georgia"
+        ],
+        "observed_font_use_counts": {
+          "Georgia": 21
+        },
+        "passed": true,
+        "performed": true
+      },
+      "firstPartyImport": {
+        "performed": true,
+        "passed": true,
+        "slideCount": 7,
+        "sha256": "8e0e1b56bcc6a842e0ebb810ee629b0bb893e515754a0eef63e04a5ae5995e46",
+        "runtimeNodeModules": "/Users/dimitriosporpatonelis/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+        "nodeExecutable": "/Users/dimitriosporpatonelis/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node"
+      },
+      "nativeTableArithmetic": {
+        "performed": true,
+        "checked_column_count": 0,
+        "checks": [],
+        "claim_boundary": "Displayed-value arithmetic with rounding tolerance; not source-data verification.",
+        "eligible_table_count": 0,
+        "finding_count": 0,
+        "findings": [],
+        "native_table_count": 0,
+        "passed": true,
+        "schema_version": "presentation-native-table-arithmetic.v1",
+        "skipped_tables": [],
+        "slide_count": 7,
+        "warning_count": 0,
+        "warnings": []
+      },
+      "nativeChartTitles": {
+        "performed": true,
+        "checks": [],
+        "finding_count": 0,
+        "findings": [],
+        "native_chart_count": 0,
+        "native_powerpoint_verified": false,
+        "passed": true,
+        "presentation_sha256": "8e0e1b56bcc6a842e0ebb810ee629b0bb893e515754a0eef63e04a5ae5995e46",
+        "schema_version": "presentation-native-chart-titles.v1",
+        "slide_count": 7,
+        "source_text_emitted": false,
+        "unresolved_linked_title_count": 0
+      },
+      "sourceDerivedPolicyFlags": [
+        "--expected-slide-size-emu",
+        "18288000,10287000",
+        "--validate-heading-fit",
+        "--cover-role",
+        "none",
+        "--expected-slide-count",
+        "7",
+        "--approved-font-family",
+        "Georgia"
+      ],
+      "nativeChartValidation": {
+        "detectedOwnerSlides": [],
+        "detectedChartCount": 0,
+        "targetApplication": null,
+        "sourceChartOwnersExplicitlyDeclared": false,
+        "validatorRan": false,
+        "passed": true
+      }
+    },
+    "judgement-palamas": {
+      "schemaVersion": "presentation-finalization.v1",
+      "finalSha256": "ffe3c42be994d56135b8bc50d09f5dc5aa6473b90151307025564205a149a5cb",
+      "byteCount": 21998554,
+      "packageIntegrity": {
+        "chart_count": 0,
+        "claim_boundary": "Structural package checks only; no slide text, notes, formulas, chart values, or native PowerPoint execution were inspected.",
+        "finding_count": 0,
+        "findings": [],
+        "notes_parts_skipped": 7,
+        "relationship_part_count": 24,
+        "slide_count": 7,
+        "status": "pass",
+        "exitCode": 0,
+        "findingCount": 0,
+        "warnings": []
+      },
+      "presentationLayout": {
+        "finding_count": 0,
+        "findings": [],
+        "font_policy": {
+          "checked_text_script_count": 21,
+          "native_font_rendering_verified": false,
+          "observed_font_families": [
+            "Georgia"
+          ],
+          "observed_font_use_counts": {
+            "Georgia": 21
+          },
+          "passed": true,
+          "performed": true
+        },
+        "slide_count": 7,
+        "slide_size_in": [
+          20,
+          11.25
+        ],
+        "warning_count": 0,
+        "warnings": [],
+        "exitCode": 0,
+        "findingCount": 0,
+        "fontPolicy": {
+          "checked_text_script_count": 21,
+          "native_font_rendering_verified": false,
+          "observed_font_families": [
+            "Georgia"
+          ],
+          "observed_font_use_counts": {
+            "Georgia": 21
+          },
+          "passed": true,
+          "performed": true
+        }
+      },
+      "fontSelection": {
+        "basis": "design",
+        "approvedFamilies": [
+          "Georgia"
+        ],
+        "scriptFonts": {},
+        "referenceSha256": null,
+        "referenceFontsVerifiedInEncodedText": false,
+        "checked_text_script_count": 21,
+        "native_font_rendering_verified": false,
+        "observed_font_families": [
+          "Georgia"
+        ],
+        "observed_font_use_counts": {
+          "Georgia": 21
+        },
+        "passed": true,
+        "performed": true
+      },
+      "firstPartyImport": {
+        "performed": true,
+        "passed": true,
+        "slideCount": 7,
+        "sha256": "ffe3c42be994d56135b8bc50d09f5dc5aa6473b90151307025564205a149a5cb",
+        "runtimeNodeModules": "/Users/dimitriosporpatonelis/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+        "nodeExecutable": "/Users/dimitriosporpatonelis/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node"
+      },
+      "nativeTableArithmetic": {
+        "performed": true,
+        "checked_column_count": 0,
+        "checks": [],
+        "claim_boundary": "Displayed-value arithmetic with rounding tolerance; not source-data verification.",
+        "eligible_table_count": 0,
+        "finding_count": 0,
+        "findings": [],
+        "native_table_count": 0,
+        "passed": true,
+        "schema_version": "presentation-native-table-arithmetic.v1",
+        "skipped_tables": [],
+        "slide_count": 7,
+        "warning_count": 0,
+        "warnings": []
+      },
+      "nativeChartTitles": {
+        "performed": true,
+        "checks": [],
+        "finding_count": 0,
+        "findings": [],
+        "native_chart_count": 0,
+        "native_powerpoint_verified": false,
+        "passed": true,
+        "presentation_sha256": "ffe3c42be994d56135b8bc50d09f5dc5aa6473b90151307025564205a149a5cb",
+        "schema_version": "presentation-native-chart-titles.v1",
+        "slide_count": 7,
+        "source_text_emitted": false,
+        "unresolved_linked_title_count": 0
+      },
+      "sourceDerivedPolicyFlags": [
+        "--expected-slide-size-emu",
+        "18288000,10287000",
+        "--validate-heading-fit",
+        "--cover-role",
+        "none",
+        "--expected-slide-count",
+        "7",
+        "--approved-font-family",
+        "Georgia"
+      ],
+      "nativeChartValidation": {
+        "detectedOwnerSlides": [],
+        "detectedChartCount": 0,
+        "targetApplication": null,
+        "sourceChartOwnersExplicitlyDeclared": false,
+        "validatorRan": false,
+        "passed": true
+      }
+    }
+  }
+}

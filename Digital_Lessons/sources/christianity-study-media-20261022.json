@@ -1,0 +1,364 @@
+{
+  "date": "2026-10-22",
+  "description": "Εγκεκριμένες θεματικές παρουσιάσεις της σκηνής Χριστιανισμού. Εκπαιδευτικές παραφράσεις και εικονογραφήσεις, με την απόδοση του Λόγου του Μεγάλου Σαββάτου στον Επιφάνιο να διατηρείται επιφυλακτική.",
+  "source_book_revision": 25,
+  "source_files": [
+    "creation-world-source.json"
+  ],
+  "topics": [
+    {
+      "id": "divine-search",
+      "contentId": "christianity_divine_search",
+      "title": "Αναζήτηση του Θείου",
+      "message": "Η Αποκάλυψη γίνεται γνωστή μέσα στην ιστορία και βιώνεται ως κοινωνία με τον Θεό.",
+      "manuscript": "<b>Η φανέρωση του Θεού</b>\n<b>Κτίση και Γραφή</b>\nΜαρτυρούν τη θεία παρουσία στην ιστορία.\n\n<b>Χριστός και άγιοι</b>\nΗ Αποκάλυψη γίνεται ζωντανή κοινωνία.\n<page><b>Χάρη και προσευχή</b>\nΟ άνθρωπος μετέχει στις άκτιστες ενέργειες του Θεού.\n\n<b>Θεογνωσία</b>\nΠορεία φωτισμού, αγάπης και θέωσης.",
+      "frames": [
+        {
+          "id": "01-creation-history",
+          "title": "Θεοφάνεια στην κτίση και την ιστορία",
+          "image": "search-creation-history",
+          "caption": "Η κτίση και η ιστορία γίνονται τόποι φανέρωσης του Θεού.",
+          "source": "apokalypsi: Περιφέρεια · Κτίση και Ιστορία; creation-world"
+        },
+        {
+          "id": "02-scripture",
+          "title": "Η μαρτυρία της Γραφής",
+          "image": "search-scripture-witness",
+          "caption": "Η Αγία Γραφή μαρτυρεί τη φανέρωση του Θεού στην ανθρώπινη ιστορία.",
+          "source": "apokalypsi: Βάση · Αγία Γραφή"
+        },
+        {
+          "id": "03-incarnation",
+          "title": "Το κέντρο της Αποκάλυψης",
+          "image": "search-incarnation",
+          "caption": "Η Ενανθρώπηση του Χριστού είναι το κέντρο της Αποκάλυψης.",
+          "source": "apokalypsi: Κορμός · Ενανθρώπηση"
+        },
+        {
+          "id": "04-lived-witness",
+          "title": "Συμεών · Το βίωμα του φωτός",
+          "image": "search-symeon-lived-light",
+          "caption": "Στον Συμεών, η γνώση του Θεού γίνεται προσωπική εμπειρία της χάρης και του φωτός.",
+          "source": "apokalypsi: Χέρια · Άγιοι και Βίωμα; father-symeon"
+        },
+        {
+          "id": "05-uncreated-grace",
+          "title": "Παλαμάς · Άκτιστες ενέργειες",
+          "image": "search-uncreated-energies-father",
+          "caption": "Ο Θεός μένει απρόσιτος στην ουσία Του, αλλά κοινωνείται στις άκτιστες ενέργειές Του.",
+          "source": "apokalypsi: Πυρήνας · Άκτιστες Ενέργειες; father-palamas"
+        },
+        {
+          "id": "06-prayer",
+          "title": "Προσευχή και έμπρακτη αγάπη",
+          "image": "search-prayer-communion",
+          "caption": "Η προσευχή ανοίγει την καρδιά στη χάρη και στην έμπρακτη αγάπη προς τον πλησίον.",
+          "source": "father-palamas; fall-restoration-conclusion; pentecost-prayer-all-adam"
+        },
+        {
+          "id": "07-theognosia",
+          "title": "Προς τη θεογνωσία",
+          "image": "search-theognosia",
+          "caption": "Θεογνωσία: φωτισμός και προσωπική κοινωνία με τον Θεό, η θέωση.",
+          "source": "apokalypsi: Κεφαλή · Θεογνωσία"
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "contentId": "christianity_creation",
+      "title": "Δημιουργία και ανθρώπινη ελευθερία",
+      "message": "Η δημιουργία είναι δωρεά αγάπης και ο άνθρωπος καλείται ελεύθερα σε κοινωνία.",
+      "manuscript": "<b>Δημιουργία και ελευθερία</b>\n<b>Δωρεά αγάπης</b>\nΟ κόσμος δημιουργείται καλός και ελεύθερα από τον Θεό.\n\n<b>Εικόνα και ομοίωση</b>\nΕλευθερία και αξιοπρέπεια· πορεία προς την αγάπη.\n<page><b>Πτώση</b>\nΗ παρακοή διαρρηγνύει την κοινωνία με τον Θεό.\n\n<b>Επανόρθωση</b>\nΟ Χριστός ανακαινίζει ολόκληρο τον άνθρωπο και ανοίγει την πορεία προς την αφθαρσία.",
+      "frames": [
+        {
+          "id": "01-gift",
+          "title": "Δωρεά αγάπης",
+          "image": "creation-good-world",
+          "caption": "Ο κόσμος δημιουργείται ελεύθερα από την αγαθότητα και την αγάπη του Θεού.",
+          "source": "creation-world; creation-world-source:selected_text.creation"
+        },
+        {
+          "id": "02-basil-nature",
+          "title": "Σχολείο θεογνωσίας",
+          "image": "creation-basil-nature",
+          "caption": "Για τον Μέγα Βασίλειο, η κτίση γίνεται σχολείο αρετής και θεογνωσίας.",
+          "source": "creation-world; creation-world-source:selected_text.creation"
+        },
+        {
+          "id": "03-whole-person",
+          "title": "Γρηγόριος Θεολόγος · Σώμα και ψυχή",
+          "image": "creation-whole-person-father",
+          "caption": "Ο Γρηγόριος Θεολόγος βλέπει τον άνθρωπο ως σύνδεσμο υλικού και πνευματικού κόσμου.",
+          "source": "creation-world; creation-world-source:selected_text.creation"
+        },
+        {
+          "id": "04-image",
+          "title": "Γρηγόριος Νύσσης · Κατ’ εικόνα",
+          "image": "creation-human-dignity-father",
+          "caption": "Στον Γρηγόριο Νύσσης, το κατ’ εικόνα αφορά ολόκληρη την ανθρωπότητα.",
+          "source": "creation-image-likeness; creation-world-source:selected_text.creation"
+        },
+        {
+          "id": "05-likeness",
+          "title": "Μάξιμος · Καθ’ ομοίωση",
+          "image": "creation-free-cooperation",
+          "caption": "Για τον Μάξιμο, η πορεία προς την ομοίωση με τον Θεό απαιτεί ελεύθερη συνεργία.",
+          "source": "creation-image-likeness; fall-restoration-conclusion; creation-world-source:selected_text.creation:Μάξιμος"
+        },
+        {
+          "id": "06-fall",
+          "title": "Χρυσόστομος · Η ευθύνη της πτώσης",
+          "image": "creation-fall-rupture",
+          "caption": "Ο Χρυσόστομος τονίζει την άρνηση μετανοίας και τη μετάθεση της ευθύνης στην πτώση.",
+          "source": "fall-restoration-introduction; creation-restoration-christ; creation-world-source:selected_text.fall:Χρυσόστομος"
+        },
+        {
+          "id": "07-restoration",
+          "title": "Αθανάσιος · Η ανακαίνιση του ανθρώπου",
+          "image": "creation-healing-in-christ",
+          "caption": "Στον Αθανάσιο, ο Χριστός νικά τη φθορά και ανακαινίζει ολόκληρο τον άνθρωπο.",
+          "source": "creation-restoration-christ; fall-restoration-anastasis"
+        }
+      ]
+    },
+    {
+      "id": "death-resurrection",
+      "contentId": "christianity_death",
+      "title": "Θάνατος και Ανάσταση",
+      "message": "Ο Χριστός καλεί τον Αδάμ από την εξορία στη ζωή, ανακαινίζοντας ολόκληρο τον άνθρωπο.",
+      "manuscript": "<b>Από την Εδέμ στη ζωή</b>\n<b>Ξύλο και Σταυρός</b>\nΤο δέντρο της παρακοής αντιστοιχεί στον Σταυρό της ζωής.\n\n<b>Ρομφαία και λόγχη</b>\nΗ κλεισμένη οδός ανοίγει ξανά.\n<page><b>Ο Χριστός καλεί τον Αδάμ</b>\nΣυντρίβει τις πύλες του Άδη και εγείρει τον άνθρωπο.\n\n<b>Κοινή Ανάσταση</b>\nΣώμα και ψυχή· το πρόσωπο διατηρεί τη μοναδικότητά του.",
+      "frames": [
+        {
+          "id": "01-wood-cross",
+          "title": "Λόγος Μεγάλου Σαββάτου · Ξύλο και Σταυρός",
+          "image": "death-wood-cross-father",
+          "caption": "Στον Λόγο που αποδίδεται στον Επιφάνιο, το ξύλο του Σταυρού ανοίγει ξανά τη ζωή.",
+          "source": "creation-christ-adam-parallels:row1; fall-restoration-thorns; Great Saturday Homily: traditionally attributed to Epiphanius"
+        },
+        {
+          "id": "02-gardens",
+          "title": "Οι κήποι της σωτηρίας",
+          "image": "death-gardens",
+          "caption": "Εδέμ, Γεθσημανή και κήπος του τάφου συνδέουν δημιουργία, υπακοή και Ανάσταση.",
+          "source": "creation-christ-adam-parallels:row2; fall-restoration-anastasis"
+        },
+        {
+          "id": "03-sword-lance",
+          "title": "Η ρομφαία και η λόγχη",
+          "image": "death-sword-lance",
+          "caption": "Η λόγχη της πλευράς συνδέεται με την απόσυρση της φλογισμένης ρομφαίας.",
+          "source": "creation-christ-adam-parallels:row3"
+        },
+        {
+          "id": "04-breath",
+          "title": "Η πνοή της ζωής",
+          "image": "death-breath",
+          "caption": "Η πρώτη πνοή ζωής συναντά την ανακαίνιση του ανθρώπου με το Άγιο Πνεύμα.",
+          "source": "creation-christ-adam-parallels:row4"
+        },
+        {
+          "id": "05-thorns",
+          "title": "Οι άκανθες",
+          "image": "death-thorns",
+          "caption": "Ο Χριστός προσλαμβάνει τις άκανθες του πόνου και μεταμορφώνει την κατάρα σε ευλογία.",
+          "source": "creation-christ-adam-parallels:row5; fall-restoration-thorns"
+        },
+        {
+          "id": "06-garments",
+          "title": "Ένδυμα αφθαρσίας",
+          "image": "death-garments",
+          "caption": "Η γύμνωση του Νέου Αδάμ χαρίζει στον άνθρωπο ένδυμα αφθαρσίας.",
+          "source": "creation-christ-adam-parallels:row6"
+        },
+        {
+          "id": "07-anastasis",
+          "title": "Από τον θρήνο στη χαρά",
+          "image": "death-anastasis",
+          "caption": "Ο Χριστός εγείρει τον Αδάμ και την Εύα· ο θρήνος ανοίγεται στην αναστάσιμη χαρά.",
+          "source": "creation-christ-adam-parallels:row7; fall-restoration-anastasis"
+        }
+      ]
+    },
+    {
+      "id": "judgement-palamas",
+      "contentId": "christianity_human_judgement",
+      "title": "Κρίση — φως και πύρινος έλεγχος",
+      "message": "Η ερμηνεία του υπομνήματος συνδέει την κρίση με την ελεύθερη δεκτικότητα του ανθρώπου στη θεία παρουσία.",
+      "manuscript": "<b>Κρίση — Παλαμάς</b>\n<b>Άκτιστη χάρη</b>\nΗ θεία ουσία είναι απρόσιτη. Η χάρη μεταμορφώνει τον άνθρωπο.\n\n<b>Φως και έλεγχος</b>\nΤο υπόμνημα συνδέει το βίωμα με τη δεκτικότητα της ψυχής.\n<page><b>Μετάνοια</b>\nΗ καρδιά στρέφεται ελεύθερα προς την κοινωνία και την αγάπη.\n\n<b>Το μοναδικό πρόσωπο</b>\nΗ Ανάσταση αφορά ολόκληρο τον άνθρωπο.",
+      "frames": [
+        {
+          "id": "01-palamas",
+          "title": "Η διδασκαλία του Παλαμά",
+          "image": "judgement-palamas-teaching",
+          "caption": "Στον Παλαμά, η σωτηρία είναι πραγματική κοινωνία με τον Θεό.",
+          "source": "father-palamas; fall-restoration-anastasis"
+        },
+        {
+          "id": "02-energies",
+          "title": "Ουσία και ενέργειες",
+          "image": "judgement-palamas-prayer",
+          "caption": "Η θεία ουσία μένει απρόσιτη· η χάρη των άκτιστων ενεργειών μεταμορφώνει τον άνθρωπο.",
+          "source": "father-palamas; apokalypsi:Πυρήνας; fall-restoration-anastasis"
+        },
+        {
+          "id": "03-receptivity",
+          "title": "Η δεκτικότητα της ψυχής",
+          "image": "judgement-one-light",
+          "caption": "Το υπόμνημα συνδέει την κρίση με τη δεκτικότητα της ψυχής στο άκτιστο φως.",
+          "source": "creation-world-source:selected_text.eschatology:Παλαμάς"
+        },
+        {
+          "id": "04-light-fire",
+          "title": "Παλαμάς · Φωτισμός και πύρινος έλεγχος",
+          "image": "judgement-light-fiery-scrutiny",
+          "caption": "Η ίδια θεία παρουσία βιώνεται ως φωτισμός ή ως πύρινος έλεγχος.",
+          "source": "creation-world-source:selected_text.eschatology:Παλαμάς"
+        },
+        {
+          "id": "05-repentance",
+          "title": "Μάξιμος · Η ελεύθερη στροφή",
+          "image": "judgement-repentance",
+          "caption": "Η μετάνοια στρέφει ελεύθερα την καρδιά προς την κοινωνία και την αγάπη.",
+          "source": "fall-restoration-conclusion; creation-image-likeness; creation-world-source:selected_text.creation:Μάξιμος"
+        },
+        {
+          "id": "06-person",
+          "title": "Μάξιμος — Σωφρόνιος · Το πρόσωπο",
+          "image": "judgement-unique-person",
+          "caption": "Η Ανάσταση αφορά ολόκληρο τον άνθρωπο και διατηρεί τη μοναδικότητα του προσώπου.",
+          "source": "creation-world-source:selected_text.eschatology:Μάξιμος/Σωφρόνιος; creation-restoration-christ"
+        },
+        {
+          "id": "07-all-adam",
+          "title": "Σωφρόνιος · Προσευχή για όλο τον Αδάμ",
+          "image": "judgement-whole-adam",
+          "caption": "Η προσευχή υπέρ όλου του Αδάμ χωρεί κάθε άνθρωπο μέσα στην αγάπη.",
+          "source": "fall-restoration-conclusion; pentecost-prayer-all-adam"
+        }
+      ]
+    }
+  ],
+  "published_media": [
+    {
+      "topic": "divine-search",
+      "section_id": "apokalypsi",
+      "media_id": "VID-043",
+      "type": "video",
+      "asset": "assets/christianity-study/divine-search/divine-search.mp4",
+      "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/christianity-study/divine-search/divine-search.mp4",
+      "bytes": 34788990,
+      "sha256": "64a7b95e421cc644aef57531969f69a002d99307098b9216e4bdc8c1e66db568"
+    },
+    {
+      "topic": "divine-search",
+      "section_id": "apokalypsi",
+      "media_id": "SLD-030",
+      "type": "slides",
+      "asset": "assets/christianity-study/divine-search/divine-search-slides.pptx",
+      "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/christianity-study/divine-search/divine-search-slides.pptx",
+      "bytes": 22287923,
+      "sha256": "556c1d8b134a8d20f934049160dbde8962250258b7ed48b5f932a01baab9f98a"
+    },
+    {
+      "topic": "divine-search",
+      "section_id": "apokalypsi",
+      "media_id": "DOC-019",
+      "type": "document",
+      "asset": "assets/christianity-study/divine-search/divine-search-slides.pdf",
+      "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/christianity-study/divine-search/divine-search-slides.pdf",
+      "bytes": 8916691,
+      "sha256": "cca20578101d179471fc535054a346524df0bb9a28b451e5046631601b59372a"
+    },
+    {
+      "topic": "creation",
+      "section_id": "creation-world",
+      "media_id": "VID-044",
+      "type": "video",
+      "asset": "assets/christianity-study/creation/creation.mp4",
+      "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/christianity-study/creation/creation.mp4",
+      "bytes": 44905256,
+      "sha256": "c72f118149049fafd02de5208e6c48ed5b4e2452d16c1c980370c411c6e4539e"
+    },
+    {
+      "topic": "creation",
+      "section_id": "creation-world",
+      "media_id": "SLD-031",
+      "type": "slides",
+      "asset": "assets/christianity-study/creation/creation-slides.pptx",
+      "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/christianity-study/creation/creation-slides.pptx",
+      "bytes": 24628846,
+      "sha256": "b1ab60787030c7be0b68f6417165b83fdd647ded8c6463f6be87caaf9db8668d"
+    },
+    {
+      "topic": "creation",
+      "section_id": "creation-world",
+      "media_id": "DOC-020",
+      "type": "document",
+      "asset": "assets/christianity-study/creation/creation-slides.pdf",
+      "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/christianity-study/creation/creation-slides.pdf",
+      "bytes": 9964828,
+      "sha256": "09ee4ad0b8be63745e46844f74db57e16aa3584c5351dedef7631fa94ea0b7f5"
+    },
+    {
+      "topic": "death-resurrection",
+      "section_id": "fall-restoration-anastasis",
+      "media_id": "VID-045",
+      "type": "video",
+      "asset": "assets/christianity-study/death-resurrection/death-resurrection.mp4",
+      "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/christianity-study/death-resurrection/death-resurrection.mp4",
+      "bytes": 44945646,
+      "sha256": "e3dc4a1c75d267c49ca497f92969892bf3a4409f0f2236f7c20d80481fafe19b"
+    },
+    {
+      "topic": "death-resurrection",
+      "section_id": "fall-restoration-anastasis",
+      "media_id": "SLD-032",
+      "type": "slides",
+      "asset": "assets/christianity-study/death-resurrection/death-resurrection-slides.pptx",
+      "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/christianity-study/death-resurrection/death-resurrection-slides.pptx",
+      "bytes": 24332982,
+      "sha256": "8e0e1b56bcc6a842e0ebb810ee629b0bb893e515754a0eef63e04a5ae5995e46"
+    },
+    {
+      "topic": "death-resurrection",
+      "section_id": "fall-restoration-anastasis",
+      "media_id": "DOC-021",
+      "type": "document",
+      "asset": "assets/christianity-study/death-resurrection/death-resurrection-slides.pdf",
+      "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/christianity-study/death-resurrection/death-resurrection-slides.pdf",
+      "bytes": 9881746,
+      "sha256": "417f221fe827a5d2a9f6c4a2ac97cbc2acc980daae2eca2703c050248edfe7bd"
+    },
+    {
+      "topic": "judgement-palamas",
+      "section_id": "father-palamas",
+      "media_id": "VID-046",
+      "type": "video",
+      "asset": "assets/christianity-study/judgement-palamas/judgement-palamas.mp4",
+      "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/christianity-study/judgement-palamas/judgement-palamas.mp4",
+      "bytes": 35314687,
+      "sha256": "84ec459977fac6378bcb6f98736827511a3e16358fb0ea05d29c13a1fb911c8a"
+    },
+    {
+      "topic": "judgement-palamas",
+      "section_id": "father-palamas",
+      "media_id": "SLD-033",
+      "type": "slides",
+      "asset": "assets/christianity-study/judgement-palamas/judgement-palamas-slides.pptx",
+      "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/christianity-study/judgement-palamas/judgement-palamas-slides.pptx",
+      "bytes": 21998554,
+      "sha256": "ffe3c42be994d56135b8bc50d09f5dc5aa6473b90151307025564205a149a5cb"
+    },
+    {
+      "topic": "judgement-palamas",
+      "section_id": "father-palamas",
+      "media_id": "DOC-022",
+      "type": "document",
+      "asset": "assets/christianity-study/judgement-palamas/judgement-palamas-slides.pdf",
+      "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/christianity-study/judgement-palamas/judgement-palamas-slides.pdf",
+      "bytes": 8775174,
+      "sha256": "e144048c098efdc0c28cadc0b46a8d0e2f2c5723fe380bb2c0d72f3eebd075be"
+    }
+  ]
+}

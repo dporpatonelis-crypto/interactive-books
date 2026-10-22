@@ -3,8 +3,8 @@
   "book_id": "Digital_Lessons",
   "title": "Το ψηφιακό μου βιβλίο",
   "description": "Κείμενα, εικόνες και συνδέσεις για τα μαθήματά μας στα web apps και στο Unity.",
-  "revision": 25,
-  "updated_at": "2026-10-21T15:37:16Z",
+  "revision": 26,
+  "updated_at": "2026-10-22T10:29:23Z",
   "cover": {
     "asset": "assets/old-testament-objects.png",
     "caption": "Έξι ιερά αντικείμενα της Παλαιάς Διαθήκης",
@@ -1317,6 +1317,30 @@
               "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/apokalypsi/revelation-tree.jpg",
               "asset": "assets/apokalypsi/revelation-tree.jpg",
               "caption": "Δέντρο της Αποκάλυψης · οπτική αναφορά για τη θέση των έξι παπύρων."
+            },
+            {
+              "media_id": "VID-043",
+              "type": "video",
+              "title": "Αναζήτηση του Θείου · Βίντεο 45 δευτερολέπτων",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/christianity-study/divine-search/divine-search.mp4",
+              "asset": "assets/christianity-study/divine-search/divine-search.mp4",
+              "placement": "after_text"
+            },
+            {
+              "media_id": "SLD-030",
+              "type": "slides",
+              "title": "Αναζήτηση του Θείου · PowerPoint · 7 διαφάνειες",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/christianity-study/divine-search/divine-search-slides.pptx",
+              "asset": "assets/christianity-study/divine-search/divine-search-slides.pptx",
+              "placement": "after_text"
+            },
+            {
+              "media_id": "DOC-019",
+              "type": "document",
+              "title": "Αναζήτηση του Θείου · Διαφάνειες PDF",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/christianity-study/divine-search/divine-search-slides.pdf",
+              "asset": "assets/christianity-study/divine-search/divine-search-slides.pdf",
+              "placement": "after_text"
             }
           ]
         },
@@ -2136,6 +2160,30 @@
               "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/palamas/palamas-slides.pdf",
               "asset": "assets/church-fathers-journeys/palamas/palamas-slides.pdf",
               "placement": "after_text"
+            },
+            {
+              "media_id": "VID-046",
+              "type": "video",
+              "title": "Κρίση — φως και πύρινος έλεγχος · Βίντεο 45 δευτερολέπτων",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/christianity-study/judgement-palamas/judgement-palamas.mp4",
+              "asset": "assets/christianity-study/judgement-palamas/judgement-palamas.mp4",
+              "placement": "after_text"
+            },
+            {
+              "media_id": "SLD-033",
+              "type": "slides",
+              "title": "Κρίση — φως και πύρινος έλεγχος · PowerPoint · 7 διαφάνειες",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/christianity-study/judgement-palamas/judgement-palamas-slides.pptx",
+              "asset": "assets/christianity-study/judgement-palamas/judgement-palamas-slides.pptx",
+              "placement": "after_text"
+            },
+            {
+              "media_id": "DOC-022",
+              "type": "document",
+              "title": "Κρίση — φως και πύρινος έλεγχος · Διαφάνειες PDF",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/christianity-study/judgement-palamas/judgement-palamas-slides.pdf",
+              "asset": "assets/christianity-study/judgement-palamas/judgement-palamas-slides.pdf",
+              "placement": "after_text"
             }
           ]
         },
@@ -2305,7 +2353,32 @@
               "text": "Μέσα σε αυτόν τον κόσμο, ο άνθρωπος συνδέει το αισθητό με το νοητό. Ο Γρηγόριος ο Θεολόγος τον περιγράφει ως «δεύτερον κόσμον, εν μικρώ μέγαν». Σώμα και ψυχή δημιουργούνται μαζί και συγκροτούν ενιαία ύπαρξη. Η σχέση με τον Θεό αφορά ολόκληρο τον άνθρωπο και εκφράζεται στον τρόπο που ζει μέσα στην κτίση."
             }
           ],
-          "media": []
+          "media": [
+            {
+              "media_id": "VID-044",
+              "type": "video",
+              "title": "Δημιουργία και ανθρώπινη ελευθερία · Βίντεο 45 δευτερολέπτων",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/christianity-study/creation/creation.mp4",
+              "asset": "assets/christianity-study/creation/creation.mp4",
+              "placement": "after_text"
+            },
+            {
+              "media_id": "SLD-031",
+              "type": "slides",
+              "title": "Δημιουργία και ανθρώπινη ελευθερία · PowerPoint · 7 διαφάνειες",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/christianity-study/creation/creation-slides.pptx",
+              "asset": "assets/christianity-study/creation/creation-slides.pptx",
+              "placement": "after_text"
+            },
+            {
+              "media_id": "DOC-020",
+              "type": "document",
+              "title": "Δημιουργία και ανθρώπινη ελευθερία · Διαφάνειες PDF",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/christianity-study/creation/creation-slides.pdf",
+              "asset": "assets/christianity-study/creation/creation-slides.pdf",
+              "placement": "after_text"
+            }
+          ]
         },
         {
           "id": "creation-image-likeness",
@@ -2570,6 +2643,30 @@
               "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/fall-restoration/garden-miniature.png",
               "asset": "assets/fall-restoration/garden-miniature.png",
               "caption": "Εικαστική, συμβολική αναπαράσταση του Κήπου της Εδέμ."
+            },
+            {
+              "media_id": "VID-045",
+              "type": "video",
+              "title": "Θάνατος και Ανάσταση · Βίντεο 45 δευτερολέπτων",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/christianity-study/death-resurrection/death-resurrection.mp4",
+              "asset": "assets/christianity-study/death-resurrection/death-resurrection.mp4",
+              "placement": "after_text"
+            },
+            {
+              "media_id": "SLD-032",
+              "type": "slides",
+              "title": "Θάνατος και Ανάσταση · PowerPoint · 7 διαφάνειες",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/christianity-study/death-resurrection/death-resurrection-slides.pptx",
+              "asset": "assets/christianity-study/death-resurrection/death-resurrection-slides.pptx",
+              "placement": "after_text"
+            },
+            {
+              "media_id": "DOC-021",
+              "type": "document",
+              "title": "Θάνατος και Ανάσταση · Διαφάνειες PDF",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/christianity-study/death-resurrection/death-resurrection-slides.pdf",
+              "asset": "assets/christianity-study/death-resurrection/death-resurrection-slides.pdf",
+              "placement": "after_text"
             }
           ],
           "references": [

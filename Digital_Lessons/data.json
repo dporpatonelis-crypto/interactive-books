@@ -2,8 +2,8 @@
   "title": "Το ψηφιακό μου βιβλίο",
   "description": "Κείμενα, εικόνες και συνδέσεις για τα μαθήματά μας στα web apps και στο Unity.",
   "bookId": "Digital_Lessons",
-  "revision": 25,
-  "sourceDigest": "8cc9e93cf15530a94560257d320525c730e6fdabc773c1c176766bcbfb67e9d0",
+  "revision": 26,
+  "sourceDigest": "9e3c1496cd98450daf60d98518de62d3d266d4583c375ae12d8d78b33413b9d2",
   "coverImage": "assets/old-testament-objects.png",
   "coverCaption": "Έξι ιερά αντικείμενα της Παλαιάς Διαθήκης",
   "edition": "ΠΡΟΣΩΠΙΚΟ ΨΗΦΙΑΚΟ ΒΙΒΛΙΟ",
@@ -1547,12 +1547,18 @@
         }
       ],
       "mediaRefs": [
-        "IMG-110"
+        "IMG-110",
+        "VID-043",
+        "SLD-030",
+        "DOC-019"
       ],
       "images": [
         "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/apokalypsi/revelation-tree.jpg"
       ],
       "imageCaption": "Δέντρο της Αποκάλυψης · οπτική αναφορά για τη θέση των έξι παπύρων.",
+      "videoUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/christianity-study/divine-search/divine-search.mp4",
+      "slidesUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/christianity-study/divine-search/divine-search-slides.pptx",
+      "driveUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/christianity-study/divine-search/divine-search-slides.pdf",
       "localImages": [
         {
           "src": "assets/apokalypsi/revelation-tree.jpg",
@@ -2339,7 +2345,10 @@
         "IMG-108",
         "VID-040",
         "SLD-026",
-        "DOC-015"
+        "DOC-015",
+        "VID-046",
+        "SLD-033",
+        "DOC-022"
       ],
       "images": [
         "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers/father-palamas.png"
@@ -2348,6 +2357,32 @@
       "videoUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/palamas/palamas.mp4",
       "slidesUrl": "https://docs.google.com/presentation/d/17v72Sbvei8ZObDkfTC3qRDPtPHhqzPWFkpw3maiam0A",
       "driveUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/palamas/palamas-slides.pdf",
+      "extraMedia": [
+        {
+          "media_id": "VID-046",
+          "type": "video",
+          "title": "Κρίση — φως και πύρινος έλεγχος · Βίντεο 45 δευτερολέπτων",
+          "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/christianity-study/judgement-palamas/judgement-palamas.mp4",
+          "asset": "assets/christianity-study/judgement-palamas/judgement-palamas.mp4",
+          "placement": "after_text"
+        },
+        {
+          "media_id": "SLD-033",
+          "type": "slides",
+          "title": "Κρίση — φως και πύρινος έλεγχος · PowerPoint · 7 διαφάνειες",
+          "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/christianity-study/judgement-palamas/judgement-palamas-slides.pptx",
+          "asset": "assets/christianity-study/judgement-palamas/judgement-palamas-slides.pptx",
+          "placement": "after_text"
+        },
+        {
+          "media_id": "DOC-022",
+          "type": "document",
+          "title": "Κρίση — φως και πύρινος έλεγχος · Διαφάνειες PDF",
+          "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/christianity-study/judgement-palamas/judgement-palamas-slides.pdf",
+          "asset": "assets/christianity-study/judgement-palamas/judgement-palamas-slides.pdf",
+          "placement": "after_text"
+        }
+      ],
       "localImages": [
         {
           "src": "assets/church-fathers/father-palamas.png",
@@ -2506,7 +2541,14 @@
           "hotspots": []
         }
       ],
-      "mediaRefs": []
+      "mediaRefs": [
+        "VID-044",
+        "SLD-031",
+        "DOC-020"
+      ],
+      "videoUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/christianity-study/creation/creation.mp4",
+      "slidesUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/christianity-study/creation/creation-slides.pptx",
+      "driveUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/christianity-study/creation/creation-slides.pdf"
     },
     {
       "id": "creation-image-likeness",
@@ -2771,12 +2813,18 @@
         }
       ],
       "mediaRefs": [
-        "IMG-121"
+        "IMG-121",
+        "VID-045",
+        "SLD-032",
+        "DOC-021"
       ],
       "images": [
         "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/fall-restoration/garden-miniature.png"
       ],
       "imageCaption": "Εικαστική, συμβολική αναπαράσταση του Κήπου της Εδέμ.",
+      "videoUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/christianity-study/death-resurrection/death-resurrection.mp4",
+      "slidesUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/christianity-study/death-resurrection/death-resurrection-slides.pptx",
+      "driveUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/christianity-study/death-resurrection/death-resurrection-slides.pdf",
       "localImages": [
         {
           "src": "assets/fall-restoration/garden-miniature.png",
