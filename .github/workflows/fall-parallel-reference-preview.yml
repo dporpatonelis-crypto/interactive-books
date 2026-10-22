@@ -28,11 +28,16 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - name: Install retained PDF renderer
+      - name: Install lightweight renderer
+        run: npm install --prefix "$RUNNER_TEMP/book-render" playwright-core@1.62.1 --no-audit --no-fund --fetch-timeout=60000 --fetch-retries=1
+      - name: Locate the runner Chrome
         run: |
-          npm install --prefix "$RUNNER_TEMP/book-render" playwright@1.62.1 --no-audit --no-fund
-          "$RUNNER_TEMP/book-render/node_modules/.bin/playwright" install --with-deps chromium
-          python3 -m pip install --disable-pip-version-check pypdf pymupdf
+          chrome_bin="$(command -v google-chrome)"
+          test -x "$chrome_bin"
+          "$chrome_bin" --version
+          echo "CHROME_PATH=$chrome_bin" >> "$GITHUB_ENV"
+      - name: Install PDF verification tools
+        run: python3 -m pip install --disable-pip-version-check --only-binary=:all: --timeout 30 --retries 2 pypdf==6.21.2 pymupdf==1.26.7
       - name: Validate, build, render and verify
         env:
           NODE_PATH: ${{ runner.temp }}/book-render/node_modules
