@@ -37,7 +37,8 @@ jobs:
           "$chrome_bin" --version
           echo "CHROME_PATH=$chrome_bin" >> "$GITHUB_ENV"
       - name: Install PDF verification tools
-        run: python3 -m pip install --disable-pip-version-check --only-binary=:all: --timeout 30 --retries 2 pypdf==6.21.2 pymupdf==1.26.7
+        run: |
+          python3 -m pip install --disable-pip-version-check --only-binary=:all: --timeout 30 --retries 2 pypdf==6.21.2 pymupdf==1.26.7
       - name: Validate, build, render and verify
         env:
           NODE_PATH: ${{ runner.temp }}/book-render/node_modules
