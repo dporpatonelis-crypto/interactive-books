@@ -4,6 +4,8 @@ on:
     branches: [codex/fall-parallel-reference-20261022]
     paths:
       - Digital_Lessons/book.json
+      - Digital_Lessons/print.css
+      - Digital_Lessons/album.js
       - .github/workflows/fall-parallel-reference-preview.yml
       - .github/digital-book/**
 permissions:
