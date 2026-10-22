@@ -44,3 +44,8 @@
 .print-section[data-layout="portrait-narrative"] .portrait-layout img{height:auto;max-height:135mm;background:transparent}
 .print-section[data-layout="portrait-narrative"] .portrait-story p{font-size:12pt;line-height:1.6;margin-bottom:4mm}
 .print-section[data-layout="portrait-narrative"] .portrait-references{clear:both;font:8.5pt/1.4 Arial,sans-serif;margin-top:2mm}
+
+/* The paired passages retain equal columns and keep their introduction with the table. */
+#section-fall-restoration-parallel-texts .print-table{break-before:auto}
+#section-fall-restoration-parallel-texts .lesson-table thead th{width:50%;white-space:normal;overflow-wrap:anywhere}
+#section-fall-restoration-parallel-texts .lesson-table tbody th{font-weight:400}

@@ -1,0 +1,48 @@
+name: Build approved parallel reference revision 27
+on:
+  push:
+    branches: [codex/fall-parallel-reference-20261022]
+    paths:
+      - Digital_Lessons/book.json
+      - .github/workflows/fall-parallel-reference-preview.yml
+      - .github/digital-book/**
+permissions:
+  contents: write
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: codex/fall-parallel-reference-20261022
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /Digital_Lessons/
+            /.github/digital-book/
+            !/Digital_Lessons/book.pdf
+            !/Digital_Lessons/history/
+            /Digital_Lessons/history/revision-0026.json
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install retained PDF renderer
+        run: |
+          npm install --prefix "$RUNNER_TEMP/book-render" playwright@1.62.1 --no-audit --no-fund
+          "$RUNNER_TEMP/book-render/node_modules/.bin/playwright" install --with-deps chromium
+          python3 -m pip install --disable-pip-version-check pypdf pymupdf
+      - name: Validate, build, render and verify
+        env:
+          NODE_PATH: ${{ runner.temp }}/book-render/node_modules
+        run: |
+          python3 .github/digital-book/check_parallel.py --source-only
+          python3 .github/digital-book/build_book.py Digital_Lessons/book.json
+          node .github/digital-book/render_pdf.cjs Digital_Lessons
+          python3 .github/digital-book/check_parallel.py
+      - name: Save verified generated files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add --sparse Digital_Lessons/data.json Digital_Lessons/book.pdf Digital_Lessons/pdf-meta.json Digital_Lessons/qa
+          git diff --staged --quiet || git commit -m "Render and verify Digital Lessons revision 27"
+          git push origin HEAD:codex/fall-parallel-reference-20261022
