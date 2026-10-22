@@ -1,0 +1,28 @@
+{
+  "expected_cells": 20,
+  "rendered_cells_verified": 20,
+  "missing": [],
+  "reader_checks": [
+    {
+      "width": 1360,
+      "height": 950,
+      "source_cells_verified": 20,
+      "leaf_overflow": false,
+      "page_overflow": false
+    },
+    {
+      "width": 800,
+      "height": 1280,
+      "source_cells_verified": 20,
+      "leaf_overflow": false,
+      "page_overflow": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "source_cells_verified": 20,
+      "leaf_overflow": false,
+      "page_overflow": false
+    }
+  ]
+}
