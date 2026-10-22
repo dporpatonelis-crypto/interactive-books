@@ -191,7 +191,35 @@
     if(url){if(box.textContent)box.append(' ');const link=node('a','','Αρχείο πίνακα (CSV) ↗');link.href=url;link.target='_blank';link.rel='noopener noreferrer';box.append(link);}
     return box;
   }
+  function printParallelTable(table) {
+    const box=node('div','parallel-passages-print');
+    const perPage=Math.max(1,Math.floor(Number(table.rows_per_page)||5));
+    for(let offset=0;offset<table.rows.length;offset+=perPage){
+      const chunk=node('div','parallel-passages-chunk');
+      const el=node('table','lesson-table parallel-passages-table');
+      el.append(node('caption','',offset?'Παράλληλα χωρία · συνέχεια':'Παράλληλα χωρία'));
+      const head=node('thead'),headers=node('tr');
+      for(const label of table.columns){const th=node('th','',label);th.scope='col';headers.append(th);}
+      head.append(headers);el.append(head);
+      const body=node('tbody');
+      for(const row of table.rows.slice(offset,offset+perPage)){
+        const tr=node('tr');
+        row.forEach((text,index)=>{
+          const cell=node('td');
+          if(index===1&&text.includes('\n')){
+            const [label,...lines]=text.split('\n');
+            cell.append(node('strong','parallel-passage-verse',label),document.createTextNode('\n'+lines.join('\n')));
+          }else cell.textContent=text;
+          tr.append(cell);
+        });
+        body.append(tr);
+      }
+      el.append(body);chunk.append(el);box.append(chunk);
+    }
+    box.append(tableSource(table,true));return box;
+  }
   function printTable(table) {
+    if(table.layout==='parallel-passages')return printParallelTable(table);
     const box=node('div','print-table');
     const el=node('table','lesson-table');el.append(node('caption','',table.title||'Συγκριτικός πίνακας'));
     const head=node('thead'),headers=node('tr');table.columns.forEach(label=>{const th=node('th','',label);th.scope='col';headers.append(th);});head.append(headers);el.append(head);

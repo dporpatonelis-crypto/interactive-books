@@ -1,0 +1,61 @@
+{
+  "revision": 27,
+  "sourceDigest": "795f7bb591f06efcced137237f04a0d5f8787c76fbafff70e192be723478d2de",
+  "pdfSha256": "4a4953c14217daa95574559fa8d3b40e5e9ae0825a715f8154e89431b8cf0307",
+  "source_cells": 20,
+  "rendered_cells_verified": 20,
+  "pdf_cells_verified": 20,
+  "pairs": 10,
+  "pair_pdf_pages": [
+    69,
+    69,
+    69,
+    69,
+    69,
+    70,
+    70,
+    70,
+    70,
+    70
+  ],
+  "page_count": 72,
+  "new_section_pages": [
+    69,
+    70
+  ],
+  "internal_pdf_links": 46,
+  "all_previous_content_and_media_unchanged": true,
+  "reader_checks": [
+    {
+      "width": 1360,
+      "height": 950,
+      "source_cells_verified": 20,
+      "leaf_overflow": false,
+      "page_overflow": false
+    },
+    {
+      "width": 800,
+      "height": 1280,
+      "source_cells_verified": 20,
+      "leaf_overflow": false,
+      "page_overflow": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "source_cells_verified": 20,
+      "leaf_overflow": false,
+      "page_overflow": false
+    }
+  ],
+  "previews": [
+    {
+      "page": 69,
+      "image": "qa/revision-0027-page-069.png"
+    },
+    {
+      "page": 70,
+      "image": "qa/revision-0027-page-070.png"
+    }
+  ]
+}
