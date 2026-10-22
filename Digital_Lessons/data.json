@@ -2,8 +2,8 @@
   "title": "Το ψηφιακό μου βιβλίο",
   "description": "Κείμενα, εικόνες και συνδέσεις για τα μαθήματά μας στα web apps και στο Unity.",
   "bookId": "Digital_Lessons",
-  "revision": 27,
-  "sourceDigest": "795f7bb591f06efcced137237f04a0d5f8787c76fbafff70e192be723478d2de",
+  "revision": 28,
+  "sourceDigest": "8dea0c060c3547fdb78dad8fb195e66591dd7335f2eb82132d26c4f0590faf56",
   "coverImage": "assets/old-testament-objects.png",
   "coverCaption": "Έξι ιερά αντικείμενα της Παλαιάς Διαθήκης",
   "edition": "ΠΡΟΣΩΠΙΚΟ ΨΗΦΙΑΚΟ ΒΙΒΛΙΟ",
@@ -2516,13 +2516,107 @@
       ]
     },
     {
-      "id": "creation-world",
+      "id": "trinity-dogmatic-consciousness",
       "number": 39,
+      "type": "content",
+      "title": "Πίστη στον Τριαδικό Θεό και δογματική συνείδηση",
+      "displayTitle": "Πίστη στον Τριαδικό Θεό και δογματική συνείδηση",
+      "sourceBook": "Digital_Lessons",
+      "sourceTitle": "Μάθημα 8",
+      "sourcePage": 1,
+      "lessonId": "lesson-trinity-dogmatic-consciousness",
+      "lessonTitle": "Πίστη στον Τριαδικό Θεό και δογματική συνείδηση",
+      "sourceUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/sources/trinity-dogmatic-consciousness.pdf",
+      "content": [
+        {
+          "text": "Στη σύνοψη της διδασκαλίας του αγίου Σωφρονίου Σαχάρωφ, η δογματική συνείδηση είναι βιωμένη σχέση με τον Θεό. Το δόγμα φωτίζει τον τρόπο με τον οποίο προσευχόμαστε, συνυπάρχουμε και ανταποκρινόμαστε ελεύθερα στη χάρη. Οι εικόνες της παρουσίασης συνδέουν συμβολικά τη διδασκαλία με συγκεκριμένες πράξεις.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "kind": "table",
+          "table": {
+            "title": "Το δόγμα ως τρόπος ζωής",
+            "columns": [
+              "Δόγμα",
+              "Εφαρμογή στη δογματική συνείδηση",
+              "Κίνδυνος παρερμηνείας"
+            ],
+            "rows": [
+              [
+                "Τριάδα — μία ουσία, τρεις Υποστάσεις",
+                "Κοινωνία αγάπης και ενότητα της ανθρωπότητας, με σεβασμό στη μοναδικότητα και την ελευθερία κάθε προσώπου.",
+                "Μαζοποίηση και επιβολή ή ατομικισμός που αποκλείει την κοινωνία."
+              ],
+              [
+                "Χριστός — δύο φύσεις και δύο θελήσεις",
+                "Η ανθρώπινη θέληση δεν καταργείται. Η χάρη συναντά ελεύθερη ανταπόκριση, άσκηση και ταπείνωση.",
+                "Αυτοδικαίωση μέσω των έργων ή παθητικότητα και αμετανοησία στο όνομα της χάρης."
+              ],
+              [
+                "Υποστατική αρχή — ο Θεός ως Πρόσωπο",
+                "Το κατ’ εικόνα ανοίγει σε προσωπική κοινωνία με τον Θεό και σε προσευχή για ολόκληρη την ανθρωπότητα.",
+                "Εγκλωβισμός στον εαυτό ή απρόσωπη αυτοθέωση που αρνείται τη μοναδικότητα του προσώπου."
+              ],
+              [
+                "Θεία ουσία και άκτιστες ενέργειες",
+                "Η θέωση είναι μετοχή στη χάρη με μετάνοια και κάθαρση· δεν σημαίνει ταύτιση με τη θεία ουσία.",
+                "Φυσική εξίσωση με τον Θεό ή αναγωγή της χάρης σε αφηρημένη, κτιστή σκέψη."
+              ],
+              [
+                "Σωτηρία — εντολές και Μυστήρια",
+                "Ζωή μετάνοιας και Ευχαριστίας, με μνήμη θανάτου που συνοδεύεται από αναστάσιμη ελπίδα.",
+                "Τυπική γνώση ή τελετουργία χωρίς προσωπική συνάντηση και μεταμόρφωση."
+              ]
+            ],
+            "source_note": "Εκπαιδευτική παράφραση των πέντε γραμμών του πίνακα του παρεχόμενου εγγράφου, σσ. 1–2."
+          }
+        },
+        {
+          "text": "Χάρη και ελεύθερος αγώνας",
+          "kind": "heading",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "Η σωτηρία παραμένει δωρεά και δεν γίνεται συναλλαγή. Ο άνθρωπος ανταποκρίνεται με όλη του την ελευθερία, από αγάπη και ευγνωμοσύνη. Έτσι αποφεύγονται τόσο η ιδέα ότι τα έργα εξασφαλίζουν αυτομάτως δικαίωση όσο και η αδράνεια που παραμερίζει τη μετάνοια.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "source": "Πηγή: «Δογματική Συνείδηση», σύνοψη της διδασκαλίας του Σωφρονίου Σαχάρωφ, σσ. 1–2. Τα κείμενα και οι εικόνες είναι εκπαιδευτικές αποδόσεις. Η αριθμημένη βιβλιογραφία του αρχικού υπομνήματος δεν περιλαμβάνεται στο παρεχόμενο έγγραφο."
+        }
+      ],
+      "mediaRefs": [
+        "VID-047",
+        "SLD-034",
+        "SLD-035",
+        "DOC-023"
+      ],
+      "videoUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/christianity-study/trinity-dogma/trinity-dogma.mp4",
+      "slidesUrl": "https://docs.google.com/presentation/d/1z3aTR6G9M6K2DbyN9Izi6HxJewJvkt4sqIKyHXgQYvM/edit?usp=sharing",
+      "extraMedia": [
+        {
+          "media_id": "SLD-035",
+          "type": "slides",
+          "title": "Πίστη και δογματική συνείδηση · PowerPoint · 7 διαφάνειες",
+          "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/christianity-study/trinity-dogma/trinity-dogma-slides.pptx",
+          "asset": "assets/christianity-study/trinity-dogma/trinity-dogma-slides.pptx",
+          "placement": "after_text"
+        }
+      ],
+      "driveUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/christianity-study/trinity-dogma/trinity-dogma-slides.pdf"
+    },
+    {
+      "id": "creation-world",
+      "number": 40,
       "type": "content",
       "title": "Δημιουργία του Κόσμου",
       "displayTitle": "Δημιουργία του Κόσμου",
       "sourceBook": "Digital_Lessons",
-      "sourceTitle": "Μάθημα 8",
+      "sourceTitle": "Μάθημα 9",
       "sourcePage": 1,
       "lessonId": "lesson-creation-world",
       "lessonTitle": "Δημιουργία του Κόσμου",
@@ -2552,12 +2646,12 @@
     },
     {
       "id": "creation-image-likeness",
-      "number": 40,
+      "number": 41,
       "type": "content",
       "title": "Κατ’ εικόνα και καθ’ ομοίωση",
       "displayTitle": "Κατ’ εικόνα και καθ’ ομοίωση",
       "sourceBook": "Digital_Lessons",
-      "sourceTitle": "Μάθημα 8",
+      "sourceTitle": "Μάθημα 9",
       "sourcePage": 2,
       "lessonId": "lesson-creation-world",
       "lessonTitle": "Δημιουργία του Κόσμου",
@@ -2580,12 +2674,12 @@
     },
     {
       "id": "creation-restoration-christ",
-      "number": 41,
+      "number": 42,
       "type": "content",
       "title": "Επανόρθωση εν Χριστώ",
       "displayTitle": "Επανόρθωση εν Χριστώ",
       "sourceBook": "Digital_Lessons",
-      "sourceTitle": "Μάθημα 8",
+      "sourceTitle": "Μάθημα 9",
       "sourcePage": 3,
       "lessonId": "lesson-creation-world",
       "lessonTitle": "Δημιουργία του Κόσμου",
@@ -2717,12 +2811,12 @@
     },
     {
       "id": "fall-restoration-introduction",
-      "number": 42,
+      "number": 43,
       "type": "content",
       "title": "Η Εδέμ, η πτώση και η υπόσχεση",
       "displayTitle": "Η Εδέμ, η πτώση και η υπόσχεση",
       "sourceBook": "Digital_Lessons",
-      "sourceTitle": "Μάθημα 9",
+      "sourceTitle": "Μάθημα 10",
       "sourcePage": 1,
       "lessonId": "lesson-fall-restoration",
       "lessonTitle": "Πτώση και Αποκατάσταση",
@@ -2760,12 +2854,12 @@
     },
     {
       "id": "fall-restoration-thorns",
-      "number": 43,
+      "number": 44,
       "type": "content",
       "title": "Ο Σταυρός — από την εξορία στη ζωή",
       "displayTitle": "Ο Σταυρός — από την εξορία στη ζωή",
       "sourceBook": "Digital_Lessons",
-      "sourceTitle": "Μάθημα 9",
+      "sourceTitle": "Μάθημα 10",
       "sourcePage": 2,
       "lessonId": "lesson-fall-restoration",
       "lessonTitle": "Πτώση και Αποκατάσταση",
@@ -2788,12 +2882,12 @@
     },
     {
       "id": "fall-restoration-parallel-texts",
-      "number": 44,
+      "number": 45,
       "type": "content",
       "title": "Από την Εδέμ στην Ανάσταση — παράλληλα χωρία",
       "displayTitle": "Από την Εδέμ στην Ανάσταση — παράλληλα χωρία",
       "sourceBook": "Digital_Lessons",
-      "sourceTitle": "Μάθημα 9",
+      "sourceTitle": "Μάθημα 10",
       "sourcePage": 3,
       "lessonId": "lesson-fall-restoration",
       "lessonTitle": "Πτώση και Αποκατάσταση",
@@ -2875,12 +2969,12 @@
     },
     {
       "id": "fall-restoration-anastasis",
-      "number": 45,
+      "number": 46,
       "type": "content",
       "title": "Η Ανάσταση και η ανακαίνιση του ανθρώπου",
       "displayTitle": "Η Ανάσταση και η ανακαίνιση του ανθρώπου",
       "sourceBook": "Digital_Lessons",
-      "sourceTitle": "Μάθημα 9",
+      "sourceTitle": "Μάθημα 10",
       "sourcePage": 4,
       "lessonId": "lesson-fall-restoration",
       "lessonTitle": "Πτώση και Αποκατάσταση",
@@ -2924,12 +3018,12 @@
     },
     {
       "id": "fall-restoration-conclusion",
-      "number": 46,
+      "number": 47,
       "type": "content",
       "title": "Θέωση και αγάπη για όλο τον Αδάμ",
       "displayTitle": "Θέωση και αγάπη για όλο τον Αδάμ",
       "sourceBook": "Digital_Lessons",
-      "sourceTitle": "Μάθημα 9",
+      "sourceTitle": "Μάθημα 10",
       "sourcePage": 5,
       "lessonId": "lesson-fall-restoration",
       "lessonTitle": "Πτώση και Αποκατάσταση",

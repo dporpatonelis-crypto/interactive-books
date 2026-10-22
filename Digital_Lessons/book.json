@@ -3,8 +3,8 @@
   "book_id": "Digital_Lessons",
   "title": "Το ψηφιακό μου βιβλίο",
   "description": "Κείμενα, εικόνες και συνδέσεις για τα μαθήματά μας στα web apps και στο Unity.",
-  "revision": 27,
-  "updated_at": "2026-10-22T11:29:29Z",
+  "revision": 28,
+  "updated_at": "2026-10-22T17:38:07.072842Z",
   "cover": {
     "asset": "assets/old-testament-objects.png",
     "caption": "Έξι ιερά αντικείμενα της Παλαιάς Διαθήκης",
@@ -2332,6 +2332,107 @@
           ]
         }
       ]
+    },
+    {
+      "id": "lesson-trinity-dogmatic-consciousness",
+      "title": "Πίστη στον Τριαδικό Θεό και δογματική συνείδηση",
+      "short_title": "Τριάδα και δογματική συνείδηση",
+      "source_file": "sources/trinity-dogmatic-consciousness-source.json",
+      "sections": [
+        {
+          "id": "trinity-dogmatic-consciousness",
+          "title": "Πίστη στον Τριαδικό Θεό και δογματική συνείδηση",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Στη σύνοψη της διδασκαλίας του αγίου Σωφρονίου Σαχάρωφ, η δογματική συνείδηση είναι βιωμένη σχέση με τον Θεό. Το δόγμα φωτίζει τον τρόπο με τον οποίο προσευχόμαστε, συνυπάρχουμε και ανταποκρινόμαστε ελεύθερα στη χάρη. Οι εικόνες της παρουσίασης συνδέουν συμβολικά τη διδασκαλία με συγκεκριμένες πράξεις."
+            },
+            {
+              "kind": "table",
+              "title": "Το δόγμα ως τρόπος ζωής",
+              "columns": [
+                "Δόγμα",
+                "Εφαρμογή στη δογματική συνείδηση",
+                "Κίνδυνος παρερμηνείας"
+              ],
+              "rows": [
+                [
+                  "Τριάδα — μία ουσία, τρεις Υποστάσεις",
+                  "Κοινωνία αγάπης και ενότητα της ανθρωπότητας, με σεβασμό στη μοναδικότητα και την ελευθερία κάθε προσώπου.",
+                  "Μαζοποίηση και επιβολή ή ατομικισμός που αποκλείει την κοινωνία."
+                ],
+                [
+                  "Χριστός — δύο φύσεις και δύο θελήσεις",
+                  "Η ανθρώπινη θέληση δεν καταργείται. Η χάρη συναντά ελεύθερη ανταπόκριση, άσκηση και ταπείνωση.",
+                  "Αυτοδικαίωση μέσω των έργων ή παθητικότητα και αμετανοησία στο όνομα της χάρης."
+                ],
+                [
+                  "Υποστατική αρχή — ο Θεός ως Πρόσωπο",
+                  "Το κατ’ εικόνα ανοίγει σε προσωπική κοινωνία με τον Θεό και σε προσευχή για ολόκληρη την ανθρωπότητα.",
+                  "Εγκλωβισμός στον εαυτό ή απρόσωπη αυτοθέωση που αρνείται τη μοναδικότητα του προσώπου."
+                ],
+                [
+                  "Θεία ουσία και άκτιστες ενέργειες",
+                  "Η θέωση είναι μετοχή στη χάρη με μετάνοια και κάθαρση· δεν σημαίνει ταύτιση με τη θεία ουσία.",
+                  "Φυσική εξίσωση με τον Θεό ή αναγωγή της χάρης σε αφηρημένη, κτιστή σκέψη."
+                ],
+                [
+                  "Σωτηρία — εντολές και Μυστήρια",
+                  "Ζωή μετάνοιας και Ευχαριστίας, με μνήμη θανάτου που συνοδεύεται από αναστάσιμη ελπίδα.",
+                  "Τυπική γνώση ή τελετουργία χωρίς προσωπική συνάντηση και μεταμόρφωση."
+                ]
+              ],
+              "source_note": "Εκπαιδευτική παράφραση των πέντε γραμμών του πίνακα του παρεχόμενου εγγράφου, σσ. 1–2."
+            },
+            {
+              "kind": "heading",
+              "text": "Χάρη και ελεύθερος αγώνας"
+            },
+            {
+              "kind": "text",
+              "text": "Η σωτηρία παραμένει δωρεά και δεν γίνεται συναλλαγή. Ο άνθρωπος ανταποκρίνεται με όλη του την ελευθερία, από αγάπη και ευγνωμοσύνη. Έτσι αποφεύγονται τόσο η ιδέα ότι τα έργα εξασφαλίζουν αυτομάτως δικαίωση όσο και η αδράνεια που παραμερίζει τη μετάνοια."
+            },
+            {
+              "kind": "source",
+              "text": "Πηγή: «Δογματική Συνείδηση», σύνοψη της διδασκαλίας του Σωφρονίου Σαχάρωφ, σσ. 1–2. Τα κείμενα και οι εικόνες είναι εκπαιδευτικές αποδόσεις. Η αριθμημένη βιβλιογραφία του αρχικού υπομνήματος δεν περιλαμβάνεται στο παρεχόμενο έγγραφο."
+            }
+          ],
+          "media": [
+            {
+              "media_id": "VID-047",
+              "type": "video",
+              "title": "Πίστη και δογματική συνείδηση · Βίντεο 45 δευτερολέπτων",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/christianity-study/trinity-dogma/trinity-dogma.mp4",
+              "asset": "assets/christianity-study/trinity-dogma/trinity-dogma.mp4",
+              "placement": "after_text"
+            },
+            {
+              "media_id": "SLD-034",
+              "type": "slides",
+              "title": "Google Slides · 7 διαφάνειες",
+              "url": "https://docs.google.com/presentation/d/1z3aTR6G9M6K2DbyN9Izi6HxJewJvkt4sqIKyHXgQYvM/edit?usp=sharing",
+              "placement": "after_text"
+            },
+            {
+              "media_id": "SLD-035",
+              "type": "slides",
+              "title": "Πίστη και δογματική συνείδηση · PowerPoint · 7 διαφάνειες",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/christianity-study/trinity-dogma/trinity-dogma-slides.pptx",
+              "asset": "assets/christianity-study/trinity-dogma/trinity-dogma-slides.pptx",
+              "placement": "after_text"
+            },
+            {
+              "media_id": "DOC-023",
+              "type": "document",
+              "title": "Πίστη και δογματική συνείδηση · Διαφάνειες PDF",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/christianity-study/trinity-dogma/trinity-dogma-slides.pdf",
+              "asset": "assets/christianity-study/trinity-dogma/trinity-dogma-slides.pdf",
+              "placement": "after_text"
+            }
+          ]
+        }
+      ],
+      "source_url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/sources/trinity-dogmatic-consciousness.pdf"
     },
     {
       "id": "lesson-creation-world",
