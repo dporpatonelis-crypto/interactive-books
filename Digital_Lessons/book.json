@@ -2685,7 +2685,9 @@
                 ]
               ],
               "source_file": "sources/fall-genesis-epiphanius-parallel.csv",
-              "source_note": "Παράλληλα χωρία στη σειρά της Γενέσεως."
+              "source_note": "Παράλληλα χωρία στη σειρά της Γενέσεως.",
+              "layout": "parallel-passages",
+              "rows_per_page": 5
             },
             {
               "kind": "text",

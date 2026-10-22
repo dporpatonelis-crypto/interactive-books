@@ -45,7 +45,12 @@
 .print-section[data-layout="portrait-narrative"] .portrait-story p{font-size:12pt;line-height:1.6;margin-bottom:4mm}
 .print-section[data-layout="portrait-narrative"] .portrait-references{clear:both;font:8.5pt/1.4 Arial,sans-serif;margin-top:2mm}
 
-/* The paired passages retain equal columns and keep their introduction with the table. */
-#section-fall-restoration-parallel-texts .print-table{break-before:auto}
-#section-fall-restoration-parallel-texts .lesson-table thead th{width:50%;white-space:normal;overflow-wrap:anywhere}
-#section-fall-restoration-parallel-texts .lesson-table tbody th{font-weight:400}
+/* Equal columns and repeated headings for the approved paired passages. */
+.parallel-passages-print{clear:both}
+.parallel-passages-chunk+.parallel-passages-chunk{break-before:page}
+.parallel-passages-table{font-size:10pt;line-height:1.45}
+.parallel-passages-table caption{font-size:16pt;padding-bottom:4mm}
+.parallel-passages-table thead th,.parallel-passages-table td{width:50%;white-space:normal;overflow-wrap:anywhere;padding:2.5mm}
+.parallel-passages-table thead th{font-size:9.4pt}
+.parallel-passage-verse{display:block;font-weight:600;margin-bottom:1mm}
+.parallel-passages-print>.source-note{font-size:8pt!important;line-height:1.4;margin:0}
