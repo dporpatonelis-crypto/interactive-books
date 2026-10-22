@@ -39,6 +39,13 @@ jobs:
           python3 .github/digital-book/build_book.py Digital_Lessons/book.json
           node .github/digital-book/render_pdf.cjs Digital_Lessons
           python3 .github/digital-book/check_parallel.py
+      - name: Upload review images
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: digital-book-reference-review
+          path: Digital_Lessons/qa
+          retention-days: 3
       - name: Save verified generated files
         run: |
           git config user.name "github-actions[bot]"

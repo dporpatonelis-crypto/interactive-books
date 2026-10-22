@@ -77,7 +77,12 @@ for index in range(first,last+1):
 links=[link for page in doc for link in page.get_links()]
 internal=[link for link in links if link.get("page",-1)>=0]
 assert len(internal)>=len(data["pages"])
-assert any(link.get("page")==first for link in internal),"New contents destination missing"
+heading_pages=[i for i in range(max(0,first-1),first+1) if fold(section["title"]) in folded[i]]
+new_contents_links=[{"from_page":i+1,"target_page":link.get("page",-1)+1,"text":doc[i].get_textbox(link["from"])} for i,page in enumerate(doc) for link in page.get_links() if fold(section["title"]) in fold(doc[i].get_textbox(link["from"]))]
+debug={"intro_page":first+1,"heading_pages":[i+1 for i in heading_pages],"new_contents_links":new_contents_links,"nearby_pages":[{"page":i+1,"text":text[i][:1200]} for i in range(max(0,first-2),min(len(doc),first+2))]}
+(qa/"revision-0027-destinations.json").write_text(json.dumps(debug,ensure_ascii=False,indent=2)+"\n")
+print(json.dumps(debug,ensure_ascii=False))
+assert new_contents_links and any(link["target_page"]-1 in heading_pages for link in new_contents_links),"New contents link does not reach its section heading"
 external={link.get("uri") for link in links}
 assert all(source["url"] in external for source in section["references"]),"Source PDF links missing"
 report={"revision":27,"sourceDigest":digest,"pdfSha256":meta["pdfSha256"],"source_cells":20,"rendered_cells_verified":20,"pdf_cells_verified":20,"pairs":10,"pair_pdf_pages":pair_pages,"page_count":len(doc),"new_section_pages":[first+1,last+1],"internal_pdf_links":len(internal),"all_previous_content_and_media_unchanged":True,"reader_checks":dom["reader_checks"],"previews":previews}
