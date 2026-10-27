@@ -1,0 +1,2477 @@
+{
+  "prepared_at": "2026-10-27T05:33:46.565299Z",
+  "description": "Επιλεγμένα, ήδη υλοποιημένα αναλόγια για το βιβλίο και το εκπαιδευτικό Πιλοτήριο.",
+  "entries": [
+    {
+      "id": "trinity-basics",
+      "file": "index.html",
+      "fragment": "unit=basics",
+      "catalog_id": "trinity-basics",
+      "script_id": "builtin-options",
+      "catalog_key": "embedded:basics",
+      "book_lesson_id": "lesson-trinity-dogmatic-consciousness",
+      "section_id": "trinity-basic-concept-canvas",
+      "media_id": "WEB-005",
+      "label": "Αγία Τριάδα · Αναλόγιο για μικρότερες ηλικίες",
+      "note": "Έξι μικρά παζλ με απλές κάρτες και συγκεκριμένα ευρήματα που φωτίζονται στην εικόνα.",
+      "level": "basic",
+      "activity_ids": [
+        "basics-three-persons",
+        "basics-incarnation",
+        "basics-jesus-christ",
+        "basics-revelation",
+        "basics-pentecost",
+        "basics-sacraments"
+      ],
+      "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/apps/animated-concept-canvas/index.html#unit=basics"
+    },
+    {
+      "id": "trinity-advanced",
+      "file": "index.html",
+      "fragment": "unit=advanced",
+      "script_id": "embedded-catalog",
+      "book_lesson_id": "lesson-trinity-dogmatic-consciousness",
+      "section_id": "trinity-advanced-concept-canvas",
+      "media_id": "WEB-006",
+      "label": "Αγία Τριάδα · Αναλόγιο εμβάθυνσης",
+      "note": "Πέντε παζλ σύνδεσης, ακολουθίας και τεκμηρίωσης για τη δογματική συνείδηση.",
+      "level": "advanced",
+      "catalog_id": "trinity-concepts",
+      "activity_ids": [
+        "one-essence-three-persons",
+        "dogma-as-lived-experience",
+        "unity-and-personal-freedom",
+        "image-and-communion",
+        "mutual-indwelling"
+      ],
+      "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/apps/animated-concept-canvas/index.html#unit=advanced"
+    },
+    {
+      "id": "creation-concepts",
+      "file": "creation-concepts.html",
+      "fragment": "",
+      "script_id": "embedded-catalog",
+      "book_lesson_id": "lesson-creation-world",
+      "section_id": "creation-concept-canvas",
+      "media_id": "WEB-007",
+      "label": "Δημιουργία · Αναλόγιο εννοιών",
+      "note": "Πέντε εικαστικά παζλ για τη δημιουργία, το κατ’ εικόνα και την προοπτική ζωής μετά την πτώση.",
+      "level": "standard",
+      "catalog_id": "creation-image-and-life",
+      "activity_ids": [
+        "creation-human-boundary",
+        "creation-image-for-everyone",
+        "creation-image-to-likeness",
+        "creation-garments-and-life",
+        "creation-fruit-and-eucharist"
+      ],
+      "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/apps/animated-concept-canvas/creation-concepts.html"
+    }
+  ],
+  "catalogs": {
+    "trinity-basics": {
+      "schemaVersion": 1,
+      "id": "trinity-basics",
+      "title": "Αγία Τριάδα · Τα βασικά",
+      "activities": [
+        {
+          "id": "basics-three-persons",
+          "mode": "connection",
+          "title": "Ποια είναι τα τρία Πρόσωπα;",
+          "prompt": "Στη Βάπτιση του Ιησού φανερώνεται η Αγία Τριάδα. Ποιος μιλά από τον ουρανό, ποιος βαπτίζεται και ποιος φανερώνεται σαν περιστέρι;",
+          "manuscripts": [
+            {
+              "id": "son",
+              "text": "Ο Υιός"
+            },
+            {
+              "id": "john",
+              "text": "Ο Ιωάννης ο Βαπτιστής"
+            },
+            {
+              "id": "spirit",
+              "text": "Το Άγιο Πνεύμα"
+            },
+            {
+              "id": "father",
+              "text": "Ο Πατέρας"
+            },
+            {
+              "id": "angel",
+              "text": "Ένας άγγελος"
+            }
+          ],
+          "slots": [
+            {
+              "id": "voice",
+              "label": "Η φωνή από τον ουρανό",
+              "role": "element",
+              "position": {
+                "x": 0.22,
+                "y": 0.39
+              }
+            },
+            {
+              "id": "baptized",
+              "label": "Ο Ιησούς στον Ιορδάνη",
+              "role": "element",
+              "position": {
+                "x": 0.5,
+                "y": 0.18
+              }
+            },
+            {
+              "id": "dove",
+              "label": "Η φανέρωση σαν περιστέρι",
+              "role": "element",
+              "position": {
+                "x": 0.78,
+                "y": 0.39
+              }
+            }
+          ],
+          "correctRelations": [
+            {
+              "manuscriptId": "father",
+              "slotId": "voice"
+            },
+            {
+              "manuscriptId": "son",
+              "slotId": "baptized"
+            },
+            {
+              "manuscriptId": "spirit",
+              "slotId": "dove"
+            }
+          ],
+          "hints": [
+            "Άκουσε τη φωνή που ονομάζει τον Ιησού «αγαπημένο μου Υιό». Ποιος μιλά;",
+            "Ο Ιησούς είναι ο Υιός. Το Ευαγγέλιο περιγράφει το Άγιο Πνεύμα να κατεβαίνει σαν περιστέρι."
+          ],
+          "referenceText": [
+            {
+              "label": "Ματθαίος 3:13–17 · με απλά λόγια",
+              "text": "Ο Ιησούς βαπτίζεται από τον Ιωάννη στον Ιορδάνη. Ακούγεται η φωνή του Πατέρα και το Άγιο Πνεύμα κατεβαίνει σαν περιστέρι."
+            },
+            {
+              "label": "Τρία Πρόσωπα, ένας Θεός",
+              "text": "Πατέρας, Υιός και Άγιο Πνεύμα είναι τα τρία Πρόσωπα της Αγίας Τριάδας. Πιστεύουμε σε έναν Θεό. Το φως στην εικόνα θυμίζει τη φωνή του Πατέρα· δεν ζωγραφίζει το σώμα Του. Το περιστέρι θυμίζει τη συγκεκριμένη φανέρωση στη Βάπτιση."
+            }
+          ],
+          "art": {
+            "preset": "unity",
+            "alt": "Η Βάπτιση του Ιησού στον Ιορδάνη. Φωτεινό άνοιγμα στον ουρανό αριστερά θυμίζει τη φωνή του Πατέρα, ο Ιησούς βρίσκεται στο κέντρο και περιστέρι επάνω δεξιά θυμίζει τη φανέρωση του Αγίου Πνεύματος."
+          },
+          "revealLayers": [
+            {
+              "id": "heavenly-voice",
+              "slotId": "voice",
+              "manuscriptId": "father",
+              "regionIndex": 0,
+              "finding": "Το φωτεινό άνοιγμα στον ουρανό θυμίζει τη φωνή του Πατέρα. Δεν είναι εικόνα της μορφής Του.",
+              "regions": [
+                {
+                  "shape": "ellipse",
+                  "x": 0.035,
+                  "y": 0.76,
+                  "width": 0.44,
+                  "height": 0.23
+                }
+              ]
+            },
+            {
+              "id": "jesus-in-jordan",
+              "slotId": "baptized",
+              "manuscriptId": "son",
+              "regionIndex": 1,
+              "finding": "Ο Ιησούς βαπτίζεται στον Ιορδάνη: είναι ο Υιός του Θεού.",
+              "regions": [
+                {
+                  "shape": "ellipse",
+                  "x": 0.411,
+                  "y": 0.2,
+                  "width": 0.164,
+                  "height": 0.53
+                }
+              ]
+            },
+            {
+              "id": "dove-at-baptism",
+              "slotId": "dove",
+              "manuscriptId": "spirit",
+              "regionIndex": 2,
+              "finding": "Το περιστέρι θυμίζει πώς φανερώθηκε το Άγιο Πνεύμα στη Βάπτιση.",
+              "regions": [
+                {
+                  "shape": "ellipse",
+                  "x": 0.682,
+                  "y": 0.77,
+                  "width": 0.155,
+                  "height": 0.19
+                }
+              ]
+            }
+          ],
+          "finalInterpretation": "Τα Πρόσωπα της Αγίας Τριάδας είναι ο Πατέρας, ο Υιός και το Άγιο Πνεύμα. Είναι ένας Θεός. Στη Βάπτιση του Ιησού φανερώνονται μαζί.",
+          "reflection": "Δείξε στην εικόνα τι μας θυμίζει τον Πατέρα, τον Υιό και το Άγιο Πνεύμα.",
+          "source": {
+            "document": "Ματθαίος 3:13–17 · Ματθαίος 28:19 · διδακτική σύνθεση",
+            "questionNumber": 1
+          }
+        },
+        {
+          "id": "basics-incarnation",
+          "mode": "connection",
+          "title": "Ο Υιός του Θεού γίνεται άνθρωπος",
+          "prompt": "Στη Γέννηση του Χριστού ανακαλύπτουμε ποιος έρχεται κοντά μας, από ποια γεννιέται και για ποιον σκοπό.",
+          "manuscripts": [
+            {
+              "id": "mary",
+              "text": "Από την Παναγία"
+            },
+            {
+              "id": "father-incarnate",
+              "text": "Ο Πατέρας"
+            },
+            {
+              "id": "salvation",
+              "text": "Για τη σωτηρία μας"
+            },
+            {
+              "id": "son-incarnate",
+              "text": "Ο Υιός του Θεού"
+            },
+            {
+              "id": "power-only",
+              "text": "Για να αποκτήσει εξουσία"
+            }
+          ],
+          "slots": [
+            {
+              "id": "who",
+              "label": "Ποιος γίνεται άνθρωπος;",
+              "role": "element",
+              "position": {
+                "x": 0.5,
+                "y": 0.84
+              }
+            },
+            {
+              "id": "mother",
+              "label": "Από ποια γεννιέται;",
+              "role": "element",
+              "position": {
+                "x": 0.22,
+                "y": 0.2
+              }
+            },
+            {
+              "id": "why",
+              "label": "Για ποιον σκοπό έρχεται;",
+              "role": "element",
+              "position": {
+                "x": 0.78,
+                "y": 0.2
+              }
+            }
+          ],
+          "correctRelations": [
+            {
+              "manuscriptId": "son-incarnate",
+              "slotId": "who"
+            },
+            {
+              "manuscriptId": "mary",
+              "slotId": "mother"
+            },
+            {
+              "manuscriptId": "salvation",
+              "slotId": "why"
+            }
+          ],
+          "hints": [
+            "Στη φάτνη βρίσκεται ο ίδιος ο Υιός του Θεού ως μικρό παιδί.",
+            "Η μητέρα του Ιησού είναι η Παναγία. Ο Χριστός έρχεται από αγάπη για να μας σώσει."
+          ],
+          "referenceText": [
+            {
+              "label": "Λουκάς 2:1–20 · με απλά λόγια",
+              "text": "Η Μαρία γεννά τον Ιησού στη Βηθλεέμ και τον βάζει στη φάτνη. Οι βοσκοί ακούνε τη χαρμόσυνη είδηση ότι γεννήθηκε ο Σωτήρας και πηγαίνουν να τον συναντήσουν."
+            },
+            {
+              "label": "Τι λέμε «ενανθρώπιση»;",
+              "text": "Ο Υιός του Θεού γίνεται αληθινός άνθρωπος από την Παναγία, με την ενέργεια του Αγίου Πνεύματος. Παραμένει αληθινός Θεός. Στο Σύμβολο της Πίστεως λέμε ότι αυτό έγινε για εμάς και για τη σωτηρία μας."
+            }
+          ],
+          "art": {
+            "preset": "communion",
+            "alt": "Ζεστή εικονογράφηση της Γέννησης: το βρέφος Ιησούς με φωτοστέφανο στη φάτνη στο κέντρο, η Παναγία αριστερά και βοσκοί που πλησιάζουν δεξιά."
+          },
+          "revealLayers": [
+            {
+              "id": "child-in-manger",
+              "slotId": "who",
+              "manuscriptId": "son-incarnate",
+              "regionIndex": 0,
+              "finding": "Το βρέφος στη φάτνη είναι ο Υιός του Θεού που έγινε άνθρωπος.",
+              "regions": [
+                {
+                  "shape": "ellipse",
+                  "x": 0.365,
+                  "y": 0.375,
+                  "width": 0.21,
+                  "height": 0.18
+                }
+              ]
+            },
+            {
+              "id": "mary-at-nativity",
+              "slotId": "mother",
+              "manuscriptId": "mary",
+              "regionIndex": 1,
+              "finding": "Η Παναγία δίπλα στη φάτνη: από αυτή γεννήθηκε ως άνθρωπος ο Ιησούς.",
+              "regions": [
+                {
+                  "shape": "ellipse",
+                  "x": 0.075,
+                  "y": 0.215,
+                  "width": 0.28,
+                  "height": 0.62
+                }
+              ]
+            },
+            {
+              "id": "shepherds-welcomed",
+              "slotId": "why",
+              "manuscriptId": "salvation",
+              "regionIndex": 2,
+              "finding": "Οι βοσκοί πλησιάζουν τον Σωτήρα. Η σκηνή θυμίζει ότι ο Χριστός έρχεται για όλους.",
+              "regions": [
+                {
+                  "shape": "ellipse",
+                  "x": 0.7,
+                  "y": 0.25,
+                  "width": 0.29,
+                  "height": 0.65
+                }
+              ]
+            }
+          ],
+          "finalInterpretation": "Ενανθρώπιση σημαίνει ότι ο Υιός του Θεού έγινε αληθινός άνθρωπος από την Παναγία, χωρίς να πάψει να είναι αληθινός Θεός. Ήρθε κοντά μας από αγάπη, για τη σωτηρία μας.",
+          "reflection": "Πώς θα εξηγούσες τη λέξη «ενανθρώπιση» σε έναν φίλο σου με μία μικρή πρόταση;",
+          "source": {
+            "document": "Λουκάς 2:1–20 · Ιωάννης 1:14 · Σύμβολο της Πίστεως",
+            "questionNumber": 2
+          }
+        },
+        {
+          "id": "basics-jesus-christ",
+          "mode": "connection",
+          "title": "Γιατί τον λέμε Ιησού Χριστό;",
+          "prompt": "Σύνδεσε το όνομα, τον τίτλο και το Πρόσωπο. Κάθε σωστή κάρτα φωτίζει ένα στοιχείο της εικόνας.",
+          "manuscripts": [
+            {
+              "id": "anointed",
+              "text": "Ο Χρισμένος, ο Μεσσίας"
+            },
+            {
+              "id": "surname",
+              "text": "Ένα οικογενειακό επώνυμο"
+            },
+            {
+              "id": "incarnate-son",
+              "text": "Ο Υιός του Θεού που έγινε άνθρωπος"
+            },
+            {
+              "id": "god-saves",
+              "text": "Ο Θεός σώζει"
+            },
+            {
+              "id": "two-people",
+              "text": "Δύο διαφορετικά πρόσωπα"
+            }
+          ],
+          "slots": [
+            {
+              "id": "jesus-name",
+              "label": "Το όνομα «Ιησούς» σημαίνει…",
+              "role": "element",
+              "position": {
+                "x": 0.22,
+                "y": 0.22
+              }
+            },
+            {
+              "id": "christ-title",
+              "label": "Ο τίτλος «Χριστός» σημαίνει…",
+              "role": "element",
+              "position": {
+                "x": 0.78,
+                "y": 0.22
+              }
+            },
+            {
+              "id": "same-person",
+              "label": "Ποιον λέμε Ιησού Χριστό;",
+              "role": "element",
+              "position": {
+                "x": 0.5,
+                "y": 0.83
+              }
+            }
+          ],
+          "correctRelations": [
+            {
+              "manuscriptId": "god-saves",
+              "slotId": "jesus-name"
+            },
+            {
+              "manuscriptId": "anointed",
+              "slotId": "christ-title"
+            },
+            {
+              "manuscriptId": "incarnate-son",
+              "slotId": "same-person"
+            }
+          ],
+          "hints": [
+            "Το όνομα «Ιησούς» συνδέεται με το ότι ο Θεός μας σώζει.",
+            "«Χριστός» σημαίνει «Χρισμένος», δηλαδή ο Μεσσίας που περίμεναν. Το όνομα και ο τίτλος μιλούν για το ίδιο Πρόσωπο."
+          ],
+          "referenceText": [
+            {
+              "label": "Ματθαίος 1:21 · με απλά λόγια",
+              "text": "Ο άγγελος λέει να ονομάσουν το παιδί Ιησού, γιατί θα σώσει τον λαό του από τις αμαρτίες του. Το όνομα δηλώνει: «Ο Θεός σώζει»."
+            },
+            {
+              "label": "Ιωάννης 1:41 · όνομα και τίτλος",
+              "text": "«Χριστός» είναι η ελληνική απόδοση του «Μεσσίας» και σημαίνει «Χρισμένος». Στην παλιά εποχή η χρίση με λάδι συνδεόταν με μια ξεχωριστή αποστολή. Ο Ιησούς είναι ο αναμενόμενος Μεσσίας. Το «Χριστός» είναι τίτλος, όχι οικογενειακό επώνυμο."
+            }
+          ],
+          "art": {
+            "preset": "practice",
+            "alt": "Ο Ιησούς στέκεται στο κέντρο και ευλογεί. Αριστερά μικρή σκηνή με βοσκό που σηκώνει αρνί συμβολίζει τη σωτηρία. Δεξιά αγγείο λαδιού, κλαδί ελιάς και ειλητάριο θυμίζουν τη χρίση και την προσδοκία του Μεσσία."
+          },
+          "revealLayers": [
+            {
+              "id": "rescued-lamb",
+              "slotId": "jesus-name",
+              "manuscriptId": "god-saves",
+              "regionIndex": 0,
+              "finding": "Ο βοσκός που σηκώνει το αρνί είναι σύμβολο φροντίδας και σωτηρίας.",
+              "regions": [
+                {
+                  "shape": "ellipse",
+                  "x": 0.065,
+                  "y": 0.25,
+                  "width": 0.21,
+                  "height": 0.405
+                }
+              ]
+            },
+            {
+              "id": "oil-and-promise",
+              "slotId": "christ-title",
+              "manuscriptId": "anointed",
+              "regionIndex": 1,
+              "finding": "Το λάδι και το ειλητάριο θυμίζουν τη χρίση και την προσδοκία του Μεσσία.",
+              "regions": [
+                {
+                  "shape": "ellipse",
+                  "x": 0.727,
+                  "y": 0.315,
+                  "width": 0.27,
+                  "height": 0.3
+                }
+              ]
+            },
+            {
+              "id": "one-jesus-christ",
+              "slotId": "same-person",
+              "manuscriptId": "incarnate-son",
+              "regionIndex": 2,
+              "finding": "Ο Ιησούς Χριστός στο κέντρο: το όνομα και ο τίτλος μιλούν για το ίδιο Πρόσωπο.",
+              "regions": [
+                {
+                  "shape": "ellipse",
+                  "x": 0.393,
+                  "y": 0.14,
+                  "width": 0.22,
+                  "height": 0.8
+                }
+              ]
+            }
+          ],
+          "finalInterpretation": "«Ιησούς» σημαίνει «Ο Θεός σώζει». «Χριστός» σημαίνει «Χρισμένος», ο Μεσσίας. Ιησούς Χριστός είναι ο ίδιος ο Υιός του Θεού που έγινε άνθρωπος για εμάς.",
+          "reflection": "Ποιο είναι το όνομα και ποιος ο τίτλος στο «Ιησούς Χριστός»;",
+          "source": {
+            "document": "Ματθαίος 1:21 · Ιωάννης 1:41 · διδακτική σύνθεση",
+            "questionNumber": 3
+          }
+        },
+        {
+          "id": "basics-revelation",
+          "mode": "sequence",
+          "title": "Γνωρίζουμε τον Θεό όλο και πιο καθαρά",
+          "prompt": "Βάλε τις τρεις κάρτες στην πορεία Παλαιά Διαθήκη → Καινή Διαθήκη → ζωή της Εκκλησίας. Η πορεία δείχνει πώς οι άνθρωποι γνωρίζουν όλο και πιο καθαρά τον Τριαδικό Θεό.",
+          "manuscripts": [
+            {
+              "id": "spirit-in-church",
+              "text": "Το Άγιο Πνεύμα ζει και ενεργεί στην Εκκλησία"
+            },
+            {
+              "id": "father-known",
+              "text": "Ο Πατέρας γίνεται πιο καθαρά γνωστός"
+            },
+            {
+              "id": "replaced",
+              "text": "Ένας νέος Θεός παίρνει τη θέση του προηγούμενου"
+            },
+            {
+              "id": "son-revealed",
+              "text": "Ο Υιός γίνεται άνθρωπος και μας φανερώνει τον Πατέρα"
+            },
+            {
+              "id": "begins",
+              "text": "Το Άγιο Πνεύμα αρχίζει τότε να υπάρχει"
+            }
+          ],
+          "slots": [
+            {
+              "id": "old-testament",
+              "label": "1 · Παλαιά Διαθήκη",
+              "role": "step",
+              "position": {
+                "x": 0.2,
+                "y": 0.18
+              }
+            },
+            {
+              "id": "new-testament",
+              "label": "2 · Καινή Διαθήκη",
+              "role": "step",
+              "position": {
+                "x": 0.5,
+                "y": 0.82
+              }
+            },
+            {
+              "id": "church-life",
+              "label": "3 · Ζωή της Εκκλησίας",
+              "role": "step",
+              "position": {
+                "x": 0.8,
+                "y": 0.18
+              }
+            }
+          ],
+          "correctRelations": [
+            {
+              "manuscriptId": "father-known",
+              "slotId": "old-testament"
+            },
+            {
+              "manuscriptId": "son-revealed",
+              "slotId": "new-testament"
+            },
+            {
+              "manuscriptId": "spirit-in-church",
+              "slotId": "church-life"
+            }
+          ],
+          "hints": [
+            "Ξεκίνα από την Παλαιά Διαθήκη: εκεί προετοιμάζεται ο λαός και γίνεται πιο καθαρά γνωστός ο Πατέρας.",
+            "Στην Καινή Διαθήκη ο Υιός γίνεται άνθρωπος. Με την Πεντηκοστή γνωρίζουμε πιο καθαρά την παρουσία του Αγίου Πνεύματος στην Εκκλησία."
+          ],
+          "referenceText": [
+            {
+              "label": "Γρηγόριος ο Θεολόγος, Λόγος 31, §26 · απλή απόδοση",
+              "text": "Η Παλαιά Διαθήκη φανερώνει πιο καθαρά τον Πατέρα και προετοιμάζει για τον Υιό. Η Καινή φανερώνει τον Υιό και μας μιλά για το Άγιο Πνεύμα. Στη ζωή της Εκκλησίας γνωρίζουμε πιο καθαρά το Άγιο Πνεύμα."
+            },
+            {
+              "label": "Ο ίδιος Θεός σε όλη την πορεία",
+              "text": "Ο Πατέρας, ο Υιός και το Άγιο Πνεύμα υπάρχουν πάντοτε και ενεργούν μαζί. Η πορεία αλλάζει τη δική μας γνώση, όχι τον Θεό. Η Πεντηκοστή περιγράφεται και η ίδια στην Καινή Διαθήκη· εδώ αρχίζει η τρίτη εικόνα της πορείας."
+            }
+          ],
+          "art": {
+            "preset": "journey",
+            "alt": "Τρεις συνδεδεμένες διδακτικές σκηνές: προφήτης με ειλητάριο κάτω από φως αριστερά, ο Ιησούς που διδάσκει στο κέντρο και κοινότητα της Εκκλησίας δεξιά. Το φως θυμίζει αποκάλυψη χωρίς ανθρώπινη απεικόνιση του Πατέρα."
+          },
+          "revealLayers": [
+            {
+              "id": "prophet-and-scroll",
+              "slotId": "old-testament",
+              "manuscriptId": "father-known",
+              "regionIndex": 0,
+              "finding": "Ο προφήτης και το ειλητάριο θυμίζουν την προετοιμασία της Παλαιάς Διαθήκης.",
+              "regions": [
+                {
+                  "shape": "ellipse",
+                  "x": 0.035,
+                  "y": 0.225,
+                  "width": 0.215,
+                  "height": 0.64
+                }
+              ]
+            },
+            {
+              "id": "jesus-teaching",
+              "slotId": "new-testament",
+              "manuscriptId": "son-revealed",
+              "regionIndex": 1,
+              "finding": "Ο Ιησούς διδάσκει: ο Υιός γίνεται άνθρωπος και μας γνωρίζει τον Πατέρα.",
+              "regions": [
+                {
+                  "shape": "ellipse",
+                  "x": 0.28,
+                  "y": 0.13,
+                  "width": 0.445,
+                  "height": 0.55
+                }
+              ]
+            },
+            {
+              "id": "church-gathering",
+              "slotId": "church-life",
+              "manuscriptId": "spirit-in-church",
+              "regionIndex": 2,
+              "finding": "Η σύναξη της Εκκλησίας θυμίζει την παρουσία και τη δράση του Αγίου Πνεύματος.",
+              "regions": [
+                {
+                  "shape": "ellipse",
+                  "x": 0.775,
+                  "y": 0.28,
+                  "width": 0.22,
+                  "height": 0.43
+                }
+              ]
+            }
+          ],
+          "finalInterpretation": "Στην Παλαιά Διαθήκη γνωρίζουμε πιο καθαρά τον Πατέρα· στην Καινή ο Υιός γίνεται άνθρωπος· στην Εκκλησία, από την Πεντηκοστή, γνωρίζουμε πιο καθαρά το Άγιο Πνεύμα. Ο ίδιος Τριαδικός Θεός υπάρχει πάντοτε. Εμείς Τον γνωρίζουμε σταδιακά.",
+          "reflection": "Τι αλλάζει σε αυτή την πορεία: ο Θεός ή το πόσο καθαρά Τον γνωρίζουν οι άνθρωποι;",
+          "source": {
+            "document": "Γρηγόριος ο Θεολόγος, Λόγος 31, §26 · Ιωάννης 14:9, 14:26 · Πράξεις 2",
+            "questionNumber": 4
+          }
+        },
+        {
+          "id": "basics-pentecost",
+          "mode": "evidence",
+          "title": "Τι έγινε την Πεντηκοστή;",
+          "prompt": "Διάλεξε τι συνέβη και δύο στοιχεία από τη διήγηση που το φανερώνουν. Τα δύο στοιχεία χωρούν σε οποιαδήποτε από τις δύο θέσεις τους.",
+          "manuscripts": [
+            {
+              "id": "own-languages",
+              "text": "Οι άνθρωποι άκουγαν στη γλώσσα τους"
+            },
+            {
+              "id": "only-one",
+              "text": "Οι Απόστολοι μίλησαν μόνο σε έναν λαό"
+            },
+            {
+              "id": "spirit-comes",
+              "text": "Το Άγιο Πνεύμα έρχεται στους μαθητές"
+            },
+            {
+              "id": "fire-tongues",
+              "text": "Φάνηκαν γλώσσες σαν φωτιά"
+            },
+            {
+              "id": "disciples-alone",
+              "text": "Οι μαθητές κράτησαν το μήνυμα μόνο για τον εαυτό τους"
+            }
+          ],
+          "slots": [
+            {
+              "id": "claim",
+              "label": "Τι συμβαίνει;",
+              "role": "claim",
+              "position": {
+                "x": 0.5,
+                "y": 0.18
+              }
+            },
+            {
+              "id": "evidence-a",
+              "label": "Ένα στοιχείο της διήγησης",
+              "role": "evidence",
+              "position": {
+                "x": 0.22,
+                "y": 0.82
+              }
+            },
+            {
+              "id": "evidence-b",
+              "label": "Ένα ακόμη στοιχείο",
+              "role": "evidence",
+              "position": {
+                "x": 0.78,
+                "y": 0.82
+              }
+            }
+          ],
+          "correctRelations": [
+            {
+              "manuscriptId": "spirit-comes",
+              "slotId": "claim"
+            },
+            {
+              "manuscriptId": "fire-tongues",
+              "slotId": "evidence-a"
+            },
+            {
+              "manuscriptId": "fire-tongues",
+              "slotId": "evidence-b"
+            },
+            {
+              "manuscriptId": "own-languages",
+              "slotId": "evidence-a"
+            },
+            {
+              "manuscriptId": "own-languages",
+              "slotId": "evidence-b"
+            }
+          ],
+          "hints": [
+            "Οι μαθητές είναι μαζί. Το Άγιο Πνεύμα τους γεμίζει δύναμη και θάρρος.",
+            "Η διήγηση μιλά για γλώσσες σαν φωτιά και για ανθρώπους που ακούν το μήνυμα στη δική τους γλώσσα."
+          ],
+          "referenceText": [
+            {
+              "label": "Πράξεις 2:1–11 · με απλά λόγια",
+              "text": "Την Πεντηκοστή οι μαθητές είναι συγκεντρωμένοι. Ακούγεται ήχος σαν δυνατό φύσημα και εμφανίζονται γλώσσες σαν φωτιά. Γεμίζουν με το Άγιο Πνεύμα. Άνθρωποι από πολλούς τόπους ακούν τα μεγαλεία του Θεού στη γλώσσα τους."
+            },
+            {
+              "label": "Μήνυμα για όλους",
+              "text": "Το Άγιο Πνεύμα δίνει στους μαθητές θάρρος να μιλήσουν για τον Χριστό. Η χαρμόσυνη είδηση απευθύνεται σε όλους τους λαούς. Οι φωτεινές φλόγες στην εικόνα θυμίζουν το σημείο της διήγησης."
+            }
+          ],
+          "art": {
+            "preset": "communion",
+            "alt": "Οι Απόστολοι συγκεντρωμένοι στο κέντρο ενός φωτεινού υπερώου. Πάνω τους μικρές φλόγες. Δεξιά και αριστερά στην ανοιχτή αυλή άνθρωποι από διαφορετικούς τόπους ακούν με χαρά."
+          },
+          "revealLayers": [
+            {
+              "id": "gathered-disciples",
+              "slotId": "claim",
+              "manuscriptId": "spirit-comes",
+              "regionIndex": 0,
+              "finding": "Οι συγκεντρωμένοι μαθητές δέχονται το Άγιο Πνεύμα και παίρνουν θάρρος.",
+              "regions": [
+                {
+                  "shape": "ellipse",
+                  "x": 0.005,
+                  "y": 0.25,
+                  "width": 0.68,
+                  "height": 0.485
+                }
+              ]
+            },
+            {
+              "id": "pentecost-flames",
+              "slotId": "evidence-a",
+              "manuscriptId": "fire-tongues",
+              "regionIndex": 1,
+              "finding": "Οι μικρές φλόγες θυμίζουν τις «γλώσσες σαν φωτιά» της διήγησης.",
+              "regions": [
+                {
+                  "shape": "ellipse",
+                  "x": 0.16,
+                  "y": 0.738,
+                  "width": 0.395,
+                  "height": 0.105
+                },
+                {
+                  "shape": "ellipse",
+                  "x": 0.566,
+                  "y": 0.725,
+                  "width": 0.045,
+                  "height": 0.075
+                }
+              ]
+            },
+            {
+              "id": "many-listeners",
+              "slotId": "evidence-b",
+              "manuscriptId": "own-languages",
+              "regionIndex": 2,
+              "finding": "Οι διαφορετικοί ακροατές θυμίζουν ότι καθένας άκουγε στη γλώσσα του.",
+              "regions": [
+                {
+                  "shape": "ellipse",
+                  "x": 0.717,
+                  "y": 0.025,
+                  "width": 0.28,
+                  "height": 0.73
+                }
+              ]
+            }
+          ],
+          "finalInterpretation": "Την Πεντηκοστή το Άγιο Πνεύμα έρχεται στους μαθητές. Οι γλώσσες σαν φωτιά και η ομιλία σε διαφορετικές γλώσσες είναι σημεία αυτής της δωρεάς. Οι Απόστολοι μοιράζονται με θάρρος το μήνυμα του Χριστού με όλους.",
+          "reflection": "Γιατί έχει σημασία ότι το μήνυμα ακούγεται σε πολλές γλώσσες;",
+          "source": {
+            "document": "Πράξεις 2:1–11 · διδακτική σύνθεση",
+            "questionNumber": 5
+          }
+        },
+        {
+          "id": "basics-sacraments",
+          "mode": "connection",
+          "title": "Η ζωή με τον Θεό στην Εκκλησία",
+          "prompt": "Βρες τρία μυστήρια από τα ορατά τους σημεία. Η εικόνα θα φωτίζει την κολυμβήθρα, το Άγιο Μύρο και το Άγιο Ποτήριο.",
+          "manuscripts": [
+            {
+              "id": "chrismation",
+              "text": "Το Χρίσμα"
+            },
+            {
+              "id": "decoration",
+              "text": "Ένας απλός στολισμός"
+            },
+            {
+              "id": "eucharist",
+              "text": "Η Θεία Ευχαριστία"
+            },
+            {
+              "id": "baptism",
+              "text": "Το Βάπτισμα"
+            },
+            {
+              "id": "souvenir",
+              "text": "Ένα αναμνηστικό δώρο"
+            }
+          ],
+          "slots": [
+            {
+              "id": "water",
+              "label": "Νερό και νέα ζωή",
+              "role": "element",
+              "position": {
+                "x": 0.22,
+                "y": 0.8
+              }
+            },
+            {
+              "id": "myrrh",
+              "label": "Άγιο Μύρο και δωρεά του Πνεύματος",
+              "role": "element",
+              "position": {
+                "x": 0.5,
+                "y": 0.2
+              }
+            },
+            {
+              "id": "communion",
+              "label": "Κοινωνούμε τον Χριστό",
+              "role": "element",
+              "position": {
+                "x": 0.78,
+                "y": 0.8
+              }
+            }
+          ],
+          "correctRelations": [
+            {
+              "manuscriptId": "baptism",
+              "slotId": "water"
+            },
+            {
+              "manuscriptId": "chrismation",
+              "slotId": "myrrh"
+            },
+            {
+              "manuscriptId": "eucharist",
+              "slotId": "communion"
+            }
+          ],
+          "hints": [
+            "Στο Βάπτισμα χρησιμοποιείται νερό και βαπτιζόμαστε στο όνομα του Πατέρα, του Υιού και του Αγίου Πνεύματος.",
+            "Το Άγιο Μύρο συνδέεται με το Χρίσμα. Στη Θεία Ευχαριστία κοινωνούμε το Σώμα και το Αίμα του Χριστού."
+          ],
+          "referenceText": [
+            {
+              "label": "Βάπτισμα · Ματθαίος 28:19",
+              "text": "Με το Βάπτισμα αρχίζει η νέα ζωή μας στην Εκκλησία, στο όνομα του Πατέρα, του Υιού και του Αγίου Πνεύματος."
+            },
+            {
+              "label": "Χρίσμα",
+              "text": "Με το Άγιο Μύρο δεχόμαστε τη δωρεά του Αγίου Πνεύματος. Έτσι η Πεντηκοστή συνδέεται με τη δική μας ζωή."
+            },
+            {
+              "label": "Θεία Ευχαριστία",
+              "text": "Στη Θεία Ευχαριστία ο άρτος και ο οίνος προσφέρονται και, με την επίκληση του Αγίου Πνεύματος, γίνονται Σώμα και Αίμα Χριστού. Κοινωνούμε τον Χριστό και ενωνόμαστε στην Εκκλησία. Σε όλα τα μυστήρια ενεργεί ο ίδιος Τριαδικός Θεός."
+            }
+          ],
+          "art": {
+            "preset": "practice",
+            "alt": "Εσωτερικό ορθόδοξου ναού με κολυμβήθρα και νερό αριστερά, μικρό αγγείο Αγίου Μύρου με πινέλο στο κέντρο και Άγιο Ποτήριο με δισκάριο και άρτο δεξιά."
+          },
+          "revealLayers": [
+            {
+              "id": "font-with-water",
+              "slotId": "water",
+              "manuscriptId": "baptism",
+              "regionIndex": 0,
+              "finding": "Η κολυμβήθρα με το νερό μάς θυμίζει το Βάπτισμα και τη νέα ζωή.",
+              "regions": [
+                {
+                  "shape": "ellipse",
+                  "x": 0.005,
+                  "y": 0.095,
+                  "width": 0.345,
+                  "height": 0.58
+                }
+              ]
+            },
+            {
+              "id": "holy-myrrh",
+              "slotId": "myrrh",
+              "manuscriptId": "chrismation",
+              "regionIndex": 1,
+              "finding": "Το αγγείο με το Άγιο Μύρο και το πινέλο μάς θυμίζουν το Χρίσμα.",
+              "regions": [
+                {
+                  "shape": "ellipse",
+                  "x": 0.39,
+                  "y": 0.325,
+                  "width": 0.25,
+                  "height": 0.22
+                }
+              ]
+            },
+            {
+              "id": "chalice-and-paten",
+              "slotId": "communion",
+              "manuscriptId": "eucharist",
+              "regionIndex": 2,
+              "finding": "Το Άγιο Ποτήριο και το δισκάριο μάς θυμίζουν τη Θεία Ευχαριστία.",
+              "regions": [
+                {
+                  "shape": "ellipse",
+                  "x": 0.775,
+                  "y": 0.472,
+                  "width": 0.222,
+                  "height": 0.255
+                }
+              ]
+            }
+          ],
+          "finalInterpretation": "Στην Εκκλησία ζούμε με τον Τριαδικό Θεό. Στο Βάπτισμα αρχίζει η νέα ζωή μας, με το Χρίσμα δεχόμαστε τη δωρεά του Αγίου Πνεύματος και στη Θεία Ευχαριστία κοινωνούμε τον Χριστό. Αυτά είναι τρία από τα μυστήρια της Εκκλησίας.",
+          "reflection": "Δείξε ένα από τα τρία αντικείμενα και πες ποιο μυστήριο σου θυμίζει.",
+          "source": {
+            "document": "Ματθαίος 28:19 · ακολουθίες Βαπτίσματος και Χρίσματος · Θεία Λειτουργία",
+            "questionNumber": 6
+          }
+        }
+      ]
+    },
+    "trinity-advanced": {
+      "schemaVersion": 1,
+      "id": "trinity-concepts",
+      "title": "Τριαδική Θεολογία · Πέντε δρόμοι κατανόησης",
+      "activities": [
+        {
+          "id": "one-essence-three-persons",
+          "mode": "connection",
+          "title": "Η ενότητα και τα Πρόσωπα",
+          "prompt": "Πώς συνδέονται η θεία ουσία, οι υποστάσεις και η μεταξύ τους σχέση στο Τριαδικό Δόγμα;",
+          "source": {
+            "document": "Τριαδική Θεολογία Κουίζ.pages",
+            "questionNumber": 1
+          },
+          "manuscripts": [
+            {
+              "id": "three-essences",
+              "text": "Τρεις ανεξάρτητες θεϊκές ουσίες"
+            },
+            {
+              "id": "three-persons",
+              "text": "Τρεις διακριτές υποστάσεις"
+            },
+            {
+              "id": "loving-unity",
+              "text": "Αδιαίρετη κοινωνία αγάπης"
+            },
+            {
+              "id": "one-essence",
+              "text": "Μία θεία ουσία"
+            },
+            {
+              "id": "one-person",
+              "text": "Ένα πρόσωπο με τρεις διαδοχικές μορφές"
+            }
+          ],
+          "slots": [
+            {
+              "id": "common",
+              "label": "Τι είναι κοινό;",
+              "role": "evidence-a",
+              "position": {
+                "x": 0.22,
+                "y": 0.7
+              }
+            },
+            {
+              "id": "distinct",
+              "label": "Τι διακρίνεται;",
+              "role": "evidence-b",
+              "position": {
+                "x": 0.78,
+                "y": 0.7
+              }
+            },
+            {
+              "id": "relation",
+              "label": "Ποια σχέση τα ενώνει;",
+              "role": "relation",
+              "position": {
+                "x": 0.5,
+                "y": 0.22
+              }
+            }
+          ],
+          "correctRelations": [
+            {
+              "manuscriptId": "one-essence",
+              "slotId": "common"
+            },
+            {
+              "manuscriptId": "three-persons",
+              "slotId": "distinct"
+            },
+            {
+              "manuscriptId": "loving-unity",
+              "slotId": "relation"
+            }
+          ],
+          "hints": [
+            "Ξεχώρισε την ερώτηση για το κοινό από την ερώτηση για τη διάκριση των Προσώπων.",
+            "Η κοινή ουσία δεν αναιρεί τις διακριτές υποστάσεις. Σκέψου ποια σχέση εκφράζει η αγαπητική περιχώρηση."
+          ],
+          "referenceText": [
+            {
+              "label": "Ερώτηση 1 · διδακτική απόδοση",
+              "text": "Στο Τριαδικό Δόγμα η ενότητα και η διάκριση νοούνται μαζί. Η θεία ουσία είναι μία, ενώ οι υποστάσεις παραμένουν διακριτές σε αδιαίρετη αγαπητική κοινωνία."
+            }
+          ],
+          "art": {
+            "preset": "unity",
+            "alt": "Βυζαντινό αναλόγιο με έναν κοινό λυχνοστάτη, τρεις διακριτές αναμμένες λυχνίες και ανοιχτό χειρόγραφο. Συμβολική σύνθεση ενότητας, διάκρισης και κοινωνίας."
+          },
+          "revealLayers": [
+            {
+              "id": "common-light",
+              "slotId": "common",
+              "regionIndex": 0,
+              "manuscriptId": "one-essence",
+              "finding": "Το κοινό στήριγμα του λυχνοστάτη · σύμβολο ενότητας",
+              "regions": [
+                {
+                  "shape": "ellipse",
+                  "x": 0.35,
+                  "y": 0.28,
+                  "width": 0.3,
+                  "height": 0.14
+                }
+              ]
+            },
+            {
+              "id": "distinct-lights",
+              "slotId": "distinct",
+              "regionIndex": 1,
+              "manuscriptId": "three-persons",
+              "finding": "Οι τρεις ξεχωριστές φλόγες · σύμβολο διάκρισης",
+              "regions": [
+                {
+                  "shape": "ellipse",
+                  "x": 0.255,
+                  "y": 0.49,
+                  "width": 0.16,
+                  "height": 0.2
+                },
+                {
+                  "shape": "ellipse",
+                  "x": 0.42,
+                  "y": 0.51,
+                  "width": 0.16,
+                  "height": 0.21
+                },
+                {
+                  "shape": "ellipse",
+                  "x": 0.595,
+                  "y": 0.49,
+                  "width": 0.16,
+                  "height": 0.2
+                }
+              ]
+            },
+            {
+              "id": "golden-communion",
+              "slotId": "relation",
+              "regionIndex": 2,
+              "manuscriptId": "loving-unity",
+              "finding": "Οι χρυσοί βραχίονες που συνδέουν τις λυχνίες · σύμβολο κοινωνίας",
+              "regions": [
+                {
+                  "shape": "ellipse",
+                  "x": 0.28,
+                  "y": 0.39,
+                  "width": 0.44,
+                  "height": 0.16
+                }
+              ]
+            }
+          ],
+          "finalInterpretation": "Το Τριαδικό Δόγμα συνδέει τη μία θεία ουσία με τις τρεις διακριτές υποστάσεις σε αδιαίρετη αγαπητική κοινωνία.",
+          "reflection": "Πώς συνυπάρχουν το κοινό και η διάκριση στη σύνδεση που έφτιαξες;"
+        },
+        {
+          "id": "dogma-as-lived-experience",
+          "mode": "evidence",
+          "title": "Από τα ρήματα στα πράγματα",
+          "prompt": "Ποιος ισχυρισμός περιγράφει το δόγμα ως ζώσα πραγματικότητα; Βρες δύο στοιχεία που τον στηρίζουν.",
+          "source": {
+            "document": "Τριαδική Θεολογία Κουίζ.pages",
+            "questionNumber": 2
+          },
+          "manuscripts": [
+            {
+              "id": "prayer-rule",
+              "text": "Κανόνας προσευχής"
+            },
+            {
+              "id": "logic-only",
+              "text": "Μόνο λογική αποδοχή ενός ορισμού"
+            },
+            {
+              "id": "lived-dogma",
+              "text": "Το δόγμα ως βίωμα"
+            },
+            {
+              "id": "changing-theory",
+              "text": "Μια θεωρία που αλλάζει με τις ατομικές πεποιθήσεις"
+            },
+            {
+              "id": "experience-measure",
+              "text": "Μέτρο ζώσας εμπειρίας"
+            }
+          ],
+          "slots": [
+            {
+              "id": "claim",
+              "label": "Ποιος είναι ο ισχυρισμός;",
+              "role": "claim",
+              "position": {
+                "x": 0.5,
+                "y": 0.76
+              }
+            },
+            {
+              "id": "evidence-a",
+              "label": "Πρώτο υποστηρικτικό στοιχείο",
+              "role": "evidence",
+              "position": {
+                "x": 0.23,
+                "y": 0.23
+              }
+            },
+            {
+              "id": "evidence-b",
+              "label": "Δεύτερο υποστηρικτικό στοιχείο",
+              "role": "evidence",
+              "position": {
+                "x": 0.77,
+                "y": 0.23
+              }
+            }
+          ],
+          "correctRelations": [
+            {
+              "manuscriptId": "lived-dogma",
+              "slotId": "claim"
+            },
+            {
+              "manuscriptId": "prayer-rule",
+              "slotId": "evidence-a"
+            },
+            {
+              "manuscriptId": "prayer-rule",
+              "slotId": "evidence-b"
+            },
+            {
+              "manuscriptId": "experience-measure",
+              "slotId": "evidence-a"
+            },
+            {
+              "manuscriptId": "experience-measure",
+              "slotId": "evidence-b"
+            }
+          ],
+          "hints": [
+            "Αναζήτησε μία γενική θέση και δύο στοιχεία που δείχνουν πώς αυτή γίνεται βίωμα.",
+            "Η προσευχή και η ζώσα εμπειρία συνδέουν τη διατύπωση με τη ζωή. Τα δύο στοιχεία χωρούν σε οποιαδήποτε από τις δύο κάτω θέσεις."
+          ],
+          "referenceText": [
+            {
+              "label": "Ερώτηση 2 · διδακτική απόδοση",
+              "text": "Η διάκριση «ρημάτων» και «πραγμάτων» στρέφει την προσοχή από τον αφηρημένο ορισμό στο βίωμα. Το δόγμα λειτουργεί ως κανόνας προσευχής και μέτρο ζώσας εμπειρίας."
+            }
+          ],
+          "art": {
+            "preset": "practice",
+            "alt": "Ανοιχτός κώδικας στα αριστερά, άνθρωπος που προσεύχεται στο κέντρο και έμπρακτη προσφορά σε αυλή στα δεξιά. Εικαστική σύνδεση διατύπωσης, προσευχής και ζωής."
+          },
+          "revealLayers": [
+            {
+              "id": "open-manuscript",
+              "slotId": "claim",
+              "regionIndex": 0,
+              "manuscriptId": "lived-dogma",
+              "finding": "Το ανοιχτό χειρόγραφο · η διατύπωση που συνδέεται με τη ζωή",
+              "regions": [
+                {
+                  "shape": "ellipse",
+                  "x": 0.01,
+                  "y": 0.34,
+                  "width": 0.38,
+                  "height": 0.36
+                }
+              ]
+            },
+            {
+              "id": "living-light-a",
+              "slotId": "evidence-a",
+              "regionIndex": 1,
+              "manuscriptId": "prayer-rule",
+              "finding": "Η μορφή που προσεύχεται δίπλα στο λυχνάρι",
+              "regions": [
+                {
+                  "shape": "ellipse",
+                  "x": 0.43,
+                  "y": 0.19,
+                  "width": 0.24,
+                  "height": 0.5
+                }
+              ]
+            },
+            {
+              "id": "living-light-b",
+              "slotId": "evidence-b",
+              "regionIndex": 2,
+              "manuscriptId": "experience-measure",
+              "finding": "Η προσφορά και η φροντίδα στην κοινή αυλή",
+              "regions": [
+                {
+                  "shape": "ellipse",
+                  "x": 0.73,
+                  "y": 0.29,
+                  "width": 0.25,
+                  "height": 0.35
+                }
+              ]
+            }
+          ],
+          "finalInterpretation": "Το Τριαδικό Δόγμα βιώνεται στην προσευχή και τη ζωή. Ο κανόνας προσευχής και το μέτρο ζώσας εμπειρίας εξηγούν γιατί η διατύπωση συνδέεται με τα «πράγματα».",
+          "reflection": "Πώς στηρίζει καθένα από τα δύο στοιχεία τον ισχυρισμό σου;"
+        },
+        {
+          "id": "unity-and-personal-freedom",
+          "mode": "evidence",
+          "title": "Μαζί, με διάκριση προσώπων",
+          "prompt": "Πώς διατηρούνται μαζί η ενότητα και η προσωπική ελευθερία; Στήριξε τον κατάλληλο ισχυρισμό με δύο στοιχεία.",
+          "source": {
+            "document": "Τριαδική Θεολογία Κουίζ.pages",
+            "questionNumber": 3
+          },
+          "manuscripts": [
+            {
+              "id": "variety",
+              "text": "Ποικιλία χωρίς διάσπαση"
+            },
+            {
+              "id": "uniformity",
+              "text": "Κατάργηση των προσωπικών ιδιοτήτων χάριν ομοιομορφίας"
+            },
+            {
+              "id": "personal-unity",
+              "text": "Ενότητα που διαφυλάσσει το πρόσωπο"
+            },
+            {
+              "id": "unity",
+              "text": "Ενότητα χωρίς ισοπέδωση"
+            },
+            {
+              "id": "mass",
+              "text": "Υποταγή της ατομικότητας σε απρόσωπη μάζα"
+            }
+          ],
+          "slots": [
+            {
+              "id": "claim",
+              "label": "Ποιος είναι ο ισχυρισμός;",
+              "role": "claim",
+              "position": {
+                "x": 0.5,
+                "y": 0.76
+              }
+            },
+            {
+              "id": "evidence-a",
+              "label": "Πρώτο υποστηρικτικό στοιχείο",
+              "role": "evidence",
+              "position": {
+                "x": 0.23,
+                "y": 0.23
+              }
+            },
+            {
+              "id": "evidence-b",
+              "label": "Δεύτερο υποστηρικτικό στοιχείο",
+              "role": "evidence",
+              "position": {
+                "x": 0.77,
+                "y": 0.23
+              }
+            }
+          ],
+          "correctRelations": [
+            {
+              "manuscriptId": "personal-unity",
+              "slotId": "claim"
+            },
+            {
+              "manuscriptId": "unity",
+              "slotId": "evidence-a"
+            },
+            {
+              "manuscriptId": "unity",
+              "slotId": "evidence-b"
+            },
+            {
+              "manuscriptId": "variety",
+              "slotId": "evidence-a"
+            },
+            {
+              "manuscriptId": "variety",
+              "slotId": "evidence-b"
+            }
+          ],
+          "hints": [
+            "Σκέψου δύο κινδύνους: να χαθεί η μοναδικότητα μέσα στο σύνολο ή να διασπαστεί η κοινή ζωή.",
+            "Διάλεξε τα στοιχεία που κρατούν μαζί την ενότητα και τη διάκριση. Ο ισχυρισμός πρέπει να περιλαμβάνει και την αξία του προσώπου."
+          ],
+          "referenceText": [
+            {
+              "label": "Ερώτηση 3 · διδακτική απόδοση",
+              "text": "Η ενότητα δεν ισοπεδώνει το πρόσωπο και η ποικιλία δεν οδηγεί σε διάσπαση. Η προσωπική διάκριση συνυπάρχει με την αγαπητική ενότητα."
+            }
+          ],
+          "art": {
+            "preset": "freedom",
+            "alt": "Πέντε διακριτά πρόσωπα με διαφορετικές στάσεις μοιράζονται μία τράπεζα σε βυζαντινή αυλή. Γενική διδακτική εικόνα κοινωνίας που διατηρεί την προσωπική διάκριση."
+          },
+          "revealLayers": [
+            {
+              "id": "shared-root",
+              "slotId": "claim",
+              "regionIndex": 0,
+              "manuscriptId": "personal-unity",
+              "finding": "Η κοινή τράπεζα · γενικός συμβολισμός κοινωνίας προσώπων",
+              "regions": [
+                {
+                  "shape": "ellipse",
+                  "x": 0.28,
+                  "y": 0.14,
+                  "width": 0.48,
+                  "height": 0.31
+                }
+              ]
+            },
+            {
+              "id": "distinct-branches",
+              "slotId": "evidence-a",
+              "regionIndex": 1,
+              "manuscriptId": "unity",
+              "finding": "Τα διακριτά πρόσωπα αριστερά, σε κοινή συνάντηση",
+              "regions": [
+                {
+                  "shape": "ellipse",
+                  "x": 0.15,
+                  "y": 0.44,
+                  "width": 0.29,
+                  "height": 0.32
+                }
+              ]
+            },
+            {
+              "id": "common-canopy",
+              "slotId": "evidence-b",
+              "regionIndex": 2,
+              "manuscriptId": "variety",
+              "finding": "Τα διαφορετικά πρόσωπα και οι στάσεις τους δεξιά, στον ίδιο χώρο",
+              "regions": [
+                {
+                  "shape": "ellipse",
+                  "x": 0.65,
+                  "y": 0.44,
+                  "width": 0.32,
+                  "height": 0.32
+                }
+              ]
+            }
+          ],
+          "finalInterpretation": "Η ενότητα δεν καταργεί τα πρόσωπα, αλλά τα καταξιώνει εν αγάπη. Η ενότητα χωρίς ισοπέδωση και η ποικιλία χωρίς διάσπαση διαφυλάσσουν μαζί το κοινό και το προσωπικό.",
+          "reflection": "Ποια διαφορά βλέπεις ανάμεσα στην ενότητα και την ομοιομορφία;"
+        },
+        {
+          "id": "image-and-communion",
+          "mode": "sequence",
+          "title": "Από το πρότυπο στην κοινωνία",
+          "prompt": "Ανασύνθεσε τη λογική πορεία που συνδέει το Τριαδικό πρότυπο με την κλήση του ανθρώπου σε κοινωνία αγάπης.",
+          "source": {
+            "document": "Τριαδική Θεολογία Κουίζ.pages",
+            "questionNumber": 4
+          },
+          "manuscripts": [
+            {
+              "id": "human-image",
+              "text": "Άνθρωπος κατ’ εικόνα"
+            },
+            {
+              "id": "institution-only",
+              "text": "Αποκλειστικά οργάνωση εκκλησιαστικών θεσμών"
+            },
+            {
+              "id": "communion",
+              "text": "Ενότητα και κοινωνία αγάπης"
+            },
+            {
+              "id": "trinitarian-pattern",
+              "text": "Τριαδικό πρότυπο"
+            },
+            {
+              "id": "unrelated",
+              "text": "Θείο υπόδειγμα άσχετο με την ανθρώπινη ζωή"
+            }
+          ],
+          "slots": [
+            {
+              "id": "origin",
+              "label": "1 · Αφετηρία",
+              "role": "step",
+              "position": {
+                "x": 0.2,
+                "y": 0.72
+              }
+            },
+            {
+              "id": "bridge",
+              "label": "2 · Σύνδεση με τον άνθρωπο",
+              "role": "step",
+              "position": {
+                "x": 0.5,
+                "y": 0.22
+              }
+            },
+            {
+              "id": "conclusion",
+              "label": "3 · Κλήση ζωής",
+              "role": "step",
+              "position": {
+                "x": 0.8,
+                "y": 0.72
+              }
+            }
+          ],
+          "correctRelations": [
+            {
+              "manuscriptId": "trinitarian-pattern",
+              "slotId": "origin"
+            },
+            {
+              "manuscriptId": "human-image",
+              "slotId": "bridge"
+            },
+            {
+              "manuscriptId": "communion",
+              "slotId": "conclusion"
+            }
+          ],
+          "hints": [
+            "Ξεκίνα από το πρότυπο, πέρασε στη δημιουργία του ανθρώπου και κατέληξε στον τρόπο ζωής στον οποίο καλείται.",
+            "Το «κατ’ εικόνα» λειτουργεί ως γέφυρα ανάμεσα στο Τριαδικό πρότυπο και την κοινωνία αγάπης. Η σειρά είναι λογική πορεία συλλογισμού."
+          ],
+          "referenceText": [
+            {
+              "label": "Ερώτηση 4 · διδακτική απόδοση",
+              "text": "Στο θεολογικό πλαίσιο του μαθήματος, το Τριαδικό Δόγμα αποτελεί οντολογικό πρότυπο. Ο άνθρωπος, πλασμένος κατ’ εικόνα, καλείται να ζει σε ενότητα και κοινωνία αγάπης."
+            }
+          ],
+          "art": {
+            "preset": "journey",
+            "alt": "Φωτεινή πύλη στα αριστερά, ανθρώπινος οδοιπόρος στο κέντρο και κοινότητα που τον υποδέχεται δεξιά. Η πορεία αποτελεί λογικό διδακτικό συμβολισμό."
+          },
+          "revealLayers": [
+            {
+              "id": "pattern",
+              "slotId": "origin",
+              "regionIndex": 0,
+              "manuscriptId": "trinitarian-pattern",
+              "finding": "Η φωτεινή πύλη · συμβολική αφετηρία του συλλογισμού",
+              "regions": [
+                {
+                  "shape": "ellipse",
+                  "x": 0.065,
+                  "y": 0.43,
+                  "width": 0.22,
+                  "height": 0.45
+                }
+              ]
+            },
+            {
+              "id": "image",
+              "slotId": "bridge",
+              "regionIndex": 1,
+              "manuscriptId": "human-image",
+              "finding": "Ο ανθρώπινος οδοιπόρος στο κέντρο της πορείας",
+              "regions": [
+                {
+                  "shape": "ellipse",
+                  "x": 0.37,
+                  "y": 0.16,
+                  "width": 0.17,
+                  "height": 0.54
+                }
+              ]
+            },
+            {
+              "id": "encounter",
+              "slotId": "conclusion",
+              "regionIndex": 2,
+              "manuscriptId": "communion",
+              "finding": "Η κοινότητα που υποδέχεται τον άνθρωπο στην τράπεζα",
+              "regions": [
+                {
+                  "shape": "ellipse",
+                  "x": 0.7,
+                  "y": 0.24,
+                  "width": 0.3,
+                  "height": 0.46
+                }
+              ]
+            }
+          ],
+          "finalInterpretation": "Η ανθρώπινη κοινωνία καλείται να αντανακλά την Τριαδική ενότητα και περιχώρηση. Η πορεία «Τριαδικό πρότυπο → άνθρωπος κατ’ εικόνα → κοινωνία αγάπης» αποδίδει αυτή τη λογική σύνδεση.",
+          "reflection": "Γιατί το «κατ’ εικόνα» βρίσκεται ανάμεσα στο πρότυπο και την κλήση σε κοινωνία;"
+        },
+        {
+          "id": "mutual-indwelling",
+          "mode": "connection",
+          "title": "Η αγαπητική περιχώρηση",
+          "prompt": "Σύνδεσε όσα διατηρούνται διακριτά με τον τρόπο της αγαπητικής κοινωνίας τους. Ποια έννοια εκφράζει τη σχέση;",
+          "source": {
+            "document": "Τριαδική Θεολογία Κουίζ.pages",
+            "questionNumber": 5
+          },
+          "manuscripts": [
+            {
+              "id": "role-change",
+              "text": "Εναλλαγή ρόλων ανά ιστορική περίοδο"
+            },
+            {
+              "id": "indwelling",
+              "text": "Αμοιβαία αγαπητική ενοίκηση"
+            },
+            {
+              "id": "perichoresis",
+              "text": "Περιχώρηση χωρίς σύγχυση"
+            },
+            {
+              "id": "distinct-persons",
+              "text": "Διακριτές υποστάσεις"
+            },
+            {
+              "id": "absorption",
+              "text": "Απορρόφηση των δύο προσώπων από το πρώτο"
+            }
+          ],
+          "slots": [
+            {
+              "id": "distinction",
+              "label": "Τι διατηρείται;",
+              "role": "evidence-a",
+              "position": {
+                "x": 0.22,
+                "y": 0.7
+              }
+            },
+            {
+              "id": "communion",
+              "label": "Πώς σχετίζονται;",
+              "role": "evidence-b",
+              "position": {
+                "x": 0.78,
+                "y": 0.7
+              }
+            },
+            {
+              "id": "meaning",
+              "label": "Ποια έννοια εκφράζει τη σχέση;",
+              "role": "relation",
+              "position": {
+                "x": 0.5,
+                "y": 0.22
+              }
+            }
+          ],
+          "correctRelations": [
+            {
+              "manuscriptId": "distinct-persons",
+              "slotId": "distinction"
+            },
+            {
+              "manuscriptId": "indwelling",
+              "slotId": "communion"
+            },
+            {
+              "manuscriptId": "perichoresis",
+              "slotId": "meaning"
+            }
+          ],
+          "hints": [
+            "Η σχέση των Προσώπων περιγράφεται ως αγαπητική ενοίκηση. Αναζήτησε και τι παραμένει διακριτό μέσα σε αυτήν.",
+            "Η περιχώρηση συνδυάζει την τέλεια κοινωνία με τη διατήρηση της υποστατικής ετερότητας. Καμία υπόσταση δεν απορροφά τις άλλες."
+          ],
+          "referenceText": [
+            {
+              "label": "Ερώτηση 5 · διδακτική απόδοση",
+              "text": "Η περιχώρηση δηλώνει την τέλεια αμοιβαία αγαπητική ενοίκηση και κοινωνία των Τριών Προσώπων, χωρίς σύγχυση των υποστάσεων. Η ενότητα συνυπάρχει με την υποστατική ετερότητα."
+            }
+          ],
+          "art": {
+            "preset": "communion",
+            "alt": "Τρεις διακριτοί κορμοί αμπέλου με κλαδιά που διαπλέκονται πάνω από κοινή φωτεινή αντανάκλαση στο νερό, σε βυζαντινή αυλή. Διδακτικός συμβολισμός διάκρισης και κοινωνίας."
+          },
+          "revealLayers": [
+            {
+              "id": "distinct-arcs",
+              "slotId": "distinction",
+              "regionIndex": 0,
+              "manuscriptId": "distinct-persons",
+              "finding": "Οι τρεις ξεχωριστοί κορμοί · σύμβολο διατήρησης της διάκρισης",
+              "regions": [
+                {
+                  "shape": "ellipse",
+                  "x": 0.2,
+                  "y": 0.17,
+                  "width": 0.18,
+                  "height": 0.34
+                },
+                {
+                  "shape": "ellipse",
+                  "x": 0.42,
+                  "y": 0.24,
+                  "width": 0.16,
+                  "height": 0.31
+                },
+                {
+                  "shape": "ellipse",
+                  "x": 0.74,
+                  "y": 0.18,
+                  "width": 0.16,
+                  "height": 0.36
+                }
+              ]
+            },
+            {
+              "id": "shared-light",
+              "slotId": "communion",
+              "regionIndex": 1,
+              "manuscriptId": "indwelling",
+              "finding": "Τα κλαδιά που διαπλέκονται στον ίδιο χώρο",
+              "regions": [
+                {
+                  "shape": "ellipse",
+                  "x": 0.18,
+                  "y": 0.56,
+                  "width": 0.64,
+                  "height": 0.36
+                }
+              ]
+            },
+            {
+              "id": "communion-ring",
+              "slotId": "meaning",
+              "regionIndex": 2,
+              "manuscriptId": "perichoresis",
+              "finding": "Η κοινή φωτεινή αντανάκλαση · γενικός συμβολισμός κοινωνίας",
+              "regions": [
+                {
+                  "shape": "ellipse",
+                  "x": 0.34,
+                  "y": 0.09,
+                  "width": 0.42,
+                  "height": 0.19
+                }
+              ]
+            }
+          ],
+          "finalInterpretation": "Η περιχώρηση εκφράζει την πλήρη αγαπητική ενότητα των Προσώπων, διατηρώντας την υποστατική τους ετερότητα: τέλεια κοινωνία χωρίς σύγχυση.",
+          "reflection": "Πώς διαφέρει η αγαπητική ενοίκηση από την απορρόφηση ή την απλή εξωτερική συνεργασία;"
+        }
+      ]
+    },
+    "creation-concepts": {
+      "schemaVersion": 1,
+      "id": "creation-image-and-life",
+      "title": "Δημιουργία, κατ’ εικόνα και πτώση · Από την κτίση στη ζωή",
+      "activities": [
+        {
+          "id": "creation-human-boundary",
+          "mode": "connection",
+          "title": "Ο άνθρωπος ανάμεσα στους δύο κόσμους",
+          "prompt": "Ποιους δύο κόσμους συνδέει ο άνθρωπος, σύμφωνα με τον Γρηγόριο τον Θεολόγο; Ανακάλυψε τη θέση του μέσα στην κτίση.",
+          "source": {
+            "document": "Δημιουργία, Κατ’ Εικόνα και Πτώση · Κουίζ Πατερικής Θεολογίας",
+            "questionNumber": 1
+          },
+          "manuscripts": [
+            {
+              "id": "disembodied",
+              "text": "Ασώματο ον χωρίς οργανική σχέση με την ύλη"
+            },
+            {
+              "id": "intelligible",
+              "text": "Νοητός και αγγελικός κόσμος"
+            },
+            {
+              "id": "whole-human",
+              "text": "Ο άνθρωπος ως μεθόριο των δύο κόσμων"
+            },
+            {
+              "id": "material",
+              "text": "Αισθητός και υλικός κόσμος"
+            },
+            {
+              "id": "body-prison",
+              "text": "Ψυχή φυλακισμένη σε ξένο σώμα"
+            }
+          ],
+          "slots": [
+            {
+              "id": "earthly",
+              "label": "Τι αγγίζουμε και αισθανόμαστε;",
+              "role": "evidence-a",
+              "position": {
+                "x": 0.22,
+                "y": 0.7
+              }
+            },
+            {
+              "id": "spiritual",
+              "label": "Τι υπερβαίνει τον αισθητό κόσμο;",
+              "role": "evidence-b",
+              "position": {
+                "x": 0.78,
+                "y": 0.7
+              }
+            },
+            {
+              "id": "bridge",
+              "label": "Ποιος συνδέει τους δύο κόσμους;",
+              "role": "relation",
+              "position": {
+                "x": 0.5,
+                "y": 0.22
+              }
+            }
+          ],
+          "correctRelations": [
+            {
+              "manuscriptId": "material",
+              "slotId": "earthly"
+            },
+            {
+              "manuscriptId": "intelligible",
+              "slotId": "spiritual"
+            },
+            {
+              "manuscriptId": "whole-human",
+              "slotId": "bridge"
+            }
+          ],
+          "hints": [
+            "Ξεχώρισε όσα ανήκουν στην αισθητή φύση από όσα αναφέρονται στον νοητό και αγγελικό κόσμο.",
+            "Ο άνθρωπος συνδέεται οργανικά με την ύλη και έχει λογική, πνευματική ζωή. Σκέψου τη σημασία της λέξης «μεθόριο»."
+          ],
+          "referenceText": [
+            {
+              "label": "Ερώτηση 1 · διδακτική απόδοση",
+              "text": "Ο Γρηγόριος ο Θεολόγος παρουσιάζει τον άνθρωπο ως «δεύτερο κόσμο, εν μικρώ μέγα» και μεθόριο του νοητού και του αισθητού κόσμου. Στην ανθρώπινη ύπαρξη συναντιούνται το γήινο σώμα και η λογική ψυχή."
+            },
+            {
+              "label": "Ερώτηση 4 · συμπληρωματική διδακτική απόδοση",
+              "text": "Σώμα και ψυχή συνιστούν μαζί τον έναν άνθρωπο και δημιουργούνται ταυτόχρονα. Το σώμα είναι οργανικό και συστατικό μέρος της ανθρώπινης φύσης. Η εικόνα δείχνει έναν ολόκληρο, ζωντανό άνθρωπο."
+            }
+          ],
+          "art": {
+            "preset": "unity",
+            "alt": "Ένας ολόκληρος άνθρωπος ανάμεσα στη γήινη φύση και σε εικαστικό σύμβολο του νοητού κόσμου."
+          },
+          "revealLayers": [
+            {
+              "id": "earth-and-life",
+              "slotId": "earthly",
+              "manuscriptId": "material",
+              "regionIndex": 0,
+              "finding": "Η γη, τα φυτά και τα ζωντανά πλάσματα · ο αισθητός κόσμος",
+              "regions": [
+                {
+                  "shape": "ellipse",
+                  "x": 0.005,
+                  "y": 0.12,
+                  "width": 0.35,
+                  "height": 0.43
+                },
+                {
+                  "shape": "ellipse",
+                  "x": 0.43,
+                  "y": 0.01,
+                  "width": 0.37,
+                  "height": 0.27
+                }
+              ]
+            },
+            {
+              "id": "angel-and-light",
+              "slotId": "spiritual",
+              "manuscriptId": "intelligible",
+              "regionIndex": 1,
+              "finding": "Η αγγελική μορφή και το φως · εικαστικό σύμβολο του νοητού κόσμου",
+              "regions": [
+                {
+                  "shape": "ellipse",
+                  "x": 0.7,
+                  "y": 0.73,
+                  "width": 0.3,
+                  "height": 0.27
+                }
+              ]
+            },
+            {
+              "id": "living-human",
+              "slotId": "bridge",
+              "manuscriptId": "whole-human",
+              "regionIndex": 2,
+              "finding": "Ο ένας, ολόκληρος άνθρωπος στο κέντρο της σύνθεσης",
+              "regions": [
+                {
+                  "shape": "ellipse",
+                  "x": 0.405,
+                  "y": 0.36,
+                  "width": 0.2,
+                  "height": 0.46
+                }
+              ]
+            }
+          ],
+          "finalInterpretation": "Ο άνθρωπος είναι μεθόριο του νοητού και του αισθητού κόσμου: συνδέει οργανικά την υλική και την πνευματική διάσταση της δημιουργίας. Σώμα και ψυχή συγκροτούν μαζί την ενιαία ανθρώπινη ύπαρξη.",
+          "reflection": "Πώς βοηθά η εικόνα ενός ολόκληρου ανθρώπου να εξηγήσουμε τη λέξη «μεθόριο»;"
+        },
+        {
+          "id": "creation-image-for-everyone",
+          "mode": "evidence",
+          "title": "Η εικόνα αφορά όλη την ανθρωπότητα",
+          "prompt": "Τι σημαίνει η διδασκαλία του Γρηγορίου Νύσσης για τον «καθόλου άνθρωπο»; Στήριξε τον κατάλληλο ισχυρισμό με δύο στοιχεία.",
+          "source": {
+            "document": "Δημιουργία, Κατ’ Εικόνα και Πτώση · Κουίζ Πατερικής Θεολογίας",
+            "questionNumber": 3
+          },
+          "manuscripts": [
+            {
+              "id": "all-generations",
+              "text": "Όλες οι γενεές, από την αρχή έως το τέλος"
+            },
+            {
+              "id": "adam-only",
+              "text": "Μόνο ο Αδάμ φέρει αυθεντικά τη θεία εικόνα"
+            },
+            {
+              "id": "universal-image",
+              "text": "Η θεία εικόνα αφορά όλη την ανθρωπότητα"
+            },
+            {
+              "id": "earned-image",
+              "text": "Η θεία εικόνα απονέμεται ανάλογα με την επίδοση"
+            },
+            {
+              "id": "equal-image",
+              "text": "Κανείς δεν φέρει μειωμένη τη θεία εικόνα"
+            }
+          ],
+          "slots": [
+            {
+              "id": "claim",
+              "label": "Ποιος είναι ο ισχυρισμός;",
+              "role": "claim",
+              "position": {
+                "x": 0.5,
+                "y": 0.76
+              }
+            },
+            {
+              "id": "evidence-a",
+              "label": "Πρώτο υποστηρικτικό στοιχείο",
+              "role": "evidence",
+              "position": {
+                "x": 0.23,
+                "y": 0.23
+              }
+            },
+            {
+              "id": "evidence-b",
+              "label": "Δεύτερο υποστηρικτικό στοιχείο",
+              "role": "evidence",
+              "position": {
+                "x": 0.77,
+                "y": 0.23
+              }
+            }
+          ],
+          "correctRelations": [
+            {
+              "manuscriptId": "universal-image",
+              "slotId": "claim"
+            },
+            {
+              "manuscriptId": "all-generations",
+              "slotId": "evidence-a"
+            },
+            {
+              "manuscriptId": "all-generations",
+              "slotId": "evidence-b"
+            },
+            {
+              "manuscriptId": "equal-image",
+              "slotId": "evidence-a"
+            },
+            {
+              "manuscriptId": "equal-image",
+              "slotId": "evidence-b"
+            }
+          ],
+          "hints": [
+            "Σκέψου αν η θεία εικόνα περιορίζεται σε ένα άτομο, μία εποχή ή μία ομάδα ανθρώπων.",
+            "Η θεία πρόγνωση περιλαμβάνει το πλήρωμα της ανθρωπότητας. Αναζήτησε ένα στοιχείο για όλες τις γενεές και ένα για την αξία κάθε προσώπου."
+          ],
+          "referenceText": [
+            {
+              "label": "Ερώτηση 3 · διδακτική απόδοση",
+              "text": "Στη διδασκαλία του Γρηγορίου Νύσσης το «κατ’ εικόνα» αφορά ολόκληρο το πλήρωμα της ανθρωπότητας, το οποίο περιλαμβάνεται στη θεία πρόγνωση. Η θεία εικόνα απλώνεται εξίσου στο ανθρώπινο γένος, από την αρχή έως τη συντέλεια."
+            }
+          ],
+          "art": {
+            "preset": "freedom",
+            "alt": "Άνθρωποι διαφορετικών ηλικιών και όψεων μέσα σε έναν κοινό κήπο, ως γενικός διδακτικός συμβολισμός της κοινής ανθρώπινης αξίας."
+          },
+          "revealLayers": [
+            {
+              "id": "shared-human-root",
+              "slotId": "claim",
+              "manuscriptId": "universal-image",
+              "regionIndex": 0,
+              "finding": "Το κοινό δέντρο του κήπου · γενικός συμβολισμός της κοινής ανθρώπινης φύσης",
+              "regions": [
+                {
+                  "shape": "ellipse",
+                  "x": 0.34,
+                  "y": 0.3,
+                  "width": 0.32,
+                  "height": 0.5
+                }
+              ]
+            },
+            {
+              "id": "elder-and-child",
+              "slotId": "evidence-a",
+              "manuscriptId": "all-generations",
+              "regionIndex": 1,
+              "finding": "Το ηλικιωμένο πρόσωπο και το παιδί · σύμβολο όλων των γενεών",
+              "regions": [
+                {
+                  "shape": "ellipse",
+                  "x": 0.05,
+                  "y": 0.11,
+                  "width": 0.29,
+                  "height": 0.5
+                }
+              ]
+            },
+            {
+              "id": "equal-persons",
+              "slotId": "evidence-b",
+              "manuscriptId": "equal-image",
+              "regionIndex": 2,
+              "finding": "Τα δύο διαφορετικά πρόσωπα που στέκονται ως ίσα",
+              "regions": [
+                {
+                  "shape": "ellipse",
+                  "x": 0.69,
+                  "y": 0.1,
+                  "width": 0.27,
+                  "height": 0.62
+                }
+              ]
+            }
+          ],
+          "finalInterpretation": "Η θεία εικόνα αφορά ολόκληρη την ανθρωπότητα και δεν μειώνεται στους απογόνους του Αδάμ. Η κοινή ανθρώπινη φύση και η αξία κάθε προσώπου θεμελιώνουν τον σεβασμό προς κάθε άνθρωπο.",
+          "reflection": "Τι αλλάζει στον τρόπο που βλέπουμε τον άλλον, όταν αναγνωρίζουμε σε αυτόν την ίδια θεία εικόνα;"
+        },
+        {
+          "id": "creation-image-to-likeness",
+          "mode": "sequence",
+          "title": "Από το κατ’ εικόνα στο καθ’ ομοίωσιν",
+          "prompt": "Ανασύνθεσε τη λογική πορεία από το δώρο του «κατ’ εικόνα» προς το «καθ’ ομοίωσιν». Ποιος είναι ο ρόλος της ελευθερίας και της χάρης;",
+          "source": {
+            "document": "Δημιουργία, Κατ’ Εικόνα και Πτώση · Κουίζ Πατερικής Θεολογίας",
+            "questionNumber": 2
+          },
+          "manuscripts": [
+            {
+              "id": "synergy",
+              "text": "Ελεύθερη συνεργία με τη θεία χάρη"
+            },
+            {
+              "id": "automatic",
+              "text": "Αυτόματη θέωση χωρίς ελεύθερη θέληση"
+            },
+            {
+              "id": "likeness",
+              "text": "Καθ’ ομοίωσιν: πορεία προς τη θέωση"
+            },
+            {
+              "id": "image-gift",
+              "text": "Κατ’ εικόνα: λόγος και ελευθερία"
+            },
+            {
+              "id": "self-perfection",
+              "text": "Αυτοτελείωση χωρίς τη θεία χάρη"
+            }
+          ],
+          "slots": [
+            {
+              "id": "gift",
+              "label": "1 · Το δώρο της δημιουργίας",
+              "role": "step",
+              "position": {
+                "x": 0.2,
+                "y": 0.2
+              }
+            },
+            {
+              "id": "cooperation",
+              "label": "2 · Η ελεύθερη ανταπόκριση",
+              "role": "step",
+              "position": {
+                "x": 0.5,
+                "y": 0.82
+              }
+            },
+            {
+              "id": "orientation",
+              "label": "3 · Η δυναμική πορεία",
+              "role": "step",
+              "position": {
+                "x": 0.8,
+                "y": 0.2
+              }
+            }
+          ],
+          "correctRelations": [
+            {
+              "manuscriptId": "image-gift",
+              "slotId": "gift"
+            },
+            {
+              "manuscriptId": "synergy",
+              "slotId": "cooperation"
+            },
+            {
+              "manuscriptId": "likeness",
+              "slotId": "orientation"
+            }
+          ],
+          "hints": [
+            "Ξεκίνα από όσα δόθηκαν στον άνθρωπο με τη δημιουργία του και αναζήτησε πώς ανταποκρίνεται ελεύθερα.",
+            "Η λέξη «συνεργία» συνδέει την ελεύθερη ανθρώπινη θέληση με τη θεία χάρη. Το «καθ’ ομοίωσιν» δηλώνει δυναμική πορεία."
+          ],
+          "referenceText": [
+            {
+              "label": "Ερώτηση 2 και υπόδειξη · διδακτική σύνθεση",
+              "text": "Το «κατ’ εικόνα» εκφράζει τη νοερή και αυτεξούσια φύση του ανθρώπου. Το «καθ’ ομοίωσιν» δηλώνει την πορεία προς τη θέωση, με ελεύθερη συνεργία της ανθρώπινης θέλησης και της θείας χάρης. Η ακολουθία του παζλ είναι πορεία κατανόησης αυτής της σχέσης."
+            }
+          ],
+          "art": {
+            "preset": "journey",
+            "alt": "Σκεπτόμενο πρόσωπο, ελεύθερη φροντίδα ενός φυτού κάτω από φως, και καρποφόρο δέντρο σε φωτεινή πορεία. Διδακτικές αναλογίες λόγου, συνεργίας και πνευματικής αύξησης."
+          },
+          "revealLayers": [
+            {
+              "id": "reason-and-freedom",
+              "slotId": "gift",
+              "manuscriptId": "image-gift",
+              "regionIndex": 0,
+              "finding": "Το σκεπτόμενο πρόσωπο και το ανοιχτό χέρι · σύμβολα λόγου και ελευθερίας",
+              "regions": [
+                {
+                  "shape": "ellipse",
+                  "x": 0.24,
+                  "y": 0.72,
+                  "width": 0.14,
+                  "height": 0.18
+                },
+                {
+                  "shape": "ellipse",
+                  "x": 0.125,
+                  "y": 0.56,
+                  "width": 0.105,
+                  "height": 0.13
+                }
+              ]
+            },
+            {
+              "id": "watering-under-light",
+              "slotId": "cooperation",
+              "manuscriptId": "synergy",
+              "regionIndex": 1,
+              "finding": "Το ελεύθερο πότισμα κάτω από το φως · συμβολική εικόνα συνεργίας",
+              "regions": [
+                {
+                  "shape": "ellipse",
+                  "x": 0.34,
+                  "y": 0.22,
+                  "width": 0.2,
+                  "height": 0.38
+                },
+                {
+                  "shape": "ellipse",
+                  "x": 0.46,
+                  "y": 0.55,
+                  "width": 0.16,
+                  "height": 0.37
+                }
+              ]
+            },
+            {
+              "id": "fruitful-path",
+              "slotId": "orientation",
+              "manuscriptId": "likeness",
+              "regionIndex": 2,
+              "finding": "Το καρποφόρο δέντρο και η φωτεινή πορεία · σύμβολα πνευματικής αύξησης",
+              "regions": [
+                {
+                  "shape": "ellipse",
+                  "x": 0.58,
+                  "y": 0.3,
+                  "width": 0.32,
+                  "height": 0.67
+                },
+                {
+                  "shape": "ellipse",
+                  "x": 0.8,
+                  "y": 0.13,
+                  "width": 0.19,
+                  "height": 0.64
+                }
+              ]
+            }
+          ],
+          "finalInterpretation": "Το «κατ’ εικόνα» είναι δώρο της δημιουργίας: ο άνθρωπος έχει λόγο και ελευθερία. Με την ελεύθερη συνεργία του με τη θεία χάρη καλείται στη δυναμική πορεία του «καθ’ ομοίωσιν», προς τη θέωση.",
+          "reflection": "Γιατί η συνεργία βρίσκεται ανάμεσα στο δώρο του «κατ’ εικόνα» και την πορεία του «καθ’ ομοίωσιν»;"
+        },
+        {
+          "id": "creation-garments-and-life",
+          "mode": "connection",
+          "title": "Από τους χιτώνες στη λευκή στολή",
+          "prompt": "Σύνδεσε τα δύο ενδύματα με το θεολογικό τους νόημα. Ποια προοπτική θεραπείας και ζωής φανερώνουν;",
+          "source": {
+            "document": "Δημιουργία, Κατ’ Εικόνα και Πτώση · Κουίζ Πατερικής Θεολογίας",
+            "questionNumber": 5
+          },
+          "manuscripts": [
+            {
+              "id": "permanent-condemnation",
+              "text": "Μόνιμη κατάκριση που αποκλείει την Ανάσταση"
+            },
+            {
+              "id": "white-garment",
+              "text": "Λευκή στολή του Βαπτίσματος"
+            },
+            {
+              "id": "new-life",
+              "text": "Θεραπεία και νέα ζωή εν Χριστώ"
+            },
+            {
+              "id": "leather-garments",
+              "text": "Δερμάτινοι χιτώνες της θνητότητας"
+            },
+            {
+              "id": "lost-property",
+              "text": "Απώλεια της υλικής περιουσίας"
+            }
+          ],
+          "slots": [
+            {
+              "id": "mortality",
+              "label": "Ποιο ένδυμα συμβολίζει τη θνητότητα;",
+              "role": "evidence-a",
+              "position": {
+                "x": 0.22,
+                "y": 0.84
+              }
+            },
+            {
+              "id": "baptism",
+              "label": "Ποιο ένδυμα φανερώνει τη νέα ζωή;",
+              "role": "evidence-b",
+              "position": {
+                "x": 0.78,
+                "y": 0.84
+              }
+            },
+            {
+              "id": "restoration",
+              "label": "Ποια μετάβαση αναγνωρίζεις;",
+              "role": "relation",
+              "position": {
+                "x": 0.5,
+                "y": 0.22
+              }
+            }
+          ],
+          "correctRelations": [
+            {
+              "manuscriptId": "leather-garments",
+              "slotId": "mortality"
+            },
+            {
+              "manuscriptId": "white-garment",
+              "slotId": "baptism"
+            },
+            {
+              "manuscriptId": "new-life",
+              "slotId": "restoration"
+            }
+          ],
+          "hints": [
+            "Παρατήρησε τη διαφορά ανάμεσα στο βαρύ καστανό ένδυμα και στη λευκή στολή. Σκέψου τι συμβολίζει το καθένα.",
+            "Στο κείμενο οι χιτώνες συνδέονται με τη θνητότητα, ενώ η λευκή στολή με το Βάπτισμα και την προσδοκία της αφθαρσίας."
+          ],
+          "referenceText": [
+            {
+              "label": "Ερώτηση 5 · διδακτική απόδοση",
+              "text": "Οι «δερμάτινοι χιτώνες» ερμηνεύονται στο υλικό ως σύμβολο της θνητότητας και της παθητότητας μετά την Πτώση. Η μετάνοια και η βαπτισματική στολή συνδέονται με τη θεραπεία εν Χριστώ και την προσδοκία της αφθαρσίας και της Αναστάσεως."
+            }
+          ],
+          "art": {
+            "preset": "communion",
+            "alt": "Καστανός δερμάτινος χιτώνας, φωτισμένο νερό κολυμβήθρας και λευκή βαπτισματική στολή σε βυζαντινό βαπτιστήριο."
+          },
+          "revealLayers": [
+            {
+              "id": "leather-tunic",
+              "slotId": "mortality",
+              "manuscriptId": "leather-garments",
+              "regionIndex": 0,
+              "finding": "Ο καστανός δερμάτινος χιτώνας · σύμβολο θνητότητας",
+              "regions": [
+                {
+                  "shape": "ellipse",
+                  "x": 0.075,
+                  "y": 0.2,
+                  "width": 0.23,
+                  "height": 0.56
+                }
+              ]
+            },
+            {
+              "id": "white-robe",
+              "slotId": "baptism",
+              "manuscriptId": "white-garment",
+              "regionIndex": 1,
+              "finding": "Η λευκή βαπτισματική στολή · σύμβολο νέας ζωής",
+              "regions": [
+                {
+                  "shape": "ellipse",
+                  "x": 0.72,
+                  "y": 0.2,
+                  "width": 0.21,
+                  "height": 0.56
+                }
+              ]
+            },
+            {
+              "id": "font-and-water",
+              "slotId": "restoration",
+              "manuscriptId": "new-life",
+              "regionIndex": 2,
+              "finding": "Η κολυμβήθρα και το φωτισμένο νερό · εικόνα της βαπτισματικής ανακαίνισης",
+              "regions": [
+                {
+                  "shape": "ellipse",
+                  "x": 0.3,
+                  "y": 0.08,
+                  "width": 0.44,
+                  "height": 0.43
+                }
+              ]
+            }
+          ],
+          "finalInterpretation": "Οι χιτώνες της θνητότητας αντιπαραβάλλονται με τη λευκή βαπτισματική στολή. Η θεραπεία εν Χριστώ, η μετάνοια και το Βάπτισμα ανοίγουν την προοπτική της νέας ζωής και της Αναστάσεως.",
+          "reflection": "Πώς βοηθούν τα δύο ενδύματα και το νερό να εξηγήσουμε τη μετάβαση από τη θνητότητα στη νέα ζωή;"
+        },
+        {
+          "id": "creation-fruit-and-eucharist",
+          "mode": "connection",
+          "title": "Από τον καρπό στην κοινωνία ζωής",
+          "prompt": "Πώς αντιπαραβάλλεται ο καρπός της Εδέμ με τον «Καρπό της Ζωής» που προσφέρεται στην Εκκλησία; Σύνδεσε τα σύμβολα με το νόημά τους.",
+          "source": {
+            "document": "Δημιουργία, Κατ’ Εικόνα και Πτώση · Κουίζ Πατερικής Θεολογίας",
+            "questionNumber": 6
+          },
+          "manuscripts": [
+            {
+              "id": "eucharist",
+              "text": "Θεία Ευχαριστία"
+            },
+            {
+              "id": "rational-knowledge-only",
+              "text": "Επιστροφή στη ζωή μόνο με ορθολογική γνώση"
+            },
+            {
+              "id": "communion-of-life",
+              "text": "Υπέρβαση του κύκλου ηδονής–οδύνης"
+            },
+            {
+              "id": "eden-fruit",
+              "text": "Απαγορευμένος καρπός της Εδέμ"
+            },
+            {
+              "id": "no-freedom",
+              "text": "Κατάργηση της ανθρώπινης ελευθερίας"
+            }
+          ],
+          "slots": [
+            {
+              "id": "trial",
+              "label": "Το σύμβολο της δοκιμασίας",
+              "role": "evidence-a",
+              "position": {
+                "x": 0.22,
+                "y": 0.2
+              }
+            },
+            {
+              "id": "sacrament",
+              "label": "Το μυστήριο της κοινωνίας",
+              "role": "evidence-b",
+              "position": {
+                "x": 0.5,
+                "y": 0.8
+              }
+            },
+            {
+              "id": "life",
+              "label": "Ποια προοπτική ανοίγεται;",
+              "role": "relation",
+              "position": {
+                "x": 0.78,
+                "y": 0.2
+              }
+            }
+          ],
+          "correctRelations": [
+            {
+              "manuscriptId": "eden-fruit",
+              "slotId": "trial"
+            },
+            {
+              "manuscriptId": "eucharist",
+              "slotId": "sacrament"
+            },
+            {
+              "manuscriptId": "communion-of-life",
+              "slotId": "life"
+            }
+          ],
+          "hints": [
+            "Ξεχώρισε το σύμβολο της δοκιμασίας στην Εδέμ από το μυστήριο στο οποίο προσφέρεται ο Καρπός της Ζωής.",
+            "Το ποτήριο και ο άρτος παραπέμπουν στη Θεία Ευχαριστία. Αναζήτησε τη σχέση της με την υπέρβαση του κύκλου ηδονής και οδύνης."
+          ],
+          "referenceText": [
+            {
+              "label": "Ερώτηση 6 και υπόδειξη · διδακτική σύνθεση",
+              "text": "Το quiz παρουσιάζει τον καρπό της Εδέμ ως δοκιμασία της ανθρώπινης ελευθερίας και συνδέει την Πτώση με τον κύκλο ηδονής και οδύνης. Η υπέρβασή του προσφέρεται στη Θεία Ευχαριστία, ως Καρπός της Ζωής και κοινωνία με τον Χριστό."
+            }
+          ],
+          "art": {
+            "preset": "practice",
+            "alt": "Συμβολικός καρπός σε κλαδί, ευχαριστιακό ποτήριο με άρτο, και ανοιχτή φωτεινή πύλη προς ζωντανό κήπο."
+          },
+          "revealLayers": [
+            {
+              "id": "fruit-on-branch",
+              "slotId": "trial",
+              "manuscriptId": "eden-fruit",
+              "regionIndex": 0,
+              "finding": "Ο καρπός στο κλαδί · σύμβολο της δοκιμασίας στην Εδέμ",
+              "regions": [
+                {
+                  "shape": "ellipse",
+                  "x": 0.11,
+                  "y": 0.58,
+                  "width": 0.18,
+                  "height": 0.25
+                }
+              ]
+            },
+            {
+              "id": "chalice-and-bread",
+              "slotId": "sacrament",
+              "manuscriptId": "eucharist",
+              "regionIndex": 1,
+              "finding": "Το ποτήριο και ο άρτος · ευχαριστιακά σύμβολα",
+              "regions": [
+                {
+                  "shape": "ellipse",
+                  "x": 0.37,
+                  "y": 0.27,
+                  "width": 0.29,
+                  "height": 0.31
+                }
+              ]
+            },
+            {
+              "id": "open-garden-gate",
+              "slotId": "life",
+              "manuscriptId": "communion-of-life",
+              "regionIndex": 2,
+              "finding": "Η ανοιχτή φωτεινή πύλη και ο ζωντανός κήπος · σύμβολα προοπτικής ζωής",
+              "regions": [
+                {
+                  "shape": "ellipse",
+                  "x": 0.7,
+                  "y": 0.31,
+                  "width": 0.29,
+                  "height": 0.61
+                }
+              ]
+            }
+          ],
+          "finalInterpretation": "Ο καρπός της Εδέμ συνδέεται στο υλικό με τη δοκιμασία της ελευθερίας και τον κύκλο ηδονής–οδύνης. Η Θεία Ευχαριστία προβάλλεται ως Καρπός της Ζωής: κοινωνία με τον Χριστό και προοπτική υπέρβασης αυτού του κύκλου.",
+          "reflection": "Πώς συνδέονται ο καρπός, το ποτήριο και η ανοιχτή πύλη μέσα στη διδακτική σύνθεση;"
+        }
+      ]
+    }
+  }
+}

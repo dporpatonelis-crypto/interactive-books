@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "app_id": "animated-concept-canvas",
+  "title": "Το αναλόγιο των εννοιών",
+  "updated_at": "2026-10-27T05:33:46.565299Z",
+  "files": {
+    "index.html": {
+      "sha256": "e4b18e04a316b3478cae31b6ffb5bb4922dd31a50ee4b462f368023e428c8ced",
+      "bytes": 5492483
+    },
+    "creation-concepts.html": {
+      "sha256": "12265cb17534bcf2920ee7f093721213ffc4116c405a186cf6716316f953d9dd",
+      "bytes": 2488363
+    }
+  },
+  "entries": [
+    {
+      "id": "trinity-basics",
+      "file": "index.html",
+      "fragment": "unit=basics",
+      "catalog_id": "trinity-basics",
+      "script_id": "builtin-options",
+      "catalog_key": "embedded:basics",
+      "book_lesson_id": "lesson-trinity-dogmatic-consciousness",
+      "section_id": "trinity-basic-concept-canvas",
+      "media_id": "WEB-005",
+      "label": "Αγία Τριάδα · Αναλόγιο για μικρότερες ηλικίες",
+      "note": "Έξι μικρά παζλ με απλές κάρτες και συγκεκριμένα ευρήματα που φωτίζονται στην εικόνα.",
+      "level": "basic",
+      "activity_ids": [
+        "basics-three-persons",
+        "basics-incarnation",
+        "basics-jesus-christ",
+        "basics-revelation",
+        "basics-pentecost",
+        "basics-sacraments"
+      ],
+      "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/apps/animated-concept-canvas/index.html#unit=basics"
+    },
+    {
+      "id": "trinity-advanced",
+      "file": "index.html",
+      "fragment": "unit=advanced",
+      "script_id": "embedded-catalog",
+      "book_lesson_id": "lesson-trinity-dogmatic-consciousness",
+      "section_id": "trinity-advanced-concept-canvas",
+      "media_id": "WEB-006",
+      "label": "Αγία Τριάδα · Αναλόγιο εμβάθυνσης",
+      "note": "Πέντε παζλ σύνδεσης, ακολουθίας και τεκμηρίωσης για τη δογματική συνείδηση.",
+      "level": "advanced",
+      "catalog_id": "trinity-concepts",
+      "activity_ids": [
+        "one-essence-three-persons",
+        "dogma-as-lived-experience",
+        "unity-and-personal-freedom",
+        "image-and-communion",
+        "mutual-indwelling"
+      ],
+      "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/apps/animated-concept-canvas/index.html#unit=advanced"
+    },
+    {
+      "id": "creation-concepts",
+      "file": "creation-concepts.html",
+      "fragment": "",
+      "script_id": "embedded-catalog",
+      "book_lesson_id": "lesson-creation-world",
+      "section_id": "creation-concept-canvas",
+      "media_id": "WEB-007",
+      "label": "Δημιουργία · Αναλόγιο εννοιών",
+      "note": "Πέντε εικαστικά παζλ για τη δημιουργία, το κατ’ εικόνα και την προοπτική ζωής μετά την πτώση.",
+      "level": "standard",
+      "catalog_id": "creation-image-and-life",
+      "activity_ids": [
+        "creation-human-boundary",
+        "creation-image-for-everyone",
+        "creation-image-to-likeness",
+        "creation-garments-and-life",
+        "creation-fruit-and-eucharist"
+      ],
+      "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/apps/animated-concept-canvas/creation-concepts.html"
+    }
+  ]
+}

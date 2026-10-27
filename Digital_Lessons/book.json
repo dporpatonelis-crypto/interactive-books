@@ -3,8 +3,8 @@
   "book_id": "Digital_Lessons",
   "title": "Το ψηφιακό μου βιβλίο",
   "description": "Κείμενα, εικόνες και συνδέσεις για τα μαθήματά μας στα web apps και στο Unity.",
-  "revision": 28,
-  "updated_at": "2026-10-22T17:38:07.072842Z",
+  "revision": 29,
+  "updated_at": "2026-10-27T05:33:46.565299Z",
   "cover": {
     "asset": "assets/old-testament-objects.png",
     "caption": "Έξι ιερά αντικείμενα της Παλαιάς Διαθήκης",
@@ -2430,9 +2430,139 @@
               "placement": "after_text"
             }
           ]
+        },
+        {
+          "id": "trinity-basic-concept-canvas",
+          "title": "Αγία Τριάδα · Τα βασικά με εικόνες και κάρτες",
+          "source_file": "sources/concept-canvas-lessons.json",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Γνωρίζουμε την Αγία Τριάδα μέσα από έξι μικρά εικαστικά παζλ. Διαλέγουμε μια κάρτα και την τοποθετούμε στην υποδοχή που ταιριάζει. Με κάθε σωστή απάντηση φωτίζεται ένα συγκεκριμένο στοιχείο της εικόνας."
+            },
+            {
+              "kind": "list_item",
+              "text": "Ποια είναι τα τρία Πρόσωπα;"
+            },
+            {
+              "kind": "list_item",
+              "text": "Ο Υιός του Θεού γίνεται άνθρωπος"
+            },
+            {
+              "kind": "list_item",
+              "text": "Γιατί τον λέμε Ιησού Χριστό;"
+            },
+            {
+              "kind": "list_item",
+              "text": "Γνωρίζουμε τον Θεό όλο και πιο καθαρά"
+            },
+            {
+              "kind": "list_item",
+              "text": "Τι έγινε την Πεντηκοστή;"
+            },
+            {
+              "kind": "list_item",
+              "text": "Η ζωή με τον Θεό στην Εκκλησία"
+            },
+            {
+              "kind": "text",
+              "text": "Η πορεία Παλαιά Διαθήκη – Καινή Διαθήκη – ζωή της Εκκλησίας περιγράφει πώς οι άνθρωποι γνωρίζουν τον ίδιο Τριαδικό Θεό όλο και πιο καθαρά. Ο Πατέρας, ο Υιός και το Άγιο Πνεύμα υπάρχουν πάντοτε και ενεργούν μαζί."
+            },
+            {
+              "kind": "text",
+              "text": "Η δραστηριότητα προσφέρει δύο σταδιακές υποδείξεις και, όταν το ζητήσουμε, λυμένο παράδειγμα. Στο τέλος διαβάζουμε το μικρό συμπέρασμα και εξηγούμε προφορικά τη σύνδεση της κάρτας με την εικόνα."
+            },
+            {
+              "kind": "source",
+              "text": "Διδακτικές αποδόσεις από Ματθαίο 3:13–17, 28:19, Λουκά 2, Ιωάννη 1:14, 1:41, 14:9, 14:26, Πράξεις 2, το Σύμβολο της Πίστεως και Γρηγόριο τον Θεολόγο, Λόγος 31, §26. Οι εικόνες είναι εκπαιδευτικές συνθέσεις."
+            }
+          ],
+          "media": [
+            {
+              "media_id": "IMG-122",
+              "type": "image",
+              "title": "Η Βάπτιση στον Ιορδάνη · Αγία Τριάδα",
+              "caption": "Στη Βάπτιση του Ιησού: η φωνή του Πατέρα, ο Υιός στον Ιορδάνη και το Άγιο Πνεύμα σαν περιστέρι. Το άνοιγμα φωτός θυμίζει τη φωνή· δεν αποδίδει τη μορφή του Πατέρα.",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/concept-canvas/trinity-baptism.webp",
+              "asset": "assets/concept-canvas/trinity-baptism.webp"
+            },
+            {
+              "media_id": "WEB-005",
+              "type": "website",
+              "title": "Αγία Τριάδα · Αναλόγιο για μικρότερες ηλικίες",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/apps/animated-concept-canvas/index.html#unit=basics",
+              "placement": "after_text"
+            }
+          ]
+        },
+        {
+          "id": "trinity-advanced-concept-canvas",
+          "title": "Τριαδική θεολογία · Αναλόγιο εμβάθυνσης",
+          "source_file": "sources/concept-canvas-lessons.json",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Όταν οι βασικές έννοιες είναι ήδη γνώριμες, συνεχίζουμε με πέντε παζλ που συνδέουν τη διατύπωση του δόγματος με τη ζωή και την κοινωνία των προσώπων."
+            },
+            {
+              "kind": "list_item",
+              "text": "Η ενότητα και τα Πρόσωπα"
+            },
+            {
+              "kind": "list_item",
+              "text": "Από τα ρήματα στα πράγματα"
+            },
+            {
+              "kind": "list_item",
+              "text": "Μαζί, με διάκριση προσώπων"
+            },
+            {
+              "kind": "list_item",
+              "text": "Από το πρότυπο στην κοινωνία"
+            },
+            {
+              "kind": "list_item",
+              "text": "Η αγαπητική περιχώρηση"
+            },
+            {
+              "kind": "text",
+              "text": "Συνδέουμε δύο στοιχεία με μία σχέση, συμπληρώνουμε μια πορεία συλλογισμού ή επιλέγουμε έναν ισχυρισμό με δύο υποστηρικτικά στοιχεία. Τα δύο στοιχεία της τεκμηρίωσης γίνονται δεκτά και στις δύο αντίστοιχες θέσεις."
+            },
+            {
+              "kind": "text",
+              "text": "Τα βασικά και η εμβάθυνση βρίσκονται στο ίδιο αναλόγιο. Μπορούμε να επιλέγουμε ενότητα ανάλογα με το μάθημα, με ανεξάρτητη πρόοδο και επίπεδο υποστήριξης."
+            },
+            {
+              "kind": "source",
+              "text": "Πηγή: «Τριαδική Θεολογία Κουίζ», ερωτήσεις 1–5. Οι κάρτες και τα τελικά συμπεράσματα είναι σύντομες διδακτικές αποδόσεις του επιλεγμένου υλικού."
+            }
+          ],
+          "media": [
+            {
+              "media_id": "WEB-006",
+              "type": "website",
+              "title": "Αγία Τριάδα · Αναλόγιο εμβάθυνσης",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/apps/animated-concept-canvas/index.html#unit=advanced",
+              "placement": "after_text"
+            }
+          ]
         }
       ],
-      "source_url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/sources/trinity-dogmatic-consciousness.pdf"
+      "source_url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/sources/trinity-dogmatic-consciousness.pdf",
+      "app_links": [
+        {
+          "label": "Αγία Τριάδα · Αναλόγιο για μικρότερες ηλικίες",
+          "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/apps/animated-concept-canvas/index.html#unit=basics",
+          "media_id": "WEB-005",
+          "section_id": "trinity-basic-concept-canvas"
+        },
+        {
+          "label": "Αγία Τριάδα · Αναλόγιο εμβάθυνσης",
+          "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/apps/animated-concept-canvas/index.html#unit=advanced",
+          "media_id": "WEB-006",
+          "section_id": "trinity-advanced-concept-canvas"
+        }
+      ]
     },
     {
       "id": "lesson-creation-world",
@@ -2611,6 +2741,74 @@
             }
           ],
           "media": []
+        },
+        {
+          "id": "creation-concept-canvas",
+          "title": "Δημιουργία · Ανακαλύπτω τις έννοιες στην εικόνα",
+          "source_file": "sources/concept-canvas-lessons.json",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Σε πέντε εικαστικά παζλ συνδέουμε τη δημιουργία του ανθρώπου, το κατ’ εικόνα και την προοπτική της ζωής εν Χριστώ. Οι σωστές κάρτες αποκαλύπτουν συγκεκριμένα πρόσωπα, αντικείμενα και συμβολικές σκηνές."
+            },
+            {
+              "kind": "list_item",
+              "text": "Ο άνθρωπος ανάμεσα στους δύο κόσμους"
+            },
+            {
+              "kind": "list_item",
+              "text": "Η εικόνα αφορά όλη την ανθρωπότητα"
+            },
+            {
+              "kind": "list_item",
+              "text": "Από το κατ’ εικόνα στο καθ’ ομοίωσιν"
+            },
+            {
+              "kind": "list_item",
+              "text": "Από τους χιτώνες στη λευκή στολή"
+            },
+            {
+              "kind": "list_item",
+              "text": "Από τον καρπό στην κοινωνία ζωής"
+            },
+            {
+              "kind": "text",
+              "text": "Η ακολουθία από το κατ’ εικόνα προς το καθ’ ομοίωσιν είναι πορεία ελεύθερης ανταπόκρισης στη χάρη. Ο άνθρωπος παρουσιάζεται ως ενιαία ύπαρξη σώματος και ψυχής, που δημιουργούνται ταυτόχρονα."
+            },
+            {
+              "kind": "text",
+              "text": "Στο τέλος κάθε παζλ παρατηρούμε την ολοκληρωμένη εικόνα, διαβάζουμε τη σύντομη ερμηνεία και αιτιολογούμε προφορικά μια σύνδεση. Η συμβολική εικόνα υποστηρίζει το νόημα χωρίς να το εξαντλεί."
+            },
+            {
+              "kind": "source",
+              "text": "Επιλογή και διδακτική διαμόρφωση από το quiz «Δημιουργία, Κατ’ Εικόνα και Πτώση — Κουίζ Πατερικής Θεολογίας»: βασικές ερωτήσεις 1, 3, 2, 5 και 6, με υποστηρικτικό υλικό από την ερώτηση 4."
+            }
+          ],
+          "media": [
+            {
+              "media_id": "IMG-123",
+              "type": "image",
+              "title": "Ο άνθρωπος και η κτίση · Αναλόγιο Δημιουργίας",
+              "caption": "Ο άνθρωπος ως μεθόριο του αισθητού και του νοητού κόσμου. Η εικόνα βοηθά να συζητήσουμε την ενότητα σώματος και ψυχής.",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/concept-canvas/creation-human.webp",
+              "asset": "assets/concept-canvas/creation-human.webp"
+            },
+            {
+              "media_id": "WEB-007",
+              "type": "website",
+              "title": "Δημιουργία · Αναλόγιο εννοιών",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/apps/animated-concept-canvas/creation-concepts.html",
+              "placement": "after_text"
+            }
+          ]
+        }
+      ],
+      "app_links": [
+        {
+          "label": "Δημιουργία · Αναλόγιο εννοιών",
+          "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/apps/animated-concept-canvas/creation-concepts.html",
+          "media_id": "WEB-007",
+          "section_id": "creation-concept-canvas"
         }
       ]
     },

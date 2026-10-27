@@ -2,8 +2,8 @@
   "title": "Το ψηφιακό μου βιβλίο",
   "description": "Κείμενα, εικόνες και συνδέσεις για τα μαθήματά μας στα web apps και στο Unity.",
   "bookId": "Digital_Lessons",
-  "revision": 28,
-  "sourceDigest": "8dea0c060c3547fdb78dad8fb195e66591dd7335f2eb82132d26c4f0590faf56",
+  "revision": 29,
+  "sourceDigest": "4b0099295d853220ad73e930802eff9c6dc4b384cf6922a90b641e1beb9f03ff",
   "coverImage": "assets/old-testament-objects.png",
   "coverCaption": "Έξι ιερά αντικείμενα της Παλαιάς Διαθήκης",
   "edition": "ΠΡΟΣΩΠΙΚΟ ΨΗΦΙΑΚΟ ΒΙΒΛΙΟ",
@@ -2610,8 +2610,168 @@
       "driveUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/christianity-study/trinity-dogma/trinity-dogma-slides.pdf"
     },
     {
-      "id": "creation-world",
+      "id": "trinity-basic-concept-canvas",
       "number": 40,
+      "type": "content",
+      "title": "Αγία Τριάδα · Τα βασικά με εικόνες και κάρτες",
+      "displayTitle": "Αγία Τριάδα · Τα βασικά με εικόνες και κάρτες",
+      "sourceBook": "Digital_Lessons",
+      "sourceTitle": "Μάθημα 8",
+      "sourcePage": 2,
+      "lessonId": "lesson-trinity-dogmatic-consciousness",
+      "lessonTitle": "Πίστη στον Τριαδικό Θεό και δογματική συνείδηση",
+      "sourceUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/sources/trinity-dogmatic-consciousness.pdf",
+      "content": [
+        {
+          "text": "Γνωρίζουμε την Αγία Τριάδα μέσα από έξι μικρά εικαστικά παζλ. Διαλέγουμε μια κάρτα και την τοποθετούμε στην υποδοχή που ταιριάζει. Με κάθε σωστή απάντηση φωτίζεται ένα συγκεκριμένο στοιχείο της εικόνας.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "• Ποια είναι τα τρία Πρόσωπα;",
+          "kind": "list_item",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "• Ο Υιός του Θεού γίνεται άνθρωπος",
+          "kind": "list_item",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "• Γιατί τον λέμε Ιησού Χριστό;",
+          "kind": "list_item",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "• Γνωρίζουμε τον Θεό όλο και πιο καθαρά",
+          "kind": "list_item",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "• Τι έγινε την Πεντηκοστή;",
+          "kind": "list_item",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "• Η ζωή με τον Θεό στην Εκκλησία",
+          "kind": "list_item",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "Η πορεία Παλαιά Διαθήκη – Καινή Διαθήκη – ζωή της Εκκλησίας περιγράφει πώς οι άνθρωποι γνωρίζουν τον ίδιο Τριαδικό Θεό όλο και πιο καθαρά. Ο Πατέρας, ο Υιός και το Άγιο Πνεύμα υπάρχουν πάντοτε και ενεργούν μαζί.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "Η δραστηριότητα προσφέρει δύο σταδιακές υποδείξεις και, όταν το ζητήσουμε, λυμένο παράδειγμα. Στο τέλος διαβάζουμε το μικρό συμπέρασμα και εξηγούμε προφορικά τη σύνδεση της κάρτας με την εικόνα.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "source": "Διδακτικές αποδόσεις από Ματθαίο 3:13–17, 28:19, Λουκά 2, Ιωάννη 1:14, 1:41, 14:9, 14:26, Πράξεις 2, το Σύμβολο της Πίστεως και Γρηγόριο τον Θεολόγο, Λόγος 31, §26. Οι εικόνες είναι εκπαιδευτικές συνθέσεις."
+        }
+      ],
+      "mediaRefs": [
+        "IMG-122",
+        "WEB-005"
+      ],
+      "images": [
+        "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/concept-canvas/trinity-baptism.webp"
+      ],
+      "imageCaption": "Στη Βάπτιση του Ιησού: η φωνή του Πατέρα, ο Υιός στον Ιορδάνη και το Άγιο Πνεύμα σαν περιστέρι. Το άνοιγμα φωτός θυμίζει τη φωνή· δεν αποδίδει τη μορφή του Πατέρα.",
+      "webUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/apps/animated-concept-canvas/index.html#unit=basics",
+      "localImages": [
+        {
+          "src": "assets/concept-canvas/trinity-baptism.webp",
+          "original": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/concept-canvas/trinity-baptism.webp",
+          "mediaId": "IMG-122",
+          "caption": "Στη Βάπτιση του Ιησού: η φωνή του Πατέρα, ο Υιός στον Ιορδάνη και το Άγιο Πνεύμα σαν περιστέρι. Το άνοιγμα φωτός θυμίζει τη φωνή· δεν αποδίδει τη μορφή του Πατέρα.",
+          "retained": true
+        }
+      ]
+    },
+    {
+      "id": "trinity-advanced-concept-canvas",
+      "number": 41,
+      "type": "content",
+      "title": "Τριαδική θεολογία · Αναλόγιο εμβάθυνσης",
+      "displayTitle": "Τριαδική θεολογία · Αναλόγιο εμβάθυνσης",
+      "sourceBook": "Digital_Lessons",
+      "sourceTitle": "Μάθημα 8",
+      "sourcePage": 3,
+      "lessonId": "lesson-trinity-dogmatic-consciousness",
+      "lessonTitle": "Πίστη στον Τριαδικό Θεό και δογματική συνείδηση",
+      "sourceUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/sources/trinity-dogmatic-consciousness.pdf",
+      "content": [
+        {
+          "text": "Όταν οι βασικές έννοιες είναι ήδη γνώριμες, συνεχίζουμε με πέντε παζλ που συνδέουν τη διατύπωση του δόγματος με τη ζωή και την κοινωνία των προσώπων.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "• Η ενότητα και τα Πρόσωπα",
+          "kind": "list_item",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "• Από τα ρήματα στα πράγματα",
+          "kind": "list_item",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "• Μαζί, με διάκριση προσώπων",
+          "kind": "list_item",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "• Από το πρότυπο στην κοινωνία",
+          "kind": "list_item",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "• Η αγαπητική περιχώρηση",
+          "kind": "list_item",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "Συνδέουμε δύο στοιχεία με μία σχέση, συμπληρώνουμε μια πορεία συλλογισμού ή επιλέγουμε έναν ισχυρισμό με δύο υποστηρικτικά στοιχεία. Τα δύο στοιχεία της τεκμηρίωσης γίνονται δεκτά και στις δύο αντίστοιχες θέσεις.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "Τα βασικά και η εμβάθυνση βρίσκονται στο ίδιο αναλόγιο. Μπορούμε να επιλέγουμε ενότητα ανάλογα με το μάθημα, με ανεξάρτητη πρόοδο και επίπεδο υποστήριξης.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "source": "Πηγή: «Τριαδική Θεολογία Κουίζ», ερωτήσεις 1–5. Οι κάρτες και τα τελικά συμπεράσματα είναι σύντομες διδακτικές αποδόσεις του επιλεγμένου υλικού."
+        }
+      ],
+      "mediaRefs": [
+        "WEB-006"
+      ],
+      "webUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/apps/animated-concept-canvas/index.html#unit=advanced"
+    },
+    {
+      "id": "creation-world",
+      "number": 42,
       "type": "content",
       "title": "Δημιουργία του Κόσμου",
       "displayTitle": "Δημιουργία του Κόσμου",
@@ -2646,7 +2806,7 @@
     },
     {
       "id": "creation-image-likeness",
-      "number": 41,
+      "number": 43,
       "type": "content",
       "title": "Κατ’ εικόνα και καθ’ ομοίωση",
       "displayTitle": "Κατ’ εικόνα και καθ’ ομοίωση",
@@ -2674,7 +2834,7 @@
     },
     {
       "id": "creation-restoration-christ",
-      "number": 42,
+      "number": 44,
       "type": "content",
       "title": "Επανόρθωση εν Χριστώ",
       "displayTitle": "Επανόρθωση εν Χριστώ",
@@ -2810,8 +2970,92 @@
       "mediaRefs": []
     },
     {
+      "id": "creation-concept-canvas",
+      "number": 45,
+      "type": "content",
+      "title": "Δημιουργία · Ανακαλύπτω τις έννοιες στην εικόνα",
+      "displayTitle": "Δημιουργία · Ανακαλύπτω τις έννοιες στην εικόνα",
+      "sourceBook": "Digital_Lessons",
+      "sourceTitle": "Μάθημα 9",
+      "sourcePage": 4,
+      "lessonId": "lesson-creation-world",
+      "lessonTitle": "Δημιουργία του Κόσμου",
+      "sourceUrl": "",
+      "content": [
+        {
+          "text": "Σε πέντε εικαστικά παζλ συνδέουμε τη δημιουργία του ανθρώπου, το κατ’ εικόνα και την προοπτική της ζωής εν Χριστώ. Οι σωστές κάρτες αποκαλύπτουν συγκεκριμένα πρόσωπα, αντικείμενα και συμβολικές σκηνές.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "• Ο άνθρωπος ανάμεσα στους δύο κόσμους",
+          "kind": "list_item",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "• Η εικόνα αφορά όλη την ανθρωπότητα",
+          "kind": "list_item",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "• Από το κατ’ εικόνα στο καθ’ ομοίωσιν",
+          "kind": "list_item",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "• Από τους χιτώνες στη λευκή στολή",
+          "kind": "list_item",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "• Από τον καρπό στην κοινωνία ζωής",
+          "kind": "list_item",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "Η ακολουθία από το κατ’ εικόνα προς το καθ’ ομοίωσιν είναι πορεία ελεύθερης ανταπόκρισης στη χάρη. Ο άνθρωπος παρουσιάζεται ως ενιαία ύπαρξη σώματος και ψυχής, που δημιουργούνται ταυτόχρονα.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "Στο τέλος κάθε παζλ παρατηρούμε την ολοκληρωμένη εικόνα, διαβάζουμε τη σύντομη ερμηνεία και αιτιολογούμε προφορικά μια σύνδεση. Η συμβολική εικόνα υποστηρίζει το νόημα χωρίς να το εξαντλεί.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "source": "Επιλογή και διδακτική διαμόρφωση από το quiz «Δημιουργία, Κατ’ Εικόνα και Πτώση — Κουίζ Πατερικής Θεολογίας»: βασικές ερωτήσεις 1, 3, 2, 5 και 6, με υποστηρικτικό υλικό από την ερώτηση 4."
+        }
+      ],
+      "mediaRefs": [
+        "IMG-123",
+        "WEB-007"
+      ],
+      "images": [
+        "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/concept-canvas/creation-human.webp"
+      ],
+      "imageCaption": "Ο άνθρωπος ως μεθόριο του αισθητού και του νοητού κόσμου. Η εικόνα βοηθά να συζητήσουμε την ενότητα σώματος και ψυχής.",
+      "webUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/apps/animated-concept-canvas/creation-concepts.html",
+      "localImages": [
+        {
+          "src": "assets/concept-canvas/creation-human.webp",
+          "original": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/concept-canvas/creation-human.webp",
+          "mediaId": "IMG-123",
+          "caption": "Ο άνθρωπος ως μεθόριο του αισθητού και του νοητού κόσμου. Η εικόνα βοηθά να συζητήσουμε την ενότητα σώματος και ψυχής.",
+          "retained": true
+        }
+      ]
+    },
+    {
       "id": "fall-restoration-introduction",
-      "number": 43,
+      "number": 46,
       "type": "content",
       "title": "Η Εδέμ, η πτώση και η υπόσχεση",
       "displayTitle": "Η Εδέμ, η πτώση και η υπόσχεση",
@@ -2854,7 +3098,7 @@
     },
     {
       "id": "fall-restoration-thorns",
-      "number": 44,
+      "number": 47,
       "type": "content",
       "title": "Ο Σταυρός — από την εξορία στη ζωή",
       "displayTitle": "Ο Σταυρός — από την εξορία στη ζωή",
@@ -2882,7 +3126,7 @@
     },
     {
       "id": "fall-restoration-parallel-texts",
-      "number": 45,
+      "number": 48,
       "type": "content",
       "title": "Από την Εδέμ στην Ανάσταση — παράλληλα χωρία",
       "displayTitle": "Από την Εδέμ στην Ανάσταση — παράλληλα χωρία",
@@ -2969,7 +3213,7 @@
     },
     {
       "id": "fall-restoration-anastasis",
-      "number": 46,
+      "number": 49,
       "type": "content",
       "title": "Η Ανάσταση και η ανακαίνιση του ανθρώπου",
       "displayTitle": "Η Ανάσταση και η ανακαίνιση του ανθρώπου",
@@ -3018,7 +3262,7 @@
     },
     {
       "id": "fall-restoration-conclusion",
-      "number": 47,
+      "number": 50,
       "type": "content",
       "title": "Θέωση και αγάπη για όλο τον Αδάμ",
       "displayTitle": "Θέωση και αγάπη για όλο τον Αδάμ",
