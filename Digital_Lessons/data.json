@@ -2,8 +2,8 @@
   "title": "Το ψηφιακό μου βιβλίο",
   "description": "Κείμενα, εικόνες και συνδέσεις για τα μαθήματά μας στα web apps και στο Unity.",
   "bookId": "Digital_Lessons",
-  "revision": 29,
-  "sourceDigest": "4b0099295d853220ad73e930802eff9c6dc4b384cf6922a90b641e1beb9f03ff",
+  "revision": 30,
+  "sourceDigest": "631556ee0771139b1c4327bccc9deb72fe3c341172832b4e0ff81f5e1729dd06",
   "coverImage": "assets/old-testament-objects.png",
   "coverCaption": "Έξι ιερά αντικείμενα της Παλαιάς Διαθήκης",
   "edition": "ΠΡΟΣΩΠΙΚΟ ΨΗΦΙΑΚΟ ΒΙΒΛΙΟ",
@@ -103,8 +103,53 @@
       "mediaRefs": []
     },
     {
-      "id": "s-81491e8e-e56e-5a32-b73e-0f268cf4fb57",
+      "id": "divine-economy-mindmap",
       "number": 3,
+      "type": "content",
+      "title": "Το Σχέδιο της Θείας Οικονομίας · Φωτεινός χάρτης",
+      "displayTitle": "Το Σχέδιο της Θείας Οικονομίας · Φωτεινός χάρτης",
+      "sourceBook": "Digital_Lessons",
+      "sourceTitle": "Μάθημα 1",
+      "sourcePage": 3,
+      "lessonId": "lesson-foundations",
+      "lessonTitle": "Βασικές γνώσεις για όλες τις τάξεις",
+      "sourceUrl": "",
+      "content": [
+        {
+          "text": "Ο φωτεινός χάρτης οργανώνει το μάθημα σε τέσσερις βασικές ενότητες: την εικόνα της ασθένειας, την Παλαιά Διαθήκη, την Καινή Διαθήκη και την Εκκλησία. Η ασθένεια λειτουργεί ως παρομοίωση της ανθρώπινης κατάστασης και της θεραπείας.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "Ο μαθητής συνδέει τις ενότητες και τις επιμέρους έννοιες με τα σημεία της εικόνας. Οι φωτεινές κλωστές συνοδεύουν την προοδευτική αποκάλυψη του κειμένου.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "Συνέχεια στο Unity: το διαδραστικό βιβλίο VR έχει προφίλ για το ίδιο μάθημα και ανοίγει το χρονολόγιο και τον πίνακα διερεύνησης. Αυτή η συνέχεια χρειάζεται σύνδεση στο διαδίκτυο και αφορά διαφορετικές εργασίες από τον φωτεινό χάρτη.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "Το HTML παραμένει ιδιωτικό στο Drive. Ο εκπαιδευτικός το κατεβάζει με τον λογαριασμό του και το ανοίγει τοπικά στον browser. Ο σύνδεσμος του βιβλίου δεν δημοσιεύει αντίγραφο του αρχείου.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        }
+      ],
+      "mediaRefs": [
+        "DOC-027",
+        "WEB-010"
+      ],
+      "driveUrl": "https://drive.google.com/file/d/1jmSyJQ96_Gd2EXC_jWdNKagGhejZN7gk/view?usp=drivesdk",
+      "webUrl": "https://dporpatonelis-crypto.github.io/Browser-vr/?material=284df9b465139f702b4e#activity/sb%3Ato-schedio-tis-theias-oikonomias"
+    },
+    {
+      "id": "s-81491e8e-e56e-5a32-b73e-0f268cf4fb57",
+      "number": 4,
       "type": "content",
       "title": "Εισαγωγή",
       "displayTitle": "Εισαγωγή",
@@ -165,7 +210,7 @@
     },
     {
       "id": "s-4c4c2f7c-92aa-5e18-85aa-7e5f5a1e0535",
-      "number": 4,
+      "number": 5,
       "type": "content",
       "title": "Αρχαία Αγορά: Ο Ελληνικός Στοχασμός ως Γέφυρα Διαλόγου",
       "displayTitle": "Αρχαία Αγορά: Ο Ελληνικός Στοχασμός ως Γέφυρα Διαλόγου",
@@ -235,7 +280,7 @@
     },
     {
       "id": "abraham-journey",
-      "number": 5,
+      "number": 6,
       "type": "content",
       "title": "Η πορεία του Αβραάμ",
       "displayTitle": "Η πορεία του Αβραάμ",
@@ -279,7 +324,7 @@
     },
     {
       "id": "s-851e860a-84d7-5377-a1f6-f6a88b0a17ce",
-      "number": 6,
+      "number": 7,
       "type": "content",
       "title": "Ιερουσαλήμ: Από τη Σκιά της Παλαιάς Διαθήκης στην Υμνολογική Πλήρωση",
       "displayTitle": "Ιερουσαλήμ: Από τη Σκιά της Παλαιάς Διαθήκης στην Υμνολογική Πλήρωση",
@@ -478,7 +523,7 @@
     },
     {
       "id": "david-journey",
-      "number": 7,
+      "number": 8,
       "type": "content",
       "title": "Η πορεία του Δαυίδ",
       "displayTitle": "Η πορεία του Δαυίδ",
@@ -522,7 +567,7 @@
     },
     {
       "id": "elijah-journey",
-      "number": 8,
+      "number": 9,
       "type": "content",
       "title": "Η πορεία του Ηλία",
       "displayTitle": "Η πορεία του Ηλία",
@@ -566,7 +611,7 @@
     },
     {
       "id": "s-0b2bee9f-337b-5288-bfee-1054a9131e97",
-      "number": 9,
+      "number": 10,
       "type": "content",
       "title": "Βυζάντιο: Τα Όρια της Σοφίας, το Σημείο και ο Σταυρός",
       "displayTitle": "Βυζάντιο: Τα Όρια της Σοφίας, το Σημείο και ο Σταυρός",
@@ -660,7 +705,7 @@
     },
     {
       "id": "s-d4a85ee8-310b-552f-b22e-b107eafa8b7f",
-      "number": 10,
+      "number": 11,
       "type": "content",
       "title": "Σύνοψη",
       "displayTitle": "Σύνοψη",
@@ -712,7 +757,7 @@
     },
     {
       "id": "pentecost-upper-room",
-      "number": 11,
+      "number": 12,
       "type": "content",
       "title": "Πεντηκοστή: Από το Ιστορικό Υπερώο στην Οικουμενική Εκκλησία",
       "displayTitle": "Πεντηκοστή: Από το Ιστορικό Υπερώο στην Οικουμενική Εκκλησία",
@@ -787,7 +832,7 @@
     },
     {
       "id": "pentecost-six-stations",
-      "number": 12,
+      "number": 13,
       "type": "content",
       "title": "Οι έξι σταθμοί ανακάλυψης",
       "displayTitle": "Οι έξι σταθμοί ανακάλυψης",
@@ -887,7 +932,7 @@
     },
     {
       "id": "pentecost-liturgical-time",
-      "number": 13,
+      "number": 14,
       "type": "content",
       "title": "Ιστορικός χρόνος και λειτουργικό «Σήμερον»",
       "displayTitle": "Ιστορικός χρόνος και λειτουργικό «Σήμερον»",
@@ -942,7 +987,7 @@
     },
     {
       "id": "pentecost-prayer-all-adam",
-      "number": 14,
+      "number": 15,
       "type": "content",
       "title": "Η προσευχή υπέρ όλου του Αδάμ",
       "displayTitle": "Η προσευχή υπέρ όλου του Αδάμ",
@@ -1000,7 +1045,7 @@
     },
     {
       "id": "pentecost-vr-learning",
-      "number": 15,
+      "number": 16,
       "type": "content",
       "title": "Η βιωματική διαδρομή στο VR",
       "displayTitle": "Η βιωματική διαδρομή στο VR",
@@ -1073,7 +1118,7 @@
     },
     {
       "id": "pentecost-summary",
-      "number": 16,
+      "number": 17,
       "type": "content",
       "title": "Συνοψίζοντας: Τα κύρια σημεία",
       "displayTitle": "Συνοψίζοντας: Τα κύρια σημεία",
@@ -1136,7 +1181,7 @@
     },
     {
       "id": "pentecost-advanced-theology",
-      "number": 17,
+      "number": 18,
       "type": "content",
       "title": "Προχωρημένο επίπεδο: Η λειτουργική προσευχή και το Υπερώο",
       "displayTitle": "Προχωρημένο επίπεδο: Η λειτουργική προσευχή και το Υπερώο",
@@ -1206,7 +1251,7 @@
     },
     {
       "id": "pentecost-selected-materials",
-      "number": 18,
+      "number": 19,
       "type": "content",
       "title": "Επιλεγμένο υλικό",
       "displayTitle": "Επιλεγμένο υλικό",
@@ -1278,7 +1323,7 @@
     },
     {
       "id": "john-baptist-journey",
-      "number": 19,
+      "number": 20,
       "type": "content",
       "title": "Η πορεία του Ιωάννη του Βαπτιστή",
       "displayTitle": "Η πορεία του Ιωάννη του Βαπτιστή",
@@ -1324,7 +1369,7 @@
     },
     {
       "id": "john-evangelist-journey",
-      "number": 20,
+      "number": 21,
       "type": "content",
       "title": "Η πορεία του Ιωάννη",
       "displayTitle": "Η πορεία του Ιωάννη",
@@ -1370,7 +1415,7 @@
     },
     {
       "id": "peter-journey",
-      "number": 21,
+      "number": 22,
       "type": "content",
       "title": "Η πορεία του Πέτρου",
       "displayTitle": "Η πορεία του Πέτρου",
@@ -1416,7 +1461,7 @@
     },
     {
       "id": "paul-journey",
-      "number": 22,
+      "number": 23,
       "type": "content",
       "title": "Η πορεία του Παύλου",
       "displayTitle": "Η πορεία του Παύλου",
@@ -1462,7 +1507,7 @@
     },
     {
       "id": "apokalypsi",
-      "number": 23,
+      "number": 24,
       "type": "content",
       "title": "Η Αποκάλυψη σε έξι σημεία",
       "displayTitle": "Η Αποκάλυψη σε έξι σημεία",
@@ -1571,7 +1616,7 @@
     },
     {
       "id": "apokalypsi-materials",
-      "number": 24,
+      "number": 25,
       "type": "content",
       "title": "Το υλικό μας στις εφαρμογές και στο VR",
       "displayTitle": "Το υλικό μας στις εφαρμογές και στο VR",
@@ -1668,7 +1713,7 @@
     },
     {
       "id": "science-religion-overview",
-      "number": 25,
+      "number": 26,
       "type": "content",
       "title": "Επιστήμη και θρησκεία",
       "displayTitle": "Επιστήμη και θρησκεία",
@@ -1719,7 +1764,7 @@
     },
     {
       "id": "science-religion-worksheet",
-      "number": 26,
+      "number": 27,
       "type": "content",
       "title": "Φύλλο εργασίας μαθητή",
       "displayTitle": "Φύλλο εργασίας μαθητή",
@@ -1762,7 +1807,7 @@
     },
     {
       "id": "science-religion-agora-quiz",
-      "number": 27,
+      "number": 28,
       "type": "content",
       "title": "Quiz στην Κλασική Αγορά",
       "displayTitle": "Quiz στην Κλασική Αγορά",
@@ -1826,7 +1871,7 @@
     },
     {
       "id": "science-religion-agora-artifact-talk",
-      "number": 28,
+      "number": 29,
       "type": "content",
       "title": "Συζήτηση με τον Δημήτρη",
       "displayTitle": "Συζήτηση με τον Δημήτρη",
@@ -1877,8 +1922,53 @@
       "mediaRefs": []
     },
     {
+      "id": "science-heart-mindmap",
+      "number": 30,
+      "type": "content",
+      "title": "Νους και καρδιά · Επτά έννοιες στην εικόνα",
+      "displayTitle": "Νους και καρδιά · Επτά έννοιες στην εικόνα",
+      "sourceBook": "Digital_Lessons",
+      "sourceTitle": "Μάθημα 6",
+      "sourcePage": 5,
+      "lessonId": "lesson-005",
+      "lessonTitle": "Επιστήμη και θρησκεία",
+      "sourceUrl": "",
+      "content": [
+        {
+          "text": "Επτά έννοιες οργανώνουν την ανάγνωση του κειμένου για την επιστήμη και τη θρησκεία: διάνοια, υλικός κόσμος, πνευματικός κόσμος, μέθοδοι, καρδιά, επικοινωνία και διάκριση.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "Στην τάξη ο μαθητής συνδέει κάθε έννοια με το αντίστοιχο εύρημα της εικόνας. Η προοδευτική αποκάλυψη κειμένου κρατά την προσοχή στη σχέση ανάμεσα στη λέξη, στο απόσπασμα και στην εικόνα.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "Συνέχεια στο Unity: το σενάριο «Δύο τρόποι γνώσης» στα Ιεροσόλυμα χρησιμοποιεί συλλογή έξι παπύρων και στόχευση περιοχών της εικόνας. Είναι θεματική συνέχεια της διερεύνησης νου και καρδιάς, με διαφορετικό αριθμό στοιχείων και διαφορετικό χειρισμό.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "Το HTML παραμένει ιδιωτικό στο Drive. Ο εκπαιδευτικός το κατεβάζει με τον λογαριασμό του και το ανοίγει τοπικά στον browser. Ο σύνδεσμος του βιβλίου δεν δημοσιεύει αντίγραφο του αρχείου.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        }
+      ],
+      "mediaRefs": [
+        "DOC-028",
+        "WEB-011"
+      ],
+      "driveUrl": "https://drive.google.com/file/d/1m1VD1hp6_bEpCrltrCtYq1ZD8hs-Fbk0/view?usp=drivesdk",
+      "webUrl": "https://dporpatonelis-crypto.github.io/Browser-vr/?material=82ec311e076b554cae00#activity/book%3Alesson-005"
+    },
+    {
       "id": "father-athanasius",
-      "number": 29,
+      "number": 31,
       "type": "content",
       "title": "Μέγας Αθανάσιος",
       "displayTitle": "Μέγας Αθανάσιος",
@@ -1939,7 +2029,7 @@
     },
     {
       "id": "father-basil",
-      "number": 30,
+      "number": 32,
       "type": "content",
       "title": "Μέγας Βασίλειος",
       "displayTitle": "Μέγας Βασίλειος",
@@ -2000,7 +2090,7 @@
     },
     {
       "id": "father-gregory-theologian",
-      "number": 31,
+      "number": 33,
       "type": "content",
       "title": "Γρηγόριος ο Θεολόγος",
       "displayTitle": "Γρηγόριος ο Θεολόγος",
@@ -2061,7 +2151,7 @@
     },
     {
       "id": "father-john-chrysostom",
-      "number": 32,
+      "number": 34,
       "type": "content",
       "title": "Ιωάννης ο Χρυσόστομος",
       "displayTitle": "Ιωάννης ο Χρυσόστομος",
@@ -2122,7 +2212,7 @@
     },
     {
       "id": "father-cyril",
-      "number": 33,
+      "number": 35,
       "type": "content",
       "title": "Κύριλλος Αλεξανδρείας",
       "displayTitle": "Κύριλλος Αλεξανδρείας",
@@ -2183,7 +2273,7 @@
     },
     {
       "id": "father-maximus",
-      "number": 34,
+      "number": 36,
       "type": "content",
       "title": "Μάξιμος Ομολογητής",
       "displayTitle": "Μάξιμος Ομολογητής",
@@ -2244,7 +2334,7 @@
     },
     {
       "id": "father-symeon",
-      "number": 35,
+      "number": 37,
       "type": "content",
       "title": "Συμεών ο Νέος Θεολόγος",
       "displayTitle": "Συμεών ο Νέος Θεολόγος",
@@ -2305,7 +2395,7 @@
     },
     {
       "id": "father-palamas",
-      "number": 36,
+      "number": 38,
       "type": "content",
       "title": "Γρηγόριος Παλαμάς",
       "displayTitle": "Γρηγόριος Παλαμάς",
@@ -2395,7 +2485,7 @@
     },
     {
       "id": "father-john-damascene",
-      "number": 37,
+      "number": 39,
       "type": "content",
       "title": "Ιωάννης Δαμασκηνός",
       "displayTitle": "Ιωάννης Δαμασκηνός",
@@ -2456,7 +2546,7 @@
     },
     {
       "id": "father-sophrony",
-      "number": 38,
+      "number": 40,
       "type": "content",
       "title": "Άγιος Σωφρόνιος Σαχάρωφ",
       "displayTitle": "Άγιος Σωφρόνιος Σαχάρωφ",
@@ -2517,7 +2607,7 @@
     },
     {
       "id": "trinity-dogmatic-consciousness",
-      "number": 39,
+      "number": 41,
       "type": "content",
       "title": "Πίστη στον Τριαδικό Θεό και δογματική συνείδηση",
       "displayTitle": "Πίστη στον Τριαδικό Θεό και δογματική συνείδηση",
@@ -2611,7 +2701,7 @@
     },
     {
       "id": "trinity-basic-concept-canvas",
-      "number": 40,
+      "number": 42,
       "type": "content",
       "title": "Αγία Τριάδα · Τα βασικά με εικόνες και κάρτες",
       "displayTitle": "Αγία Τριάδα · Τα βασικά με εικόνες και κάρτες",
@@ -2678,17 +2768,33 @@
         },
         {
           "source": "Διδακτικές αποδόσεις από Ματθαίο 3:13–17, 28:19, Λουκά 2, Ιωάννη 1:14, 1:41, 14:9, 14:26, Πράξεις 2, το Σύμβολο της Πίστεως και Γρηγόριο τον Θεολόγο, Λόγος 31, §26. Οι εικόνες είναι εκπαιδευτικές συνθέσεις."
+        },
+        {
+          "text": "Συναφής μελέτη στο Unity: στο κυκλικό αναλόγιο του Χριστιανισμού υπάρχει το χειρόγραφο «Τριαδικό δόγμα». Είναι συνέχεια μελέτης πηγής, με διαφορετική αλληλεπίδραση από τις κάρτες της βασικής ενότητας.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
         }
       ],
       "mediaRefs": [
         "IMG-122",
-        "WEB-005"
+        "WEB-005",
+        "WEB-014"
       ],
       "images": [
         "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/concept-canvas/trinity-baptism.webp"
       ],
       "imageCaption": "Στη Βάπτιση του Ιησού: η φωνή του Πατέρα, ο Υιός στον Ιορδάνη και το Άγιο Πνεύμα σαν περιστέρι. Το άνοιγμα φωτός θυμίζει τη φωνή· δεν αποδίδει τη μορφή του Πατέρα.",
       "webUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/apps/animated-concept-canvas/index.html#unit=basics",
+      "extraMedia": [
+        {
+          "media_id": "WEB-014",
+          "type": "website",
+          "title": "Συνέχεια στο Unity · Περιγραφή στο Πιλοτήριο",
+          "url": "https://dporpatonelis-crypto.github.io/Browser-vr/?material=0c184e859a520d9546be#activity/unity%3Achristianity_free_discovery",
+          "placement": "after_text"
+        }
+      ],
       "localImages": [
         {
           "src": "assets/concept-canvas/trinity-baptism.webp",
@@ -2701,7 +2807,7 @@
     },
     {
       "id": "trinity-advanced-concept-canvas",
-      "number": 41,
+      "number": 43,
       "type": "content",
       "title": "Τριαδική θεολογία · Αναλόγιο εμβάθυνσης",
       "displayTitle": "Τριαδική θεολογία · Αναλόγιο εμβάθυνσης",
@@ -2762,16 +2868,32 @@
         },
         {
           "source": "Πηγή: «Τριαδική Θεολογία Κουίζ», ερωτήσεις 1–5. Οι κάρτες και τα τελικά συμπεράσματα είναι σύντομες διδακτικές αποδόσεις του επιλεγμένου υλικού."
+        },
+        {
+          "text": "Συναφής μελέτη στο Unity: το θεματικό χειρόγραφο «Τριαδικό δόγμα» συμμετέχει στον κύκλο χειρογράφων του Χριστιανισμού. Η μελέτη του είναι διαφορετική εργασία από τα πέντε παζλ εμβάθυνσης του HTML.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
         }
       ],
       "mediaRefs": [
-        "WEB-006"
+        "WEB-006",
+        "WEB-014"
       ],
-      "webUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/apps/animated-concept-canvas/index.html#unit=advanced"
+      "webUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/apps/animated-concept-canvas/index.html#unit=advanced",
+      "extraMedia": [
+        {
+          "media_id": "WEB-014",
+          "type": "website",
+          "title": "Συνέχεια στο Unity · Περιγραφή στο Πιλοτήριο",
+          "url": "https://dporpatonelis-crypto.github.io/Browser-vr/?material=0c184e859a520d9546be#activity/unity%3Achristianity_free_discovery",
+          "placement": "after_text"
+        }
+      ]
     },
     {
       "id": "creation-world",
-      "number": 42,
+      "number": 44,
       "type": "content",
       "title": "Δημιουργία του Κόσμου",
       "displayTitle": "Δημιουργία του Κόσμου",
@@ -2806,7 +2928,7 @@
     },
     {
       "id": "creation-image-likeness",
-      "number": 43,
+      "number": 45,
       "type": "content",
       "title": "Κατ’ εικόνα και καθ’ ομοίωση",
       "displayTitle": "Κατ’ εικόνα και καθ’ ομοίωση",
@@ -2834,7 +2956,7 @@
     },
     {
       "id": "creation-restoration-christ",
-      "number": 44,
+      "number": 46,
       "type": "content",
       "title": "Επανόρθωση εν Χριστώ",
       "displayTitle": "Επανόρθωση εν Χριστώ",
@@ -2971,7 +3093,7 @@
     },
     {
       "id": "creation-concept-canvas",
-      "number": 45,
+      "number": 47,
       "type": "content",
       "title": "Δημιουργία · Ανακαλύπτω τις έννοιες στην εικόνα",
       "displayTitle": "Δημιουργία · Ανακαλύπτω τις έννοιες στην εικόνα",
@@ -3032,17 +3154,33 @@
         },
         {
           "source": "Επιλογή και διδακτική διαμόρφωση από το quiz «Δημιουργία, Κατ’ Εικόνα και Πτώση — Κουίζ Πατερικής Θεολογίας»: βασικές ερωτήσεις 1, 3, 2, 5 και 6, με υποστηρικτικό υλικό από την ερώτηση 4."
+        },
+        {
+          "text": "Συνέχεια στο Unity: τα ίδια πέντε θέματα υπάρχουν στο κυκλικό αναλόγιο Δημιουργίας του Χριστιανισμού. Ο μαθητής ξεκλειδώνει χειρόγραφα, πιάνει τις κάρτες και φωτίζει τα αντίστοιχα ευρήματα της εικόνας.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
         }
       ],
       "mediaRefs": [
         "IMG-123",
-        "WEB-007"
+        "WEB-007",
+        "WEB-013"
       ],
       "images": [
         "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/concept-canvas/creation-human.webp"
       ],
       "imageCaption": "Ο άνθρωπος ως μεθόριο του αισθητού και του νοητού κόσμου. Η εικόνα βοηθά να συζητήσουμε την ενότητα σώματος και ψυχής.",
       "webUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/apps/animated-concept-canvas/creation-concepts.html",
+      "extraMedia": [
+        {
+          "media_id": "WEB-013",
+          "type": "website",
+          "title": "Συνέχεια στο Unity · Περιγραφή στο Πιλοτήριο",
+          "url": "https://dporpatonelis-crypto.github.io/Browser-vr/?material=29e35a1ee55b1a1edcbf#activity/book%3Alesson-creation-world",
+          "placement": "after_text"
+        }
+      ],
       "localImages": [
         {
           "src": "assets/concept-canvas/creation-human.webp",
@@ -3054,8 +3192,53 @@
       ]
     },
     {
+      "id": "human-gift-calling",
+      "number": 48,
+      "type": "content",
+      "title": "Ο άνθρωπος: δώρο και κλήση · Έξι χειρόγραφα",
+      "displayTitle": "Ο άνθρωπος: δώρο και κλήση · Έξι χειρόγραφα",
+      "sourceBook": "Digital_Lessons",
+      "sourceTitle": "Μάθημα 9",
+      "sourcePage": 5,
+      "lessonId": "lesson-creation-world",
+      "lessonTitle": "Δημιουργία του Κόσμου",
+      "sourceUrl": "",
+      "content": [
+        {
+          "text": "Η ανανεωμένη εφαρμογή «Το Δέντρο της Διαθήκης» περιλαμβάνει το σενάριο «Ο άνθρωπος: δώρο και κλήση». Έξι χειρόγραφα συνδέουν θέματα για τον άνθρωπο, το κατ’ εικόνα και καθ’ ομοίωσιν και την προοπτική ζωής με τη χάρη.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "Μετά τη λήψη του αρχείου ο εκπαιδευτικός επιλέγει αυτό το σενάριο από το μενού «Σενάρια». Το ίδιο HTML διατηρεί και τις τέσσερις προηγούμενες διαδρομές του.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "Συνέχεια στο Unity: το κυκλικό αναλόγιο Δημιουργίας στο δωμάτιο του Χριστιανισμού προσφέρει πέντε παζλ με πιάσιμο καρτών και στοχευμένη αποκάλυψη εικόνων. Πρόκειται για συναφή συνέχεια του μαθήματος και όχι για μεταφορά των ίδιων έξι καρτών.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "Το HTML παραμένει ιδιωτικό στο Drive. Ο εκπαιδευτικός το κατεβάζει με τον λογαριασμό του και το ανοίγει τοπικά στον browser. Ο σύνδεσμος του βιβλίου δεν δημοσιεύει αντίγραφο του αρχείου.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        }
+      ],
+      "mediaRefs": [
+        "DOC-030",
+        "WEB-013"
+      ],
+      "driveUrl": "https://drive.google.com/file/d/1Kf2sPd09JSMkFcNdhV_EAK-IGX_WYJYV/view?usp=drivesdk",
+      "webUrl": "https://dporpatonelis-crypto.github.io/Browser-vr/?material=29e35a1ee55b1a1edcbf#activity/book%3Alesson-creation-world"
+    },
+    {
       "id": "fall-restoration-introduction",
-      "number": 46,
+      "number": 49,
       "type": "content",
       "title": "Η Εδέμ, η πτώση και η υπόσχεση",
       "displayTitle": "Η Εδέμ, η πτώση και η υπόσχεση",
@@ -3098,7 +3281,7 @@
     },
     {
       "id": "fall-restoration-thorns",
-      "number": 47,
+      "number": 50,
       "type": "content",
       "title": "Ο Σταυρός — από την εξορία στη ζωή",
       "displayTitle": "Ο Σταυρός — από την εξορία στη ζωή",
@@ -3126,7 +3309,7 @@
     },
     {
       "id": "fall-restoration-parallel-texts",
-      "number": 48,
+      "number": 51,
       "type": "content",
       "title": "Από την Εδέμ στην Ανάσταση — παράλληλα χωρία",
       "displayTitle": "Από την Εδέμ στην Ανάσταση — παράλληλα χωρία",
@@ -3213,7 +3396,7 @@
     },
     {
       "id": "fall-restoration-anastasis",
-      "number": 49,
+      "number": 52,
       "type": "content",
       "title": "Η Ανάσταση και η ανακαίνιση του ανθρώπου",
       "displayTitle": "Η Ανάσταση και η ανακαίνιση του ανθρώπου",
@@ -3262,7 +3445,7 @@
     },
     {
       "id": "fall-restoration-conclusion",
-      "number": 50,
+      "number": 53,
       "type": "content",
       "title": "Θέωση και αγάπη για όλο τον Αδάμ",
       "displayTitle": "Θέωση και αγάπη για όλο τον Αδάμ",
@@ -3287,6 +3470,258 @@
         }
       ],
       "mediaRefs": []
+    },
+    {
+      "id": "fall-pains-mindmap",
+      "number": 54,
+      "type": "content",
+      "title": "Οι οδύνες μετά την παρακοή · Χάρτης της αφήγησης",
+      "displayTitle": "Οι οδύνες μετά την παρακοή · Χάρτης της αφήγησης",
+      "sourceBook": "Digital_Lessons",
+      "sourceTitle": "Μάθημα 10",
+      "sourcePage": 6,
+      "lessonId": "lesson-fall-restoration",
+      "lessonTitle": "Πτώση και Αποκατάσταση",
+      "sourceUrl": "",
+      "content": [
+        {
+          "text": "Η δραστηριότητα ξεκινά από έξι βασικές έννοιες της αφήγησης της Γένεσης: πόνος, κυριαρχία, αγκάθια, μόχθος, θνητότητα και ζωή. Δύο συμπληρωματικά ευρήματα αφορούν τους δερμάτινους χιτώνες και τη φλόγινη ρομφαία.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "Ο μαθητής συνδέει τις λέξεις με τα αποσπάσματα και τα αντίστοιχα σημεία της εικόνας. Το κείμενο και η εικόνα αποκαλύπτονται σταδιακά, ώστε η επιλογή να συνοδεύεται από αιτιολόγηση.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "Συνέχεια στο Unity: από την παρατήρηση της βιβλικής αφήγησης η πορεία μπορεί να συνεχιστεί στις «Κλωστές πατερικών ερμηνειών» του Βυζαντίου. Εκεί ο μαθητής αντιστοιχίζει τέσσερις κάρτες με τις αντίστοιχες πατερικές ερμηνείες. Οι δύο δραστηριότητες δεν έχουν τις ίδιες κάρτες.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "Το HTML παραμένει ιδιωτικό στο Drive. Ο εκπαιδευτικός το κατεβάζει με τον λογαριασμό του και το ανοίγει τοπικά στον browser. Ο σύνδεσμος του βιβλίου δεν δημοσιεύει αντίγραφο του αρχείου.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        }
+      ],
+      "mediaRefs": [
+        "DOC-029",
+        "WEB-012"
+      ],
+      "driveUrl": "https://drive.google.com/file/d/1rSBAOEiMuA3pO2XRhgL7M-NfQcbZSg7L/view?usp=drivesdk",
+      "webUrl": "https://dporpatonelis-crypto.github.io/Browser-vr/?material=4d7271dbfb36a9aceda3#activity/unity%3Abyzantium_fall_restoration"
+    },
+    {
+      "id": "byzantium-interpretation-threads",
+      "number": 55,
+      "type": "content",
+      "title": "Κλωστές πατερικών ερμηνειών · Στο Βυζάντιο",
+      "displayTitle": "Κλωστές πατερικών ερμηνειών · Στο Βυζάντιο",
+      "sourceBook": "Digital_Lessons",
+      "sourceTitle": "Μάθημα 10",
+      "sourcePage": 7,
+      "lessonId": "lesson-fall-restoration",
+      "lessonTitle": "Πτώση και Αποκατάσταση",
+      "sourceUrl": "",
+      "content": [
+        {
+          "text": "Η πρόσθετη δραστηριότητα βρίσκεται στο αναλόγιο του Βυζαντίου. Ο μαθητής επιλέγει και ενεργοποιεί το σενάριο, μελετά τα διαθέσιμα χειρόγραφα και αντιστοιχίζει τέσσερις κάρτες με τις αντίστοιχες πατερικές ερμηνείες.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "Οι σωστές στοχεύσεις στα φωτεινά πλαίσια σχεδιάζουν κλωστές. Με την ολοκλήρωση ακολουθούν επιβράβευση και βίντεο στον σταθμό του Δαμασκηνού. Η δραστηριότητα είναι ξεχωριστή από το quiz του δωματίου.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "Η σύνδεση με τον χάρτη «Οι οδύνες μετά την παρακοή» αφορά την εξέλιξη του μαθήματος: από την παρατήρηση της βιβλικής αφήγησης στην επεξεργασία πατερικών ερμηνειών. Η περιγραφή βασίζεται στα αποθηκευμένα αρχεία και στην ανάθεση της σκηνής, χωρίς δοκιμή σε Quest.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        }
+      ],
+      "mediaRefs": [
+        "WEB-012"
+      ],
+      "webUrl": "https://dporpatonelis-crypto.github.io/Browser-vr/?material=4d7271dbfb36a9aceda3#activity/unity%3Abyzantium_fall_restoration"
+    },
+    {
+      "id": "concentric-cosmology",
+      "number": 56,
+      "type": "content",
+      "title": "Ο μηχανισμός των αφηγήσεων · Τρεις δακτύλιοι",
+      "displayTitle": "Ο μηχανισμός των αφηγήσεων · Τρεις δακτύλιοι",
+      "sourceBook": "Digital_Lessons",
+      "sourceTitle": "Μάθημα 11",
+      "sourcePage": 1,
+      "lessonId": "lesson-world-cosmologies",
+      "lessonTitle": "Αφηγήσεις για την αρχή του κόσμου",
+      "sourceUrl": "",
+      "content": [
+        {
+          "text": "Τέσσερις συγκεκριμένες αφηγήσεις για τις αρχές του κόσμου γίνονται αφορμή για ανάγνωση και σύγκριση. Η δραστηριότητα διατηρεί τις διαφορές των κειμένων και δεν τα παρουσιάζει ως πλήρεις περιλήψεις των θρησκευτικών παραδόσεων.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "Στην τάξη ο μαθητής συμβουλεύεται το κείμενο αναφοράς και το κλειδί των συμβόλων. Περιστρέφει τρεις ομόκεντρους δακτυλίους, συνθέτει μια πρόταση και πατά την κεντρική σφραγίδα για έλεγχο. Η πορεία περιλαμβάνει τέσσερις γύρους.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "Συνέχεια στο Unity: οι ίδιοι γύροι και τα ίδια κείμενα βρίσκονται στον μηχανισμό των ομόκεντρων δακτυλίων, στο δωμάτιο των θρησκειών του κόσμου. Η ανάγνωση και η σύνθεση στην οθόνη συνεχίζονται ως χειρισμός του μηχανισμού μέσα στον χώρο.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "Το HTML παραμένει ιδιωτικό στο Drive. Ο εκπαιδευτικός το κατεβάζει με τον λογαριασμό του και το ανοίγει τοπικά στον browser. Ο σύνδεσμος του βιβλίου δεν δημοσιεύει αντίγραφο του αρχείου.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        }
+      ],
+      "mediaRefs": [
+        "DOC-024",
+        "WEB-008"
+      ],
+      "driveUrl": "https://drive.google.com/file/d/1bStII4PbGq75w41Cam0hn8FaL_bZf6kR/view?usp=drivesdk",
+      "webUrl": "https://dporpatonelis-crypto.github.io/Browser-vr/?material=eb45b52c072a82d82796#activity/unity%3Aworld_religions_cosmology"
+    },
+    {
+      "id": "cosmology-threads",
+      "number": 57,
+      "type": "content",
+      "title": "Οι κλωστές των τεσσάρων αφηγήσεων",
+      "displayTitle": "Οι κλωστές των τεσσάρων αφηγήσεων",
+      "sourceBook": "Digital_Lessons",
+      "sourceTitle": "Μάθημα 11",
+      "sourcePage": 2,
+      "lessonId": "lesson-world-cosmologies",
+      "lessonTitle": "Αφηγήσεις για την αρχή του κόσμου",
+      "sourceUrl": "",
+      "content": [
+        {
+          "text": "Η ίδια θεματική προσεγγίζεται με διαφορετική εργασία: τέσσερις κάρτες πηγών αντιστοιχίζονται στις παραδόσεις που παρουσιάζονται στην εικόνα. Η συζήτηση επιστρέφει στα συγκεκριμένα κείμενα για να τεκμηριώσει ομοιότητες και διαφορές.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "Στην τάξη ο μαθητής επιλέγει κάρτα και συνδέει τη φωτεινή κλωστή με τον κύκλο που ταιριάζει. Κάθε σωστή σύνδεση αποκαλύπτει την αντίστοιχη εικόνα.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "Συνέχεια στο Unity: οι ίδιες τέσσερις κάρτες και αντιστοιχίσεις βρίσκονται στο δωμάτιο των θρησκειών του κόσμου. Ο μαθητής επιλέγει κάρτα στο αναλόγιο και στοχεύει με το τόξο τον αντίστοιχο κύκλο. Πρόκειται για διαφορετικό μηχανισμό από τους ομόκεντρους δακτυλίους.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "Το HTML παραμένει ιδιωτικό στο Drive. Ο εκπαιδευτικός το κατεβάζει με τον λογαριασμό του και το ανοίγει τοπικά στον browser. Ο σύνδεσμος του βιβλίου δεν δημοσιεύει αντίγραφο του αρχείου.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        }
+      ],
+      "mediaRefs": [
+        "DOC-025",
+        "WEB-009"
+      ],
+      "driveUrl": "https://drive.google.com/file/d/1DJdjslsIl59Ex8CY9f_S_yhu0OTCC5XB/view?usp=drivesdk",
+      "webUrl": "https://dporpatonelis-crypto.github.io/Browser-vr/?material=f691de3125cadd1f0c8d#activity/unity%3Aworld_religions_cosmology"
+    },
+    {
+      "id": "care-for-trees",
+      "number": 58,
+      "type": "content",
+      "title": "Να αγαπάτε τα δέντρα! · Ο κήπος της φροντίδας",
+      "displayTitle": "Να αγαπάτε τα δέντρα! · Ο κήπος της φροντίδας",
+      "sourceBook": "Digital_Lessons",
+      "sourceTitle": "Μάθημα 12",
+      "sourcePage": 1,
+      "lessonId": "lesson-care-for-creation",
+      "lessonTitle": "Η φροντίδα της δημιουργίας",
+      "sourceUrl": "",
+      "content": [
+        {
+          "text": "Η φροντίδα της δημιουργίας προσεγγίζεται μέσα από έξι μικρές πράξεις που συνδέουν τη φροντίδα, την ευθύνη και την αγάπη.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "Ο μαθητής διαβάζει το συνοδευτικό κείμενο και αντιστοιχίζει τις κάρτες με συγκεκριμένα σημεία του κήπου. Οι έξι σωστές συνδέσεις φωτίζουν σταδιακά την εικόνα.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "Η δραστηριότητα είναι διαθέσιμη για την τάξη. Δεν εντοπίστηκε συγκεκριμένη αποθηκευμένη ανάθεση αυτού του παζλ στο Unity.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "Το HTML παραμένει ιδιωτικό στο Drive. Ο εκπαιδευτικός το κατεβάζει με τον λογαριασμό του και το ανοίγει τοπικά στον browser. Ο σύνδεσμος του βιβλίου δεν δημοσιεύει αντίγραφο του αρχείου.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        }
+      ],
+      "mediaRefs": [
+        "DOC-026"
+      ],
+      "driveUrl": "https://drive.google.com/file/d/1zwgAyW7B2Rhg7fUi-5DlczsuuP_UTnq0/view?usp=drivesdk"
+    },
+    {
+      "id": "chronology-observatory",
+      "number": 59,
+      "type": "content",
+      "title": "Παρατηρητήριο του Χρόνου · Χώρος περιήγησης",
+      "displayTitle": "Παρατηρητήριο του Χρόνου · Χώρος περιήγησης",
+      "sourceBook": "Digital_Lessons",
+      "sourceTitle": "Μάθημα 13",
+      "sourcePage": 1,
+      "lessonId": "lesson-chronology-observatory",
+      "lessonTitle": "Παρατηρητήριο του Χρόνου",
+      "sourceUrl": "",
+      "content": [
+        {
+          "text": "Η πύλη της Main οδηγεί στο Παρατηρητήριο του Χρόνου. Ο επισκέπτης περιηγείται στην αίθουσα, παρακολουθεί το σύντομο εισαγωγικό βίντεο στην πίσω οθόνη και επιστρέφει από την πύλη εξόδου.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "Ο χώρος διαθέτει δύο περιβάλλοντα και κονσόλα που προορίζεται για μελλοντική εκπαιδευτική δραστηριότητα. Δεν έχει διαμορφωθεί ακόμη άσκηση χρονολογικής αντιστοίχισης.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "Η σημερινή καταχώριση αφορά τον εγκατεστημένο χώρο περιήγησης και προβολής βίντεο. Βασίζεται σε έλεγχο των τρεχόντων αρχείων και συνδέσεων, χωρίς δοκιμή σε Quest.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        }
+      ],
+      "mediaRefs": [
+        "WEB-015"
+      ],
+      "webUrl": "https://dporpatonelis-crypto.github.io/Browser-vr/?material=e9acad1df56f8b4bf6cf#activity/unity%3Achronology_observatory"
     }
   ]
 }

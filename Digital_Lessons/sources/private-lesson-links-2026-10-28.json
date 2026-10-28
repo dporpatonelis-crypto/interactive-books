@@ -1,0 +1,131 @@
+{
+  "date": "2026-10-28",
+  "metadata_only": true,
+  "private_files_copied": false,
+  "download_policy": "Teacher downloads private HTML from authenticated Google Drive; no public HTML, image or source-text copies.",
+  "added_sections": [
+    "concentric-cosmology",
+    "cosmology-threads",
+    "care-for-trees",
+    "divine-economy-mindmap",
+    "science-heart-mindmap",
+    "fall-pains-mindmap",
+    "human-gift-calling",
+    "byzantium-interpretation-threads",
+    "chronology-observatory"
+  ],
+  "updated_sections": [
+    "trinity-basic-concept-canvas",
+    "trinity-advanced-concept-canvas",
+    "creation-concept-canvas"
+  ],
+  "media_ids": [
+    "DOC-024",
+    "DOC-025",
+    "DOC-026",
+    "DOC-027",
+    "DOC-028",
+    "DOC-029",
+    "DOC-030",
+    "WEB-008",
+    "WEB-009",
+    "WEB-010",
+    "WEB-011",
+    "WEB-012",
+    "WEB-013",
+    "WEB-014",
+    "WEB-015"
+  ],
+  "sources": [
+    {
+      "media_id": "DOC-024",
+      "title": "Ο μηχανισμός των αφηγήσεων · Ομόκεντροι δακτύλιοι",
+      "url": "https://drive.google.com/file/d/1bStII4PbGq75w41Cam0hn8FaL_bZf6kR/view?usp=drivesdk",
+      "access": "private"
+    },
+    {
+      "media_id": "DOC-025",
+      "title": "Οι κλωστές των τεσσάρων αφηγήσεων",
+      "url": "https://drive.google.com/file/d/1DJdjslsIl59Ex8CY9f_S_yhu0OTCC5XB/view?usp=drivesdk",
+      "access": "private"
+    },
+    {
+      "media_id": "DOC-026",
+      "title": "Να αγαπάτε τα δέντρα! · Ο κήπος της φροντίδας",
+      "url": "https://drive.google.com/file/d/1zwgAyW7B2Rhg7fUi-5DlczsuuP_UTnq0/view?usp=drivesdk",
+      "access": "private"
+    },
+    {
+      "media_id": "DOC-027",
+      "title": "Το Σχέδιο της Θείας Οικονομίας · Φωτεινός χάρτης",
+      "url": "https://drive.google.com/file/d/1jmSyJQ96_Gd2EXC_jWdNKagGhejZN7gk/view?usp=drivesdk",
+      "access": "private"
+    },
+    {
+      "media_id": "DOC-028",
+      "title": "Επιστήμη και θρησκεία · Νους και καρδιά",
+      "url": "https://drive.google.com/file/d/1m1VD1hp6_bEpCrltrCtYq1ZD8hs-Fbk0/view?usp=drivesdk",
+      "access": "private"
+    },
+    {
+      "media_id": "DOC-029",
+      "title": "Οι οδύνες μετά την παρακοή · Φωτεινός χάρτης",
+      "url": "https://drive.google.com/file/d/1rSBAOEiMuA3pO2XRhgL7M-NfQcbZSg7L/view?usp=drivesdk",
+      "access": "private"
+    },
+    {
+      "media_id": "DOC-030",
+      "title": "Το Δέντρο της Διαθήκης · Πέντε σενάρια",
+      "url": "https://drive.google.com/file/d/1Kf2sPd09JSMkFcNdhV_EAK-IGX_WYJYV/view?usp=drivesdk",
+      "access": "private"
+    },
+    {
+      "media_id": "WEB-008",
+      "title": "Περιγραφή στο Πιλοτήριο · Unity VR · Ομόκεντροι δακτύλιοι · Πώς αρχίζει ο κόσμος;",
+      "url": "https://dporpatonelis-crypto.github.io/Browser-vr/?material=eb45b52c072a82d82796#activity/unity%3Aworld_religions_cosmology",
+      "access": "public description"
+    },
+    {
+      "media_id": "WEB-009",
+      "title": "Περιγραφή στο Πιλοτήριο · Unity VR · Τέσσερις αφηγήσεις για τον κόσμο",
+      "url": "https://dporpatonelis-crypto.github.io/Browser-vr/?material=f691de3125cadd1f0c8d#activity/unity%3Aworld_religions_cosmology",
+      "access": "public description"
+    },
+    {
+      "media_id": "WEB-010",
+      "title": "Περιγραφή στο Πιλοτήριο · Unity VR · Διαδραστικό βιβλίο · Το σχέδιο της Θείας Οικονομίας",
+      "url": "https://dporpatonelis-crypto.github.io/Browser-vr/?material=284df9b465139f702b4e#activity/sb%3Ato-schedio-tis-theias-oikonomias",
+      "access": "public description"
+    },
+    {
+      "media_id": "WEB-011",
+      "title": "Περιγραφή στο Πιλοτήριο · Unity VR · Σταδιακή αποκάλυψη εικόνας · Δύο τρόποι γνώσης",
+      "url": "https://dporpatonelis-crypto.github.io/Browser-vr/?material=82ec311e076b554cae00#activity/book%3Alesson-005",
+      "access": "public description"
+    },
+    {
+      "media_id": "WEB-012",
+      "title": "Περιγραφή στο Πιλοτήριο · Unity VR · Κλωστές πατερικών ερμηνειών",
+      "url": "https://dporpatonelis-crypto.github.io/Browser-vr/?material=4d7271dbfb36a9aceda3#activity/unity%3Abyzantium_fall_restoration",
+      "access": "public description"
+    },
+    {
+      "media_id": "WEB-013",
+      "title": "Περιγραφή στο Πιλοτήριο · Unity VR · Κυκλικό αναλόγιο · Δημιουργία, κατ’ εικόνα και νέα ζωή",
+      "url": "https://dporpatonelis-crypto.github.io/Browser-vr/?material=29e35a1ee55b1a1edcbf#activity/book%3Alesson-creation-world",
+      "access": "public description"
+    },
+    {
+      "media_id": "WEB-014",
+      "title": "Περιγραφή στο Πιλοτήριο · Unity VR · Κυκλικό αναλόγιο · Ο κύκλος των χειρογράφων",
+      "url": "https://dporpatonelis-crypto.github.io/Browser-vr/?material=0c184e859a520d9546be#activity/unity%3Achristianity_free_discovery",
+      "access": "public description"
+    },
+    {
+      "media_id": "WEB-015",
+      "title": "Περιγραφή στο Πιλοτήριο · Unity VR · Παρατηρητήριο του Χρόνου · Χώρος περιήγησης",
+      "url": "https://dporpatonelis-crypto.github.io/Browser-vr/?material=e9acad1df56f8b4bf6cf#activity/unity%3Achronology_observatory",
+      "access": "public description"
+    }
+  ]
+}

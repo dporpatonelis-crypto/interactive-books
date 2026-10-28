@@ -3,8 +3,8 @@
   "book_id": "Digital_Lessons",
   "title": "Το ψηφιακό μου βιβλίο",
   "description": "Κείμενα, εικόνες και συνδέσεις για τα μαθήματά μας στα web apps και στο Unity.",
-  "revision": 29,
-  "updated_at": "2026-10-27T05:33:46.565299Z",
+  "revision": 30,
+  "updated_at": "2026-10-28",
   "cover": {
     "asset": "assets/old-testament-objects.png",
     "caption": "Έξι ιερά αντικείμενα της Παλαιάς Διαθήκης",
@@ -78,6 +78,47 @@
             }
           ],
           "media": []
+        },
+        {
+          "id": "divine-economy-mindmap",
+          "title": "Το Σχέδιο της Θείας Οικονομίας · Φωτεινός χάρτης",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Ο φωτεινός χάρτης οργανώνει το μάθημα σε τέσσερις βασικές ενότητες: την εικόνα της ασθένειας, την Παλαιά Διαθήκη, την Καινή Διαθήκη και την Εκκλησία. Η ασθένεια λειτουργεί ως παρομοίωση της ανθρώπινης κατάστασης και της θεραπείας."
+            },
+            {
+              "kind": "text",
+              "text": "Ο μαθητής συνδέει τις ενότητες και τις επιμέρους έννοιες με τα σημεία της εικόνας. Οι φωτεινές κλωστές συνοδεύουν την προοδευτική αποκάλυψη του κειμένου."
+            },
+            {
+              "kind": "text",
+              "text": "Συνέχεια στο Unity: το διαδραστικό βιβλίο VR έχει προφίλ για το ίδιο μάθημα και ανοίγει το χρονολόγιο και τον πίνακα διερεύνησης. Αυτή η συνέχεια χρειάζεται σύνδεση στο διαδίκτυο και αφορά διαφορετικές εργασίες από τον φωτεινό χάρτη."
+            },
+            {
+              "kind": "text",
+              "text": "Το HTML παραμένει ιδιωτικό στο Drive. Ο εκπαιδευτικός το κατεβάζει με τον λογαριασμό του και το ανοίγει τοπικά στον browser. Ο σύνδεσμος του βιβλίου δεν δημοσιεύει αντίγραφο του αρχείου."
+            }
+          ],
+          "media": [
+            {
+              "media_id": "DOC-027",
+              "type": "drive",
+              "title": "Λήψη από το Drive · Θεία Οικονομία",
+              "url": "https://drive.google.com/file/d/1jmSyJQ96_Gd2EXC_jWdNKagGhejZN7gk/view?usp=drivesdk",
+              "placement": "after_text",
+              "download_only": true,
+              "drive_id": "1jmSyJQ96_Gd2EXC_jWdNKagGhejZN7gk",
+              "native_id": "theia-oikonomia-two-level"
+            },
+            {
+              "media_id": "WEB-010",
+              "type": "website",
+              "title": "Συνέχεια στο Unity · Διαδραστικό βιβλίο",
+              "url": "https://dporpatonelis-crypto.github.io/Browser-vr/?material=284df9b465139f702b4e#activity/sb%3Ato-schedio-tis-theias-oikonomias",
+              "placement": "after_text"
+            }
+          ]
         }
       ]
     },
@@ -1561,6 +1602,47 @@
             }
           ],
           "media": []
+        },
+        {
+          "id": "science-heart-mindmap",
+          "title": "Νους και καρδιά · Επτά έννοιες στην εικόνα",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Επτά έννοιες οργανώνουν την ανάγνωση του κειμένου για την επιστήμη και τη θρησκεία: διάνοια, υλικός κόσμος, πνευματικός κόσμος, μέθοδοι, καρδιά, επικοινωνία και διάκριση."
+            },
+            {
+              "kind": "text",
+              "text": "Στην τάξη ο μαθητής συνδέει κάθε έννοια με το αντίστοιχο εύρημα της εικόνας. Η προοδευτική αποκάλυψη κειμένου κρατά την προσοχή στη σχέση ανάμεσα στη λέξη, στο απόσπασμα και στην εικόνα."
+            },
+            {
+              "kind": "text",
+              "text": "Συνέχεια στο Unity: το σενάριο «Δύο τρόποι γνώσης» στα Ιεροσόλυμα χρησιμοποιεί συλλογή έξι παπύρων και στόχευση περιοχών της εικόνας. Είναι θεματική συνέχεια της διερεύνησης νου και καρδιάς, με διαφορετικό αριθμό στοιχείων και διαφορετικό χειρισμό."
+            },
+            {
+              "kind": "text",
+              "text": "Το HTML παραμένει ιδιωτικό στο Drive. Ο εκπαιδευτικός το κατεβάζει με τον λογαριασμό του και το ανοίγει τοπικά στον browser. Ο σύνδεσμος του βιβλίου δεν δημοσιεύει αντίγραφο του αρχείου."
+            }
+          ],
+          "media": [
+            {
+              "media_id": "DOC-028",
+              "type": "drive",
+              "title": "Λήψη από το Drive · Νους και καρδιά",
+              "url": "https://drive.google.com/file/d/1m1VD1hp6_bEpCrltrCtYq1ZD8hs-Fbk0/view?usp=drivesdk",
+              "placement": "after_text",
+              "download_only": true,
+              "drive_id": "1m1VD1hp6_bEpCrltrCtYq1ZD8hs-Fbk0",
+              "native_id": "science-heart-dialogue"
+            },
+            {
+              "media_id": "WEB-011",
+              "type": "website",
+              "title": "Συνέχεια στο Unity · Δύο τρόποι γνώσης",
+              "url": "https://dporpatonelis-crypto.github.io/Browser-vr/?material=82ec311e076b554cae00#activity/book%3Alesson-005",
+              "placement": "after_text"
+            }
+          ]
         }
       ]
     },
@@ -2475,6 +2557,10 @@
             {
               "kind": "source",
               "text": "Διδακτικές αποδόσεις από Ματθαίο 3:13–17, 28:19, Λουκά 2, Ιωάννη 1:14, 1:41, 14:9, 14:26, Πράξεις 2, το Σύμβολο της Πίστεως και Γρηγόριο τον Θεολόγο, Λόγος 31, §26. Οι εικόνες είναι εκπαιδευτικές συνθέσεις."
+            },
+            {
+              "kind": "text",
+              "text": "Συναφής μελέτη στο Unity: στο κυκλικό αναλόγιο του Χριστιανισμού υπάρχει το χειρόγραφο «Τριαδικό δόγμα». Είναι συνέχεια μελέτης πηγής, με διαφορετική αλληλεπίδραση από τις κάρτες της βασικής ενότητας."
             }
           ],
           "media": [
@@ -2491,6 +2577,13 @@
               "type": "website",
               "title": "Αγία Τριάδα · Αναλόγιο για μικρότερες ηλικίες",
               "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/apps/animated-concept-canvas/index.html#unit=basics",
+              "placement": "after_text"
+            },
+            {
+              "media_id": "WEB-014",
+              "type": "website",
+              "title": "Συνέχεια στο Unity · Περιγραφή στο Πιλοτήριο",
+              "url": "https://dporpatonelis-crypto.github.io/Browser-vr/?material=0c184e859a520d9546be#activity/unity%3Achristianity_free_discovery",
               "placement": "after_text"
             }
           ]
@@ -2535,6 +2628,10 @@
             {
               "kind": "source",
               "text": "Πηγή: «Τριαδική Θεολογία Κουίζ», ερωτήσεις 1–5. Οι κάρτες και τα τελικά συμπεράσματα είναι σύντομες διδακτικές αποδόσεις του επιλεγμένου υλικού."
+            },
+            {
+              "kind": "text",
+              "text": "Συναφής μελέτη στο Unity: το θεματικό χειρόγραφο «Τριαδικό δόγμα» συμμετέχει στον κύκλο χειρογράφων του Χριστιανισμού. Η μελέτη του είναι διαφορετική εργασία από τα πέντε παζλ εμβάθυνσης του HTML."
             }
           ],
           "media": [
@@ -2543,6 +2640,13 @@
               "type": "website",
               "title": "Αγία Τριάδα · Αναλόγιο εμβάθυνσης",
               "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/apps/animated-concept-canvas/index.html#unit=advanced",
+              "placement": "after_text"
+            },
+            {
+              "media_id": "WEB-014",
+              "type": "website",
+              "title": "Συνέχεια στο Unity · Περιγραφή στο Πιλοτήριο",
+              "url": "https://dporpatonelis-crypto.github.io/Browser-vr/?material=0c184e859a520d9546be#activity/unity%3Achristianity_free_discovery",
               "placement": "after_text"
             }
           ]
@@ -2782,6 +2886,10 @@
             {
               "kind": "source",
               "text": "Επιλογή και διδακτική διαμόρφωση από το quiz «Δημιουργία, Κατ’ Εικόνα και Πτώση — Κουίζ Πατερικής Θεολογίας»: βασικές ερωτήσεις 1, 3, 2, 5 και 6, με υποστηρικτικό υλικό από την ερώτηση 4."
+            },
+            {
+              "kind": "text",
+              "text": "Συνέχεια στο Unity: τα ίδια πέντε θέματα υπάρχουν στο κυκλικό αναλόγιο Δημιουργίας του Χριστιανισμού. Ο μαθητής ξεκλειδώνει χειρόγραφα, πιάνει τις κάρτες και φωτίζει τα αντίστοιχα ευρήματα της εικόνας."
             }
           ],
           "media": [
@@ -2798,6 +2906,54 @@
               "type": "website",
               "title": "Δημιουργία · Αναλόγιο εννοιών",
               "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/apps/animated-concept-canvas/creation-concepts.html",
+              "placement": "after_text"
+            },
+            {
+              "media_id": "WEB-013",
+              "type": "website",
+              "title": "Συνέχεια στο Unity · Περιγραφή στο Πιλοτήριο",
+              "url": "https://dporpatonelis-crypto.github.io/Browser-vr/?material=29e35a1ee55b1a1edcbf#activity/book%3Alesson-creation-world",
+              "placement": "after_text"
+            }
+          ]
+        },
+        {
+          "id": "human-gift-calling",
+          "title": "Ο άνθρωπος: δώρο και κλήση · Έξι χειρόγραφα",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Η ανανεωμένη εφαρμογή «Το Δέντρο της Διαθήκης» περιλαμβάνει το σενάριο «Ο άνθρωπος: δώρο και κλήση». Έξι χειρόγραφα συνδέουν θέματα για τον άνθρωπο, το κατ’ εικόνα και καθ’ ομοίωσιν και την προοπτική ζωής με τη χάρη."
+            },
+            {
+              "kind": "text",
+              "text": "Μετά τη λήψη του αρχείου ο εκπαιδευτικός επιλέγει αυτό το σενάριο από το μενού «Σενάρια». Το ίδιο HTML διατηρεί και τις τέσσερις προηγούμενες διαδρομές του."
+            },
+            {
+              "kind": "text",
+              "text": "Συνέχεια στο Unity: το κυκλικό αναλόγιο Δημιουργίας στο δωμάτιο του Χριστιανισμού προσφέρει πέντε παζλ με πιάσιμο καρτών και στοχευμένη αποκάλυψη εικόνων. Πρόκειται για συναφή συνέχεια του μαθήματος και όχι για μεταφορά των ίδιων έξι καρτών."
+            },
+            {
+              "kind": "text",
+              "text": "Το HTML παραμένει ιδιωτικό στο Drive. Ο εκπαιδευτικός το κατεβάζει με τον λογαριασμό του και το ανοίγει τοπικά στον browser. Ο σύνδεσμος του βιβλίου δεν δημοσιεύει αντίγραφο του αρχείου."
+            }
+          ],
+          "media": [
+            {
+              "media_id": "DOC-030",
+              "type": "drive",
+              "title": "Λήψη από το Drive · Δέντρο Διαθήκης — επίλεξε «Ο άνθρωπος: δώρο και κλήση»",
+              "url": "https://drive.google.com/file/d/1Kf2sPd09JSMkFcNdhV_EAK-IGX_WYJYV/view?usp=drivesdk",
+              "placement": "after_text",
+              "download_only": true,
+              "drive_id": "1Kf2sPd09JSMkFcNdhV_EAK-IGX_WYJYV",
+              "native_id": "human_creation"
+            },
+            {
+              "media_id": "WEB-013",
+              "type": "website",
+              "title": "Συνέχεια στο Unity · Κυκλικό αναλόγιο Δημιουργίας",
+              "url": "https://dporpatonelis-crypto.github.io/Browser-vr/?material=29e35a1ee55b1a1edcbf#activity/book%3Alesson-creation-world",
               "placement": "after_text"
             }
           ]
@@ -3120,6 +3276,235 @@
             {
               "label": "Σωφρόνιος · Περί Προσευχής",
               "url": "https://oodegr.com/oode/pateres1/swfronios/enothta_prosefxh_1.htm"
+            }
+          ]
+        },
+        {
+          "id": "fall-pains-mindmap",
+          "title": "Οι οδύνες μετά την παρακοή · Χάρτης της αφήγησης",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Η δραστηριότητα ξεκινά από έξι βασικές έννοιες της αφήγησης της Γένεσης: πόνος, κυριαρχία, αγκάθια, μόχθος, θνητότητα και ζωή. Δύο συμπληρωματικά ευρήματα αφορούν τους δερμάτινους χιτώνες και τη φλόγινη ρομφαία."
+            },
+            {
+              "kind": "text",
+              "text": "Ο μαθητής συνδέει τις λέξεις με τα αποσπάσματα και τα αντίστοιχα σημεία της εικόνας. Το κείμενο και η εικόνα αποκαλύπτονται σταδιακά, ώστε η επιλογή να συνοδεύεται από αιτιολόγηση."
+            },
+            {
+              "kind": "text",
+              "text": "Συνέχεια στο Unity: από την παρατήρηση της βιβλικής αφήγησης η πορεία μπορεί να συνεχιστεί στις «Κλωστές πατερικών ερμηνειών» του Βυζαντίου. Εκεί ο μαθητής αντιστοιχίζει τέσσερις κάρτες με τις αντίστοιχες πατερικές ερμηνείες. Οι δύο δραστηριότητες δεν έχουν τις ίδιες κάρτες."
+            },
+            {
+              "kind": "text",
+              "text": "Το HTML παραμένει ιδιωτικό στο Drive. Ο εκπαιδευτικός το κατεβάζει με τον λογαριασμό του και το ανοίγει τοπικά στον browser. Ο σύνδεσμος του βιβλίου δεν δημοσιεύει αντίγραφο του αρχείου."
+            }
+          ],
+          "media": [
+            {
+              "media_id": "DOC-029",
+              "type": "drive",
+              "title": "Λήψη από το Drive · Οι οδύνες μετά την παρακοή",
+              "url": "https://drive.google.com/file/d/1rSBAOEiMuA3pO2XRhgL7M-NfQcbZSg7L/view?usp=drivesdk",
+              "placement": "after_text",
+              "download_only": true,
+              "drive_id": "1rSBAOEiMuA3pO2XRhgL7M-NfQcbZSg7L",
+              "native_id": "genesis3-mindmap"
+            },
+            {
+              "media_id": "WEB-012",
+              "type": "website",
+              "title": "Συνέχεια στο Unity · Πατερικές ερμηνείες",
+              "url": "https://dporpatonelis-crypto.github.io/Browser-vr/?material=4d7271dbfb36a9aceda3#activity/unity%3Abyzantium_fall_restoration",
+              "placement": "after_text"
+            }
+          ]
+        },
+        {
+          "id": "byzantium-interpretation-threads",
+          "title": "Κλωστές πατερικών ερμηνειών · Στο Βυζάντιο",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Η πρόσθετη δραστηριότητα βρίσκεται στο αναλόγιο του Βυζαντίου. Ο μαθητής επιλέγει και ενεργοποιεί το σενάριο, μελετά τα διαθέσιμα χειρόγραφα και αντιστοιχίζει τέσσερις κάρτες με τις αντίστοιχες πατερικές ερμηνείες."
+            },
+            {
+              "kind": "text",
+              "text": "Οι σωστές στοχεύσεις στα φωτεινά πλαίσια σχεδιάζουν κλωστές. Με την ολοκλήρωση ακολουθούν επιβράβευση και βίντεο στον σταθμό του Δαμασκηνού. Η δραστηριότητα είναι ξεχωριστή από το quiz του δωματίου."
+            },
+            {
+              "kind": "text",
+              "text": "Η σύνδεση με τον χάρτη «Οι οδύνες μετά την παρακοή» αφορά την εξέλιξη του μαθήματος: από την παρατήρηση της βιβλικής αφήγησης στην επεξεργασία πατερικών ερμηνειών. Η περιγραφή βασίζεται στα αποθηκευμένα αρχεία και στην ανάθεση της σκηνής, χωρίς δοκιμή σε Quest."
+            }
+          ],
+          "media": [
+            {
+              "media_id": "WEB-012",
+              "type": "website",
+              "title": "Περιγραφή στο Πιλοτήριο · Κλωστές πατερικών ερμηνειών",
+              "url": "https://dporpatonelis-crypto.github.io/Browser-vr/?material=4d7271dbfb36a9aceda3#activity/unity%3Abyzantium_fall_restoration",
+              "placement": "after_text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lesson-world-cosmologies",
+      "title": "Αφηγήσεις για την αρχή του κόσμου",
+      "sections": [
+        {
+          "id": "concentric-cosmology",
+          "title": "Ο μηχανισμός των αφηγήσεων · Τρεις δακτύλιοι",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Τέσσερις συγκεκριμένες αφηγήσεις για τις αρχές του κόσμου γίνονται αφορμή για ανάγνωση και σύγκριση. Η δραστηριότητα διατηρεί τις διαφορές των κειμένων και δεν τα παρουσιάζει ως πλήρεις περιλήψεις των θρησκευτικών παραδόσεων."
+            },
+            {
+              "kind": "text",
+              "text": "Στην τάξη ο μαθητής συμβουλεύεται το κείμενο αναφοράς και το κλειδί των συμβόλων. Περιστρέφει τρεις ομόκεντρους δακτυλίους, συνθέτει μια πρόταση και πατά την κεντρική σφραγίδα για έλεγχο. Η πορεία περιλαμβάνει τέσσερις γύρους."
+            },
+            {
+              "kind": "text",
+              "text": "Συνέχεια στο Unity: οι ίδιοι γύροι και τα ίδια κείμενα βρίσκονται στον μηχανισμό των ομόκεντρων δακτυλίων, στο δωμάτιο των θρησκειών του κόσμου. Η ανάγνωση και η σύνθεση στην οθόνη συνεχίζονται ως χειρισμός του μηχανισμού μέσα στον χώρο."
+            },
+            {
+              "kind": "text",
+              "text": "Το HTML παραμένει ιδιωτικό στο Drive. Ο εκπαιδευτικός το κατεβάζει με τον λογαριασμό του και το ανοίγει τοπικά στον browser. Ο σύνδεσμος του βιβλίου δεν δημοσιεύει αντίγραφο του αρχείου."
+            }
+          ],
+          "media": [
+            {
+              "media_id": "DOC-024",
+              "type": "drive",
+              "title": "Λήψη από το Drive · Ο μηχανισμός των αφηγήσεων",
+              "url": "https://drive.google.com/file/d/1bStII4PbGq75w41Cam0hn8FaL_bZf6kR/view?usp=drivesdk",
+              "placement": "after_text",
+              "download_only": true,
+              "drive_id": "1bStII4PbGq75w41Cam0hn8FaL_bZf6kR",
+              "native_id": "concentric_cosmology_v1"
+            },
+            {
+              "media_id": "WEB-008",
+              "type": "website",
+              "title": "Συνέχεια στο Unity · Ομόκεντροι δακτύλιοι",
+              "url": "https://dporpatonelis-crypto.github.io/Browser-vr/?material=eb45b52c072a82d82796#activity/unity%3Aworld_religions_cosmology",
+              "placement": "after_text"
+            }
+          ]
+        },
+        {
+          "id": "cosmology-threads",
+          "title": "Οι κλωστές των τεσσάρων αφηγήσεων",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Η ίδια θεματική προσεγγίζεται με διαφορετική εργασία: τέσσερις κάρτες πηγών αντιστοιχίζονται στις παραδόσεις που παρουσιάζονται στην εικόνα. Η συζήτηση επιστρέφει στα συγκεκριμένα κείμενα για να τεκμηριώσει ομοιότητες και διαφορές."
+            },
+            {
+              "kind": "text",
+              "text": "Στην τάξη ο μαθητής επιλέγει κάρτα και συνδέει τη φωτεινή κλωστή με τον κύκλο που ταιριάζει. Κάθε σωστή σύνδεση αποκαλύπτει την αντίστοιχη εικόνα."
+            },
+            {
+              "kind": "text",
+              "text": "Συνέχεια στο Unity: οι ίδιες τέσσερις κάρτες και αντιστοιχίσεις βρίσκονται στο δωμάτιο των θρησκειών του κόσμου. Ο μαθητής επιλέγει κάρτα στο αναλόγιο και στοχεύει με το τόξο τον αντίστοιχο κύκλο. Πρόκειται για διαφορετικό μηχανισμό από τους ομόκεντρους δακτυλίους."
+            },
+            {
+              "kind": "text",
+              "text": "Το HTML παραμένει ιδιωτικό στο Drive. Ο εκπαιδευτικός το κατεβάζει με τον λογαριασμό του και το ανοίγει τοπικά στον browser. Ο σύνδεσμος του βιβλίου δεν δημοσιεύει αντίγραφο του αρχείου."
+            }
+          ],
+          "media": [
+            {
+              "media_id": "DOC-025",
+              "type": "drive",
+              "title": "Λήψη από το Drive · Οι κλωστές των αφηγήσεων",
+              "url": "https://drive.google.com/file/d/1DJdjslsIl59Ex8CY9f_S_yhu0OTCC5XB/view?usp=drivesdk",
+              "placement": "after_text",
+              "download_only": true,
+              "drive_id": "1DJdjslsIl59Ex8CY9f_S_yhu0OTCC5XB",
+              "native_id": "world_religions_cosmology"
+            },
+            {
+              "media_id": "WEB-009",
+              "type": "website",
+              "title": "Συνέχεια στο Unity · Κάρτες και φωτεινοί κύκλοι",
+              "url": "https://dporpatonelis-crypto.github.io/Browser-vr/?material=f691de3125cadd1f0c8d#activity/unity%3Aworld_religions_cosmology",
+              "placement": "after_text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lesson-care-for-creation",
+      "title": "Η φροντίδα της δημιουργίας",
+      "sections": [
+        {
+          "id": "care-for-trees",
+          "title": "Να αγαπάτε τα δέντρα! · Ο κήπος της φροντίδας",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Η φροντίδα της δημιουργίας προσεγγίζεται μέσα από έξι μικρές πράξεις που συνδέουν τη φροντίδα, την ευθύνη και την αγάπη."
+            },
+            {
+              "kind": "text",
+              "text": "Ο μαθητής διαβάζει το συνοδευτικό κείμενο και αντιστοιχίζει τις κάρτες με συγκεκριμένα σημεία του κήπου. Οι έξι σωστές συνδέσεις φωτίζουν σταδιακά την εικόνα."
+            },
+            {
+              "kind": "text",
+              "text": "Η δραστηριότητα είναι διαθέσιμη για την τάξη. Δεν εντοπίστηκε συγκεκριμένη αποθηκευμένη ανάθεση αυτού του παζλ στο Unity."
+            },
+            {
+              "kind": "text",
+              "text": "Το HTML παραμένει ιδιωτικό στο Drive. Ο εκπαιδευτικός το κατεβάζει με τον λογαριασμό του και το ανοίγει τοπικά στον browser. Ο σύνδεσμος του βιβλίου δεν δημοσιεύει αντίγραφο του αρχείου."
+            }
+          ],
+          "media": [
+            {
+              "media_id": "DOC-026",
+              "type": "drive",
+              "title": "Λήψη από το Drive · Να αγαπάτε τα δέντρα!",
+              "url": "https://drive.google.com/file/d/1zwgAyW7B2Rhg7fUi-5DlczsuuP_UTnq0/view?usp=drivesdk",
+              "placement": "after_text",
+              "download_only": true,
+              "drive_id": "1zwgAyW7B2Rhg7fUi-5DlczsuuP_UTnq0",
+              "native_id": "na_agapate_ta_dentra"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lesson-chronology-observatory",
+      "title": "Παρατηρητήριο του Χρόνου",
+      "sections": [
+        {
+          "id": "chronology-observatory",
+          "title": "Παρατηρητήριο του Χρόνου · Χώρος περιήγησης",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Η πύλη της Main οδηγεί στο Παρατηρητήριο του Χρόνου. Ο επισκέπτης περιηγείται στην αίθουσα, παρακολουθεί το σύντομο εισαγωγικό βίντεο στην πίσω οθόνη και επιστρέφει από την πύλη εξόδου."
+            },
+            {
+              "kind": "text",
+              "text": "Ο χώρος διαθέτει δύο περιβάλλοντα και κονσόλα που προορίζεται για μελλοντική εκπαιδευτική δραστηριότητα. Δεν έχει διαμορφωθεί ακόμη άσκηση χρονολογικής αντιστοίχισης."
+            },
+            {
+              "kind": "text",
+              "text": "Η σημερινή καταχώριση αφορά τον εγκατεστημένο χώρο περιήγησης και προβολής βίντεο. Βασίζεται σε έλεγχο των τρεχόντων αρχείων και συνδέσεων, χωρίς δοκιμή σε Quest."
+            }
+          ],
+          "media": [
+            {
+              "media_id": "WEB-015",
+              "type": "website",
+              "title": "Περιγραφή στο Πιλοτήριο · Παρατηρητήριο του Χρόνου",
+              "url": "https://dporpatonelis-crypto.github.io/Browser-vr/?material=e9acad1df56f8b4bf6cf#activity/unity%3Achronology_observatory",
+              "placement": "after_text"
             }
           ]
         }

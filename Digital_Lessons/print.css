@@ -45,6 +45,9 @@
 .print-section[data-layout="portrait-narrative"] .portrait-story p{font-size:12pt;line-height:1.6;margin-bottom:4mm}
 .print-section[data-layout="portrait-narrative"] .portrait-references{clear:both;font:8.5pt/1.4 Arial,sans-serif;margin-top:2mm}
 
+/* Keep Greek heading letters separate when Chromium subsets the PDF font. */
+.print-section h2{font-variant-ligatures:none;font-feature-settings:"liga" 0,"clig" 0}
+
 /* Equal columns and repeated headings for the approved paired passages. */
 .parallel-passages-print{clear:both}
 .parallel-passages-chunk+.parallel-passages-chunk{break-before:page}
