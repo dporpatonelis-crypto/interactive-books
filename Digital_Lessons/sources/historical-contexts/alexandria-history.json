@@ -1,0 +1,191 @@
+{
+  "id": "alexandria-history",
+  "title": "Ιστορικά πλαίσια · Αλεξάνδρεια μέσα στον χρόνο",
+  "slides": [
+    {
+      "id": "01_nile",
+      "title": "Πριν από την Αλεξάνδρεια",
+      "line": "Ο Νείλος στηρίζει τη ζωή και την εξουσία.",
+      "period": "ΑΙΓΥΠΤΙΑΚΟ ΥΠΟΒΑΘΡΟ",
+      "source_image": "/Users/dimitriosporpatonelis/Documents/Unity/MindPalaceVR/Assets/ChronologyHall/TimeLibrary/Alexandria/Source~/Film/assets/images/01_nile.png",
+      "source_composition": "/Users/dimitriosporpatonelis/Documents/Unity/MindPalaceVR/Assets/ChronologyHall/TimeLibrary/Alexandria/Source~/Film/compositions/shot_01_nile.html",
+      "image_sha256": "c982216ce4ec2319a9d0b43a76d9f3cbe3e7583d996fdd419fe4fa101e548e1e"
+    },
+    {
+      "id": "02_pharaoh",
+      "title": "Φαραώ και ιερά",
+      "line": "Η βασιλική εξουσία συνδέεται με τη λατρεία.",
+      "period": "ΦΑΡΑΩΝΙΚΗ ΑΙΓΥΠΤΟΣ",
+      "source_image": "/Users/dimitriosporpatonelis/Documents/Unity/MindPalaceVR/Assets/ChronologyHall/TimeLibrary/Alexandria/Source~/Film/assets/images/02_pharaoh.png",
+      "source_composition": "/Users/dimitriosporpatonelis/Documents/Unity/MindPalaceVR/Assets/ChronologyHall/TimeLibrary/Alexandria/Source~/Film/compositions/shot_02_pharaoh.html",
+      "image_sha256": "0d928a354c7ac8502c58ad07d1afdd3996e4799313f922d7d2f183a75f90c33c"
+    },
+    {
+      "id": "03_cult",
+      "title": "Θεότητες και ιερά σύμβολα",
+      "line": "Ίσιδα, Όσιρις και Ώρος στην αιγυπτιακή θρησκευτική ζωή.",
+      "period": "ΑΙΓΥΠΤΙΑΚΗ ΛΑΤΡΕΙΑ",
+      "source_image": "/Users/dimitriosporpatonelis/Documents/Unity/MindPalaceVR/Assets/ChronologyHall/TimeLibrary/Alexandria/Source~/Film/assets/images/03_cult.png",
+      "source_composition": "/Users/dimitriosporpatonelis/Documents/Unity/MindPalaceVR/Assets/ChronologyHall/TimeLibrary/Alexandria/Source~/Film/compositions/shot_03_cult.html",
+      "image_sha256": "8fca18c19625037292517b5de7f0db8edcb53da8f950c54669b21d549766ea74"
+    },
+    {
+      "id": "04_writing",
+      "title": "Γραφή και μεταθανάτια ζωή",
+      "line": "Οι πάπυροι διατηρούν γνώση, μνήμη και θρησκευτικές παραδόσεις.",
+      "period": "ΓΡΑΦΗ ΚΑΙ ΜΝΗΜΗ",
+      "source_image": "/Users/dimitriosporpatonelis/Documents/Unity/MindPalaceVR/Assets/ChronologyHall/TimeLibrary/Alexandria/Source~/Film/assets/images/04_writing.png",
+      "source_composition": "/Users/dimitriosporpatonelis/Documents/Unity/MindPalaceVR/Assets/ChronologyHall/TimeLibrary/Alexandria/Source~/Film/compositions/shot_04_writing.html",
+      "image_sha256": "001d37e011b61ff2d7312dcf69ba6f4b2da5d3190673b7da3774cda229177a48"
+    },
+    {
+      "id": "05_alexander",
+      "title": "Μέγας Αλέξανδρος",
+      "line": "Μια νέα πόλη ιδρύεται στην ακτή της Μεσογείου.",
+      "period": "ΙΔΡΥΣΗ ΤΗΣ ΠΟΛΗΣ · 331 π.Χ.",
+      "source_image": "/Users/dimitriosporpatonelis/Documents/Unity/MindPalaceVR/Assets/ChronologyHall/TimeLibrary/Alexandria/Source~/Film/assets/images/05_alexander.png",
+      "source_composition": "/Users/dimitriosporpatonelis/Documents/Unity/MindPalaceVR/Assets/ChronologyHall/TimeLibrary/Alexandria/Source~/Film/compositions/shot_05_alexander.html",
+      "image_sha256": "8560ab9869f2aa56bcfdc13685094d6e3edf1f81a25a7f4becfdac3f05e53fc9"
+    },
+    {
+      "id": "06_ptolemies",
+      "title": "Η πόλη των Πτολεμαίων",
+      "line": "Ελληνικές και αιγυπτιακές παραδόσεις συναντώνται στη νέα πρωτεύουσα.",
+      "period": "ΠΤΟΛΕΜΑΪΚΗ ΠΕΡΙΟΔΟΣ",
+      "source_image": "/Users/dimitriosporpatonelis/Documents/Unity/MindPalaceVR/Assets/ChronologyHall/TimeLibrary/Alexandria/Source~/Film/assets/images/06_ptolemies.png",
+      "source_composition": "/Users/dimitriosporpatonelis/Documents/Unity/MindPalaceVR/Assets/ChronologyHall/TimeLibrary/Alexandria/Source~/Film/compositions/shot_06_ptolemies.html",
+      "image_sha256": "d44031cb5de2641a894826d7d6b15950643cb92043c0442ffaaf9d6e3465566c"
+    },
+    {
+      "id": "07_pharos",
+      "title": "Ο Φάρος και τα λιμάνια",
+      "line": "Η πόλη συνδέει την Αίγυπτο με τη Μεσόγειο.",
+      "period": "ΠΤΟΛΕΜΑΪΚΗ ΑΛΕΞΑΝΔΡΕΙΑ",
+      "source_image": "/Users/dimitriosporpatonelis/Documents/Unity/MindPalaceVR/Assets/ChronologyHall/TimeLibrary/Alexandria/Source~/Film/assets/images/07_pharos.png",
+      "source_composition": "/Users/dimitriosporpatonelis/Documents/Unity/MindPalaceVR/Assets/ChronologyHall/TimeLibrary/Alexandria/Source~/Film/compositions/shot_07_pharos.html",
+      "image_sha256": "f9b61f75f2b39d9f7589c560039143746474e77389c7fe88407720ab505964f4"
+    },
+    {
+      "id": "08_library",
+      "title": "Μουσείο και Βιβλιοθήκη",
+      "line": "Μελέτη, αντιγραφή παπύρων και αναζήτηση της γνώσης.",
+      "period": "ΜΕΛΕΤΗ ΚΑΙ ΕΡΕΥΝΑ",
+      "source_image": "/Users/dimitriosporpatonelis/Documents/Unity/MindPalaceVR/Assets/ChronologyHall/TimeLibrary/Alexandria/Source~/Film/assets/images/08_library.png",
+      "source_composition": "/Users/dimitriosporpatonelis/Documents/Unity/MindPalaceVR/Assets/ChronologyHall/TimeLibrary/Alexandria/Source~/Film/compositions/shot_08_library.html",
+      "image_sha256": "f96ab6c6919b33cbccba2f04a531e4bd9642027d51839a071f9c40c1520f1ef5"
+    },
+    {
+      "id": "09_cleopatra",
+      "title": "Κλεοπάτρα Ζ΄",
+      "line": "Τελευταία Πτολεμαία βασίλισσα, από δυναστεία μακεδονικής ελληνικής καταγωγής.",
+      "period": "51–30 π.Χ.",
+      "source_image": "/Users/dimitriosporpatonelis/Documents/Unity/MindPalaceVR/Assets/ChronologyHall/TimeLibrary/Alexandria/Source~/Film/assets/images/09_cleopatra.png",
+      "source_composition": "/Users/dimitriosporpatonelis/Documents/Unity/MindPalaceVR/Assets/ChronologyHall/TimeLibrary/Alexandria/Source~/Film/compositions/shot_09_cleopatra.html",
+      "image_sha256": "906543ac34c2b149d7fc8e118d7f87ce35c8e4aa3eedd595ef60129e81821a71"
+    },
+    {
+      "id": "10_roman",
+      "title": "Ρωμαϊκή Αλεξάνδρεια",
+      "line": "Σιτηρά και πάπυρος ταξιδεύουν στα λιμάνια της αυτοκρατορίας.",
+      "period": "ΑΠΟ ΤΟ 30 π.Χ.",
+      "source_image": "/Users/dimitriosporpatonelis/Documents/Unity/MindPalaceVR/Assets/ChronologyHall/TimeLibrary/Alexandria/Source~/Film/assets/images/10_roman.png",
+      "source_composition": "/Users/dimitriosporpatonelis/Documents/Unity/MindPalaceVR/Assets/ChronologyHall/TimeLibrary/Alexandria/Source~/Film/compositions/shot_10_roman.html",
+      "image_sha256": "ae344e1b15f956883c5a9540be7d6ba52528c5e397ea697a84ef2a7f00c2f5ee"
+    },
+    {
+      "id": "11_philosophy",
+      "title": "Παιδεία και συγκρητισμός",
+      "line": "Δίπλα στις φιλοσοφικές σχολές, ο Σέραπις συνδέει ελληνικές και αιγυπτιακές θεότητες.",
+      "period": "ΦΙΛΟΣΟΦΙΚΗ ΠΑΙΔΕΙΑ",
+      "source_image": "/Users/dimitriosporpatonelis/Documents/Unity/MindPalaceVR/Assets/ChronologyHall/TimeLibrary/Alexandria/Source~/Film/assets/images/11_philosophy.png",
+      "source_composition": "/Users/dimitriosporpatonelis/Documents/Unity/MindPalaceVR/Assets/ChronologyHall/TimeLibrary/Alexandria/Source~/Film/compositions/shot_11_philosophy.html",
+      "image_sha256": "7ec40950b0e8c018fb9c817de6628e6ff469def62dfc0de014b6c1495ac258ed"
+    },
+    {
+      "id": "12_neoplatonism",
+      "title": "Νεοπλατωνισμός",
+      "line": "Ο Πλωτίνος μαθητεύει στην Αλεξάνδρεια, κοντά στον Αμμώνιο Σακκά.",
+      "period": "3ος ΑΙΩΝΑΣ μ.Χ.",
+      "source_image": "/Users/dimitriosporpatonelis/Documents/Unity/MindPalaceVR/Assets/ChronologyHall/TimeLibrary/Alexandria/Source~/Film/assets/images/12_neoplatonism.png",
+      "source_composition": "/Users/dimitriosporpatonelis/Documents/Unity/MindPalaceVR/Assets/ChronologyHall/TimeLibrary/Alexandria/Source~/Film/compositions/shot_12_neoplatonism.html",
+      "image_sha256": "b5034db431988abfdab9d59184ccd2e3912efcb3d396ccd0a7066501c0579959"
+    },
+    {
+      "id": "13_origen",
+      "title": "Ωριγένης",
+      "line": "Η χριστιανική ερμηνεία συναντά την ελληνική παιδεία.",
+      "period": "3ος ΑΙΩΝΑΣ μ.Χ.",
+      "source_image": "/Users/dimitriosporpatonelis/Documents/Unity/MindPalaceVR/Assets/ChronologyHall/TimeLibrary/Alexandria/Source~/Film/assets/images/13_origen.png",
+      "source_composition": "/Users/dimitriosporpatonelis/Documents/Unity/MindPalaceVR/Assets/ChronologyHall/TimeLibrary/Alexandria/Source~/Film/compositions/shot_13_origen.html",
+      "image_sha256": "ea179f25fb2492f8b917c336e4430b2f66679c9bbb9a32314a821cb930ca851a"
+    },
+    {
+      "id": "14_christian_city",
+      "title": "Η χριστιανική Αλεξάνδρεια",
+      "line": "Κοινότητες, βασιλικές και νέες μορφές λατρείας διαμορφώνουν την πόλη.",
+      "period": "ΥΣΤΕΡΗ ΑΡΧΑΙΟΤΗΤΑ",
+      "source_image": "/Users/dimitriosporpatonelis/Documents/Unity/MindPalaceVR/Assets/ChronologyHall/TimeLibrary/Alexandria/Source~/Film/assets/images/14_christian_city.png",
+      "source_composition": "/Users/dimitriosporpatonelis/Documents/Unity/MindPalaceVR/Assets/ChronologyHall/TimeLibrary/Alexandria/Source~/Film/compositions/shot_14_christian_city.html",
+      "image_sha256": "8248e5396b09b3f75b4058f2448586cc0a900e70a2d415d4203c9975da2721dd"
+    },
+    {
+      "id": "15_athanasius",
+      "title": "Αθανάσιος Αλεξανδρείας",
+      "line": "Υπερασπίζεται την πίστη της Νίκαιας, παρά τις επανειλημμένες εξορίες.",
+      "period": "4ος ΑΙΩΝΑΣ μ.Χ.",
+      "source_image": "/Users/dimitriosporpatonelis/Documents/Unity/MindPalaceVR/Assets/ChronologyHall/TimeLibrary/Alexandria/Source~/Film/assets/images/15_athanasius.png",
+      "source_composition": "/Users/dimitriosporpatonelis/Documents/Unity/MindPalaceVR/Assets/ChronologyHall/TimeLibrary/Alexandria/Source~/Film/compositions/shot_15_athanasius.html",
+      "image_sha256": "a29c9ff5d02090fded2c3db9184eb2ff6894c43edc1f0f736efa47bd63f3c3c4"
+    },
+    {
+      "id": "16_cyril",
+      "title": "Κύριλλος Αλεξανδρείας",
+      "line": "Με το έργο και τις επιστολές του τονίζει την ενότητα του προσώπου του Χριστού.",
+      "period": "5ος ΑΙΩΝΑΣ μ.Χ.",
+      "source_image": "/Users/dimitriosporpatonelis/Documents/Unity/MindPalaceVR/Assets/ChronologyHall/TimeLibrary/Alexandria/Source~/Film/assets/images/16_cyril.png",
+      "source_composition": "/Users/dimitriosporpatonelis/Documents/Unity/MindPalaceVR/Assets/ChronologyHall/TimeLibrary/Alexandria/Source~/Film/compositions/shot_16_cyril.html",
+      "image_sha256": "c4a3a9192f96008b7a00da6342f1bccb4d7d67cb5b591fa237950856ee6844c4"
+    },
+    {
+      "id": "17_chalcedon",
+      "title": "Χριστολογικές διαμάχες",
+      "line": "Ο όρος «μονοφυσιτισμός» σημαδεύει τις αντιπαραθέσεις.",
+      "period": "ΜΕΤΑ ΤΗ ΧΑΛΚΗΔΟΝΑ · 451",
+      "source_image": "/Users/dimitriosporpatonelis/Documents/Unity/MindPalaceVR/Assets/ChronologyHall/TimeLibrary/Alexandria/Source~/Film/assets/images/17_chalcedon.png",
+      "source_composition": "/Users/dimitriosporpatonelis/Documents/Unity/MindPalaceVR/Assets/ChronologyHall/TimeLibrary/Alexandria/Source~/Film/compositions/shot_17_chalcedon.html",
+      "image_sha256": "fbd2cfc1a282b28e28b9e659b7ca12e0191d9ad2ea0788df73413ef2caa04688"
+    },
+    {
+      "id": "18_coptic",
+      "title": "Κοπτική παράδοση",
+      "line": "«Μιαφυσιτισμός»: ενότητα θεότητας και ανθρωπότητας στον Χριστό.",
+      "period": "ΣΥΝΕΧΕΙΑ ΤΗΣ ΧΡΙΣΤΙΑΝΙΚΗΣ ΠΑΡΑΔΟΣΗΣ",
+      "source_image": "/Users/dimitriosporpatonelis/Documents/Unity/MindPalaceVR/Assets/ChronologyHall/TimeLibrary/Alexandria/Source~/Film/assets/images/18_coptic.png",
+      "source_composition": "/Users/dimitriosporpatonelis/Documents/Unity/MindPalaceVR/Assets/ChronologyHall/TimeLibrary/Alexandria/Source~/Film/compositions/shot_18_coptic.html",
+      "image_sha256": "29359e8b3fe3c7adb83d12b840cbd64bc414a0174952be9c3b1c589182a8e7d3"
+    },
+    {
+      "id": "19_arabic",
+      "title": "Η αραβική περίοδος",
+      "line": "Νέα διοίκηση· η Αλεξάνδρεια συνεχίζει ως μεσογειακό λιμάνι.",
+      "period": "7ος ΑΙΩΝΑΣ μ.Χ.",
+      "source_image": "/Users/dimitriosporpatonelis/Documents/Unity/MindPalaceVR/Assets/ChronologyHall/TimeLibrary/Alexandria/Source~/Film/assets/images/19_arabic.png",
+      "source_composition": "/Users/dimitriosporpatonelis/Documents/Unity/MindPalaceVR/Assets/ChronologyHall/TimeLibrary/Alexandria/Source~/Film/compositions/shot_19_arabic.html",
+      "image_sha256": "803cbfdcad87eee0dbc4c99e1412c038b9511c8cbb03febdbb882ab0ddaefc69"
+    },
+    {
+      "id": "20_reflection",
+      "title": "Αλεξάνδρεια μέσα στον χρόνο",
+      "line": "Πώς συναντιούνται στην Αλεξάνδρεια η εξουσία, η γνώση και η πίστη;",
+      "period": "ΒΙΒΛΙΟΘΗΚΗ ΤΟΥ ΧΡΟΝΟΥ",
+      "source_image": "/Users/dimitriosporpatonelis/Documents/Unity/MindPalaceVR/Assets/ChronologyHall/TimeLibrary/Alexandria/Source~/Film/assets/images/20_reflection.png",
+      "source_composition": "/Users/dimitriosporpatonelis/Documents/Unity/MindPalaceVR/Assets/ChronologyHall/TimeLibrary/Alexandria/Source~/Film/compositions/shot_20_reflection.html",
+      "image_sha256": "0eda7a9d333785f1f52f9c3bd383766340ac9aed337d0ffd23fa4e510390c7cb"
+    }
+  ],
+  "source_video": "/Users/dimitriosporpatonelis/Documents/Unity/MindPalaceVR/Assets/ChronologyHall/TimeLibrary/Alexandria/Videos/alexandria_history.mp4",
+  "duration": 120,
+  "source_video_sha256": "76969d8aa60f2ad877a90d553cead6431267bdd8f8f0447fc1003151306323f5",
+  "extracted_at": "2026-10-31",
+  "provenance": "Existing user-authored MindPalaceVR TimeLibrary video, source illustrations and on-screen text. No new historical content or illustrations."
+}

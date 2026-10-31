@@ -3,8 +3,8 @@
   "book_id": "Digital_Lessons",
   "title": "Το ψηφιακό μου βιβλίο",
   "description": "Κείμενα, εικόνες και συνδέσεις για τα μαθήματά μας στα web apps και στο Unity.",
-  "revision": 30,
-  "updated_at": "2026-10-28",
+  "revision": 31,
+  "updated_at": "2026-10-31",
   "cover": {
     "asset": "assets/old-testament-objects.png",
     "caption": "Έξι ιερά αντικείμενα της Παλαιάς Διαθήκης",
@@ -18,6 +18,105 @@
     "enabled": true
   },
   "lessons": [
+    {
+      "id": "lesson-historical-contexts",
+      "title": "Ιστορικά πλαίσια",
+      "short_title": "Ιστορικά πλαίσια",
+      "sections": [
+        {
+          "id": "historical-alexandria",
+          "title": "Αλεξάνδρεια μέσα στον χρόνο",
+          "source_file": "sources/historical-contexts/alexandria-history.json",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Η αφήγηση ξεκινά από το αιγυπτιακό υπόβαθρο και ακολουθεί την Αλεξάνδρεια από την ίδρυσή της και τους Πτολεμαίους έως τη ρωμαϊκή, τη χριστιανική και την αραβική περίοδο."
+            },
+            {
+              "kind": "text",
+              "text": "Ο Φάρος, το Μουσείο και η Βιβλιοθήκη, οι φιλοσοφικές σχολές και πρόσωπα όπως ο Ωριγένης, ο Αθανάσιος και ο Κύριλλος φωτίζουν τη σχέση γνώσης, εξουσίας και πίστης."
+            },
+            {
+              "kind": "text",
+              "text": "Το βίντεο διαρκεί δύο λεπτά. Η παρουσίαση Google Slides περιλαμβάνει τις ίδιες είκοσι εικόνες και τα κείμενά τους για παρατήρηση και συζήτηση στην τάξη."
+            }
+          ],
+          "media": [
+            {
+              "media_id": "IMG-124",
+              "type": "image",
+              "title": "Αλεξάνδρεια μέσα στον χρόνο · Εικόνα από την αφήγηση",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/historical-contexts/alexandria.jpg",
+              "asset": "assets/historical-contexts/alexandria.jpg",
+              "caption": "Εικαστική ιστορική ανασύνθεση από την επιλεγμένη αφήγηση του MindPalaceVR."
+            },
+            {
+              "media_id": "VID-048",
+              "type": "video",
+              "title": "Βίντεο · Αλεξάνδρεια μέσα στον χρόνο",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/historical-contexts/alexandria-history.mp4",
+              "asset": "assets/historical-contexts/alexandria-history.mp4",
+              "duration_seconds": 120,
+              "placement": "after_text"
+            },
+            {
+              "media_id": "SLD-036",
+              "type": "slides",
+              "title": "Google Slides · Αλεξάνδρεια μέσα στον χρόνο",
+              "url": "https://docs.google.com/presentation/d/1c6L0_nHnFeu2qUP6atJRzEjjncb1ntFdkkieVD2R8h4/edit?usp=drivesdk",
+              "slide_count": 20,
+              "placement": "after_text"
+            }
+          ]
+        },
+        {
+          "id": "historical-constantinople",
+          "title": "Κωνσταντινούπολη του 4ου αιώνα",
+          "source_file": "sources/historical-contexts/constantinople-4c.json",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Η Πόλη παρουσιάζεται ως νέο κέντρο της αυτοκρατορίας, από τον Μέγα Κωνσταντίνο και τη νέα πρωτεύουσα του 330 έως τον Θεοδόσιο Α΄ και τον Αρκάδιο."
+            },
+            {
+              "kind": "text",
+              "text": "Η αφήγηση συνδέει τη διαδοχή των αυτοκρατόρων, τον δημόσιο βίο και τον Ιππόδρομο με τις εκκλησιαστικές εξελίξεις. Ξεχωρίζει τις Συνόδους της Νίκαιας (325) και της Κωνσταντινούπολης (381)."
+            },
+            {
+              "kind": "text",
+              "text": "Το βίντεο διαρκεί 72 δευτερόλεπτα. Η παρουσίαση Google Slides κρατά τα έξι μέρη της αφήγησης ως διαφάνειες για μελέτη με τον ρυθμό της τάξης."
+            }
+          ],
+          "media": [
+            {
+              "media_id": "IMG-125",
+              "type": "image",
+              "title": "Κωνσταντινούπολη του 4ου αιώνα · Εικόνα από την αφήγηση",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/historical-contexts/constantinople.jpg",
+              "asset": "assets/historical-contexts/constantinople.jpg",
+              "caption": "Εικαστική ιστορική ανασύνθεση από την επιλεγμένη αφήγηση του MindPalaceVR."
+            },
+            {
+              "media_id": "VID-049",
+              "type": "video",
+              "title": "Βίντεο · Κωνσταντινούπολη του 4ου αιώνα",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/historical-contexts/constantinople-4c.mp4",
+              "asset": "assets/historical-contexts/constantinople-4c.mp4",
+              "duration_seconds": 72,
+              "placement": "after_text"
+            },
+            {
+              "media_id": "SLD-037",
+              "type": "slides",
+              "title": "Google Slides · Κωνσταντινούπολη του 4ου αιώνα",
+              "url": "https://docs.google.com/presentation/d/1bmGS2wus29BdFD20ASYGDGa-lUps35vi5RQx6MfBFN8/edit?usp=drivesdk",
+              "slide_count": 6,
+              "placement": "after_text"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "lesson-foundations",
       "title": "Βασικές γνώσεις για όλες τις τάξεις",

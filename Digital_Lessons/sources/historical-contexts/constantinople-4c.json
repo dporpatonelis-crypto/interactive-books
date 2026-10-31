@@ -1,0 +1,97 @@
+{
+  "id": "constantinople-4c",
+  "title": "Ιστορικά πλαίσια · Κωνσταντινούπολη του 4ου αιώνα",
+  "slides": [
+    {
+      "id": "city",
+      "title": "Κωνσταντινούπολη",
+      "period": "ΒΙΒΛΙΟΘΗΚΗ ΤΟΥ ΧΡΟΝΟΥ · 4ος ΑΙΩΝΑΣ",
+      "line": "Η Πόλη και οι αυτοκράτορες",
+      "layout": "top",
+      "source_image": "/Users/dimitriosporpatonelis/Documents/Unity/MindPalaceVR/Assets/ChronologyHall/TimeLibrary/Source~/Film/assets/images/constantinople_panorama.png",
+      "image_sha256": "70c6a74d2587b7136d22d5f4a794708b672d1654491f0d679d4b878431dd4719",
+      "source_composition": "/Users/dimitriosporpatonelis/Documents/Unity/MindPalaceVR/Assets/ChronologyHall/TimeLibrary/Source~/Film/compositions/city.html"
+    },
+    {
+      "id": "constantine",
+      "title": "Μέγας Κωνσταντίνος",
+      "period": "330 · Η ΝΕΑ ΡΩΜΗ",
+      "line": "Μια νέα πρωτεύουσα στον Βόσπορο.\nΛιμάνια, δημόσια κτίρια και δρόμοι συνδέουν την Πόλη.",
+      "source_image": "/Users/dimitriosporpatonelis/Documents/Unity/MindPalaceVR/Assets/ChronologyHall/TimeLibrary/Source~/Film/assets/images/constantine_city.png",
+      "image_sha256": "40ee3d5209d8c502eef20db262bf33ab6062032852f8d91afc11b428cc3197ac",
+      "source_composition": "/Users/dimitriosporpatonelis/Documents/Unity/MindPalaceVR/Assets/ChronologyHall/TimeLibrary/Source~/Film/compositions/constantine.html"
+    },
+    {
+      "id": "emperors",
+      "title": "Αυτοκράτορες του 4ου αιώνα",
+      "line": "Κύριοι σταθμοί της διαδοχής στην Ανατολή",
+      "layout": "emperors",
+      "names": [
+        [
+          "Κωνστάντιος Β΄",
+          "337–361"
+        ],
+        [
+          "Ιουλιανός",
+          "361–363"
+        ],
+        [
+          "Ιοβιανός",
+          "363–364"
+        ],
+        [
+          "Ουάλης",
+          "364–378"
+        ]
+      ],
+      "source_image": "/Users/dimitriosporpatonelis/Documents/Unity/MindPalaceVR/Assets/ChronologyHall/TimeLibrary/Source~/Film/assets/images/emperors_overview.png",
+      "image_sha256": "a8d4e7ef4e6ab44aff0d1e3488696500a87b0d9a80200af26746ff14c3567979",
+      "source_composition": "/Users/dimitriosporpatonelis/Documents/Unity/MindPalaceVR/Assets/ChronologyHall/TimeLibrary/Source~/Film/compositions/emperors.html"
+    },
+    {
+      "id": "theodosius",
+      "title": "Η Πόλη ενισχύει τον ρόλο της",
+      "period": "379–395 · ΘΕΟΔΟΣΙΟΣ Α΄",
+      "line": "Αυτοκρατορική εξουσία, δημόσιος βίος και εκκλησιαστικές εξελίξεις συναντώνται στην πρωτεύουσα.",
+      "chip": "390 · Ο οβελίσκος στον Ιππόδρομο",
+      "source_image": "/Users/dimitriosporpatonelis/Documents/Unity/MindPalaceVR/Assets/ChronologyHall/TimeLibrary/Source~/Film/assets/images/theodosius_city.png",
+      "image_sha256": "2bdca90a4d83b10e4d8794361b7e89a69c832e8a3cdb750d79416d85e5b010bb",
+      "source_composition": "/Users/dimitriosporpatonelis/Documents/Unity/MindPalaceVR/Assets/ChronologyHall/TimeLibrary/Source~/Film/compositions/theodosius.html"
+    },
+    {
+      "id": "councils",
+      "title": "Δύο Οικουμενικές Σύνοδοι του 4ου αιώνα",
+      "layout": "councils",
+      "columns": [
+        {
+          "title": "Νίκαια · 325",
+          "line": "Α΄ Οικουμενική Σύνοδος\nΕπί Μεγάλου Κωνσταντίνου",
+          "note": "Η θεότητα του Υιού."
+        },
+        {
+          "title": "Κωνσταντινούπολη · 381",
+          "line": "Β΄ Οικουμενική Σύνοδος\nΕπί Θεοδοσίου Α΄",
+          "note": "Η θεότητα του Αγίου Πνεύματος."
+        }
+      ],
+      "source_image": "/Users/dimitriosporpatonelis/Documents/Unity/MindPalaceVR/Assets/ChronologyHall/TimeLibrary/Source~/Film/assets/images/councils_4c.png",
+      "image_sha256": "3475cca2a243ea920dde7fb2badb652d6298ab6475298d5da5e00c80906689b1",
+      "source_composition": "/Users/dimitriosporpatonelis/Documents/Unity/MindPalaceVR/Assets/ChronologyHall/TimeLibrary/Source~/Film/compositions/councils.html"
+    },
+    {
+      "id": "reflection",
+      "title": "Πώς γίνεται μια πόλη κέντρο\nαυτοκρατορίας και πίστης;",
+      "period": "395 · ΣΤΟ ΤΕΛΟΣ ΤΟΥ ΑΙΩΝΑ",
+      "line": "Ο Αρκάδιος κυβερνά στην Ανατολή.\nΗ Κωνσταντινούπολη συνεχίζει να αναπτύσσεται.",
+      "layout": "reflection",
+      "source_image": "/Users/dimitriosporpatonelis/Documents/Unity/MindPalaceVR/Assets/ChronologyHall/TimeLibrary/Source~/Film/assets/images/constantinople_panorama.png",
+      "image_sha256": "70c6a74d2587b7136d22d5f4a794708b672d1654491f0d679d4b878431dd4719",
+      "source_composition": "/Users/dimitriosporpatonelis/Documents/Unity/MindPalaceVR/Assets/ChronologyHall/TimeLibrary/Source~/Film/compositions/reflection.html"
+    }
+  ],
+  "source_video": "/Users/dimitriosporpatonelis/Documents/Unity/MindPalaceVR/Assets/ChronologyHall/TimeLibrary/Videos/constantinople_4c.mp4",
+  "duration": 72,
+  "source_video_sha256": "7b3dab3421df548da8c07f3e846ad70ca662d53f93b0fc63df3586f565a0c2b4",
+  "extracted_at": "2026-10-31",
+  "provenance": "Existing user-authored MindPalaceVR TimeLibrary video, source illustrations and on-screen text. No new historical content or illustrations."
+}

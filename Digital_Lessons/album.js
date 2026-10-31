@@ -294,7 +294,7 @@
     const coverBody=createLeaf();coverBody.parentElement.classList.add('cover');coverBody.parentElement.querySelector('.folio').remove();coverBody.replaceWith(cover());
     const tocState={body:createLeaf()};const tocBody=tocState.body;tocBody.append(node('p','eyebrow','ΜΑΘΗΜΑΤΑ & ΕΝΟΤΗΤΕΣ'),node('h2','','Περιεχόμενα'),node('p','toc-intro','Ένα μικρό ταξίδι από την εικόνα στο κείμενο και από τη σελίδα στο πρόσθετο υλικό.'));
     const tocEntries=data.pages.map((p,i)=>tocEntry(p,i));
-    tocEntries.forEach((el,i)=>{const p=data.pages[i];if(p.lessonTitle&&(!i||p.lessonId!==data.pages[i-1].lessonId))addUnit(node('p','toc-intro',p.lessonTitle),tocState,null);addUnit(el,tocState,null);});
+    tocEntries.forEach((el,i)=>{const p=data.pages[i];if(p.lessonTitle&&(!i||p.lessonId!==data.pages[i-1].lessonId)){const group=node('div','toc-group-start');group.append(node('h3','toc-lesson',p.lessonTitle),el);addUnit(group,tocState,null);}else addUnit(el,tocState,null);});
     for (let index=0;index<data.pages.length;index++) {
       const page=data.pages[index];chapterStarts.push(leaves.length);
       const state={body:createLeaf(page)};
@@ -321,7 +321,7 @@
         if(endActions.children.length)addUnit(endActions,state,page);
       }
     }
-    data.pages.forEach((p,i)=>{tocEntries[i].querySelector('em').textContent=chapterStarts[i]+1;$('toc-list').append(tocEntry(p,i));});
+    data.pages.forEach((p,i)=>{tocEntries[i].querySelector('em').textContent=chapterStarts[i]+1;if(p.lessonTitle&&(!i||p.lessonId!==data.pages[i-1].lessonId))$('toc-list').append(node('h3','toc-lesson',p.lessonTitle));$('toc-list').append(tocEntry(p,i));});
     await waitImages($('book'));
     leaves.forEach(el=>{el.style.display='';el.style.visibility='';});
     resize();const initial=data.pages.findIndex((p,i)=>'#'+sectionAnchor(p,i)===location.hash);show(initial>=0?chapterStarts[initial]:0);document.body.dataset.ready='true';
@@ -382,7 +382,7 @@
     $('pdf-link').replaceWith(Object.assign(node('button','','Αποθήκευση ως PDF'),{id:'save-pdf',type:'button',disabled:true}));
     const help=node('p','reading-hint','Επίλεξε «Αποθήκευση ως PDF», A4 οριζόντιο, χωρίς κεφαλίδες/υποσέλιδα του browser και με γραφικά φόντου.');help.style.display='block';document.querySelector('main').prepend(help);
     const source=node('div');source.append(cover(true));
-    const toc=node('section','print-toc');toc.append(node('p','eyebrow','ΜΑΘΗΜΑΤΑ & ΕΝΟΤΗΤΕΣ'),node('h2','','Περιεχόμενα'));data.pages.forEach((p,i)=>{if(p.lessonTitle&&(!i||p.lessonId!==data.pages[i-1].lessonId))toc.append(node('p','toc-intro',p.lessonTitle));toc.append(tocEntry(p,i,true));});source.append(toc);
+    const toc=node('section','print-toc');toc.append(node('p','eyebrow','ΜΑΘΗΜΑΤΑ & ΕΝΟΤΗΤΕΣ'),node('h2','','Περιεχόμενα'));data.pages.forEach((p,i)=>{if(p.lessonTitle&&(!i||p.lessonId!==data.pages[i-1].lessonId)){const group=node('div','toc-group-start');group.append(node('h3','toc-lesson',p.lessonTitle),tocEntry(p,i,true));toc.append(group);}else toc.append(tocEntry(p,i,true));});source.append(toc);
     data.pages.forEach((page,index)=>{
       const section=node('section','print-section');section.id=sectionAnchor(page,index);
       if(page.layout)section.dataset.layout=page.layout;
