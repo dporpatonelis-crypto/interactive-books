@@ -1,0 +1,114 @@
+{
+  "revision": 32,
+  "date": "2026-11-02",
+  "sectionId": "historical-athens",
+  "sectionOrder": [
+    "historical-alexandria",
+    "historical-constantinople",
+    "historical-athens"
+  ],
+  "reader": {
+    "passed": true,
+    "checks": [
+      "Reader opens without a build error",
+      "Revision 32 with 62 stable sections",
+      "Athens stable deep link opens its chapter",
+      "Selected Athens illustration loads",
+      "Keyboard turns forward",
+      "Keyboard returns to the same spread",
+      "Athens appears exactly once in contents",
+      "Contents retain larger group headings above subsections",
+      "Contents preserve the new stable section URL",
+      "Full illustration opens in image viewer",
+      "Google Slides opens as the correct embedded presentation",
+      "External presentation link preserved",
+      "Closing presentation removes its iframe",
+      "Embedded video is complete, non-looping and has controls",
+      "Closing video releases the player",
+      "Mobile reader uses one readable leaf",
+      "Changed mobile page has no clipped vertical content",
+      "Touch swipe turns the mobile page",
+      "Reduced motion turns without an animated duplicate",
+      "No reader JavaScript exceptions"
+    ],
+    "assetsServedFromDraft": true,
+    "errors": [],
+    "preservedOldManifestSections": 61
+  },
+  "pdf": {
+    "passed": true,
+    "revision": 32,
+    "pages": 93,
+    "sectionDestinations": 62,
+    "preservedOldSections": 61,
+    "athensPage": 13,
+    "sourceDigest": "9a229b55e8ed86e19439b01d999dcddecd4b52e90269a623aae95c2431d1e468",
+    "pdfSha256": "25663ed9294ddf8a821321bf8b8618bc6d2f975edb9748e17447a224aa10feed",
+    "athensMediaUrlsPreserved": true
+  },
+  "video": {
+    "passed": true,
+    "frames": 3600,
+    "duration": 120,
+    "width": 1920,
+    "height": 1080,
+    "video_codec": "h264",
+    "audio_codec": "aac",
+    "bytes": 67315953,
+    "sha256": "44250ce6e133094d4f7ccba4e0474792ed4e7b1f4c0f4e2ca06a72f85ce7c367"
+  },
+  "slides": {
+    "slideCount": 20,
+    "titlesOnly": true,
+    "titleFont": "Noto Serif",
+    "renderedAndVisuallyChecked": true,
+    "anyoneWithLinkCanRead": true,
+    "presentationUrl": "https://docs.google.com/presentation/d/1yqoZgkbgzXRP180EnZB6bNkszlz9ANEf9fqyKs3O-wI/edit?usp=drivesdk",
+    "anonymousReadback": {
+      "passed": true,
+      "status": 200,
+      "anonymous": true,
+      "accessRequestShown": false,
+      "title": "Ιστορικά πλαίσια · Αθήνα και ελληνικός πολιτισμός - Παρουσιάσεις Google"
+    }
+  },
+  "mediaIds": [
+    "IMG-126",
+    "VID-050",
+    "SLD-038"
+  ],
+  "mediaLibrary": {
+    "verifiedStores": [
+      "Drive Sheet",
+      "GitHub JSON",
+      "local canonical JSON"
+    ],
+    "sheetRows": [
+      274,
+      275,
+      276
+    ],
+    "ids": [
+      "IMG-126",
+      "VID-050",
+      "SLD-038"
+    ],
+    "catalogTotal": 274,
+    "githubCommit": "15e8e74dfeae2bd87e11438ec31a7f043cc131a5",
+    "localReadbackPassed": true
+  },
+  "assetUrlReadback": [
+    {
+      "asset": "athens.jpg",
+      "status": 200,
+      "bytes": 769421,
+      "mime": "image/jpeg"
+    },
+    {
+      "asset": "athens-history.mp4",
+      "status": 200,
+      "bytes": 67315953,
+      "mime": "video/mp4"
+    }
+  ]
+}

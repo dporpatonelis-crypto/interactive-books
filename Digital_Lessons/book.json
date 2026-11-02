@@ -3,8 +3,8 @@
   "book_id": "Digital_Lessons",
   "title": "Το ψηφιακό μου βιβλίο",
   "description": "Κείμενα, εικόνες και συνδέσεις για τα μαθήματά μας στα web apps και στο Unity.",
-  "revision": 31,
-  "updated_at": "2026-10-31",
+  "revision": 32,
+  "updated_at": "2026-11-02",
   "cover": {
     "asset": "assets/old-testament-objects.png",
     "caption": "Έξι ιερά αντικείμενα της Παλαιάς Διαθήκης",
@@ -111,6 +111,56 @@
               "title": "Google Slides · Κωνσταντινούπολη του 4ου αιώνα",
               "url": "https://docs.google.com/presentation/d/1bmGS2wus29BdFD20ASYGDGa-lUps35vi5RQx6MfBFN8/edit?usp=drivesdk",
               "slide_count": 6,
+              "placement": "after_text"
+            }
+          ]
+        },
+        {
+          "id": "historical-athens",
+          "title": "Αθήνα και ελληνικός πολιτισμός",
+          "source_file": "sources/historical-contexts/athens-history.json",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Από τον Χρυσό Αιώνα του Περικλή και τον Σωκράτη, η αφήγηση περνά στον Πλάτωνα, στον Αριστοτέλη και στη διάδοση του ελληνικού πολιτισμού με τον Μέγα Αλέξανδρο."
+            },
+            {
+              "kind": "text",
+              "text": "Στον Πλάτωνα εστιάζουμε στο Ον, στις Ιδέες και στην ανθρώπινη ψυχή· στον Αριστοτέλη στη λογική, στην κίνηση και στο πρώτο κινούν ακίνητο· στους Στωικούς στον Λόγο ως τεχνικό πυρ και στην αρετή· στον Νεοπλατωνισμό στο Έν και στις απορροές."
+            },
+            {
+              "kind": "text",
+              "text": "Η αφήγηση ολοκληρώνεται με μια γέφυρα προς τη χριστιανική θεολογία της ελεύθερης δημιουργίας και του Λόγου ως Προσώπου."
+            },
+            {
+              "kind": "text",
+              "text": "Το βίντεο διαρκεί δύο λεπτά. Η παρουσίαση Google Slides περιλαμβάνει τις ίδιες είκοσι διαφορετικές εικόνες με σύντομους τίτλους, για παρατήρηση και συζήτηση στην τάξη."
+            }
+          ],
+          "media": [
+            {
+              "media_id": "IMG-126",
+              "type": "image",
+              "title": "Αθήνα και ελληνικός πολιτισμός · Εικόνα από την αφήγηση",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/historical-contexts/athens.jpg",
+              "asset": "assets/historical-contexts/athens.jpg",
+              "caption": "Η Εκκλησία του Δήμου στην Πνύκα · Εικαστική ιστορική ανασύνθεση από την αφήγηση του MindPalaceVR."
+            },
+            {
+              "media_id": "VID-050",
+              "type": "video",
+              "title": "Βίντεο · Αθήνα και ελληνικός πολιτισμός",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/historical-contexts/athens-history.mp4",
+              "asset": "assets/historical-contexts/athens-history.mp4",
+              "duration_seconds": 120,
+              "placement": "after_text"
+            },
+            {
+              "media_id": "SLD-038",
+              "type": "slides",
+              "title": "Google Slides · Αθήνα και ελληνικός πολιτισμός",
+              "url": "https://docs.google.com/presentation/d/1yqoZgkbgzXRP180EnZB6bNkszlz9ANEf9fqyKs3O-wI/edit?usp=drivesdk",
+              "slide_count": 20,
               "placement": "after_text"
             }
           ]

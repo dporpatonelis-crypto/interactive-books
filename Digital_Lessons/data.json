@@ -2,8 +2,8 @@
   "title": "Το ψηφιακό μου βιβλίο",
   "description": "Κείμενα, εικόνες και συνδέσεις για τα μαθήματά μας στα web apps και στο Unity.",
   "bookId": "Digital_Lessons",
-  "revision": 31,
-  "sourceDigest": "09df52edcfc649cd7802bd1c6cbc0c20f788f1d04e51dbbbba638ef5e546f2e2",
+  "revision": 32,
+  "sourceDigest": "9a229b55e8ed86e19439b01d999dcddecd4b52e90269a623aae95c2431d1e468",
   "coverImage": "assets/old-testament-objects.png",
   "coverCaption": "Έξι ιερά αντικείμενα της Παλαιάς Διαθήκης",
   "edition": "ΠΡΟΣΩΠΙΚΟ ΨΗΦΙΑΚΟ ΒΙΒΛΙΟ",
@@ -117,8 +117,67 @@
       ]
     },
     {
-      "id": "divine-economy-worksheet",
+      "id": "historical-athens",
       "number": 3,
+      "type": "content",
+      "title": "Αθήνα και ελληνικός πολιτισμός",
+      "displayTitle": "Αθήνα και ελληνικός πολιτισμός",
+      "sourceBook": "Digital_Lessons",
+      "sourceTitle": "Μάθημα 1",
+      "sourcePage": 3,
+      "lessonId": "lesson-historical-contexts",
+      "lessonTitle": "Ιστορικά πλαίσια",
+      "sourceUrl": "",
+      "content": [
+        {
+          "text": "Από τον Χρυσό Αιώνα του Περικλή και τον Σωκράτη, η αφήγηση περνά στον Πλάτωνα, στον Αριστοτέλη και στη διάδοση του ελληνικού πολιτισμού με τον Μέγα Αλέξανδρο.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "Στον Πλάτωνα εστιάζουμε στο Ον, στις Ιδέες και στην ανθρώπινη ψυχή· στον Αριστοτέλη στη λογική, στην κίνηση και στο πρώτο κινούν ακίνητο· στους Στωικούς στον Λόγο ως τεχνικό πυρ και στην αρετή· στον Νεοπλατωνισμό στο Έν και στις απορροές.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "Η αφήγηση ολοκληρώνεται με μια γέφυρα προς τη χριστιανική θεολογία της ελεύθερης δημιουργίας και του Λόγου ως Προσώπου.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "Το βίντεο διαρκεί δύο λεπτά. Η παρουσίαση Google Slides περιλαμβάνει τις ίδιες είκοσι διαφορετικές εικόνες με σύντομους τίτλους, για παρατήρηση και συζήτηση στην τάξη.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        }
+      ],
+      "mediaRefs": [
+        "IMG-126",
+        "VID-050",
+        "SLD-038"
+      ],
+      "images": [
+        "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/historical-contexts/athens.jpg"
+      ],
+      "imageCaption": "Η Εκκλησία του Δήμου στην Πνύκα · Εικαστική ιστορική ανασύνθεση από την αφήγηση του MindPalaceVR.",
+      "videoUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/historical-contexts/athens-history.mp4",
+      "slidesUrl": "https://docs.google.com/presentation/d/1yqoZgkbgzXRP180EnZB6bNkszlz9ANEf9fqyKs3O-wI/edit?usp=drivesdk",
+      "localImages": [
+        {
+          "src": "assets/historical-contexts/athens.jpg",
+          "original": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/historical-contexts/athens.jpg",
+          "mediaId": "IMG-126",
+          "caption": "Η Εκκλησία του Δήμου στην Πνύκα · Εικαστική ιστορική ανασύνθεση από την αφήγηση του MindPalaceVR.",
+          "retained": true
+        }
+      ]
+    },
+    {
+      "id": "divine-economy-worksheet",
+      "number": 4,
       "type": "content",
       "title": "Η θεία οικονομία — συμπλήρωσε τα κενά",
       "displayTitle": "Η θεία οικονομία — συμπλήρωσε τα κενά",
@@ -176,7 +235,7 @@
     },
     {
       "id": "divine-economy-teacher-answers",
-      "number": 4,
+      "number": 5,
       "type": "content",
       "title": "Η θεία οικονομία — λύσεις εκπαιδευτικού",
       "displayTitle": "Η θεία οικονομία — λύσεις εκπαιδευτικού",
@@ -210,7 +269,7 @@
     },
     {
       "id": "divine-economy-mindmap",
-      "number": 5,
+      "number": 6,
       "type": "content",
       "title": "Το Σχέδιο της Θείας Οικονομίας · Φωτεινός χάρτης",
       "displayTitle": "Το Σχέδιο της Θείας Οικονομίας · Φωτεινός χάρτης",
@@ -255,7 +314,7 @@
     },
     {
       "id": "s-81491e8e-e56e-5a32-b73e-0f268cf4fb57",
-      "number": 6,
+      "number": 7,
       "type": "content",
       "title": "Εισαγωγή",
       "displayTitle": "Εισαγωγή",
@@ -316,7 +375,7 @@
     },
     {
       "id": "s-4c4c2f7c-92aa-5e18-85aa-7e5f5a1e0535",
-      "number": 7,
+      "number": 8,
       "type": "content",
       "title": "Αρχαία Αγορά: Ο Ελληνικός Στοχασμός ως Γέφυρα Διαλόγου",
       "displayTitle": "Αρχαία Αγορά: Ο Ελληνικός Στοχασμός ως Γέφυρα Διαλόγου",
@@ -386,7 +445,7 @@
     },
     {
       "id": "abraham-journey",
-      "number": 8,
+      "number": 9,
       "type": "content",
       "title": "Η πορεία του Αβραάμ",
       "displayTitle": "Η πορεία του Αβραάμ",
@@ -430,7 +489,7 @@
     },
     {
       "id": "s-851e860a-84d7-5377-a1f6-f6a88b0a17ce",
-      "number": 9,
+      "number": 10,
       "type": "content",
       "title": "Ιερουσαλήμ: Από τη Σκιά της Παλαιάς Διαθήκης στην Υμνολογική Πλήρωση",
       "displayTitle": "Ιερουσαλήμ: Από τη Σκιά της Παλαιάς Διαθήκης στην Υμνολογική Πλήρωση",
@@ -629,7 +688,7 @@
     },
     {
       "id": "david-journey",
-      "number": 10,
+      "number": 11,
       "type": "content",
       "title": "Η πορεία του Δαυίδ",
       "displayTitle": "Η πορεία του Δαυίδ",
@@ -673,7 +732,7 @@
     },
     {
       "id": "elijah-journey",
-      "number": 11,
+      "number": 12,
       "type": "content",
       "title": "Η πορεία του Ηλία",
       "displayTitle": "Η πορεία του Ηλία",
@@ -717,7 +776,7 @@
     },
     {
       "id": "s-0b2bee9f-337b-5288-bfee-1054a9131e97",
-      "number": 12,
+      "number": 13,
       "type": "content",
       "title": "Βυζάντιο: Τα Όρια της Σοφίας, το Σημείο και ο Σταυρός",
       "displayTitle": "Βυζάντιο: Τα Όρια της Σοφίας, το Σημείο και ο Σταυρός",
@@ -811,7 +870,7 @@
     },
     {
       "id": "s-d4a85ee8-310b-552f-b22e-b107eafa8b7f",
-      "number": 13,
+      "number": 14,
       "type": "content",
       "title": "Σύνοψη",
       "displayTitle": "Σύνοψη",
@@ -863,7 +922,7 @@
     },
     {
       "id": "pentecost-upper-room",
-      "number": 14,
+      "number": 15,
       "type": "content",
       "title": "Πεντηκοστή: Από το Ιστορικό Υπερώο στην Οικουμενική Εκκλησία",
       "displayTitle": "Πεντηκοστή: Από το Ιστορικό Υπερώο στην Οικουμενική Εκκλησία",
@@ -938,7 +997,7 @@
     },
     {
       "id": "pentecost-six-stations",
-      "number": 15,
+      "number": 16,
       "type": "content",
       "title": "Οι έξι σταθμοί ανακάλυψης",
       "displayTitle": "Οι έξι σταθμοί ανακάλυψης",
@@ -1038,7 +1097,7 @@
     },
     {
       "id": "pentecost-liturgical-time",
-      "number": 16,
+      "number": 17,
       "type": "content",
       "title": "Ιστορικός χρόνος και λειτουργικό «Σήμερον»",
       "displayTitle": "Ιστορικός χρόνος και λειτουργικό «Σήμερον»",
@@ -1093,7 +1152,7 @@
     },
     {
       "id": "pentecost-prayer-all-adam",
-      "number": 17,
+      "number": 18,
       "type": "content",
       "title": "Η προσευχή υπέρ όλου του Αδάμ",
       "displayTitle": "Η προσευχή υπέρ όλου του Αδάμ",
@@ -1151,7 +1210,7 @@
     },
     {
       "id": "pentecost-vr-learning",
-      "number": 18,
+      "number": 19,
       "type": "content",
       "title": "Η βιωματική διαδρομή στο VR",
       "displayTitle": "Η βιωματική διαδρομή στο VR",
@@ -1224,7 +1283,7 @@
     },
     {
       "id": "pentecost-summary",
-      "number": 19,
+      "number": 20,
       "type": "content",
       "title": "Συνοψίζοντας: Τα κύρια σημεία",
       "displayTitle": "Συνοψίζοντας: Τα κύρια σημεία",
@@ -1287,7 +1346,7 @@
     },
     {
       "id": "pentecost-advanced-theology",
-      "number": 20,
+      "number": 21,
       "type": "content",
       "title": "Προχωρημένο επίπεδο: Η λειτουργική προσευχή και το Υπερώο",
       "displayTitle": "Προχωρημένο επίπεδο: Η λειτουργική προσευχή και το Υπερώο",
@@ -1357,7 +1416,7 @@
     },
     {
       "id": "pentecost-selected-materials",
-      "number": 21,
+      "number": 22,
       "type": "content",
       "title": "Επιλεγμένο υλικό",
       "displayTitle": "Επιλεγμένο υλικό",
@@ -1429,7 +1488,7 @@
     },
     {
       "id": "john-baptist-journey",
-      "number": 22,
+      "number": 23,
       "type": "content",
       "title": "Η πορεία του Ιωάννη του Βαπτιστή",
       "displayTitle": "Η πορεία του Ιωάννη του Βαπτιστή",
@@ -1475,7 +1534,7 @@
     },
     {
       "id": "john-evangelist-journey",
-      "number": 23,
+      "number": 24,
       "type": "content",
       "title": "Η πορεία του Ιωάννη",
       "displayTitle": "Η πορεία του Ιωάννη",
@@ -1521,7 +1580,7 @@
     },
     {
       "id": "peter-journey",
-      "number": 24,
+      "number": 25,
       "type": "content",
       "title": "Η πορεία του Πέτρου",
       "displayTitle": "Η πορεία του Πέτρου",
@@ -1567,7 +1626,7 @@
     },
     {
       "id": "paul-journey",
-      "number": 25,
+      "number": 26,
       "type": "content",
       "title": "Η πορεία του Παύλου",
       "displayTitle": "Η πορεία του Παύλου",
@@ -1613,7 +1672,7 @@
     },
     {
       "id": "apokalypsi",
-      "number": 26,
+      "number": 27,
       "type": "content",
       "title": "Η Αποκάλυψη σε έξι σημεία",
       "displayTitle": "Η Αποκάλυψη σε έξι σημεία",
@@ -1722,7 +1781,7 @@
     },
     {
       "id": "apokalypsi-materials",
-      "number": 27,
+      "number": 28,
       "type": "content",
       "title": "Το υλικό μας στις εφαρμογές και στο VR",
       "displayTitle": "Το υλικό μας στις εφαρμογές και στο VR",
@@ -1819,7 +1878,7 @@
     },
     {
       "id": "science-religion-overview",
-      "number": 28,
+      "number": 29,
       "type": "content",
       "title": "Επιστήμη και θρησκεία",
       "displayTitle": "Επιστήμη και θρησκεία",
@@ -1870,7 +1929,7 @@
     },
     {
       "id": "science-religion-worksheet",
-      "number": 29,
+      "number": 30,
       "type": "content",
       "title": "Φύλλο εργασίας μαθητή",
       "displayTitle": "Φύλλο εργασίας μαθητή",
@@ -1913,7 +1972,7 @@
     },
     {
       "id": "science-religion-agora-quiz",
-      "number": 30,
+      "number": 31,
       "type": "content",
       "title": "Quiz στην Κλασική Αγορά",
       "displayTitle": "Quiz στην Κλασική Αγορά",
@@ -1977,7 +2036,7 @@
     },
     {
       "id": "science-religion-agora-artifact-talk",
-      "number": 31,
+      "number": 32,
       "type": "content",
       "title": "Συζήτηση με τον Δημήτρη",
       "displayTitle": "Συζήτηση με τον Δημήτρη",
@@ -2029,7 +2088,7 @@
     },
     {
       "id": "science-heart-mindmap",
-      "number": 32,
+      "number": 33,
       "type": "content",
       "title": "Νους και καρδιά · Επτά έννοιες στην εικόνα",
       "displayTitle": "Νους και καρδιά · Επτά έννοιες στην εικόνα",
@@ -2074,7 +2133,7 @@
     },
     {
       "id": "father-athanasius",
-      "number": 33,
+      "number": 34,
       "type": "content",
       "title": "Μέγας Αθανάσιος",
       "displayTitle": "Μέγας Αθανάσιος",
@@ -2135,7 +2194,7 @@
     },
     {
       "id": "father-basil",
-      "number": 34,
+      "number": 35,
       "type": "content",
       "title": "Μέγας Βασίλειος",
       "displayTitle": "Μέγας Βασίλειος",
@@ -2196,7 +2255,7 @@
     },
     {
       "id": "father-gregory-theologian",
-      "number": 35,
+      "number": 36,
       "type": "content",
       "title": "Γρηγόριος ο Θεολόγος",
       "displayTitle": "Γρηγόριος ο Θεολόγος",
@@ -2257,7 +2316,7 @@
     },
     {
       "id": "father-john-chrysostom",
-      "number": 36,
+      "number": 37,
       "type": "content",
       "title": "Ιωάννης ο Χρυσόστομος",
       "displayTitle": "Ιωάννης ο Χρυσόστομος",
@@ -2318,7 +2377,7 @@
     },
     {
       "id": "father-cyril",
-      "number": 37,
+      "number": 38,
       "type": "content",
       "title": "Κύριλλος Αλεξανδρείας",
       "displayTitle": "Κύριλλος Αλεξανδρείας",
@@ -2379,7 +2438,7 @@
     },
     {
       "id": "father-maximus",
-      "number": 38,
+      "number": 39,
       "type": "content",
       "title": "Μάξιμος Ομολογητής",
       "displayTitle": "Μάξιμος Ομολογητής",
@@ -2440,7 +2499,7 @@
     },
     {
       "id": "father-symeon",
-      "number": 39,
+      "number": 40,
       "type": "content",
       "title": "Συμεών ο Νέος Θεολόγος",
       "displayTitle": "Συμεών ο Νέος Θεολόγος",
@@ -2501,7 +2560,7 @@
     },
     {
       "id": "father-palamas",
-      "number": 40,
+      "number": 41,
       "type": "content",
       "title": "Γρηγόριος Παλαμάς",
       "displayTitle": "Γρηγόριος Παλαμάς",
@@ -2591,7 +2650,7 @@
     },
     {
       "id": "father-john-damascene",
-      "number": 41,
+      "number": 42,
       "type": "content",
       "title": "Ιωάννης Δαμασκηνός",
       "displayTitle": "Ιωάννης Δαμασκηνός",
@@ -2652,7 +2711,7 @@
     },
     {
       "id": "father-sophrony",
-      "number": 42,
+      "number": 43,
       "type": "content",
       "title": "Άγιος Σωφρόνιος Σαχάρωφ",
       "displayTitle": "Άγιος Σωφρόνιος Σαχάρωφ",
@@ -2713,7 +2772,7 @@
     },
     {
       "id": "trinity-dogmatic-consciousness",
-      "number": 43,
+      "number": 44,
       "type": "content",
       "title": "Πίστη στον Τριαδικό Θεό και δογματική συνείδηση",
       "displayTitle": "Πίστη στον Τριαδικό Θεό και δογματική συνείδηση",
@@ -2807,7 +2866,7 @@
     },
     {
       "id": "trinity-basic-concept-canvas",
-      "number": 44,
+      "number": 45,
       "type": "content",
       "title": "Αγία Τριάδα · Τα βασικά με εικόνες και κάρτες",
       "displayTitle": "Αγία Τριάδα · Τα βασικά με εικόνες και κάρτες",
@@ -2913,7 +2972,7 @@
     },
     {
       "id": "trinity-advanced-concept-canvas",
-      "number": 45,
+      "number": 46,
       "type": "content",
       "title": "Τριαδική θεολογία · Αναλόγιο εμβάθυνσης",
       "displayTitle": "Τριαδική θεολογία · Αναλόγιο εμβάθυνσης",
@@ -2999,7 +3058,7 @@
     },
     {
       "id": "creation-world",
-      "number": 46,
+      "number": 47,
       "type": "content",
       "title": "Δημιουργία του Κόσμου",
       "displayTitle": "Δημιουργία του Κόσμου",
@@ -3034,7 +3093,7 @@
     },
     {
       "id": "creation-image-likeness",
-      "number": 47,
+      "number": 48,
       "type": "content",
       "title": "Κατ’ εικόνα και καθ’ ομοίωση",
       "displayTitle": "Κατ’ εικόνα και καθ’ ομοίωση",
@@ -3062,7 +3121,7 @@
     },
     {
       "id": "creation-restoration-christ",
-      "number": 48,
+      "number": 49,
       "type": "content",
       "title": "Επανόρθωση εν Χριστώ",
       "displayTitle": "Επανόρθωση εν Χριστώ",
@@ -3199,7 +3258,7 @@
     },
     {
       "id": "creation-concept-canvas",
-      "number": 49,
+      "number": 50,
       "type": "content",
       "title": "Δημιουργία · Ανακαλύπτω τις έννοιες στην εικόνα",
       "displayTitle": "Δημιουργία · Ανακαλύπτω τις έννοιες στην εικόνα",
@@ -3299,7 +3358,7 @@
     },
     {
       "id": "human-gift-calling",
-      "number": 50,
+      "number": 51,
       "type": "content",
       "title": "Ο άνθρωπος: δώρο και κλήση · Έξι χειρόγραφα",
       "displayTitle": "Ο άνθρωπος: δώρο και κλήση · Έξι χειρόγραφα",
@@ -3344,7 +3403,7 @@
     },
     {
       "id": "fall-restoration-introduction",
-      "number": 51,
+      "number": 52,
       "type": "content",
       "title": "Η Εδέμ, η πτώση και η υπόσχεση",
       "displayTitle": "Η Εδέμ, η πτώση και η υπόσχεση",
@@ -3387,7 +3446,7 @@
     },
     {
       "id": "fall-restoration-thorns",
-      "number": 52,
+      "number": 53,
       "type": "content",
       "title": "Ο Σταυρός — από την εξορία στη ζωή",
       "displayTitle": "Ο Σταυρός — από την εξορία στη ζωή",
@@ -3415,7 +3474,7 @@
     },
     {
       "id": "fall-restoration-parallel-texts",
-      "number": 53,
+      "number": 54,
       "type": "content",
       "title": "Από την Εδέμ στην Ανάσταση — παράλληλα χωρία",
       "displayTitle": "Από την Εδέμ στην Ανάσταση — παράλληλα χωρία",
@@ -3502,7 +3561,7 @@
     },
     {
       "id": "fall-restoration-anastasis",
-      "number": 54,
+      "number": 55,
       "type": "content",
       "title": "Η Ανάσταση και η ανακαίνιση του ανθρώπου",
       "displayTitle": "Η Ανάσταση και η ανακαίνιση του ανθρώπου",
@@ -3551,7 +3610,7 @@
     },
     {
       "id": "fall-restoration-conclusion",
-      "number": 55,
+      "number": 56,
       "type": "content",
       "title": "Θέωση και αγάπη για όλο τον Αδάμ",
       "displayTitle": "Θέωση και αγάπη για όλο τον Αδάμ",
@@ -3579,7 +3638,7 @@
     },
     {
       "id": "fall-pains-mindmap",
-      "number": 56,
+      "number": 57,
       "type": "content",
       "title": "Οι οδύνες μετά την παρακοή · Χάρτης της αφήγησης",
       "displayTitle": "Οι οδύνες μετά την παρακοή · Χάρτης της αφήγησης",
@@ -3624,7 +3683,7 @@
     },
     {
       "id": "byzantium-interpretation-threads",
-      "number": 57,
+      "number": 58,
       "type": "content",
       "title": "Κλωστές πατερικών ερμηνειών · Στο Βυζάντιο",
       "displayTitle": "Κλωστές πατερικών ερμηνειών · Στο Βυζάντιο",
@@ -3661,7 +3720,7 @@
     },
     {
       "id": "concentric-cosmology",
-      "number": 58,
+      "number": 59,
       "type": "content",
       "title": "Ο μηχανισμός των αφηγήσεων · Τρεις δακτύλιοι",
       "displayTitle": "Ο μηχανισμός των αφηγήσεων · Τρεις δακτύλιοι",
@@ -3706,7 +3765,7 @@
     },
     {
       "id": "cosmology-threads",
-      "number": 59,
+      "number": 60,
       "type": "content",
       "title": "Οι κλωστές των τεσσάρων αφηγήσεων",
       "displayTitle": "Οι κλωστές των τεσσάρων αφηγήσεων",
@@ -3751,7 +3810,7 @@
     },
     {
       "id": "care-for-trees",
-      "number": 60,
+      "number": 61,
       "type": "content",
       "title": "Να αγαπάτε τα δέντρα! · Ο κήπος της φροντίδας",
       "displayTitle": "Να αγαπάτε τα δέντρα! · Ο κήπος της φροντίδας",
@@ -3794,7 +3853,7 @@
     },
     {
       "id": "chronology-observatory",
-      "number": 61,
+      "number": 62,
       "type": "content",
       "title": "Παρατηρητήριο του Χρόνου · Χώρος περιήγησης",
       "displayTitle": "Παρατηρητήριο του Χρόνου · Χώρος περιήγησης",

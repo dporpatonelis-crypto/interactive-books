@@ -1,0 +1,500 @@
+{
+  "id": "athens-history",
+  "title": "Ιστορικά πλαίσια · Αθήνα και ελληνικός πολιτισμός",
+  "duration_seconds": 120,
+  "title_only": true,
+  "slides": [
+    {
+      "slide": 1,
+      "source_exemplar_slide_id": "p1",
+      "narrative_role": "image-led historical or philosophical beat",
+      "construction": "native exemplar preserved in exported template copy",
+      "slots": {
+        "image": "replace with assets/images/01_pericles.png",
+        "title": "replace with Ο Χρυσός Αιώνας του Περικλή",
+        "period": "delete, title-only request",
+        "description": "delete, title-only request",
+        "navy_panel": "keep and shorten for title-only fit",
+        "gold_accent": "keep and shorten"
+      },
+      "title": "Ο Χρυσός Αιώνας του Περικλή",
+      "source_image": "Assets/ChronologyHall/TimeLibrary/Athens/Source~/Film/assets/images/01_pericles.png",
+      "source_image_sha256": "fee8fff58e92eb9bab880e2186226724e5a432b97c46ec563f76221c89325699"
+    },
+    {
+      "slide": 2,
+      "source_exemplar_slide_id": "p2",
+      "narrative_role": "image-led historical or philosophical beat",
+      "construction": "native exemplar preserved in exported template copy",
+      "slots": {
+        "image": "replace with assets/images/02_culture.png",
+        "title": "replace with Η πόλη και ο πολιτισμός",
+        "period": "delete, title-only request",
+        "description": "delete, title-only request",
+        "navy_panel": "keep and shorten for title-only fit",
+        "gold_accent": "keep and shorten"
+      },
+      "title": "Η πόλη και ο πολιτισμός",
+      "source_image": "Assets/ChronologyHall/TimeLibrary/Athens/Source~/Film/assets/images/02_culture.png",
+      "source_image_sha256": "c3c3101e9edf4237eac33e556dfb037a571f0788bf065886b42a2869411d6638"
+    },
+    {
+      "slide": 3,
+      "source_exemplar_slide_id": "p3",
+      "narrative_role": "image-led historical or philosophical beat",
+      "construction": "native exemplar preserved in exported template copy",
+      "slots": {
+        "image": "replace with assets/images/03_socrates.png",
+        "title": "replace with Σωκράτης",
+        "period": "delete, title-only request",
+        "description": "delete, title-only request",
+        "navy_panel": "keep and shorten for title-only fit",
+        "gold_accent": "keep and shorten"
+      },
+      "title": "Σωκράτης",
+      "source_image": "Assets/ChronologyHall/TimeLibrary/Athens/Source~/Film/assets/images/03_socrates.png",
+      "source_image_sha256": "38eaa45f561e44bb504c162a203c4edf432330475c304a91c66952be223d4a3f"
+    },
+    {
+      "slide": 4,
+      "source_exemplar_slide_id": "p4",
+      "narrative_role": "image-led historical or philosophical beat",
+      "construction": "native exemplar preserved in exported template copy",
+      "slots": {
+        "image": "replace with assets/images/04_academy.png",
+        "title": "replace with Πλάτων · Η Ακαδημία",
+        "period": "delete, title-only request",
+        "description": "delete, title-only request",
+        "navy_panel": "keep and shorten for title-only fit",
+        "gold_accent": "keep and shorten"
+      },
+      "title": "Πλάτων · Η Ακαδημία",
+      "source_image": "Assets/ChronologyHall/TimeLibrary/Athens/Source~/Film/assets/images/04_academy.png",
+      "source_image_sha256": "5e643e0d32cb44db808231c4e8359b1d619947490d38563fd68a85328094eb77"
+    },
+    {
+      "slide": 5,
+      "source_exemplar_slide_id": "p5",
+      "narrative_role": "image-led historical or philosophical beat",
+      "construction": "native exemplar preserved in exported template copy",
+      "slots": {
+        "image": "replace with assets/images/05_forms.png",
+        "title": "replace with Το Ον και οι Ιδέες",
+        "period": "delete, title-only request",
+        "description": "delete, title-only request",
+        "navy_panel": "keep and shorten for title-only fit",
+        "gold_accent": "keep and shorten"
+      },
+      "title": "Το Ον και οι Ιδέες",
+      "source_image": "Assets/ChronologyHall/TimeLibrary/Athens/Source~/Film/assets/images/05_forms.png",
+      "source_image_sha256": "95b1c9082130ce6cb723ceef26b5e793d671b3920a97ac7333aaf24c8c473874"
+    },
+    {
+      "slide": 6,
+      "source_exemplar_slide_id": "p6",
+      "narrative_role": "image-led historical or philosophical beat",
+      "construction": "native exemplar preserved in exported template copy",
+      "slots": {
+        "image": "replace with assets/images/06_soul.png",
+        "title": "replace with Η ψυχή και το νοητό",
+        "period": "delete, title-only request",
+        "description": "delete, title-only request",
+        "navy_panel": "keep and shorten for title-only fit",
+        "gold_accent": "keep and shorten"
+      },
+      "title": "Η ψυχή και το νοητό",
+      "source_image": "Assets/ChronologyHall/TimeLibrary/Athens/Source~/Film/assets/images/06_soul.png",
+      "source_image_sha256": "0c7494328d5ee2327ad741b1e3e1a96e79f0a6162b5c1af5b217c0a193da1998"
+    },
+    {
+      "slide": 7,
+      "source_exemplar_slide_id": "p7",
+      "narrative_role": "image-led historical or philosophical beat",
+      "construction": "native exemplar preserved in exported template copy",
+      "slots": {
+        "image": "replace with assets/images/07_recollection.png",
+        "title": "replace with Αθανασία και ανάμνηση",
+        "period": "delete, title-only request",
+        "description": "delete, title-only request",
+        "navy_panel": "keep and shorten for title-only fit",
+        "gold_accent": "keep and shorten"
+      },
+      "title": "Αθανασία και ανάμνηση",
+      "source_image": "Assets/ChronologyHall/TimeLibrary/Athens/Source~/Film/assets/images/07_recollection.png",
+      "source_image_sha256": "6b391fe17f18bf43c1b88f6e620ba166dbe78b3b9e52fea2758536b71bc1f8ba"
+    },
+    {
+      "slide": 8,
+      "source_exemplar_slide_id": "p8",
+      "narrative_role": "image-led historical or philosophical beat",
+      "construction": "native exemplar preserved in exported template copy",
+      "slots": {
+        "image": "replace with assets/images/08_lyceum.png",
+        "title": "replace with Αριστοτέλης · Το Λύκειο",
+        "period": "delete, title-only request",
+        "description": "delete, title-only request",
+        "navy_panel": "keep and shorten for title-only fit",
+        "gold_accent": "keep and shorten"
+      },
+      "title": "Αριστοτέλης · Το Λύκειο",
+      "source_image": "Assets/ChronologyHall/TimeLibrary/Athens/Source~/Film/assets/images/08_lyceum.png",
+      "source_image_sha256": "c007c247c5a95b5b60b71835afd4ce048ef35bd3541c60fd89b5d7991509ed53"
+    },
+    {
+      "slide": 9,
+      "source_exemplar_slide_id": "p9",
+      "narrative_role": "image-led historical or philosophical beat",
+      "construction": "native exemplar preserved in exported template copy",
+      "slots": {
+        "image": "replace with assets/images/09_logic.png",
+        "title": "replace with Λογική και συλλογισμός",
+        "period": "delete, title-only request",
+        "description": "delete, title-only request",
+        "navy_panel": "keep and shorten for title-only fit",
+        "gold_accent": "keep and shorten"
+      },
+      "title": "Λογική και συλλογισμός",
+      "source_image": "Assets/ChronologyHall/TimeLibrary/Athens/Source~/Film/assets/images/09_logic.png",
+      "source_image_sha256": "209d89ab97e9e2cedcef2a4adea4fb2fa7e2ac5b47c5de38003afd042c9cdbf3"
+    },
+    {
+      "slide": 10,
+      "source_exemplar_slide_id": "p10",
+      "narrative_role": "image-led historical or philosophical beat",
+      "construction": "native exemplar preserved in exported template copy",
+      "slots": {
+        "image": "replace with assets/images/10_potential.png",
+        "title": "replace with Δυνάμει και ενεργεία",
+        "period": "delete, title-only request",
+        "description": "delete, title-only request",
+        "navy_panel": "keep and shorten for title-only fit",
+        "gold_accent": "keep and shorten"
+      },
+      "title": "Δυνάμει και ενεργεία",
+      "source_image": "Assets/ChronologyHall/TimeLibrary/Athens/Source~/Film/assets/images/10_potential.png",
+      "source_image_sha256": "ade4aaccead40ed3a9b029d09a13db5a600f4e147dd6f0bc3a750294967ba45e"
+    },
+    {
+      "slide": 11,
+      "source_exemplar_slide_id": "p11",
+      "narrative_role": "image-led historical or philosophical beat",
+      "construction": "native exemplar preserved in exported template copy",
+      "slots": {
+        "image": "replace with assets/images/11_motion.png",
+        "title": "replace with Το πρώτο κινούν ακίνητο",
+        "period": "delete, title-only request",
+        "description": "delete, title-only request",
+        "navy_panel": "keep and shorten for title-only fit",
+        "gold_accent": "keep and shorten"
+      },
+      "title": "Το πρώτο κινούν ακίνητο",
+      "source_image": "Assets/ChronologyHall/TimeLibrary/Athens/Source~/Film/assets/images/11_motion.png",
+      "source_image_sha256": "032c49213a2a3d90c074f3d583ce56b8be935b73eec170935e2d127b6b7dff11"
+    },
+    {
+      "slide": 12,
+      "source_exemplar_slide_id": "p12",
+      "narrative_role": "image-led historical or philosophical beat",
+      "construction": "native exemplar preserved in exported template copy",
+      "slots": {
+        "image": "replace with assets/images/12_alexander.png",
+        "title": "replace with Μέγας Αλέξανδρος",
+        "period": "delete, title-only request",
+        "description": "delete, title-only request",
+        "navy_panel": "keep and shorten for title-only fit",
+        "gold_accent": "keep and shorten"
+      },
+      "title": "Μέγας Αλέξανδρος",
+      "source_image": "Assets/ChronologyHall/TimeLibrary/Athens/Source~/Film/assets/images/12_alexander.png",
+      "source_image_sha256": "347e0797192b47a9185d0d8977960be1c55a8a69369989a1a63344d0358b3ee8"
+    },
+    {
+      "slide": 13,
+      "source_exemplar_slide_id": "p13",
+      "narrative_role": "image-led historical or philosophical beat",
+      "construction": "native exemplar preserved in exported template copy",
+      "slots": {
+        "image": "replace with assets/images/13_stoics.png",
+        "title": "replace with Οι Στωικοί",
+        "period": "delete, title-only request",
+        "description": "delete, title-only request",
+        "navy_panel": "keep and shorten for title-only fit",
+        "gold_accent": "keep and shorten"
+      },
+      "title": "Οι Στωικοί",
+      "source_image": "Assets/ChronologyHall/TimeLibrary/Athens/Source~/Film/assets/images/13_stoics.png",
+      "source_image_sha256": "eff067efd709b05cdd21f6fe2aef548714fdbbf70e15689ebac0e00b25a2694a"
+    },
+    {
+      "slide": 14,
+      "source_exemplar_slide_id": "p14",
+      "narrative_role": "image-led historical or philosophical beat",
+      "construction": "native exemplar preserved in exported template copy",
+      "slots": {
+        "image": "replace with assets/images/14_fire.png",
+        "title": "replace with Λόγος · Τεχνικόν πυρ",
+        "period": "delete, title-only request",
+        "description": "delete, title-only request",
+        "navy_panel": "keep and shorten for title-only fit",
+        "gold_accent": "keep and shorten"
+      },
+      "title": "Λόγος · Τεχνικόν πυρ",
+      "source_image": "Assets/ChronologyHall/TimeLibrary/Athens/Source~/Film/assets/images/14_fire.png",
+      "source_image_sha256": "9e403c3890cd5b78d891a6f02f85320e46ecb2e756ef8c3e3588eceb423f1ab7"
+    },
+    {
+      "slide": 15,
+      "source_exemplar_slide_id": "p15",
+      "narrative_role": "image-led historical or philosophical beat",
+      "construction": "native exemplar preserved in exported template copy",
+      "slots": {
+        "image": "replace with assets/images/15_virtue.png",
+        "title": "replace with Αρετή και φύση",
+        "period": "delete, title-only request",
+        "description": "delete, title-only request",
+        "navy_panel": "keep and shorten for title-only fit",
+        "gold_accent": "keep and shorten"
+      },
+      "title": "Αρετή και φύση",
+      "source_image": "Assets/ChronologyHall/TimeLibrary/Athens/Source~/Film/assets/images/15_virtue.png",
+      "source_image_sha256": "82f66ae81f4353bfcf08a735ccb6ab1c6ab16f69c39ad9b8139dd13d1af2b396"
+    },
+    {
+      "slide": 16,
+      "source_exemplar_slide_id": "p16",
+      "narrative_role": "image-led historical or philosophical beat",
+      "construction": "native exemplar preserved in exported template copy",
+      "slots": {
+        "image": "replace with assets/images/16_plotinus.png",
+        "title": "replace with Πλωτίνος · Νεοπλατωνισμός",
+        "period": "delete, title-only request",
+        "description": "delete, title-only request",
+        "navy_panel": "keep and shorten for title-only fit",
+        "gold_accent": "keep and shorten"
+      },
+      "title": "Πλωτίνος · Νεοπλατωνισμός",
+      "source_image": "Assets/ChronologyHall/TimeLibrary/Athens/Source~/Film/assets/images/16_plotinus.png",
+      "source_image_sha256": "02459a0b0e0172bb30feb7b9ac5f82717ffadfd05337b35631ef529505633d32"
+    },
+    {
+      "slide": 17,
+      "source_exemplar_slide_id": "p17",
+      "narrative_role": "image-led historical or philosophical beat",
+      "construction": "native exemplar preserved in exported template copy",
+      "slots": {
+        "image": "replace with assets/images/17_one.png",
+        "title": "replace with Το Έν",
+        "period": "delete, title-only request",
+        "description": "delete, title-only request",
+        "navy_panel": "keep and shorten for title-only fit",
+        "gold_accent": "keep and shorten"
+      },
+      "title": "Το Έν",
+      "source_image": "Assets/ChronologyHall/TimeLibrary/Athens/Source~/Film/assets/images/17_one.png",
+      "source_image_sha256": "fd24d067cd2472cb7be30c7871a84ffc3a3328ca3207ed5403dff8f472219a42"
+    },
+    {
+      "slide": 18,
+      "source_exemplar_slide_id": "p18",
+      "narrative_role": "image-led historical or philosophical beat",
+      "construction": "native exemplar preserved in exported template copy",
+      "slots": {
+        "image": "replace with assets/images/18_emanations.png",
+        "title": "replace with Απορροές · Νους και Ψυχή",
+        "period": "delete, title-only request",
+        "description": "delete, title-only request",
+        "navy_panel": "keep and shorten for title-only fit",
+        "gold_accent": "keep and shorten"
+      },
+      "title": "Απορροές · Νους και Ψυχή",
+      "source_image": "Assets/ChronologyHall/TimeLibrary/Athens/Source~/Film/assets/images/18_emanations.png",
+      "source_image_sha256": "27df2a31cc19b38a2d1e449e4dbc2f0dcc3de409b631e50775b37fe0fe90af20"
+    },
+    {
+      "slide": 19,
+      "source_exemplar_slide_id": "p19",
+      "narrative_role": "image-led historical or philosophical beat",
+      "construction": "native exemplar preserved in exported template copy",
+      "slots": {
+        "image": "replace with assets/images/19_creation.png",
+        "title": "replace with Ελεύθερη δημιουργία",
+        "period": "delete, title-only request",
+        "description": "delete, title-only request",
+        "navy_panel": "keep and shorten for title-only fit",
+        "gold_accent": "keep and shorten"
+      },
+      "title": "Ελεύθερη δημιουργία",
+      "source_image": "Assets/ChronologyHall/TimeLibrary/Athens/Source~/Film/assets/images/19_creation.png",
+      "source_image_sha256": "e93127cdbb2ab454ebdec4b0ce962447c9dffc14eea65b448cd40a5e2f2a4b98"
+    },
+    {
+      "slide": 20,
+      "source_exemplar_slide_id": "p20",
+      "narrative_role": "image-led historical or philosophical beat",
+      "construction": "native exemplar preserved in exported template copy",
+      "slots": {
+        "image": "replace with assets/images/20_logos.png",
+        "title": "replace with Ο Λόγος ως Πρόσωπο",
+        "period": "delete, title-only request",
+        "description": "delete, title-only request",
+        "navy_panel": "keep and shorten for title-only fit",
+        "gold_accent": "keep and shorten"
+      },
+      "title": "Ο Λόγος ως Πρόσωπο",
+      "source_image": "Assets/ChronologyHall/TimeLibrary/Athens/Source~/Film/assets/images/20_logos.png",
+      "source_image_sha256": "549a4800226922d9b3690c0828023a7abe1b8ce12f119f5144b7033f664bc82e"
+    }
+  ],
+  "historical_sources": {
+    "created": "2026-11-02",
+    "scope": "Local Unity Time Library context; no publication to Google Slides or digital book.",
+    "historical_fidelity": "Artistic reconstructions and explicit philosophical allegories. No image claims a documented biographical event. Native titles only; no fabricated quotations.",
+    "sources": [
+      {
+        "title": "Πλάτων · Φαίδων",
+        "url": "https://classics.mit.edu/Plato/phaedo.html",
+        "scenes": [
+          5,
+          6,
+          7
+        ],
+        "basis": "Forms, soul, recollection and affinity with the intelligible. Visual symbolism is illustrative."
+      },
+      {
+        "title": "Πλάτων · Μένων",
+        "url": "https://classics.mit.edu/Plato/meno.html",
+        "scenes": [
+          4,
+          7
+        ],
+        "basis": "Geometrical inquiry and recollection; Academy activity is an imagined period reconstruction, not a literal event in the Meno."
+      },
+      {
+        "title": "Αριστοτέλης · Αναλυτικά Πρότερα",
+        "url": "https://classics.mit.edu/Aristotle/prior.html",
+        "scenes": [
+          9
+        ],
+        "basis": "Terms, premises and deduction. The image of grouping is an introductory visual metaphor, not a full syllogistic diagram."
+      },
+      {
+        "title": "Αριστοτέλης · Φυσικά Γ΄",
+        "url": "https://classics.mit.edu/Aristotle/physics.3.iii.html",
+        "scenes": [
+          10
+        ],
+        "basis": "Motion/change in relation to potentiality and actuality."
+      },
+      {
+        "title": "Αριστοτέλης · Μετά τα Φυσικά Λ΄",
+        "url": "https://classics.mit.edu/Aristotle/metaphysics.12.xii.html",
+        "scenes": [
+          11
+        ],
+        "basis": "Unmoved mover as final cause; avoid a temporal first push or a body moving the cosmos."
+      },
+      {
+        "title": "Stanford Encyclopedia of Philosophy · Stoicism",
+        "url": "https://plato.stanford.edu/entries/stoicism/",
+        "scenes": [
+          13,
+          14,
+          15
+        ],
+        "basis": "Zeno and the Painted Stoa; immanent active Logos/creative fire; virtue, reason and nature."
+      },
+      {
+        "title": "Stanford Encyclopedia of Philosophy · Plotinus",
+        "url": "https://plato.stanford.edu/entries/plotinus/",
+        "scenes": [
+          16,
+          17,
+          18
+        ],
+        "basis": "One, Intellect, Soul; timeless ontological dependence rather than liquid, material splitting or chronological creation."
+      },
+      {
+        "title": "ASCSA · The Pnyx in Athens",
+        "url": "https://www.ascsa.edu.gr/uploads/media/hesperia/146476.pdf",
+        "scenes": [
+          1
+        ],
+        "basis": "Early Pnyx assembly setting; avoid importing the late-4th-century monumental phase into Pericles' time."
+      },
+      {
+        "title": "ASCSA · Athenian Agora excavations",
+        "url": "https://www.ascsa.edu.gr/excavations/athenian-agora/about-the-excavations",
+        "scenes": [
+          3,
+          13,
+          15
+        ],
+        "basis": "Civic and everyday activities in the Classical Agora and its surrounding houses/workshops."
+      },
+      {
+        "title": "Acropolis Museum · Sanctuary and Theatre of Dionysos",
+        "url": "https://www.theacropolismuseum.gr/en/sanctuaries/sanctuary-and-theatre-dionysos",
+        "scenes": [
+          2,
+          "panorama"
+        ],
+        "basis": "Theater on the south slope of the Acropolis."
+      },
+      {
+        "title": "ASCSA · Theater seating research",
+        "url": "https://www.ascsa.edu.gr/uploads/media/hesperia/40981054.pdf",
+        "scenes": [
+          2,
+          "panorama"
+        ],
+        "basis": "Distinguish the early wooden theater from late-4th-century stone seating."
+      },
+      {
+        "title": "Ιωάννης 13",
+        "url": "https://bible.usccb.org/bible/john/13",
+        "scenes": [
+          20
+        ],
+        "basis": "Washing the disciples' feet: personal self-giving love."
+      },
+      {
+        "title": "Existing lesson_logos_concept_map.json",
+        "local_path": "Assets/LessonSystem/LessonJson/Generated/lesson_logos_concept_map.json",
+        "scenes": [
+          19,
+          20
+        ],
+        "basis": "User's teaching bridge from philosophical language to Christian personal Logos; not an equation between emanation and creation."
+      }
+    ],
+    "music": {
+      "source": "User-supplied Downloads/Assassin's Creed Rogue (OST) - Assassin's Creed Rogue Main Theme (Track 01) [lmlCudR3JPk].m4a",
+      "title": "Assassin's Creed Rogue Main Theme",
+      "artist": "Elitsa Alexandrova / Jesper Kyd",
+      "label": "Ubisoft Music",
+      "range_seconds": [
+        0,
+        120
+      ],
+      "loop": false,
+      "retimed": false,
+      "gain_db": -18.9,
+      "fade_in_seconds": 1.5,
+      "fade_out_seconds": 3,
+      "measured_lufs": -32.6,
+      "measured_true_peak_dbfs": -19,
+      "subjectively_auditioned": false,
+      "original_modified": false
+    }
+  },
+  "unity_environment": "athens_late_4c_bce",
+  "unity_entry": "athens_history",
+  "presentation_url": "https://docs.google.com/presentation/d/1yqoZgkbgzXRP180EnZB6bNkszlz9ANEf9fqyKs3O-wI/edit?usp=drivesdk",
+  "section_id": "historical-athens",
+  "media_ids": [
+    "IMG-126",
+    "VID-050",
+    "SLD-038"
+  ],
+  "imported_at": "2026-11-02"
+}
