@@ -266,6 +266,24 @@
         state.body.append(richParagraph({kind:unit.tagName==='BLOCKQUOTE'?'blockquote':'p',text:words.slice(cursor,cursor+best).join(' '),hotspots:paragraphHotspots.get(unit)||[]}));cursor+=best;
         if(cursor<words.length){state.body=createLeaf(page);state.body.append(node('p','eyebrow',(page?sourceLabel(page):'Περιεχόμενα')+' · συνέχεια'));}
       }
+    } else if(unit.matches('.media-actions')) {
+      const items=[...unit.children];
+      unit.remove();
+      let actions=node('div','media-actions');
+      state.body.append(actions);
+      for(const item of items){
+        actions.append(item);
+        if(state.body.scrollHeight<=state.body.clientHeight+1)continue;
+        item.remove();
+        if(!actions.children.length)actions.remove();
+        state.body=createLeaf(page);
+        state.body.append(node('p','eyebrow',(page?sourceLabel(page):'Περιεχόμενα')+' · συνέχεια'));
+        if(state.contextHeading)state.body.append(node('h3','table-object',state.contextHeading+' · συνέχεια'));
+        actions=node('div','media-actions');
+        actions.append(item);
+        state.body.append(actions);
+        if(state.body.scrollHeight>state.body.clientHeight+1)throw new Error('Ο σύνδεσμος δεν χωράει στη σελίδα: '+page.number);
+      }
     } else throw new Error('Η σελίδα χρειάζεται περισσότερο χώρο: '+page.number);
   }
   function cover(forPrint=false) {
