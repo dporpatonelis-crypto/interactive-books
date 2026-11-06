@@ -3,8 +3,8 @@
   "book_id": "Digital_Lessons",
   "title": "Το ψηφιακό μου βιβλίο",
   "description": "Κείμενα, εικόνες και συνδέσεις για τα μαθήματά μας στα web apps και στο Unity.",
-  "revision": 32,
-  "updated_at": "2026-11-02",
+  "revision": 33,
+  "updated_at": "2026-11-06",
   "cover": {
     "asset": "assets/old-testament-objects.png",
     "caption": "Έξι ιερά αντικείμενα της Παλαιάς Διαθήκης",
@@ -266,6 +266,310 @@
               "title": "Συνέχεια στο Unity · Διαδραστικό βιβλίο",
               "url": "https://dporpatonelis-crypto.github.io/Browser-vr/?material=284df9b465139f702b4e#activity/sb%3Ato-schedio-tis-theias-oikonomias",
               "placement": "after_text"
+            }
+          ]
+        },
+        {
+          "id": "html-activities-map",
+          "title": "HTML δραστηριότητες · Αντιστοίχιση με τις ενότητες μαθημάτων",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Η σελίδα αντιστοιχίζει τα HTML που εντοπίστηκαν στον φάκελο «Digital Εκπαιδευτικό Υλικό, html, slides» του Google Drive με τις ήδη υπάρχουσες ενότητες του Digital Book. Κάθε σύνδεσμος οδηγεί στο αρχικό αρχείο· δεν δημιουργείται νέο αντίγραφο."
+            },
+            {
+              "kind": "heading",
+              "text": "Ιστορικά πλαίσια και αποστολική μαρτυρία"
+            },
+            {
+              "kind": "list_item",
+              "text": "Ιστορικοί κόσμοι · Εύρεση περιόδου (DOC-031): υποστηρίζει το μάθημα «Ιστορικά πλαίσια» και λειτουργεί ως προετοιμασία για το «Παρατηρητήριο του Χρόνου»."
+            },
+            {
+              "kind": "list_item",
+              "text": "Αθήνα και ελληνικός πολιτισμός · Φωτεινός χάρτης (DOC-034): αντιστοιχεί στην ενότητα «Αθήνα και ελληνικός πολιτισμός» και στη γνωριμία με το ιστορικό πλαίσιο της Αρχαίας Αγοράς."
+            },
+            {
+              "kind": "list_item",
+              "text": "Παύλος · Από διώκτης των Χριστιανών, Απόστολος των Εθνών (DOC-035) και Παύλος · Απόστολος των Εθνών (DOC-036): δύο δραστηριότητες για την ενότητα «Η πορεία του Παύλου»."
+            },
+            {
+              "kind": "heading",
+              "text": "Δημιουργία, κατ’ εικόνα, τάλαντα και προσφορά"
+            },
+            {
+              "kind": "list_item",
+              "text": "Η γνωστική μας διαδρομή · Κατ’ εικόνα, Τάλαντα, Άγιος Λουκάς (DOC-032): συνδέει την κατ’ εικόνα με την παραβολή των ταλάντων και την προσφορά του Αγίου Λουκά."
+            },
+            {
+              "kind": "list_item",
+              "text": "Άγιος Λουκάς ο Ιατρός · Μια διαδρομή προσφοράς (DOC-033): στηρίζει την ενότητα «Ο άνθρωπος: δώρο και κλήση» με τη βιογραφική εφαρμογή του επαγγέλματος και της προσφοράς."
+            },
+            {
+              "kind": "list_item",
+              "text": "Η παραβολή των ταλάντων · Κείμενο και ύμνος (DOC-039): συνδέει το κείμενο της παραβολής με τον ύμνο «Ιδού σοι το τάλαντον» και την κλήση του ανθρώπου."
+            },
+            {
+              "kind": "list_item",
+              "text": "Το Δέντρο της Διαθήκης · Πέντε σενάρια (DOC-030): περιλαμβάνει το σενάριο «Ο άνθρωπος: δώρο και κλήση»."
+            },
+            {
+              "kind": "list_item",
+              "text": "Δημιουργία · Αναλόγιο εννοιών (WEB-007): δημόσια έκδοση του περιεχομένου του ιδιωτικού αρχείου creation-concepts.html· αντιστοιχεί στην ενότητα «Δημιουργία · Ανακαλύπτω τις έννοιες στην εικόνα»."
+            },
+            {
+              "kind": "list_item",
+              "text": "Χριστός γεννάται · Διαδραστικός χάρτης ύμνου (DOC-041): συμπληρωματική σύνδεση με την Ενανθρώπηση και την «Επανόρθωση εν Χριστώ». Το βιβλίο δεν έχει ξεχωριστή ενότητα Χριστουγέννων."
+            },
+            {
+              "kind": "heading",
+              "text": "Ιερουσαλήμ και Πεντηκοστή"
+            },
+            {
+              "kind": "list_item",
+              "text": "Σκιά και Πλήρωση · Mind Palace (DOC-018): κοινό quiz για την τυπολογία της Ιερουσαλήμ στο μάθημα 001 και για τα επιλεγμένα υλικά της Πεντηκοστής στο μάθημα 002."
+            },
+            {
+              "kind": "list_item",
+              "text": "Πεντηκοστή · Φωτεινός χάρτης και σύνθεση ύμνου (DOC-040): συνδέεται με την ενότητα «Πεντηκοστή: Από το Ιστορικό Υπερώο στην Οικουμενική Εκκλησία»."
+            },
+            {
+              "kind": "heading",
+              "text": "Αφηγήσεις για την αρχή του κόσμου"
+            },
+            {
+              "kind": "list_item",
+              "text": "Ο μηχανισμός των αφηγήσεων · Ομόκεντροι δακτύλιοι (DOC-024): αντιστοιχεί στη σύνθεση προτάσεων με τρεις δακτυλίους."
+            },
+            {
+              "kind": "list_item",
+              "text": "Οι κλωστές των τεσσάρων αφηγήσεων (DOC-025): αντιστοιχεί στη σύγκριση πηγών και στη σύνδεση των τεσσάρων αφηγήσεων."
+            },
+            {
+              "kind": "list_item",
+              "text": "Συγκεντρωτικό · Ομόκεντροι δακτύλιοι και κλωστές (DOC-037): συνδυάζει τις δύο εργασίες και αντιστοιχεί και στις δύο ενότητες του μαθήματος «Αφηγήσεις για την αρχή του κόσμου»."
+            },
+            {
+              "kind": "heading",
+              "text": "Τριαδική θεολογία"
+            },
+            {
+              "kind": "list_item",
+              "text": "Αγία Τριάδα · Τα βασικά και η εμβάθυνση (DOC-038): καλύπτει τις ενότητες «Αγία Τριάδα · Τα βασικά με εικόνες και κάρτες» και «Τριαδική θεολογία · Αναλόγιο εμβάθυνσης». Οι δημόσιες εκδόσεις WEB-005 και WEB-006 παραμένουν συνδεδεμένες στις αντίστοιχες ενότητες."
+            },
+            {
+              "kind": "heading",
+              "text": "Άλλες συνδέσεις με τις ενότητες του βιβλίου"
+            },
+            {
+              "kind": "list_item",
+              "text": "Το Σχέδιο της Θείας Οικονομίας · Φωτεινός χάρτης (DOC-027): «Βασικές γνώσεις για όλες τις τάξεις» · «Το Σχέδιο της Θείας Οικονομίας»."
+            },
+            {
+              "kind": "list_item",
+              "text": "Επιστήμη και θρησκεία · Νους και καρδιά (DOC-028): «Επιστήμη και θρησκεία» · «Νους και καρδιά · Επτά έννοιες στην εικόνα»."
+            },
+            {
+              "kind": "list_item",
+              "text": "Οι οδύνες μετά την παρακοή · Φωτεινός χάρτης (DOC-029): «Πτώση και Αποκατάσταση» · «Οι οδύνες μετά την παρακοή»."
+            },
+            {
+              "kind": "list_item",
+              "text": "Να αγαπάτε τα δέντρα! · Ο κήπος της φροντίδας (DOC-026): «Η φροντίδα της δημιουργίας» · «Να αγαπάτε τα δέντρα!»."
+            },
+            {
+              "kind": "heading",
+              "text": "Πρόσβαση και όρια αντιστοίχισης"
+            },
+            {
+              "kind": "text",
+              "text": "Τα δικαιώματα των αρχείων Drive παραμένουν ως έχουν. Για όσα αρχεία είναι ιδιωτικά, ο εκπαιδευτικός τα κατεβάζει με τον λογαριασμό του και τα ανοίγει τοπικά σε browser· σε άλλα, η δημόσια πρόσβαση δεν έχει επαληθευτεί και ισχύουν τα τρέχοντα δικαιώματα του Drive. Το γενικό webxr/index.html είναι κέλυφος εφαρμογής και δεν αντιστοιχεί σε συγκεκριμένη ενότητα μαθήματος."
+            }
+          ],
+          "media": [
+            {
+              "media_id": "DOC-031",
+              "type": "drive",
+              "title": "Ιστορικοί κόσμοι · Εύρεση περιόδου",
+              "url": "https://drive.google.com/file/d/1dJZHuJzNIg7B-Yh2JsKmwtR_otqM2GL_/view?usp=drivesdk",
+              "placement": "section_end",
+              "download_only": true,
+              "drive_id": "1dJZHuJzNIg7B-Yh2JsKmwtR_otqM2GL_"
+            },
+            {
+              "media_id": "DOC-034",
+              "type": "drive",
+              "title": "Αθήνα και ελληνικός πολιτισμός · Φωτεινός χάρτης",
+              "url": "https://drive.google.com/file/d/1yTLMn5tX-lts-46pj6LA7xaS779G7BVE/view?usp=drivesdk",
+              "placement": "section_end",
+              "download_only": true,
+              "drive_id": "1yTLMn5tX-lts-46pj6LA7xaS779G7BVE"
+            },
+            {
+              "media_id": "DOC-035",
+              "type": "drive",
+              "title": "Παύλος · Από διώκτης των Χριστιανών, Απόστολος των Εθνών",
+              "url": "https://drive.google.com/file/d/1t7WlD-mcqlCyP29xNQ0gdUXd0p6xDWKu/view?usp=drivesdk",
+              "placement": "section_end",
+              "download_only": true,
+              "drive_id": "1t7WlD-mcqlCyP29xNQ0gdUXd0p6xDWKu"
+            },
+            {
+              "media_id": "DOC-036",
+              "type": "drive",
+              "title": "Παύλος · Απόστολος των Εθνών",
+              "url": "https://drive.google.com/file/d/1B25z5sAvAn47PBFhUnXCxxoes2ElDgKL/view?usp=drivesdk",
+              "placement": "section_end",
+              "download_only": true,
+              "drive_id": "1B25z5sAvAn47PBFhUnXCxxoes2ElDgKL"
+            },
+            {
+              "media_id": "DOC-032",
+              "type": "drive",
+              "title": "Η γνωστική μας διαδρομή · Κατ’ εικόνα, Τάλαντα, Άγιος Λουκάς",
+              "url": "https://drive.google.com/file/d/1jiGpW-SNz_pIEP_fOdUyyOlqKu315LxD/view?usp=drivesdk",
+              "placement": "section_end",
+              "download_only": true,
+              "drive_id": "1jiGpW-SNz_pIEP_fOdUyyOlqKu315LxD"
+            },
+            {
+              "media_id": "DOC-033",
+              "type": "drive",
+              "title": "Άγιος Λουκάς ο Ιατρός · Μια διαδρομή προσφοράς",
+              "url": "https://drive.google.com/file/d/1Ko8gjsGL-vHako6sN4ngfolgt5i6yFdJ/view?usp=drivesdk",
+              "placement": "section_end",
+              "download_only": true,
+              "drive_id": "1Ko8gjsGL-vHako6sN4ngfolgt5i6yFdJ"
+            },
+            {
+              "media_id": "DOC-039",
+              "type": "drive",
+              "title": "Η παραβολή των ταλάντων · Κείμενο και ύμνος",
+              "url": "https://drive.google.com/file/d/1ZUZE2aoj9grwUdi-WmSpKshE3t2KURou/view?usp=drivesdk",
+              "placement": "section_end",
+              "download_only": true,
+              "drive_id": "1ZUZE2aoj9grwUdi-WmSpKshE3t2KURou"
+            },
+            {
+              "media_id": "DOC-030",
+              "type": "drive",
+              "title": "Λήψη από το Drive · Δέντρο Διαθήκης — επίλεξε «Ο άνθρωπος: δώρο και κλήση»",
+              "url": "https://drive.google.com/file/d/1Kf2sPd09JSMkFcNdhV_EAK-IGX_WYJYV/view?usp=drivesdk",
+              "placement": "section_end",
+              "download_only": true,
+              "drive_id": "1Kf2sPd09JSMkFcNdhV_EAK-IGX_WYJYV",
+              "native_id": "human_creation"
+            },
+            {
+              "media_id": "WEB-007",
+              "type": "website",
+              "title": "Δημιουργία · Αναλόγιο εννοιών",
+              "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/apps/animated-concept-canvas/creation-concepts.html",
+              "placement": "section_end"
+            },
+            {
+              "media_id": "DOC-041",
+              "type": "drive",
+              "title": "Χριστός γεννάται · Διαδραστικός χάρτης ύμνου",
+              "url": "https://drive.google.com/file/d/1y2hVCIsg0oxhxnsxZi_ncNz2Ggpzo2HE/view?usp=drivesdk",
+              "placement": "section_end",
+              "download_only": true,
+              "drive_id": "1y2hVCIsg0oxhxnsxZi_ncNz2Ggpzo2HE"
+            },
+            {
+              "media_id": "DOC-018",
+              "type": "drive",
+              "title": "Κατέβασε το quiz HTML · Σκιά και Πλήρωση / Πεντηκοστή",
+              "url": "https://drive.google.com/file/d/11wnDMCi8mRrV3XhX5CI74E_0Xcujxm3E/view?usp=sharing",
+              "placement": "section_end",
+              "caption": "Αυτόνομο αρχείο HTML· λήψη από Drive και άνοιγμα σε browser."
+            },
+            {
+              "media_id": "DOC-040",
+              "type": "drive",
+              "title": "Πεντηκοστή · Φωτεινός χάρτης και σύνθεση ύμνου",
+              "url": "https://drive.google.com/file/d/1AC-vsYd-u92jFU-arSx1CZ5_w9GPjuOO/view?usp=drivesdk",
+              "placement": "section_end",
+              "download_only": true,
+              "drive_id": "1AC-vsYd-u92jFU-arSx1CZ5_w9GPjuOO"
+            },
+            {
+              "media_id": "DOC-024",
+              "type": "drive",
+              "title": "Λήψη από το Drive · Ο μηχανισμός των αφηγήσεων",
+              "url": "https://drive.google.com/file/d/1bStII4PbGq75w41Cam0hn8FaL_bZf6kR/view?usp=drivesdk",
+              "placement": "section_end",
+              "download_only": true,
+              "drive_id": "1bStII4PbGq75w41Cam0hn8FaL_bZf6kR",
+              "native_id": "concentric_cosmology_v1"
+            },
+            {
+              "media_id": "DOC-025",
+              "type": "drive",
+              "title": "Λήψη από το Drive · Οι κλωστές των αφηγήσεων",
+              "url": "https://drive.google.com/file/d/1DJdjslsIl59Ex8CY9f_S_yhu0OTCC5XB/view?usp=drivesdk",
+              "placement": "section_end",
+              "download_only": true,
+              "drive_id": "1DJdjslsIl59Ex8CY9f_S_yhu0OTCC5XB",
+              "native_id": "world_religions_cosmology"
+            },
+            {
+              "media_id": "DOC-037",
+              "type": "drive",
+              "title": "Συγκεντρωτικό · Ομόκεντροι δακτύλιοι και κλωστές",
+              "url": "https://drive.google.com/file/d/1ZqB7vIbg_AAMioSkZjJgiwkdOuSOvDeP/view?usp=drivesdk",
+              "placement": "section_end",
+              "download_only": true,
+              "drive_id": "1ZqB7vIbg_AAMioSkZjJgiwkdOuSOvDeP"
+            },
+            {
+              "media_id": "DOC-038",
+              "type": "drive",
+              "title": "Αγία Τριάδα · Τα βασικά και η εμβάθυνση",
+              "url": "https://drive.google.com/file/d/1IcLpxXDd2TK2QbFyRfA7y95QJsGx8209/view?usp=drivesdk",
+              "placement": "section_end",
+              "download_only": true,
+              "drive_id": "1IcLpxXDd2TK2QbFyRfA7y95QJsGx8209"
+            },
+            {
+              "media_id": "DOC-027",
+              "type": "drive",
+              "title": "Λήψη από το Drive · Θεία Οικονομία",
+              "url": "https://drive.google.com/file/d/1jmSyJQ96_Gd2EXC_jWdNKagGhejZN7gk/view?usp=drivesdk",
+              "placement": "section_end",
+              "download_only": true,
+              "drive_id": "1jmSyJQ96_Gd2EXC_jWdNKagGhejZN7gk",
+              "native_id": "theia-oikonomia-two-level"
+            },
+            {
+              "media_id": "DOC-028",
+              "type": "drive",
+              "title": "Λήψη από το Drive · Νους και καρδιά",
+              "url": "https://drive.google.com/file/d/1m1VD1hp6_bEpCrltrCtYq1ZD8hs-Fbk0/view?usp=drivesdk",
+              "placement": "section_end",
+              "download_only": true,
+              "drive_id": "1m1VD1hp6_bEpCrltrCtYq1ZD8hs-Fbk0",
+              "native_id": "science-heart-dialogue"
+            },
+            {
+              "media_id": "DOC-029",
+              "type": "drive",
+              "title": "Λήψη από το Drive · Οι οδύνες μετά την παρακοή",
+              "url": "https://drive.google.com/file/d/1rSBAOEiMuA3pO2XRhgL7M-NfQcbZSg7L/view?usp=drivesdk",
+              "placement": "section_end",
+              "download_only": true,
+              "drive_id": "1rSBAOEiMuA3pO2XRhgL7M-NfQcbZSg7L",
+              "native_id": "genesis3-mindmap"
+            },
+            {
+              "media_id": "DOC-026",
+              "type": "drive",
+              "title": "Λήψη από το Drive · Να αγαπάτε τα δέντρα!",
+              "url": "https://drive.google.com/file/d/1zwgAyW7B2Rhg7fUi-5DlczsuuP_UTnq0/view?usp=drivesdk",
+              "placement": "section_end",
+              "download_only": true,
+              "drive_id": "1zwgAyW7B2Rhg7fUi-5DlczsuuP_UTnq0",
+              "native_id": "na_agapate_ta_dentra"
             }
           ]
         }
