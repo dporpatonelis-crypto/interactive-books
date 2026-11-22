@@ -2,9 +2,9 @@
   "schema_version": 1,
   "book_id": "Digital_Lessons",
   "title": "Το ψηφιακό μου βιβλίο",
-  "description": "Κείμενα, εικόνες και συνδέσεις για τα μαθήματά μας στα web apps και στο Unity.",
-  "revision": 33,
-  "updated_at": "2026-11-06",
+  "description": "Κείμενα, εικόνες και δραστηριότητες για την τάξη, με συνδέσμους σε μαθήματα HTML και στο Unity.",
+  "revision": 34,
+  "updated_at": "2026-11-22",
   "cover": {
     "asset": "assets/old-testament-objects.png",
     "caption": "Έξι ιερά αντικείμενα της Παλαιάς Διαθήκης",
@@ -275,7 +275,7 @@
           "blocks": [
             {
               "kind": "text",
-              "text": "Η σελίδα αντιστοιχίζει τα HTML που εντοπίστηκαν στον φάκελο «Digital Εκπαιδευτικό Υλικό, html, slides» του Google Drive με τις ήδη υπάρχουσες ενότητες του Digital Book. Κάθε σύνδεσμος οδηγεί στο αρχικό αρχείο· δεν δημιουργείται νέο αντίγραφο."
+              "text": "Ο πίνακας συνδέει τα αρχεία HTML του φακέλου «Digital Εκπαιδευτικό Υλικό, html, slides» στο Google Drive με τις αντίστοιχες ενότητες του βιβλίου. Στη δημόσια βιβλιοθήκη θα βρεις τις δραστηριότητες HTML που ανοίγουν απευθείας στον browser."
             },
             {
               "kind": "heading",
@@ -319,7 +319,7 @@
             },
             {
               "kind": "list_item",
-              "text": "Χριστός γεννάται · Διαδραστικός χάρτης ύμνου (DOC-041): συμπληρωματική σύνδεση με την Ενανθρώπηση και την «Επανόρθωση εν Χριστώ». Το βιβλίο δεν έχει ξεχωριστή ενότητα Χριστουγέννων."
+              "text": "Χριστός γεννάται · Διαδραστικός χάρτης ύμνου (DOC-041). Η δραστηριότητα παρουσιάζεται στην ενότητα «Χριστός γεννάται · Από τον λόγο στον ύμνο»."
             },
             {
               "kind": "heading",
@@ -570,6 +570,97 @@
               "download_only": true,
               "drive_id": "1zwgAyW7B2Rhg7fUi-5DlczsuuP_UTnq0",
               "native_id": "na_agapate_ta_dentra"
+            },
+            {
+              "media_id": "WEB-035",
+              "type": "website",
+              "title": "Άνοιξε τη βιβλιοθήκη HTML",
+              "url": "https://dporpatonelis-crypto.github.io/html-digital-library/",
+              "placement": "body"
+            }
+          ]
+        },
+        {
+          "id": "covenant-tree-classroom",
+          "title": "Το Δέντρο της Διαθήκης · Πέντε διαδρομές",
+          "source_file": "sources/html-digital-library-2026-11-22.json",
+          "source_url": "https://dporpatonelis-crypto.github.io/html-digital-library/lessons/dentro-diathikis-puzzle.html",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Πέντε δραστηριότητες με χειρόγραφα και εικόνες. Στο μενού «Σενάρια» ο μαθητής επιλέγει ποια διαδρομή θα ακολουθήσει."
+            },
+            {
+              "kind": "list_item",
+              "text": "Το Δέντρο της Διαθήκης. Ο μαθητής τοποθετεί έξι χειρόγραφα στο δέντρο και αποκαλύπτει την εικόνα."
+            },
+            {
+              "kind": "list_item",
+              "text": "Ο άνθρωπος και οι δύο τρόποι γνώσης. Συνδέει έξι χειρόγραφα με σύμβολα, με αφετηρία κείμενο του Αγίου Λουκά."
+            },
+            {
+              "kind": "list_item",
+              "text": "Οντολογικός χάρτης της Αποκάλυψης. Αναζητά πώς φανερώνεται ο Θεός στην κτίση και στην ιστορία."
+            },
+            {
+              "kind": "list_item",
+              "text": "Πνευματική ελευθερία. Αναγνωρίζει πέντε πάθη και τα συνδέει με τρόπους θεραπείας."
+            },
+            {
+              "kind": "list_item",
+              "text": "Ο άνθρωπος: δώρο και κλήση. Συνδέει αποσπάσματα με την εικόνα και εξηγεί την πορεία από το δώρο στη μετοχή."
+            },
+            {
+              "kind": "text",
+              "text": "Στο Unity, οι αντίστοιχες διαδρομές συνεχίζονται με συλλογή παπύρων, σύνδεση συμβόλων και αποκάλυψη εικόνας. Στη Δημιουργία, η συνέχεια στο αναλόγιο έχει διαφορετικές κάρτες."
+            }
+          ],
+          "media": [
+            {
+              "media_id": "WEB-026",
+              "type": "website",
+              "title": "Άνοιξε τη δραστηριότητα HTML",
+              "url": "https://dporpatonelis-crypto.github.io/html-digital-library/lessons/dentro-diathikis-puzzle.html",
+              "placement": "body",
+              "native_id": "human_creation"
+            },
+            {
+              "media_id": "WEB-032",
+              "type": "website",
+              "title": "Unity · Το Δέντρο της Διαθήκης",
+              "url": "https://dporpatonelis-crypto.github.io/Browser-vr/?material=d995172189b55d65a386#activity/sb%3A20261002_palaia-kai-kaini-diathiki-enotita",
+              "placement": "after_text",
+              "native_id": "dentro_diathikis"
+            },
+            {
+              "media_id": "WEB-033",
+              "type": "website",
+              "title": "Unity · Χάρτης της Αποκάλυψης",
+              "url": "https://dporpatonelis-crypto.github.io/Browser-vr/?material=39dfe73c304ed4962d1e#activity/book%3Alesson-004",
+              "placement": "after_text",
+              "native_id": "revelation_map"
+            },
+            {
+              "media_id": "WEB-034",
+              "type": "website",
+              "title": "Unity · Πνευματική ελευθερία",
+              "url": "https://dporpatonelis-crypto.github.io/Browser-vr/?material=68fb8a528fb7e3df5b2e#activity/sculpture%3Aspiritual-freedom",
+              "placement": "after_text",
+              "native_id": "spiritual_healing"
+            },
+            {
+              "media_id": "WEB-011",
+              "type": "website",
+              "title": "Unity · Οι δύο τρόποι γνώσης",
+              "url": "https://dporpatonelis-crypto.github.io/Browser-vr/?material=82ec311e076b554cae00#activity/book%3Alesson-005",
+              "placement": "after_text"
+            },
+            {
+              "media_id": "WEB-013",
+              "type": "website",
+              "title": "Unity · Αναλόγιο Δημιουργίας",
+              "url": "https://dporpatonelis-crypto.github.io/Browser-vr/?material=29e35a1ee55b1a1edcbf#activity/book%3Alesson-creation-world",
+              "placement": "after_text"
             }
           ]
         }
@@ -1478,6 +1569,28 @@
               "caption": "Αυτόνομο αρχείο HTML· λήψη από Drive και άνοιγμα σε browser."
             }
           ]
+        },
+        {
+          "id": "patristic-scripture-and-hymns",
+          "title": "Γρηγόριος ο Θεολόγος · Γραφή και ύμνοι της Πεντηκοστής",
+          "source_file": "sources/html-digital-library-2026-11-22.json",
+          "source_url": "https://dporpatonelis-crypto.github.io/html-digital-library/lessons/patristic-scripture-cross-references.html",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Ο μαθητής επιλέγει μια φράση του Γρηγορίου του Θεολόγου και βλέπει ποια σημεία φωτίζονται στην Αγία Γραφή ή στον αντίστοιχο ύμνο. Η δραστηριότητα περιλαμβάνει τέσσερα βιβλικά χωρία και τρεις ύμνους της Πεντηκοστής."
+            }
+          ],
+          "media": [
+            {
+              "media_id": "WEB-020",
+              "type": "website",
+              "title": "Άνοιξε τη δραστηριότητα HTML",
+              "url": "https://dporpatonelis-crypto.github.io/html-digital-library/lessons/patristic-scripture-cross-references.html",
+              "placement": "after_text",
+              "native_id": "gregory-scripture-and-pentecost-hymns-v1"
+            }
+          ]
         }
       ]
     },
@@ -1487,6 +1600,40 @@
       "short_title": "Καινή Διαθήκη",
       "source_media_policy": "explicitly-selected-media-only",
       "sections": [
+        {
+          "id": "christos-gennatai",
+          "title": "Χριστός γεννάται · Από τον λόγο στον ύμνο",
+          "source_file": "sources/html-digital-library-2026-11-22.json",
+          "source_url": "https://dporpatonelis-crypto.github.io/html-digital-library/lessons/christos-gennatai.html",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Ο μαθητής αντιστοιχίζει τις τρεις προσκλήσεις του ύμνου με τις αποκρίσεις τους, βάζει τις φράσεις στη σειρά και συνδέει τα λόγια με τη μελωδία μέσω περιστρεφόμενων δακτυλίων."
+            },
+            {
+              "kind": "text",
+              "text": "Στο Unity, η μουσική αντιστοίχιση συνεχίζεται στο κυκλικό αναλόγιο με κάρτες και τρεις δακτυλίους."
+            }
+          ],
+          "media": [
+            {
+              "media_id": "WEB-021",
+              "type": "website",
+              "title": "Άνοιξε τη δραστηριότητα HTML",
+              "url": "https://dporpatonelis-crypto.github.io/html-digital-library/lessons/christos-gennatai.html",
+              "placement": "after_text",
+              "native_id": "christos-gennatai"
+            },
+            {
+              "media_id": "WEB-027",
+              "type": "website",
+              "title": "Χριστός γεννάται · Μουσική αντιστοίχιση στο Unity",
+              "url": "https://dporpatonelis-crypto.github.io/Browser-vr/?material=260ed18ae62357dc3b73#activity/unity%3Achristos_gennatai_opening",
+              "placement": "after_text",
+              "native_id": "christos_gennatai_opening"
+            }
+          ]
+        },
         {
           "id": "john-baptist-journey",
           "title": "Η πορεία του Ιωάννη του Βαπτιστή",
@@ -2141,6 +2288,10 @@
             {
               "kind": "text",
               "text": "Ο Αθανάσιος ανατράφηκε πνευματικά κοντά στον επίσκοπο Αλέξανδρο και μελέτησε την Αγία Γραφή στην Αλεξάνδρεια. Ως διάκονος συμμετείχε στη Σύνοδο της Νίκαιας το 325 και υπερασπίστηκε την ομολογία ότι ο Υιός είναι ομοούσιος με τον Πατέρα. Το 328 έγινε επίσκοπος Αλεξανδρείας. Οι θεολογικές συγκρούσεις τον οδήγησαν επανειλημμένα στην εξορία και σε καταφύγια της ερήμου, όπου συνέχισε την ομολογία και τη συγγραφή του. Με τον Βίο του Αντωνίου μετέδωσε το παράδειγμα της ασκητικής ζωής. Οι επιστροφές του στην Αλεξάνδρεια συνδέθηκαν με την ποιμαντική φροντίδα και την αναζήτηση εκκλησιαστικής ενότητας."
+            },
+            {
+              "kind": "text",
+              "text": "Ο μαθητής βάζει στη σειρά οκτώ σκηνές του βίου, από την Αλεξάνδρεια και τη Νίκαια έως τις εξορίες. Στη συνέχεια συνδέει φράσεις του απολυτικίου με γεγονότα του βίου."
             }
           ],
           "media": [
@@ -2177,6 +2328,14 @@
               "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/athanasius/athanasius-slides.pdf",
               "asset": "assets/church-fathers-journeys/athanasius/athanasius-slides.pdf",
               "placement": "after_text"
+            },
+            {
+              "media_id": "WEB-016",
+              "type": "website",
+              "title": "Άνοιξε τη δραστηριότητα HTML",
+              "url": "https://dporpatonelis-crypto.github.io/html-digital-library/lessons/saint-athanasius-journey.html",
+              "placement": "after_text",
+              "native_id": "saint-athanasius-journey"
             }
           ]
         },
@@ -2215,6 +2374,10 @@
             {
               "kind": "text",
               "text": "Οι σπουδές στην Αθήνα και η φιλία με τον Γρηγόριο τον Θεολόγο διαμόρφωσαν την παιδεία του Βασιλείου. Μοίρασε την περιουσία του στους φτωχούς και ακολούθησε την ασκητική ζωή στον Πόντο, συνδέοντας την προσευχή και τη μελέτη με την κοινή εργασία. Το 370 έγινε επίσκοπος Καισαρείας. Στην Εξαήμερο, η ερμηνεία της Γενέσεως συναντά την παρατήρηση της φύσης και τις γνώσεις της εποχής του. Η Βασιλειάδα έδωσε πρακτική μορφή στη φροντίδα των ασθενών, των φτωχών και των ξένων. Με το έργο Περί Αγίου Πνεύματος υπερασπίστηκε τη θεότητα του Αγίου Πνεύματος μέσα στην ενότητα της Αγίας Τριάδας."
+            },
+            {
+              "kind": "text",
+              "text": "Ο μαθητής αντιστοιχίζει εικόνες και φράσεις από τον βίο του Μεγάλου Βασιλείου και εξετάζει πώς συνδέονται με βιβλικά πρότυπα και με το απολυτίκιό του."
             }
           ],
           "media": [
@@ -2251,6 +2414,14 @@
               "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/basil/basil-slides.pdf",
               "asset": "assets/church-fathers-journeys/basil/basil-slides.pdf",
               "placement": "after_text"
+            },
+            {
+              "media_id": "WEB-017",
+              "type": "website",
+              "title": "Άνοιξε τη δραστηριότητα HTML",
+              "url": "https://dporpatonelis-crypto.github.io/html-digital-library/lessons/megas-vasileios.html",
+              "placement": "after_text",
+              "native_id": "megas-vasileios"
             }
           ]
         },
@@ -2289,6 +2460,10 @@
             {
               "kind": "text",
               "text": "Στην Αθήνα ο Γρηγόριος απέκτησε βαθιά παιδεία και στενή φιλία με τον Βασίλειο, με τον οποίο συνδέθηκε αργότερα στην ασκητική ζωή του Πόντου. Στους λόγους Κατά Ιουλιανού αντιτάχθηκε στον αποκλεισμό των χριστιανών από την ελληνική παιδεία. Στον μικρό ναό της Αναστάσεως στην Κωνσταντινούπολη εκφώνησε τους Θεολογικούς Λόγους για την Αγία Τριάδα. Το 381 συμμετείχε στη Β΄ Οικουμενική Σύνοδο και ανέλαβε προσωρινά την προεδρία της. Παραιτήθηκε από τον επισκοπικό θρόνο επιδιώκοντας την ειρήνη της Εκκλησίας και αποσύρθηκε στην Αριανζό, όπου η ποίηση και η προσευχή συνέχισαν τη θεολογική του μαρτυρία."
+            },
+            {
+              "kind": "text",
+              "text": "Οκτώ σκηνές παρουσιάζουν τη φιλία με τον Βασίλειο, την άσκηση και την προσπάθεια του Γρηγορίου για την ειρήνη. Ο μαθητής συνθέτει βιογραφικές προτάσεις και μελετά απόσπασμα για το Άγιο Πνεύμα."
             }
           ],
           "media": [
@@ -2325,6 +2500,14 @@
               "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/gregory-theologian/gregory-theologian-slides.pdf",
               "asset": "assets/church-fathers-journeys/gregory-theologian/gregory-theologian-slides.pdf",
               "placement": "after_text"
+            },
+            {
+              "media_id": "WEB-018",
+              "type": "website",
+              "title": "Άνοιξε τη δραστηριότητα HTML",
+              "url": "https://dporpatonelis-crypto.github.io/html-digital-library/lessons/saint-gregory-theologian-journey.html",
+              "placement": "after_text",
+              "native_id": "saint-gregory-theologian-journey"
             }
           ]
         },
@@ -2367,6 +2550,10 @@
             {
               "kind": "text",
               "text": "Η μητέρα του Ανθούσα και οι σπουδές κοντά στον Λιβάνιο διαμόρφωσαν τον νεαρό Ιωάννη. Η ασκητική ζωή στα σπήλαια κοντά στην Αντιόχεια τον οδήγησε σε εντατική μελέτη της Γραφής. Με τις Ομιλίες περί ανδριάντων το 387 στήριξε την πόλη που φοβόταν την αυτοκρατορική τιμωρία. Το 398 έγινε αρχιεπίσκοπος Κωνσταντινουπόλεως, συνδέοντας τη λατρεία με το κήρυγμα και την ποιμαντική φροντίδα. Οι ερμηνείες των επιστολών του Αποστόλου Παύλου φωτίζουν την πίστη και την καθημερινή ζωή. Από την εξορία ενίσχυε την Ολυμπιάδα και τους πιστούς με επιστολές. Στα Κόμανα, το 407, η τελευταία του μαρτυρία συνοψίστηκε στη δοξολογία «Δόξα τῷ Θεῷ πάντων ἕνεκεν»."
+            },
+            {
+              "kind": "text",
+              "text": "Οκτώ στάσεις οδηγούν από την Αντιόχεια έως την εξορία. Ο μαθητής συνδέει σκηνές με τη φροντίδα των φτωχών και τη στάση του Χρυσοστόμου απέναντι στην αδικία. Διαβάζει επίσης το απόσπασμα «Κιβωτός και παράδεισος»."
             }
           ],
           "media": [
@@ -2403,6 +2590,14 @@
               "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/john-chrysostom/john-chrysostom-slides.pdf",
               "asset": "assets/church-fathers-journeys/john-chrysostom/john-chrysostom-slides.pdf",
               "placement": "after_text"
+            },
+            {
+              "media_id": "WEB-019",
+              "type": "website",
+              "title": "Άνοιξε τη δραστηριότητα HTML",
+              "url": "https://dporpatonelis-crypto.github.io/html-digital-library/lessons/saint-john-chrysostom-journey.html",
+              "placement": "after_text",
+              "native_id": "saint-john-chrysostom-journey"
             }
           ]
         },
@@ -2863,6 +3058,80 @@
               "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/sophrony/sophrony-slides.pdf",
               "asset": "assets/church-fathers-journeys/sophrony/sophrony-slides.pdf",
               "placement": "after_text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lesson-christian-life-and-service",
+      "title": "Χριστιανική ζωή και προσφορά",
+      "short_title": "Χριστιανική ζωή και προσφορά",
+      "source_file": "sources/html-digital-library-2026-11-22.json",
+      "sections": [
+        {
+          "id": "diognetus-christian-life",
+          "title": "Ξένοι στον κόσμο, οικείοι του Θεού",
+          "source_file": "sources/html-digital-library-2026-11-22.json",
+          "source_url": "https://dporpatonelis-crypto.github.io/html-digital-library/lessons/diognetus-stranger.html",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Ο μαθητής επιλέγει τίτλους για αποσπάσματα της επιστολής «Προς Διόγνητον» και εξετάζει πώς περιγράφεται η ζωή των χριστιανών μέσα στον κόσμο. Έπειτα συνδέει το θέμα της ξενιτείας με τον ύμνο «Δός μοι τοῦτον τὸν ξένον»."
+            }
+          ],
+          "media": [
+            {
+              "media_id": "WEB-022",
+              "type": "website",
+              "title": "Άνοιξε τη δραστηριότητα HTML",
+              "url": "https://dporpatonelis-crypto.github.io/html-digital-library/lessons/diognetus-stranger.html",
+              "placement": "after_text",
+              "native_id": "diognetus-stranger"
+            }
+          ]
+        },
+        {
+          "id": "saint-luke-classroom",
+          "title": "Άγιος Λουκάς ο Ιατρός · Βίος, ύμνος και σχέσεις",
+          "source_file": "sources/html-digital-library-2026-11-22.json",
+          "source_url": "https://dporpatonelis-crypto.github.io/html-digital-library/lessons/saint-luke-relations.html",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Ο μαθητής συνθέτει προτάσεις για τον βίο του Λουκά, από την ιατρική του προσφορά έως τις εξορίες. Έπειτα συνδέει εικόνες και φράσεις του απολυτικίου για να δει πώς συναντιούνται η ιατρική και η διακονία."
+            }
+          ],
+          "media": [
+            {
+              "media_id": "WEB-023",
+              "type": "website",
+              "title": "Άνοιξε τη δραστηριότητα HTML",
+              "url": "https://dporpatonelis-crypto.github.io/html-digital-library/lessons/saint-luke-relations.html",
+              "placement": "after_text",
+              "native_id": "saint-luke-journey"
+            }
+          ]
+        },
+        {
+          "id": "saint-philothei-classroom",
+          "title": "Αγία Φιλοθέη · Από την περιουσία στην προσφορά",
+          "source_file": "sources/html-digital-library-2026-11-22.json",
+          "source_url": "https://dporpatonelis-crypto.github.io/html-digital-library/lessons/saint-philothei-journey.html",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Σε οκτώ σκηνές ο μαθητής ακολουθεί τη Ρηγούλα, τη μετέπειτα Αγία Φιλοθέη. Συνθέτει προτάσεις για τους τρόπους με τους οποίους στήριξε τη μάθηση, πρόσφερε φιλοξενία και προστάτευσε ανθρώπους σε ανάγκη."
+            }
+          ],
+          "media": [
+            {
+              "media_id": "WEB-024",
+              "type": "website",
+              "title": "Άνοιξε τη δραστηριότητα HTML",
+              "url": "https://dporpatonelis-crypto.github.io/html-digital-library/lessons/saint-philothei-journey.html",
+              "placement": "after_text",
+              "native_id": "saint-philothei-journey"
             }
           ]
         }
@@ -3885,6 +4154,72 @@
               "title": "Συνέχεια στο Unity · Κάρτες και φωτεινοί κύκλοι",
               "url": "https://dporpatonelis-crypto.github.io/Browser-vr/?material=f691de3125cadd1f0c8d#activity/unity%3Aworld_religions_cosmology",
               "placement": "after_text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lesson-world-religions",
+      "title": "Θρησκείες του κόσμου",
+      "short_title": "Θρησκείες του κόσμου",
+      "source_file": "sources/html-digital-library-2026-11-22.json",
+      "sections": [
+        {
+          "id": "world-religions-paths",
+          "title": "Πέντε διαδρομές μελέτης",
+          "source_file": "sources/html-digital-library-2026-11-22.json",
+          "source_url": "https://dporpatonelis-crypto.github.io/html-digital-library/lessons/world-religions-paths.html",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Ο μαθητής γνωρίζει τον Ιουδαϊσμό, το Ισλάμ, τον Ινδουισμό, τον Βουδισμό και την αρχαία ελληνική θρησκεία. Για κάθε παράδοση εξετάζει πέντε θέματα, από την αναζήτηση της αλήθειας και τη δημιουργία έως το θείο, τη ζωή μετά τον θάνατο και την κρίση."
+            },
+            {
+              "kind": "text",
+              "text": "Στο δωμάτιο των θρησκειών του Unity, ο μαθητής συγκρίνει τις πέντε παραδόσεις σε τέσσερις δραστηριότητες, μία για κάθε θέμα που συνδέεται παρακάτω."
+            }
+          ],
+          "media": [
+            {
+              "media_id": "WEB-025",
+              "type": "website",
+              "title": "Άνοιξε τη δραστηριότητα HTML",
+              "url": "https://dporpatonelis-crypto.github.io/html-digital-library/lessons/world-religions-paths.html",
+              "placement": "body",
+              "native_id": "world_religions_five_axes_v1"
+            },
+            {
+              "media_id": "WEB-028",
+              "type": "website",
+              "title": "Unity · Αναζήτηση της αλήθειας",
+              "url": "https://dporpatonelis-crypto.github.io/Browser-vr/?material=eb026c845b687fb0adbc#activity/unity%3Aworld_religions_revelation_search",
+              "placement": "after_text",
+              "native_id": "world_religions_revelation_search"
+            },
+            {
+              "media_id": "WEB-029",
+              "type": "website",
+              "title": "Unity · Το θείο",
+              "url": "https://dporpatonelis-crypto.github.io/Browser-vr/?material=0632b8bcad4b8377d87e#activity/unity%3Aworld_religions_divine",
+              "placement": "after_text",
+              "native_id": "world_religions_divine"
+            },
+            {
+              "media_id": "WEB-030",
+              "type": "website",
+              "title": "Unity · Ζωή μετά τον θάνατο",
+              "url": "https://dporpatonelis-crypto.github.io/Browser-vr/?material=c32f7b48084cb5e484c2#activity/unity%3Aworld_religions_afterlife",
+              "placement": "after_text",
+              "native_id": "world_religions_afterlife"
+            },
+            {
+              "media_id": "WEB-031",
+              "type": "website",
+              "title": "Unity · Η σημασία των πράξεων",
+              "url": "https://dporpatonelis-crypto.github.io/Browser-vr/?material=eff5cf746457a678353c#activity/unity%3Aworld_religions_judgement",
+              "placement": "after_text",
+              "native_id": "world_religions_judgement"
             }
           ]
         }

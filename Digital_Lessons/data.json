@@ -1,9 +1,9 @@
 {
   "title": "Το ψηφιακό μου βιβλίο",
-  "description": "Κείμενα, εικόνες και συνδέσεις για τα μαθήματά μας στα web apps και στο Unity.",
+  "description": "Κείμενα, εικόνες και δραστηριότητες για την τάξη, με συνδέσμους σε μαθήματα HTML και στο Unity.",
   "bookId": "Digital_Lessons",
-  "revision": 33,
-  "sourceDigest": "78c126f297f3190d376473c225ea9ed92aad6d98be5d9f391ef13c3c4286856d",
+  "revision": 34,
+  "sourceDigest": "eceba58c34f3e52829fbac39bd3089d242f91bc91e643c4276b4cff2e1dbf4a7",
   "coverImage": "assets/old-testament-objects.png",
   "coverCaption": "Έξι ιερά αντικείμενα της Παλαιάς Διαθήκης",
   "edition": "ΠΡΟΣΩΠΙΚΟ ΨΗΦΙΑΚΟ ΒΙΒΛΙΟ",
@@ -323,9 +323,10 @@
       "sourcePage": 4,
       "lessonId": "lesson-foundations",
       "lessonTitle": "Βασικές γνώσεις για όλες τις τάξεις",
+      "sourceUrl": "",
       "content": [
         {
-          "text": "Η σελίδα αντιστοιχίζει τα HTML που εντοπίστηκαν στον φάκελο «Digital Εκπαιδευτικό Υλικό, html, slides» του Google Drive με τις ήδη υπάρχουσες ενότητες του Digital Book. Κάθε σύνδεσμος οδηγεί στο αρχικό αρχείο· δεν δημιουργείται νέο αντίγραφο.",
+          "text": "Ο πίνακας συνδέει τα αρχεία HTML του φακέλου «Digital Εκπαιδευτικό Υλικό, html, slides» στο Google Drive με τις αντίστοιχες ενότητες του βιβλίου. Στη δημόσια βιβλιοθήκη θα βρεις τις δραστηριότητες HTML που ανοίγουν απευθείας στον browser.",
           "kind": "text",
           "paragraphBoundary": true,
           "hotspots": []
@@ -391,7 +392,7 @@
           "hotspots": []
         },
         {
-          "text": "• Χριστός γεννάται · Διαδραστικός χάρτης ύμνου (DOC-041): συμπληρωματική σύνδεση με την Ενανθρώπηση και την «Επανόρθωση εν Χριστώ». Το βιβλίο δεν έχει ξεχωριστή ενότητα Χριστουγέννων.",
+          "text": "• Χριστός γεννάται · Διαδραστικός χάρτης ύμνου (DOC-041). Η δραστηριότητα παρουσιάζεται στην ενότητα «Χριστός γεννάται · Από τον λόγο στον ύμνο».",
           "kind": "list_item",
           "paragraphBoundary": true,
           "hotspots": []
@@ -513,154 +514,298 @@
         "DOC-027",
         "DOC-028",
         "DOC-029",
-        "DOC-026"
+        "DOC-026",
+        "WEB-035"
       ],
+      "driveUrl": "https://drive.google.com/file/d/1dJZHuJzNIg7B-Yh2JsKmwtR_otqM2GL_/view?usp=drivesdk",
       "extraMedia": [
-        {
-          "media_id": "DOC-031",
-          "type": "drive",
-          "title": "Ιστορικοί κόσμοι · Εύρεση περιόδου",
-          "url": "https://drive.google.com/file/d/1dJZHuJzNIg7B-Yh2JsKmwtR_otqM2GL_/view?usp=drivesdk",
-          "placement": "section_end"
-        },
         {
           "media_id": "DOC-034",
           "type": "drive",
           "title": "Αθήνα και ελληνικός πολιτισμός · Φωτεινός χάρτης",
           "url": "https://drive.google.com/file/d/1yTLMn5tX-lts-46pj6LA7xaS779G7BVE/view?usp=drivesdk",
-          "placement": "section_end"
+          "placement": "section_end",
+          "download_only": true,
+          "drive_id": "1yTLMn5tX-lts-46pj6LA7xaS779G7BVE"
         },
         {
           "media_id": "DOC-035",
           "type": "drive",
           "title": "Παύλος · Από διώκτης των Χριστιανών, Απόστολος των Εθνών",
           "url": "https://drive.google.com/file/d/1t7WlD-mcqlCyP29xNQ0gdUXd0p6xDWKu/view?usp=drivesdk",
-          "placement": "section_end"
+          "placement": "section_end",
+          "download_only": true,
+          "drive_id": "1t7WlD-mcqlCyP29xNQ0gdUXd0p6xDWKu"
         },
         {
           "media_id": "DOC-036",
           "type": "drive",
           "title": "Παύλος · Απόστολος των Εθνών",
           "url": "https://drive.google.com/file/d/1B25z5sAvAn47PBFhUnXCxxoes2ElDgKL/view?usp=drivesdk",
-          "placement": "section_end"
+          "placement": "section_end",
+          "download_only": true,
+          "drive_id": "1B25z5sAvAn47PBFhUnXCxxoes2ElDgKL"
         },
         {
           "media_id": "DOC-032",
           "type": "drive",
           "title": "Η γνωστική μας διαδρομή · Κατ’ εικόνα, Τάλαντα, Άγιος Λουκάς",
           "url": "https://drive.google.com/file/d/1jiGpW-SNz_pIEP_fOdUyyOlqKu315LxD/view?usp=drivesdk",
-          "placement": "section_end"
+          "placement": "section_end",
+          "download_only": true,
+          "drive_id": "1jiGpW-SNz_pIEP_fOdUyyOlqKu315LxD"
         },
         {
           "media_id": "DOC-033",
           "type": "drive",
           "title": "Άγιος Λουκάς ο Ιατρός · Μια διαδρομή προσφοράς",
           "url": "https://drive.google.com/file/d/1Ko8gjsGL-vHako6sN4ngfolgt5i6yFdJ/view?usp=drivesdk",
-          "placement": "section_end"
+          "placement": "section_end",
+          "download_only": true,
+          "drive_id": "1Ko8gjsGL-vHako6sN4ngfolgt5i6yFdJ"
         },
         {
           "media_id": "DOC-039",
           "type": "drive",
           "title": "Η παραβολή των ταλάντων · Κείμενο και ύμνος",
           "url": "https://drive.google.com/file/d/1ZUZE2aoj9grwUdi-WmSpKshE3t2KURou/view?usp=drivesdk",
-          "placement": "section_end"
+          "placement": "section_end",
+          "download_only": true,
+          "drive_id": "1ZUZE2aoj9grwUdi-WmSpKshE3t2KURou"
         },
         {
           "media_id": "DOC-030",
           "type": "drive",
           "title": "Λήψη από το Drive · Δέντρο Διαθήκης — επίλεξε «Ο άνθρωπος: δώρο και κλήση»",
           "url": "https://drive.google.com/file/d/1Kf2sPd09JSMkFcNdhV_EAK-IGX_WYJYV/view?usp=drivesdk",
-          "placement": "section_end"
-        },
-        {
-          "media_id": "WEB-007",
-          "type": "website",
-          "title": "Δημιουργία · Αναλόγιο εννοιών",
-          "url": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/apps/animated-concept-canvas/creation-concepts.html",
-          "placement": "section_end"
+          "placement": "section_end",
+          "download_only": true,
+          "drive_id": "1Kf2sPd09JSMkFcNdhV_EAK-IGX_WYJYV",
+          "native_id": "human_creation"
         },
         {
           "media_id": "DOC-041",
           "type": "drive",
           "title": "Χριστός γεννάται · Διαδραστικός χάρτης ύμνου",
           "url": "https://drive.google.com/file/d/1y2hVCIsg0oxhxnsxZi_ncNz2Ggpzo2HE/view?usp=drivesdk",
-          "placement": "section_end"
+          "placement": "section_end",
+          "download_only": true,
+          "drive_id": "1y2hVCIsg0oxhxnsxZi_ncNz2Ggpzo2HE"
         },
         {
           "media_id": "DOC-018",
           "type": "drive",
           "title": "Κατέβασε το quiz HTML · Σκιά και Πλήρωση / Πεντηκοστή",
           "url": "https://drive.google.com/file/d/11wnDMCi8mRrV3XhX5CI74E_0Xcujxm3E/view?usp=sharing",
-          "placement": "section_end"
+          "placement": "section_end",
+          "caption": "Αυτόνομο αρχείο HTML· λήψη από Drive και άνοιγμα σε browser."
         },
         {
           "media_id": "DOC-040",
           "type": "drive",
           "title": "Πεντηκοστή · Φωτεινός χάρτης και σύνθεση ύμνου",
           "url": "https://drive.google.com/file/d/1AC-vsYd-u92jFU-arSx1CZ5_w9GPjuOO/view?usp=drivesdk",
-          "placement": "section_end"
+          "placement": "section_end",
+          "download_only": true,
+          "drive_id": "1AC-vsYd-u92jFU-arSx1CZ5_w9GPjuOO"
         },
         {
           "media_id": "DOC-024",
           "type": "drive",
           "title": "Λήψη από το Drive · Ο μηχανισμός των αφηγήσεων",
           "url": "https://drive.google.com/file/d/1bStII4PbGq75w41Cam0hn8FaL_bZf6kR/view?usp=drivesdk",
-          "placement": "section_end"
+          "placement": "section_end",
+          "download_only": true,
+          "drive_id": "1bStII4PbGq75w41Cam0hn8FaL_bZf6kR",
+          "native_id": "concentric_cosmology_v1"
         },
         {
           "media_id": "DOC-025",
           "type": "drive",
           "title": "Λήψη από το Drive · Οι κλωστές των αφηγήσεων",
           "url": "https://drive.google.com/file/d/1DJdjslsIl59Ex8CY9f_S_yhu0OTCC5XB/view?usp=drivesdk",
-          "placement": "section_end"
+          "placement": "section_end",
+          "download_only": true,
+          "drive_id": "1DJdjslsIl59Ex8CY9f_S_yhu0OTCC5XB",
+          "native_id": "world_religions_cosmology"
         },
         {
           "media_id": "DOC-037",
           "type": "drive",
           "title": "Συγκεντρωτικό · Ομόκεντροι δακτύλιοι και κλωστές",
           "url": "https://drive.google.com/file/d/1ZqB7vIbg_AAMioSkZjJgiwkdOuSOvDeP/view?usp=drivesdk",
-          "placement": "section_end"
+          "placement": "section_end",
+          "download_only": true,
+          "drive_id": "1ZqB7vIbg_AAMioSkZjJgiwkdOuSOvDeP"
         },
         {
           "media_id": "DOC-038",
           "type": "drive",
           "title": "Αγία Τριάδα · Τα βασικά και η εμβάθυνση",
           "url": "https://drive.google.com/file/d/1IcLpxXDd2TK2QbFyRfA7y95QJsGx8209/view?usp=drivesdk",
-          "placement": "section_end"
+          "placement": "section_end",
+          "download_only": true,
+          "drive_id": "1IcLpxXDd2TK2QbFyRfA7y95QJsGx8209"
         },
         {
           "media_id": "DOC-027",
           "type": "drive",
           "title": "Λήψη από το Drive · Θεία Οικονομία",
           "url": "https://drive.google.com/file/d/1jmSyJQ96_Gd2EXC_jWdNKagGhejZN7gk/view?usp=drivesdk",
-          "placement": "section_end"
+          "placement": "section_end",
+          "download_only": true,
+          "drive_id": "1jmSyJQ96_Gd2EXC_jWdNKagGhejZN7gk",
+          "native_id": "theia-oikonomia-two-level"
         },
         {
           "media_id": "DOC-028",
           "type": "drive",
           "title": "Λήψη από το Drive · Νους και καρδιά",
           "url": "https://drive.google.com/file/d/1m1VD1hp6_bEpCrltrCtYq1ZD8hs-Fbk0/view?usp=drivesdk",
-          "placement": "section_end"
+          "placement": "section_end",
+          "download_only": true,
+          "drive_id": "1m1VD1hp6_bEpCrltrCtYq1ZD8hs-Fbk0",
+          "native_id": "science-heart-dialogue"
         },
         {
           "media_id": "DOC-029",
           "type": "drive",
           "title": "Λήψη από το Drive · Οι οδύνες μετά την παρακοή",
           "url": "https://drive.google.com/file/d/1rSBAOEiMuA3pO2XRhgL7M-NfQcbZSg7L/view?usp=drivesdk",
-          "placement": "section_end"
+          "placement": "section_end",
+          "download_only": true,
+          "drive_id": "1rSBAOEiMuA3pO2XRhgL7M-NfQcbZSg7L",
+          "native_id": "genesis3-mindmap"
         },
         {
           "media_id": "DOC-026",
           "type": "drive",
           "title": "Λήψη από το Drive · Να αγαπάτε τα δέντρα!",
           "url": "https://drive.google.com/file/d/1zwgAyW7B2Rhg7fUi-5DlczsuuP_UTnq0/view?usp=drivesdk",
-          "placement": "section_end"
+          "placement": "section_end",
+          "download_only": true,
+          "drive_id": "1zwgAyW7B2Rhg7fUi-5DlczsuuP_UTnq0",
+          "native_id": "na_agapate_ta_dentra"
+        },
+        {
+          "media_id": "WEB-035",
+          "type": "website",
+          "title": "Άνοιξε τη βιβλιοθήκη HTML",
+          "url": "https://dporpatonelis-crypto.github.io/html-digital-library/",
+          "placement": "body"
+        }
+      ],
+      "webUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/apps/animated-concept-canvas/creation-concepts.html"
+    },
+    {
+      "id": "covenant-tree-classroom",
+      "number": 8,
+      "type": "content",
+      "title": "Το Δέντρο της Διαθήκης · Πέντε διαδρομές",
+      "displayTitle": "Το Δέντρο της Διαθήκης · Πέντε διαδρομές",
+      "sourceBook": "Digital_Lessons",
+      "sourceTitle": "Μάθημα 2",
+      "sourcePage": 5,
+      "lessonId": "lesson-foundations",
+      "lessonTitle": "Βασικές γνώσεις για όλες τις τάξεις",
+      "sourceUrl": "",
+      "content": [
+        {
+          "text": "Πέντε δραστηριότητες με χειρόγραφα και εικόνες. Στο μενού «Σενάρια» ο μαθητής επιλέγει ποια διαδρομή θα ακολουθήσει.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "• Το Δέντρο της Διαθήκης. Ο μαθητής τοποθετεί έξι χειρόγραφα στο δέντρο και αποκαλύπτει την εικόνα.",
+          "kind": "list_item",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "• Ο άνθρωπος και οι δύο τρόποι γνώσης. Συνδέει έξι χειρόγραφα με σύμβολα, με αφετηρία κείμενο του Αγίου Λουκά.",
+          "kind": "list_item",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "• Οντολογικός χάρτης της Αποκάλυψης. Αναζητά πώς φανερώνεται ο Θεός στην κτίση και στην ιστορία.",
+          "kind": "list_item",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "• Πνευματική ελευθερία. Αναγνωρίζει πέντε πάθη και τα συνδέει με τρόπους θεραπείας.",
+          "kind": "list_item",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "• Ο άνθρωπος: δώρο και κλήση. Συνδέει αποσπάσματα με την εικόνα και εξηγεί την πορεία από το δώρο στη μετοχή.",
+          "kind": "list_item",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "Στο Unity, οι αντίστοιχες διαδρομές συνεχίζονται με συλλογή παπύρων, σύνδεση συμβόλων και αποκάλυψη εικόνας. Στη Δημιουργία, η συνέχεια στο αναλόγιο έχει διαφορετικές κάρτες.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        }
+      ],
+      "mediaRefs": [
+        "WEB-026",
+        "WEB-032",
+        "WEB-033",
+        "WEB-034",
+        "WEB-011",
+        "WEB-013"
+      ],
+      "webUrl": "https://dporpatonelis-crypto.github.io/html-digital-library/lessons/dentro-diathikis-puzzle.html",
+      "extraMedia": [
+        {
+          "media_id": "WEB-032",
+          "type": "website",
+          "title": "Unity · Το Δέντρο της Διαθήκης",
+          "url": "https://dporpatonelis-crypto.github.io/Browser-vr/?material=d995172189b55d65a386#activity/sb%3A20261002_palaia-kai-kaini-diathiki-enotita",
+          "placement": "after_text",
+          "native_id": "dentro_diathikis"
+        },
+        {
+          "media_id": "WEB-033",
+          "type": "website",
+          "title": "Unity · Χάρτης της Αποκάλυψης",
+          "url": "https://dporpatonelis-crypto.github.io/Browser-vr/?material=39dfe73c304ed4962d1e#activity/book%3Alesson-004",
+          "placement": "after_text",
+          "native_id": "revelation_map"
+        },
+        {
+          "media_id": "WEB-034",
+          "type": "website",
+          "title": "Unity · Πνευματική ελευθερία",
+          "url": "https://dporpatonelis-crypto.github.io/Browser-vr/?material=68fb8a528fb7e3df5b2e#activity/sculpture%3Aspiritual-freedom",
+          "placement": "after_text",
+          "native_id": "spiritual_healing"
+        },
+        {
+          "media_id": "WEB-011",
+          "type": "website",
+          "title": "Unity · Οι δύο τρόποι γνώσης",
+          "url": "https://dporpatonelis-crypto.github.io/Browser-vr/?material=82ec311e076b554cae00#activity/book%3Alesson-005",
+          "placement": "after_text"
+        },
+        {
+          "media_id": "WEB-013",
+          "type": "website",
+          "title": "Unity · Αναλόγιο Δημιουργίας",
+          "url": "https://dporpatonelis-crypto.github.io/Browser-vr/?material=29e35a1ee55b1a1edcbf#activity/book%3Alesson-creation-world",
+          "placement": "after_text"
         }
       ]
     },
     {
       "id": "s-81491e8e-e56e-5a32-b73e-0f268cf4fb57",
-      "number": 8,
+      "number": 9,
       "type": "content",
       "title": "Εισαγωγή",
       "displayTitle": "Εισαγωγή",
@@ -721,7 +866,7 @@
     },
     {
       "id": "s-4c4c2f7c-92aa-5e18-85aa-7e5f5a1e0535",
-      "number": 9,
+      "number": 10,
       "type": "content",
       "title": "Αρχαία Αγορά: Ο Ελληνικός Στοχασμός ως Γέφυρα Διαλόγου",
       "displayTitle": "Αρχαία Αγορά: Ο Ελληνικός Στοχασμός ως Γέφυρα Διαλόγου",
@@ -791,7 +936,7 @@
     },
     {
       "id": "abraham-journey",
-      "number": 10,
+      "number": 11,
       "type": "content",
       "title": "Η πορεία του Αβραάμ",
       "displayTitle": "Η πορεία του Αβραάμ",
@@ -835,7 +980,7 @@
     },
     {
       "id": "s-851e860a-84d7-5377-a1f6-f6a88b0a17ce",
-      "number": 11,
+      "number": 12,
       "type": "content",
       "title": "Ιερουσαλήμ: Από τη Σκιά της Παλαιάς Διαθήκης στην Υμνολογική Πλήρωση",
       "displayTitle": "Ιερουσαλήμ: Από τη Σκιά της Παλαιάς Διαθήκης στην Υμνολογική Πλήρωση",
@@ -1034,7 +1179,7 @@
     },
     {
       "id": "david-journey",
-      "number": 12,
+      "number": 13,
       "type": "content",
       "title": "Η πορεία του Δαυίδ",
       "displayTitle": "Η πορεία του Δαυίδ",
@@ -1078,7 +1223,7 @@
     },
     {
       "id": "elijah-journey",
-      "number": 13,
+      "number": 14,
       "type": "content",
       "title": "Η πορεία του Ηλία",
       "displayTitle": "Η πορεία του Ηλία",
@@ -1122,7 +1267,7 @@
     },
     {
       "id": "s-0b2bee9f-337b-5288-bfee-1054a9131e97",
-      "number": 14,
+      "number": 15,
       "type": "content",
       "title": "Βυζάντιο: Τα Όρια της Σοφίας, το Σημείο και ο Σταυρός",
       "displayTitle": "Βυζάντιο: Τα Όρια της Σοφίας, το Σημείο και ο Σταυρός",
@@ -1216,7 +1361,7 @@
     },
     {
       "id": "s-d4a85ee8-310b-552f-b22e-b107eafa8b7f",
-      "number": 15,
+      "number": 16,
       "type": "content",
       "title": "Σύνοψη",
       "displayTitle": "Σύνοψη",
@@ -1268,7 +1413,7 @@
     },
     {
       "id": "pentecost-upper-room",
-      "number": 16,
+      "number": 17,
       "type": "content",
       "title": "Πεντηκοστή: Από το Ιστορικό Υπερώο στην Οικουμενική Εκκλησία",
       "displayTitle": "Πεντηκοστή: Από το Ιστορικό Υπερώο στην Οικουμενική Εκκλησία",
@@ -1343,7 +1488,7 @@
     },
     {
       "id": "pentecost-six-stations",
-      "number": 17,
+      "number": 18,
       "type": "content",
       "title": "Οι έξι σταθμοί ανακάλυψης",
       "displayTitle": "Οι έξι σταθμοί ανακάλυψης",
@@ -1443,7 +1588,7 @@
     },
     {
       "id": "pentecost-liturgical-time",
-      "number": 18,
+      "number": 19,
       "type": "content",
       "title": "Ιστορικός χρόνος και λειτουργικό «Σήμερον»",
       "displayTitle": "Ιστορικός χρόνος και λειτουργικό «Σήμερον»",
@@ -1498,7 +1643,7 @@
     },
     {
       "id": "pentecost-prayer-all-adam",
-      "number": 19,
+      "number": 20,
       "type": "content",
       "title": "Η προσευχή υπέρ όλου του Αδάμ",
       "displayTitle": "Η προσευχή υπέρ όλου του Αδάμ",
@@ -1556,7 +1701,7 @@
     },
     {
       "id": "pentecost-vr-learning",
-      "number": 20,
+      "number": 21,
       "type": "content",
       "title": "Η βιωματική διαδρομή στο VR",
       "displayTitle": "Η βιωματική διαδρομή στο VR",
@@ -1629,7 +1774,7 @@
     },
     {
       "id": "pentecost-summary",
-      "number": 21,
+      "number": 22,
       "type": "content",
       "title": "Συνοψίζοντας: Τα κύρια σημεία",
       "displayTitle": "Συνοψίζοντας: Τα κύρια σημεία",
@@ -1692,7 +1837,7 @@
     },
     {
       "id": "pentecost-advanced-theology",
-      "number": 22,
+      "number": 23,
       "type": "content",
       "title": "Προχωρημένο επίπεδο: Η λειτουργική προσευχή και το Υπερώο",
       "displayTitle": "Προχωρημένο επίπεδο: Η λειτουργική προσευχή και το Υπερώο",
@@ -1762,7 +1907,7 @@
     },
     {
       "id": "pentecost-selected-materials",
-      "number": 23,
+      "number": 24,
       "type": "content",
       "title": "Επιλεγμένο υλικό",
       "displayTitle": "Επιλεγμένο υλικό",
@@ -1833,14 +1978,81 @@
       "driveUrl": "https://drive.google.com/file/d/1gTpCbIi_XlbupeGTisTBB9h02agP-39Y/view?usp=drivesdk"
     },
     {
+      "id": "patristic-scripture-and-hymns",
+      "number": 25,
+      "type": "content",
+      "title": "Γρηγόριος ο Θεολόγος · Γραφή και ύμνοι της Πεντηκοστής",
+      "displayTitle": "Γρηγόριος ο Θεολόγος · Γραφή και ύμνοι της Πεντηκοστής",
+      "sourceBook": "Digital_Lessons",
+      "sourceTitle": "Μάθημα 4",
+      "sourcePage": 9,
+      "lessonId": "lesson-002",
+      "lessonTitle": "Από το Ιστορικό Υπερώο στην Οικουμενική Εκκλησία: Μια Βιωματική VR Εκπαιδευτική Διαδρομή",
+      "sourceUrl": "https://notebooklm.link.google/hnbLrGAoT7fJ",
+      "content": [
+        {
+          "text": "Ο μαθητής επιλέγει μια φράση του Γρηγορίου του Θεολόγου και βλέπει ποια σημεία φωτίζονται στην Αγία Γραφή ή στον αντίστοιχο ύμνο. Η δραστηριότητα περιλαμβάνει τέσσερα βιβλικά χωρία και τρεις ύμνους της Πεντηκοστής.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        }
+      ],
+      "mediaRefs": [
+        "WEB-020"
+      ],
+      "webUrl": "https://dporpatonelis-crypto.github.io/html-digital-library/lessons/patristic-scripture-cross-references.html"
+    },
+    {
+      "id": "christos-gennatai",
+      "number": 26,
+      "type": "content",
+      "title": "Χριστός γεννάται · Από τον λόγο στον ύμνο",
+      "displayTitle": "Χριστός γεννάται · Από τον λόγο στον ύμνο",
+      "sourceBook": "Digital_Lessons",
+      "sourceTitle": "Μάθημα 5",
+      "sourcePage": 1,
+      "lessonId": "lesson-003",
+      "lessonTitle": "Καινή Διαθήκη: Η ζωή του Χριστού και η αποστολική μαρτυρία",
+      "sourceUrl": "",
+      "content": [
+        {
+          "text": "Ο μαθητής αντιστοιχίζει τις τρεις προσκλήσεις του ύμνου με τις αποκρίσεις τους, βάζει τις φράσεις στη σειρά και συνδέει τα λόγια με τη μελωδία μέσω περιστρεφόμενων δακτυλίων.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "Στο Unity, η μουσική αντιστοίχιση συνεχίζεται στο κυκλικό αναλόγιο με κάρτες και τρεις δακτυλίους.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        }
+      ],
+      "mediaRefs": [
+        "WEB-021",
+        "WEB-027"
+      ],
+      "webUrl": "https://dporpatonelis-crypto.github.io/html-digital-library/lessons/christos-gennatai.html",
+      "extraMedia": [
+        {
+          "media_id": "WEB-027",
+          "type": "website",
+          "title": "Χριστός γεννάται · Μουσική αντιστοίχιση στο Unity",
+          "url": "https://dporpatonelis-crypto.github.io/Browser-vr/?material=260ed18ae62357dc3b73#activity/unity%3Achristos_gennatai_opening",
+          "placement": "after_text",
+          "native_id": "christos_gennatai_opening"
+        }
+      ]
+    },
+    {
       "id": "john-baptist-journey",
-      "number": 24,
+      "number": 27,
       "type": "content",
       "title": "Η πορεία του Ιωάννη του Βαπτιστή",
       "displayTitle": "Η πορεία του Ιωάννη του Βαπτιστή",
       "sourceBook": "Digital_Lessons",
       "sourceTitle": "Μάθημα 5",
-      "sourcePage": 1,
+      "sourcePage": 2,
       "lessonId": "lesson-003",
       "lessonTitle": "Καινή Διαθήκη: Η ζωή του Χριστού και η αποστολική μαρτυρία",
       "sourceUrl": "",
@@ -1880,13 +2092,13 @@
     },
     {
       "id": "john-evangelist-journey",
-      "number": 25,
+      "number": 28,
       "type": "content",
       "title": "Η πορεία του Ιωάννη",
       "displayTitle": "Η πορεία του Ιωάννη",
       "sourceBook": "Digital_Lessons",
       "sourceTitle": "Μάθημα 5",
-      "sourcePage": 2,
+      "sourcePage": 3,
       "lessonId": "lesson-003",
       "lessonTitle": "Καινή Διαθήκη: Η ζωή του Χριστού και η αποστολική μαρτυρία",
       "sourceUrl": "",
@@ -1926,13 +2138,13 @@
     },
     {
       "id": "peter-journey",
-      "number": 26,
+      "number": 29,
       "type": "content",
       "title": "Η πορεία του Πέτρου",
       "displayTitle": "Η πορεία του Πέτρου",
       "sourceBook": "Digital_Lessons",
       "sourceTitle": "Μάθημα 5",
-      "sourcePage": 3,
+      "sourcePage": 4,
       "lessonId": "lesson-003",
       "lessonTitle": "Καινή Διαθήκη: Η ζωή του Χριστού και η αποστολική μαρτυρία",
       "sourceUrl": "",
@@ -1972,13 +2184,13 @@
     },
     {
       "id": "paul-journey",
-      "number": 27,
+      "number": 30,
       "type": "content",
       "title": "Η πορεία του Παύλου",
       "displayTitle": "Η πορεία του Παύλου",
       "sourceBook": "Digital_Lessons",
       "sourceTitle": "Μάθημα 5",
-      "sourcePage": 4,
+      "sourcePage": 5,
       "lessonId": "lesson-003",
       "lessonTitle": "Καινή Διαθήκη: Η ζωή του Χριστού και η αποστολική μαρτυρία",
       "sourceUrl": "",
@@ -2018,7 +2230,7 @@
     },
     {
       "id": "apokalypsi",
-      "number": 28,
+      "number": 31,
       "type": "content",
       "title": "Η Αποκάλυψη σε έξι σημεία",
       "displayTitle": "Η Αποκάλυψη σε έξι σημεία",
@@ -2127,7 +2339,7 @@
     },
     {
       "id": "apokalypsi-materials",
-      "number": 29,
+      "number": 32,
       "type": "content",
       "title": "Το υλικό μας στις εφαρμογές και στο VR",
       "displayTitle": "Το υλικό μας στις εφαρμογές και στο VR",
@@ -2224,7 +2436,7 @@
     },
     {
       "id": "science-religion-overview",
-      "number": 30,
+      "number": 33,
       "type": "content",
       "title": "Επιστήμη και θρησκεία",
       "displayTitle": "Επιστήμη και θρησκεία",
@@ -2275,7 +2487,7 @@
     },
     {
       "id": "science-religion-worksheet",
-      "number": 31,
+      "number": 34,
       "type": "content",
       "title": "Φύλλο εργασίας μαθητή",
       "displayTitle": "Φύλλο εργασίας μαθητή",
@@ -2318,7 +2530,7 @@
     },
     {
       "id": "science-religion-agora-quiz",
-      "number": 32,
+      "number": 35,
       "type": "content",
       "title": "Quiz στην Κλασική Αγορά",
       "displayTitle": "Quiz στην Κλασική Αγορά",
@@ -2382,7 +2594,7 @@
     },
     {
       "id": "science-religion-agora-artifact-talk",
-      "number": 33,
+      "number": 36,
       "type": "content",
       "title": "Συζήτηση με τον Δημήτρη",
       "displayTitle": "Συζήτηση με τον Δημήτρη",
@@ -2434,7 +2646,7 @@
     },
     {
       "id": "science-heart-mindmap",
-      "number": 34,
+      "number": 37,
       "type": "content",
       "title": "Νους και καρδιά · Επτά έννοιες στην εικόνα",
       "displayTitle": "Νους και καρδιά · Επτά έννοιες στην εικόνα",
@@ -2479,7 +2691,7 @@
     },
     {
       "id": "father-athanasius",
-      "number": 35,
+      "number": 38,
       "type": "content",
       "title": "Μέγας Αθανάσιος",
       "displayTitle": "Μέγας Αθανάσιος",
@@ -2513,13 +2725,20 @@
           "kind": "text",
           "paragraphBoundary": true,
           "hotspots": []
+        },
+        {
+          "text": "Ο μαθητής βάζει στη σειρά οκτώ σκηνές του βίου, από την Αλεξάνδρεια και τη Νίκαια έως τις εξορίες. Στη συνέχεια συνδέει φράσεις του απολυτικίου με γεγονότα του βίου.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
         }
       ],
       "mediaRefs": [
         "IMG-102",
         "VID-033",
         "SLD-019",
-        "DOC-008"
+        "DOC-008",
+        "WEB-016"
       ],
       "images": [
         "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers/father-athanasius.png"
@@ -2528,6 +2747,7 @@
       "videoUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/athanasius/athanasius.mp4",
       "slidesUrl": "https://docs.google.com/presentation/d/1zXQhZYZlY3pziPxnG6ek4OXj66eUcUhAllS4cP2rXq8",
       "driveUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/athanasius/athanasius-slides.pdf",
+      "webUrl": "https://dporpatonelis-crypto.github.io/html-digital-library/lessons/saint-athanasius-journey.html",
       "localImages": [
         {
           "src": "assets/church-fathers/father-athanasius.png",
@@ -2540,7 +2760,7 @@
     },
     {
       "id": "father-basil",
-      "number": 36,
+      "number": 39,
       "type": "content",
       "title": "Μέγας Βασίλειος",
       "displayTitle": "Μέγας Βασίλειος",
@@ -2574,13 +2794,20 @@
           "kind": "text",
           "paragraphBoundary": true,
           "hotspots": []
+        },
+        {
+          "text": "Ο μαθητής αντιστοιχίζει εικόνες και φράσεις από τον βίο του Μεγάλου Βασιλείου και εξετάζει πώς συνδέονται με βιβλικά πρότυπα και με το απολυτίκιό του.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
         }
       ],
       "mediaRefs": [
         "IMG-103",
         "VID-034",
         "SLD-020",
-        "DOC-009"
+        "DOC-009",
+        "WEB-017"
       ],
       "images": [
         "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers/father-basil.png"
@@ -2589,6 +2816,7 @@
       "videoUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/basil/basil.mp4",
       "slidesUrl": "https://docs.google.com/presentation/d/1U1ZBEVCOuIr8D4q1bW7SnitbTye-vqZPh9dFDDma_S4",
       "driveUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/basil/basil-slides.pdf",
+      "webUrl": "https://dporpatonelis-crypto.github.io/html-digital-library/lessons/megas-vasileios.html",
       "localImages": [
         {
           "src": "assets/church-fathers/father-basil.png",
@@ -2601,7 +2829,7 @@
     },
     {
       "id": "father-gregory-theologian",
-      "number": 37,
+      "number": 40,
       "type": "content",
       "title": "Γρηγόριος ο Θεολόγος",
       "displayTitle": "Γρηγόριος ο Θεολόγος",
@@ -2635,13 +2863,20 @@
           "kind": "text",
           "paragraphBoundary": true,
           "hotspots": []
+        },
+        {
+          "text": "Οκτώ σκηνές παρουσιάζουν τη φιλία με τον Βασίλειο, την άσκηση και την προσπάθεια του Γρηγορίου για την ειρήνη. Ο μαθητής συνθέτει βιογραφικές προτάσεις και μελετά απόσπασμα για το Άγιο Πνεύμα.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
         }
       ],
       "mediaRefs": [
         "IMG-104",
         "VID-035",
         "SLD-021",
-        "DOC-010"
+        "DOC-010",
+        "WEB-018"
       ],
       "images": [
         "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers/father-gregory-theologian.png"
@@ -2650,6 +2885,7 @@
       "videoUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/gregory-theologian/gregory-theologian.mp4",
       "slidesUrl": "https://docs.google.com/presentation/d/1-pu-kgksqc3H9J25c_1GnVqE2tWYRoSTdC_PVpoSXDI",
       "driveUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/gregory-theologian/gregory-theologian-slides.pdf",
+      "webUrl": "https://dporpatonelis-crypto.github.io/html-digital-library/lessons/saint-gregory-theologian-journey.html",
       "localImages": [
         {
           "src": "assets/church-fathers/father-gregory-theologian.png",
@@ -2662,7 +2898,7 @@
     },
     {
       "id": "father-john-chrysostom",
-      "number": 38,
+      "number": 41,
       "type": "content",
       "title": "Ιωάννης ο Χρυσόστομος",
       "displayTitle": "Ιωάννης ο Χρυσόστομος",
@@ -2696,13 +2932,20 @@
           "kind": "text",
           "paragraphBoundary": true,
           "hotspots": []
+        },
+        {
+          "text": "Οκτώ στάσεις οδηγούν από την Αντιόχεια έως την εξορία. Ο μαθητής συνδέει σκηνές με τη φροντίδα των φτωχών και τη στάση του Χρυσοστόμου απέναντι στην αδικία. Διαβάζει επίσης το απόσπασμα «Κιβωτός και παράδεισος».",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
         }
       ],
       "mediaRefs": [
         "IMG-109",
         "VID-036",
         "SLD-022",
-        "DOC-011"
+        "DOC-011",
+        "WEB-019"
       ],
       "images": [
         "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers/father-john-chrysostom.png"
@@ -2711,6 +2954,7 @@
       "videoUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/john-chrysostom/john-chrysostom.mp4",
       "slidesUrl": "https://docs.google.com/presentation/d/11fmo246q6mjeShNpHVjEvVgF9pWMOCJSf08av_V6k4o",
       "driveUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/john-chrysostom/john-chrysostom-slides.pdf",
+      "webUrl": "https://dporpatonelis-crypto.github.io/html-digital-library/lessons/saint-john-chrysostom-journey.html",
       "localImages": [
         {
           "src": "assets/church-fathers/father-john-chrysostom.png",
@@ -2723,7 +2967,7 @@
     },
     {
       "id": "father-cyril",
-      "number": 39,
+      "number": 42,
       "type": "content",
       "title": "Κύριλλος Αλεξανδρείας",
       "displayTitle": "Κύριλλος Αλεξανδρείας",
@@ -2784,7 +3028,7 @@
     },
     {
       "id": "father-maximus",
-      "number": 40,
+      "number": 43,
       "type": "content",
       "title": "Μάξιμος Ομολογητής",
       "displayTitle": "Μάξιμος Ομολογητής",
@@ -2845,7 +3089,7 @@
     },
     {
       "id": "father-symeon",
-      "number": 41,
+      "number": 44,
       "type": "content",
       "title": "Συμεών ο Νέος Θεολόγος",
       "displayTitle": "Συμεών ο Νέος Θεολόγος",
@@ -2906,7 +3150,7 @@
     },
     {
       "id": "father-palamas",
-      "number": 42,
+      "number": 45,
       "type": "content",
       "title": "Γρηγόριος Παλαμάς",
       "displayTitle": "Γρηγόριος Παλαμάς",
@@ -2996,7 +3240,7 @@
     },
     {
       "id": "father-john-damascene",
-      "number": 43,
+      "number": 46,
       "type": "content",
       "title": "Ιωάννης Δαμασκηνός",
       "displayTitle": "Ιωάννης Δαμασκηνός",
@@ -3057,7 +3301,7 @@
     },
     {
       "id": "father-sophrony",
-      "number": 44,
+      "number": 47,
       "type": "content",
       "title": "Άγιος Σωφρόνιος Σαχάρωφ",
       "displayTitle": "Άγιος Σωφρόνιος Σαχάρωφ",
@@ -3117,13 +3361,88 @@
       ]
     },
     {
+      "id": "diognetus-christian-life",
+      "number": 48,
+      "type": "content",
+      "title": "Ξένοι στον κόσμο, οικείοι του Θεού",
+      "displayTitle": "Ξένοι στον κόσμο, οικείοι του Θεού",
+      "sourceBook": "Digital_Lessons",
+      "sourceTitle": "Μάθημα 9",
+      "sourcePage": 1,
+      "lessonId": "lesson-christian-life-and-service",
+      "lessonTitle": "Χριστιανική ζωή και προσφορά",
+      "sourceUrl": "",
+      "content": [
+        {
+          "text": "Ο μαθητής επιλέγει τίτλους για αποσπάσματα της επιστολής «Προς Διόγνητον» και εξετάζει πώς περιγράφεται η ζωή των χριστιανών μέσα στον κόσμο. Έπειτα συνδέει το θέμα της ξενιτείας με τον ύμνο «Δός μοι τοῦτον τὸν ξένον».",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        }
+      ],
+      "mediaRefs": [
+        "WEB-022"
+      ],
+      "webUrl": "https://dporpatonelis-crypto.github.io/html-digital-library/lessons/diognetus-stranger.html"
+    },
+    {
+      "id": "saint-luke-classroom",
+      "number": 49,
+      "type": "content",
+      "title": "Άγιος Λουκάς ο Ιατρός · Βίος, ύμνος και σχέσεις",
+      "displayTitle": "Άγιος Λουκάς ο Ιατρός · Βίος, ύμνος και σχέσεις",
+      "sourceBook": "Digital_Lessons",
+      "sourceTitle": "Μάθημα 9",
+      "sourcePage": 2,
+      "lessonId": "lesson-christian-life-and-service",
+      "lessonTitle": "Χριστιανική ζωή και προσφορά",
+      "sourceUrl": "",
+      "content": [
+        {
+          "text": "Ο μαθητής συνθέτει προτάσεις για τον βίο του Λουκά, από την ιατρική του προσφορά έως τις εξορίες. Έπειτα συνδέει εικόνες και φράσεις του απολυτικίου για να δει πώς συναντιούνται η ιατρική και η διακονία.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        }
+      ],
+      "mediaRefs": [
+        "WEB-023"
+      ],
+      "webUrl": "https://dporpatonelis-crypto.github.io/html-digital-library/lessons/saint-luke-relations.html"
+    },
+    {
+      "id": "saint-philothei-classroom",
+      "number": 50,
+      "type": "content",
+      "title": "Αγία Φιλοθέη · Από την περιουσία στην προσφορά",
+      "displayTitle": "Αγία Φιλοθέη · Από την περιουσία στην προσφορά",
+      "sourceBook": "Digital_Lessons",
+      "sourceTitle": "Μάθημα 9",
+      "sourcePage": 3,
+      "lessonId": "lesson-christian-life-and-service",
+      "lessonTitle": "Χριστιανική ζωή και προσφορά",
+      "sourceUrl": "",
+      "content": [
+        {
+          "text": "Σε οκτώ σκηνές ο μαθητής ακολουθεί τη Ρηγούλα, τη μετέπειτα Αγία Φιλοθέη. Συνθέτει προτάσεις για τους τρόπους με τους οποίους στήριξε τη μάθηση, πρόσφερε φιλοξενία και προστάτευσε ανθρώπους σε ανάγκη.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        }
+      ],
+      "mediaRefs": [
+        "WEB-024"
+      ],
+      "webUrl": "https://dporpatonelis-crypto.github.io/html-digital-library/lessons/saint-philothei-journey.html"
+    },
+    {
       "id": "trinity-dogmatic-consciousness",
-      "number": 45,
+      "number": 51,
       "type": "content",
       "title": "Πίστη στον Τριαδικό Θεό και δογματική συνείδηση",
       "displayTitle": "Πίστη στον Τριαδικό Θεό και δογματική συνείδηση",
       "sourceBook": "Digital_Lessons",
-      "sourceTitle": "Μάθημα 9",
+      "sourceTitle": "Μάθημα 10",
       "sourcePage": 1,
       "lessonId": "lesson-trinity-dogmatic-consciousness",
       "lessonTitle": "Πίστη στον Τριαδικό Θεό και δογματική συνείδηση",
@@ -3212,12 +3531,12 @@
     },
     {
       "id": "trinity-basic-concept-canvas",
-      "number": 46,
+      "number": 52,
       "type": "content",
       "title": "Αγία Τριάδα · Τα βασικά με εικόνες και κάρτες",
       "displayTitle": "Αγία Τριάδα · Τα βασικά με εικόνες και κάρτες",
       "sourceBook": "Digital_Lessons",
-      "sourceTitle": "Μάθημα 9",
+      "sourceTitle": "Μάθημα 10",
       "sourcePage": 2,
       "lessonId": "lesson-trinity-dogmatic-consciousness",
       "lessonTitle": "Πίστη στον Τριαδικό Θεό και δογματική συνείδηση",
@@ -3318,12 +3637,12 @@
     },
     {
       "id": "trinity-advanced-concept-canvas",
-      "number": 47,
+      "number": 53,
       "type": "content",
       "title": "Τριαδική θεολογία · Αναλόγιο εμβάθυνσης",
       "displayTitle": "Τριαδική θεολογία · Αναλόγιο εμβάθυνσης",
       "sourceBook": "Digital_Lessons",
-      "sourceTitle": "Μάθημα 9",
+      "sourceTitle": "Μάθημα 10",
       "sourcePage": 3,
       "lessonId": "lesson-trinity-dogmatic-consciousness",
       "lessonTitle": "Πίστη στον Τριαδικό Θεό και δογματική συνείδηση",
@@ -3404,12 +3723,12 @@
     },
     {
       "id": "creation-world",
-      "number": 48,
+      "number": 54,
       "type": "content",
       "title": "Δημιουργία του Κόσμου",
       "displayTitle": "Δημιουργία του Κόσμου",
       "sourceBook": "Digital_Lessons",
-      "sourceTitle": "Μάθημα 10",
+      "sourceTitle": "Μάθημα 11",
       "sourcePage": 1,
       "lessonId": "lesson-creation-world",
       "lessonTitle": "Δημιουργία του Κόσμου",
@@ -3439,12 +3758,12 @@
     },
     {
       "id": "creation-image-likeness",
-      "number": 49,
+      "number": 55,
       "type": "content",
       "title": "Κατ’ εικόνα και καθ’ ομοίωση",
       "displayTitle": "Κατ’ εικόνα και καθ’ ομοίωση",
       "sourceBook": "Digital_Lessons",
-      "sourceTitle": "Μάθημα 10",
+      "sourceTitle": "Μάθημα 11",
       "sourcePage": 2,
       "lessonId": "lesson-creation-world",
       "lessonTitle": "Δημιουργία του Κόσμου",
@@ -3467,12 +3786,12 @@
     },
     {
       "id": "creation-restoration-christ",
-      "number": 50,
+      "number": 56,
       "type": "content",
       "title": "Επανόρθωση εν Χριστώ",
       "displayTitle": "Επανόρθωση εν Χριστώ",
       "sourceBook": "Digital_Lessons",
-      "sourceTitle": "Μάθημα 10",
+      "sourceTitle": "Μάθημα 11",
       "sourcePage": 3,
       "lessonId": "lesson-creation-world",
       "lessonTitle": "Δημιουργία του Κόσμου",
@@ -3604,12 +3923,12 @@
     },
     {
       "id": "creation-concept-canvas",
-      "number": 51,
+      "number": 57,
       "type": "content",
       "title": "Δημιουργία · Ανακαλύπτω τις έννοιες στην εικόνα",
       "displayTitle": "Δημιουργία · Ανακαλύπτω τις έννοιες στην εικόνα",
       "sourceBook": "Digital_Lessons",
-      "sourceTitle": "Μάθημα 10",
+      "sourceTitle": "Μάθημα 11",
       "sourcePage": 4,
       "lessonId": "lesson-creation-world",
       "lessonTitle": "Δημιουργία του Κόσμου",
@@ -3704,12 +4023,12 @@
     },
     {
       "id": "human-gift-calling",
-      "number": 52,
+      "number": 58,
       "type": "content",
       "title": "Ο άνθρωπος: δώρο και κλήση · Έξι χειρόγραφα",
       "displayTitle": "Ο άνθρωπος: δώρο και κλήση · Έξι χειρόγραφα",
       "sourceBook": "Digital_Lessons",
-      "sourceTitle": "Μάθημα 10",
+      "sourceTitle": "Μάθημα 11",
       "sourcePage": 5,
       "lessonId": "lesson-creation-world",
       "lessonTitle": "Δημιουργία του Κόσμου",
@@ -3749,12 +4068,12 @@
     },
     {
       "id": "fall-restoration-introduction",
-      "number": 53,
+      "number": 59,
       "type": "content",
       "title": "Η Εδέμ, η πτώση και η υπόσχεση",
       "displayTitle": "Η Εδέμ, η πτώση και η υπόσχεση",
       "sourceBook": "Digital_Lessons",
-      "sourceTitle": "Μάθημα 11",
+      "sourceTitle": "Μάθημα 12",
       "sourcePage": 1,
       "lessonId": "lesson-fall-restoration",
       "lessonTitle": "Πτώση και Αποκατάσταση",
@@ -3792,12 +4111,12 @@
     },
     {
       "id": "fall-restoration-thorns",
-      "number": 54,
+      "number": 60,
       "type": "content",
       "title": "Ο Σταυρός — από την εξορία στη ζωή",
       "displayTitle": "Ο Σταυρός — από την εξορία στη ζωή",
       "sourceBook": "Digital_Lessons",
-      "sourceTitle": "Μάθημα 11",
+      "sourceTitle": "Μάθημα 12",
       "sourcePage": 2,
       "lessonId": "lesson-fall-restoration",
       "lessonTitle": "Πτώση και Αποκατάσταση",
@@ -3820,12 +4139,12 @@
     },
     {
       "id": "fall-restoration-parallel-texts",
-      "number": 55,
+      "number": 61,
       "type": "content",
       "title": "Από την Εδέμ στην Ανάσταση — παράλληλα χωρία",
       "displayTitle": "Από την Εδέμ στην Ανάσταση — παράλληλα χωρία",
       "sourceBook": "Digital_Lessons",
-      "sourceTitle": "Μάθημα 11",
+      "sourceTitle": "Μάθημα 12",
       "sourcePage": 3,
       "lessonId": "lesson-fall-restoration",
       "lessonTitle": "Πτώση και Αποκατάσταση",
@@ -3907,12 +4226,12 @@
     },
     {
       "id": "fall-restoration-anastasis",
-      "number": 56,
+      "number": 62,
       "type": "content",
       "title": "Η Ανάσταση και η ανακαίνιση του ανθρώπου",
       "displayTitle": "Η Ανάσταση και η ανακαίνιση του ανθρώπου",
       "sourceBook": "Digital_Lessons",
-      "sourceTitle": "Μάθημα 11",
+      "sourceTitle": "Μάθημα 12",
       "sourcePage": 4,
       "lessonId": "lesson-fall-restoration",
       "lessonTitle": "Πτώση και Αποκατάσταση",
@@ -3956,12 +4275,12 @@
     },
     {
       "id": "fall-restoration-conclusion",
-      "number": 57,
+      "number": 63,
       "type": "content",
       "title": "Θέωση και αγάπη για όλο τον Αδάμ",
       "displayTitle": "Θέωση και αγάπη για όλο τον Αδάμ",
       "sourceBook": "Digital_Lessons",
-      "sourceTitle": "Μάθημα 11",
+      "sourceTitle": "Μάθημα 12",
       "sourcePage": 5,
       "lessonId": "lesson-fall-restoration",
       "lessonTitle": "Πτώση και Αποκατάσταση",
@@ -3984,12 +4303,12 @@
     },
     {
       "id": "fall-pains-mindmap",
-      "number": 58,
+      "number": 64,
       "type": "content",
       "title": "Οι οδύνες μετά την παρακοή · Χάρτης της αφήγησης",
       "displayTitle": "Οι οδύνες μετά την παρακοή · Χάρτης της αφήγησης",
       "sourceBook": "Digital_Lessons",
-      "sourceTitle": "Μάθημα 11",
+      "sourceTitle": "Μάθημα 12",
       "sourcePage": 6,
       "lessonId": "lesson-fall-restoration",
       "lessonTitle": "Πτώση και Αποκατάσταση",
@@ -4029,12 +4348,12 @@
     },
     {
       "id": "byzantium-interpretation-threads",
-      "number": 59,
+      "number": 65,
       "type": "content",
       "title": "Κλωστές πατερικών ερμηνειών · Στο Βυζάντιο",
       "displayTitle": "Κλωστές πατερικών ερμηνειών · Στο Βυζάντιο",
       "sourceBook": "Digital_Lessons",
-      "sourceTitle": "Μάθημα 11",
+      "sourceTitle": "Μάθημα 12",
       "sourcePage": 7,
       "lessonId": "lesson-fall-restoration",
       "lessonTitle": "Πτώση και Αποκατάσταση",
@@ -4066,12 +4385,12 @@
     },
     {
       "id": "concentric-cosmology",
-      "number": 60,
+      "number": 66,
       "type": "content",
       "title": "Ο μηχανισμός των αφηγήσεων · Τρεις δακτύλιοι",
       "displayTitle": "Ο μηχανισμός των αφηγήσεων · Τρεις δακτύλιοι",
       "sourceBook": "Digital_Lessons",
-      "sourceTitle": "Μάθημα 12",
+      "sourceTitle": "Μάθημα 13",
       "sourcePage": 1,
       "lessonId": "lesson-world-cosmologies",
       "lessonTitle": "Αφηγήσεις για την αρχή του κόσμου",
@@ -4111,12 +4430,12 @@
     },
     {
       "id": "cosmology-threads",
-      "number": 61,
+      "number": 67,
       "type": "content",
       "title": "Οι κλωστές των τεσσάρων αφηγήσεων",
       "displayTitle": "Οι κλωστές των τεσσάρων αφηγήσεων",
       "sourceBook": "Digital_Lessons",
-      "sourceTitle": "Μάθημα 12",
+      "sourceTitle": "Μάθημα 13",
       "sourcePage": 2,
       "lessonId": "lesson-world-cosmologies",
       "lessonTitle": "Αφηγήσεις για την αρχή του κόσμου",
@@ -4155,13 +4474,82 @@
       "webUrl": "https://dporpatonelis-crypto.github.io/Browser-vr/?material=f691de3125cadd1f0c8d#activity/unity%3Aworld_religions_cosmology"
     },
     {
+      "id": "world-religions-paths",
+      "number": 68,
+      "type": "content",
+      "title": "Πέντε διαδρομές μελέτης",
+      "displayTitle": "Πέντε διαδρομές μελέτης",
+      "sourceBook": "Digital_Lessons",
+      "sourceTitle": "Μάθημα 14",
+      "sourcePage": 1,
+      "lessonId": "lesson-world-religions",
+      "lessonTitle": "Θρησκείες του κόσμου",
+      "sourceUrl": "",
+      "content": [
+        {
+          "text": "Ο μαθητής γνωρίζει τον Ιουδαϊσμό, το Ισλάμ, τον Ινδουισμό, τον Βουδισμό και την αρχαία ελληνική θρησκεία. Για κάθε παράδοση εξετάζει πέντε θέματα, από την αναζήτηση της αλήθειας και τη δημιουργία έως το θείο, τη ζωή μετά τον θάνατο και την κρίση.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        },
+        {
+          "text": "Στο δωμάτιο των θρησκειών του Unity, ο μαθητής συγκρίνει τις πέντε παραδόσεις σε τέσσερις δραστηριότητες, μία για κάθε θέμα που συνδέεται παρακάτω.",
+          "kind": "text",
+          "paragraphBoundary": true,
+          "hotspots": []
+        }
+      ],
+      "mediaRefs": [
+        "WEB-025",
+        "WEB-028",
+        "WEB-029",
+        "WEB-030",
+        "WEB-031"
+      ],
+      "webUrl": "https://dporpatonelis-crypto.github.io/html-digital-library/lessons/world-religions-paths.html",
+      "extraMedia": [
+        {
+          "media_id": "WEB-028",
+          "type": "website",
+          "title": "Unity · Αναζήτηση της αλήθειας",
+          "url": "https://dporpatonelis-crypto.github.io/Browser-vr/?material=eb026c845b687fb0adbc#activity/unity%3Aworld_religions_revelation_search",
+          "placement": "after_text",
+          "native_id": "world_religions_revelation_search"
+        },
+        {
+          "media_id": "WEB-029",
+          "type": "website",
+          "title": "Unity · Το θείο",
+          "url": "https://dporpatonelis-crypto.github.io/Browser-vr/?material=0632b8bcad4b8377d87e#activity/unity%3Aworld_religions_divine",
+          "placement": "after_text",
+          "native_id": "world_religions_divine"
+        },
+        {
+          "media_id": "WEB-030",
+          "type": "website",
+          "title": "Unity · Ζωή μετά τον θάνατο",
+          "url": "https://dporpatonelis-crypto.github.io/Browser-vr/?material=c32f7b48084cb5e484c2#activity/unity%3Aworld_religions_afterlife",
+          "placement": "after_text",
+          "native_id": "world_religions_afterlife"
+        },
+        {
+          "media_id": "WEB-031",
+          "type": "website",
+          "title": "Unity · Η σημασία των πράξεων",
+          "url": "https://dporpatonelis-crypto.github.io/Browser-vr/?material=eff5cf746457a678353c#activity/unity%3Aworld_religions_judgement",
+          "placement": "after_text",
+          "native_id": "world_religions_judgement"
+        }
+      ]
+    },
+    {
       "id": "care-for-trees",
-      "number": 62,
+      "number": 69,
       "type": "content",
       "title": "Να αγαπάτε τα δέντρα! · Ο κήπος της φροντίδας",
       "displayTitle": "Να αγαπάτε τα δέντρα! · Ο κήπος της φροντίδας",
       "sourceBook": "Digital_Lessons",
-      "sourceTitle": "Μάθημα 13",
+      "sourceTitle": "Μάθημα 15",
       "sourcePage": 1,
       "lessonId": "lesson-care-for-creation",
       "lessonTitle": "Η φροντίδα της δημιουργίας",
@@ -4199,12 +4587,12 @@
     },
     {
       "id": "chronology-observatory",
-      "number": 63,
+      "number": 70,
       "type": "content",
       "title": "Παρατηρητήριο του Χρόνου · Χώρος περιήγησης",
       "displayTitle": "Παρατηρητήριο του Χρόνου · Χώρος περιήγησης",
       "sourceBook": "Digital_Lessons",
-      "sourceTitle": "Μάθημα 14",
+      "sourceTitle": "Μάθημα 16",
       "sourcePage": 1,
       "lessonId": "lesson-chronology-observatory",
       "lessonTitle": "Παρατηρητήριο του Χρόνου",
