@@ -3,7 +3,7 @@
   "book_id": "Digital_Lessons",
   "title": "Το ψηφιακό μου βιβλίο",
   "description": "Κείμενα, εικόνες και δραστηριότητες για την τάξη, με συνδέσμους σε μαθήματα HTML και στο Unity.",
-  "revision": 34,
+  "revision": 35,
   "updated_at": "2026-11-22",
   "cover": {
     "asset": "assets/old-testament-objects.png",
@@ -575,7 +575,7 @@
               "media_id": "WEB-035",
               "type": "website",
               "title": "Άνοιξε τη βιβλιοθήκη HTML",
-              "url": "https://dporpatonelis-crypto.github.io/html-digital-library/",
+              "url": "https://dporpatonelis-crypto.github.io/digital-library-core/",
               "placement": "body"
             }
           ]
@@ -584,7 +584,7 @@
           "id": "covenant-tree-classroom",
           "title": "Το Δέντρο της Διαθήκης · Πέντε διαδρομές",
           "source_file": "sources/html-digital-library-2026-11-22.json",
-          "source_url": "https://dporpatonelis-crypto.github.io/html-digital-library/lessons/dentro-diathikis-puzzle.html",
+          "source_url": "https://dporpatonelis-crypto.github.io/digital-library-core/lessons/dentro-diathikis-puzzle.html",
           "blocks": [
             {
               "kind": "text",
@@ -620,7 +620,7 @@
               "media_id": "WEB-026",
               "type": "website",
               "title": "Άνοιξε τη δραστηριότητα HTML",
-              "url": "https://dporpatonelis-crypto.github.io/html-digital-library/lessons/dentro-diathikis-puzzle.html",
+              "url": "https://dporpatonelis-crypto.github.io/digital-library-core/lessons/dentro-diathikis-puzzle.html",
               "placement": "body",
               "native_id": "human_creation"
             },
@@ -1574,7 +1574,7 @@
           "id": "patristic-scripture-and-hymns",
           "title": "Γρηγόριος ο Θεολόγος · Γραφή και ύμνοι της Πεντηκοστής",
           "source_file": "sources/html-digital-library-2026-11-22.json",
-          "source_url": "https://dporpatonelis-crypto.github.io/html-digital-library/lessons/patristic-scripture-cross-references.html",
+          "source_url": "https://dporpatonelis-crypto.github.io/digital-library-core/lessons/patristic-scripture-cross-references.html",
           "blocks": [
             {
               "kind": "text",
@@ -1586,7 +1586,7 @@
               "media_id": "WEB-020",
               "type": "website",
               "title": "Άνοιξε τη δραστηριότητα HTML",
-              "url": "https://dporpatonelis-crypto.github.io/html-digital-library/lessons/patristic-scripture-cross-references.html",
+              "url": "https://dporpatonelis-crypto.github.io/digital-library-core/lessons/patristic-scripture-cross-references.html",
               "placement": "after_text",
               "native_id": "gregory-scripture-and-pentecost-hymns-v1"
             }
@@ -1604,7 +1604,7 @@
           "id": "christos-gennatai",
           "title": "Χριστός γεννάται · Από τον λόγο στον ύμνο",
           "source_file": "sources/html-digital-library-2026-11-22.json",
-          "source_url": "https://dporpatonelis-crypto.github.io/html-digital-library/lessons/christos-gennatai.html",
+          "source_url": "https://dporpatonelis-crypto.github.io/digital-library-core/lessons/christos-gennatai.html",
           "blocks": [
             {
               "kind": "text",
@@ -1620,7 +1620,7 @@
               "media_id": "WEB-021",
               "type": "website",
               "title": "Άνοιξε τη δραστηριότητα HTML",
-              "url": "https://dporpatonelis-crypto.github.io/html-digital-library/lessons/christos-gennatai.html",
+              "url": "https://dporpatonelis-crypto.github.io/digital-library-core/lessons/christos-gennatai.html",
               "placement": "after_text",
               "native_id": "christos-gennatai"
             },
@@ -2333,7 +2333,7 @@
               "media_id": "WEB-016",
               "type": "website",
               "title": "Άνοιξε τη δραστηριότητα HTML",
-              "url": "https://dporpatonelis-crypto.github.io/html-digital-library/lessons/saint-athanasius-journey.html",
+              "url": "https://dporpatonelis-crypto.github.io/digital-library-core/lessons/saint-athanasius-journey.html",
               "placement": "after_text",
               "native_id": "saint-athanasius-journey"
             }
@@ -2419,7 +2419,7 @@
               "media_id": "WEB-017",
               "type": "website",
               "title": "Άνοιξε τη δραστηριότητα HTML",
-              "url": "https://dporpatonelis-crypto.github.io/html-digital-library/lessons/megas-vasileios.html",
+              "url": "https://dporpatonelis-crypto.github.io/digital-library-core/lessons/megas-vasileios.html",
               "placement": "after_text",
               "native_id": "megas-vasileios"
             }
@@ -2505,7 +2505,7 @@
               "media_id": "WEB-018",
               "type": "website",
               "title": "Άνοιξε τη δραστηριότητα HTML",
-              "url": "https://dporpatonelis-crypto.github.io/html-digital-library/lessons/saint-gregory-theologian-journey.html",
+              "url": "https://dporpatonelis-crypto.github.io/digital-library-core/lessons/saint-gregory-theologian-journey.html",
               "placement": "after_text",
               "native_id": "saint-gregory-theologian-journey"
             }
@@ -2595,7 +2595,7 @@
               "media_id": "WEB-019",
               "type": "website",
               "title": "Άνοιξε τη δραστηριότητα HTML",
-              "url": "https://dporpatonelis-crypto.github.io/html-digital-library/lessons/saint-john-chrysostom-journey.html",
+              "url": "https://dporpatonelis-crypto.github.io/digital-library-core/lessons/saint-john-chrysostom-journey.html",
               "placement": "after_text",
               "native_id": "saint-john-chrysostom-journey"
             }
@@ -3073,7 +3073,7 @@
           "id": "diognetus-christian-life",
           "title": "Ξένοι στον κόσμο, οικείοι του Θεού",
           "source_file": "sources/html-digital-library-2026-11-22.json",
-          "source_url": "https://dporpatonelis-crypto.github.io/html-digital-library/lessons/diognetus-stranger.html",
+          "source_url": "https://dporpatonelis-crypto.github.io/digital-library-core/lessons/diognetus-stranger.html",
           "blocks": [
             {
               "kind": "text",
@@ -3085,7 +3085,7 @@
               "media_id": "WEB-022",
               "type": "website",
               "title": "Άνοιξε τη δραστηριότητα HTML",
-              "url": "https://dporpatonelis-crypto.github.io/html-digital-library/lessons/diognetus-stranger.html",
+              "url": "https://dporpatonelis-crypto.github.io/digital-library-core/lessons/diognetus-stranger.html",
               "placement": "after_text",
               "native_id": "diognetus-stranger"
             }
@@ -3095,7 +3095,7 @@
           "id": "saint-luke-classroom",
           "title": "Άγιος Λουκάς ο Ιατρός · Βίος, ύμνος και σχέσεις",
           "source_file": "sources/html-digital-library-2026-11-22.json",
-          "source_url": "https://dporpatonelis-crypto.github.io/html-digital-library/lessons/saint-luke-relations.html",
+          "source_url": "https://dporpatonelis-crypto.github.io/digital-library-core/lessons/saint-luke-relations.html",
           "blocks": [
             {
               "kind": "text",
@@ -3107,7 +3107,7 @@
               "media_id": "WEB-023",
               "type": "website",
               "title": "Άνοιξε τη δραστηριότητα HTML",
-              "url": "https://dporpatonelis-crypto.github.io/html-digital-library/lessons/saint-luke-relations.html",
+              "url": "https://dporpatonelis-crypto.github.io/digital-library-core/lessons/saint-luke-relations.html",
               "placement": "after_text",
               "native_id": "saint-luke-journey"
             }
@@ -3117,7 +3117,7 @@
           "id": "saint-philothei-classroom",
           "title": "Αγία Φιλοθέη · Από την περιουσία στην προσφορά",
           "source_file": "sources/html-digital-library-2026-11-22.json",
-          "source_url": "https://dporpatonelis-crypto.github.io/html-digital-library/lessons/saint-philothei-journey.html",
+          "source_url": "https://dporpatonelis-crypto.github.io/digital-library-core/lessons/saint-philothei-journey.html",
           "blocks": [
             {
               "kind": "text",
@@ -3129,7 +3129,7 @@
               "media_id": "WEB-024",
               "type": "website",
               "title": "Άνοιξε τη δραστηριότητα HTML",
-              "url": "https://dporpatonelis-crypto.github.io/html-digital-library/lessons/saint-philothei-journey.html",
+              "url": "https://dporpatonelis-crypto.github.io/digital-library-core/lessons/saint-philothei-journey.html",
               "placement": "after_text",
               "native_id": "saint-philothei-journey"
             }
@@ -4169,7 +4169,7 @@
           "id": "world-religions-paths",
           "title": "Πέντε διαδρομές μελέτης",
           "source_file": "sources/html-digital-library-2026-11-22.json",
-          "source_url": "https://dporpatonelis-crypto.github.io/html-digital-library/lessons/world-religions-paths.html",
+          "source_url": "https://dporpatonelis-crypto.github.io/digital-library-core/lessons/world-religions-paths.html",
           "blocks": [
             {
               "kind": "text",
@@ -4185,7 +4185,7 @@
               "media_id": "WEB-025",
               "type": "website",
               "title": "Άνοιξε τη δραστηριότητα HTML",
-              "url": "https://dporpatonelis-crypto.github.io/html-digital-library/lessons/world-religions-paths.html",
+              "url": "https://dporpatonelis-crypto.github.io/digital-library-core/lessons/world-religions-paths.html",
               "placement": "body",
               "native_id": "world_religions_five_axes_v1"
             },
