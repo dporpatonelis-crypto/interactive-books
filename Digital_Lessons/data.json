@@ -2,8 +2,8 @@
   "title": "Το ψηφιακό μου βιβλίο",
   "description": "Κείμενα, εικόνες και δραστηριότητες για την τάξη, με συνδέσμους σε μαθήματα HTML και στο Unity.",
   "bookId": "Digital_Lessons",
-  "revision": 34,
-  "sourceDigest": "eceba58c34f3e52829fbac39bd3089d242f91bc91e643c4276b4cff2e1dbf4a7",
+  "revision": 35,
+  "sourceDigest": "132b20180186477efab5a7080286accd4ac7fbcdd9f7c949f1053647e9229650",
   "coverImage": "assets/old-testament-objects.png",
   "coverCaption": "Έξι ιερά αντικείμενα της Παλαιάς Διαθήκης",
   "edition": "ΠΡΟΣΩΠΙΚΟ ΨΗΦΙΑΚΟ ΒΙΒΛΙΟ",
@@ -691,7 +691,7 @@
           "media_id": "WEB-035",
           "type": "website",
           "title": "Άνοιξε τη βιβλιοθήκη HTML",
-          "url": "https://dporpatonelis-crypto.github.io/html-digital-library/",
+          "url": "https://dporpatonelis-crypto.github.io/digital-library-core/",
           "placement": "body"
         }
       ],
@@ -761,7 +761,7 @@
         "WEB-011",
         "WEB-013"
       ],
-      "webUrl": "https://dporpatonelis-crypto.github.io/html-digital-library/lessons/dentro-diathikis-puzzle.html",
+      "webUrl": "https://dporpatonelis-crypto.github.io/digital-library-core/lessons/dentro-diathikis-puzzle.html",
       "extraMedia": [
         {
           "media_id": "WEB-032",
@@ -2000,7 +2000,7 @@
       "mediaRefs": [
         "WEB-020"
       ],
-      "webUrl": "https://dporpatonelis-crypto.github.io/html-digital-library/lessons/patristic-scripture-cross-references.html"
+      "webUrl": "https://dporpatonelis-crypto.github.io/digital-library-core/lessons/patristic-scripture-cross-references.html"
     },
     {
       "id": "christos-gennatai",
@@ -2032,7 +2032,7 @@
         "WEB-021",
         "WEB-027"
       ],
-      "webUrl": "https://dporpatonelis-crypto.github.io/html-digital-library/lessons/christos-gennatai.html",
+      "webUrl": "https://dporpatonelis-crypto.github.io/digital-library-core/lessons/christos-gennatai.html",
       "extraMedia": [
         {
           "media_id": "WEB-027",
@@ -2747,7 +2747,7 @@
       "videoUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/athanasius/athanasius.mp4",
       "slidesUrl": "https://docs.google.com/presentation/d/1zXQhZYZlY3pziPxnG6ek4OXj66eUcUhAllS4cP2rXq8",
       "driveUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/athanasius/athanasius-slides.pdf",
-      "webUrl": "https://dporpatonelis-crypto.github.io/html-digital-library/lessons/saint-athanasius-journey.html",
+      "webUrl": "https://dporpatonelis-crypto.github.io/digital-library-core/lessons/saint-athanasius-journey.html",
       "localImages": [
         {
           "src": "assets/church-fathers/father-athanasius.png",
@@ -2816,7 +2816,7 @@
       "videoUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/basil/basil.mp4",
       "slidesUrl": "https://docs.google.com/presentation/d/1U1ZBEVCOuIr8D4q1bW7SnitbTye-vqZPh9dFDDma_S4",
       "driveUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/basil/basil-slides.pdf",
-      "webUrl": "https://dporpatonelis-crypto.github.io/html-digital-library/lessons/megas-vasileios.html",
+      "webUrl": "https://dporpatonelis-crypto.github.io/digital-library-core/lessons/megas-vasileios.html",
       "localImages": [
         {
           "src": "assets/church-fathers/father-basil.png",
@@ -2885,7 +2885,7 @@
       "videoUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/gregory-theologian/gregory-theologian.mp4",
       "slidesUrl": "https://docs.google.com/presentation/d/1-pu-kgksqc3H9J25c_1GnVqE2tWYRoSTdC_PVpoSXDI",
       "driveUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/gregory-theologian/gregory-theologian-slides.pdf",
-      "webUrl": "https://dporpatonelis-crypto.github.io/html-digital-library/lessons/saint-gregory-theologian-journey.html",
+      "webUrl": "https://dporpatonelis-crypto.github.io/digital-library-core/lessons/saint-gregory-theologian-journey.html",
       "localImages": [
         {
           "src": "assets/church-fathers/father-gregory-theologian.png",
@@ -2954,7 +2954,7 @@
       "videoUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/john-chrysostom/john-chrysostom.mp4",
       "slidesUrl": "https://docs.google.com/presentation/d/11fmo246q6mjeShNpHVjEvVgF9pWMOCJSf08av_V6k4o",
       "driveUrl": "https://dporpatonelis-crypto.github.io/interactive-books/Digital_Lessons/assets/church-fathers-journeys/john-chrysostom/john-chrysostom-slides.pdf",
-      "webUrl": "https://dporpatonelis-crypto.github.io/html-digital-library/lessons/saint-john-chrysostom-journey.html",
+      "webUrl": "https://dporpatonelis-crypto.github.io/digital-library-core/lessons/saint-john-chrysostom-journey.html",
       "localImages": [
         {
           "src": "assets/church-fathers/father-john-chrysostom.png",
@@ -3383,7 +3383,7 @@
       "mediaRefs": [
         "WEB-022"
       ],
-      "webUrl": "https://dporpatonelis-crypto.github.io/html-digital-library/lessons/diognetus-stranger.html"
+      "webUrl": "https://dporpatonelis-crypto.github.io/digital-library-core/lessons/diognetus-stranger.html"
     },
     {
       "id": "saint-luke-classroom",
@@ -3408,7 +3408,7 @@
       "mediaRefs": [
         "WEB-023"
       ],
-      "webUrl": "https://dporpatonelis-crypto.github.io/html-digital-library/lessons/saint-luke-relations.html"
+      "webUrl": "https://dporpatonelis-crypto.github.io/digital-library-core/lessons/saint-luke-relations.html"
     },
     {
       "id": "saint-philothei-classroom",
@@ -3433,7 +3433,7 @@
       "mediaRefs": [
         "WEB-024"
       ],
-      "webUrl": "https://dporpatonelis-crypto.github.io/html-digital-library/lessons/saint-philothei-journey.html"
+      "webUrl": "https://dporpatonelis-crypto.github.io/digital-library-core/lessons/saint-philothei-journey.html"
     },
     {
       "id": "trinity-dogmatic-consciousness",
@@ -4506,7 +4506,7 @@
         "WEB-030",
         "WEB-031"
       ],
-      "webUrl": "https://dporpatonelis-crypto.github.io/html-digital-library/lessons/world-religions-paths.html",
+      "webUrl": "https://dporpatonelis-crypto.github.io/digital-library-core/lessons/world-religions-paths.html",
       "extraMedia": [
         {
           "media_id": "WEB-028",
