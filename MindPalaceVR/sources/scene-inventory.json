@@ -1,0 +1,422 @@
+{
+  "snapshot_date": "2026-11-28",
+  "project": "MindPalaceVR",
+  "inventory_source": "ProjectSettings/EditorBuildSettings.asset",
+  "build_settings_sha256": "b5c52d98a17f83bbf24c603482b1cb5dcc629dcc156a7b4ffcede9acb2e5cc0a",
+  "active_scenes": [
+    {
+      "build_index": 0,
+      "scene_name": "Main",
+      "project_path": "Assets/Scenes/Main.unity",
+      "role": "Κεντρικός κόμβος και είσοδος",
+      "sha256": "101fd537f82c4fe8d016729455fb65533c6def775ea5773f70675f492946fe51",
+      "bytes": 368896
+    },
+    {
+      "build_index": 1,
+      "scene_name": "Room_library",
+      "project_path": "Assets/Scenes/Room_library.unity",
+      "role": "Βιβλιοθήκη πλαισίου",
+      "sha256": "c871af724dd424b5322781c11f503b189d8eb95ff911497b2944fdb6d4d8a0fb",
+      "bytes": 519845
+    },
+    {
+      "build_index": 2,
+      "scene_name": "Room_temple",
+      "project_path": "Assets/Scenes/Room_temple.unity",
+      "role": "Στάση ερμηνείας",
+      "sha256": "ea07f08e6f6e5e2cfd9af3903efdad953e1588a2af76590342481cf6481c463b",
+      "bytes": 91353
+    },
+    {
+      "build_index": 3,
+      "scene_name": "Room_agora",
+      "project_path": "Assets/Scenes/Room_agora.unity",
+      "role": "Σωκρατικό εργαστήριο",
+      "sha256": "72a4929fafda56adf922dd4658eb60e378a1cc848efcd41f8c91346f80db4c09",
+      "bytes": 80362
+    },
+    {
+      "build_index": 4,
+      "scene_name": "Room_agora_classical",
+      "project_path": "Assets/Scenes/Room_agora_classical.unity",
+      "role": "Κλασική Αγορά",
+      "sha256": "1fb92461cd9b80eb28e57b819c4b3231b048b253e806687be8ae57b4805c4a62",
+      "bytes": 2211422
+    },
+    {
+      "build_index": 5,
+      "scene_name": "Room_byzantium",
+      "project_path": "Assets/Scenes/Room_byzantium.unity",
+      "role": "Βυζάντιο",
+      "sha256": "ec596ed4285928736f9de8eab72b14a089e54e970529789680ebb11b7d9e746f",
+      "bytes": 2437164
+    },
+    {
+      "build_index": 6,
+      "scene_name": "Room_jerusalem",
+      "project_path": "Assets/Scenes/Room_jerusalem.unity",
+      "role": "Ιεροσόλυμα",
+      "sha256": "36f339803baa843d73dac1ca8199135db5bda9b98471cf2ba227be544cff0640",
+      "bytes": 4133998
+    },
+    {
+      "build_index": 7,
+      "scene_name": "Room_christianity",
+      "project_path": "Assets/Scenes/Room_christianity.unity",
+      "role": "Χριστιανισμός",
+      "sha256": "f863763066f8db94015661f98b6b774accf4e0dc1a4775de283265c294da1e77",
+      "bytes": 1664271
+    },
+    {
+      "build_index": 8,
+      "scene_name": "Room_world_religions",
+      "project_path": "Assets/Scenes/Room_world_religions.unity",
+      "role": "Θρησκείες του κόσμου",
+      "sha256": "e4aec1bb894bdfa75a575fec61a7e8ce6fd7ad7e4dad5d451721adeb2b43b191",
+      "bytes": 1169894
+    },
+    {
+      "build_index": 9,
+      "scene_name": "Room_chronology",
+      "project_path": "Assets/Scenes/Room_chronology.unity",
+      "role": "Παρατηρητήριο του Χρόνου",
+      "sha256": "1acdc27067224b1467003fa5369fdcea2eacf2fafeee4a27cd491f5b61280334",
+      "bytes": 1844895
+    },
+    {
+      "build_index": 10,
+      "scene_name": "Room_ParableTheater",
+      "project_path": "Assets/Scenes/Room_ParableTheater.unity",
+      "role": "Θέατρο Παραβολών",
+      "sha256": "865e562f6520bd6e9981ba1c9f9c9f3294fd6087a89892d040e7e16ab1725630",
+      "bytes": 222657
+    }
+  ],
+  "supporting_sources": [
+    {
+      "project_path": "Assets/Resources/Scenarios/manifest.json",
+      "sha256": "18da6a66ba2ff0503cb3f9d2879aeeb280bbc51c04683886240f67dc4cd08127",
+      "bytes": 2243
+    },
+    {
+      "project_path": "Assets/Resources/Scenarios/generic_socratic/case.json",
+      "sha256": "5fbeafaee4bde9c575488c2b231024be124046acecec3da2dcf8688cd164daf0",
+      "bytes": 13375
+    },
+    {
+      "project_path": "Assets/Resources/Scenarios/generic_socratic/static_dialogues.json",
+      "sha256": "2b8a021e52e5f71858af7bf3824c632c8539db5fb22434b6f57467b4019b00aa",
+      "bytes": 8678
+    },
+    {
+      "project_path": "Assets/QuizSystem/Scenarios/AgoraPaulLogosQuiz.json",
+      "sha256": "68ee3d839f5d5bf709d7dfa6dcae6b930c8b099a9dc2cf3168e5f78b363cf8a8",
+      "bytes": 40342
+    },
+    {
+      "project_path": "Assets/CollectionQuest/README_GR.md",
+      "sha256": "eb2504b6510cb9c3c5dae849509bb5eb0e2262bec692e8aa37db4abd2f677061",
+      "bytes": 11108
+    },
+    {
+      "project_path": "Assets/CollectionQuest/FallRestoration/README_GR.md",
+      "sha256": "fa1b6ddf5a8ca22b2165db46261b73dd9f90c2348687800b48d19b231b1d0cc2",
+      "bytes": 17680
+    },
+    {
+      "project_path": "Assets/ByzantiumInterpretations/README_GR.md",
+      "sha256": "e86e11ff802f7d599ca6d4ee61d6e187daef8188dfa99927efd4d0541c796b97",
+      "bytes": 10672
+    },
+    {
+      "project_path": "Assets/QuizSystem/Scenarios/byzantium_fall_restoration.json",
+      "sha256": "56b1a23dafd4f5cc2e16aa81c7eb051449540d030576e77f24da26875bfc81ca",
+      "bytes": 75326
+    },
+    {
+      "project_path": "Assets/QuizSystem/Scenarios/ByzantiumPaulCrossQuiz.json",
+      "sha256": "245b679ce2f33451dc95b3102fc255ac8945e4cbb46f6f5edd9a6b960aecf506",
+      "bytes": 43183
+    },
+    {
+      "project_path": "Assets/CovenantTree/README_GR.md",
+      "sha256": "096b8a7c29a49cfb8db363c26097227d12b24d984798fae968a3b46c65f982d8",
+      "bytes": 14235
+    },
+    {
+      "project_path": "Assets/CollectionQuest/Jerusalem/README_GR.md",
+      "sha256": "f355c2e8238047b9fda27868fd6c9e3db77d68bffda59153c3a5affb79c9a8f7",
+      "bytes": 5603
+    },
+    {
+      "project_path": "Assets/QuizSystem/Scenarios/JerusalemCollectionQuiz.json",
+      "sha256": "9d430993429b639b7590a664bb7a7fe54de718d732023459cc423c5ee7763160",
+      "bytes": 57686
+    },
+    {
+      "project_path": "Assets/QuizSystem/Scenarios/JerusalemPentecostQuiz.json",
+      "sha256": "032d195718b5ba6f26082749b5fbec8aa59cfbdf1024fe641033c64724ee5bec",
+      "bytes": 93735
+    },
+    {
+      "project_path": "Assets/ReligionStudyRooms/ChristianityTrinity/README_GR.md",
+      "sha256": "1494f860f3726597f33c64fbe725a2dd858fc0f26cc25fe582ca503ca8c0afd0",
+      "bytes": 15985
+    },
+    {
+      "project_path": "Assets/TeacherSupport/ChristianityRevelation/README_GR.md",
+      "sha256": "06bc99339e1b29751a1d009156289575929ba87e4e28ac35944e5e9944acee7e",
+      "bytes": 9050
+    },
+    {
+      "project_path": "Assets/ReligionStudyRooms/WorldReligionTopics/README_GR.md",
+      "sha256": "b83d42f817e0918662e49119fc5ce6d31bd820acf1b8979d17782138ca4f4f79",
+      "bytes": 9282
+    },
+    {
+      "project_path": "Assets/ReligionStudyRooms/Cosmology/README_GR.md",
+      "sha256": "828cedc22879b8f9c8ca4c5734f2c5a77591e64fa81091c192c559f5a09f8cab",
+      "bytes": 15757
+    },
+    {
+      "project_path": "Assets/ChronologyHall/README_GR.md",
+      "sha256": "38cc7f84111ea7e5d86dbfc7454a8098d2fd7649a3a85370c7e4d504f38f2872",
+      "bytes": 12227
+    },
+    {
+      "project_path": "Assets/ChronologyHall/Timeline/README_GR.md",
+      "sha256": "94c694a8b9a3f7acf71571a3672ad54152bd7f6d33157d1d4efc66e66a784080",
+      "bytes": 8359
+    },
+    {
+      "project_path": "Assets/ChronologyHall/Journey/README_GR.md",
+      "sha256": "f03403ea6551a694378e6a9dc6812b64519dc2c54a66c8ab68fd51d1a386b56e",
+      "bytes": 9672
+    },
+    {
+      "project_path": "Assets/ChronologyHall/TimeLibrary/README_GR.md",
+      "sha256": "d62f8996d4ad9cdf98196eef9521d608f531b84c467981ead804d9f034023175",
+      "bytes": 12355
+    },
+    {
+      "project_path": "Assets/ChronologyHall/Theater/GoodSamaritan/README_GR.md",
+      "sha256": "905c545fc4757daabbdba1dd856f5bcdd2c700cd7785c34a343d58aea518d35b",
+      "bytes": 5129
+    },
+    {
+      "project_path": "Assets/ChronologyHall/Theater/Sower/README_GR.md",
+      "sha256": "dad2710a5803e9da5217617298a54ba6942eb1456fe7e5ae428885456c8b687d",
+      "bytes": 3316
+    },
+    {
+      "project_path": "Assets/ChronologyHall/Theater/PaulTeachings/README_GR.md",
+      "sha256": "8faaedfd241ede0eeb31c39c2bdb3e8271f70ae0bdb803b3313b31af4c75b987",
+      "bytes": 10658
+    },
+    {
+      "project_path": "Assets/Scripts/Palace/RoomPortal.cs",
+      "sha256": "1c9d7abe596311d5dde75d32dc1ad32da5f2dd4a5ea13622cc90f67d815d7f24",
+      "bytes": 7227
+    },
+    {
+      "project_path": "Assets/Scripts/GameState/SceneLoader.cs",
+      "sha256": "10b1ebe172d932ffb073339b8073a457d9d6eaf611d477c2fb6907d1c7b565df",
+      "bytes": 4713
+    }
+  ],
+  "readme": "SHA-256 αποτυπώματα για την ενεργή λίστα και τα τεκμήρια περιεχομένου. Τα αρχεία παραμένουν στο Unity project και δεν αντιγράφονται στο βιβλίο.",
+  "provenance": [
+    {
+      "project_path": "ProjectSettings/EditorBuildSettings.asset",
+      "sha256": "b5c52d98a17f83bbf24c603482b1cb5dcc629dcc156a7b4ffcede9acb2e5cc0a",
+      "bytes": 1715
+    },
+    {
+      "project_path": "Assets/Scenes/Main.unity",
+      "sha256": "101fd537f82c4fe8d016729455fb65533c6def775ea5773f70675f492946fe51",
+      "bytes": 368896
+    },
+    {
+      "project_path": "Assets/Scenes/Room_library.unity",
+      "sha256": "c871af724dd424b5322781c11f503b189d8eb95ff911497b2944fdb6d4d8a0fb",
+      "bytes": 519845
+    },
+    {
+      "project_path": "Assets/Scenes/Room_temple.unity",
+      "sha256": "ea07f08e6f6e5e2cfd9af3903efdad953e1588a2af76590342481cf6481c463b",
+      "bytes": 91353
+    },
+    {
+      "project_path": "Assets/Scenes/Room_agora.unity",
+      "sha256": "72a4929fafda56adf922dd4658eb60e378a1cc848efcd41f8c91346f80db4c09",
+      "bytes": 80362
+    },
+    {
+      "project_path": "Assets/Scenes/Room_agora_classical.unity",
+      "sha256": "1fb92461cd9b80eb28e57b819c4b3231b048b253e806687be8ae57b4805c4a62",
+      "bytes": 2211422
+    },
+    {
+      "project_path": "Assets/Scenes/Room_byzantium.unity",
+      "sha256": "ec596ed4285928736f9de8eab72b14a089e54e970529789680ebb11b7d9e746f",
+      "bytes": 2437164
+    },
+    {
+      "project_path": "Assets/Scenes/Room_jerusalem.unity",
+      "sha256": "36f339803baa843d73dac1ca8199135db5bda9b98471cf2ba227be544cff0640",
+      "bytes": 4133998
+    },
+    {
+      "project_path": "Assets/Scenes/Room_christianity.unity",
+      "sha256": "f863763066f8db94015661f98b6b774accf4e0dc1a4775de283265c294da1e77",
+      "bytes": 1664271
+    },
+    {
+      "project_path": "Assets/Scenes/Room_world_religions.unity",
+      "sha256": "e4aec1bb894bdfa75a575fec61a7e8ce6fd7ad7e4dad5d451721adeb2b43b191",
+      "bytes": 1169894
+    },
+    {
+      "project_path": "Assets/Scenes/Room_chronology.unity",
+      "sha256": "1acdc27067224b1467003fa5369fdcea2eacf2fafeee4a27cd491f5b61280334",
+      "bytes": 1844895
+    },
+    {
+      "project_path": "Assets/Scenes/Room_ParableTheater.unity",
+      "sha256": "865e562f6520bd6e9981ba1c9f9c9f3294fd6087a89892d040e7e16ab1725630",
+      "bytes": 222657
+    },
+    {
+      "project_path": "Assets/Resources/Scenarios/manifest.json",
+      "sha256": "18da6a66ba2ff0503cb3f9d2879aeeb280bbc51c04683886240f67dc4cd08127",
+      "bytes": 2243
+    },
+    {
+      "project_path": "Assets/Resources/Scenarios/generic_socratic/case.json",
+      "sha256": "5fbeafaee4bde9c575488c2b231024be124046acecec3da2dcf8688cd164daf0",
+      "bytes": 13375
+    },
+    {
+      "project_path": "Assets/Resources/Scenarios/generic_socratic/static_dialogues.json",
+      "sha256": "2b8a021e52e5f71858af7bf3824c632c8539db5fb22434b6f57467b4019b00aa",
+      "bytes": 8678
+    },
+    {
+      "project_path": "Assets/QuizSystem/Scenarios/AgoraPaulLogosQuiz.json",
+      "sha256": "68ee3d839f5d5bf709d7dfa6dcae6b930c8b099a9dc2cf3168e5f78b363cf8a8",
+      "bytes": 40342
+    },
+    {
+      "project_path": "Assets/CollectionQuest/README_GR.md",
+      "sha256": "eb2504b6510cb9c3c5dae849509bb5eb0e2262bec692e8aa37db4abd2f677061",
+      "bytes": 11108
+    },
+    {
+      "project_path": "Assets/CollectionQuest/FallRestoration/README_GR.md",
+      "sha256": "fa1b6ddf5a8ca22b2165db46261b73dd9f90c2348687800b48d19b231b1d0cc2",
+      "bytes": 17680
+    },
+    {
+      "project_path": "Assets/ByzantiumInterpretations/README_GR.md",
+      "sha256": "e86e11ff802f7d599ca6d4ee61d6e187daef8188dfa99927efd4d0541c796b97",
+      "bytes": 10672
+    },
+    {
+      "project_path": "Assets/QuizSystem/Scenarios/byzantium_fall_restoration.json",
+      "sha256": "56b1a23dafd4f5cc2e16aa81c7eb051449540d030576e77f24da26875bfc81ca",
+      "bytes": 75326
+    },
+    {
+      "project_path": "Assets/QuizSystem/Scenarios/ByzantiumPaulCrossQuiz.json",
+      "sha256": "245b679ce2f33451dc95b3102fc255ac8945e4cbb46f6f5edd9a6b960aecf506",
+      "bytes": 43183
+    },
+    {
+      "project_path": "Assets/CovenantTree/README_GR.md",
+      "sha256": "096b8a7c29a49cfb8db363c26097227d12b24d984798fae968a3b46c65f982d8",
+      "bytes": 14235
+    },
+    {
+      "project_path": "Assets/CollectionQuest/Jerusalem/README_GR.md",
+      "sha256": "f355c2e8238047b9fda27868fd6c9e3db77d68bffda59153c3a5affb79c9a8f7",
+      "bytes": 5603
+    },
+    {
+      "project_path": "Assets/QuizSystem/Scenarios/JerusalemCollectionQuiz.json",
+      "sha256": "9d430993429b639b7590a664bb7a7fe54de718d732023459cc423c5ee7763160",
+      "bytes": 57686
+    },
+    {
+      "project_path": "Assets/QuizSystem/Scenarios/JerusalemPentecostQuiz.json",
+      "sha256": "032d195718b5ba6f26082749b5fbec8aa59cfbdf1024fe641033c64724ee5bec",
+      "bytes": 93735
+    },
+    {
+      "project_path": "Assets/ReligionStudyRooms/ChristianityTrinity/README_GR.md",
+      "sha256": "1494f860f3726597f33c64fbe725a2dd858fc0f26cc25fe582ca503ca8c0afd0",
+      "bytes": 15985
+    },
+    {
+      "project_path": "Assets/TeacherSupport/ChristianityRevelation/README_GR.md",
+      "sha256": "06bc99339e1b29751a1d009156289575929ba87e4e28ac35944e5e9944acee7e",
+      "bytes": 9050
+    },
+    {
+      "project_path": "Assets/ReligionStudyRooms/WorldReligionTopics/README_GR.md",
+      "sha256": "b83d42f817e0918662e49119fc5ce6d31bd820acf1b8979d17782138ca4f4f79",
+      "bytes": 9282
+    },
+    {
+      "project_path": "Assets/ReligionStudyRooms/Cosmology/README_GR.md",
+      "sha256": "828cedc22879b8f9c8ca4c5734f2c5a77591e64fa81091c192c559f5a09f8cab",
+      "bytes": 15757
+    },
+    {
+      "project_path": "Assets/ChronologyHall/README_GR.md",
+      "sha256": "38cc7f84111ea7e5d86dbfc7454a8098d2fd7649a3a85370c7e4d504f38f2872",
+      "bytes": 12227
+    },
+    {
+      "project_path": "Assets/ChronologyHall/Timeline/README_GR.md",
+      "sha256": "94c694a8b9a3f7acf71571a3672ad54152bd7f6d33157d1d4efc66e66a784080",
+      "bytes": 8359
+    },
+    {
+      "project_path": "Assets/ChronologyHall/Journey/README_GR.md",
+      "sha256": "f03403ea6551a694378e6a9dc6812b64519dc2c54a66c8ab68fd51d1a386b56e",
+      "bytes": 9672
+    },
+    {
+      "project_path": "Assets/ChronologyHall/TimeLibrary/README_GR.md",
+      "sha256": "d62f8996d4ad9cdf98196eef9521d608f531b84c467981ead804d9f034023175",
+      "bytes": 12355
+    },
+    {
+      "project_path": "Assets/ChronologyHall/Theater/GoodSamaritan/README_GR.md",
+      "sha256": "905c545fc4757daabbdba1dd856f5bcdd2c700cd7785c34a343d58aea518d35b",
+      "bytes": 5129
+    },
+    {
+      "project_path": "Assets/ChronologyHall/Theater/Sower/README_GR.md",
+      "sha256": "dad2710a5803e9da5217617298a54ba6942eb1456fe7e5ae428885456c8b687d",
+      "bytes": 3316
+    },
+    {
+      "project_path": "Assets/ChronologyHall/Theater/PaulTeachings/README_GR.md",
+      "sha256": "8faaedfd241ede0eeb31c39c2bdb3e8271f70ae0bdb803b3313b31af4c75b987",
+      "bytes": 10658
+    },
+    {
+      "project_path": "Assets/Scripts/Palace/RoomPortal.cs",
+      "sha256": "1c9d7abe596311d5dde75d32dc1ad32da5f2dd4a5ea13622cc90f67d815d7f24",
+      "bytes": 7227
+    },
+    {
+      "project_path": "Assets/Scripts/GameState/SceneLoader.cs",
+      "sha256": "10b1ebe172d932ffb073339b8073a457d9d6eaf611d477c2fb6907d1c7b565df",
+      "bytes": 4713
+    }
+  ]
+}
+
