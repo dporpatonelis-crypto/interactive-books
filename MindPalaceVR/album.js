@@ -411,7 +411,16 @@
       const actions=mediaActions(page,true);
       if(!images(page).length&&actions.children.length)section.append(actions);
       if((page.content||[]).length&&page.title!==page.displayTitle)section.append(node('p','source-title',cleanText(page.title)));
-      for(const b of blocks.slice(used))section.append(richParagraph(b,true));
+      const printBlocks=blocks.slice(used);
+      for(let i=0;i<printBlocks.length;){
+        const b=printBlocks[i];
+        if(b.kind==='h3'&&b.text==='Ερώτημα τάξης για ψηφοφορία'){
+          const poll=node('div','print-poll');
+          poll.append(node('p','poll-context','Σκηνή: '+(page.displayTitle||page.title)));
+          while(i<printBlocks.length)poll.append(richParagraph(printBlocks[i++],true));
+          section.append(poll);
+        }else section.append(richParagraph(printBlocks[i++],true));
+      }
       const refs=references(page);if(refs)section.append(refs);
       const afterTextActions=mediaActions(page,true,'after_text');if(afterTextActions.children.length)section.append(afterTextActions);
       if(images(page).length&&actions.children.length)section.append(actions);

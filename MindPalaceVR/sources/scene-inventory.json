@@ -223,6 +223,66 @@
       "project_path": "Assets/Scripts/GameState/SceneLoader.cs",
       "sha256": "10b1ebe172d932ffb073339b8073a457d9d6eaf611d477c2fb6907d1c7b565df",
       "bytes": 4713
+    },
+    {
+      "project_path": "Assets/Resources/demo.json",
+      "sha256": "13a822483742111cd97a91f1a9f6c913cfa80fdef4e173cf671b5e97c3bfe23c",
+      "bytes": 9173
+    },
+    {
+      "project_path": "Assets/ChronologyHall/HistoricalMechanism/README_GR.md",
+      "sha256": "fd05e648de9f7ed6d534542f5001a488161b5d0dec9cd37b6c3cdf5ea84940e6",
+      "bytes": 9029
+    },
+    {
+      "project_path": "Assets/ChronologyHall/TimeLibrary/Expansion/README_GR.md",
+      "sha256": "70211b6457482526a103dc1dd95850d706bbf13ab4d995f69d0b7d7a6f2b4166",
+      "bytes": 9361
+    },
+    {
+      "project_path": "Assets/ChronologyHall/Journey/PatristicJourney/README_GR.md",
+      "sha256": "d4fdc48d596a754a8bc644ff1eb3276a33a24857b586e4245d1623b3dff72d65",
+      "bytes": 12438
+    },
+    {
+      "project_path": "Assets/ChronologyHall/Journey/PaulApostolicJourney/README_GR.md",
+      "sha256": "4559ef2d99e5ee43ea59c7928be73a746cb0287beeaad5e45528d90b8179a091",
+      "bytes": 8505
+    },
+    {
+      "project_path": "Assets/ChronologyHall/Journey/TheiaOikonomia/README_GR.md",
+      "sha256": "c2578a72b8593681eb377c84969c90a98dc79c73495acb0093abd5b1ed1d93c9",
+      "bytes": 7658
+    },
+    {
+      "project_path": "Assets/ChronologyHall/Journey/CouncilsRelief/README_GR.md",
+      "sha256": "6c82cca3928337a76db1c07a652fca027ec9066872404af9ab7d4db63c7236d2",
+      "bytes": 4733
+    },
+    {
+      "project_path": "Assets/CollectionQuest/Pentecost/README.md",
+      "sha256": "d7c5da82998c1e2e1a185f2e3584cebc06d9ba194eeb9acbc2b58e8657c37c52",
+      "bytes": 6905
+    },
+    {
+      "project_path": "Assets/ReligionStudyRooms/CircularManuscripts/README_GR.md",
+      "sha256": "3d9fddc7f982c3eec5ea912bf4d82e1b3d6440a45ff54af4da675cbf20198bd8",
+      "bytes": 16459
+    },
+    {
+      "project_path": "Assets/ReligionStudyRooms/CircularManuscripts/CreationConcepts/README_GR.md",
+      "sha256": "59af79e592b833b32d00945c53eaf016d93f0de43df101f763ab88da8eb19fb5",
+      "bytes": 10179
+    },
+    {
+      "project_path": "Assets/ReligionStudyRooms/CircularManuscripts/JudgementConcepts/README_GR.md",
+      "sha256": "2060f5273506c434c76b6fb5fa61eea35604a3d7c7800b69de9a48c9003810d1",
+      "bytes": 7958
+    },
+    {
+      "project_path": "Assets/ReligionStudyRooms/WorldReligionExpansion/README_GR.md",
+      "sha256": "caccd37f0d7b392e0b780c25256f5bf6bc2ab0627ee827b55f4bd51e6da6c797",
+      "bytes": 10477
     }
   ],
   "readme": "SHA-256 αποτυπώματα για την ενεργή λίστα και τα τεκμήρια περιεχομένου. Τα αρχεία παραμένουν στο Unity project και δεν αντιγράφονται στο βιβλίο.",
@@ -419,4 +479,3 @@
     }
   ]
 }
-
